@@ -1,0 +1,45 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.codex
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Local build / temp outputs
+tmp/
+.tmp/
+dist/
+build/
+
+# Data outputs generated during work
+data/interim/
+data/exports/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Environnement
+.env
+.env.*
+!.env.example
+
+# Python version manager
+.python-version

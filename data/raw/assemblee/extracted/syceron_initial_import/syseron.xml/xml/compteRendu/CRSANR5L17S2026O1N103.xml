@@ -1,0 +1,1271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compteRendu xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid>CRSANR5L17S2026O1N103</uid>
+  <seanceRef>RUANR5L17S2026IDS30078</seanceRef>
+  <sessionRef>SCR5A2026O1</sessionRef>
+  <metadonnees>
+    <dateSeance>20260106213000000</dateSeance>
+    <dateSeanceJour>mardi 06 janvier 2026</dateSeanceJour>
+    <numSeanceJour>2</numSeanceJour>
+    <numSeance>103</numSeance>
+    <typeAssemblee>AN</typeAssemblee>
+    <legislature>17</legislature>
+    <session>Session ordinaire 2025 -2026</session>
+    <nomFichierJo>20260103</nomFichierJo>
+    <validite>valide</validite>
+    <etat>complet</etat>
+    <diffusion>public</diffusion>
+    <version>avant_JO</version>
+    <environnement>PROD</environnement>
+    <heureGeneration>2026-01-13T17:50:49.000+01:00</heureGeneration>
+    <sommaire>
+      <presidentSeance id_syceron="3982986">Présidence de M. Christophe Blanchet</presidentSeance>
+      <sommaire1 valeur_pts_odj="1">
+        <titreStruct id_syceron="3982990">
+          <intitule>Entrisme islamiste : comment protéger les institutions républicaines et prévenir la radicalisation des jeunes générations ?</intitule>
+          <sousIntitule>0</sousIntitule>
+        </titreStruct>
+        <para id_syceron="3982994">M. Xavier Breton (DR)</para>
+        <para id_syceron="3983000">M. Laurent Nuñez, ministre de l’intérieur</para>
+        <para id_syceron="3983005">M. Xavier Breton (DR)</para>
+        <para id_syceron="3983010">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983018">M. Xavier Breton</para>
+        <para id_syceron="3983020">M. Xavier Breton (DR)</para>
+        <para id_syceron="3983022">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983026">M. Xavier Breton (DR)</para>
+        <para id_syceron="3983118">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983124">M. Xavier Breton</para>
+        <para id_syceron="3983127">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983129">M. Roger Chudeau (RN)</para>
+        <para id_syceron="3983134">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983139">M. Xavier Albertini (HOR)</para>
+        <para id_syceron="3983143">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983148">M. Xavier Albertini (HOR)</para>
+        <para id_syceron="3983359">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983364">M. Matthieu Bloch (UDR)</para>
+        <para id_syceron="3983373">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983381">M. Olivier Fayssat (UDR)</para>
+        <para id_syceron="3983391">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983399">M. Kévin Pfeffer (RN)</para>
+        <para id_syceron="3983407">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983087">M. Jonathan Gery (RN)</para>
+        <para id_syceron="3983092">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983095">M. Kévin Pfeffer (RN)</para>
+        <para id_syceron="3983099">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983102">M. Kévin Pfeffer</para>
+        <para id_syceron="3983104">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983106">Mme Constance Le Grip (EPR)</para>
+        <para id_syceron="3983110">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983114">Mme Constance Le Grip (EPR)</para>
+        <para id_syceron="3983178">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983185">M. Thomas Portes (LFI-NFP)</para>
+        <para id_syceron="3983194">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983203">M. Louis Boyard (LFI-NFP)</para>
+        <para id_syceron="3983217">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3983224">M. Aurélien Saintoul (LFI-NFP)</para>
+        <para id_syceron="3983239">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3982950">Mme Sophie Pantel (SOC)</para>
+        <para id_syceron="3982954">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3982959">M. Gérard Leseul (SOC)</para>
+        <para id_syceron="3982962">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3982968">M. Gérard Leseul (SOC)</para>
+        <para id_syceron="3982970">M. Laurent Nuñez, ministre</para>
+        <para id_syceron="3982973">Mme Sophie Pantel (SOC)</para>
+        <para id_syceron="3982977">M. Laurent Nuñez, ministre</para>
+      </sommaire1>
+      <sommaire1 valeur_pts_odj="2">
+        <titreStruct id_syceron="3982981">
+          <intitule>Ordre du jour de la prochaine séance</intitule>
+        </titreStruct>
+      </sommaire1>
+    </sommaire>
+  </metadonnees>
+  <contenu>
+    <quantiemes>
+      <journee>Deuxième séance du mardi 06 janvier 2026</journee>
+      <session>Session ordinaire 2025 -2026</session>
+    </quantiemes>
+    <ouvertureSeance nivpoint="1" valeur_ptsodj="0" ordinal_prise="1" id_preparation="2842586" ordre_absolu_seance="1" code_grammaire="OUV_SEAN_1_1" code_style="Présidence" code_parole="" sommaire="1" id_syceron="3982986" valeur="">
+      <orateurs/>
+      <texte>Présidence de M. Christophe Blanchet<br/> vice-président</texte>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2842587" ordre_absolu_seance="2" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="OUV_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982987" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="902.19">La séance est ouverte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2842588" ordre_absolu_seance="3" code_grammaire="OUV_SEAN_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="3982988" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(La séance est ouverte à vingt et une heures trente.)</italique>
+        </texte>
+      </paragraphe>
+    </ouvertureSeance>
+    <point nivpoint="1" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842590" ordre_absolu_seance="5" code_grammaire="TITRE_TEXTE_DISCUSSION" code_style="Titre" code_parole="" sommaire="1" id_syceron="3982990" valeur="">
+      <orateurs/>
+      <texte>Entrisme islamiste : comment protéger les institutions républicaines et prévenir la radicalisation des jeunes générations ?</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842591" ordre_absolu_seance="6" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="ODJ_APPEL_DISCUSSION" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982991" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="907.38">L’ordre du jour appelle les questions sur le thème : « Entrisme islamiste : comment protéger les institutions républicaines et prévenir la radicalisation des jeunes générations ? » Ce thème a été choisi par le groupe Droite républicaine.<br/>Je vous rappelle que la conférence des présidents a fixé à deux minutes la durée maximale de chaque question et de chaque réponse, avec droit de réplique et de contre-réplique.<br/>La parole est à M. Xavier Breton, pour une première question.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842594" ordre_absolu_seance="9" id_acteur="PA330008" id_mandat="PM842366" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3982994" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Xavier Breton (DR)</nom>
+            <id>330008</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="971.35">Le groupe Droite républicaine a souhaité prolonger le travail commencé en 2025 avec un rapport rendu public par le ministère de l’intérieur sur les Frères musulmans et sur l’islamisme politique, d’une part, et avec les travaux de la commission d’enquête sur les liens existants entre les représentants de mouvements politiques et des organisations et réseaux soutenant l’action terroriste ou propageant l’idéologie islamiste, d’autre part. Cette commission que j’ai présidée et dont M. Bloch a été le rapporteur a publié un rapport intitulé « Lutter contre l’islamisme politique : la nécessité d’un sursaut républicain ».<br/>J’aimerais donc que nous envisagions les prolongements qui pourraient être donnés à ces travaux, et ma première question sera d’ordre juridique.<br/>Tout d’abord, il n’existe actuellement pas dans notre droit de définition légale de l’entrisme. À l’occasion des attentats de 2015 et de 2016, d’importants efforts juridiques ont permis de définir assez complètement la notion de lutte contre le terrorisme. Si, en 2021, la loi confortant le respect des principes de la République a permis de mieux définir la notion de séparatisme, la notion d’entrisme, quant à elle, reste plus difficile à cerner. Quel travail le ministère conduit-il à ce sujet ?<br/>Les finalités du renseignement, ensuite, telles qu’elles sont définies par le code de la sécurité intérieure, ne permettent pas de déployer nos techniques de renseignement contre l’entrisme. Les services du ministère peuvent-ils travailler à la définition d’une nouvelle finalité du renseignement qui permettrait de mettre ses outils au service de la lutte contre l’entrisme islamiste ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842599" ordre_absolu_seance="13" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982999" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1014.67">La parole est à M. le ministre de l’intérieur.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842600" ordre_absolu_seance="14" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983000" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre de l’intérieur</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1019.30">L’entrisme n’est en effet pas défini juridiquement. Il en va de même pour le séparatisme, terme qui ne figure pas même dans la loi de 2021 confortant le respect des principes de la République. Le terrorisme, en revanche, fait bien l’objet d’une définition dans la loi de 2017 renforçant la sécurité intérieure et la lutte contre le terrorisme, prolongée par la loi de 2021 relative à la prévention d’actes de terrorisme et au renseignement, en réaction à un islamisme violent et terroriste.<br/>La loi de 2021 confortant le respect des principes de la République ne visait pas, pour sa part, à appréhender la radicalisation violente, mais toutes les tentatives pour se séparer de la République et pour imposer, ici, une loi religieuse, là, un certain nombre de préceptes contraires aux valeurs républicaines. L’islamisme politique était principalement visé, sans exclure toutefois d’autres types de mouvements. Cette loi, dont l’application a une portée importante, prévoit un certain nombre de mesures contre tous ceux qui incitent à la haine, à la discrimination et à la violence, ou contre ceux dont une telle idéologie inspire, par exemple, des requêtes relatives à l’organisation des services publics. Pour autant, elle ne définit pas ce qu’est le séparatisme.<br/>La question de l’entrisme marque une nouvelle étape, vers laquelle le gouvernement se dirige maintenant. L’entrisme – qui n’est donc pas non plus défini en droit – fait d’abord référence à la mouvance des Frères musulmans, en ce que cette dernière prône une stratégie visant à se parer des atours de la République, en investissant un certain nombre de structures républicaines classiques – dans le milieu associatif ou la vie locale – dans le but d’imposer, en fin de compte, la loi religieuse.<br/>Le temps étant compté, je vous répondrai ultérieurement au sujet des techniques de renseignement.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842604" ordre_absolu_seance="18" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983004" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1192.23">La parole est à M. Xavier Breton, pour une deuxième question.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842605" ordre_absolu_seance="19" id_acteur="PA330008" id_mandat="PM842366" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983005" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Xavier Breton (DR)</nom>
+            <id>330008</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1281.39">Ce sujet mérite en effet un développement approfondi.<br/>Ma deuxième question concerne le travail qu’il est possible de mener au niveau des associations.<br/>Tout d’abord, les motifs de dissolution des associations ou des groupements de fait ne permettent pas, à ce jour, de viser spécifiquement des agissements séparatistes ou subversifs non violents. Un groupe de travail s’est réuni pour étudier la possibilité d’une telle prise en compte : quel est l’état d’avancement de ses travaux ?<br/>Je tenais également à aborder la question du versement de subventions lorsqu’elles sont demandées par des associations qu’on peut soupçonner d’être dans une logique de séparatisme ou d’entrisme. Nous devons veiller à la liberté d’association : lors de nos travaux sur la loi de 2021, nous avons pu voir qu’en voulant cibler plus particulièrement l’islamisme radical, on risquait d’en venir à contrôler toutes les associations. Cela n’est pas le but que nous devons poursuivre ; comment donc opérer un contrôle des subventions qui ne cible que les associations qu’on peut soupçonner de séparatisme ou d’entrisme ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842609" ordre_absolu_seance="23" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983009" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1368.73">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842610" ordre_absolu_seance="24" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983010" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1373.90">Je vais commencer par revenir sur la question des finalités du renseignement.<br/>Qu’il s’agisse de dissolution, de contrôle du versement des subventions ou des finalités du renseignement, aucune disposition ne permet à l’heure actuelle d’appréhender l’entrisme, à moins de se livrer à une interprétation extensive des textes.<br/>Les finalités permettant l’usage des techniques de renseignement sont au nombre de sept. On trouve, au titre de la cinquième d’entre elles, les atteintes à la forme républicaine des institutions, les violences collectives et l’incitation à la haine et à la discrimination. C’est dans ce cadre que l’on pourrait éventuellement appréhender l’entrisme ; reste que ce dernier ne comporte pas, par définition, d’appel à la violence.<br/>Il en va de même pour les dissolutions d’association : les dispositions existantes – qui permettent également de dissoudre des groupements d’ultradroite – s’appliquent dans les cas de violences, ou d’incitation à la haine et à la violence. Ces caractères, là encore, ne se retrouvent pas nécessairement dans l’entrisme.<br/>Une réflexion est donc en cours afin de déterminer s’il convient de faire évoluer le droit afin que les techniques de renseignement puissent être utilisées dans les cas d’entrisme ou afin de pouvoir, dans ces mêmes cas, dissoudre des structures associatives.<br/>La question des subventions est un peu différente, et un peu plus simple. Le versement d’une subvention se fait dorénavant en contrepartie de la signature d’un contrat d’engagement républicain. Si ce dernier n’est pas respecté, la subvention peut être reprise par celui qui l’a délivrée.<br/>Le phénomène de l’entrisme est donc un phénomène plus compliqué à appréhender que le terrorisme et même que le séparatisme. Nous devons faire preuve d’une très grande prudence à ce sujet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842617" ordre_absolu_seance="31" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983017" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1432.70">La parole est à M. Xavier Breton.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842618" ordre_absolu_seance="32" id_acteur="PA330008" id_mandat="PM842366" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983018" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Xavier Breton</nom>
+            <id>330008</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1502.30">Gardons-nous en effet de vouloir contrôler toutes les associations, pour ne cibler que celles qui peuvent être soupçonnées d’entrisme ou de séparatisme. Nos débats lors de l’examen de la loi de 2021 nous ont permis de rappeler que les associations sont par définition républicaines : les démarches associatives s’inscrivent dans une démarche citoyenne et nous devons veiller au respect de cette liberté.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842619" ordre_absolu_seance="33" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983019" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1525.23">Je vous invite à poser maintenant, monsieur le député, votre troisième question.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842620" ordre_absolu_seance="34" id_acteur="PA330008" id_mandat="PM842366" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983020" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Xavier Breton (DR)</nom>
+            <id>330008</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1529.95">Elle concerne le domaine sportif. Le rapport de la commission d’enquête que j’ai présidée indique que le sport est un des principaux relais d’influence des mouvements islamistes. Comme nos collègues Caroline Yadan et Julien Odoul l’ont souligné dans le cadre d’une mission flash de la commission des affaires culturelles sur les dérives communautaristes et islamistes dans le sport, il n’existe pas de règle unique s’appliquant aux fédérations sportives, qui sont libres d’autoriser, d’encadrer ou de proscrire le port de signes religieux en compétition. Êtes-vous favorable à une harmonisation des règles sur ce point ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842621" ordre_absolu_seance="35" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983021" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1581.19">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842622" ordre_absolu_seance="36" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983022" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1587.00">Ce sont les fédérations qui fixent leurs propres règles. Certaines d’entre elles excluent tous les signes religieux, d’autres non.<br/>Je suis toutefois personnellement très favorable à une harmonisation des règles, pour deux raisons. D’abord au nom du principe de laïcité, dont l’application aux fédérations sportives manque parfois de clarté. Ensuite parce qu’un certain nombre de clubs ont une pratique communautaire, comme le rapport du ministère de l’intérieur sur les Frères musulmans et l’islamisme politique en France l’a montré et comme les préfets peuvent le constater sur le terrain. Ces clubs communautaires affichent ostensiblement des signes religieux.<br/>Les pratiques communautaires n’ont pas de place dans le sport et je suis donc, à titre personnel, favorable à leur interdiction. Avec la ministre des sports, nous menons une réflexion conjointe sur ce sujet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842625" ordre_absolu_seance="39" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983025" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1659.04">La parole est à M. Xavier Breton, pour une quatrième question.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2842626" ordre_absolu_seance="40" id_acteur="PA330008" id_mandat="PM842366" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983026" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Xavier Breton (DR)</nom>
+            <id>330008</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1663.93">Elle a trait au scrutin municipal, qui se tiendra au mois de mars, et aux phénomènes d’entrisme qui pourraient se manifester lors de ce scrutin. J’ai déposé une proposition de résolution invitant le gouvernement à faire preuve de vigilance à cet égard, s’agissant en particulier des dépôts de candidature. Je n’ignore pas qu’il existe une liberté de candidature ; mais, outre les listes communautaires, certaines candidatures peuvent, au sein de certaines listes, entretenir une logique d’entrisme. Comment prendre en compte un tel risque ? Comment, également, aborder la question de la provenance du financement de certaines candidatures ?<br/>Au-delà du scrutin se pose la question du mandat. Le gouvernement serait-il favorable – cette mesure figure dans la proposition de résolution que j’ai déposée – à une formation des élus locaux, leur permettant de mieux appréhender l’islamisme radical et les stratégies d’entrisme ? Cette formation pourrait s’accompagner d’un renforcement des liens entre les préfets et les élus locaux afin de faciliter les échanges d’informations. Nous avons pu constater qu’il existe une demande à ce sujet. Il faudrait également renforcer la lutte contre la création d’écosystèmes locaux, comme il en existe aujourd’hui dans des quartiers et des communes. Lors des prochains mandats municipaux, ils devront faire l’objet d’une action déterminée.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842659" ordre_absolu_seance="42" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983117" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1757.30">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842660" ordre_absolu_seance="43" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983118" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1763.54">Concernant les scrutins, plusieurs cas de figure se présentent. D’abord, des listes communautaires ont existé et il devrait y en avoir lors des prochaines élections municipales. Comme vous le rappelez, le droit électoral offre peu d’outils aux préfets pour s’opposer à ces listes.<br/>L’autre hypothèse que vous envisagez est la plus probable pour des organisations comme les Frères musulmans : investir des listes classiques. Nous ne disposons pas de moyens juridiques permettant de nous y opposer. En cas d’élection des personnes figurant sur de telles listes, il faut prêter attention à la façon dont elles exercent leur mandat ; il doit l’être de manière équitable et sans conflit d’intérêts.<br/>Concernant la formation des élus locaux, elle est prévue, se pratique déjà et doit être intensifiée. Les fonctionnaires territoriaux et les responsables associatifs pourraient également se voir dispenser des formations afin de comprendre ce qu’on appelle l’entrisme.<br/>Nous avons lutté contre le terrorisme et le séparatisme, des phénomènes bien visibles. L’entrisme est un concept plus compliqué, à la limite de la sphère politique. Certains de nos compatriotes, de bonne foi, peuvent considérer qu’ils sont stigmatisés par la mise en œuvre d’une politique de lutte contre l’entrisme. Il convient donc de faire très attention, car cette politique appelle responsabilité et mesure. Il est très important de sérier les problèmes et de les traiter correctement, sans donner lieu à des généralisations ou à des stigmatisations. Les formations aident à comprendre la mouvance des Frères musulmans, son action dans les sociétés occidentales et son projet. Cela mérite d’être expliqué le plus clairement possible.<br/>L’entrisme et la pression qu’il fait peser méritent d’être expliqués à la lumière de ce qui s’est passé dans d’autres pays et de certaines pratiques. Notre programme prévoit donc de développer les formations, une proposition qui figure également dans d’autres travaux, comme le rapport du groupe Les Républicains au Sénat, présenté par Mme Eustache-Brinio, que j’ai lu avec beaucoup d’intérêt.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842665" ordre_absolu_seance="48" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983123" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1847.75">La parole est à M. Xavier Breton.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842666" ordre_absolu_seance="49" id_acteur="PA330008" id_mandat="PM842366" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983124" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Xavier Breton</nom>
+            <id>330008</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1901.04">J’ajouterai deux points. D’abord, nous aurons l’occasion, lors de la niche du groupe Droite républicaine, de discuter d’une proposition de résolution visant à inscrire les Frères musulmans sur la liste européenne des organisations terroristes, sachant que l’interdiction du mouvement n’est pas possible, puisqu’il n’existe pas en tant que tel et qu’il ne s’agit pas d’une marque déposée dans un pays.<br/>Ensuite, après les rapports du ministère de l’Intérieur, rendu public en mai dernier, et de la commission d’enquête, l’établissement d’un lien particulier entre le ministère et le Parlement me semble important.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842668" ordre_absolu_seance="51" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983126" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1995.52">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842669" ordre_absolu_seance="52" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983127" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1999.36">J’appelle à la prudence absolue concernant l’inscription du mouvement des Frères musulmans sur la liste des organisations terroristes : certaines dérives peuvent conduire à des actions violentes, mais nous ne sommes pas dans le cas d’un mouvement terroriste. Je suis donc défavorable à une telle mesure à titre personnel.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842670" ordre_absolu_seance="53" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983128" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2026.00">La parole est à M. Roger Chudeau.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842671" ordre_absolu_seance="54" id_acteur="PA794198" id_mandat="PM842876" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983129" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Roger Chudeau (RN)</nom>
+            <id>794198</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2035.04">Monsieur le ministre, ma question porte sur un sujet central à nos yeux : l’entrisme islamiste dans l’enseignement public scolaire et supérieur. Dans votre rapport de 2025 sur les Frères musulmans, vous décrivez une entreprise d’islamisation de l’Occident, de subversion, de rejet des principes républicains, ainsi qu’une organisation méthodique à plusieurs niveaux, bénéficiant de fonds publics étrangers et français. Le cœur de cible de cette organisation – elle n’est pas la seule –, est la jeunesse, en particulier à travers l’école et l’université.<br/>Le rapport se focalise cependant sur les établissements séparatistes ou communautaires islamistes et ne consacre que très peu de passages à l’entrisme dans l’enseignement public, un angle mort. Or de nombreux rapports, internes à l’éducation nationale ou provenant d’autres institutions, montrent que l’enseignement public est la cible privilégiée de l’entrisme islamiste, au point que 50 % des enseignants déclarent, à l’occasion d’une enquête officielle du ministère, se censurer et censurer leur enseignement.<br/>Pour certains d’entre eux, il est par exemple très difficile d’évoquer la Shoah, de faire étudier le plan d’une cathédrale ou un peintre du Cinquecento, ou même de faire écouter à des élèves un morceau de musique. Cela est quotidien, courant, banal et pas seulement localisé dans certains quartiers de notre pays.<br/>Nous avons récemment voté une loi réprimant l’antisémitisme dans l’enseignement supérieur. Elle devait être accompagnée de décrets, mais un seul a été mis en œuvre sur les quatre prévus, dans un contexte d’antisémitisme d’atmosphère, contre lequel nous considérons que rien de sérieux n’est fait. Ma question est simple : quelles actions de l’État envisagez-vous, en lien avec les deux ministères concernés, pour protéger efficacement l’école publique de la République de l’entrisme islamique ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842675" ordre_absolu_seance="58" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983133" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2160.92">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842676" ordre_absolu_seance="59" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983134" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="2166.98">Votre question porte sur deux points. D’abord, dans l’enseignement public, hors celui de l’université, des enseignants rencontrent en effet des difficultés pour aborder certaines thématiques, susceptibles d’être contestées par des élèves. Cela n’est pas forcément lié à un phénomène d’entrisme : il n’y a pas toujours de volonté ou d’incitation préalables. Mais ne nous voilons pas la face, cela peut aussi être le cas. Nous devons alors rappeler les principes de laïcité qui s’appliquent dans l’enseignement, hors enseignement supérieur.<br/>Vous avez raison de souligner que certains enseignements posent problème à des élèves – le fait est documenté –, probablement sous l’influence de leurs parents. C’est une difficulté. Nous devons évidemment une protection aux enseignants, qui doivent pouvoir continuer à dispenser leurs cours.<br/>Ensuite, dans l’enseignement supérieur, où la liberté est par définition plus forte, puisqu’il s’adresse à de jeunes adultes, des structures à caractère communautaire se développent parmi les mouvements étudiants, pour défendre certaines causes. Par exemple, dans certaines universités de la région parisienne, des syndicats, des groupes et des associations se structurent autour du thème de la France islamophobe.<br/>L’une des difficultés de notre action est qu’elle soit comprise. Or une partie des oppositions considère qu’elle est islamophobe, c’est-à-dire qu’elle vise les musulmans français, ce qui n’est pas le cas. Mais certaines associations et syndicats défendent ce point de vue dans les universités. La loi de 2024, qui cible plutôt l’antisémitisme dans l’enseignement supérieur, a aussi vocation à nous permettre d’agir sur ce sujet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842680" ordre_absolu_seance="63" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983138" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2295.08">La parole est à M. Xavier Albertini, pour une première question.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842681" ordre_absolu_seance="64" id_acteur="PA794278" id_mandat="PM842975" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983139" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Xavier Albertini (HOR)</nom>
+            <id>794278</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2305.01">Dans le prolongement des questions déjà posées, je voulais vous interroger sur l’éducation nationale, au cœur de la transmission des savoirs et des valeurs de la République. L’école enseigne, outre les connaissances, des valeurs socles telles que la laïcité, l’esprit critique, la liberté d’expression et l’égalité. Elle fait de chaque enfant un citoyen. Force est de constater que l’école est confrontée à un phénomène d’entrisme, dont la définition juridique est complexe et inachevée, comme vous l’avez rappelé. Il s’agit surtout d’un entrisme idéologique, en particulier islamiste, qui prenait jusque-là la forme de revendications visibles. Le statut du voile et des habits religieux ayant été juridiquement clarifié ces dernières années, la question ne se pose plus, ou moins.<br/>En revanche, les signaux faibles – pression, contestation ou autocensure – se sont multipliés. Beaucoup de choses ont changé après les assassinats successifs de Samuel Paty et de Dominique Bernard. La communauté enseignante est devenue une cible lorsqu’elle fait vivre des principes républicains. Elle est profondément marquée et durablement traumatisée par ces assassinats. Les langues se délient et de nombreux enseignants témoignent de leurs craintes à enseigner la Shoah, la guerre d’Algérie, les croisades, le développement de l’esprit critique ou encore le droit à la caricature et la liberté d’expression, par peur de tensions, de mises en cause personnelle, de manque de soutien de leur hiérarchie, et même parfois par peur pour leur intégrité physique.<br/>Mais la République ne peut pas et ne doit pas reculer. C’est une question de survie pour la France et notre nation. L’école est à la fois le premier bastion de mise en œuvre de la laïcité et de l’enseignement. Mes questions, simples, comportent plusieurs axes de réponse : comment le gouvernement entend-il garantir concrètement la liberté pédagogique de l’institution scolaire ? Quels dispositifs existent pour protéger les enseignants et renforcer leur formation sur la laïcité et les atteintes aux valeurs républicaines ? Comment clarifier les procédures de signalement de radicalisation et de prise en charge des élèves ? Comment assurer une coordination effective avec les services de l’État, afin que l’école puisse remplir pleinement sa mission, sans renoncement ni autocensure ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842684" ordre_absolu_seance="67" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983142" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2395.12">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842685" ordre_absolu_seance="68" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983143" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="2438.10">J’ai rappelé que les enseignants doivent être protégés dans le cadre de leur travail. Deux dispositions importantes ont été adoptées dans le cadre de la loi de 2021. D’abord, ce qu’on appelle improprement le délit de séparatisme : une action est ouverte pour protéger les agents publics, parmi lesquels les enseignants, qui subiraient des pressions pour obtenir une organisation du service public conforme à une religion. Les pressions exercées sur les enseignants pour ne pas enseigner certaines thématiques, parmi lesquelles celles que vous avez citées, entrent dans le champ d’application de ce délit.<br/>Ensuite, dans la loi « séparatisme » de 2021, qui vise à conforter le respect des principes de la République, un délit permet de poursuivre tous ceux qui rendent publiques des informations susceptibles de mettre en danger l’intégrité physique d’agents publics, dont les enseignants.<br/>Ces textes sont appliqués, contrairement à ce que l’on peut lire. Depuis la promulgation de cette loi, 819 délits de séparatisme et 1 028 délits de divulgation d’informations susceptibles de mettre en danger la vie d’autrui avaient été enregistrés au 1<exposant>er</exposant> décembre 2025. Ce n’est donc pas une vue de l’esprit.<br/>Vous avez également insisté sur les formations. En effet, la laïcité doit être sans cesse expliquée et présentée comme un espace de dialogue, de liberté et de tolérance, et non comme la stigmatisation de certains en fonction de leur religion. Il est important de poursuivre ces efforts de formation au sein de l’enseignement public.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842689" ordre_absolu_seance="72" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983147" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2552.73">La parole est à M. Xavier Albertini, pour une deuxième question.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2842690" ordre_absolu_seance="73" id_acteur="PA794278" id_mandat="PM842975" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983148" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Xavier Albertini (HOR)</nom>
+            <id>794278</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2562.68">Elle porte sur les réseaux sociaux, l’un des principaux vecteurs de diffusion des discours radicalisés et des stratégies d’entrisme idéologique. Ils sont redoutablement efficaces auprès des jeunes, voire des très jeunes. La stratégie d’endoctrinement est très difficile à contrer, car elle repose moins sur des appels explicites à la violence que sur des récits victimaires, complotistes ou séparatistes, qui fragilisent l’adhésion aux valeurs républicaines et banalisent la rupture avec le cadre commun.<br/>Des influenceurs ou prédicateurs ont pignon sur rue sur les plateformes TikTok, YouTube ou Instagram. Suivis par des centaines de milliers, voire des millions de jeunes, ils ont pu diffuser des contenus qui contestent la laïcité, relativisent des principes fondamentaux tels que l’égalité entre hommes et femmes et appellent à une lecture rigoriste et politique de la religion. Leur rhétorique est bien rodée. Elle utilise tous les codes modernes de la communication pour toucher le plus d’utilisateurs possible. Force est de constater que la création de contenus par des influenceurs dits responsables peine à rééquilibrer la situation numérique.<br/>Face à ces phénomènes, les familles, les enseignants et les éducateurs sont souvent démunis car, lorsqu’ils s’en aperçoivent, l’endoctrinement est déjà bien avancé, les algorithmes enfermant souvent les jeunes dans des bulles de complotisme. L’action publique semble en décalage avec la rapidité de propagation de ces contenus, qui ne respectent aucune législation. Comment pensez-vous lutter contre l’endoctrinement numérique sans renoncer aux libertés publiques ? C’est le principal défi auquel nous sommes tous confrontés. Quelles sont, selon vous, les différentes stratégies à mettre en œuvre de manière concomitante pour protéger notre jeunesse tout en garantissant le respect des libertés publiques et la liberté d’expression ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842760" ordre_absolu_seance="76" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983358" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2650.75">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842761" ordre_absolu_seance="77" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983359" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="2654.06">Il y a trois modes d’action essentiels. D’abord, nous pouvons déréférencer les sites qui contiennent des propos incitant à la haine et à la violence. Ce déréférencement est souvent suivi d’actions judiciaires, quand les propos tenus tombent sous le coup de la loi. Tout le monde connaît, par exemple, l’action de la plateforme Pharos – plateforme d’harmonisation, d’analyse, de recoupement et d’orientation des signalements.<br/>Vous avez raison de le souligner, de très nombreux sites et influenceurs diffusent des théories qui relèvent du complotisme, du séparatisme ou de l’entrisme. Nous menons une action résolue contre ce phénomène.<br/>Ensuite, nous pouvons produire un contre-discours, c’est-à-dire œuvrer à promouvoir une autre conception des choses, par l’intermédiaire d’autres influenceurs. La difficulté est de savoir qui peut le faire. Nous comptons évidemment beaucoup sur l’engagement de l’islam modéré pour contester certaines thèses. Notre mode opératoire privilégié reste néanmoins l’action judiciaire et la suppression des sites incriminés.<br/>Enfin, puisque nous évoquions tout à l’heure l’action des services de renseignement, je rappelle qu’il est compliqué d’engager des techniques de renseignement en l’absence de violence constatée ou d’incitation à la haine. En revanche, il est possible de détecter les sites problématiques, qui sont accessibles à tous, en source ouverte, pour repérer et suivre les individus qui sont derrière ces comptes. Le plus souvent, ces derniers ont en effet d’autres activités susceptibles de s’apparenter à de l’entrisme en dehors des réseaux sociaux.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842765" ordre_absolu_seance="81" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983363" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2786.75">La parole est à M. Matthieu Bloch.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842766" ordre_absolu_seance="82" id_acteur="PA840889" id_mandat="PM842534" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983364" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Matthieu Bloch (UDR)</nom>
+            <id>840889</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2796.10">Dans le cadre de la commission d’enquête parlementaire sur les liens entre certains mouvements politiques et des réseaux soutenant l’idéologie islamiste, l’ensemble des services de l’État ont été auditionnés – direction générale de la sécurité intérieure (DGSI), direction générale de la sécurité extérieure (DGSE), direction nationale du renseignement territorial (DNRT), direction du renseignement de la préfecture de police de Paris (DRPP) et comité interministériel de prévention de la délinquance et de la radicalisation (CIPDR).<br/>Tous ont livré un diagnostic unanime : la jeunesse est aujourd’hui la cible prioritaire de l’islamisme politique et les réseaux sociaux en sont le principal vecteur.<br/>L’autoradicalisation numérique est désormais un phénomène massif, souvent rapide et solitaire, alimenté par des algorithmes qui banalisent le séparatisme, délégitiment la République et construisent, sous le seuil pénal, une justification idéologique de la violence.<br/>Les assassinats de Samuel Paty et de Dominique Bernard illustrent tragiquement ces trajectoires : des passages à l’acte nourris avant tout par une radicalisation en ligne, sans encadrement terroriste structuré.<br/>Notre rapport met également en évidence un facteur aggravant majeur. Lorsque ces discours sont relayés ou tolérés dans l’espace public par des élus de la République, notamment lors de manifestations militantes, le signal envoyé à la jeunesse devient profondément délétère.<br/>Ces ambiguïtés politiques brouillent les repères républicains et renforcent des logiques de rupture, lesquelles sont déjà alimentées par l’endoctrinement numérique.<br/>Une démocratie ne contrôle pas les partis politiques – c’est aussi bien heureux qu’indispensable –, mais peut-elle rester passive lorsque la radicalisation en ligne de la jeunesse est renforcée par des postures politiques ambiguës qui affaiblissent le message républicain ?<br/>Ma question est donc simple : quelles mesures concrètes le gouvernement entend-il prendre pour lutter efficacement contre l’autoradicalisation en ligne, responsabiliser les plateformes numériques et rappeler clairement aux élus leur devoir d’exemplarité dans la défense des valeurs de la République et la protection de notre jeunesse ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842774" ordre_absolu_seance="90" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983372" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2870.03">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842775" ordre_absolu_seance="91" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983373" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="2911.23">Il faut faire attention aux mots que l’on emploie. Quand vous dites qu’il y a des jeunes qui se radicalisent en ligne, vous avez raison. C’est vrai. Ces jeunes, souvent isolés dans leur sphère personnelle, se lient avec d’autres jeunes grâce aux réseaux, et se radicalisent sous l’influence de la propagande.<br/>Mais attention, cette situation ne relève pas du cas que vous citez. Les mots ont un sens : la radicalisation débouche sur un processus d’action violente. Vous avez évoqué l’assassinat de Samuel Paty, par exemple. C’est du terrorisme : on n’est donc pas en dessous de l’action pénale.<br/>Les services de renseignements travaillent sur cette forme de radicalisation, pour détecter les profils de jeunes susceptibles de passer à l’action et les interpeller.<br/>La plupart des attentats qui ont été déjoués ces dernières années étaient d’ailleurs organisés par des jeunes qui s’étaient radicalisés en ligne. Encore une fois, on n’est pas en dessous du niveau pénal, on est même au-dessus.<br/>Il existe aussi sur les plateformes d’autres formes de radicalisation, moins violentes. Comme je le disais au député Albertini, nous suivons leur activité et, quand leur contenu pose problème, nous les déréférençons et engageons des actions judiciaires contre elles.<br/>Ensuite, vous évoquez les liens de ces réseaux avec certaines formations politiques. Nous y reviendrons. En attendant, je vous répète ce qui a été dit par l’ensemble des services de renseignement : il n’y a pas de liens directs entre l’islamisme politique et les formations politiques<br/>Je m’étais d’ailleurs exprimé sur le sujet – j’ai noté que ce n’était pas repris dans le rapport de synthèse – en mettant en garde sur le fait que, quand des formations critiquent l’action de l’État en l’accusant d’être stigmatisant et islamophobe, elles font indirectement le jeu de ces mouvances, car elles donnent du crédit à ce qui relève d’une forme de radicalisation et d’entrisme.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842782" ordre_absolu_seance="98" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983380" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2994.80">La parole est à M. Olivier Fayssat.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842783" ordre_absolu_seance="99" id_acteur="PA840773" id_mandat="PM842456" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983381" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Olivier Fayssat (UDR)</nom>
+            <id>840773</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3075.28">Il n’existe pas de définition précise de l’entrisme islamiste. Toutefois, il est généralement admis qu’il s’agit de la démarche par laquelle l’islam radical s’intègre dans la société pour la changer de l’intérieur, en faisant infuser des idées. L’entrisme islamiste vise à obtenir progressivement des modifications des règles locales ou nationales, notamment celles qui concernent la laïcité et l’égalité homme-femme.<br/>Ce mouvement constitue indiscutablement une menace. Il tend à ériger la non-mixité en règle et à instrumentaliser le port du voile, en vue de son objectif final, qui est l’application de la charia et l’instauration d’un État islamiste.<br/>L’entrisme nous empêche de faire nation. N’oublions pas que, si les batailles sont gagnées par les militaires, les guerres, elles, sont gagnées par les nations.<br/>Vous avez évoqué l’islamophobie, qui est régulièrement invoquée par les personnes suspectées d’entrisme. Mais crier à l’islamophobie ne doit pas faire échapper à tout contrôle ou à toute répression. Il ne faut pas se laisser impressionner par de tels arguments.<br/>Je voudrais revenir sur le secteur éducatif et le monde associatif, qui sont au cœur du dispositif. En effet, ils sont utilisés pour promouvoir une pratique religieuse rigoriste et servir de relais idéologique.<br/>Houellebecq l’a très bien dit dans son livre<italique> Soumission </italique> : les islamistes privilégient les structures non conflictuelles, les réseaux associatifs, les fondations, les œuvres caritatives, les organisations culturelles ou éducatives.<br/>Je pense que vous serez d’accord pour reconnaître que, dans la lutte contre l’entrisme, on ne progresse pas beaucoup. Ce n’est pas un reproche, mais j’ai l’impression que l’entrisme prospère plus que notre action pour lutter contre lui.<br/>Vous évoquez certaines lacunes, notamment dans le code électoral, qui ne permet pas de bloquer certaines inscriptions, ou encore la difficile application du principe de laïcité au sein des fédérations sportives, mais, aujourd’hui, vous n’êtes plus préfet de police, vous êtes au gouvernement. Que proposez-vous pour mieux contrôler les financements des associations – un projet de loi, peut-être ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842792" ordre_absolu_seance="107" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983390" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3109.41">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842793" ordre_absolu_seance="108" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983391" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3210.13">Je vous rassure, il ne m’a pas échappé que je n’étais plus préfet de police mais ministre de l’intérieur – à un poste politique, donc. C’est à ce titre que j’aborde ces sujets, que je connais parfaitement pour les avoir déjà traités, avec toutes leurs difficultés.<br/>S’il faut lutter efficacement contre l’entrisme de l’islamisme politique, il faut aussi prendre garde à la stigmatisation de nos nombreux compatriotes qui sont de confession musulmane. Ces derniers peuvent se sentir blessés par les propos que l’on tient et les actions que l’on mène.<br/>Cette vigilance est pour moi une vraie boussole. Souvenez-vous des réactions à la loi de 2021, ou même avant, au discours du président de la République après l’assassinat de Samuel Paty. Le monde entier, y compris certaines démocraties occidentales, s’est demandé ce que faisait la France, qui stigmatisait une partie de sa population en parlant de séparatisme. Depuis, ces démocraties occidentales en sont largement revenues. Je pense aux Pays-Bas, au Danemark et même aux États-Unis, pays qui était assez critique à notre endroit mais dont le président veut maintenant inscrire les Frères musulmans sur la liste des organisations terroristes, voire les interdire.<br/>Ces sujets sont donc très complexes. Il est d’abord important de bien les définir. Comme vous l’avez dit, l’entrisme est quelque chose qui empêche de faire nation, qui porte atteinte à la cohésion nationale, au vivre-ensemble. Il veut remplacer les lois de la République par une loi religieuse. Ce n’est pas acceptable.<br/>Nous proposons de suivre la même méthode d’action que nous avons utilisée pour le séparatisme : en se fondant sur une définition juridique claire, nous devons pouvoir dissoudre les structures qui portent des valeurs contraires à celles de la République. Je souhaite également aller plus loin en matière de technique de renseignement.<br/>En tout cas, cela suppose de s’accorder sur une définition précise de l’entrisme. Pour moi, celle-ci doit reconnaître que l’entrisme porte atteinte à la cohésion nationale et au vivre-ensemble.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842800" ordre_absolu_seance="114" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983398" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3355.93">La parole est à M. Kévin Pfeffer.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842801" ordre_absolu_seance="115" id_acteur="PA794582" id_mandat="PM840300" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983399" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Kévin Pfeffer (RN)</nom>
+            <id>794582</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3359.64">Depuis toujours, le Rassemblement national prend très aux sérieux l’entrisme islamiste dans notre société. Dès 2021, Marine Le Pen a présenté une proposition de loi pour combattre cette idéologie sous toutes ses formes.<br/>Vous nous avez dit de faire attention aux mots : je parle bien des idéologies islamistes, qui ne concernent nullement l’immense majorité des Français et des étrangers vivant sur notre sol, lesquels respectent les valeurs et les lois de la République française et exercent leur foi dans ce cadre républicain.<br/>Le 18 novembre dernier, devant une commission d’enquête réunie en ces lieux, vous avez répondu à nos questions qui portaient sur un phénomène préoccupant : l’entrisme islamiste dans la vie politique locale, notamment à l’occasion des élections municipales de 2026.<br/>Cet entrisme passe par des stratégies insidieuses d’agrégation à des listes électorales et d’influence progressive dans les conseils municipaux. Il est parfois encouragé et banalisé, voire légitimé – je pense à certains députés LFI, obsédés par la couleur de peau, qui ont récemment multiplié les déclarations communautaristes et racialistes, opposant les Français entre eux, selon leur origine, et niant certaines formes de racisme.<br/>À cela s’ajoute parfois l’utilisation de l’argent public, lorsque des subventions sont accordées à des associations à forte connotation communautaire ou carrément religieuses, par pur calcul électoral. Islamo-gauchisme et islamo-droitisme se font d’ailleurs concurrence dans ce domaine. Je pense au maire LR de Metz, M. Grosdidier, qui s’obstine à financer à hauteur d’un demi-million d’euros d’argent public une nouvelle grande mosquée, malgré une annulation en justice, ou encore à la ville écologiste de Grenoble, qui subventionnait le Collectif contre l’islamophobie en France (CCIF), dissous depuis.<br/>Vous avez dit tout à l’heure qu’il n’existait pas de mesures juridiques pour contrer l’entrisme islamiste dans les élections locales : créons-les donc. En commission d’enquête, vous avez déclaré que des évolutions législatives étaient nécessaires. Auxquelles pensez-vous ? Et quand prévoyez-vous de les mettre en œuvre ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842808" ordre_absolu_seance="121" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983406" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3469.43">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2842809" ordre_absolu_seance="122" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983407" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3472.49">Les évolutions législatives permettront de remettre en cause des subventions publiques à des structures qui prônent des valeurs religieuses séparatistes.<br/>Nous travaillons aussi à autoriser la dissolution des structures qui ne respectent pas les valeurs de la République. Actuellement, ces dissolutions ne sont possibles que si des discours de haine, d’incitation à la violence et de radicalisation violente sont constatés.<br/>Or lorsqu’on explique à de jeunes enfants, de manière tout à fait insidieuse, que telle ou telle valeur républicaine serait contraire à la religion, c’est un problème. Il faut définir clairement l’entrisme pour pouvoir dissoudre les structures séparatistes.<br/>J’espère que ces réflexions aboutiront à des mesures législatives. Après la première brique, qui était la lutte contre le terrorisme, il y a eu la deuxième, la loi de 2021 contre le séparatisme, qui nous permet de faire déjà beaucoup de choses. Je vous invite à relire ce texte et à consulter les chiffres que nous affichons en matière d’arrêtés de dissolution, de délits de séparatisme et de délits d’entrave.<br/>Un certain nombre de dispositifs législatifs nous permettent déjà d’agir, mais je répète que l’entrisme islamiste est encore autre chose, dans la mesure où il ne prend pas forcément la forme d’appels à la haine, à la discrimination ou à la violence. C’est cela qu’il faut désormais appréhender dans la loi et c’est ce à quoi nous travaillons.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842629" ordre_absolu_seance="127" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983086" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3571.55">La parole est à M. Jonathan Gery.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842630" ordre_absolu_seance="128" id_acteur="PA841737" id_mandat="PM843290" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983087" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jonathan Gery (RN)</nom>
+            <id>841737</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3590.71">Nous observons parfois de l’entrisme islamiste au sommet des institutions, grâce à l’appui d’élus particulièrement zélés en matière d’islamo-gauchisme ou d’islamo-droitisme, mais aussi et surtout à la base, avec des associations financées par les collectivités, c’est-à-dire par le contribuable français.<br/>Le sujet étant très vaste, je souhaite centrer mon propos sur le sport, qui est un relais essentiel des islamistes pour propager la haine, la discrimination et des messages contraires aux valeurs de la France et de la République. Dans mon département, le Rhône, je ne compte plus les témoignages de ras-le-bol et certaines personnes m’ont dit avoir été directement intimidées par des individus radicalisés.<br/>À tous les âges, notamment chez les plus jeunes, cela se manifeste par des interdictions – ne pas manger de jambon lors des pique-niques –, par des menaces dans les vestiaires, par des injonctions – porter un maillot de bain sous la douche –, par le refus de créer des sections féminines, voire par la demande de créer des vestiaires distincts pour les musulmans. Bref, des pans entiers de la vie sportive sont tombés aux mains des islamistes, qui savent très bien ce qu’ils font et qui le font en toute impunité.<br/>Selon un rapport coécrit par mon collègue Julien Odoul sur les dérives communautaristes et islamistes dans le sport, on compte en France 25 à 130 associations sportives à visée séparatiste, en lien avec les Frères musulmans, et plus de 500 clubs sont confrontés à des comportements communautaristes. Ce rapport énonce une quinzaine de recommandations concrètes. Le gouvernement s’en est-il saisi ? Par ailleurs, le Sénat a voté il y a deux ans un texte visant à assurer le respect du principe de laïcité dans le sport. Quand sera-t-il examiné à l’Assemblée, sachant qu’il a été transmis à la commission des affaires culturelles il y a près d’un an ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842634" ordre_absolu_seance="132" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983091" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3693.17">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842635" ordre_absolu_seance="133" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983092" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3713.17">Il est vrai que le phénomène religieux prend de plus en plus d’importance dans le sport – nous en avons déjà dit un mot. Or il n’est pas tolérable d’imposer des principes religieux dans la pratique du sport. Que les choses soient claires : les services de l’État, les préfectures, travaillent sur ces structures et je répète qu’en cas de pressions ou de violences, des actions sont menées, qui peuvent aller jusqu’à leur dissolution. Notre main est très ferme et ne tremble pas dans de tels cas.<br/>Il y a aussi une forme d’entrisme qui ne se caractérise pas par des menaces, des pressions ou des violences, mais qui consiste à inculquer l’idée selon laquelle certains principes religieux seraient supérieurs aux lois de la République. Nous devons pouvoir intervenir aussi dans ces cas-là et c’est ce à quoi nous travaillons. Il faudrait que la loi nous permette, dans de telles situations, de retirer ses subventions à une association, voire d’aller jusqu’à sa dissolution. Or, actuellement, on ne peut le faire que lorsqu’il y a menace, discrimination ou violence ; on ne peut rien faire contre l’entrisme basique, celui qui consiste à affirmer que la religion est supérieure aux principes de la République.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842637" ordre_absolu_seance="135" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983094" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3782.27">La parole est à M. Kévin Pfeffer.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842638" ordre_absolu_seance="136" id_acteur="PA794582" id_mandat="PM840300" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983095" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Kévin Pfeffer (RN)</nom>
+            <id>794582</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3810.72">Notre République doit être mieux protégée face au poids croissant de certaines officines religieuses, lorsqu’elles sortent de leur rôle cultuel pour exercer une influence économique, diplomatique, voire quasi régalienne. C’est possiblement le cas de la Grande Mosquée de Paris, qui se retrouve depuis janvier 2025 au cœur d’une controverse grave, à la fois juridique, économique et politique, le tout dans un contexte de fortes tensions diplomatiques avec l’Algérie.<br/>En effet, depuis fin 2022, elle bénéficie, sur décision des autorités algériennes, d’un monopole de certification halal pour une large liste d’aliments produits en France et exportés vers l’Algérie : viande, produits laitiers, biscuits, confiserie, aliments pour nourrissons. Cette certification, obligatoire et payante, conditionne l’accès de productions françaises au marché algérien et s’apparente de fait à un droit de douane privé, appliqué par une structure religieuse française au bénéfice d’un État tiers. La Commission européenne a d’ailleurs souligné dès 2024 que cette mesure entravait de manière significative le commerce avec l’Union européenne.<br/>Or la Grande Mosquée de Paris est une association ; et l’organisme de certification qui est hébergé en son sein est certes une société commerciale distincte, mais il est présidé par le recteur lui-même, pour un chiffre d’affaires estimé à plusieurs millions d’euros, sans que la destination précise des fonds – pas plus que la réalité des contrôles – ne soit clairement établie. Comment le gouvernement peut-il accepter qu’une structure religieuse française non mandatée par l’État devienne<italique> de facto</italique> un opérateur économique obligatoire, au mépris possible de la loi de 1905, du droit européen de la concurrence et de notre souveraineté économique ? La légalité de ce mécanisme a-t-elle été étudiée et avons-nous des informations plus précises sur la destination des fonds perçus grâce à la certification des produits français exportés ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842641" ordre_absolu_seance="139" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983098" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3888.16">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842642" ordre_absolu_seance="140" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983099" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3933.62">Pardonnez-moi mais nous parlons d’entrisme et de radicalisation : ne mélangeons pas tout. La grande mosquée de Paris est un lieu de culte réputé et connu dans Paris ; moi, je vous parle d’entrisme. Je vous parle de ceux qui ne respectent pas les principes de la République et qui veulent imposer la loi religieuse face aux valeurs de la République. Je ne dispose pas d’éléments relatifs au dossier que vous évoquez, mais je vous invite à nouveau à la prudence : la lutte contre l’entrisme ne doit pas conduire à la stigmatisation. Notre cible, ce sont ceux qui s’inscrivent en marge des valeurs de la République et qui veulent imposer certaines lois religieuses au fonctionnement républicain, au vivre-ensemble. Voilà ce qu’il faut appréhender.<br/>Sur le cas précis que vous évoquez, je répète que je n’ai pas d’éléments de réponse à vous donner. Vous me concéderez que je ne suis ministre de l’intérieur que depuis trois mois et qu’auparavant j’étais préfet de police. En tout cas, je vous invite une nouvelle fois à ne pas faire d’amalgame sur cette question.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842644" ordre_absolu_seance="142" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983101" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3993.20">La parole est à M. Kévin Pfeffer.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842645" ordre_absolu_seance="143" id_acteur="PA794582" id_mandat="PM840300" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983102" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Kévin Pfeffer</nom>
+            <id>794582</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4005.29">Monsieur le ministre, vous avez un peu éludé la question. Je ne fais pas d’amalgame : il s’agit bien d’une situation où l’on tente, par la voie religieuse, de modifier la législation française ou de s’y substituer. Il est vrai que j’ai un peu élargi le débat, mais je suis libre de mes questions, comme vous êtes libre de vos réponses.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842646" ordre_absolu_seance="144" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983103" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4027.55">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842647" ordre_absolu_seance="145" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983104" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4028.85">Je suis effectivement libre de mes réponses et je ne vous autorise pas à dire que j’ai éludé votre question. En tant que ministre de la République, je réponds par des éléments précis, lorsque j’en dispose. Et quand je n’en dispose pas, je suis très prudent. Je n’élude en rien la question et je vous apporterai des éléments de réponse.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842648" ordre_absolu_seance="146" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983105" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4047.57">La parole est à Mme Constance Le Grip.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842649" ordre_absolu_seance="147" id_acteur="PA345722" id_mandat="PM843650" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983106" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Constance Le Grip (EPR)</nom>
+            <id>345722</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4069.49">Nous disposons désormais de nombreux travaux parlementaires, réalisés aussi bien à l’Assemblée nationale qu’au Sénat ; je pense notamment au rapport de la commission d’enquête présidée par Xavier Breton. Le groupe Ensemble pour la République souhaite que, dans le prolongement de ces travaux, soit débattu et adopté par le Parlement un projet de loi relatif à l’entrisme islamiste – quel que soit le terme employé pour désigner cette réalité. J’ai parfaitement entendu, monsieur le ministre, vos réserves, argumentées et justifiées, relatives à la sémantique. Les deux premières briques – pour reprendre vos mots –, à savoir les lois relatives à la lutte contre le terrorisme et le séparatisme, concernaient des réalités plus faciles à cerner. La lutte contre l’entrisme est peut-être plus délicate, plus complexe, et il importe en effet de ne pas prendre des dispositions qui se révéleraient contre-productives.<br/>Des pistes sérieuses et précises ont toutefois été évoquées dans les rapports parlementaires que j’évoquais et lors des deux conseils de défense et de sécurité nationale consacrés à l’entrisme islamiste : gel des avoirs d’un certain nombre de structures, renforcement du rôle des préfets, dont l’avis conforme deviendrait nécessaire pour la construction de lieux de culte, contrôle renforcé des structures qui accueillent les mineurs, introduction d’un nouveau motif de dissolution administrative pour les structures qui ne respecteraient pas le contrat d’engagement républicain, renforcement du contrôle des publications étrangères illicites, évolution des techniques de renseignement.<br/>Ne vous semble-t-il pas possible de prendre certaines de ces dispositions sans attendre le grand soir, la grande loi présentant une panoplie complète de mesures ? Ne pourrions-nous pas avancer sur quelques sujets précis et concrets, au travers de projets ou de propositions de loi – beaucoup de choses ayant déjà été faites sur le plan réglementaire –, en vue du réarmement républicain que nous sommes très nombreux à souhaiter ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842652" ordre_absolu_seance="150" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983109" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4224.28">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842653" ordre_absolu_seance="151" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983110" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4231.00">La réflexion que nous menons actuellement en vue d’un renforcement des mesures législatives part du constat que, pour certaines formes d’islamisme politique, dont l’entrisme, dès lors qu’il n’y a pas d’incitation à la haine, à la violence ou à la discrimination, aucune action juridique n’est possible. Il importe donc de créer une troisième brique, et cela suppose d’abord de donner une définition précise de l’entrisme. Les mesures que vous évoquez sont effectivement des dispositions auxquelles nous réfléchissons, notamment le gel des avoirs de certaines structures. À l’heure actuelle, cela n’est possible qu’en cas de radicalisation violente, et même, pour être plus précis, que pour des faits de terrorisme. De même, il faudrait pouvoir dissoudre des structures qui font de l’entrisme, c’est-à-dire qui prônent le non-respect des valeurs de la République, sans pour autant appeler à la violence, à la haine ou à la discrimination.<br/>C’est la même chose pour l’accueil collectif de mineurs : on sait qu’un certain nombre de structures, notamment des structures scolaires privées qui ne disent pas leur nom, échappent à la réglementation, donc aux contrôles que peut exercer la puissance publique. Une réflexion est en cours à ce sujet. Nous réfléchissons aussi à l’opportunité de donner plus de poids à l’avis rendu par le représentant de l’État sur les permis de construire – alors que l’avis du préfet est aujourd’hui facultatif, nous pourrions soumettre les constructions de lieux de culte à un avis conforme de sa part.<br/>Toutes les mesures que vous avez évoquées font bien partie du champ de la réflexion en cours. Nous souhaitons qu’elles ne s’appliquent plus seulement en cas d’appel à la haine, à la violence ou à la discrimination, mais pour toute atteinte aux valeurs de la République, à chaque fois que l’on dit qu’une loi religieuse doit s’imposer contre une loi républicaine et que l’on en tire des conséquences dans la pratique.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842656" ordre_absolu_seance="154" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983113" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4369.17">La parole est à Mme Constance Le Grip, pour une seconde question.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2842657" ordre_absolu_seance="155" id_acteur="PA345722" id_mandat="PM843650" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983114" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Constance Le Grip (EPR)</nom>
+            <id>345722</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4438.71">J’ai évoqué la nécessité de renforcer le contrôle de la publication d’ouvrages étrangers contraires aux valeurs républicaines et j’aimerais évoquer le cas particulier du livre<italique> Péchés et guérison</italique> de Ibn Al-Qayyim, aux éditions Tawbah. Il est vendu librement, aussi bien à la Fnac que sur Amazon, alors qu’il contient des propos absolument dégueulasses – pardonnez-moi, mais je n’ai pas d’autre mot –, homophobes et antisémites, et des appels au meurtre. Il faut absolument réagir.<br/>Dernier point : vous avez vous-même fait allusion à plusieurs reprises, monsieur le ministre, au rapport de la sénatrice Jacqueline Eustache-Brinio et du groupe Les Républicains. Parmi les mesures préconisées figure celle de rattacher la délivrance des visas au ministère de l’intérieur, afin de rassembler sous une même autorité toutes les décisions relatives à l’entrée, au séjour et au contrôle des étrangers. Que pensez-vous de cette proposition choc du rapport sénatorial ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842693" ordre_absolu_seance="157" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983177" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4455.91">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842694" ordre_absolu_seance="158" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983178" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4460.21">S’agissant des ouvrages, un contrôle très précis est effectué sur leur contenu, notamment pour vérifier s’ils portent atteinte aux principes républicains.<br/>Dans le cas d’espèce, le livre dont vous parlez est connu des services. M. Chenu a, je crois, fait un signalement sur le fondement de l’article 40 du code de procédure pénale concernant cet ouvrage et a ainsi saisi la procureure de la République.<br/>En pareil cas, nous demandons systématiquement le retrait de la vente, nous engageons des poursuites chaque fois que nous le pouvons et nous retirons évidemment l’autorisation.<br/>L’ouvrage en question a été retiré de la vente, au moins chez un distributeur. C’est un dossier que nous suivons avec attention, comme nous le faisons pour tous les ouvrages qui comportent des propos de ce type – homophobes, portant atteinte à l’égalité hommes-femmes, etc. Nous assurons ce suivi de manière très rigoureuse.<br/>Sur la question des visas, l’idée d’un pilotage effectué par le seul ministre de l’intérieur pourrait me séduire, mais je crois préférable de renforcer l’actuelle coopération avec le ministre de l’Europe et des affaires étrangères. Il permet un pilotage plus fin des visas, à la fois selon le type d’entrées que l’on souhaite avoir sur le territoire national et selon nos priorités en matière de politique des visas. En effet, il ne faut pas oublier que cette politique constitue aussi une arme de rétorsion, notamment envers les États qui refusent de délivrer des laissez-passer pour leurs ressortissants en situation irrégulière. C’est un levier que nous utilisons pour faire pression.<br/>Il faut le renforcer le copilotage entre les deux ministères, et c’est ce à quoi nous travaillons avec Jean-Noël Barrot.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842700" ordre_absolu_seance="164" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983184" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4571.78">La parole est à M. Thomas Portes.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842701" ordre_absolu_seance="165" id_acteur="PA796062" id_mandat="PM843668" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983185" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Thomas Portes (LFI-NFP)</nom>
+            <id>796062</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4579.49">Je dois dire que je suis assez circonspect face au débat de ce soir. À peine vingt-quatre heures de reprise parlementaire, et déjà la question de la stigmatisation et de la haine des musulmans s’invite à nouveau à l’Assemblée nationale !<br/>Je rappelle qu’au moment où nous discutons, dans notre pays, des millions de personnes font la queue devant les banques alimentaires, des dizaines de millions de personnes vivent sous le seuil de pauvreté et huit personnes sont décédées dans la rue entre Noël 2025 et le jour de l’an 2026. Pourtant, l’agenda politique remet au cœur des débats la haine des musulmans.<br/>Après les débats sur le voile, sur le séparatisme et sur la nourriture halal, après le pseudo-rapport sur les Frères musulmans, après les propositions visant à interdire le jeûne pour les mineurs, voici le débat sur l’entrisme islamiste.<br/>Derrière les mots, les attaques, les polémiques, les stigmatisations, un seul objectif : faire avancer un agenda raciste, aux conséquences concrètes. Au cours de la seule année 2025, les actes antimusulmans ont augmenté de 75 % – certains l’ont payé de leur vie.<br/>Gouvernement après gouvernement, le terme d’entrisme islamiste s’impose dans le débat public comme une arme politique. Ce terme, martelé à l’infini sans définition juridique, sans cadre clair, sans fondement sérieux, ne sert qu’à une chose : criminaliser l’islam et entretenir volontairement – on le voit ce soir – une confusion entre islam, islamisme et terrorisme.<br/>L’obsession islamophobe s’est traduite par la loi « séparatisme », qui a entraîné la dissolution d’associations musulmanes ou antiracistes, des fermetures administratives arbitraires et une surveillance généralisée.<br/>Tout devient prétexte à crier à l’entrisme. Des jeunes femmes voilées assistent à un débat à l’Assemblée ? Entrisme. Elles pratiquent le sport avec un foulard ? Entrisme. Elles vont à la mer ou à la piscine ? Entrisme. Jusqu’au cœur de la RATP, la chasse aux musulmans est aujourd’hui menée. Le climat islamophobe est permanent dans le pays.<br/>Monsieur le ministre, vous avez dénoncé le fait d’être qualifié d’islamophobe. Mais cessez d’avoir une politique islamophobe ! Le seul danger qui menace le pays aujourd’hui, c’est l’entrisme de l’extrême droite au cœur de ce gouvernement.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842709" ordre_absolu_seance="173" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983193" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4692.48">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842710" ordre_absolu_seance="174" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983194" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4698.44">Vous m’interpellez et me traitez presque d’islamophobe. Ce n’est pas ce qui caractérise mon parcours de vie. Je lutte contre les radicaux violents. J’ai consacré une partie de ma carrière à la lutte contre le terrorisme et je poursuis cette mission en tant que ministre de l’intérieur.<br/>Si vous laissez penser qu’il est normal d’opposer des principes religieux aux valeurs de la République, c’est un problème. Et si, dès lors que nous dénonçons cela, vous nous traitez d’islamophobes – je dis « nous » parce que d’autres sont concernés autour de cette table –, c’est un vrai problème.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842712" ordre_absolu_seance="176" id_acteur="PA796062" id_mandat="PM843668" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983196" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Thomas Portes</nom>
+            <id>796062</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4721.29">Ce n’est pas ce que j’ai dit.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842713" ordre_absolu_seance="177" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983197" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4729.25">Quand je parle d’entrisme, je parle de choses précises et sérieuses : nous parlons d’individus qui inculquent à de jeunes citoyens français de confession musulmane l’idée selon laquelle les principes de la République peuvent être écartés. C’est tout. Si, à chaque fois que l’on s’exprime en ce sens, on est traité d’islamophobe, c’est un peu compliqué. En quelque sorte, en faisant cela, vous apportez indirectement une forme de soutien à ceux qui prônent l’entrisme.<italique> (M. Thomas Portes fait non de la tête.)</italique><br/>Mais si, puisque dès qu’on s’oppose à l’entrisme, vous dites qu’on est islamophobe ! Vous n’engagez même pas le débat. Vous n’essayez même pas de me demander ce que j’appelle l’entrisme, le séparatisme ou le terrorisme. Je peux vous en parler pendant des heures, mais non ; pour vous, le simple fait d’aborder le sujet fait de nous des islamophobes. C’est un problème.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842715" ordre_absolu_seance="179" id_acteur="PA345722" id_mandat="PM843650" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983199" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Constance Le Grip</nom>
+            <id>345722</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4764.27">Absolument !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842716" ordre_absolu_seance="180" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983200" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4781.85">Attention, vous vous adressez aussi à des jeunes, à nos compatriotes de confession musulmane. Nous avons, vous et moi, une responsabilité vis-à-vis d’eux, de ces citoyens français qui doivent s’intégrer, qui doivent vivre parmi nous. En leur laissant croire, à travers moi et d’autres, que le gouvernement est islamophobe et donc ne les aime pas, vous portez une lourde part de responsabilité dans les atteintes à la cohésion nationale. C’est d’ailleurs ce que j’ai dit à la commission lors de mon audition, et je regrette que cela n’ait pas été repris dans le rapport final.<br/>Je vous le dis très franchement. Nous devons pouvoir parler de ces sujets sans que vous nous reprochiez d’être islamophobes.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842718" ordre_absolu_seance="182" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983202" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4829.95">La parole est à M. Louis Boyard.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842719" ordre_absolu_seance="183" id_acteur="PA795318" id_mandat="PM843689" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983203" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Louis Boyard (LFI-NFP)</nom>
+            <id>795318</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4835.73">Monsieur le ministre, avez-vous l’impression qu’on ne parle pas suffisamment d’islam dans ce pays ? Cela fait à peine vingt-quatre heures que les travaux à l’Assemblée nationale ont repris, et nous sommes déjà en train d’avoir un débat sur les musulmans. Je ne sais pas si vous vous rendez compte. Pour les gens qui nous écoutent, nous avons actuellement un débat intitulé « Comment protéger les institutions républicaines et prévenir la radicalisation des jeunes générations ? ».</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842720" ordre_absolu_seance="184" id_acteur="PA345722" id_mandat="PM843650" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983204" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Constance Le Grip</nom>
+            <id>345722</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4857.32">Il est question des islamistes, pas des musulmans ! Ce n’est pas la même chose.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842721" ordre_absolu_seance="185" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983205" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4860.85">Allons, on écoute M. Boyard !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842722" ordre_absolu_seance="186" id_acteur="PA345722" id_mandat="PM843650" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983206" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Constance Le Grip</nom>
+            <id>345722</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4861.45">Si on veut ! On n’est pas obligés.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842723" ordre_absolu_seance="187" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983207" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4864.84">Si, si, depuis le début de cet après-midi de débats que je préside, on s’écoute. Merci.<br/> Vous avez la parole, monsieur Boyard.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842724" ordre_absolu_seance="188" id_acteur="PA795318" id_mandat="PM843689" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983208" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Louis Boyard</nom>
+            <id>795318</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4873.34">Ce débat porte donc sur les jeunes générations. On aurait pu discuter du climat ou de la précarité des jeunes ; vous auriez alors été plus proche de leurs préoccupations. Mais non, monsieur le ministre, là, on doit encore parler d’islam, des musulmans, encore de l’islam et encore des musulmans. On a l’impression que si on ne parle pas de ces sujets, vous vous arrêtez de respirer ou vous perdez toute votre énergie, comme dirait l’autre. C’est une obsession politique ; c’est matin, midi et soir !<br/>Neuf milliardaires possèdent 90 % des médias. Leur obsession, c’est d’empêcher qu’on parle du fait qu’ils ne paient pas d’impôts en France, alors ils ont jeté leur dévolu sur les musulmans. Il n’y a pas une journée sans qu’un journal fasse sa une sur l’islam, sans qu’on parle des musulmans sur un plateau de télévision. Cette obsession politique est entretenue par votre gouvernement et par les députés qui sont autour de nous.<br/>Pardon, monsieur le ministre, mais l’abaya n’est pas un vêtement religieux. Aujourd’hui, des lycéennes viennent me voir et me disent : « Je ne comprends pas, ma copine porte la même robe que moi, mais parce que je suis maghrébine, on va dire que c’est une abaya ». Ce sont des situations très concrètes de la vie de ces jeunes femmes. Elles appellent cela de l’islamophobie, et elles en ont le droit.<br/>Quand on parle, par exemple, d’interdire le voile dans le sport ; pardon, mais les femmes portent absolument ce qu’elles veulent. Oui, je le dis. Vous avez, en Iran, des vieux messieurs qui viennent expliquer aux femmes qu’elles sont obligées de porter le voile. Je vois aujourd’hui, en France, des vieux messieurs expliquer aux femmes qu’elles ne devraient pas porter le voile. Pour ma part, je pense que le problème, ce sont les vieux messieurs un peu pervers qui viennent expliquer aux femmes comment elles doivent s’habiller.<br/>Monsieur le ministre, quand ce discours est omniprésent à la télévision, dans les journaux, à l’Assemblée, quand vous prenez les mesures sur l’abaya, sur le sport, quand vous faites encore une nouvelle loi, oui, c’est ressenti comme cela.<br/>Quand nous prenons la parole pour dire que c’est trop, d’une certaine manière, nous parlons au nom de la République. Vous devez le comprendre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842730" ordre_absolu_seance="194" id_acteur="PA345722" id_mandat="PM843650" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983214" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Constance Le Grip</nom>
+            <id>345722</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4921.97">Merci pour la leçon !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842731" ordre_absolu_seance="195" id_acteur="PA795318" id_mandat="PM843689" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983215" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Louis Boyard</nom>
+            <id>795318</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4928.21">De rien. Je peux la répéter, ça va finir par rentrer.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842731" ordre_absolu_seance="196" id_acteur="PA345722" id_mandat="PM843650" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983281" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Constance Le Grip</nom>
+            <id>345722</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4953.77">Je ne crois pas !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842732" ordre_absolu_seance="197" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983216" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4978.11">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842733" ordre_absolu_seance="198" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983217" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4994.26">Monsieur le député, je vous ferai la même réponse qu’à M. Portes. Vous parlez de l’islam et des musulmans, mais ce n’est pas ce dont on parle.<br/>Je suis le garant de l’application de la loi républicaine, de l’égalité, du vivre-ensemble, de la cohésion et de la cohérence. Je n’ai jamais parlé des jeunes femmes qui portent le voile ou l’abaya dans la rue. Ne faites pas cet amalgame. Vous ne m’avez jamais entendu tenir ces propos. J’ai d’ailleurs un avis très tranché à propos de l’interdiction du port du voile partout dans l’espace public : j’y suis défavorable – hors services publics, évidemment.<br/>Là, vous ne parlez que d’islam et de musulmans, mais ce n’est pas le sujet. Ce dont je vous parle, c’est de l’islamisme politique, c’est-à-dire de ceux qui veulent ériger un projet de société fondé sur la religion, un projet antinomique avec les valeurs de la République.<br/>La République, c’est précisément ce qui nous réunit et nous fait vivre ensemble. Je ne m’oppose qu’à ce qui la menace, de la même façon que nous combattons avec détermination les groupuscules d’ultradroite qui ne cherchent qu’à instaurer la violence dans notre société. Vous connaissez ma détermination, et celle du gouvernement, à lutter contre cela. Nous nous battons pour l’application des principes républicains.<br/>Loin de moi l’idée de stigmatiser les musulmans et l’islam. Ce qu’il faut combattre, c’est une forme de religion minoritaire qui vise à opposer une loi religieuse aux valeurs républicaines. Je ne parle que de cela. Vous me faites là un bien vilain procès, alors que nous devrions tous être réunis dans ce combat. L’application des lois républicaines, c’est ce qui nous réunit, c’est ce qui nous fait vivre et c’est ce qu’incarne la représentation nationale.<br/>Dans la façon dont vous m’interrogez, vous me prêtez des mots que je n’ai même pas tenus. Je n’ai jamais parlé de l’islam ni des musulmans. Je vous parle de l’islamisme politique, d’un projet politique qui vise à combattre nos principes républicains. Quand des influenceurs affirment, sur internet ou dans certains ouvrages, que la République est incompatible avec la pratique de la religion, c’est un problème. Vous en convenez.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842739" ordre_absolu_seance="204" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983223" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5057.39">La parole est à M. Aurélien Saintoul.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842740" ordre_absolu_seance="205" id_acteur="PA795982" id_mandat="PM840432" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983224" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Aurélien Saintoul (LFI-NFP)</nom>
+            <id>795982</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5132.54">Deux minutes pour intervenir sur le thème « Entrisme islamiste : comment protéger les institutions républicaines et prévenir la radicalisation des jeunes ? », c’est une gageure. C’est peut-être la raison pour laquelle M. Wauquiez, à nouveau, a préféré ne pas se montrer. Il médite peut-être encore la leçon de Jean-Luc Mélenchon.<br/>Je ne vais pas pouvoir entrer dans le détail, j’irai donc à l’essentiel. Pour protéger les institutions, il faut en respecter les principes, et en particulier l’État de droit, dont M. Retailleau assumait pourtant récemment vouloir s’affranchir.<br/>Pour prévenir la radicalisation des jeunes et des moins jeunes, il faut avant tout – permettez-moi d’utiliser cette expression – foutre la paix aux braves gens. C’est une idée simple et assez révolutionnaire, j’en conviens.<br/>Pour cela, il faut en finir avec l’hypocrisie qui faisait, par exemple, trouver délicieux le soutien de quelques conservateurs musulmans aux batailles d’arrière-garde contre le mariage pour tous ou contre les ABC de l’égalité.<br/>Il faut en finir avec le cynisme qui fait courir sans cesse après l’extrême droite et qui signe la dilution de la droite républicaine dans la version contemporaine du cléricalisme ultramontain et du pétainisme.<br/>Il faut en finir avec la paranoïa qui fait alterner les reproches aux musulmans : tantôt trop singuliers – c’est le séparatisme –, tantôt trop visibles, trop bien insérés – c’est le prétendu entrisme.<br/>Adorno, dans<italique> La dialectique de la</italique><italique> raison</italique>, décrit ce genre de schéma chez les antisémites, pour qui les Juifs étaient à la fois omniprésents et inassimilables. Le problème était bien entendu dans l’œil des antisémites et nullement dans la réalité des Juifs. Je vous le dis solennellement, les conséquences immensément funestes de cette paranoïa devraient nous interpeller.<br/>Il faut en finir, enfin, avec l’inconséquence et l’oubli de l’histoire. Les politiques ne doivent pas faire de théologie et prétendre dire ce qu’est la bonne ou la mauvaise religion, sous peine de discréditer ceux-là mêmes qu’ils prétendent promouvoir. Imaginez : quiconque entendrait M. Retailleau lui expliquer en quoi consiste le fait d’être un « bon musulman » serait immédiatement tenté de faire tout l’inverse !<br/>Vous n’obtiendrez rien par la contrainte ou la stigmatisation. Vous ancrerez peut-être même l’idée chez certains de nos compatriotes, vous l’avez dit, que la France ne veut pas d’eux. Ce serait une horreur.<br/>Jaurès, en 1905, a sauvé la loi de séparation des Églises et de l’État en plaidant auprès des libres-penseurs.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842750" ordre_absolu_seance="215" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983234" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5166.07">Votre temps de parole est écoulé.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842751" ordre_absolu_seance="216" id_acteur="PA795982" id_mandat="PM840432" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983235" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Aurélien Saintoul</nom>
+            <id>795982</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5169.18">Je suis l’un des derniers orateurs, monsieur le président !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842752" ordre_absolu_seance="217" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983236" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5174.97">La règle est la même pour tout le monde. Je vous laisse dix secondes.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842753" ordre_absolu_seance="218" id_acteur="PA795982" id_mandat="PM840432" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983237" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Aurélien Saintoul</nom>
+            <id>795982</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5262.35">Pour Jaurès, la pensée libre ne peut tirer sa force de la contrainte ou de l’humiliation : cette force réside dans sa valeur intrinsèque. Il faut faire voir les bienfaits d’une pensée républicaine qui affirme le primat de la liberté des individus et l’égalité des êtres humains.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842754" ordre_absolu_seance="219" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983238" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5275.24">C’est terminé, monsieur Saintoul.<br/>La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2842755" ordre_absolu_seance="220" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983239" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5280.41">Deux éléments de réponse. Je crois avoir déjà tout dit, en tout cas pour ce qui est de ma pensée, de celle du gouvernement et du but recherché. Il ne s’agit absolument pas de stigmatiser, et encore moins de s’écarter de l’État de droit.<br/>Monsieur le député, ce dont on parle, c’est de l’élaboration de textes juridiques. Dès lors qu’on dissout une structure, il y a souvent des recours. Ces textes juridiques peuvent être contestés. Généralement, le tribunal nous donne gain de cause, parce que nous nous fondons sur des atteintes aux libertés, sur de la discrimination ou sur des appels à la violence. Nous sommes dans ce registre-là. Il n’y a donc aucune stigmatisation d’une religion, mais juste des actions menées contre des formes religieuses qui voudraient imposer une loi qui n’est pas celle de la République. C’est tout.<br/>On parle beaucoup de l’islamisme politique parce que c’est principalement cette mouvance – qui, encore une fois, est minoritaire – qui pose un certain nombre de difficultés. Cependant, ce n’est pas la seule : il existe d’autres formes de séparatisme dans d’autres religions, et nous les combattons de la même façon.<br/>Je vous rejoins d’ailleurs sur un point, et j’assume de le faire : le danger, c’est celui de la stigmatisation. Certaines mesures qui peuvent être proposées au nom de la lutte contre l’entrisme n’ont souvent aucun rapport avec ce dernier et peuvent même être contre-productives. C’est le cas des mesures d’interdiction générale – j’en ai cité une tout à l’heure –, et c’est bien pour cette raison que je suis contre. En dehors de ces mesures, il s’agit de considérer que l’atteinte aux valeurs républicaines est un problème – il n’est pas possible que nous ne nous retrouvions pas collectivement sur ce combat. Vous contestez le fait que l’islamisme politique constitue une atteinte aux valeurs républicaines. C’en est une, et nous la combattrons tant que la loi sera ce qu’elle est.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842550" ordre_absolu_seance="224" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982949" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5387.63">La parole est à Mme Sophie Pantel.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842551" ordre_absolu_seance="225" id_acteur="PA841381" id_mandat="PM842966" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3982950" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sophie Pantel (SOC)</nom>
+            <id>841381</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5412.55">Nous avions préparé trois questions, mais celles-ci ont déjà été abordées au cours du débat. La première concernait un aspect juridique : l’inscription de la mouvance des Frères musulmans sur la liste européenne des organisations terroristes. La seconde portait sur l’entrisme dans le sport, en particulier sur le respect des libertés individuelles constitutionnelles dans le cadre des actions de lutte contre l’entrisme, de manière à protéger les lieux de pratique d’un sport, qui doivent rester des espaces d’émancipation. La troisième question concernait la laïcité et l’école publique.<br/>Nous allons donc poser d’autres questions que celles initialement prévues par le groupe Socialistes et apparentés. Pour commencer, je voudrais élargir notre réflexion à l’Europe. Pourriez-vous clarifier la position du gouvernement ? Comment envisagez-vous de prioriser au niveau européen la question qui nous occupe et de créer une approche conjointe de celle-ci pour coordonner de manière efficace les actions avec les autres États membres, afin notamment d’éviter qu’une structure qui serait dissoute en France puisse se reconstituer dans un autre État membre ?<br/>De manière plus générale, vous avez évoqué les différents textes applicables. Qu’est-ce qui manquerait aujourd’hui pour pouvoir agir, dans le cadre de ce qui pourrait constituer le premier niveau de la définition de l’entrisme – laquelle n’existe pas ? S’agit-il de mesures de nature réglementaire ou législative ? Quelles seraient vos propositions ? Je laisserai mon collègue Gérard Leseul poser la troisième question, qui porte sur un autre sujet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842554" ordre_absolu_seance="228" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982953" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5534.79">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842555" ordre_absolu_seance="229" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3982954" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5539.34">Il est en effet indispensable de développer une approche conjointe à l’échelle européenne, d’abord pour échanger sur les bonnes pratiques, comme nous le faisons souvent, et discuter de la manière dont on perçoit tel ou tel phénomène et dont on le combat. Ensuite, il est important que nous puissions mieux contrôler les financements européens. On sait que des financements ont été octroyés par l’Union européenne à des structures qui évoluaient dans la sphère séparatiste – certaines associations françaises ont pu en bénéficier, ce qui est un problème. Enfin, nous avons une autre difficulté, que vous avez citée : certaines structures qui ont été dissoutes sur le territoire national ont pu se reconstituer dans d’autres pays européens et continuer d’agir. Nous devons donc travailler avec les autres pays européens.<br/>J’en viens à la nature des mesures qui nous manquent. La lutte contre le séparatisme implique un équilibre entre liberté, protection de nos concitoyens et protection des valeurs républicaines. Compte tenu de l’atteinte grave qui est portée à certaines libertés – même si cette atteinte est proportionnée et justifiée –, les mesures que nous proposons, comme celles qui ont été adoptées auparavant pour lutter contre le terrorisme ou le séparatisme, en 2017 et en 2021, sont de nature législative – seul le législateur a compétence en la matière.<br/>Concernant le premier point, il est très important de disposer d’une approche européenne, ce qui est beaucoup plus simple aujourd’hui que par le passé. Les députés de La France insoumise sont partis, mais j’aurais voulu leur dire que c’est aussi le signal qu’une prise de conscience s’est opérée. Celle-ci a été plus précoce en France, et nous sommes aujourd’hui rejoints par d’autres pays européens quant à la nécessité de lutter contre l’islamisme politique. La politique menée par la France était parfois montrée du doigt au sein de l’Union européenne : on ne nous accusait pas d’être islamophobes, mais cette politique n’était pas comprise.<br/>Je pense qu’il y a maintenant une adhésion un peu plus forte et une harmonisation de la façon d’appréhender le phénomène au sein de l’Union européenne. Il faut s’en réjouir, car nous avons besoin de disposer d’une approche commune et de mieux contrôler les subventions, mais aussi les structures qui peuvent rayonner dans plusieurs pays – on le voit avec une structure bien connue que l’on a dissoute et qui s’est reconstituée dans un autre pays.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842559" ordre_absolu_seance="233" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982958" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5612.66">La parole est à M. Gérard Leseul.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842560" ordre_absolu_seance="234" id_acteur="PA774958" id_mandat="PM843389" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3982959" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Gérard Leseul (SOC)</nom>
+            <id>774958</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5703.66">L’Assemblée parlementaire du Conseil de l’Europe (APCE), dans sa résolution 2013 d’avril 2016, rappelait au premier alinéa que « la radicalisation des jeunes n’est pas un phénomène nouveau » – contrairement à ce qui a été dit tout à l’heure : « les enfants et les jeunes, dans leur construction identitaire et leur quête d’un sentiment d’utilité, sont plus enclins à être attirés par les idées et mouvements radicaux de différents types (politiques, idéologiques ou religieux) que des personnes d’autres tranches d’âge. Parmi ceux qui se sont radicalisés, certains se tournent vers la violence, avec des conséquences néfastes, comme l’Histoire l’a montré. »<br/>Ce soir, monsieur le ministre, nous avons évoqué l’entrisme sous différentes acceptions : radicalisation, complotisme, plateformes numériques douteuses, voire condamnables. Nous avons évoqué aussi, à juste titre, la laïcité. Vous nous avez dit également que vous comptiez sur l’islam modéré. Vous êtes aussi ministre des cultes ou délégué général aux cultes – je ne me rappelle plus le titre précis. Dans le dernier alinéa de la résolution précitée, l’APCE demandait instamment aux chefs religieux d’intensifier leurs efforts pour empêcher les jeunes de devenir un instrument de violence et de terreur. Quel dialogue avez-vous avec les responsables des cultes – de tous les cultes – à ce sujet ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842562" ordre_absolu_seance="236" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982961" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5789.88">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842563" ordre_absolu_seance="237" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3982962" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5796.48">D’abord, vous avez raison de dire que dans la tranche d’âge des plus jeunes, il peut y avoir une fascination pour certaines formes de violence et de radicalisation. C’est un phénomène que nous constatons actuellement. Certains jeunes, fascinés par la violence, d’où qu’elle vienne, ont été entravés dans ce mouvement sur le territoire national, mais la même chose s’est produite dans d’autres pays, notamment dans des démocraties occidentales. Ils peuvent adhérer aux thèses de l’islamisme radical ou à celles d’une ultradroite très violente. On observe effectivement dans cette tranche d’âge, chez les jeunes qui sont orientés sur de mauvais chemins, une propension très importante à basculer vers la radicalisation.<br/>Je ne sais pas s’il existe une autre appellation juridique, mais, pour ma part, je me considère effectivement comme le ministre des cultes et, à ce titre, je discute avec tous les cultes – je dis bien tous les cultes, donc évidemment avec l’islam. D’ailleurs, le terme d’islam modéré ne me plaît pas trop, car pour moi, l’islam est modéré.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842565" ordre_absolu_seance="239" id_acteur="PA774958" id_mandat="PM843389" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982964" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Gérard Leseul</nom>
+            <id>774958</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5848.55">C’est l’expression que vous avez employée !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842566" ordre_absolu_seance="240" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982965" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5862.77">Si je l’ai employée, alors je la corrige – ma langue a fourché. Il y a évidemment l’islamisme politique, que l’on combat, et puis il y a l’islam, avec lequel on dialogue. Comme vous le savez, mon prédécesseur a repris le chantier du Forum de l’Islam de France (Forif), lancé par Gérald Darmanin, au sein duquel on discute de nombreuses thématiques avec certaines structures.<br/>Je crois en effet que c’est par le dialogue et l’engagement des structures associatives cultuelles que l’on arrive à résoudre des difficultés, que l’on travaille sur les carrés confessionnels dans les cimetières et sur les actes antireligieux, dont les actes antimusulmans. Nous disposons évidemment de cet espace de dialogue. J’ai eu la chance et la joie d’ouvrir encore récemment au ministère de l’intérieur une session de travail avec le Forif. Donc oui, je discute en permanence avec l’ensemble des cultes : même si la structuration est différente en fonction des religions, nous avons un dialogue très riche avec tous les cultes.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842568" ordre_absolu_seance="242" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982967" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5894.91">La parole est à M. Gérard Leseul.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842569" ordre_absolu_seance="243" id_acteur="PA774958" id_mandat="PM843389" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3982968" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Gérard Leseul (SOC)</nom>
+            <id>774958</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5939.98">Merci pour ces informations, monsieur le ministre. Je ne doutais pas que vous ayez un dialogue fourni avec l’ensemble des responsables de cultes. Sur ces questions particulières, y a-t-il un programme ? Y a-t-il un dialogue interreligieux que vous organisez ou auquel vous participez pour lutter contre les formes de radicalisme ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842570" ordre_absolu_seance="244" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982969" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5966.93">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842571" ordre_absolu_seance="245" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3982970" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5969.59">Le contre-discours étatique sur la radicalisation religieuse est à double tranchant. S’agissant de l’islamisme, nous souhaitons évidemment que de nombreuses voix au sein de l’islam le combattent et expliquent ce que sont le Coran et la religion, notamment vis-à-vis des plus jeunes, qui peuvent entrer dans des formes de radicalisation – mais c’est vrai de toutes les religions. Nous en avons particulièrement besoin pour lutter contre la radicalisation islamiste. Ce dialogue vise aussi – pas que, mais aussi – à donner un espace d’expression à ces voix qui portent une autre parole, un contre-discours par rapport au discours radicalisé.<br/>Le Forif est aussi un espace de dialogue au sein duquel sont évoquées de nombreuses thématiques avec nos compatriotes de confession musulmane, comme celle des carrés confessionnels, que j’ai citée. Il s’agit d’une thématique importante sur laquelle je me suis penché, comme mes prédécesseurs. Je me réjouis de ce dialogue. Chaque fois que nous le pouvons, nous incitons au dialogue interreligieux, même si les différents responsables et représentants des religions se parlent déjà au sein de certaines instances.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842573" ordre_absolu_seance="247" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982972" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6059.14">La parole est à Mme Sophie Pantel.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842574" ordre_absolu_seance="248" id_acteur="PA841381" id_mandat="PM842966" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3982973" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sophie Pantel (SOC)</nom>
+            <id>841381</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6068.03">Je souhaite juste partager une réflexion, évoquée en réunion de bureau avec notre collègue Xavier Breton. Je pense qu’un vrai travail de fond doit être mené pour pouvoir partager une culture commune autour de la laïcité. Pour moi, celle-ci devrait faire partie de la devise de la République. On devrait pouvoir rajouter cette notion, dont on voit bien qu’elle est instrumentalisée : d’un côté, on a ceux qui vont en faire un combat presque de civilisation et, de l’autre, ceux qui vont s’efforcer de conférer à la religion une force supérieure à celle de la République.<br/>Nous ne mettons pas tous la même chose derrière la notion de laïcité, alors que nous venons de fêter les 120 ans de la loi de 1905. Un travail pourrait être mené au niveau de l’éducation nationale et de votre ministère, avec la formation des fonctionnaires. À l’Assemblée nationale, nous pourrions créer un groupe d’études sur la laïcité ; cela permettrait de faire avancer cette culture commune. La laïcité doit être un rempart face à l’entrisme pour pouvoir avancer ensemble.<br/>Permettez-moi de citer une phrase de Jean Jaurès – vous savez que la laïcité est un legs des socialistes à la République, du moins c’est ainsi que nous le vivons : « La République doit être laïque et sociale, mais restera laïque parce qu’elle aura su être sociale. » Si nous voulons lutter contre l’entrisme, il faut lutter contre d’autres difficultés en améliorant l’accès aux soins, l’accès à l’éducation, l’égalité territoriale, etc. C’est très large, même si nous avons eu une heure et demie pour en parler ce soir.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842577" ordre_absolu_seance="251" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982976" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6175.57">La parole est à M. le ministre, pour le mot de la fin.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842578" ordre_absolu_seance="252" id_acteur="PA759834" id_mandat="-1" id_nomination_oe="PM873646" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3982977" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Nuñez</nom>
+            <id>759834</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="6182.11">C’est une belle conclusion pour cette séance que celle consistant à évoquer la laïcité, principe auquel nous sommes tous attachés, chacun en fonction de son histoire personnelle – j’y suis tout particulièrement attaché. Vous avez raison de souligner l’importance de cette notion, que j’ai d’ailleurs moi-même évoquée au nom du gouvernement au moment des 120 ans de la loi de 1905. Nous aurons l’occasion, sans doute après les élections municipales, de réunir le comité interministériel de la laïcité – ce qui, sauf erreur, n’a encore jamais été fait. Le premier ministre a demandé qu’il se réunisse et il a également souhaité nommer une mission parlementaire, comme je l’avais indiqué en réponse à une question d’actualité, à la fois à l’Assemblée et au Sénat. Tout cela trouvera une traduction.<br/>Il faut relancer la réflexion et le débat sur la laïcité, car vous avez raison, celle-ci est parfois un peu dévoyée. Elle est parfois présentée comme étant oppressive et conçue pour lutter contre une religion, ce qui n’est absolument pas le cas, au contraire, comme vous le savez. Je sais que vous en êtes toutes et tous convaincus autour de cette table : la laïcité est d’abord un principe qui nous protège et qui nous permet de vivre ensemble, chacun dans nos diversités, quelles qu’elles soient, y compris religieuses.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2842580" ordre_absolu_seance="254" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982979" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6263.03">La séance de questions est terminée.</texte>
+      </paragraphe>
+    </point>
+    <finSeance>
+      <point nivpoint="1" valeur_ptsodj="2" ordinal_prise="6" id_preparation="2842582" ordre_absolu_seance="256" code_grammaire="FIN_SEAN_1_2" code_style="Titre" code_parole="" sommaire="1" id_syceron="3982981" valeur="">
+        <orateurs/>
+        <texte>Ordre du jour de la prochaine séance</texte>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2842583" ordre_absolu_seance="257" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="FIN_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3982982" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6265.84">Prochaine séance, demain, à quatorze heures :<br/> Questions au gouvernement ;<br/> Débat sur le thème : « Avenir des missions locales. »<br/> La séance est levée.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2842584" ordre_absolu_seance="258" code_grammaire="FIN_SEAN_2_4" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="3982983" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance est levée à vingt-trois heures.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2842585" ordre_absolu_seance="259" code_grammaire="FIN_SEAN_2_5" code_style="Signature droite" code_parole="" sommaire="0" id_syceron="3982984" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>Le directeur des comptes rendus<br/> Serge Ezdra</italique>
+          </texte>
+        </paragraphe>
+      </point>
+    </finSeance>
+  </contenu>
+</compteRendu>

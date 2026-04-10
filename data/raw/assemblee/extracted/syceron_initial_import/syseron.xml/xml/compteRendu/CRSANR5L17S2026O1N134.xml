@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compteRendu xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid>CRSANR5L17S2026O1N134</uid>
+  <seanceRef>RUANR5L17S2026IDS30298</seanceRef>
+  <sessionRef>SCR5A2026O1</sessionRef>
+  <metadonnees>
+    <dateSeance>20260130090000000</dateSeance>
+    <dateSeanceJour>vendredi 30 janvier 2026</dateSeanceJour>
+    <numSeanceJour>Unique</numSeanceJour>
+    <numSeance>134</numSeance>
+    <typeAssemblee>AN</typeAssemblee>
+    <legislature>17</legislature>
+    <session>Session ordinaire 2025 -2026</session>
+    <nomFichierJo>20260134</nomFichierJo>
+    <validite>valide</validite>
+    <etat>complet</etat>
+    <diffusion>public</diffusion>
+    <version>avant_JO</version>
+    <environnement>PROD</environnement>
+    <heureGeneration>2026-02-06T09:54:22.000+01:00</heureGeneration>
+    <sommaire>
+      <presidentSeance id_syceron="4005607">Présidence de M. Sébastien Chenu</presidentSeance>
+      <sommaire3>
+        <titreStruct id_syceron="4005636">
+          <intitule>
+            <italique>Suspension et reprise de la séance<br/></italique>
+          </intitule>
+        </titreStruct>
+      </sommaire3>
+      <sommaire1 valeur_pts_odj="1">
+        <titreStruct id_syceron="4005615">
+          <intitule>Projet de loi de finances pour 2026</intitule>
+          <sousIntitule>0</sousIntitule>
+        </titreStruct>
+        <para id_syceron="4005616"/>
+        <sommaire2>
+          <titreStruct id_syceron="4005618">
+            <intitule>Application de l’article 49, alinéa 3, de la Constitution</intitule>
+          </titreStruct>
+          <para id_syceron="4005620">M. Sébastien Lecornu, premier ministre</para>
+          <para id_syceron="4005623">M. le président</para>
+        </sommaire2>
+      </sommaire1>
+    </sommaire>
+  </metadonnees>
+  <contenu>
+    <quantiemes>
+      <journee>Séance du vendredi 30 janvier 2026</journee>
+      <session>Session ordinaire 2025 -2026</session>
+    </quantiemes>
+    <ouvertureSeance nivpoint="1" valeur_ptsodj="0" ordinal_prise="1" id_preparation="2863099" ordre_absolu_seance="1" code_grammaire="OUV_SEAN_1_1" code_style="Présidence" code_parole="" sommaire="1" id_syceron="4005607" valeur="">
+      <orateurs/>
+      <texte>Présidence de M. Sébastien Chenu<br/> vice-président</texte>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2863100" ordre_absolu_seance="2" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="OUV_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4005608" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1164.20">La séance est ouverte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2863101" ordre_absolu_seance="3" code_grammaire="OUV_SEAN_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4005609" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(La séance est ouverte à neuf heures cinq.)</italique>
+        </texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2863102" ordre_absolu_seance="4" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4005610" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1166.14">Monsieur le premier ministre, madame la ministre de l’action et des comptes publics, monsieur le ministre délégué chargé des relations avec le Parlement, je vais suspendre la séance dans l’attente de l’arrivée du président de la commission des finances – comme vous le souhaitiez, me semble-t-il.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2863103" ordre_absolu_seance="5" id_acteur="PA643210" id_mandat="-1" id_nomination_oe="PM873637" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4005611" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Sébastien Lecornu</nom>
+            <id>643210</id>
+            <qualite>premier ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1176.20">Combien de temps la séance sera-t-elle suspendue ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2863104" ordre_absolu_seance="6" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4005612" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1179.91">Quelques minutes – voire quelques instants.</texte>
+      </paragraphe>
+      <point nivpoint="99" valeur_ptsodj="0" ordinal_prise="1" id_preparation="2863104" ordre_absolu_seance="7" code_grammaire="SUSP_SEANCE_1_1" code_style="Suspension rappel" code_parole="" sommaire="1" id_syceron="4005636" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>Suspension et reprise de la séance</italique>
+        </texte>
+        <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2863104" ordre_absolu_seance="8" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="-1" id_nomination_op="PM873246" code_grammaire="SUSP_SEANCE_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4005637" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1182.64">La séance est suspendue.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2863104" ordre_absolu_seance="9" code_grammaire="SUSP_SEANCE_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4005638" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance, suspendue à neuf heures cinq, est reprise à neuf heures sept.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2863104" ordre_absolu_seance="10" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="-1" id_nomination_op="PM873246" code_grammaire="SUSP_SEANCE_2_3" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4005639" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1328.65">La séance est reprise.</texte>
+        </paragraphe>
+      </point>
+    </ouvertureSeance>
+    <point nivpoint="1" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2863107" ordre_absolu_seance="12" code_grammaire="TITRE_TEXTE_DISCUSSION" code_style="Titre" code_parole="" sommaire="1" id_syceron="4005615" valeur=" (n[[o]] 2410)">
+      <orateurs/>
+      <texte>Projet de loi de finances pour 2026</texte>
+    </point>
+    <point nivpoint="2" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2863108" ordre_absolu_seance="13" code_grammaire="SOUS_TITRE_TEXTE_DISCUSSION" code_style="Sous-tit_info" code_parole="" sommaire="1" id_syceron="4005616" valeur="">
+      <orateurs/>
+      <texte>Lecture définitive</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2863109" ordre_absolu_seance="14" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="ODJ_APPEL_DISCUSSION" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4005617" valeur=" (n[[os]] 2410)" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1330.33">L’ordre du jour appelle la discussion, en lecture définitive, du projet de loi de finances pour 2026 (n<exposant>o</exposant> 2410).</texte>
+      </paragraphe>
+    </point>
+    <point nivpoint="2" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2863110" ordre_absolu_seance="15" code_grammaire="49_3_1_10" code_style="Sous-tit_p_cap" code_parole="" sommaire="1" id_syceron="4005618" valeur="">
+      <orateurs/>
+      <texte>Application de l’article 49, alinéa 3, de la Constitution</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2863111" ordre_absolu_seance="16" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4005619" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1337.30">La parole est à M. le premier ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2863112" ordre_absolu_seance="17" id_acteur="PA643210" id_mandat="-1" id_nomination_oe="PM873637" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4005620" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Sébastien Lecornu</nom>
+            <id>643210</id>
+            <qualite>premier ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1341.17">La France doit avoir un budget. C’est pourquoi, devant cet hémicycle, j’engage la responsabilité du gouvernement sur l’ensemble du projet de loi de finances pour 2026<italique> (À</italique><italique> cet</italique><italique> instant,</italique><italique> plusieurs membres de la commission des finances,</italique><italique> dont</italique><italique> le</italique><italique> président, pénètrent dans l’hémicycle)</italique>,<italique>…</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2863113" ordre_absolu_seance="18" id_acteur="PA720892" id_mandat="PM840420" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4005621" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Mathilde Panot</nom>
+            <id>720892</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1349.60">On n’a pas le temps de revenir de la commission. C’est n’importe quoi !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2863114" ordre_absolu_seance="19" id_acteur="PA721202" id_mandat="PM840435" id_nomination_oe="-1" id_nomination_op="PM874688" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4005622" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Éric Coquerel</nom>
+            <id>721202</id>
+            <qualite>président de la commission des finances, de l’économie générale et du contrôle budgétaire</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1349.67">Oui, c’est incorrect !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2863112" ordre_absolu_seance="20" id_acteur="PA643210" id_mandat="-1" id_nomination_oe="PM873637" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4005630" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Sébastien Lecornu</nom>
+            <id>643210</id>
+            <qualite>premier ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1349.69">…sur la base de l’article 49, alinéa 3 de la Constitution.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2863115" ordre_absolu_seance="21" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4005623" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1354.83">L’Assemblée nationale prend acte de l’engagement de la responsabilité du gouvernement conformément aux dispositions de l’article 49, alinéa 3, de la Constitution. Le texte sur lequel le premier ministre engage la responsabilité du gouvernement sera inséré en annexe au compte rendu de la présente séance.<br/>En application de l’article 155, alinéa 1<exposant>er</exposant>, du règlement, le débat sur ce texte est immédiatement suspendu. Le projet de loi sera considéré comme adopté, sauf si une motion de censure, déposée avant demain, 9 h 08, est votée dans les conditions prévues à l’article 49 de la Constitution. Dans l’hypothèse où une motion de censure serait déposée, la conférence des présidents se réunira pour fixer la date et les modalités de sa discussion.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2863120" ordre_absolu_seance="23" code_grammaire="FIN_SEAN_2_4" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4005628" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(La séance est levée à neuf heures huit.)</italique>
+        </texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2863121" ordre_absolu_seance="24" code_grammaire="FIN_SEAN_2_5" code_style="Signature droite" code_parole="" sommaire="0" id_syceron="4005629" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>Le directeur des comptes rendus<br/> Serge Ezdra</italique>
+        </texte>
+      </paragraphe>
+    </point>
+  </contenu>
+</compteRendu>

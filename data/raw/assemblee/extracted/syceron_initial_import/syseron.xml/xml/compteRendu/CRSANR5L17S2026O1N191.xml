@@ -1,0 +1,1678 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compteRendu xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid>CRSANR5L17S2026O1N191</uid>
+  <seanceRef>RUANR5L17S2026IDS30424</seanceRef>
+  <sessionRef>SCR5A2026O1</sessionRef>
+  <metadonnees>
+    <dateSeance>20260402110000000</dateSeance>
+    <dateSeanceJour>jeudi 02 avril 2026</dateSeanceJour>
+    <numSeanceJour>Unique</numSeanceJour>
+    <numSeance>191</numSeance>
+    <typeAssemblee>AN</typeAssemblee>
+    <legislature>17</legislature>
+    <session>Session ordinaire 2025 -2026</session>
+    <nomFichierJo>20260191</nomFichierJo>
+    <validite>valide</validite>
+    <etat>complet</etat>
+    <diffusion>public</diffusion>
+    <version>avant_JO</version>
+    <environnement>PROD</environnement>
+    <heureGeneration>2026-04-04T10:47:55.000+02:00</heureGeneration>
+    <sommaire>
+      <presidentSeance id_syceron="4052990">Présidence de Mme Yaël Braun-Pivet</presidentSeance>
+      <sommaire1 valeur_pts_odj="1">
+        <titreStruct id_syceron="4052994">
+          <intitule>Démission et remplacement d’un député</intitule>
+          <sousIntitule>0</sousIntitule>
+        </titreStruct>
+      </sommaire1>
+      <sommaire1 valeur_pts_odj="2">
+        <titreStruct id_syceron="4052997">
+          <intitule>Nouvelle-Calédonie</intitule>
+          <sousIntitule>0</sousIntitule>
+        </titreStruct>
+        <para id_syceron="4052998"/>
+        <sommaire2>
+          <titreStruct id_syceron="4053000">
+            <intitule>Présentation</intitule>
+          </titreStruct>
+          <para id_syceron="4053002">Mme Naïma Moutchou, ministre des outre-mer</para>
+          <para id_syceron="4053373">M. Philippe Gosselin, rapporteur de la commission des lois constitutionnelles, de la législation et de l’administration générale de la République</para>
+        </sommaire2>
+        <sommaire2>
+          <titreStruct id_syceron="4053548">
+            <intitule>Motion de rejet préalable</intitule>
+          </titreStruct>
+          <para id_syceron="4053550">M. Emmanuel Tjibaou</para>
+          <para id_syceron="4053296">Mme Naïma Moutchou, ministre</para>
+          <para id_syceron="4053346">M. Florent Boudié, président de la commission des lois constitutionnelles, de la législation et de l’administration générale de la République</para>
+          <para id_syceron="4053359">M. Philippe Gosselin, rapporteur</para>
+          <para id_syceron="4053187">M. Arthur Delaporte (SOC)</para>
+          <para id_syceron="4053193">M. Nicolas Ray (DR)</para>
+          <para id_syceron="4053200">Mme Sandrine Rousseau (EcoS)</para>
+          <para id_syceron="4053205">Mme Anne Bergantz (Dem)</para>
+          <para id_syceron="4053209">Mme Agnès Firmin Le Bodo (HOR)</para>
+          <para id_syceron="4053212">M. Paul-André Colombani (LIOT)</para>
+          <para id_syceron="4053216">M. Davy Rimane (GDR)</para>
+          <para id_syceron="4053222">M. Maxime Michelet (UDR)</para>
+          <para id_syceron="4053426">Mme Marine Le Pen (RN)</para>
+          <para id_syceron="4053436">M. Nicolas Metzdorf (EPR)</para>
+          <para id_syceron="4053444">M. Bastien Lachaud (LFI-NFP)</para>
+        </sommaire2>
+      </sommaire1>
+      <sommaire1 valeur_pts_odj="3">
+        <titreStruct id_syceron="4053454">
+          <intitule>Ordre du jour de la prochaine séance</intitule>
+        </titreStruct>
+      </sommaire1>
+    </sommaire>
+  </metadonnees>
+  <contenu>
+    <quantiemes>
+      <journee>Séance du jeudi 02 avril 2026</journee>
+      <session>Session ordinaire 2025 -2026</session>
+    </quantiemes>
+    <ouvertureSeance nivpoint="1" valeur_ptsodj="0" ordinal_prise="1" id_preparation="2906333" ordre_absolu_seance="1" code_grammaire="OUV_SEAN_1_1" code_style="Présidence" code_parole="" sommaire="1" id_syceron="4052990" valeur="">
+      <orateurs/>
+      <texte>Présidence de Mme Yaël Braun-Pivet</texte>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2906334" ordre_absolu_seance="2" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="OUV_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4052991" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="871.81">La séance est ouverte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2906335" ordre_absolu_seance="3" code_grammaire="OUV_SEAN_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4052992" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(La séance est ouverte à onze heures.)</italique>
+        </texte>
+      </paragraphe>
+    </ouvertureSeance>
+    <point nivpoint="1" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2906337" ordre_absolu_seance="5" code_grammaire="TITRE_TEXTE_DISCUSSION" code_style="Titre" code_parole="" sommaire="1" id_syceron="4052994" valeur="">
+      <orateurs/>
+      <texte>Démission et remplacement d’un député</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2906338" ordre_absolu_seance="6" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4052995" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="874.25">Je vous indique que j’ai reçu de M. Bryan Masson, député de la sixième circonscription des Alpes-Maritimes, une lettre m’informant qu’il se démettait de son mandat de député à compter d’aujourd’hui. Acte est donné de cette démission qui sera notifiée au premier ministre.<br/>Par une communication du 1<exposant>er</exposant> avril, le ministre de l’intérieur m’a informée que M. Bryan Masson serait remplacé jusqu’au renouvellement de l’Assemblée nationale par M. Cyril Tribuiani, élu en même temps que lui à cet effet.</texte>
+      </paragraphe>
+    </point>
+    <point nivpoint="1" valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906340" ordre_absolu_seance="8" code_grammaire="TITRE_TEXTE_DISCUSSION" code_style="Titre" code_parole="" sommaire="1" id_syceron="4052997" valeur=" (n[[o]] 2529)">
+      <orateurs/>
+      <texte>Nouvelle-Calédonie</texte>
+    </point>
+    <point nivpoint="2" valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906341" ordre_absolu_seance="9" code_grammaire="SOUS_TITRE_TEXTE_DISCUSSION" code_style="Sous-tit_info" code_parole="" sommaire="1" id_syceron="4052998" valeur="">
+      <orateurs/>
+      <texte>Discussion d’un projet de loi constitutionnelle</texte>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906342" ordre_absolu_seance="10" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="ODJ_APPEL_DISCUSSION" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4052999" valeur=" (n[[os]] 2529, 2579)" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="903.67">L’ordre du jour appelle la discussion du projet de loi constitutionnelle, adopté par le Sénat, relatif à la Nouvelle-Calédonie (n<exposant>os</exposant> 2529, 2579).</texte>
+      </paragraphe>
+    </point>
+    <point nivpoint="2" valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906343" ordre_absolu_seance="11" code_grammaire="PRESENTATION_1_0" code_style="Sous-tit_p_cap" code_parole="" sommaire="1" id_syceron="4053000" valeur="">
+      <orateurs/>
+      <texte>Présentation</texte>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906344" ordre_absolu_seance="12" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053001" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="910.48">La parole est à Mme la ministre des outre-mer.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906345" ordre_absolu_seance="13" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053002" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre des outre-mer</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="946.90">Il arrive que le Parlement soit placé devant une responsabilité toute particulière dans l’histoire de la République. Alors, il ne peut pas se dérober : il doit dire clairement ce qu’il décide, ce qu’il respecte de la parole donnée et ce qu’il veut pour un territoire. Nous sommes à cet instant précis pour la Nouvelle-Calédonie. Il est 11 heures pour nous à Paris. Il est 20 heures pour les Calédoniens. La journée se termine pour beaucoup d’entre eux et, sans surprise, ils tournent le regard vers nous, vers cet hémicycle. Certains m’ont encore écrit, il y a quelques jours, pour me dire : « Je regarderai ce que vous allez dire ». Les Calédoniens nous écoutent et c’est bien normal. Ils veulent savoir si nous avons pris la mesure ici de ce qui se passe là-bas. Ils veulent comprendre ce que, dans les prochains jours, nous allons décider pour eux.<br/>Il faut bien mesurer ce qu’il y a derrière cette attente. La Nouvelle-Calédonie n’est pas un territoire comme les autres. Son histoire est complexe et elle est lourde. Elle est faite d’avancées, mais aussi de drames. Le moins que l’on puisse dire, c’est que ces dernières années ont été particulièrement éprouvantes pour les Calédoniens. Il y a eu les référendums, il y a eu les blocages, il y a eu les violences du mois de mai 2024, et tout cela a profondément marqué le territoire. Tout cela a installé un doute, celui de savoir si la Nouvelle-Calédonie pouvait encore avancer. Voilà d’où nous partons.<br/>Si nous sommes enfin réunis ici ce matin, ce n’est pas pour engager une simple réforme, c’est parce que, depuis des mois, des femmes et des hommes ont essayé de rouvrir un chemin là où beaucoup ne voyaient plus qu’une impasse. Ce chemin a un nom : Bougival. Bougival, c’est d’abord un moment politique. Après des mois de rupture, c’est le moment où tous les responsables calédoniens – tous – ont accepté de revenir autour d’une table, de se reparler, de se confronter dans leurs opinions pour aboutir à un accord de compromis.<br/>En Nouvelle-Calédonie, ce que je viens de vous décrire compte beaucoup, parce que ça ne va jamais de soi. Revenir autour d’une table après ce qui s’est passé, ce n’est pas rien. Faire des concessions qui n’étaient pas évidentes dans un territoire encore traversé par les blessures, ce n’est pas rien. Accepter un compromis quand on porte des histoires, des fidélités, des mémoires et parfois des incompatibilités profondes, ce n’est pas rien. Là-bas, on ne rassemble pas par facilité, on ne revient pas discuter pour le confort de la discussion, mais parce qu’on sait ce que coûte le face-à-face. C’est d’abord ça, Bougival : la réouverture tant attendue d’un espace politique commun. Je tiens à saluer le travail qui a été engagé par mon prédécesseur Manuel Valls et par tous ceux qui, avant lui, ont œuvré pour rendre ce moment possible.<br/>Disons-le d’emblée : ce que vous avez entre les mains, ce n’est pas un texte parfait et ça ne peut pas l’être, par nature. C’est le résultat d’un équilibre entre des visions différentes de l’avenir du territoire, entre ceux qui aspirent à l’indépendance et ceux qui veulent le maintien dans la République. En Nouvelle-Calédonie, précisément, c’est comme ça que l’on avance. Aucun des grands compromis calédoniens n’a jamais été parfait. Ni Matignon-Oudinot ni Nouméa. Tous ont été critiqués. Tous ont été contestés. Tous ont été jugés insuffisants par les uns ou excessifs par les autres. Et pourtant, tous ont eu une vertu essentielle : ils ont permis aux Calédoniens, à un moment de tension, de sortir du blocage et de se projeter.<br/>Voilà ce qu’il faut regarder. Je ne suis pas en train de vous dire que l’accord de Bougival serait de même nature que les grands accords qui l’ont précédé.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906350" ordre_absolu_seance="19" id_acteur="PA795746" id_mandat="PM843584" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053182" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Antoine Léaument</nom>
+            <id>795746</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1059.05">C’est clair !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906350" ordre_absolu_seance="20" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053181" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1187.27">Je ne confonds pas les moments de l’histoire. Je ne cherche pas les comparaisons faciles, mais je dis qu’il y a entre eux une même exigence d’esprit : l’esprit de responsabilité, l’esprit qui consiste à préférer un chemin imparfait à une impasse certaine. Cet esprit-là, Michel Rocard l’a porté. Cet esprit-là, Lionel Jospin l’a porté. Ce n’était pas l’esprit du confort, ce n’était pas plus l’esprit de la pureté, c’était l’esprit de ceux qui savent qu’en Nouvelle-Calédonie, on n’avance jamais par les slogans, mais par des équilibres fragiles, difficiles, discutés et parfois douloureux, mais nécessaires.<br/>Parlons donc de Bougival comme il faut en parler, sans le caricaturer, sans le mépriser, sans faire comme s’il ne contenait rien. Bougival, ce n’est pas une construction inventée à Paris, ni un engagement administratif. C’est le fruit des discussions des forces politiques calédoniennes, qui partent d’un constat simple. Le cycle référendaire prévu par l’accord de Nouméa est arrivé à son terme. Les trois consultations ont eu lieu. Elles ont produit un résultat. Par trois fois, le non à l’indépendance l’a emporté.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906351" ordre_absolu_seance="22" id_acteur="PA795746" id_mandat="PM843584" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053184" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Antoine Léaument</nom>
+            <id>795746</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1253.83">Et la dernière fois ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906351" ordre_absolu_seance="23" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053183" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1257.60">Mais elles ont abîmé le territoire en clivant davantage les deux camps et elles n’ont pas, à elles seules, stabilisé le territoire.<br/>Un nouveau cadre est proposé. C’est la reconnaissance d’un État de la Nouvelle-Calédonie dans la Constitution. C’est la reconnaissance d’une nationalité calédonienne qui coexiste avec la nationalité française. C’est la possibilité d’un transfert progressif des compétences régaliennes – sécurité, justice, monnaie, défense – sous des conditions de majorité qualifiée au Congrès et d’approbation par les Calédoniens de chaque transfert. Il ne s’agit pas de verrous, comme je l’ai entendu, mais de garanties démocratiques fortes, compte tenu de la nature des compétences transférées. En effet, transférer des compétences régaliennes n’est jamais un acte anodin. Cela engage la souveraineté, l’organisation de la justice, la sécurité et les équilibres financiers. Il est donc normal que la procédure soit exigeante. Elle assure que toute évolution ne pourra intervenir qu’à l’issue d’un choix clairement assumé, partagé et validé démocratiquement. C’est la création d’une loi fondamentale pour consacrer la capacité d’auto-organisation du territoire. C’est un processus d’autodétermination renouvelé et inédit, qui rompt avec le face-à-face pour proposer de construire des majorités élargies. Ce sont des avancées majeures. C’est le pari de la confiance entre les communautés.<br/>L’étape Élysée-Oudinot de janvier dernier s’inscrit dans ce prolongement. À l’invitation du président de la République, cette séquence a permis de consolider plusieurs points qui appelaient des clarifications à la demande des partenaires eux-mêmes. Sur l’identité d’abord, avec une chose claire : la reconnaissance de l’identité kanak comme socle fondamental, pleinement assumé et pleinement inscrit. Sur l’équilibre institutionnel ensuite, en réaffirmant le rôle essentiel des provinces pour le développement économique, dans un cadre garantissant la cohérence d’ensemble et la solidarité entre les territoires.<br/>Et puis, il y a le concret. Les partenaires calédoniens ont souhaité aller plus loin en complétant le pacte de refondation économique et sociale. Ce pacte incarne la volonté du premier ministre de soutenir le redressement du territoire. Il est structuré, financé et assumé. Près de 2 milliards d’euros sur la période 2026-2030, dans un contexte budgétaire que chacun sait contraint : c’est un engagement clair et fort de l’État, parce que notre priorité, c’est la relance. Dès cette année, et sans attendre, plus de 1 milliard d’euros seront investis pour recréer de l’activité et de l’emploi, avec des baisses d’impôts, des garanties bancaires et des outils de défiscalisation pour les entreprises touchées, pour investir dans les infrastructures dont le territoire a besoin, pour soutenir la filière nickel qui est au cœur de l’économie calédonienne, pour aider la jeunesse, avec des dispositifs d’engagement et d’insertion, pour redresser les finances publiques, en évitant l’asphyxie de l’endettement et, enfin, pour faire face à l’urgence sociale, parce qu’il y a des situations qui ne peuvent pas attendre.<br/>Voilà la réalité de ces textes : un cadre politique, des équilibres clarifiés et des moyens derrière. Avec Bougival, complété par Élysée-Oudinot, la Nouvelle-Calédonie peut à nouveau marcher sur ses deux jambes, institutionnelle et économique. Le minimum de respect que nous devons à cet effort des partenaires calédoniens, c’est au moins le débat : nous ne pouvons balayer ce texte d’un revers de main avant même d’en avoir débattu sérieusement. Depuis quand l’Assemblée nationale, qui a si souvent eu pour rôle de prendre le relais des compromis trouvés sur le terrain, considérerait-elle qu’elle n’a plus à assumer cette responsabilité ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906356" ordre_absolu_seance="28" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053013" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Plusieurs députés du groupe EPR</nom>
+            <id>0</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1399.89">Exactement !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906357" ordre_absolu_seance="29" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053014" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1485.27">Je tiens à parler clairement à chacun. À ceux qui expliquent qu’il faudrait attendre encore, je demande : attendre quoi ? Que les positions se rapprochent toutes seules ? Que les blessures se referment d’elles-mêmes ? Que l’incertitude institutionnelle finisse par produire la stabilité ? Personne n’y croit.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906358" ordre_absolu_seance="30" id_acteur="PA795746" id_mandat="PM843584" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053015" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Antoine Léaument</nom>
+            <id>795746</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1500.92">Et les élections ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906359" ordre_absolu_seance="31" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053016" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1501.79">À ceux qui disent qu’il faudrait tout reprendre à zéro, je demande : avec qui ? Sur quelle base ? Dans quel calendrier ? Avec quelle garantie de succès ? Là aussi, personne ne répond. À ceux qui s’apprêtent à voter la motion de rejet, je veux dire ceci : sur un sujet comme le dossier calédonien, une motion de rejet, ce n’est pas un simple vote de désaccord. C’est le refus même du débat.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906359" ordre_absolu_seance="32" id_acteur="PA795746" id_mandat="PM843584" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053225" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Antoine Léaument</nom>
+            <id>795746</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1522.77">Non !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906359" ordre_absolu_seance="33" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053224" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1522.91">C’est la décision de fermer la porte avant même d’avoir regardé ceux qui l’ouvrent. C’est dire que l’Assemblée nationale ne veut même pas aller au fond. Prenons garde que cette motion de rejet, si elle était votée, ne soit pas prise par nos compatriotes de Nouvelle-Calédonie comme une forme de mépris à leur égard, à l’égard des partenaires politiques engagés et de tous ceux d’entre eux qui attendent des réponses de la représentation nationale.<br/>À ceux qui ont organisé l’obstruction, je répète ce que j’ai déjà dit en commission et que j’assume : vous jouez dangereusement avec des allumettes et ça, c’est irresponsable.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906360" ordre_absolu_seance="35" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053227" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1555.18">Dites, on n’est pas des gosses !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906360" ordre_absolu_seance="36" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053226" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1560.09">Plus de 3 000 amendements ont été déposés – et quand je dis 3 000 amendements, je précise qu’il n’y a pas 3 000 idées, parce qu’il n’y a pas une seule ligne claire. Ces 3 000 amendements ont été déposés pour bâillonner la représentation nationale. Pourquoi ? Parce que vous n’essayez même plus de convaincre dans cet hémicycle. Vous cherchez à épuiser et à saturer.<italique> (Applaudissements sur</italique><italique> quelques bancs du groupe EPR.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906361" ordre_absolu_seance="37" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053018" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Plusieurs députés du groupe LFI-NFP</nom>
+            <id>0</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1577.96">Ils sont deux sur les bancs du groupe EPR !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906362" ordre_absolu_seance="38" id_acteur="PA717379" id_mandat="PM843374" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053019" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Sylvain Maillard</nom>
+            <id>717379</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1578.09">Et alors ? On est là ! Les autres arrivent !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906363" ordre_absolu_seance="39" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053020" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1578.23">Vous êtes une opposition qui bloque tout parce qu’elle n’a plus rien d’autre à faire que détruire. À chaque texte important, c’est désormais la même méthode : bloquer. Cette attitude est révélatrice de ce que vous êtes devenus : des saboteurs.<italique> (Exclamations</italique><italique> sur</italique><italique> les</italique><italique> bancs</italique><italique> du</italique><italique> groupe</italique><italique> LFI-NFP.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906363" ordre_absolu_seance="40" id_acteur="PA794166" id_mandat="PM842924" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053229" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Matthias Tavel</nom>
+            <id>794166</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1591.72">C’est vous les saboteurs !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906363" ordre_absolu_seance="41" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053228" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1594.13">On a le droit de contester. On a le droit de combattre un texte. Mais empêcher le débat comme vous le faites, il faut que chacun en mesure la portée : ce n’est pas neutre, parce que derrière ce texte, il y a un processus, et derrière ce processus, il y a un territoire, et dans ce territoire, il y a près de 300 000 femmes, hommes et enfants qui attendent des réponses.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906364" ordre_absolu_seance="42" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053021" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1619.65">Arrêtez de nous faire la leçon ! On n’est pas à l’école !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906365" ordre_absolu_seance="43" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053022" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1622.22">La Nouvelle-Calédonie, ce n’est ni un théâtre de tactiques parlementaires ni un terrain d’essai de démonstrations idéologiques. La Nouvelle-Calédonie mérite mieux que ça. Encore une fois, ce texte n’impose pas un avenir à la Nouvelle-Calédonie contre les Calédoniens, il crée précisément les conditions pour que ceux-ci puissent eux-mêmes se prononcer. Je tiens à insister sur ce point, puisqu’il est au cœur du projet de loi constitutionnelle : l’article 1<exposant>er</exposant> ouvre la possibilité d’une consultation, autrement dit, la possibilité d’un choix démocratique.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906366" ordre_absolu_seance="44" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053023" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1645.37">La possibilité !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906367" ordre_absolu_seance="45" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053024" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1651.01">Le cœur des évolutions qui sont prévues par le texte n’entrera en vigueur que si les Calédoniens eux-mêmes l’acceptent. Je pose donc la question : qui dans cet hémicycle peut vouloir empêcher ça ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906368" ordre_absolu_seance="46" id_acteur="PA717379" id_mandat="PM843374" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053025" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Sylvain Maillard</nom>
+            <id>717379</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1663.83">Eux !<italique> (M. Sylvain Maillard désigne les bancs de la gauche de l’hémicycle.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906369" ordre_absolu_seance="47" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053026" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Plusieurs députés des groupes LFI-NFP et GDR</nom>
+            <id>0</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1664.08">Nous !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906370" ordre_absolu_seance="48" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053027" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1664.32">Qui peut dire, la main sur le cœur, qu’il défend le peuple, la consultation, et l’expression démocratique, et, dans le même mouvement, refuser à la population concernée le droit de se prononcer sur son propre avenir institutionnel ? Aucun républicain, aucun démocrate sincère ne devrait pouvoir assumer cela à la légère.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906370" ordre_absolu_seance="49" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053294" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1684.66">Pas d’insultes ! Madame la présidente, dites à la ministre de se calmer !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="1" id_preparation="2906371" ordre_absolu_seance="50" id_acteur="PA717379" id_mandat="PM843374" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053028" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Sylvain Maillard</nom>
+            <id>717379</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1685.30">Mais c’est vrai, vous ne voulez pas qu’ils votent !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906372" ordre_absolu_seance="51" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053367" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1685.69">Nous avons ensemble une grande responsabilité : être à la hauteur de la Nouvelle-Calédonie, être à la hauteur de ce qu’elle vient de traverser et être à la hauteur de ceux qui, là-bas, ont accepté de prendre des risques. Parce qu’il faut le dire clairement : signer l’accord de Bougival, puis continuer à le soutenir alors même qu’il est contesté, ce n’est pas confortable. Ce n’est pas facile. Aujourd’hui, cinq forces politiques sur six tiennent cette ligne. Des indépendantistes, avec l’UNI-Palika – Union nationale pour l’indépendance-Parti de libération kanak –, des centristes et des progressistes, avec Éveil océanien et Calédonie ensemble, et des non-indépendantistes, avec le Rassemblement et les Loyalistes.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906372" ordre_absolu_seance="52" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053407" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1722.74">Il y a une force qui n’est pas sur cette ligne, et elle est présente !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906372" ordre_absolu_seance="53" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053406" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1724.12">Ils ont choisi de tenir, de ne pas rompre. Ils ont choisi de continuer à avancer depuis le 12 juillet dernier, date de la signature de l’accord de Bougival, malgré les pressions et malgré les critiques. Je veux leur rendre hommage.<br/>Je veux dire un mot en particulier pour les responsables de l’UNI-Palika, qui nous regardent aujourd’hui, depuis la tribune de cet hémicycle.<italique> (Applaudissements sur les bancs des groupes EPR, Dem et HOR.)</italique> Leur engagement compte. Leur lucidité, tout autant que leur courage, compte. Parce que dans cette histoire, l’avenir ne reviendra pas à ceux qui crient le plus fort ou à ceux qui bloquent tout. Il reviendra à ceux qui prennent des risques pour leur territoire. Je l’ai toujours dit parce que j’en suis convaincue : l’avenir appartient aux courageux.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906373" ordre_absolu_seance="55" id_acteur="PA842271" id_mandat="PM843776" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053408" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Emmanuel Maurel</nom>
+            <id>842271</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1742.53">Que de platitudes ! Que de banalités !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906374" ordre_absolu_seance="56" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053369" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1766.29">Et ceux-là, aujourd’hui, sont à la hauteur. Je suis prête, à la disposition de la représentation nationale, à répondre à toutes vos interrogations, sur le report des provinciales et la date choisie, sur le calendrier, sur le rôle des provinces, sur la loi organique dont les travaux ont débuté à Nouméa, sur la manière de sécuriser encore l’accord, si besoin.<br/>Mesdames et messieurs les députés, nous ne sommes pas au terme du processus. Il y aura encore des étapes. Il peut y avoir des ajustements et des discussions. Votre vote aujourd’hui n’est pas un point final. C’est un point de départ. Alors, que voulons-nous faire ? Est-ce que nous voulons fermer une porte, au risque de tout figer ? Ou est-ce que nous décidons de laisser vivre un processus ? Parce qu’en Nouvelle-Calédonie, l’alternative à un processus politique ouvert n’est jamais l’attente, mais l’incertitude. Et l’incertitude, là-bas, vous le savez, fragilise toujours la paix civile.<br/>Ne prenez pas le risque d’enterrer des compromis acquis de haute lutte. N’étouffez pas la seule dynamique politique à l’œuvre. Donnez une chance à ce processus. Parce qu’en Nouvelle-Calédonie, lorsqu’un chemin s’ouvre, même étroitement, la responsabilité de la République n’est pas de le refermer avant l’heure. C’est de lui permettre qu’il soit éprouvé par la démocratie, ici même. N’oublions pas que derrière ce texte, il y a des visages et des vies. Les Calédoniens nous écoutent : apportons-leur la seule réponse qui leur ouvre enfin des perspectives. Pour eux, mesdames et messieurs les députés, votez le projet de loi constitutionnelle !<italique> (Applaudissements sur les bancs des groupes EPR, Dem et HOR.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906376" ordre_absolu_seance="59" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053411" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1792.89">Il n’y a même pas dix députés pour applaudir !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906377" ordre_absolu_seance="60" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053372" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1861.09">La parole est à M. Philippe Gosselin, rapporteur de la commission des lois constitutionnelles, de la législation et de l’administration générale de la République.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906378" ordre_absolu_seance="61" id_acteur="PA266797" id_mandat="PM843071" id_nomination_oe="-1" id_nomination_op="-16861420" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053373" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Gosselin</nom>
+            <id>266797</id>
+            <qualite>rapporteur de la commission des lois constitutionnelles, de la législation et de l’administration générale de la République</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1889.20">Je veux m’adresser, en ce début de soirée en Nouvelle-Calédonie, à tous les habitants de ce territoire, quels que soient leurs horizons. L’histoire de la Nouvelle-Calédonie et de la France depuis 1853 est faite d’ombres et de lumière, comme le rappelle le préambule de l’accord de Nouméa, accord signé – faut-il le rappeler ?<italique> (L’orateur se tourne vers la gauche de l’hémicycle)</italique> – par Lionel Jospin lui-même, le 5 mai 1998.<br/>Depuis quarante ans, la Nouvelle-Calédonie est davantage entrée dans l’univers de tous les Français. Après des périodes de fortes tensions, après de trop nombreux morts, une voie a été trouvée avec les accords de Matignon, puis ceux de Nouméa. Plus de quatre ans après le dernier référendum d’autodétermination, la Nouvelle-Calédonie se trouve à nouveau à un moment décisif de son histoire institutionnelle. Le cycle ouvert par l’accord de Nouméa en 1998 s’est achevé avec la tenue de trois consultations d’autodétermination. Ce processus a permis de trancher, par la voie référendaire, la question de l’accession à la pleine souveraineté. Les conditions dans lesquelles s’est tenue la troisième consultation, avec le boycott du Front de libération nationale kanak et socialiste (FLNKS), font que certains en contestent l’approche.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906380" ordre_absolu_seance="63" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053375" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1911.06">Quand même !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906381" ordre_absolu_seance="64" id_acteur="PA266797" id_mandat="PM843071" id_nomination_oe="-1" id_nomination_op="-16861420" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053376" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Gosselin</nom>
+            <id>266797</id>
+            <qualite>rapporteur</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1954.63">Elles expliquent aussi que la question du futur cadre institutionnel du territoire demeure ouverte.<br/>Les événements survenus à partir du 13 mai 2024 ont rappelé combien l’équilibre institutionnel du territoire reste fragile et combien les questions institutionnelles peuvent être un sujet d’embrasement – nous l’avons constaté, hélas, avec la tentative de dégel du corps électoral. Ils ont aussi provoqué un choc économique et social sans précédent, d’une ampleur inédite en Nouvelle-Calédonie, avec une contraction du PIB de 13,5 % en 2024 – 13,5 % !<br/>C’est dans ce contexte qu’ont été engagées, en 2025, de nouvelles discussions entre l’État et les forces politiques calédoniennes. Ces discussions ont conduit à la signature de l’accord de Bougival le 12 juillet 2025, complété par l’accord Élysée-Oudinot du 19 janvier 2026. Le texte qui nous est soumis, un projet de loi constitutionnelle – auquel on aurait pu utilement éviter quelques soubresauts supplémentaires hier après-midi – vise précisément à donner une traduction constitutionnelle aux équilibres politiques issus de ces accords. J’insisterai en particulier sur trois éléments.<br/>Premièrement, l’accord de Bougival présente un caractère profondément novateur. C’est peut-être aussi la raison pour laquelle il perturbe tant. Il propose en effet une évolution institutionnelle qui ne se réduit ni au<italique> statu quo</italique> ni à l’accession immédiate à la pleine souveraineté. On a tenu particulièrement à éviter un effet binaire, tirant les conséquences de ce qui s’était passé ces dernières années – j’y reviendrai. L’accord prévoit la création d’un État de Nouvelle-Calédonie au sein de la République, doté d’une capacité d’auto-organisation particulièrement large, qui s’exprime notamment dans l’édiction d’une norme fondamentale. Cette capacité d’auto-organisation constitue une innovation institutionnelle majeure : elle permettra aux institutions calédoniennes de définir elles-mêmes l’organisation de leurs pouvoirs publics, dans le cadre fixé par la loi organique – elle-même majeure !<br/>Plus encore, l’accord ouvre la possibilité de transferts progressifs de compétences actuellement exercées par l’État, y compris dans les domaines régaliens. En réalité, le transfert complet des compétences régaliennes marquerait un accès à la pleine souveraineté. Cette conséquence a bien été rappelée et admise en commission des lois le 24 mars dernier. Le mécanisme prévu m’apparaît réellement comme une innovation majeure, dans un processus de décolonisation que l’on peut qualifier d’unique. Oui, il y a ici, avec l’accord de Bougival, complété par l’accord Élysée-Oudinot, un modèle totalement rénové du droit des peuples à disposer d’eux-mêmes.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906386" ordre_absolu_seance="69" id_acteur="PA795076" id_mandat="PM840366" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053381" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sandrine Rousseau</nom>
+            <id>795076</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2028.67">Ce n’est pas le sujet !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906387" ordre_absolu_seance="70" id_acteur="PA266797" id_mandat="PM843071" id_nomination_oe="-1" id_nomination_op="-16861420" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053382" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Gosselin</nom>
+            <id>266797</id>
+            <qualite>rapporteur</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="2122.38">Ce droit existe réellement ! L’innovation est très singulière : l’accès à l’autodétermination se fait par paliers, afin de limiter les conséquences d’un processus binaire. Si l’innovation est bien présente, l’esprit de Matignon et de Nouméa est cependant respecté et souffle encore sur les accords de juillet 2025 et de janvier 2026. Enfin, l’accord prévoit la reconnaissance d’une nationalité calédonienne et une réforme du corps électoral provincial qui serait élargi, dans un premier temps, à tous les natifs et aux personnes résidant depuis plus de quinze ans sur le territoire.<br/>Deuxième élément : cet accord s’inscrit pleinement dans la continuité du processus engagé depuis trente ans. Ce point est souvent débattu, mais il n’y a aucune ambiguïté. Depuis les accords de Matignon, puis l’accord de Nouméa, la gestion de la question calédonienne repose sur une méthode constante : le dialogue politique, la recherche du compromis et la construction progressive d’un statut adapté aux réalités du territoire. L’accord de Bougival ne rompt pas avec cette logique. Au contraire, il en constitue le prolongement et s’inscrit dans la même démarche : celle d’une évolution institutionnelle progressive, négociée entre les différentes sensibilités politiques et accompagnée par l’État.<br/>Enfin, troisième élément, l’un des apports essentiels de l’accord de Bougival est de permettre de dépasser la logique des référendums binaires, le face-à-face. Le processus prévu par l’accord de Nouméa reposait sur une alternative claire : rester dans la République ou accéder à la pleine souveraineté. La tenue des trois référendums, même dans des conditions particulières s’agissant du dernier,…</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906390" ordre_absolu_seance="73" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053385" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2173.55">Scandaleuses !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906391" ordre_absolu_seance="74" id_acteur="PA266797" id_mandat="PM843071" id_nomination_oe="-1" id_nomination_op="-16861420" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053386" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Gosselin</nom>
+            <id>266797</id>
+            <qualite>rapporteur</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="2224.44">…a permis l’expression démocratique de ces choix. Mais cette logique binaire a aussi montré ses limites, dans un territoire marqué par une forte diversité politique et historique et – je ne l’oublie nullement – une identité et une culture fortes.<br/>L’accord de Bougival propose précisément une voie intermédiaire. J’y insiste : l’accord ouvre la possibilité d’un modèle institutionnel original,<italique> sui generis</italique>, qui combine une large autonomie politique, une capacité d’auto-organisation renforcée et la perspective de transferts de compétences substantiels, tout en maintenant à ce stade l’appartenance à la République. En cela, il constitue indéniablement une tentative de dépassement des clivages qui structurent bien trop fortement le débat institutionnel calédonien depuis plusieurs années.<br/>Il ne m’a évidemment pas échappé que ces orientations ne font pas l’unanimité parmi les forces politiques du territoire. Le principal mouvement indépendantiste, le FLNKS, est opposé à cet accord. Rappelons cependant que ces textes sont le résultat de plusieurs mois de négociations et qu’ils ont été soutenus par cinq des six principales forces politiques calédoniennes : l’UNI-Palika, les Loyalistes, le Rassemblement, Éveil océanien et Calédonie ensemble. Autrement dit, il s’agit à ce stade, même s’il n’est pas parfait, du seul compromis politique ayant émergé après de nombreuses années de discussions.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906394" ordre_absolu_seance="77" id_acteur="PA841633" id_mandat="PM843182" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053389" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Peio Dufau</nom>
+            <id>841633</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2309.69">C’est faux !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906395" ordre_absolu_seance="78" id_acteur="PA266797" id_mandat="PM843071" id_nomination_oe="-1" id_nomination_op="-16861420" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053390" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Gosselin</nom>
+            <id>266797</id>
+            <qualite>rapporteur</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="2317.11">Dans ces conditions, il semble nécessaire de respecter les équilibres de ces accords, même s’ils sont instables et compliqués – j’en conviens –, et même s’ils peuvent paraître très imparfaits. Refuser de donner une traduction constitutionnelle à ce compromis reviendrait sans nul doute à prolonger l’incertitude institutionnelle dans laquelle se trouve plongé le territoire depuis la fin du cycle référendaire.<br/>Or nous mesurons bien, au-delà de nos différences et de nos sensibilités, que le territoire a besoin de visibilité, notamment institutionnelle. Il a aussi besoin de prévisibilité : c’est une condition essentielle d’une autre relance, la relance économique. Qui investirait dans un territoire, dans des entreprises, dans des projets sans pouvoir se projeter dans l’avenir, sans connaître en amont le cadre d’intervention ? Personne, évidemment ! Cela vaut pour toutes les activités économiques, y compris pour le nickel, et pour tous les territoires – donc aussi pour la Nouvelle-Calédonie. Même si l’État a bien disjoint la reconstruction ou l’abandon des créances de la réforme institutionnelle, il faut être réaliste. Les nombreuses difficultés sociales du territoire et, sans doute ici plus qu’ailleurs, l’avenir de la jeunesse et les problèmes qu’elle rencontre doivent nous unir.<br/>Malheureusement, ces arguments n’ont pas convaincu la majorité des commissaires aux lois : la semaine dernière, la commission a en effet rejeté successivement l’ensemble des articles du présent projet de loi constitutionnelle.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906398" ordre_absolu_seance="81" id_acteur="PA795746" id_mandat="PM843584" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053393" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Antoine Léaument</nom>
+            <id>795746</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2359.40">Un par un !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906399" ordre_absolu_seance="82" id_acteur="PA266797" id_mandat="PM843071" id_nomination_oe="-1" id_nomination_op="-16861420" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053394" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Gosselin</nom>
+            <id>266797</id>
+            <qualite>rapporteur</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="2410.98">Je prends acte du rapport de force ainsi établi, qui préfigure l’adoption vraisemblable – mais sait-on jamais ? – de la motion de rejet préalable qui sera défendue dans quelques instants. En tout cas, malgré tout et à ce stade, je tiens à souligner la qualité des échanges que nous avons eus en commission.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906400" ordre_absolu_seance="83" id_acteur="PA795746" id_mandat="PM843584" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053395" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Antoine Léaument</nom>
+            <id>795746</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2428.00">C’est vrai !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906401" ordre_absolu_seance="84" id_acteur="PA266797" id_mandat="PM843071" id_nomination_oe="-1" id_nomination_op="-16861420" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053396" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Gosselin</nom>
+            <id>266797</id>
+            <qualite>rapporteur</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="2428.20">J’estime que, sur certains points, ils nous ont permis d’ouvrir des perspectives, malgré les blocages.<br/>Pour conclure et pour essayer d’ouvrir nos débats, le projet de loi constitutionnelle que nous examinons ne prétend pas résoudre à lui seul, c’est évident, l’ensemble des difficultés et des questions de toute nature qui traversent la société calédonienne.<br/>Je le rappelais en introduction : sans aucun doute, les relations anciennes entre la France et la Nouvelle-Calédonie ont été faites de hauts et de bas, d’ombres et de lumière. Nul ne peut oublier qu’il y avait un peuple premier possédant des droits indéniables, « inaliénables et sacrés », pour reprendre, en se gardant de tout anachronisme, la formule du préambule de la Déclaration des droits de l’homme et du citoyen. Mais nul ne peut davantage oublier qu’il y a eu une colonie de peuplement…</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906403" ordre_absolu_seance="87" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053539" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2474.62">Un crime !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="2" id_preparation="2906403" ordre_absolu_seance="88" id_acteur="PA266797" id_mandat="PM843071" id_nomination_oe="-1" id_nomination_op="-16861420" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053538" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Gosselin</nom>
+            <id>266797</id>
+            <qualite>rapporteur</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="2475.26">…une histoire particulière liée au bagne et à la Commune, qui s’est enrichie depuis d’autres cultures et d’autres apports et dont les droits sont tout aussi indéniables, inaliénables et sacrés.<br/>Ici plus qu’ailleurs s’exprime l’universalité de notre pays, dans sa diversité, dans sa richesse aussi. Il reste évidemment beaucoup à faire pour apaiser les choses et mieux se comprendre, pour assurer et faire vivre la diversité. Le rééquilibrage et l’évolution proposés dans ce projet de loi constitutionnelle sont la pleine démonstration que la France peut entendre la voix des peuples, leur volonté de disposer d’eux-mêmes, sans que l’on soit obsédé par l’homogénéité des statuts, notamment en cas d’éloignement géographique ou pour des raisons historiques. Cette affirmation est non seulement un acte de foi dans le génie juridique dont on a fait preuve depuis trente ou quarante ans, mais aussi une orientation, et même un objectif, pour les mois et pour les années à venir en Nouvelle-Calédonie.<br/>Oui, ce matin, nous allons très vraisemblablement acter que ce projet de loi constitutionnelle ne fixera pas le nouveau cadre institutionnel – pourtant audacieux ! – de la Nouvelle-Calédonie. Toutefois, j’espère profondément et sincèrement qu’il constituera une base solide de réflexion et de propositions pour trouver un nouvel accord, vital, pour tout le territoire et pour tous ses habitants.<br/>Ne repartons pas d’une page blanche. Dès maintenant, j’appelle le gouvernement et toutes les parties prenantes à ne pas rester au milieu du gué. Avançons, encore et encore, inlassablement, dans les prochaines semaines, même à pas lents, mais avançons !<br/>Souhaitons, toujours dans l’esprit du préambule de l’accord de Nouméa, que le futur demeure, dans le respect mutuel et sans naïveté ou idéalisme excessif, celui d’un destin commun à écrire, assurément, à plusieurs mains. C’est un destin qui, dans tous les cas, doit nous unir, dans les valeurs de la République que nous partageons et autour de l’État de droit.<italique> (Applaudissements</italique><italique> sur</italique><italique> plusieurs</italique><italique> bancs</italique><italique> des</italique><italique> groupes</italique><italique> EPR,</italique><italique> DR,</italique><italique> Dem</italique><italique> et</italique><italique> HOR.)</italique></texte>
+      </paragraphe>
+    </point>
+    <point nivpoint="2" valeur_ptsodj="2" ordinal_prise="3" id_preparation="2906483" ordre_absolu_seance="93" code_grammaire="MOTION_RP_1_1" code_style="Sous-tit_p_cap" code_parole="" sommaire="1" id_syceron="4053548" valeur=" (n[[o]] 2529)">
+      <orateurs/>
+      <texte>Motion de rejet préalable</texte>
+      <interExtraction nom_orateur="M. Emmanuel Tjibaou" id_acteur="PA842299" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM843791">
+        <paragraphe valeur_ptsodj="2" ordinal_prise="3" id_preparation="2906484" ordre_absolu_seance="94" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="MOTION_RP_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053549" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>721908</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2608.43">J’ai reçu de M. Stéphane Peu et des membres du groupe de la Gauche démocrate et républicaine une motion de rejet préalable déposée en application de l’article 91, alinéa 5, du règlement.<br/> La parole est à M. Emmanuel Tjibaou.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="3" id_preparation="2906485" ordre_absolu_seance="95" id_acteur="PA842299" id_mandat="PM843791" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053550" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Emmanuel Tjibaou</nom>
+              <id>842299</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2664.22">Nous voici une nouvelle fois réunis pour examiner un texte qui, sous couvert d’urgence, n’entend pas simplement répondre aux crises que traverse la Nouvelle-Calédonie, mais engager son avenir institutionnel et, au-delà, son avenir démocratique. Un texte qui vise à constitutionnaliser un projet d’accord non consensuel et que le gouvernement a choisi de présenter dans la précipitation, sans véritable recherche de compromis entre l’ensemble des partenaires, des signataires originels de l’accord de Nouméa.<br/>Bougival, c’est la rupture du processus de décolonisation – pas un texte ou une négociation de plus : une rupture. C’est une manière d’ignorer que, dans ce pays, il y a un peuple qui existe depuis plus de 3 000 ans et qui a été colonisé par la France à partir du 24 septembre 1853. Bougival, c’est l’effacement d’un trait de plume de ce que nos aînés ont méticuleusement préparé, négocié, décidé afin de sortir tous ensemble, la tête haute, de ce piège de l’histoire – ses blessures, ses violences, ses révoltes. Il y a eu l’Union calédonienne de « deux couleurs, un seul peuple ». Il y a eu Nainville-les-Roches et la reconnaissance, par les représentants du peuple kanak, des victimes de l’histoire. Il y a eu ensuite les accords de Matignon-Oudinot, puis l’accord de Nouméa. Nous avions inventé un processus de décolonisation novateur, qui devait déboucher sur une émancipation du pays, qui créait les conditions d’un partenariat d’avenir avec la France. Cette perspective n’existe plus. De ce processus original, vous fermez la porte.<br/>C’est plus qu’un passage en force : la destruction du patrimoine politique commun de notre pays touchant la décolonisation. Sur le fond, cette évolution, que vous cherchez à présenter comme la continuité naturelle de l’accord de Nouméa, constitue un renoncement. En 1998, la trajectoire clairement définie au point 4 du préambule de l’accord de Nouméa constituait entre l’État français, le Rassemblement pour la Calédonie dans la République (RPCR) et le FLNKS un engagement fort : « la pleine reconnaissance de l’identité kanak, préalable à la refondation d’un contrat social entre toutes les communautés qui vivent en Nouvelle-Calédonie, et par un partage de souveraineté avec la France, sur la voie de la pleine souveraineté », la France se disant alors « prête à accompagner la Nouvelle-Calédonie dans cette voie ».<br/>Bougival nous propose un État de la Nouvelle-Calédonie associé à une nationalité et susceptible d’être reconnu par la communauté internationale. Tout cela reste bien symbolique : en droit international, un État souverain ne peut exister à l’intérieur d’un autre. Il s’agit d’un modèle d’autonomie interne, non d’une décolonisation externe, d’autant que la nationalité calédonienne n’aura d’existence qu’à condition d’être rattachée à la nationalité française.<br/>Le transfert de compétences régaliennes devient théoriquement possible, mais soumis à un triple verrou : une majorité qualifiée de 64 %, soit trente-six des cinquante-six voix du Congrès, l’accord discrétionnaire de l’État et le référendum, qui rend l’accès à la souveraineté pratiquement impossible. L’accord Élysée-Oudinot ajoute que si, par miracle, toutes les compétences régaliennes venaient à être transférées, cela ne constituerait pas l’indépendance : les partenaires devraient se réunir afin d’en tirer les conséquences. Pour nous il s’agit d’un statut pérenne, sinon définitif, dans la France.<br/>S’agissant du dispositif institutionnel, Bougival prévoit trois niveaux : la Constitution, une loi organique rédigée par l’État et une loi fondamentale propre à la Nouvelle-Calédonie, adoptée par son Congrès à la majorité des trois cinquièmes. Cette dernière étant subordonnée aux deux autres, la marge réelle d’auto-organisation demeure limitée : l’autonomie dépend entièrement de la volonté du Parlement français, exprimée par la loi organique.<br/>S’agissant de l’identité kanak, ce projet de loi constitutionnelle rompt avec les équilibres juridiques hérités de l’accord de Nouméa : il marque notamment la reprise en main par l’État du statut civil coutumier, restreignant le champ de la coutume au profit des principes du droit français. L’immatriculation des Kanaks au répertoire national d’identification des personnes physiques (RNIPP), perçue comme une réintégration implicite dans la nationalité française, relève clairement d’une logique d’assimilation : le peuple kanak devient ainsi une simple composante du peuple calédonien, auquel est désormais confié le droit à l’autodétermination. Cette réorientation politique profonde, inversant la logique de l’accord de Nouméa, ne saurait être assimilée à une décolonisation conforme aux résolutions de l’ONU et au droit international.<br/>Nouméa constituait un accord de rééquilibrage politique, social et économique. L’accord de Bougival est un projet de détricotage de ces équilibres. On retire des élus au Nord et aux îles au profit de la province Sud ; chaque province pourra disposer librement de sa propre fiscalité. L’hyperprovincialisation instaurée par le texte mettra un terme à la construction d’une communauté de destin. C’est un début, un risque avéré de partition que dessine l’accord de Bougival et que veut constitutionnaliser le projet de loi.<br/>Deux mots suffisent à justifier, aux yeux du FLNKS, le rejet de cet accord et de sa traduction législative – dans son contenu, plus seulement dans son inspiration : « décolonisation » et « irréversibilité », qui étaient au centre de l’accord de Nouméa.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="3" id_preparation="2906493" ordre_absolu_seance="104" id_acteur="PA795746" id_mandat="PM843584" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053582" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Antoine Léaument</nom>
+              <id>795746</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2700.29">Eh oui !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="3" id_preparation="2906493" ordre_absolu_seance="105" id_acteur="PA842299" id_mandat="PM843791" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053581" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Emmanuel Tjibaou</nom>
+              <id>842299</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3009.57">Le préambule du projet d’accord de Bougival stipule que les dispositions de l’accord de Nouméa qui ne lui sont pas contraires demeurent en vigueur, mais c’est un masque : trop de dispositions, dans l’accord de Bougival, contredisent celui de Nouméa. Celui-ci se proposait de jeter en Nouvelle-Calédonie Kanaky les bases d’une véritable démocratie ; Bougival entend s’imposer en procédant, si le texte passe, à un quatrième report des élections provinciales, du jamais vu sous la V<exposant>e</exposant> République.<br/>Si le texte ne passe pas, l’État entend consulter directement les populations calédoniennes, mais en dégelant le corps électoral en vigueur au moment des consultations référendaires liées à l’accord de Nouméa, ce qui reviendrait à lancer une quatrième consultation référendaire, certes facultative, sur l’autodétermination du pays, en augmentant le handicap électoral des indépendantistes. C’est incroyable alors que le discours que nous entendons de la part de l’État, de certains partenaires loyalistes, consiste à attribuer les divisions actuelles du pays à la répétition des consultations référendaires ! Nul doute pourtant que celle envisagée par le gouvernement aura pour effet de cliver plus encore le pays, non de le rassembler.<br/>Vous souhaitez donner la parole aux Calédoniens : commencez par les provinciales<italique> (Applaudissements sur les bancs des groupes GDR et LFI-NFP ainsi que sur quelques bancs du groupe EcoS)</italique>, comme le rappelle le Conseil constitutionnel – qui a d’ailleurs confirmé, dans une décision du 19 septembre 2025, la conformité à la Constitution du corps électoral constant. Maintenir des élections n’empêche en rien la poursuite du dialogue.<italique> (« Eh</italique><italique> oui ! »</italique><italique> sur</italique><italique> les</italique><italique> bancs</italique><italique> du</italique><italique> groupe</italique><italique> LFI-NFP.)</italique> Afin de justifier les reports successifs des provinciales depuis juillet 2024, vous nous aviez dit : attention aux troubles ! Or les législatives, sénatoriales, municipales se sont tenues et ont démontré le contraire : les électeurs ont privilégié le dialogue par le seul usage du vote. Dès lors, pourquoi refuser à la crise actuelle cette issue démocratique ? Les municipales ont d’ailleurs été marquées par l’émergence de nouveaux mouvements apolitiques, ce qui renforcera certainement la légitimité du débat démocratique pour la suite des discussions.<br/>Par ailleurs, pourquoi refuser d’entendre ce que nous dit la jeunesse de notre pays, notamment la jeunesse urbaine des quartiers, de la banlieue de Nouméa, qui, le 13 mai 2024, a laissé éclater son désespoir de n’être pas reconnue ? Désespoir qui s’est traduit par la mort de quatorze personnes, dont onze Kanaks – parmi lesquels une jeune fille de 17 ans. Je pense à eux, à mon pays, à ma terre, économiquement et socialement abattue. Je suis las de toujours vous répéter le message de nos vieux. Demain, madame la ministre, notre jeunesse n’aura que faire de la lassitude. Que ferez-vous quand cette lassitude se muera en colère ? Comme en 1984, en 1988, en 2024<italique> (Applaudissements sur les bancs des groupes GDR et LFI-NFP ainsi que sur quelques bancs du groupe EcoS)</italique>, vous prendrez des décisions qui laisseront le pays abîmé, car vous aurez rendu la colère plus juste. Il faut que ce soit un indépendantiste qui vous le dise : quand le pays kanak est abîmé, le visage de la France l’est aussi<italique> (Mêmes mouvements)</italique>, non qu’ils se confondent, mais parce qu’en tant que puissance colonisatrice vous en avez la responsabilité. Ne vous y trompez pas : quand vous prenez des décisions qui mènent au chaos, vous compromettez la place de la France dans le Pacifique.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="3" id_preparation="2906497" ordre_absolu_seance="109" id_acteur="PA736201" id_mandat="PM840423" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053562" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Sophie Taillé-Polian</nom>
+              <id>736201</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3040.61">Et c’est bien malheureux !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="3" id_preparation="2906498" ordre_absolu_seance="110" id_acteur="PA842299" id_mandat="PM843791" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053563" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Emmanuel Tjibaou</nom>
+              <id>842299</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3211.32">Au-delà de vous, madame la ministre, au-delà de votre gouvernement, je voudrais m’adresser au peuple de France, ce grand peuple fier qui a toujours su résister, défendre son indépendance et sa liberté. Je lui apporte du fin fond du Pacifique les valeurs d’un vieux peuple, de tous ceux qui, d’horizons différents, ont choisi ou été contraints de vivre avec lui, de partager sa terre. C’est au nom des valeurs de la coutume, des valeurs de la France, que nous menons le combat pour notre émancipation. Hier, alors que nous n’avions pas le droit de vote, que nous étions parqués dans des réserves, nos anciens, en 1914 puis en 1940, sont venus défendre la France.<italique> (Applaudissements sur les bancs des groupes GDR et LFI-NFP ainsi que sur quelques bancs du groupe EcoS.)</italique> Certains reposent toujours dans les cimetières militaires du Nord et de l’Est.<br/>Ces tirailleurs kanak n’étaient pas seuls : ils avaient à leurs côtés des Calédoniens d’origine européenne, asiatique ou océanienne. C’est dans la solidarité du front, la boue des tranchées, qu’a commencé à se forger le processus de décolonisation calédonienne, qui s’appuie sur deux piliers puissants et simples : respect du peuple kanak, reconnaissance de celles et de ceux qui se sont enracinés dans cette terre. Ce socle a ensuite été conforté au pays par les luttes sociales communes, le travail de nos Églises, les relations tissées à l’école ou dans les stades, les unions, les mariages, les discussions politiques. Ce processus, innovant mais fragile, honore à la fois la Kanaky Nouvelle-Calédonie et la France. C’est pourquoi je lance cet appel au peuple de France, à vous, collègues, représentants du peuple : ne laissez pas détruire de façon systématique ce que nous avons patiemment et méticuleusement construit ensemble.<br/>Je ne reconnais pas la France quand la France choisit la voie d’une obstination qui vire parfois à l’obsession. Quand la France, voyant dans son histoire récente le chemin ouvert par Michel Rocard, Lionel Jospin, François Mitterrand, Jacques Chirac, s’engage dans la voie mortifère suivie par Bernard Pons. Quand la France arme un bataillon de juristes pour trouver un subterfuge qui lui permettrait de contourner sa propre Constitution et de passer par-dessus la représentation nationale. Quand elle n’honore pas ses engagements constitutionnels touchant l’émancipation de la Nouvelle-Calédonie. Ne vous en déplaise, sa vocation est d’accompagner la Kanaky Nouvelle-Calédonie vers l’émancipation<italique> (Applaudissements sur quelques bancs des groupes GDR, LFI-NFP et EcoS)</italique>, non de la retarder, semer des obstacles sur le chemin, imaginer des verrous juridiques qui se révéleront autant de lignes Maginot inopérantes.<br/>La France ne se grandit pas en cherchant à ignorer son histoire, notre histoire, surtout pas à vouloir encore une fois marginaliser le peuple kanak dans son propre pays. Cela fait plus de 3 000 ans, je le répète, que notre petit peuple résiste aux cyclones, aux épidémies, aux fouets de la colonisation, à la mondialisation ; demain, après-demain, je vous le dis, nous serons là. Nous serons là afin d’affirmer que le combat pour la dignité n’a pas de prix ; nous avons soif de recouvrer nos droits reconnus par la France, en 1983, à Nainville-les-Roches – la légitimité du premier occupant, le droit inné et actif à l’indépendance.<br/>Il est temps que tout cela s’arrête, que nous retrouvions l’esprit de consensus de l’accord de Nouméa ; mais comment voulez-vous débattre dans le bruit et la fureur, le désordre et la désunion qu’entraînent votre texte ici même comme au pays ? Chez nous, au fond de la case, en face de la grande porte d’entrée, derrière l’emplacement du foyer, se trouve ce que l’on appelle en drehu le<italique> hnexôt</italique> – l’endroit où se transmettent l’histoire, les contes, les légendes. Au<italique> hnexôt</italique>, les paroles se murmurent ; les mots comme les silences y sont aussi importants que les postures, un équilibre respectueux y règne, donne de la force au moment, de la puissance aux énoncés à voix basse. Le pays a plus que jamais besoin de se retrouver : votre texte l’interdit. Que la France tienne ses engagements, elle sera grande et respectée.<br/>Je m’adresse à vous en tant que Kanak, héritier de valeurs ancestrales, mais aussi en tant que député, détenteur d’une partie de la souveraineté de la nation française. Le Kanak et le député vous le répètent : que la France respecte ses engagements et achève la trajectoire de décolonisation, la France sera grande et respectée. Cette grandeur, ce respect passent par le rejet du projet de loi constitutionnelle.<italique> (Les députés des groupes GDR, LFI-NFP et EcoS se lèvent et applaudissent. – Applaudissements sur plusieurs bancs du groupe SOC, dont quelques députés se lèvent également.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906504" ordre_absolu_seance="116" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053295" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3520.72">La parole est à Mme la ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906505" ordre_absolu_seance="117" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053296" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3541.49">Quelques mots pour vous convaincre de ne pas adopter cette motion de rejet, eu égard aux propos du député Tjibaou et aux expressions publiques de certains, entendues ces derniers jours.<br/>Si elle était adoptée, cette motion aurait une conséquence très simple et très lourde : nous ramener au point mort. Il faut le dire clairement. Elle nous ramènerait des années en arrière, et ce serait tout sauf une bonne nouvelle pour le territoire.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906507" ordre_absolu_seance="119" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053298" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3556.57">Vous l’avez déjà dit !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906508" ordre_absolu_seance="120" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053299" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3571.87">Si vous rejetez ce texte, alors je dois poser la question que tous les Calédoniens se posent : que proposez-vous à la place ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906509" ordre_absolu_seance="121" id_acteur="PA717379" id_mandat="PM843374" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053300" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Sylvain Maillard</nom>
+            <id>717379</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3579.74">Eh oui !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906510" ordre_absolu_seance="122" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053301" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3580.32">Le vide politique n’est pas un scénario acceptable et vous le savez ; c’est même un danger, demain, pour les Calédoniens. Que proposez-vous concrètement à la Nouvelle-Calédonie dès aujourd’hui ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906511" ordre_absolu_seance="123" id_acteur="PA795746" id_mandat="PM843584" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053302" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Antoine Léaument</nom>
+            <id>795746</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3591.54">Des élections !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906512" ordre_absolu_seance="124" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053303" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3592.55">Quel cadre ? Quelle méthode ? Quelle issue ? Quelles perspectives ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906512" ordre_absolu_seance="125" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053541" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3598.73">Ce n’était pas la peine de revenir à la tribune pour répéter ce que vous aviez déjà dit !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906513" ordre_absolu_seance="126" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053304" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3599.81">Car tout ne s’arrête pas là, avec le vote d’une éventuelle motion de rejet : tout cela rejaillit sur le quotidien des Calédoniennes et des Calédoniens. Si vous rejetez ce texte, comment évitez-vous l’enlisement ?<br/>J’ai entendu parler de l’accord de Kanaky. Que propose-t-il concrètement ? L’indépendance, toute l’indépendance et rien que l’indépendance. Ce n’est pas ce qu’on appelle un compromis. C’est une rupture. Vous le savez, personne n’est en mesure d’en assumer les conséquences. Personne.<br/>J’ai entendu parler de l’accord de Deva. Cet accord n’a jamais existé. Il n’a jamais été ne serait-ce qu’une idée partagée et assumée collectivement par les partenaires calédoniens.<br/>Ni Kanaky ni Deva ; il n’y a pas d’autre accord, pas d’alternative en dehors de l’accord de Bougival qui, lui, est bien un texte de compromis qui réunit et engage des indépendantistes, des non-indépendantistes, des centristes, des progressistes du territoire, soit cinq des six forces politiques de Nouvelle-Calédonie. C’est un fait qui ne peut pas être balayé d’un revers de main.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906517" ordre_absolu_seance="130" id_acteur="PA794166" id_mandat="PM842924" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053308" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Matthias Tavel</nom>
+            <id>794166</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3617.12">Vous l’avez déjà dit ! Vous vous répétez.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906518" ordre_absolu_seance="131" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053309" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3669.25">Bougival est bien un point de passage.<br/>Rejeter, c’est facile ; c’est construire, malgré les pressions, qui est une épreuve.<br/>Il y a ceux qui invoquent l’absence du FLNKS dans l’accord de Bougival. Je l’entends.<italique> (« Ah ! » sur quelques bancs du groupe LFI-NFP.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906520" ordre_absolu_seance="134" id_acteur="PA720846" id_mandat="PM840441" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053542" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Bastien Lachaud</nom>
+            <id>720846</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3671.87">Ce n’est pas rien !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906521" ordre_absolu_seance="135" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053312" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3685.14">Mais regardons les choses en face. Dès le premier jour, et dans la continuité de mes prédécesseurs, ma méthode a toujours été la même : la transparence, le dialogue, l’information de tous. Ma porte n’a jamais été fermée. Tous les sujets ont été mis sur la table sans aucun tabou. Il n’y a pas eu de discussion cachée ni de texte imposé. Les nombreux temps d’échanges ont toujours permis de garder un dialogue ouvert.<br/>Dire que l’absence du FLNKS justifierait de tout arrêter, c’est inverser les responsabilités. Ce n’est pas en faisant tomber le seul cadre politique qui existe, ce n’est pas en cassant le seul point d’équilibre, que l’on recréera du dialogue. Ça n’a pas de sens.<br/>Je veux le dire clairement, parce que chacun doit prendre ses responsabilités. Le FLNKS a signé. Une signature, ça compte. Ça engage. On ne peut pas faire comme si ça n’avait jamais existé.<italique> (Protestations sur les bancs des groupes LFI-NFP et GDR. – Applaudissements sur les bancs des groupes EPR, Dem et HOR.)</italique><br/>Par la suite, le FLNKS a retiré sa signature – dont acte – et il a décidé de ne jamais revenir autour de la table…<italique> (Exclamations sur les bancs du groupe LFI-NFP.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906524" ordre_absolu_seance="139" id_acteur="PA795876" id_mandat="PM843725" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053543" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Davy Rimane</nom>
+            <id>795876</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3737.98">Respectez vos interlocuteurs, au moins !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906525" ordre_absolu_seance="140" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053316" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3761.93">…sans clarifier les conditions d’un retour, alors même que tous les sujets restaient ouverts et que toutes les garanties étaient là. La politique de la chaise vide ne peut pas dicter l’avenir d’un territoire.<italique> (Exclamations sur les bancs des groupes LFI-NFP, EcoS et GDR.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906526" ordre_absolu_seance="141" id_acteur="PA795746" id_mandat="PM843584" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053317" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Antoine Léaument</nom>
+            <id>795746</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3775.62">Dites ça à LR !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906527" ordre_absolu_seance="142" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053318" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3776.18">Sinon, que fait-on ? On attend ? Et on attend combien de temps ?<br/>Est-ce qu’on accepte que ce sujet devienne un objet de confrontation dans le débat national au gré des échéances politiques à venir ? Est-ce qu’on suspend tout, au risque de fragiliser un territoire pris dans une spirale de récession ?<italique> (Mêmes mouvements.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906529" ordre_absolu_seance="144" id_acteur="PA721210" id_mandat="PM843677" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053320" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Alexis Corbière</nom>
+            <id>721210</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3785.72">Arrêtez d’engueuler tout le monde !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906530" ordre_absolu_seance="145" id_acteur="PA721202" id_mandat="PM840435" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053321" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Éric Coquerel</nom>
+            <id>721202</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3796.11">Faites des élections !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906531" ordre_absolu_seance="146" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053322" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3798.14">La Nouvelle-Calédonie, c’est 15 points de PIB en moins, c’est 15 000 emplois détruits, c’est une situation économique et sociale désastreuse.<italique> (Vives exclamations sur les bancs du groupe LFI-NFP.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906532" ordre_absolu_seance="147" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053323" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3805.77">Vous êtes venue pour faire la leçon ? Nous ne sommes pas à l’école !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906533" ordre_absolu_seance="148" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053324" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3807.72">Vous aurez la parole plus tard. Laissez la ministre s’exprimer, s’il vous plaît.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906534" ordre_absolu_seance="149" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053325" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3811.40">Est-ce qu’on fait semblant de ne pas voir ce qui se passe sur le terrain ?<italique> (Mêmes mouvements.)</italique> On ne peut pas laisser l’absence de certains bloquer l’ensemble d’un processus qui concerne tous les Calédoniens.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906534" ordre_absolu_seance="150" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053545" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3816.44">Vous, vous pouvez partir, vous verrez que ça ira tout de suite mieux !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906534" ordre_absolu_seance="151" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053544" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3824.59">En responsabilité, nous avançons avec ceux qui sont là. Le consensus, ce n’est pas l’unanimité. S’il fallait attendre que tout le monde soit d’accord, il n’y aurait jamais eu ni les accords de Matignon en 1988 ni l’accord de Nouméa en 1998.<br/>Le consensus, ce n’est pas la perfection, ce n’est pas une unanimité de façade ; c’est un point d’équilibre.<br/>À ceux qui ne veulent rien construire et qui en appellent comme toujours au chaos, je dis que nous ne laisserons pas faire.<italique> (Vives protestations sur les bancs des groupes LFI-NFP, EcoS et GDR.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906538" ordre_absolu_seance="154" id_acteur="PA795076" id_mandat="PM840366" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053329" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sandrine Rousseau</nom>
+            <id>795076</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3848.62">C’est la démocratie !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906539" ordre_absolu_seance="155" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053330" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3852.14">Nous ne laisserons pas répercuter vos manœuvres sur le territoire.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906539" ordre_absolu_seance="156" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053547" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3855.98">Le droit international, ça vous dit quelque chose ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906539" ordre_absolu_seance="157" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053546" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3857.85">Certains mettent en avant l’économie, parce que le sujet économique est important : je vous invite à aller au bout du raisonnement ! Il n’y a pas de redressement économique durable s’il n’y a pas d’horizon politique. Il n’y a pas d’investissement ni de confiance sans stabilité.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906540" ordre_absolu_seance="158" id_acteur="PA791812" id_mandat="PM840384" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053331" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sophia Chikirou</nom>
+            <id>791812</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3872.11">C’est la menace, maintenant ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906541" ordre_absolu_seance="159" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053332" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3872.69">L’État, lui, a pris sa part avec un engagement financier massif : 2 milliards d’euros d’investissement jusqu’en 2030, dont 1 milliard pour l’année 2026. Des projets concrets ont été lancés, avec un début d’exécution en ce moment même sur le territoire. Des projets ont été identifiés : construction de ponts, de routes, financement du transport scolaire ou de cantines scolaires.<italique> (Exclamations</italique><italique> sur</italique><italique> les</italique><italique> bancs</italique><italique> des</italique><italique> groupes</italique><italique> LFI-NFP</italique><italique> et</italique><italique> GDR.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906541" ordre_absolu_seance="160" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053570" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3896.60">Elle va parler combien de temps comme ça ? Ce n’est pas normal de laisser le gouvernement faire ça !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906541" ordre_absolu_seance="161" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053569" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3898.17">L’effort est réel. Mais sans stabilité institutionnelle, il ne produira pas tous ses effets.<italique> (Exclamations sur les bancs des groupes LFI-NFP,</italique><italique> EcoS</italique><italique> et GDR.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906542" ordre_absolu_seance="162" id_acteur="PA795076" id_mandat="PM840366" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053333" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sandrine Rousseau</nom>
+            <id>795076</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3903.12">Votre réponse est honteuse !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906543" ordre_absolu_seance="163" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053334" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3903.15">Vous le savez, l’incertitude n’attire pas les investisseurs et nous le comprenons tous. La réponse institutionnelle est donc essentielle.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906543" ordre_absolu_seance="164" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053571" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3911.20">On l’a fait une fois, on a vu ce que ça a donné.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906544" ordre_absolu_seance="165" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053335" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3913.02">J’entends ceux qui comptent rejeter le texte aujourd’hui pour reprendre les discussions après les élections provinciales. C’est une illusion dangereuse. Sans trajectoire et sans point d’appui, vous ne préparez pas des discussions, vous risquez la reproduction du face-à-face.<br/>Rejeter ce texte en se disant qu’on verra plus tard, c’est décider de ne rien voir venir, alors que l’accord de Bougival existe ; il est certes imparfait, mais il ouvre la voie et offre des perspectives. En le rejetant, vous tournez le dos à un chemin politique qui s’est ouvert. Et pour certains, vous tournez le dos à l’un de vos partenaires historiques, l’UNI-Palika.<br/>Je le répète, chacun est libre de contester le contenu de ce texte, mais pour cela, encore faut-il que nous puissions entamer le débat. Encore faut-il que nous puissions engager la discussion sur les amendements de fond que certains ont proposés.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906546" ordre_absolu_seance="168" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053573" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3932.89">On va déjà voter et après, on verra !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906546" ordre_absolu_seance="169" id_acteur="PA720846" id_mandat="PM840441" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053574" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Bastien Lachaud</nom>
+            <id>720846</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3957.49">C’est dur de perdre, hein ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906546" ordre_absolu_seance="170" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053572" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3975.91">À défaut, les Calédoniens risquent de percevoir cela comme une motion de mépris à leur égard.<br/>Deux options s’offrent à vous : soit vous fermez la seule voie existante en votant pour cette motion de rejet, soit vous laissez une chance à ce processus. Ne prétendez pas que le rejet de ce texte ouvrirait une quelconque solution : c’est faux.<br/>Je terminerai par une citation. Au moment de la signature de l’accord de Bougival, monsieur le député Tjibaou, vous avez déclaré…<italique> (« Regardez-le dans les yeux ! Ne lisez pas votre papier ! » sur les bancs du groupe GDR. – Exclamations sur les bancs du groupe LFI-NFP.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906549" ordre_absolu_seance="173" id_acteur="PA794166" id_mandat="PM842924" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053340" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Matthias Tavel</nom>
+            <id>794166</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4004.62">Ce sont des méthodes de voyou !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906550" ordre_absolu_seance="174" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053341" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4030.76">J’aimerais entendre la fin de l’intervention de Mme la ministre dans le calme, s’il vous plaît.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906551" ordre_absolu_seance="175" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053342" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4040.23">Vous avez déclaré : « Choisir ce chemin qui est difficile, qui est nouveau, c’est se mettre à l’épreuve de la critique, se faire menacer, insulter, parce que nous avons choisi un chemin différent ».</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906552" ordre_absolu_seance="176" id_acteur="PA793444" id_mandat="PM840270" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053343" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Manuel Bompard</nom>
+            <id>793444</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4055.81">C’est une honte !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906553" ordre_absolu_seance="177" id_acteur="PA720908" id_mandat="-1" id_nomination_oe="PM873678" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053344" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Naïma Moutchou</nom>
+            <id>720908</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4056.34">Je rappelle ces mots sans jugement, mais ils expriment quelque chose de vrai. Ce chemin n’a jamais été simple, mais il est nécessaire pour les Calédoniens. Pour ces raisons, je vous demande de ne pas voter pour la motion de rejet.<italique> (Applaudissements sur les bancs des groupes EPR, Dem et HOR.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906554" ordre_absolu_seance="178" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053345" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4070.67">La parole est à M. le président de la commission des lois constitutionnelles, de la législation et de l’administration générale de la République.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906555" ordre_absolu_seance="179" id_acteur="PA606507" id_mandat="PM842834" id_nomination_oe="-1" id_nomination_op="PM873364" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053346" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Florent Boudié</nom>
+            <id>606507</id>
+            <qualite>président de la commission des lois constitutionnelles, de la législation et de l’administration générale de la République</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4077.69">Je serai économe de mots, mais je dois dire que je regrette d’entendre des éclats de voix et des propos déshonorants alors que nous abordons le sujet particulièrement sensible de l’avenir de la Nouvelle-Calédonie.<italique> (Applaudissements sur les bancs des groupes EPR et Dem. – Exclamations sur les bancs des groupes LFI-NFP et EcoS.)</italique><br/>Certains mots, prononcés à l’instant, sont inadmissibles quand on sait combien la situation sur le territoire néo-calédonien est grave.<br/>Je regrette tout particulièrement la motion de rejet sur laquelle nous allons voter dans quelques instants, qui n’est qu’une étape de l’obstruction parlementaire imposée par l’opposition avec ses 3 200 amendements.<italique> (Exclamations sur les bancs des groupes LFI-NFP et EcoS.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906558" ordre_absolu_seance="182" id_acteur="PA795076" id_mandat="PM840366" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053349" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sandrine Rousseau</nom>
+            <id>795076</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4108.43">Ça s’appelle la démocratie !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906559" ordre_absolu_seance="183" id_acteur="PA606507" id_mandat="PM842834" id_nomination_oe="-1" id_nomination_op="PM873364" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053350" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Florent Boudié</nom>
+            <id>606507</id>
+            <qualite>président de la commission des lois</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4129.16">Certes, la commission des lois a repoussé le projet de loi constitutionnelle relatif à la Nouvelle-Calédonie.<italique> (« Ah ! » sur les bancs des groupes LFI-NFP et EcoS.)</italique><br/>Mais comme l’a souligné M. le rapporteur, les débats en commission ont démontré que l’on peut tout à fait présenter, confronter nos positions et nos analyses sur cette question sérieuse de manière civique.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906561" ordre_absolu_seance="185" id_acteur="PA795076" id_mandat="PM840366" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053352" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sandrine Rousseau</nom>
+            <id>795076</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4143.41">C’est ce qu’on fait !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906562" ordre_absolu_seance="186" id_acteur="PA606507" id_mandat="PM842834" id_nomination_oe="-1" id_nomination_op="PM873364" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053353" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Florent Boudié</nom>
+            <id>606507</id>
+            <qualite>président de la commission des lois</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4154.78">Il serait regrettable que ce dialogue laisse place, dans quelques instants, au silence dans l’hémicycle, alors que l’avenir de la Nouvelle-Calédonie exige d’être traité avec sérieux.<br/>Sur ce sujet, rien ne se fera sans le dialogue.<italique> (Exclamations sur les bancs du groupe LFI-NFP.)</italique> Rien ne se fera sans le compromis. Quelle que soit l’issue du vote sur la motion de rejet, nous n’échapperons pas à notre responsabilité.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906564" ordre_absolu_seance="188" id_acteur="PA720892" id_mandat="PM840420" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053355" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Mathilde Panot</nom>
+            <id>720892</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4184.21">La vôtre !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906565" ordre_absolu_seance="189" id_acteur="PA606507" id_mandat="PM842834" id_nomination_oe="-1" id_nomination_op="PM873364" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053356" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Florent Boudié</nom>
+            <id>606507</id>
+            <qualite>président de la commission des lois</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4189.73">Il faudra, d’une façon ou d’une autre, que le dialogue se poursuive dans l’esprit de Bougival.<italique> (Applaudissements sur les bancs du groupe EPR.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906566" ordre_absolu_seance="190" id_acteur="PA717379" id_mandat="PM843374" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053357" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Sylvain Maillard</nom>
+            <id>717379</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4197.82">Très bien !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906567" ordre_absolu_seance="191" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053358" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4202.31">La parole est à M. le rapporteur.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906568" ordre_absolu_seance="192" id_acteur="PA266797" id_mandat="PM843071" id_nomination_oe="-1" id_nomination_op="-16861420" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053359" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Gosselin</nom>
+            <id>266797</id>
+            <qualite>rapporteur</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4206.53">Je m’adresse à l’ensemble des collègues de cet hémicycle, et plus particulièrement à ceux de certains bancs et à M. Emmanuel Tjibaou qui a défendu la motion de rejet, pour essayer une ultime fois de les persuader en toute sincérité que ce projet de loi constitutionnelle est profondément novateur. Il ne nie jamais le droit des peuples à disposer d’eux-mêmes, lequel s’exprime simplement selon des modalités différentes du modèle que nous connaissons depuis 1946, depuis la IV<exposant>e</exposant> République et l’indépendance de plusieurs pays d’Afrique intervenue dans les années 1960.<br/>Il s’agit d’un processus très singulier, particulier,<italique> sui generis</italique>. L’histoire de la Nouvelle-Calédonie, si elle est faite d’ombres et de lumière, est marquée par un destin commun, une envie de vivre ensemble, je dirais presque une nécessité dans cette zone pacifique si convoitée.<br/>Ce n’est pas simplement le respect dû à un peuple, c’est aussi un avenir que nous devons écrire en commun, avec de la prévisibilité et de la visibilité.<br/>Rien ne peut tenir sans durée. Rien ne peut s’écrire sans confiance. Je crains qu’avec l’interruption des débats, nous ne repartions dans un cycle incertain. Cette incertitude joue contre les plus modestes, et je crois que personne ne le souhaite.<br/>Cher collègue, vous avez évoqué le cas de la jeunesse, comme je l’ai fait dans mon intervention. Cette incertitude joue aussi contre la jeunesse, qui attend beaucoup de l’avenir de la Nouvelle-Calédonie.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906573" ordre_absolu_seance="197" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053364" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4248.04">C’est pour ça qu’on rejette !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="4" id_preparation="2906574" ordre_absolu_seance="198" id_acteur="PA266797" id_mandat="PM843071" id_nomination_oe="-1" id_nomination_op="-16861420" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053365" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Gosselin</nom>
+            <id>266797</id>
+            <qualite>rapporteur</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4342.64">Il nous faut retrouver le chemin des négociations. Il faut s’écouter. Il faut travailler. C’est l’avenir non seulement d’un peuple mais aussi d’un territoire qui est en jeu. Pour que demain, nous ne soyons pas dans le noir. Pour qu’il n’y ait pas que des ombres, mais que l’on finisse par trouver la lumière : celle qui, je l’espère, peut nous réunir.<italique> (Applaudissements sur les bancs des groupes EPR, Dem et HOR.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906446" ordre_absolu_seance="199" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053186" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4376.70">Nous en venons aux explications de vote.<br/>La parole est à M. Arthur Delaporte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906447" ordre_absolu_seance="201" id_acteur="PA793394" id_mandat="PM842486" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053187" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Arthur Delaporte (SOC)</nom>
+            <id>793394</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4402.39">Il y a une semaine, nous rendions ici hommage à Lionel Jospin. Sur la Nouvelle-Calédonie, il avait su, dans la continuité de l’action de Michel Rocard, imposer une méthode exigeante. Il l’a rappelé au moment de la crise de mai 2024 : « Pour sortir du mieux possible de l’actuelle épreuve, il faut impérativement renouer avec le désir de concorde et la recherche du consensus qui ont guidé les forces politiques néo-calédoniennes quand elles étaient assurées de l’impartialité de l’État. »<br/>Fidèles à cet héritage et conformément à l’engagement historique des socialistes dans ce processus de décolonisation singulier, nous ne pouvons, madame la ministre, soutenir le texte qui nous est présenté, parce qu’il n’est pas consensuel – contrairement à ce que notre assemblée avait exigé en novembre dernier, tous les efforts n’ont pas été entrepris à cette fin –, et parce que des zones d’ombre persistent, M. le rapporteur l’a rappelé.<br/>Peut-on en conscience trancher à la place des acteurs calédoniens sur des sujets non résolus aussi déterminants que le devenir des compétences régaliennes transférées ? Notre commission a montré que c’était un enjeu. Peut-on constitutionnaliser en laissant subsister le risque d’une hyperprovincialisation, ou du flou sur les garanties nécessaires à l’exercice effectif du droit à l’autodétermination ?<br/>Ce texte créerait un précédent inquiétant. Utiliser la Constitution pour reporter des élections, alors que le juge constitutionnel a estimé que la loi ne permettait pas de le faire au-delà du mois de juin, serait une première dans notre histoire républicaine. Fidèles à l’esprit des accords, vigies des libertés démocratiques et d’un processus de décolonisation jusqu’ici exemplaire, nous rejetterons dès aujourd’hui ce texte, afin d’éviter l’enlisement du processus.<br/>Toutefois, nous ne fermons aucune porte. Je le dis à celles et ceux qui ont œuvré avec conviction à l’accord de Bougival et à ses innovations : après les élections provinciales, de nouvelles discussions pourront s’appuyer sur ce qui fait consensus pour aboutir à un accord durable. C’est notre mission – c’est votre mission – ; nous y participerons.<italique> (Applaudissements sur les bancs du groupe SOC.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906452" ordre_absolu_seance="206" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053192" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4538.52">La parole est à M. Nicolas Ray.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906453" ordre_absolu_seance="207" id_acteur="PA793094" id_mandat="PM842327" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053193" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Nicolas Ray (DR)</nom>
+            <id>793094</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4551.45">Alors que nous abordons aujourd’hui l’examen d’un texte majeur pour l’avenir de la Nouvelle-Calédonie, notre groupe regrette solennellement l’obstruction organisée sur ce texte,…</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906454" ordre_absolu_seance="208" id_acteur="PA795310" id_mandat="PM840453" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053194" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Clémence Guetté</nom>
+            <id>795310</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4562.42">Les députés du groupe DR ne sont pas là !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906455" ordre_absolu_seance="209" id_acteur="PA793094" id_mandat="PM842327" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053195" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Nicolas Ray</nom>
+            <id>793094</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4563.41">…avec plus de 3 000 amendements déposés, et désormais une motion de rejet. L’obstruction, vous le savez, c’est l’affaiblissement du Parlement et la négation du débat parlementaire. Alors que la Nouvelle-Calédonie traverse une crise politique, économique et sociale, et que les Néo-Calédoniens attendent de nous de la clarté et des réponses, certains empêchent le débat.<br/>Notre devoir de parlementaires, c’est de débattre afin de construire un avenir commun pour la Nouvelle-Calédonie, au sein de la République, à laquelle les Néo-Calédoniens ont réaffirmé leur attachement à trois reprises.<italique> (Exclamations sur les bancs du groupe LFI-NFP.)</italique> Notre devoir, c’est de débattre pour construire une communauté de destin entre les différentes composantes de la société calédonienne, dans le respect de chacun, notamment de l’identité kanak, et définir un cadre institutionnel capable de rassembler les sensibilités.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906457" ordre_absolu_seance="211" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053197" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Un député du groupe RN</nom>
+            <id>0</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4613.59">Il faudrait déjà rassembler LR !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906458" ordre_absolu_seance="212" id_acteur="PA793094" id_mandat="PM842327" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053198" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Nicolas Ray</nom>
+            <id>793094</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4617.51">Notre devoir, c’est de répondre à l’instabilité, qui est un poison pour le développement économique et pour l’accompagnement social de ce territoire. C’est pour cela que le dialogue et le débat sont plus que jamais nécessaires ; nous rejetterons cette motion de rejet.<italique> (Exclamations sur les bancs du groupe LFI-NFP. – Applaudissements sur les bancs des groupes EPR et HOR.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906459" ordre_absolu_seance="213" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053199" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4638.61">La parole est à Mme Sandrine Rousseau.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906460" ordre_absolu_seance="214" id_acteur="PA795076" id_mandat="PM840366" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053200" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sandrine Rousseau (EcoS)</nom>
+            <id>795076</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4652.76">« Tous les peuples ont le droit de libre détermination ; en vertu de ce droit, ils déterminent librement leur statut politique et poursuivent librement leur développement économique, social et culturel ». Ces mots puissants et sans appel sont consacrés par la Déclaration sur l’octroi de l’indépendance aux pays et aux peuples coloniaux, adoptée par l’Assemblée générale de l’ONU le 14 décembre 1960.<br/>À l’heure où l’actualité révèle chaque jour davantage une défiance croissante à l’égard du droit international, à l’heure où trop de peuples, de la Palestine au Kurdistan, sont encore délibérément privés de leur droit à l’autodétermination et niés dans leur existence même<italique> (Applaudissements sur les bancs des groupes EcoS et GDR ainsi que sur quelques bancs du groupe LFI-NFP)</italique>, un pays comme la France, qui s’est longtemps enorgueillie d’être la patrie des droits de l’homme, et dont l’histoire coloniale impose une responsabilité particulière, a le devoir de défendre sans ambiguïté ce principe fondamental du droit international.<br/>C’est dans cet esprit qu’a été conduit durant quarante années le processus de décolonisation en Kanaky Nouvelle-Calédonie. Ce chemin exigeant, patiemment construit, est aujourd’hui profondément compromis par la détermination d’Emmanuel Macron et de ses ministres successifs à imposer leur vision néocoloniale du dossier, et par l’entêtement du président à maintenir le troisième référendum malgré l’opposition du FLNKS, alors que le territoire était plongé dans un deuil coutumier kanak, provoquant le boycott massif des indépendantistes.<br/>Je le dis avec force, chers collègues, l’Assemblée nationale française ne peut cautionner la légitimité de ce scrutin sur l’indépendance, auquel les indépendantistes n’ont pas pu participer. Il n’existe par ailleurs aucun accord de Bougival, et encore moins un consensus de Bougival. Le gouvernement doit désormais assumer pleinement sa responsabilité politique, en retirant son texte et en convoquant sans délai les élections provinciales, seules à même de désigner légitimement celles et ceux qui traceront l’avenir de la relation entre la France et la Kanaky Nouvelle-Calédonie. Le groupe Écologiste et social votera évidemment cette motion de rejet préalable.<italique> (Applaudissements sur les bancs du groupe EcoS, LFI-NFP et GDR. – M. Peio Dufau applaudit également.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906464" ordre_absolu_seance="218" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053204" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4799.95">La parole est à Mme Anne Bergantz.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906465" ordre_absolu_seance="219" id_acteur="PA805166" id_mandat="PM849145" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053205" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Anne Bergantz (Dem)</nom>
+            <id>805166</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4808.49">Dans un moment comme celui-ci, la procédure cesse d’être un outil parlementaire pour devenir une insulte à la gravité du sujet que nous devons traiter. La Nouvelle-Calédonie, encore meurtrie par les émeutes de 2024, nous regarde et mérite mieux. Quel spectacle lui offrons-nous ? Celui d’une double dérobade : d’un côté, cette motion de rejet, qui voudrait évacuer un débat pourtant nécessaire ; de l’autre, pas moins de 3 298 amendements déposés, dont une grande partie relèvent clairement de l’obstruction, pour noyer ce texte.<br/>Ce blocage n’est pas une politique ; c’est une absence de courage et un renoncement au débat. Comment ne pas souligner d’ailleurs l’incroyable hypocrisie de nos collègues de La France insoumise dans leur démarche d’obstruction ? En commission des lois, nous vous avons entendus, de nombreuses heures durant, donner des leçons de méthode. Vous dénonciez le manque d’écoute et vous exigiez du temps pour que le Parlement puisse examiner sereinement ce texte. Hier encore, vous dénonciez le manque de respect pour les élus ultramarins ayant organisé leur présence dans l’hémicycle pour un texte qu’aujourd’hui vous appelez à congédier en moins d’une demi-heure.<italique> (Exclamations sur les bancs du groupe GDR.)</italique> Et que dire du cynisme du groupe Rassemblement national, qui s’apprête à voter cette motion pour des raisons diamétralement opposées à celles de la gauche ! En réalité, votre point commun est d’assumer le blocage.<br/>Le groupe Les Démocrates est à l’inverse particulièrement attaché à l’esprit de négociation qui a prévalu, permettant aux différentes forces en présence de se mettre autour de la table pour négocier les accords de Bougival et Élysée-Oudinot. Aujourd’hui, les mesures proposées ne font pas l’unanimité, mais sur des sujets aussi fondamentaux que la création de l’État de Nouvelle-Calédonie au sein de la République, le transfert de la souveraineté et de compétences régaliennes, ou encore le dégel du corps électoral, la représentation nationale ne peut balayer le débat d’un revers de la main. L’obstruction n’est pas un acte de résistance, quoique vous en pensiez ; c’est la capitulation de la pensée. Nous rejetons cette motion pour faire le seul choix qui vaille, celui du débat.<italique> (Applaudissements sur les bancs des groupes Dem et EPR.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906468" ordre_absolu_seance="222" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053208" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4937.09">La parole est à Mme Agnès Firmin Le Bodo.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906469" ordre_absolu_seance="223" id_acteur="PA267780" id_mandat="PM843395" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053209" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Agnès Firmin Le Bodo (HOR)</nom>
+            <id>267780</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4944.69">Notre groupe s’opposera bien évidemment à la motion de rejet, d’abord par principe. Loin de moi l’idée de classer la priorité des motions de rejet, mais le vote de cette motion n’est-il pas un moyen de fuir sa responsabilité, comme l’a exprimé ma collègue ? La question qui nous est posée aujourd’hui est bien une question de responsabilité.<br/>Voter la motion de rejet serait irresponsable, d’abord pour ce qu’est notre hémicycle : un lieu de débat. La Nouvelle-Calédonie se singularise quant à elle par sa capacité à dialoguer, à préserver et à rétablir le dialogue, en surmontant les crises qui surgissent lorsque celui-ci se rompt. Il serait irresponsable de ne pas saisir la main tendue du gouvernement pour accompagner la relance économique du territoire, et de refuser le chemin tracé – même s’il est escarpé –, par l’accord de Bougival. Cela serait irresponsable, tout simplement parce qu’en votant cette motion de rejet, on ne vient pas en aide à un territoire de la République qui en a grand besoin.<italique> (Applaudissements sur les bancs des groupes HOR et EPR ainsi que sur quelques bancs du groupe Dem.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906471" ordre_absolu_seance="225" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053211" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5006.33">La parole est à M. Paul-André Colombani.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906472" ordre_absolu_seance="226" id_acteur="PA719286" id_mandat="PM842669" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053212" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Paul-André Colombani (LIOT)</nom>
+            <id>719286</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5014.15">La Kanaky Nouvelle-Calédonie traverse une épreuve dont chacun ici connaît la gravité. Je tiens à redire au nom du groupe LIOT notre solidarité pleine et entière à tous ceux qui subissent les conséquences de cette crise politique profonde. L’avenir institutionnel de ce territoire ne peut se décider unilatéralement depuis Paris, sans consensus trouvé sur le terrain.<br/>Il aurait fallu construire patiemment un accord solide, partagé et incontestable, afin que toutes les conditions politiques d’une révision constitutionnelle sereine soient acquises. Or le gouvernement n’est pas parvenu à construire ce consensus pourtant indispensable, malgré l’espoir suscité par l’accord de Bougival. Dans ces conditions, imposer une décision depuis notre assemblée ferait peser le risque de raviver les tensions, voire de provoquer de nouvelles violences, d’autant plus qu’il nous est impossible de débattre sereinement de ce texte largement rejeté en commission, et faisant l’objet de plus de 3 200 amendements.<br/>C’est pourquoi, par responsabilité et par respect pour le sujet traité, une grande partie du groupe LIOT votera pour la motion de rejet préalable.<italique> (Applaudissements sur les bancs des groupes GDR et EcoS.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906475" ordre_absolu_seance="229" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053215" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5078.92">La parole est à M. Davy Rimane.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906476" ordre_absolu_seance="230" id_acteur="PA795876" id_mandat="PM843725" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053216" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Davy Rimane (GDR)</nom>
+            <id>795876</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5090.84">Après les événements dramatiques en Nouvelle-Calédonie en 2024, je m’étais exprimé ici en espérant que l’on m’écoute et que l’on valide plusieurs choses. Ce qui a toujours prévalu dans ce territoire, c’est le consensus. Depuis Bougival, j’ai entendu parler de « consensus majoritaire » et de « compromis ». Depuis quand existe-t-il un consensus majoritaire ? Sans consensus, on ne peut pas avancer. Je le répète, laissez les Calédoniens trouver ensemble un consensus, que nous validerons ensuite à l’Assemblée nationale.<br/>Vous ne respectez rien et vous n’écoutez jamais.<italique> (Applaudissements sur les bancs du groupe GDR et sur quelques bancs du groupe LFI-NFP.)</italique> Vous venez aujourd’hui en donneuse de leçons, en nous disant de prendre nos responsabilités. Avant les événements dramatiques, le député Gosselin ici présent et moi-même nous étions rendus en Nouvelle-Calédonie. À notre retour, nous avions averti tout le monde. Une réunion s’était tenue avec la présidente de l’Assemblée nationale, ici présente. Nous vous avions déconseillé d’agir ainsi. Dès le lendemain, vous avez mis le feu aux poudres en Nouvelle-Calédonie ; et aujourd’hui, vous avez l’outrecuidance, madame la ministre, de nous dire de prendre nos responsabilités.<italique> (Applaudissements prolongés sur les bancs des groupes GDR, LFI-NFP et EcoS. –M. Peio Dufau applaudit également.)</italique><br/>Il ne faut pas se moquer du monde : si vous aviez écouté les ultramarins, cela ne serait jamais arrivé. Aujourd’hui, la seule chose à faire, c’est de laisser les Calédoniens trouver leur consensus ensemble, et de le valider ensuite.<italique> (Exclamations sur les bancs du groupe EPR.)</italique> Lors du conclave de Deva, une majorité s’était dégagée, mais en l’absence de consensus global, ils ont refusé d’aller plus loin. Le saviez-vous ? Vous rapportez des propos du collègue Tjibaou au moment de la signature de l’accord de Bougival. Vous y étiez, madame la ministre ? Pour ma part, je n’y étais pas. Je ne peux donc pas rapporter les propos qui y ont été tenus. Il faut rester humble, madame la ministre.<italique> (Applaudissements sur les bancs des groupes GDR et LFI-NFP. – M. Peio Dufau applaudit également.)</italique><br/>Vous avez la montre, ils ont le temps. En leur âme et conscience, et en responsabilité, les députés du groupe GDR voteront pour la motion de rejet préalable.<italique> (Applaudissements sur les bancs des groupes GDR, LFI-NFP et EcoS ainsi que sur quelques bancs du groupe SOC.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906480" ordre_absolu_seance="234" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="ANN_SCR_AUTRE_1_0" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053220" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5215.49">Sur la motion de rejet préalable, je suis saisie par les groupes La France insoumise-Nouveau Front populaire et de la Gauche démocrate et républicaine de demandes de scrutin public.<br/> Le scrutin est annoncé dans l’enceinte de l’Assemblée nationale.<br/>La parole est à M. Maxime Michelet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="5" id_preparation="2906482" ordre_absolu_seance="236" id_acteur="PA841395" id_mandat="PM842981" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053222" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Maxime Michelet (UDR)</nom>
+            <id>841395</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5237.01">Pour le groupe UDR, voter la motion de rejet n’était pas un choix d’évidence, car sur ce sujet d’extrême importance, nous voulons le débat, et nous souhaitons l’apaisement en Nouvelle-Calédonie. Néanmoins, les dispositions de ce projet de loi constitutionnelle nous obligent à dire au gouvernement de manière solennelle qu’il a franchi avec ce texte une ligne rouge. L’unité de la République et l’indivisibilité de la nation ne sont pas négociables. Il y a des limites au sacro-saint « en même temps » du macronisme ; l’intégrité territoriale de la France en est une. On ne peut pas être en même temps dans la République et hors de celle-ci.<br/>La Nouvelle-Calédonie est française. Elle l’a dit trois fois et ce serait trahir cette parole trois fois répétée que de voter ce texte, qui organise une indépendance déguisée par la création d’un État de Nouvelle-Calédonie. Ce texte méconnaît ainsi le choix souverain des Français de Nouvelle-Calédonie et mérite donc un rejet immédiat. Au lieu de consolider l’avenir de la Nouvelle-Calédonie au sein de la République, le gouvernement propose d’adopter un accord contesté et refusé, c’est un comble, par une large partie des indépendantistes eux-mêmes.<br/>Cet accord inscrit dans la Constitution la perspective de l’indépendance par le transfert progressif des compétences régaliennes, une dérive d’autant plus inacceptable que le contexte est marqué par des manœuvres avérées d’ingérence et de déstabilisation venant de puissances étrangères hostiles qui ne cachent pas les convoitises que la Nouvelle-Calédonie leur inspire. Elle n’a donc pas besoin de cette capitulation constitutionnelle, qui la livre en catimini à nos adversaires stratégiques.<br/>Elle a besoin de paix, de sécurité, de prospérité et nos compatriotes de Nouvelle-Calédonie ont besoin de la présence et du soutien de l’État, de la République et de la nation, dont ils ont fait le choix. Le groupe UDR votera cette motion de rejet car le débat ne mérite pas d’aller au-delà du simple constat que ce texte est une atteinte irréversible à l’unité nationale et à la souveraineté populaire.<br/>Par son vote, le groupe UDR et son président Éric Ciotti disent à nos compatriotes de Nouvelle-Calédonie : la France ne vous abandonnera pas !<italique> (Applaudissements sur les bancs des groupes UDR et RN.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906412" ordre_absolu_seance="241" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053425" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5361.30">La parole est à Mme Marine Le Pen.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906413" ordre_absolu_seance="242" id_acteur="PA720614" id_mandat="PM840315" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053426" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marine Le Pen (RN)</nom>
+            <id>720614</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5371.61">La Nouvelle-Calédonie française fait partie de l’ADN du Rassemblement national…</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906414" ordre_absolu_seance="243" id_acteur="PA588884" id_mandat="PM840450" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053427" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Clémentine Autain</nom>
+            <id>588884</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5375.09">Carrément !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906415" ordre_absolu_seance="244" id_acteur="PA720614" id_mandat="PM840315" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053428" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marine Le Pen</nom>
+            <id>720614</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5375.18">…et rien n’est plus important à mes yeux que de tout faire pour défendre cette terre de France dans le Pacifique. Au lieu de rassembler, le dialogue lancé après les émeutes de 2024 s’est embourbé dans ce qui divise, dans ce qui clive, dans ce qui antagonise : des questions institutionnelles et statutaires dont se délecte le débat politique mais qui ne nourrissent pas, ne soignent pas, ne créent pas un emploi et ne donnent aucun marché aux entreprises.<italique> (Applaudissements sur les bancs des groupes RN et UDR.)</italique><br/>C’est le résultat de ces discussions que le texte que vous nous soumettez aujourd’hui veut entériner. Nous le rejetons parce qu’il nous apparaît dangereux pour l’unité nationale et qu’il entrave les efforts pour redresser économiquement l’île. La Nouvelle-Calédonie a besoin de reprendre son souffle et il est vital de lui offrir un temps nécessaire de quiétude et de paix.<br/>En réalité, l’urgence institutionnelle n’existe pas. L’accord de Nouméa peut continuer d’organiser la vie publique du territoire et il peut permettre un retour de la confiance. Il n’empêche ni la relance de l’emploi, ni la création de richesses, ni la garantie de la stabilité sociale, qui sont les véritables urgences.<br/>Bien sûr, je ne saurais oublier ni passer sous silence l’exigence démocratique du dégel du corps électoral.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906419" ordre_absolu_seance="248" id_acteur="PA717379" id_mandat="PM843374" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053432" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Sylvain Maillard</nom>
+            <id>717379</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5409.53">Eh oui !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906420" ordre_absolu_seance="249" id_acteur="PA720614" id_mandat="PM840315" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053433" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marine Le Pen</nom>
+            <id>720614</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5445.26">Notre groupe l’accompagnera s’il s’agit du chemin du compromis parlementaire lorsque ce texte reviendra du Sénat. Le Rassemblement national défend la Nouvelle-Calédonie française et, avec elle, le rassemblement de toutes les bonnes volontés autour d’un projet commun que nous avons détaillé, y compris auprès de vous, madame la ministre.<br/>Le projet que nous défendons, de reconstruction et de relance, nécessite une stabilité institutionnelle et constitue une perspective pour tous les Calédoniens, sans exception. C’est le sens de notre combat et de notre contribution, que je crois significative, à l’intérêt général et national.<italique> (Applaudissements sur les bancs des groupes RN et UDR.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906422" ordre_absolu_seance="251" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053435" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5486.85">La parole est à M. Nicolas Metzdorf.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906423" ordre_absolu_seance="252" id_acteur="PA795176" id_mandat="PM843788" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053436" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Nicolas Metzdorf (EPR)</nom>
+            <id>795176</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5500.48">Madame la présidente, madame la ministre, monsieur le président, chers collègues et chers amis de l’UNI-Palika. Je ne sais pas ce que nous devons faire de plus.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906424" ordre_absolu_seance="253" id_acteur="PA793780" id_mandat="PM842714" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053437" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Christine Arrighi</nom>
+            <id>793780</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5513.25">Partir !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906425" ordre_absolu_seance="254" id_acteur="PA795176" id_mandat="PM843788" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053438" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Nicolas Metzdorf</nom>
+            <id>795176</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5514.27">Vous nous avez demandé, après les émeutes de 2024, de trouver un accord politique. C’est ce que nous, les non-indépendantistes, avons fait au prix de grosses concessions. Nous l’avons trouvé pour le bien de la Nouvelle-Calédonie. Nous sommes revenus devant vous et vous nous avez dit qu’il fallait encore préciser cet accord pour permettre au FLNKS d’Emmanuel Tjibaou de revenir à la table des discussions. Nous avons donc fait un deuxième accord politique, dit Élysée-Oudinot, où nous avons précisé les modalités liées à l’identité kanak et à l’autodétermination. Nous revenons donc devant vous, après deux ans de crise économique et sociale, avec deux accords politiques équilibrés entre les positions qu’on entend aujourd’hui de « trop d’indépendance » ou de « trop de France ».<br/>Allez-vous nous renvoyer chez nous, sans même un débat ? La Nouvelle-Calédonie est loin de l’hémicycle, mais chaque Calédonien regarde sa télé ce soir en se demandant : « Qu’est-ce qu’on va devenir ? » Beaucoup de Calédoniens ont perdu leur maison ou leur travail, mais, pire encore, ils ont perdu l’espoir et la perspective de vivre en paix en Nouvelle-Calédonie.<br/>Ce que je vous demande, c’est au moins d’avoir la décence de débattre sur les accords que nous avons difficilement trouvés.<italique> (Applaudissements sur les bancs des groupes EPR, dont quelques députés se lèvent, DR, Dem et HOR.)</italique> Aussi imparfaits soient-ils, ils sont défendus par la majorité de la classe politique calédonienne. Nous, les non-indépendantistes, ne sommes sans doute pas assez kanak ni assez indépendantistes, mais nous sommes légitimes en Nouvelle-Calédonie, parce que c’est notre pays. Peut-être considérez-vous que les amis de l’UNI-Palika ne sont pas assez kanak ou pas assez indépendantistes, mais ils défendent eux aussi les accords.<br/>La classe politique calédonienne défend l’accord de Bougival. La population calédonienne défend l’accord de Bougival. Le monde économique défend l’accord de Bougival.<italique> (Applaudissements sur les bancs des groupes EPR, DR, Dem et HOR. – Protestations contre le dépassement du temps de parole sur plusieurs bancs des groupes RN, LFI-NFP, SOC et EcoS.)</italique><br/>Aujourd’hui, l’Assemblée nationale, après nous avoir donné des leçons sur la légitimité du peuple calédonien à décider de son avenir, veut décider à notre place. Je vous demande de voter ces accords et d’organiser la consultation du peuple calédonien parce que nous sommes les seuls légitimes à décider de notre avenir.<italique> (Les députés des groupes EPR, DR et HOR se lèvent pour applaudir. – Applaudissements sur les bancs du groupe Dem. – Protestations sur les bancs des groupes RN et LFI-NFP.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906430" ordre_absolu_seance="259" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053443" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5698.69">La parole est à M. Bastien Lachaud.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906431" ordre_absolu_seance="260" id_acteur="PA720846" id_mandat="PM840441" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4053444" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Bastien Lachaud (LFI-NFP)</nom>
+            <id>720846</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5717.25">Refuser ce texte, c’est refuser un nouvel acte de la longue histoire coloniale en Kanaky Nouvelle-Calédonie.<italique> (Applaudissements sur les bancs du groupe LFI-NFP. – M. Marcellin Nadeau applaudit également.)</italique> Déjà, en mai 2024, vous avez tenté d’imposer le dégel du corps électoral sans accord consensuel préalable. Votre inconséquence a causé quinze morts.<br/>Pourtant, vous tentez à nouveau de passer en force pour imposer le projet dit de Bougival alors que le consensus n’est pas là. Je rappelle que trois parlementaires de Nouvelle-Calédonie sur quatre refusent de voter ce texte<italique> (Applaudissements sur plusieurs bancs du groupe LFI-NFP et sur quelques bancs du groupe GDR. – Mme Sandra Regol applaudit également)</italique> et que la commission des lois en a rejeté tous les articles.<br/>Dès lors, discuter de l’accord de Bougival dans cet hémicycle revient à saper les engagements pris par l’État lors de l’accord de Nouméa et à saper le crédit même de notre Constitution. Vous avez tenté par deux fois une révision constitutionnelle sans consensus. Vous avez enterré le conclave de Deva en raison de la seule opposition des anti-indépendantistes. Vous maintenez Bougival alors que les représentants du peuple kanak, reconnu comme peuple premier par le peuple français dans la Constitution, s’y opposent fermement.<italique> (Applaudissements sur les bancs du groupe LFI-NFP.)</italique> C’est pourtant bien ce peuple premier, et lui seul, qui dispose d’un droit à l’autodétermination reconnu par le droit international. S’il a accepté de partager ce droit à Nainville-les-Roches, cela n’autorise pas tout.<italique> (Applaudissements sur les bancs du groupe LFI-NFP et sur quelques bancs du groupe GDR.)</italique> Le consentement de ses représentants légitimes est une condition nécessaire et indispensable à tout accord. Vos coups de force et votre parti pris affiché pour le camp anti-indépendantiste rendent ces conditions de plus en plus difficiles à réunir. Vous en portez la responsabilité historique.<br/>Tant qu’un nouvel accord consensuel n’est pas trouvé, l’accord de Nouméa s’applique sans limitation de durée. La prétendue urgence institutionnelle que vous agitez n’existe pas. Vous passez en force pour une seule raison : maintenir la Nouvelle-Calédonie française. Cette révision constitutionnelle est un acte colonial chimiquement pur.<italique> (Applaudissements sur les bancs du groupe LFI-NFP. – M. Marcellin Nadeau applaudit également. – Les députés des groupes RN et UDR protestent contre le dépassement du temps de parole.)</italique> La seule issue conforme à la parole donnée par l’État est de convoquer les élections provinciales immédiatement, d’abandonner Bougival, de relancer un cycle de négociations avec les nouveaux élus relégitimés par l’onction du suffrage populaire. C’est la seule solution pour tirer l’archipel de l’abîme dans lequel vous l’avez plongé en 2024.<italique> (Applaudissements sur les bancs des groupes</italique><italique> LFI-NFP,</italique><italique> dont</italique><italique> les</italique><italique> députés</italique><italique> se</italique><italique> lèvent,</italique><italique> et GDR ainsi que sur quelques bancs du groupe EcoS.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906435" ordre_absolu_seance="264" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="SCR_MRJ_1_7" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053448" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5878.42">Je mets aux voix la motion de rejet préalable.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906436" ordre_absolu_seance="265" code_grammaire="SCR_MRJ_1_8" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4053449" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(Il est procédé au scrutin.)</italique>
+        </texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906437" ordre_absolu_seance="266" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="SCR_MRJ_1_9" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053450" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5912.60">Voici le résultat du scrutin :<br/>        Nombre de votants                        298<br/>        Nombre de suffrages exprimés                297<br/>        Majorité absolue                        149<br/>                Pour l’adoption                190<br/>                Contre                107</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906438" ordre_absolu_seance="267" code_grammaire="SCR_MRJ_1_10" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4053451" valeur="" decision="">
+        <orateurs/>
+        <texte>
+          <italique>(La motion de rejet préalable est adoptée.)</italique>
+        </texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2906439" ordre_absolu_seance="268" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="SCR_MRJ_1_90" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053452" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>721908</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5914.54">En conséquence, le projet de loi constitutionnelle est rejeté.<italique> (Applaudissements sur les bancs des groupes LFI-NFP, EcoS et GDR.)</italique></texte>
+      </paragraphe>
+    </point>
+    <finSeance>
+      <point nivpoint="1" valeur_ptsodj="3" ordinal_prise="6" id_preparation="2906441" ordre_absolu_seance="270" code_grammaire="FIN_SEAN_1_2" code_style="Titre" code_parole="" sommaire="1" id_syceron="4053454" valeur="">
+        <orateurs/>
+        <texte>Ordre du jour de la prochaine séance</texte>
+        <paragraphe valeur_ptsodj="3" ordinal_prise="6" id_preparation="2906442" ordre_absolu_seance="271" id_acteur="PA721908" id_mandat="PM843467" id_nomination_oe="0" id_nomination_op="PM845400" code_grammaire="FIN_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4053455" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>721908</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5918.83">Prochaine séance, mardi 7 avril, à neuf heures, en salle Lamartine :<br/> Questions orales sans débat.<br/> La séance est levée.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="3" ordinal_prise="6" id_preparation="2906443" ordre_absolu_seance="272" code_grammaire="FIN_SEAN_2_4" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4053456" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance est levée à douze heures vingt-cinq.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="3" ordinal_prise="6" id_preparation="2906444" ordre_absolu_seance="273" code_grammaire="FIN_SEAN_2_5" code_style="Signature droite" code_parole="" sommaire="0" id_syceron="4053457" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>Le directeur des comptes rendus<br/> Serge Ezdra</italique>
+          </texte>
+        </paragraphe>
+      </point>
+    </finSeance>
+  </contenu>
+</compteRendu>

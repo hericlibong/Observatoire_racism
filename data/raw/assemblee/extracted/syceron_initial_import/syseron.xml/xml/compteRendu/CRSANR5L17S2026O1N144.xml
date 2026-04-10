@@ -1,0 +1,817 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compteRendu xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid>CRSANR5L17S2026O1N144</uid>
+  <seanceRef>RUANR5L17S2026IDS30259</seanceRef>
+  <sessionRef>SCR5A2026O1</sessionRef>
+  <metadonnees>
+    <dateSeance>20260210213000000</dateSeance>
+    <dateSeanceJour>mardi 10 février 2026</dateSeanceJour>
+    <numSeanceJour>2</numSeanceJour>
+    <numSeance>144</numSeance>
+    <typeAssemblee>AN</typeAssemblee>
+    <legislature>17</legislature>
+    <session>Session ordinaire 2025 -2026</session>
+    <nomFichierJo>20260144</nomFichierJo>
+    <validite>valide</validite>
+    <etat>complet</etat>
+    <diffusion>public</diffusion>
+    <version>avant_JO</version>
+    <environnement>PROD</environnement>
+    <heureGeneration>2026-02-17T17:28:55.000+01:00</heureGeneration>
+    <sommaire>
+      <presidentSeance id_syceron="4012644">Présidence de Mme Hélène Laporte</presidentSeance>
+      <sommaire1 valeur_pts_odj="1">
+        <titreStruct id_syceron="4012648">
+          <intitule>Limites actuelles et perspectives d’améliorations du système d’orientation post-bac</intitule>
+          <sousIntitule>0</sousIntitule>
+        </titreStruct>
+        <para id_syceron="4012652">M. Maxime Michelet (UDR)</para>
+        <para id_syceron="4012673">M. Roger Chudeau (RN)</para>
+        <para id_syceron="4012840">Mme Danielle Brulebois (EPR)</para>
+        <para id_syceron="4012851">M. Louis Boyard (LFI-NFP)</para>
+        <para id_syceron="4012871">M. Elie Califer (SOC)</para>
+        <para id_syceron="4012998">M. Frantz Gumbs (Dem)</para>
+        <para id_syceron="4013016">Mme Soumya Bourouaha (GDR)</para>
+        <para id_syceron="4013032">M. Philippe Baptiste, ministre de l’enseignement supérieur, de la recherche et de l’espace</para>
+        <para id_syceron="4012624">M. Maxime Michelet (UDR)</para>
+        <para id_syceron="4012627">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4012630">Mme Anne Sicard (RN)</para>
+        <para id_syceron="4012634">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4012639">M. Jordan Guitton (RN)</para>
+        <para id_syceron="4012805">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4012808">Mme Sandrine Lalanne (EPR)</para>
+        <para id_syceron="4012811">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4012817">Mme Sandrine Lalanne (EPR)</para>
+        <para id_syceron="4012819">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4012822">M. Arnaud Saint-Martin (LFI-NFP)</para>
+        <para id_syceron="4012826">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4012955">M. Arnaud Saint-Martin (LFI-NFP)</para>
+        <para id_syceron="4012962">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4012967">M. Romain Eskenazi (SOC)</para>
+        <para id_syceron="4012974">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4012979">M. Laurent Croizier (Dem)</para>
+        <para id_syceron="4013150">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4013155">M. Lionel Vuibert (NI)</para>
+        <para id_syceron="4013160">M. Philippe Baptiste, ministre</para>
+      </sommaire1>
+      <sommaire1 valeur_pts_odj="2">
+        <titreStruct id_syceron="4013168">
+          <intitule>Ordre du jour de la prochaine séance</intitule>
+        </titreStruct>
+      </sommaire1>
+    </sommaire>
+  </metadonnees>
+  <contenu>
+    <quantiemes>
+      <journee>Deuxième séance du mardi 10 février 2026</journee>
+      <session>Session ordinaire 2025 -2026</session>
+    </quantiemes>
+    <ouvertureSeance nivpoint="1" valeur_ptsodj="0" ordinal_prise="1" id_preparation="2869658" ordre_absolu_seance="1" code_grammaire="OUV_SEAN_1_1" code_style="Présidence" code_parole="" sommaire="1" id_syceron="4012644" valeur="">
+      <orateurs/>
+      <texte>Présidence de Mme Hélène Laporte<br/> vice-présidente</texte>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2869659" ordre_absolu_seance="2" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="OUV_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012645" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="874.98">La séance est ouverte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2869660" ordre_absolu_seance="3" code_grammaire="OUV_SEAN_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4012646" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(La séance est ouverte à vingt et une heures trente.)</italique>
+        </texte>
+      </paragraphe>
+    </ouvertureSeance>
+    <point nivpoint="1" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2869662" ordre_absolu_seance="5" code_grammaire="TITRE_TEXTE_DISCUSSION" code_style="Titre" code_parole="" sommaire="1" id_syceron="4012648" valeur="">
+      <orateurs/>
+      <texte>Limites actuelles et perspectives d’améliorations du système d’orientation post-bac</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2869663" ordre_absolu_seance="6" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="ODJ_APPEL_DISCUSSION" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012649" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="877.39">L’ordre du jour appelle le débat sur le thème : « Limites actuelles et perspectives d’améliorations du système d’orientation post-bac ». Ce débat a été demandé par le groupe Union des droites pour la République.<br/>La conférence des présidents a décidé d’organiser ce débat en deux parties : dans un premier temps, nous entendrons les orateurs des groupes, puis le gouvernement ; nous procéderons ensuite à une séquence de questions-réponses.<br/>La parole est à M. Maxime Michelet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2869666" ordre_absolu_seance="9" id_acteur="PA841395" id_mandat="PM842981" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012652" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Maxime Michelet (UDR)</nom>
+            <id>841395</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="915.17">Chaque année, l’orientation postbac se retrouve au cœur des préoccupations de centaines de milliers de familles. Alors qu’elle devrait être l’occasion de discussions d’avenir, de perspectives constructives et d’ambitions heureuses, elle est malheureusement devenue un sujet d’anxiété et d’inquiétude.<br/>Depuis 2018, la plateforme Parcoursup, qui assure la gestion de l’accès à l’enseignement supérieur, cristallise ces craintes. Une enquête de l’Ipsos indiquait en 2022 que 83 % des utilisateurs de la plateforme jugeaient la procédure stressante, tandis que 28 % seulement la jugeaient équitable. Son fonctionnement demeure opaque pour nombre d’élèves et de familles. Beaucoup déclarent ne pas comprendre les critères de sélection et les raisons des refus essuyés. Cela nourrit un sentiment d’arbitraire et renforce chez les élèves la certitude que leur avenir a été décidé par des algorithmes sans que leur dossier ait été réellement examiné.<br/>Cette certitude, fondée ou non en fonction des situations, vaut à Parcoursup une réputation d’illisibilité et d’injustice, que les réformes qui se sont succédé année après année ont bien des difficultés à effacer, malgré des ajustements utiles à la clarté de certains critères.<br/>Huit ans après sa mise en place en remplacement d’un système APB – admission postbac – arrivé à bout de souffle, il est nécessaire de reconnaître que Parcoursup n’a pas rempli, ne remplit pas et,<italique> a priori</italique>, ne remplira pas les ambitions fixées initialement. Comme dans tant d’autres domaines de l’action de l’État, la simplification promise a mené à davantage de complexité, notamment quant au calendrier et à la succession des phases et des délais d’attente.<br/>Une réflexion sur les limites et sur les perspectives d’améliorations du système d’orientation postbac ne saurait toutefois se limiter à Parcoursup. Si cette plateforme cristallise et porte à incandescence les motifs d’inquiétude et d’incompréhension, on ne peut la tenir pour seule responsable des défaillances d’un système d’orientation manquant cruellement d’efficacité.<br/>Deux défaillances expliquent à notre sens la crise de l’orientation postbac.<br/>La première défaillance est celle du système d’information à l’orientation. Dans une étude publiée l’automne dernier, l’Institut Montaigne indique que 27 % des jeunes de 18 à 24 ans sont insatisfaits de leur orientation – proportion considérable, qui prouve l’existence de problèmes tout aussi considérables. Il montre également dans cette même étude – à contre-courant de quelques idées reçues – que l’insatisfaction est nettement plus grande chez les élèves de la filière générale que chez ceux de la filière professionnelle. J’y reviendrai quand j’aborderai la deuxième des défaillances majeures que nous avons identifiées.<br/>Interrogeons-nous sur la manière dont les jeunes élèves de France se renseignent, en amont, sur leur orientation. Selon cette même étude, éclairante, de l’Institut Montaigne, ils se tournent d’abord vers leurs parents – plus particulièrement vers la mère –, puis vers internet. Les organismes officiels d’information et d’orientation ainsi que les responsables pédagogiques, comme les psychologues de l’éducation nationale (psy-EN) ou les conseillers principaux d’éducation, arrivent, eux, en queue de peloton – constat particulièrement intéressant. Si les professeurs occupent une place intermédiaire dans ce classement, ils sont au même niveau que les amis. L’orientation paraît donc être dans notre pays une affaire plus familiale que scolaire – nous en imaginons facilement toutes les conséquences sociales, notamment en matière de reproduction d’injustices.<br/>C’est là, nous semble-t-il, un des grands manquements de notre système scolaire. La question des heures dédiées à l’orientation joue évidemment un rôle prépondérant. On y consacre 54 heures dans les lycées généraux et technologiques – des heures, toutefois, pour le moins volatiles. On y consacre en revanche 265 heures dans les lycées professionnels. Cette disproportion peut sans nul doute expliquer la disparité de satisfaction que j’évoquais précédemment.<br/>La question des acteurs est également essentielle : leur multiplicité – et la difficulté de les identifier – explique bien souvent la complexité de notre système d’orientation. En 2017, la fusion du corps des psychologues scolaires et du corps des conseillers d’orientation psychologues, créant le corps des psychologues de l’éducation nationale<italique>,</italique> a encore aggravé le caractère peu lisible de nos dispositifs d’orientation. S’il faut certes savoir faire preuve de psychologie pour accompagner les jeunes Français dans leur orientation, c’est une erreur que d’avoir choisi de donner la priorité à la psychologie sur l’orientation, ce dernier mot ayant même disparu de l’intitulé de la fonction.<br/>Contrairement aux conseillers d’orientation, les psychologues de l’éducation nationale ne paraissent pas suffisamment identifiés par les élèves comme pouvant se charger de missions d’orientation. Il est par ailleurs inutile de souligner que, dans le désert pédopsychologique et pédopsychiatrique qu’est devenu notre pays, ces psy-EN, dont l’effectif est déjà bien faible, sont souvent amenés à palier d’abord les défaillances de notre prise en charge de la santé mentale des jeunes plutôt que celles de notre système d’orientation. Alors que l’orientation a besoin de clarté, de lisibilité et d’acteurs bien identifiés, la fusion de 2017 ne pouvait qu’entretenir la confusion.<br/>L’orientation a besoin d’agents et de dispositifs clairement identifiés par les élèves. Elle a besoin d’une clarification des acteurs et des missions ; elle a besoin, en somme, de simplification et de lisibilité – comme nombre de nos politiques publiques.<br/>Si cette première défaillance de notre système d’orientation postbac aura peut-être l’honneur de faire consensus, je doute qu’il en aille de même pour la seconde défaillance que nous identifions.<br/>Cette seconde défaillance, c’est celle de la sélection. Il ne saurait y avoir, à notre sens, d’orientation sans sélection. L’affirmation contraire relève au mieux de l’idéologie, au pire de la démagogie. Soutenir une telle affirmation, ce n’est pas faire un cadeau à notre jeunesse ; c’est lui mentir.<br/>L’orientation mobilise d’ailleurs deux sélections : celle de l’élève vis-à-vis des formations et des établissements qu’il choisit, mais aussi celle du système d’enseignement supérieur et de ses établissements, qui doivent pouvoir, en toute clarté et en toute honnêteté, sans algorithme mais avec un jugement rationnel et fondé, indiquer si les formations désirées sont en adéquation avec les compétences acquises avant le baccalauréat comme avec le projet professionnel poursuivi.<br/>Or cette sélection n’est aujourd’hui plus possible. Dans une proposition de loi déposée en 2023, mon excellent collègue Roger Chudeau rappelait à juste titre que le baccalauréat constitue, aux termes du code de l’éducation, le premier grade de l’enseignement supérieur et qu’il y autorise l’accès. Il serait bien acrobatique, en somme, de prétendre parler d’orientation postbac sans parler du bac lui-même.<br/>En effet, au-delà des dysfonctionnements de Parcoursup et des défaillances de notre système d’information à l’orientation, le principal écueil que rencontrent aujourd’hui les élèves, les familles et les établissements est celui d’un baccalauréat vidé de toute substance par plusieurs choix délétères – si le baccalauréat n’est pas du ressort de M. le ministre de l’enseignement supérieur, qui représente le gouvernement à notre débat, permettez-moi tout de même de les évoquer.<br/>Dans une simultanéité qui n’a rien d’innocent, la procédure Parcoursup a été déployée, à partir de 2018, en parallèle de la réforme du baccalauréat. Cette dernière a amplifié les angoisses liées à l’orientation en obligeant les familles à faire dès la fin de l’année de seconde des choix aussi compliqués que déterminants pour l’orientation postbac. Elle a également affaibli la lisibilité des dossiers scolaires, par la combinaison explosive de la suppression des filières, de l’instauration d’un système de spécialités autorisant toutes les tactiques et, surtout, de l’attribution d’un rôle accru au contrôle continu.<br/>Le nouveau calendrier des épreuves de ce baccalauréat a poursuivi la dynamique – commencée avec APB – conduisant à faire de cet examen, pourtant fondateur, un rendez-vous désormais moins important que la procédure Parcoursup elle-même. Il ne faut pas minorer le rôle accru du contrôle continu dans ces dysfonctionnements. La notation est devenue l’objet d’un marchandage entre les professeurs et les familles. Les notes ne sont plus considérées comme autant de témoignages d’un parcours scolaire mais comme des éléments prépondérants du sacro-saint dossier Parcoursup – dossier qui a relégué le baccalauréat au second rang, quand c’est ce dernier qui, en toute logique, devrait être la clé d’accès aux études supérieures.<br/>Le baccalauréat est devenu secondaire compte tenu de la nouvelle primauté de la procédure Parcoursup ; secondaire aussi car ce diplôme, désormais largement distribué, ne joue plus son rôle de validation des compétences. J’ai évoqué au début de mon propos la différence de satisfaction existant, relativement à l’orientation, entre les bacheliers généraux et les bacheliers professionnels. Cela s’explique évidemment par la différence – presque de 1 à 5 – dans le volume des heures qui y sont consacrées. Il me semble toutefois nécessaire de souligner une autre différence : en 2025, 96,4 % des candidats au baccalauréat général sont devenus bacheliers, contre 84,1 % des candidats au baccalauréat professionnel. Plus professionnalisant dans l’accès à l’information mais aussi plus sélectif, le baccalauréat professionnel mène à une orientation plus satisfaisante.<br/>Au regard de ces différents constats, il nous apparaît que les mesures nécessaires à l’amélioration du système d’orientation postbac reposent sur trois piliers : la suppression de Parcoursup, devenu le catalyseur d’angoisses comme de sentiments d’injustice ; le renforcement des dispositifs d’information à l’orientation, qui doivent devenir plus identifiables et moins facultatifs ; enfin, et surtout, la restauration du baccalauréat comme véritable outil de validation des compétences nécessaires à la poursuite des études – comme véritable clé d’accès à l’orientation postbac. Cette restauration doit passer tant par la réforme de son calendrier que par la simplification de la scolarité au lycée et, surtout, par l’abandon du contrôle continu, qui a faussé la philosophie de l’orientation postbac.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2869686" ordre_absolu_seance="30" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012672" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1512.38">La parole est à M. Roger Chudeau.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2869687" ordre_absolu_seance="31" id_acteur="PA794198" id_mandat="PM842876" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012673" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Roger Chudeau (RN)</nom>
+            <id>794198</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1519.80">La plateforme Parcoursup, apparue en 2018, poursuit un triple objectif : améliorer l’affectation des bacheliers dans le supérieur afin de mettre un terme à l’échec massif des étudiants en première année ainsi qu’au très faible taux d’accès au diplôme de licence ; rendre moins aléatoire la procédure d’affectation postbac, précédemment décriée en raison du recours au tirage au sort ; offrir – dans un contexte d’augmentation des effectifs – une affectation à chaque bachelier, en utilisant toutes les capacités d’accueil des établissements d’enseignement supérieur.<br/>Force est de constater que le premier de ces trois objectifs n’est nullement atteint, que le deuxième ne l’est que partiellement et que le troisième est atteint – mais à quel prix ?<br/>Le premier cycle du supérieur strictement universitaire est marqué depuis des décennies par un fort taux d’échec. En moyenne, plus de 50 % des étudiants échouent en première année. Le taux d’accès à la licence en quatre ans est de l’ordre de 40 %. Les plans spécifiques, dotés de budgets<italique> ad hoc</italique>, n’ont été que faiblement appliqués et n’ont jamais fait l’objet d’une évaluation globale par le Haut Conseil de l’évaluation de la recherche et de l’enseignement supérieur. Pour ceux qui, ici ou là, ont été évalués, les préconisations du HCERES sont restées lettre morte. La Cour des comptes évalue à un demi-milliard d’euros par an le coût de ce gâchis pour la communauté nationale. L’échec est flagrant.<br/>En matière de transparence, tous les observateurs professionnels s’accordent à relever la complexité croissante d’un algorithme devenu incompréhensible aussi bien pour les lycées que pour les universités – rappelons que pas moins de 26 000 formations supérieures sont proposées aux bacheliers.<br/>Le sentiment d’injustice se répand car les critères d’affectation souffrent de défauts structurels. Le contrôle continu, par exemple, dépend de la culture docimologique de chaque lycée ; cela conduit les universités et les filières sélectives, en aval, à introduire leurs propres critères, voire leurs propres algorithmes, de manière totalement opaque, dans l’examen des candidatures.<br/>Autre exemple de ces défauts : les dossiers des lycéens, qui doivent comporter une appréciation du niveau de la classe. Or les élèves de terminale ne passent que la moitié de leur temps – et encore – en classe entière, si bien que le professeur principal ne les connaît qu’imparfaitement. Le professeur référent, quant à lui, est un objet administratif non identifié.<br/>Nouvel exemple : les cinquante-quatre heures d’information dont parlait mon collègue ne sont pas utilisées du tout, ou seulement partiellement, car elles ne font pas partie intégrante des obligations réglementaires de service des professeurs principaux. Ne mentionnons même pas les lettres de motivation des élèves, quasiment toutes rédigées par ChatGPT.<br/>L’admission en internat – sujet très sensible pour les étudiants des filières sélectives – repose quant à elle sur des critères fiscaux : ceux-ci sont renseignés par les élèves eux-mêmes sans aucun contrôle, ce qui est une source d’abus, y compris par des élèves de nationalité étrangère qui déclarent à l’envi des revenus parentaux totalement fantaisistes.<br/>Il faut enfin souligner le défaut rédhibitoire de Parcoursup : l’absence de prise en compte – sauf pour les épreuves anticipées en première – des notes obtenues à l’examen terminal du baccalauréat. Les enseignements de spécialité, qui définissent pourtant le profil académique de l’élève, ne sont ainsi pas pris en compte dans son affectation, ce qui est absurde. Le baccalauréat, premier diplôme de l’enseignement supérieur comme le rappelait mon collègue, est ravalé au rang de simple formalité administrative substantielle, sans valeur académique ni sociale.<br/>Venons-en au troisième objectif de Parcoursup : trouver pour chaque bachelier une place dans l’enseignement supérieur. Les statistiques ministérielles indiquent certes un nombre très faible de non-affectés – mais à quel prix ? Un nombre considérable d’étudiants en première année a trouvé refuge dans des formations à l’utilité plus que contestable au regard des besoins réels de la nation : 850 000 d’entre eux peuplent les sciences humaines et sociales, tandis qu’ils sont moins de 430 000 à étudier les sciences et la technologie. Parcoursup alimente donc un appareil de formation supérieur qui semble déconnecté des besoins de l’économie et de la nation. Le Sénat a récemment souligné en ce sens l’absence criante de vision et de pilotage stratégique de notre système d’enseignement supérieur.<br/>Tout le monde trouve sa place dans les amphis, mais pour quoi faire ? Pour échouer, pour décrocher ? Ou, s’agissant des plus travailleurs, pour décrocher un diplôme qui les conduit tout droit à livrer des pizzas nuitamment à bicyclette ?<br/>Cependant, Parcoursup n’est au fond que le symptôme de la dégradation de notre appareil d’enseignement supérieur. C’est pourquoi il est vain de vouloir supprimer l’algorithme, qui n’est au fond qu’une réponse technique à un problème politique. La question politique de fond est la suivante : de quel enseignement supérieur la France a-t-elle besoin à l’horizon 2050-2060 ? Dans quel cadre stratégique et géopolitique ?<br/>Il appartient au gouvernement de répondre à ces questions et de prendre les décisions structurelles qui s’imposent. Hélas, force est de constater que les ministres successifs n’ont rien entrepris de ce qui était pourtant leur devoir : nulle vision prospective, nul discours stratégique, nulle consultation du Parlement sur un sujet pourtant vital pour notre avenir.<br/>Le président de la République invoque l’impératif catégorique de la réindustrialisation et du sursaut économique, mais du côté du ministère de l’enseignement supérieur, il n’y a aucun écho, aucune initiative. Tout est donc reporté à 2027.<br/>Eh bien, soit ! À l’occasion du prochain rendez-vous présidentiel, le Rassemblement national proposera à la nation un ambitieux projet de refonte de notre enseignement supérieur, dans tous les domaines, tant l’enjeu est capital pour notre souveraineté, notre indépendance et notre puissance. Notre projet gouvernemental apportera au pays les solutions dont il a besoin. Vivement 2027 !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2869728" ordre_absolu_seance="46" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012839" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1830.52">La parole est à Mme Danielle Brulebois.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2869729" ordre_absolu_seance="47" id_acteur="PA719890" id_mandat="PM842855" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012840" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Danielle Brulebois (EPR)</nom>
+            <id>719890</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1837.91">Le système d’orientation postbac en France a bien évolué avec l’installation de Parcoursup. Bien que les jeunes se disent mieux accompagnés dans la phase de préparation des vœux par leur professeur principal et par leur famille, certaines limites affectent leur intégration dans l’enseignement supérieur, en particulier pour ceux qui sont issus de milieux défavorisés ou de territoires ruraux éloignés des villes universitaires.<br/>De nombreux rapports constatent que l’orientation reste trop souvent déterminée par l’origine sociale. Les jeunes issus de milieux modestes, dont les parents sont peu diplômés ou ne le sont pas sont surreprésentés dans les filières professionnelles courtes, tandis que les enfants de cadres ou de diplômés du supérieur accèdent plus facilement aux études longues. Cette réalité, bien que connue, reste inacceptable dans une République qui se veut égalitaire.<br/>Dans les territoires ruraux, 32 % des jeunes de milieux populaires souhaitent obtenir un diplôme de filière courte, contre 16 % de leurs camarades urbains. Cette différence n’est pas anodine : elle reflète un accès inégal à l’information, à l’accompagnement, à l’ambition, mais aussi un manque de moyens financiers. Pour les ménages vivant dans des départements sans ville universitaire et sans offre universitaire, la charge d’un étudiant est parfois trop lourde à assumer.<br/>À ces limites s’ajoute la complexité des choix face à l’immense variété des formations disponibles. Trop de jeunes se sentent encore perdus face à Parcoursup, stressés par des choix qu’ils estiment imposés, et mal informés sur les débouchés réels des filières ; 58 % des lycéens déclarent être inquiets quant à leur orientation et 84 % citent le stress lié à Parcoursup comme principale source d’angoisse. Malgré les dispositifs d’orientation, de nombreux étudiants se sentent isolés dans leur prise de décision.<br/>Alors, que faire ? Comment transformer ce système pour qu’il devienne enfin un vecteur d’égalité des chances ? D’abord, il est urgent de renforcer l’accompagnement individualisé des élèves, dès le collège. Le choix d’un métier, c’est un projet de vie, qui peut engager une vie entière ; c’est donc un choix difficile et déterminant.<br/>Les professeurs principaux, souvent en première ligne, ne peuvent pas assurer seuls cette mission. Ils doivent être mieux formés et leur temps de travail doit intégrer plus de plages horaires dédiées à l’orientation.<br/>En outre, il faut repenser Parcoursup pour en faire un outil plus transparent et moins anxiogène. Pourquoi ne pas imaginer un système dans lequel chaque jeune aurait accès à un tuteur, un étudiant ou un professionnel, pour l’aider à naviguer dans les méandres des formations et des attendus ? Pourquoi ne pas développer des modules d’orientation plus concrets, intégrant beaucoup plus d’immersions en entreprise ou des rencontres avec des professionnels, dès le collège ?<br/>Pour les jeunes ruraux, la réponse passe aussi par un renforcement de l’offre de formation locale et par une meilleure prise en compte de leurs contraintes de mobilité. Les bourses sur critères sociaux doivent aussi intégrer un volet spécifique pour les jeunes des territoires éloignés, afin de couvrir les frais supplémentaires liés à la mobilité. Les résidences universitaires et les logements étudiants doivent être développés dans les villes moyennes pour éviter que les jeunes ruraux ne renoncent à leurs études par crainte de ne pas avoir les moyens de se loger.<br/>Enfin, nous devons briser les stéréotypes qui pèsent sur certaines filières. Par exemple, la voie professionnelle doit être revalorisée et présentée pour ce qu’elle est : une voie d’excellence. Trop de jeunes la perçoivent encore comme une voie de relégation, alors qu’elle peut être un tremplin vers une insertion professionnelle réussie et une belle carrière.<br/>L’orientation n’est pas une question technique ; c’est une question de justice sociale. Aussi avez-vous prévu, monsieur le ministre, de poursuivre en 2026 le chantier d’amélioration de Parcoursup, en vous appuyant sur les retours des usagers et des acteurs de l’orientation. Vous avez défini trois axes de travail : renforcer l’accompagnement à l’orientation ; améliorer la transparence et la régulation ; optimiser la phase principale et l’offre de formation. Où en est le travail sur ces différents axes ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2869739" ordre_absolu_seance="57" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012850" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2106.30">La parole est à M. Louis Boyard.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2869740" ordre_absolu_seance="58" id_acteur="PA795318" id_mandat="PM843689" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012851" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Louis Boyard (LFI-NFP)</nom>
+            <id>795318</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2115.00">Le débat ne doit pas être uniquement centré sur Parcoursup. Il faut envisager le fond du problème : est-il sain d’organiser une compétition entre des élèves de 14 à 18 ans pour savoir qui obtiendra la formation qui définira le métier de sa vie ? Voilà ce qu’est actuellement le système scolaire et voilà ce qui crée une pression scolaire immense.<br/>Entre 14 et 18 ans, les jeunes font le choix le plus important de leur vie, Parcoursup cristallisant ce processus. En réalité, la sélection commence dès le plus jeune âge, au collège, à partir du moment où les conseils de classe décident de l’orientation des élèves en filière générale ou en filière professionnelle.<br/>En ce moment, je visite un grand nombre de filières de la voie pro : c’est incroyable, exceptionnel ! Pourtant, dès le collège, on m’a enseigné que la voie professionnelle était une voie de garage, selon le discours tenu dans l’éducation nationale.<br/>Il existe en outre une sélection genrée dans la voie professionnelle. Par exemple, on oriente plus facilement les femmes vers les métiers du social. S’y ajoute une sélection raciste.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2869744" ordre_absolu_seance="62" id_acteur="PA795390" id_mandat="PM874935" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012855" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sandrine Lalanne</nom>
+            <id>795390</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2135.87">Oh !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2869745" ordre_absolu_seance="63" id_acteur="PA795318" id_mandat="PM843689" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012856" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Louis Boyard</nom>
+            <id>795318</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2171.35">Il faut le dire ! Je me rappelle qu’en troisième, cette sélection raciste au moment de l’orientation vers la voie professionnelle m’avait choqué. Tant qu’on ne mettra pas les pieds dans le plat sur ce point, on manquera une grande partie du sujet.<br/>La voie pro, je l’ai dit, est incroyable. Il faut en parler de façon positive. Mais dès leur plus jeune âge, on met dans la tête des élèves qui seront plus tard essentiels dans la société – les aides-soignants, les vendeurs, les conducteurs d’engins… – que leur filière est dévalorisée et que cela justifie les bas salaires. Le patronat y a intérêt, mais cela mériterait en soi un débat.<br/>Se pose ensuite la question de la filière générale. Lorsqu’il existe treize spécialités différentes, qu’elles ne sont pas proposées dans tous les établissements, mais que l’une d’elles est déterminante pour une filière donnée dans Parcoursup, cela signifie qu’en fonction de l’endroit où vous vivez et de la spécialité accessible à côté de chez vous, la décision qui détermine la suite de votre vie est déjà prise. Le fait que tous les établissements ne proposent pas toutes les spécialités crée une forme de rupture d’égalité, qui est atroce, et cultive le sentiment éprouvé par les jeunes qu’il existe deux poids, deux mesures.<br/>La pression du contrôle continu et l’emploi du temps de 8 heures à 18 heures ont suscité des pétitions et des manifestations d’élèves. Le président de la République a lancé la Convention citoyenne sur les temps de l’enfant, puis, comme le résultat ne lui plaisait pas, il n’a même pas reçu les citoyens qui ont rédigé le rapport de cette convention.<br/>En ce qui concerne l’orientation, on n’explique pas aux jeunes comment fonctionnent le logiciel et l’algorithme de Parcoursup. Certains me disent par exemple que les absences comptent, ignorant que ce n’est pas le cas.<br/>Nombre de lycéens sont recalés de Parcoursup parce que les universités utilisent leurs propres algorithmes et que ceux-ci opèrent une discrimination sociale évidente. J’ai été élu étudiant à l’université Paris-Panthéon-Assas et j’avais déposé un amendement pour que les algorithmes ne mettent pas de côté les lycéens de la voie professionnelle. Le président de l’université l’a refusé. J’aimerais bien connaître l’algorithme utilisé par cette université : je pourrais ainsi prouver qu’elle discrimine les lycéens de la voie professionnelle.<br/>En raison de ces mécanismes, les enfants de cadres ont deux fois plus de chances que les enfants d’ouvriers d’accéder à l’enseignement supérieur, et seuls 10 % des étudiants sont enfants d’ouvriers, alors que leur part dans la société est supérieure.<br/>L’autre versant de la sélection du fait de Parcoursup tient à l’université dans laquelle on va vous envoyer, donc à la somme que vous devrez payer pour faire vos études. La précarité étudiante est le grand sujet oublié ces dernières années. Ainsi, seul un étudiant sur trois touche une bourse. Cela signifie-t-il que les deux autres sont riches et peuvent faire leurs études ? De plus, l’inflation n’a pas été compensée par une augmentation du montant des bourses : même un boursier à l’échelon le plus élevé n’arrive pas toujours à en vivre.<br/>Il existe donc une discrimination évidente entre les gosses de riches, dont les parents peuvent payer le loyer, la nourriture et les factures, et les gosses des familles populaires, qui doivent travailler et ont deux fois moins de temps que les autres pour étudier.<br/>Cela entraîne des problèmes de santé mentale. Le système dans lequel on met les jeunes de 14 à 18 ans est une broyeuse. Ils savent que la décision la plus importante de leur vie dépend de leur classe sociale, de leur genre et de leur couleur de peau.<br/>Nous faisons différentes propositions. D’abord, les lycéens de la voie professionnelle devraient percevoir un revenu. Les meilleurs éléments sont souvent recrutés par l’entreprise à l’issue de leur stage ; ils ne poursuivent pas leurs études dans l’enseignement supérieur et c’est ainsi qu’on perd de très bons techniciens. Même chose pour les étudiants. L’égalité à l’université n’existera pas tant que tous les étudiants ne disposeront pas d’un revenu pour mener leurs études. Pour que les retraités ne dépendent plus de leur famille, on a mis en place la sécurité sociale ; si vous voulez que les étudiants ne dépendent plus de leur famille, il faut créer une nouvelle branche de la sécurité sociale !<br/>Enfin, si 50 000 lycéens se retrouvent de côté chaque année, c’est parce qu’on manque de places dans l’enseignement supérieur. Quand, le premier jour de la rentrée, des étudiants ne peuvent pas s’asseoir sur les bancs des amphis, c’est que nous avons échoué sur tous les points !<br/>L’orientation, c’est surtout une question de lutte des classes. Nos propositions visent à ce que la promesse inscrite sur le fronton de nos écoles et de nos universités,<italique> Liberté, Égalité, Fraternité</italique> soit tenue.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2869759" ordre_absolu_seance="76" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012870" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2427.98">La parole est à M. Elie Califer.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2869760" ordre_absolu_seance="77" id_acteur="PA795762" id_mandat="PM843767" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012871" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Elie Califer (SOC)</nom>
+            <id>795762</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2437.42">L’orientation postbac est, on le sait, une étape décisive dans la vie de nos jeunes : elle conditionne non seulement leur parcours d’études, mais aussi, souvent, leur avenir professionnel. Désormais, la phase d’orientation entre le lycée et l’enseignement supérieur se passe principalement sur la plateforme Parcoursup.<br/>Le ministère de l’enseignement supérieur nous expliquait dernièrement qu’à l’ouverture de la phase de résultats de Parcoursup, près des deux tiers des candidats recevaient une proposition. Derrière ces chiffres rassurants, la réalité vécue par les élèves, les familles et les personnels éducatifs est bien plus nuancée. Parcoursup est perçu par une très large majorité comme une procédure complexe et anxiogène : elle est jugée lourde et stressante par 84 % des lycéens. Peut-être une nouvelle et dernière réforme, après toutes celles déjà menées, est-elle nécessaire.<br/>Ce ressenti est partagé par les équipes éducatives. En Guadeloupe, dès le premier jour d’ouverture de la plateforme, le rectorat constate une explosion des sollicitations. De nombreux élèves, perdus et inquiets, sollicitent leurs profs.<br/>La plateforme, difficile à prendre en main et peu intuitive, impose un suivi rigoureux dans le temps. Or cette lourdeur repose en grande partie sur les professeurs principaux, qui accompagnent les élèves dans la rédaction des dossiers, la compréhension des attendus et le respect des calendriers. Ils doivent répéter, relancer, expliquer, tout en continuant à assurer leurs cours. La charge de travail est considérable, surtout dans des académies comme la nôtre, où ils ne sont pas systématiquement deux par classe.<br/>Cette situation creuse également les inégalités sociales. Les élèves qui disposent d’un entourage familial informé, disponible, à l’aise avec les outils numériques, partent avec un avantage évident – il faut l’admettre. À l’inverse, ceux qui n’ont pas cet accompagnement prennent du retard, commettent des erreurs ou, pire encore, passent à côté d’une occasion ou d’une solution. Chaque année, des élèves perdent des possibilités d’orientation à cause d’une mauvaise compréhension de la plateforme.<br/>Si l’on se place du point de vue de la démocratisation de l’enseignement supérieur, la plateforme Parcoursup crée des perdants et déboussole plus d’un candidat. En 2024, après la première phase de résultats à la mi-juillet, plus de 85 000 candidats restaient sans proposition d’affectation ; en 2025, cette situation concernait plus de 103 000 candidats. Derrière ces chiffres, il y a des jeunes en attente, des familles dans l’angoisse et une impossibilité concrète de s’organiser.<br/>Les candidats ultramarins postulent beaucoup dans l’Hexagone, en raison d’une offre de formation locale limitée. En 2023, 62 % des lycéens ultramarins ont formulé au moins un vœu dans l’Hexagone. Les réponses tardives, après la mi-juillet, compliquent considérablement le départ – recherche de logement et démarches administratives. L’orientation tardive devient alors un facteur d’échec, ou de renoncement dès la première année.<br/>Nombreux sont ceux qui expriment un sentiment persistant : la plateforme est mal conçue, mal codée et peu lisible, ce qui donne l’impression de subir la procédure plutôt que de la maîtriser. Pourtant, l’orientation ne devrait pas être un parcours d’obstacles. Elle doit être un outil au service de l’émancipation, de la justice sociale, de l’égalité républicaine et territoriale.<br/>Après plusieurs réformes, comment simplifier l’utilisation de Parcoursup ? Le comité éthique et scientifique de la plateforme a récemment publié un rapport comprenant vingt-deux recommandations. Il plaide notamment pour une plus grande transparence des critères de sélection – car il y en a – utilisés par les établissements.<br/>Le gouvernement a-t-il l’intention de renforcer le nombre de professeurs référents ? C’est un point essentiel, notamment dans les lycées professionnels, où les besoins d’accompagnement des élèves sont plus importants.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2869615" ordre_absolu_seance="87" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012997" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2717.95">La parole est à M. Frantz Gumbs.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2869616" ordre_absolu_seance="88" id_acteur="PA795258" id_mandat="PM843794" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012998" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Frantz Gumbs (Dem)</nom>
+            <id>795258</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2724.92">Ce débat intervient à un moment particulièrement opportun : les inscriptions sur Parcoursup sont ouvertes ; d’autre part, avec mon collègue Pierrick Courbon, je suis corapporteur d’une mission flash consacrée à Parcoursup, au nom de la commission des affaires culturelles et de l’éducation.<br/>Vous le savez, Parcoursup est désormais le passage obligé de tout le processus d’orientation postbac. Le système d’orientation, structuré autour de cette plateforme, est censé permettre à chacun, quelle que soit sa situation géographique ou sociale, d’accéder à toutes les offres de formation recensées sur le territoire national. Toutefois, l’analyse des retours d’expérience des élèves, des familles et des équipes éducatives met en lumière des limites structurelles qui nous amènent à nous interroger sur la capacité du dispositif à satisfaire réellement les choix de tous les jeunes.<br/>Dans les lycées et,<italique> a fortiori</italique>, dans les collèges, le temps réellement consacré à la sensibilisation et à l’information sur l’orientation est insuffisant. Les heures dédiées à cette mission se réduisent souvent à quelques séances sur l’ensemble de l’année scolaire. Ce temps contraint tient au manque d’accompagnants ou au manque de formation de ceux-ci. En outre, d’autres impératifs pédagogiques sont considérés comme prioritaires, au détriment d’un travail pédagogique de fond sur la construction du projet personnel, la découverte des filières et l’accompagnement à la rédaction d’un projet motivé.<br/>Les professeurs principaux, investis au premier chef de cette responsabilité, se trouvent fréquemment en difficulté, faute de formation spécifique approfondie. Cela conduit parfois à des informations imprécises ou contradictoires, et renforce le sentiment de désorientation éprouvé par les élèves.<br/>Faute d’un accompagnement institutionnel suffisant, nombre d’élèves se tournent vers leur entourage familial ou, pire, vers les réseaux sociaux ou des outils numériques d’intelligence artificielle pour construire leur projet. Le défaut d’accompagnement augmente le stress lié à l’enjeu même du baccalauréat : les élèves et leurs familles savent qu’ils ne disposent que d’une seule année – l’année du bac.<br/>Les outils d’accompagnement à l’orientation postbac sont introduits trop tardivement dans le parcours scolaire. Beaucoup d’élèves découvrent la réalité des choix possibles seulement en classe de terminale, dans un contexte où la pression est déjà forte.<br/>Une première approche des enjeux et des processus de l’orientation dès la classe de quatrième permettrait aux élèves de disposer du temps nécessaire pour réfléchir, s’informer sur l’ensemble des parcours existants et construire progressivement leur projet, tout en contribuant à réduire les inégalités de départ. Dès la quatrième également, on pourrait envisager la désignation, dans chaque collège, d’un professeur référent pour l’orientation, qui serait partiellement déchargé de cours et bénéficierait d’une formation<italique> ad hoc</italique>.<br/>Jusqu’en première, les élèves sont insuffisamment conscients et préparés à l’élaboration de leur projet d’orientation, alors que cela devient obligatoire en terminale. Pourtant, dès la première, ils auraient tout intérêt à obtenir les meilleurs résultats possible, puisque les notes de première comptent autant que celles de terminale.<br/>C’est d’autant plus nécessaire que la qualité, la lisibilité et la transparence de l’information disponible sur la plateforme font l’objet de critiques récurrentes, et que la grande quantité d’informations publiées sur Parcoursup est source d’angoisse pour certains.<br/>Les informations relatives aux débouchés réels ou au coût global de la vie étudiante sont souvent jugées difficiles à appréhender, même pour les élèves de terminale. Le calendrier même de Parcoursup est perçu comme particulièrement anxiogène. Des considérations multiples, parfois contradictoires, rendent difficiles les ajustements de ce calendrier – il faut satisfaire à la fois l’amont et l’aval du processus d’orientation.<br/>L’enjeu central est donc de construire une orientation plus précoce, mieux organisée, plus proche des élèves et plus équitable à l’échelle de l’ensemble des territoires, afin de limiter les inégalités territoriales et sociales – Parcoursup cristallisant les critiques en la matière.<br/>Quelles évolutions le gouvernement entend-il engager pour renforcer l’accompagnement humain de l’orientation, clarifier la lisibilité de l’offre de formation et adapter le calendrier du processus d’orientation, afin de restaurer la confiance des élèves et des familles dans le système d’orientation postbac ?<br/>J’espère que les conclusions et propositions issues de la mission flash que je conduis avec mon collègue Pierrick Courbon pourront utilement nourrir cette réflexion et que vous les prendrez en compte pour faire évoluer notre système d’orientation.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2869633" ordre_absolu_seance="101" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4013015" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3047.02">La parole est à Mme Soumya Bourouaha.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2869634" ordre_absolu_seance="102" id_acteur="PA720838" id_mandat="PM843671" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4013016" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Soumya Bourouaha (GDR)</nom>
+            <id>720838</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3063.30">Le débat sur l’orientation postbac ne porte pas uniquement sur les modalités techniques d’affectation ; il concerne très concrètement les conditions dans lesquelles notre jeunesse construit son avenir.<br/>La première limite majeure du dispositif tient à sa mise en œuvre : l’orientation repose sur des moyens humains très insuffisants. Dans de nombreux lycées, les psychologues de l’éducation nationale, chargés de l’orientation, sont trop peu nombreux pour assurer un suivi réel. Quant aux équipes éducatives, elles manquent de temps et de formation pour accompagner les élèves individuellement.<br/>Le temps qui devrait être consacré à l’orientation, notamment dans le cadre de l’accompagnement personnalisé (AP), est en réalité largement absorbé par le soutien scolaire. L’orientation passe donc trop souvent au second plan.<br/>Ainsi, nous demandons à des jeunes de formuler des choix structurants, et parfois irréversibles, pour leur avenir sans leur garantir un accompagnement à la hauteur de l’enjeu.<br/>À cela s’ajoute l’illisibilité persistante des critères de sélection : le poids respectif des notes, des appréciations, des attendus locaux ou des éléments extrascolaires demeure difficile à comprendre pour beaucoup de familles. Ce manque de transparence alimente un sentiment d’arbitraire, qui fragilise la confiance dans l’institution.<br/>Enfin, l’attente des réponses, les refus successifs et les listes d’attente prolongées génèrent un stress massif. Ce phénomène touche toute la jeunesse, mais il frappe plus durement encore ceux qui disposent de moins de solutions alternatives.<br/>Ces défaillances d’accompagnement ne sont pas neutres socialement : elles produisent des effets différenciés selon les territoires. Dans l’académie de Créteil, les lycéens sont proportionnellement moins nombreux à recevoir une proposition d’admission que dans le reste du pays, et cet écart ne se résorbe pas au moment d’intégrer effectivement une formation.<br/>Cela traduit une fracture territoriale nette : dans les académies les plus populaires, une part significative des lycéens demeure éloignée d’un accès à des études supérieures correspondant à leur choix. Cette situation résulte d’inégalités sociales de départ qui pèsent lourdement sur les trajectoires d’orientation – moins d’accès à l’information, moins d’accompagnement familial dans la procédure.<br/>À ces inégalités territoriales s’ajoutent des inégalités de filières particulièrement marquées. Toujours dans l’académie de Créteil, seuls 56 % des bacheliers professionnels et 66 % des bacheliers technologiques accèdent à une formation correspondant à leur poursuite d’études.<br/>Or ces filières concentrent davantage d’élèves issus des classes populaires. Plus l’origine sociale est modeste, plus l’accès aux études supérieures se restreint. Autrement dit, le système d’orientation entérine des logiques de classe déjà à l’œuvre tout au long de la scolarité.<br/>À cette sélection – par le territoire et par la filière – s’ajoute une transformation plus insidieuse encore de la logique même de l’orientation. On demande désormais aux élèves de se distinguer, de se valoriser, de produire des preuves individualisées de leurs mérites – lettres de motivation, engagements extrascolaires, expériences diverses –, autant d’éléments qui supposent la maîtrise de codes sociaux inégalement répartis.<br/>Cette injonction à l’autopromotion installe un individualisme compétitif qui favorise ceux qui savent se présenter plus que ceux qui ont simplement la capacité de réussir. Elle nourrit aussi le développement d’un marché privé de l’accompagnement, réservé à celles et ceux qui peuvent assumer le coût d’un tel accompagnement.<br/>Derrière ces mécanismes se dessine en réalité un choix politique plus large. Deux conceptions de l’enseignement supérieur s’opposent : l’une qui en fait un levier d’émancipation garantissant un égal accès aux études, l’autre qui organise la rareté des places et la compétition comme mode de sélection.<br/>Face à ces constats, je résume mes questions en une seule : que propose le gouvernement pour rompre avec cette politique de classe et pour permettre aux jeunes des catégories populaires une orientation réellement choisie, éclairée et émancipatrice ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2869649" ordre_absolu_seance="116" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4013031" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3331.91">La parole est à M. le ministre de l’enseignement supérieur, de la recherche et de l’espace.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2869650" ordre_absolu_seance="117" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4013032" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre de l’enseignement supérieur, de la recherche et de l’espace</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3341.78">Je vous remercie pour l’inscription à l’ordre du jour de ce débat sur un sujet fondamental pour la nation – l’accès à l’enseignement supérieur. Dans vos propos liminaires, vous avez abordé de nombreux sujets connexes : l’équité territoriale – enjeu majeur –, la place du baccalauréat ou le montant des bourses, par exemple. Je ne pourrai pas tous les traiter dans mon propos liminaire, mais je veillerai bien entendu à vous répondre par la suite.<br/>Nous avons tous été confrontés, un jour, à cette question fondamentale : qu’ai-je envie de faire demain ? La plupart d’entre nous ont dû se poser la question au lycée. Notre responsabilité, en tant que gouvernement, est d’abord de permettre aux lycéens de se poser cette question dans les meilleures conditions possible, avec les meilleurs conseils d’orientation, sachant qu’ils ne bénéficient évidemment pas tous du même environnement familial ou socioprofessionnel, ce qui constitue l’une des sources majeures d’inégalités – quel que soit le système que nous pourrions construire.<br/>Une fois que les élèves ont apporté une réponse à cette question, nous devons faire le maximum pour que chacun puisse accéder à la formation qu’il a choisie.<br/>Je reviens un instant sur le chemin parcouru depuis la loi du 8 mars 2018 relative à l’orientation et à la réussite des étudiants (ORE). En huit ans, le système d’accès à l’enseignement supérieur a été profondément remanié.<br/>En 2017, le Conseil d’État avait condamné le recours au tirage au sort – non prévu par la loi, mais rendu inévitable par le système d’admission postbac de l’époque. C’est pour répondre à cette décision et à l’impérieuse nécessité d’offrir à nos jeunes une procédure équitable que Parcoursup a été créé.<br/>Si l’on remonte encore plus loin, souvenez-vous également – pour ceux d’entre nous qui ont connu cette époque – des files d’attente devant les universités, à l’aube, pour s’inscrire à l’aide de dossiers papier, ou du 3615 Ravel. Il fallait alors limiter ses choix du fait même du support papier.<br/>Parcoursup, c’est un univers des possibles ; c’est le choix. La plateforme propose 24 000 formations territorialisées – elles ne sont évidemment pas toutes différentes, mais ce sont bien 24 000 formations –, ce qui offre à chaque lycéen un très large éventail de possibilités pour construire son avenir. C’est une force mais aussi, parfois, une source d’inquiétude pour les jeunes qui se retrouvent face à cet univers des possibles.<br/>Parcoursup est efficace : grâce à la plateforme, plus de neuf lycéens sur dix reçoivent une proposition d’admission, dans des délais très courts – les trois quarts des candidats obtiennent désormais une réponse positive dès la première semaine.<br/>Je veux le redire ici très clairement : Parcoursup n’est pas un algorithme. Les étudiants candidatent, ils déposent un dossier et, en retour, des professeurs, des professeurs des universités, des professeurs de classe préparatoire, de BTS – brevet de technicien supérieur –, se mettent autour de la table, consultent les dossiers et classent les candidatures. Il s’agit d’un travail énorme. Ils examinent les dossiers un par un et, s’ils s’aident parfois d’algorithmes locaux, ce sont bien des hommes et des femmes qui sont à la manœuvre.<br/>Parcoursup ne fait que récolter les choix des élèves. Derrière, il n’y a pas d’algorithme ; c’est tout sauf une boîte noire. C’est au contraire une boîte totalement transparente, où sont recueillis les dossiers, pour être ensuite distribués aux professeurs, dans les universités et les classes prépa, à charge pour ces derniers de faire le travail. Je le répète, ce sont des milliers d’hommes et de femmes qui œuvrent pour cela.<br/>Parcoursup, c’est aussi un effort démocratique. En 2025, près d’un million de lycéens et d’étudiants ont participé à la procédure, soit 200 000 de plus qu’en 2017. Sur ce million de candidats, seuls 38 élèves, 38 élèves de trop, n’ont pas trouvé de formation. Ce résultat, on le doit non seulement à la plateforme mais aussi à la mobilisation des commissions d’accès à l’enseignement supérieur, qui repêchent, un par un, les candidats en difficulté : là encore, des hommes et des femmes – et non des algorithmes –, traitent chaque cas individuel.<br/>Au-delà de ces aspects liés à la sélection, la démocratisation de l’accès à l’enseignement supérieur reste le principal moteur de justice en ce domaine. Les quotas sociaux introduits dans Parcoursup ont permis à des milliers de lycéens boursiers d’accéder à des formations qui leur semblaient inaccessibles – je pense notamment aux bouleversements majeurs dans le recrutement de Sciences Po Paris par exemple, où la part des boursiers a triplé depuis son intégration dans Parcoursup ; je pense aussi aux écoles vétérinaires, qui ont considérablement diversifié leur recrutement. Les Cordées de la réussite démontrent également leur efficacité, et les chiffres parlent d’eux-mêmes : les lycéens qui participent à ces dispositifs ont un taux d’admission supérieur de près de 3 points à la moyenne nationale, taux qui monte à 6 points pour les bacheliers professionnels. C’est la preuve que l’accompagnement personnalisé paie.<br/>Notre politique volontariste en faveur des bacheliers technologiques et des bacheliers professionnels porte aussi ses fruits. La moitié des bacheliers technologiques candidats à un BUT – bachelor universitaire de technologie – reçoivent aujourd’hui une proposition d’admission, tandis que les trois quarts des bacheliers professionnels trouvent une place en BTS, alors qu’en 2017 ces formations étaient en train de se transformer en pseudo-classes préparatoires. Nous sommes donc, en quelque sorte, revenus à l’essence du BTS.<br/>Ces résultats sont le fruit d’un travail de fond pour adapter les formations aux profils des élèves, qui peuvent se voir proposer un dispositif d’accompagnement personnalisé et adapté, comme le dispositif « oui si », qui bénéficie à plus de 26 000 étudiants chaque année, dans les universités et dans les écoles, et qui a permis de diviser par trois le taux d’abandon de ces publics.<br/>Les usagers eux-mêmes reconnaissent ces progrès. Selon une enquête de l’institut CSA, plus de 70 % des lycéens considèrent que Parcoursup les aide à construire leur projet d’orientation. Les nouveaux outils, les sites d’entraînement, les comparateurs de formation, les systèmes de favoris répondent à leurs attentes ; la messagerie de contact, les chats en direct, les réseaux sociaux, tous ces canaux permettent un accompagnement au plus près des besoins.<br/>L’accompagnement, enfin, a été enrichi grâce au programme Avenir(s) piloté par l’Onisep, l’Office national d’information sur les enseignements et les professions. Ce programme innovant permet un suivi personnalisé dès la classe de cinquième, avec des outils adaptés à chaque âge. Il favorise la découverte des métiers, l’exploration des formations, la construction progressive du projet d’orientation, y compris en intégrant des techniques d’intelligence artificielle, non pas pour fermer ou téléguider les jeunes vers telle ou telle formation, mais pour ouvrir le monde des possibles à chaque jeune qui le souhaite.<br/>Promettre à chacun d’entre eux de construire un parcours choisi et réussi dans l’enseignement supérieur, c’est un enjeu de justice sociale, un enjeu d’efficacité économique. Notre pays a besoin de tous les talents pour relever les défis qui sont devant nous. Des marges de progrès subsistent, des inégalités territoriales – cela a été souligné par plusieurs d’entre vous – sont présentes et persistantes : nous devons y travailler. Nous devons aller plus loin dans l’orientation, dans la formation des enseignants, en particulier dans la formation des enseignants du secondaire en matière d’orientation. Enfin, nous devons poursuivre le travail d’articulation entre secondaire et supérieur.<br/>Tels sont bien les sujets du débat de ce jour, et je répondrai évidemment à vos différentes questions.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2869590" ordre_absolu_seance="135" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012622" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3848.52">Nous en venons aux questions. Je vous rappelle que la durée des questions ainsi que celle des réponses est limitée à deux minutes, sans droit de réplique.<br/>La parole est à M. Maxime Michelet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2869592" ordre_absolu_seance="137" id_acteur="PA841395" id_mandat="PM842981" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012624" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Maxime Michelet (UDR)</nom>
+            <id>841395</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3870.82">Avant de devenir député, j’ai été, en parallèle de mes études doctorales, gestionnaire de scolarité pendant plusieurs années, ce qui m’a conduit à gérer cinq procédures Parcoursup pour les deux établissements dans lesquels j’ai travaillé. Je rejoins tous les collègues ici présents sur l’importance pour leur avenir des choix que doivent faire les élèves entre 15 et 18 ans et je vous entends lorsque vous dites vouloir offrir à chacun un parcours choisi. Pour avoir travaillé dans de grandes prépas parisiennes, je vous répondrai néanmoins qu’en matière de gestion, il faut gérer la frustration, la frustration de ne pas avoir vu ses vœux exaucés. Un bachelier sur quatre environ postule pour une classe préparatoire mais, compte tenu de leur faible nombre, beaucoup s’en voient refuser l’accès.<br/>J’aimerais vous entendre sur ces échecs, dont on a peu parlé, et sur tous ces élèves qui ont reçu des propositions mais n’ont pu obtenir la filière de leurs rêves – l’expression de certains collègues laisse penser qu’il faudrait que chacun ait la garantie d’y accéder. Que propose l’enseignement supérieur en guise de passerelles pour ces élèves déçus dont les choix faits à 18 ans ne doivent pas engager leur vie entière ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2869594" ordre_absolu_seance="139" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012626" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3955.34">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2869595" ordre_absolu_seance="140" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012627" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3990.22">Monsieur le député, je partage totalement votre analyse. Une des premières choses que je dis aux lycéens à qui je rends visite – j’étais il y a une dizaine de jours à Fontainebleau –, c’est qu’ils ne jouent pas leur vie sur Parcoursup. C’est évidemment une étape importante, mais ils ont le droit à l’erreur. Je ne dis pas que c’est formidable, mais on peut se tromper et se réorienter : sur le million de jeunes qui passent par Parcoursup, 200 000 sont en réorientation. Certes, cela coûte cher, et, pour les finances publiques, on pourrait souhaiter qu’ils soient moins nombreux, mais je n’ai aucun doute sur le fait qu’on doit pouvoir changer de filière, car il n’est pas toujours évident de trouver sa voie quand on a 17, 18 ou 19 ans. J’ajoute, au risque d’énoncer un lieu commun, que le monde a radicalement changé et que le système très tubulaire que nous avons connu, dans lequel on commençait des études dans une discipline pour les suivre jusqu’au bout, a vécu. On essaie, on se trompe beaucoup plus qu’auparavant.<br/>Pour ce qui concerne les classes préparatoires, vous conviendrez avec moi que le fait qu’à cause d’un nombre de places limité tout le monde ne puisse pas entrer à Henri IV ou à Louis-le-Grand n’est pas un sujet totalement nouveau. C’était déjà le cas bien avant 2017 !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2869596" ordre_absolu_seance="142" id_acteur="PA841395" id_mandat="PM842981" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4013178" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Maxime Michelet</nom>
+            <id>841395</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4089.50">Tout à fait !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2869596" ordre_absolu_seance="143" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4013177" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4100.56">Ce qui a profondément changé en revanche, c’est que, longtemps cantonnée aux classes prépa, l’excellence n’est plus leur apanage. Les universités ont développé des filières d’excellence : bachelors, doubles cursus, doubles masters, écoles intégrées… Les parcours se sont diversifiés et la liberté, notamment celle de trouver ailleurs des formations d’excellence, offerte aux très bons élèves qui n’auront pas trouvé leur place à Louis-le-Grand, est plus grande.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2869597" ordre_absolu_seance="144" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012629" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4129.82">La parole est à Mme Anne Sicard.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2869598" ordre_absolu_seance="145" id_acteur="PA842255" id_mandat="PM843770" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012630" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Anne Sicard (RN)</nom>
+            <id>842255</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4135.84">Comme cela a été exposé, Parcoursup est une machine grippée. Si cette plateforme est devenue une boîte noire indéchiffrable, c’est aussi parce que nous lui demandons l’impossible : orienter des élèves que l’on refuse de sélectionner. En effet, la première limite de notre système d’orientation, c’est l’effondrement de la valeur du baccalauréat. Avec 91 % de réussite globale et 96 % pour le bac général, ce diplôme qui était un outil de sélection s’est transformé en un simple certificat de présence. Pendant trente ans d’égalitarisme éducatif, on a préféré baisser la barre plutôt que d’élever le niveau. L’introduction massive du contrôle continu a achevé de dissoudre toute exigence. Or un 15/20 à Henri IV ou à Louis-le-Grand ne vaut évidemment pas un 15/20 reçu dans un lycée d’éducation prioritaire. C’est là le paradoxe le plus accablant : Parcoursup ne prend même pas en compte les notes du baccalauréat, et l’affectation repose sur le dossier scolaire, qui n’a rien de comparable d’un établissement à l’autre.<br/>Le baccalauréat, c’est pourtant la promesse républicaine d’une épreuve nationale anonyme, identique pour tous. Il est aujourd’hui doublement humilié, vidé de son exigence par le contrôle continu, puis ignoré par l’algorithme censé orienter nos lycéens. On fait croire à chaque bachelier qu’il est apte aux études dites supérieures. Pire, certains établissements, sous la pression, gonflent les notes pour ne pas confronter leurs élèves à leur niveau réel. L’échec de plus d’un étudiant sur deux en première année n’est que le résultat de la politique du bac pour tous, autrement dit, de la réussite pour personne !<br/>Ma question est donc simple : continuerons-nous à financer ce gâchis humain ou allons-nous enfin restaurer l’exigence nationale pour orienter nos forces vives vers les filières scientifiques et technologiques, dont la souveraineté française dépend ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2869601" ordre_absolu_seance="148" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012633" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4234.37">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2869602" ordre_absolu_seance="149" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012634" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4242.25">Tout d’abord, sont proposées, au sein de Parcoursup, des formations sélectives et des formations non sélectives, comme cela a toujours été le cas. L’accès aux formations sélectives ne repose pas, et n’a jamais reposé, sur les notes terminales du baccalauréat, puisque les épreuves terminales arrivent mécaniquement beaucoup trop tard pour que les établissements se fondent sur elles. Tout cela n’est pas nouveau, et pardon si je rappelle une évidence.<br/>Nous avons uniformisé, au sein de Parcoursup, la procédure concernant les formations sélectives et non sélectives, avec une nouveauté depuis cette année, puisque deux notes du baccalauréat seront directement prises en compte : la note du bac de français et celle de l’épreuve anticipée de mathématiques, ce qui, d’une certaine façon, répond à vos préoccupations.<br/>Ensuite, vous avez raison d’évoquer la difficulté posée par le gonflement des notes. Cela doit être régulé mais je ne doute pas que nous y arriverons, comme y sont arrivés les autres pays qui fonctionnent avec des systèmes similaires.<br/>Enfin, permettez-moi de faire remarquer que, si le contrôle continu peut être source de pression pour les élèves qui sont en effet mis sous tension dans la durée, c’est aussi un moyen, pour certains, de corriger le tir en cours de scolarité, et donc un moteur de réussite.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2869606" ordre_absolu_seance="153" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012638" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4363.33">La parole est à M. Jordan Guitton.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2869607" ordre_absolu_seance="154" id_acteur="PA793218" id_mandat="PM840267" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012639" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jordan Guitton (RN)</nom>
+            <id>793218</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4369.71">En 2025, 103 000 jeunes ont été abandonnés par Parcoursup après la phase principale, dont 70 000 lycéens sans aucune proposition, alors que le taux de réussite au baccalauréat a dépassé les 90 %. Parallèlement, parmi ceux qui intègrent une licence, presque 60 % échouent en première année, ce qui est, bien sûr, un gâchis d’orientation. Le système actuel est injuste, opaque, inefficace. Parcoursup, c’est la sélection déguisée, l’arbitraire des algorithmes et l’angoisse pour des milliers de familles qui nous font d’ailleurs part chaque année de leurs préoccupations en nous adressant des mails.<br/>Au Rassemblement national, nous avons un plan clair pour clarifier l’orientation. Le baccalauréat redeviendra un examen terminal, national et anonyme, avec des notes qui comptent vraiment pour l’accès à l’université. Aujourd’hui, le bac n’est plus qu’un diplôme dévalué, ignoré par Parcoursup. Nous y mettrons fin, mais cela m’amène à une première question : pourquoi ne pas avancer la date des épreuves du baccalauréat, pour permettre de les inclure dans l’orientation postbac ?<br/>Le brevet, lui, deviendra un examen d’orientation post-troisième, pour permettre une véritable revalorisation des filières, notamment professionnelles, qui ont bien besoin d’accueillir de nouveaux étudiants. Un système de passerelles devra être mis en place pour permettre le passage d’un enseignement à l’autre.<br/>Vous prétendez que Parcoursup n’est pas un algorithme. Dans ce cas, soyez transparents et publiez les critères de sélection, expliquez-nous ce que signifie la fin de l’opacité dans les admissions et le rôle que jouent les établissements dans le choix des critères de sélection. Davantage de transparence nous permettrait d’éclairer le travail parlementaire et les réponses que nous devons fournir chaque année aux familles désespérées qui nous contactent par mail.<br/>Au Rassemblement national, notre objectif est clair : zéro jeune sans solution – j’espère que c’est aussi le vôtre, monsieur le ministre – avec un système qui récompense le mérite, protège les enseignants et prépare ce qui constitue l’avenir de la France. Ma question est simple : sur ce sujet, comme sur tant d’autres, pourquoi rien n’a changé en neuf ans de macronisme ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869768" ordre_absolu_seance="159" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012804" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4469.27">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869769" ordre_absolu_seance="160" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012805" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4488.67">Permettez-moi de contester un ou deux points que vous mentionnez. Non, la plateforme n’a pas abandonné 70 000 jeunes. Sur le million de jeunes inscrits, nombre d’entre eux changent de projet, quittent la plateforme parce qu’ils ont décidé de travailler et de ne pas poursuivre leurs études, parce qu’ils ont trouvé une formation d’enseignement supérieur à l’étranger, parce qu’ils ont décidé de redoubler, etc. Certains jeunes préviennent, et se désinscrivent de la plateforme, d’autres pas. Je peux vous assurer que ceux qui n’ont pas d’affectation ne sont pas du tout abandonnés : ils sont relancés par e-mail, par téléphone et ceux qui veulent continuer leurs études et restent sans solution sont pris en charge par les CAES, les commissions d’accès à l’enseignement supérieur, composées de professeurs du secondaire et des universités, de personnels du rectorat, que je suis allé voir, et qui passent leurs mois de juillet et d’août à caser les élèves un par un dans des formations. Finalement, comme je l’ai déjà indiqué, seuls 23 jeunes sont restés sans solution l’an dernier.<br/>Si vous voulez que les notes du baccalauréat comptent pour Parcoursup, au vu du temps nécessaire pour examiner les dossiers, il faudrait organiser le baccalauréat en février. Dans ce cas, on perdrait des mois de formation puisque l’année de terminale durerait quatre mois. Je suis ouvert à toutes les bonnes idées, mais je crains que celle-ci ne fonctionne pas. Pardonnez-moi, j’ai été long ; je n’ai pas pu répondre sur tous les points que vous avez évoqués.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869771" ordre_absolu_seance="162" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012807" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4614.95">La parole est à Mme Sandrine Lalanne.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869772" ordre_absolu_seance="163" id_acteur="PA795390" id_mandat="PM874935" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012808" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sandrine Lalanne (EPR)</nom>
+            <id>795390</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4640.10">Ma première question concerne les conseils et la formation privée. L’orientation postbac est un moment déterminant dans la vie des jeunes, qui devrait reposer sur une information fiable et pluraliste. Or, sur le terrain, de nombreux forums d’orientation, censés aider les lycéens à construire leur projet, sont dominés par des formations privées, parfois au détriment des filières publiques, très absentes, et de la diversité réelle des parcours existants. Ces forums devraient être des espaces d’échange humains permettant une information individualisée, des discussions approfondies sur le contenu des formations, les débouchés réels et les conditions de réussite. Ils deviennent trop souvent des vitrines commerciales où les stratégies de marketing les plus agressives prennent le pas sur l’intérêt des élèves.<br/>Cette logique s’inscrit dans un contexte plus large de foisonnement de formations privées dont certaines ne sont pas reconnues par l’État, mais qui investissent massivement les lieux d’orientation, les réseaux sociaux, les établissements scolaires, avec des promesses parfois peu transparentes sur la qualité des diplômes, leur reconnaissance ou leurs débouchés professionnels.<br/>Face à cette situation, la question n’est pas seulement celle de la coexistence du public et du privé, mais celle de la régulation, de la lisibilité de l’offre de formation et de la capacité du service public à garantir une orientation éclairée et émancipatrice pour tous les jeunes, quel que soit leur milieu social. Je rajoute le foisonnement de conseils prodigués par des organismes privés, très coûteux pour les parents.<br/>Quelles mesures le gouvernement entend-il prendre pour garantir que les forums d’orientation reflètent la diversité des formations, privilégier l’échange humain, encadrer plus strictement la présence et les pratiques des formations privées et protéger les jeunes des dérives commerciales ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869774" ordre_absolu_seance="167" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012810" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4728.43">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869775" ordre_absolu_seance="168" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012811" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4750.57">Tout d’abord, les lycéens sont fondamentalement inégaux suivant leur environnement social. Ils sont plus ou moins nourris en matière d’orientation selon le métier de leurs parents, selon ce que font les collègues. Je crois profondément que l’égalité républicaine doit être portée par le lycée, en particulier par les professeurs principaux, qui ont un rôle crucial d’accompagnement à jouer, et que les heures déclarées pour l’orientation dans les lycées techniques, professionnels ou généraux, doivent être réellement consacrées à l’orientation.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869776" ordre_absolu_seance="169" id_acteur="PA0" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012812" valeur="Mme Soumya Bourouaha;;Null;;720838 Mme Sandrine Lalanne;;Null;;795390">
+        <orateurs>
+          <orateur>
+            <nom>Mme Soumya Bourouaha</nom>
+            <id>720838</id>
+            <qualite/>
+          </orateur>
+          <orateur>
+            <nom>Mme Sandrine Lalanne</nom>
+            <id>795390</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4793.88">Ce n’est pas le cas !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869777" ordre_absolu_seance="170" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012813" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4794.01">Or on sait que ce n’est pas toujours le cas, que l’enseignant a tendance à avaler les heures consacrées à l’orientation. C’est un enjeu majeur, car les jeunes les moins favorisés en pâtissent. On ne peut pas interdire le recours aux conseils privés, mais je veux dire aux lycéens qu’ils ont toute l’information sur Parcoursup, que les plateformes de l’Onisep, qui intègrent un peu d’IA, sont très accessibles. Par contre, ils doivent se renseigner très tôt, sans attendre. Le vrai problème – je vais dire les choses un peu brutalement – c’est de parvenir à réveiller plus tôt les jeunes qui ne s’en préoccupent qu’une semaine ou dix jours avant la date fatidique de clôture.<br/>Une charte déontologique des salons étudiants, active à partir du mois d’avril, permettra de les réguler, pour que nous soyons certains qu’ils apportent de l’information, sans adopter une démarche mercantile sur les questions d’orientation.<br/>Enfin, sur la question des formations de l’enseignement supérieur privé, vous savez qu’un projet de loi relatif à la régulation de l’enseignement supérieur privé devrait être examiné dans peu de temps, je l’espère, par votre assemblée.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869780" ordre_absolu_seance="173" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012816" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4877.91">La parole est à Mme Sandrine Lalanne pour sa seconde question.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869781" ordre_absolu_seance="174" id_acteur="PA795390" id_mandat="PM874935" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012817" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sandrine Lalanne (EPR)</nom>
+            <id>795390</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4885.52">Elle concerne l’inadéquation entre les profils des élèves de première et de terminale, suivant leurs choix de spécialités, et l’offre de formation supérieure car je tiens à dire que l’absence des mathématiques en terminale constitue un problème pour l’orientation.<br/>Certaines formations, comme les classes préparatoires, ne font pas le plein, même en économie-gestion, car beaucoup d’élèves ne suivent pas l’enseignement de mathématiques en terminale. Ce phénomène se produit souvent.<br/>Qu’on le veuille ou non, les mathématiques restent une matière de sélection pour les études supérieures en France. C’est même le cas dans certaines formations comme des IEP – instituts d’études politiques – qui demandent les notes de mathématiques. D’autres filières, à l’université, offrent trop peu d’effectifs, notamment en région parisienne, par rapport aux spécialités suivies. Les étudiants peuvent ainsi obtenir une place, mais leur échec est programmé.<br/>Pouvons-nous nous pencher sur le profil des lycéens et l’offre dans le supérieur ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869782" ordre_absolu_seance="178" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012818" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4945.32">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869783" ordre_absolu_seance="179" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012819" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4955.79">L’option mathématiques expertes existe en terminale pour ceux qui souhaitent la suivre. Mais je comprends bien que votre question concerne les autres élèves qui, auparavant, faisaient des mathématiques dans leur filière, sans que ce soit nécessairement leur objectif. Cependant, la réforme du baccalauréat n’a pas eu d’effet statistique majeur sur l’orientation dans les études supérieures. La proportion de filles qui s’orientent vers des disciplines scientifiques n’a pas baissé. En revanche, moins de jeunes suivent des mathématiques en terminale, c’est-à-dire qu’ils les abandonnent un peu plus tôt. C’est un sujet sur lequel nous devons travailler.<br/>L’adéquation est une question multiple. Il faut prendre en compte le profil des jeunes qui évolue au gré des choix et des modes, les capacités d’accueil des formations – qu’on ne peut faire évoluer d’un claquement de doigts parce qu’on ne transforme pas un professeur d’allemand en un professeur de physique ou d’énergie – et – pardon de le dire – le bassin d’emploi.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869784" ordre_absolu_seance="181" id_acteur="PA795390" id_mandat="PM874935" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012951" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sandrine Lalanne</nom>
+            <id>795390</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5004.69">Bien sûr !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869784" ordre_absolu_seance="182" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012950" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5035.26">L’enseignement supérieur a une double vocation : l’ouverture et la compréhension du monde, inscrite dans l’ADN de nos universités, mais aussi la préparation à des métiers qui évoluent à très grande vitesse. C’est vraiment très compliqué, c’est pourquoi les cartes de formation sont pensées sur la base de contrats d’objectifs et de performance au cœur desquels on trouve les universités qui définissent leur stratégie. La présence, autour de la table, des régions, des entreprises et de l’État permet que tout le monde s’aligne sur cette stratégie et s’accorde sur cette carte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869785" ordre_absolu_seance="183" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012821" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5077.32">La parole est à M. Arnaud Saint-Martin.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869786" ordre_absolu_seance="184" id_acteur="PA841845" id_mandat="PM843407" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012822" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Arnaud Saint-Martin (LFI-NFP)</nom>
+            <id>841845</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5086.92">La semaine dernière, en ouvrant ma boîte mail électronique de parlementaire, quelle ne fut pas ma surprise de découvrir une offre de formation d’une improbable école « Robert de Sorbon » : 500 euros de frais de jury pour un diplôme bidon, qui ne vaut rien sur le marché de l’emploi, et 1 200 euros pour une procédure accélérée. Robert de Sorbon est pourtant un multirécidiviste connu des services de l’État, condamné pour arnaque aux faux diplômes et pratiques commerciales douteuses. On pourrait en sourire, tant c’est grossier, mais les études postbac sont bel et bien en proie à une Robert de Sorbonnisation des formations supérieures.<br/>Le nombre d’établissements privés à visée lucrative a explosé ces dernières années, aidé par l’inaction des gouvernements macronistes qui, faute de réguler sévèrement ce commerce douteux, préfèrent proposer des réformes paramétriques ou pire, un projet de loi qui achève de brouiller les frontières entre le public et le privé, normalisant l’idée que les études supérieures sont un business parmi d’autres – vieux mantra de la stratégie de Lisbonne. Peut-être espérez-vous faire oublier des années d’attentisme. Sur les quatre-vingts établissements contrôlés par la direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF), 56 % présentaient des anomalies graves, allant de la publicité mensongère à la proposition de diplômes sans habilitation. Les contrôles de la qualité des formations sont insuffisants, les sanctions sont rares et les exclusions quasi inexistantes.<br/>Le gouvernement annonce de nouveaux labels, de nouveaux agréments, un nouveau tri sur Parcoursup, mais l’accumulation de labels du répertoire national des certifications professionnelles (RNCP) – Qualiopi, accréditation privée, et autres – a déjà rendu le système incompréhensible, sans empêcher les fraudes. Les salons de l’étudiant sont de véritables miroirs aux alouettes, remplis de ces fausses universités qui prolifèrent aux côtés de celles du public, promettant aux étudiants un bachelor ou un mastère sans passer par Parcoursup en oubliant de spécifier que ces diplômes n’existent pas. Quelle aubaine ! Combien faudra-t-il encore d’étudiants endettés et en détresse, faute d’orientation fiable, pour des diplômes sans valeur, avant que l’État assume enfin sa responsabilité ? Quand interdirez-vous l’enseignement supérieur privé lucratif qui prospère sur l’abandon du service public ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869789" ordre_absolu_seance="187" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012825" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5149.67">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2869790" ordre_absolu_seance="188" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012826" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5202.11">À l’issue d’une augmentation très forte au cours des vingt dernières années, 25 % des élèves suivent désormais des formations d’enseignement supérieur privé, lucratives ou non lucratives. Un projet de loi sera étudié dans les prochaines semaines afin de réguler l’enseignement supérieur privé, mais réguler ne signifie, en aucun cas – nous avons probablement un point de désaccord ici –, interdire l’enseignement supérieur privé lucratif ou non. La très grande majorité de ces formations d’enseignement supérieur privé sont de qualité, voire de très grande qualité si vous prenez l’exemple des grandes écoles de commerce privées, très reconnues en France et dans le monde. C’est un exemple parmi d’autres.<br/>Il y a donc d’excellentes formations et nombre d’entre elles sont bonnes mais il y en a aussi qui sont problématiques. Nous avons quelques exemples, dont celui que vous avez mentionné, et d’autres ont été cités dans différents ouvrages. Dans le cadre actuel, il est très difficile de les contrôler. Vous avez raison sur ce point. La faible régulation fait qu’il est plus simple d’ouvrir une formation d’enseignement supérieur que d’ouvrir un restaurant ou un commerce. La régulation prévue par le projet de loi est donc nécessaire.<br/>Dans le cadre actuel, nous utilisons beaucoup Parcoursup pour contrôler les formations qui se trouvent sur la plateforme, ce qu’il est plus difficile de faire pour celles qui n’y sont pas. Ainsi, plusieurs déréférencements ou rappels à l’ordre de formations sont prononcés chaque année parmi les formations présentes sur Parcoursup. Le but du projet de loi que j’évoquais est de garantir qu’une formation labellisée par l’État – Qualiopi ou autre – soit de qualité.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2869694" ordre_absolu_seance="191" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012954" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5313.21">La parole est à M. Arnaud Saint-Martin.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2869695" ordre_absolu_seance="192" id_acteur="PA841845" id_mandat="PM843407" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012955" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Arnaud Saint-Martin (LFI-NFP)</nom>
+            <id>841845</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5338.14">Permettez-moi de faire un pas de côté et d’interroger la pertinence de la demande d’un tel débat par le groupe UDR…N. Il est cocasse de constater que ce groupe s’inquiète soudainement des limites du système d’orientation postbac, alors même que ses membres ont voté, année après année, les pires lois contre l’université.<br/>Les limites sont pourtant claires. Elles sont le fait de votre famille politique qui, on le sait, méprise l’université publique.<br/>La première n’est autre que Parcoursup, un système de sélection made in Macronie, dont, à ma connaissance, vous n’avez jamais vraiment contesté la rationalité. Parcoursup survit grâce à une logique néolibérale de mise en concurrence selon laquelle la prétendue main invisible du marché est censée produire la meilleure orientation possible pour des candidats soumis, toujours plus tôt, à une injonction au darwinisme social. En 2024, plus de 85 000 jeunes se sont retrouvés sans affectation à la fin de la première phase – 77 000 l’année précédente. Plus qu’une limite, c’est un désastre.<br/>La deuxième limite, c’est une université asphyxiée financièrement, contrainte de voter des budgets en déficit, alors que le privé est largement subventionné et encouragé. Cette année encore, le projet de loi de finances imposé par 49.3 ne fait pas exception. Dans une université publique où il y a ni assez d’enseignants ni assez de places pour les étudiants, on compte 4 millions d’euros en moins pour la vie étudiante. On se demande d’ailleurs comment le gouvernement entend financer le repas à 1 euro avec ce genre de budget, à moins de couper dans le programme, comme il l’avait fait pour les bourses.<br/>Ma question n’est qu’un prétexte, vous l’aurez compris. En résumé, nous avons donc une université publique, largement sous-financée, qui est en crise et qui manque de places, assortie d’une plateforme opaque qui sélectionne selon des critères incompréhensibles et qui laisse des dizaines de milliers de lycéens sur le carreau ; dans l’éducation nationale, 4 000 postes supprimés, donc moins de conseillers d’orientation, moins d’accompagnement et moins de suivi tout au long de la scolarité. Chers collègues de l’UDRN, si vous cherchez des limites à l’orientation postbac, regardez donc ce que vous avez voté, ce que vous avez laissé faire et le désastre que cela constitue pour les lycéens et pour les étudiants !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2869699" ordre_absolu_seance="197" id_acteur="PA841395" id_mandat="PM842981" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012959" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Maxime Michelet</nom>
+            <id>841395</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5382.89">Notre groupe existe depuis seulement un an et demi !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2869700" ordre_absolu_seance="198" id_acteur="PA841845" id_mandat="PM843407" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012960" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Arnaud Saint-Martin</nom>
+            <id>841845</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5410.76">Vous êtes solidaires du RN !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2869701" ordre_absolu_seance="199" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012961" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5447.45">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2869702" ordre_absolu_seance="200" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012962" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5456.54">Je n’entrerai pas dans ce débat entre deux groupes.<br/>Le budget voté, valable pour la mission<italique> Recherche</italique><italique> et enseignement supérieur</italique>, dont le périmètre excède celui du ministère, est en augmentation de 750 millions d’euros par rapport à l’année précédente. Quant au périmètre du ministère – universités, organismes et vie étudiante –, il bénéficie de 350 millions d’euros supplémentaires, lesquels compensent aussi des charges supplémentaires. Ce budget permet donc de faire fonctionner efficacement l’enseignement supérieur et la recherche.<br/>Certes, des budgets d’université sont votés en déficit, mais ce sont des budgets initiaux. Vous le savez : la différence entre le budget initial et le budget réalisé est toujours très forte, car les dépenses sont très souvent inférieures aux prévisions. De plus, les budgets initiaux ont été calculés avant la rallonge budgétaire apparue quelques jours avant le recours au 49.3. Il faut donc prendre le chiffre relatif aux universités en déficit avec prudence.<br/>Vous avez évoqué des critères incompréhensibles ou opaques, mais vous savez, monsieur le député, que ce sont des hommes et des femmes – professeurs, enseignants de BTS, d’institut universitaire de technologie (IUT) ou d’université – qui étudient les dossiers. Les critères ne sont pas incompréhensibles, ils sont même publics ! À chaque formation correspondent des critères. Tout élève a le droit de demander individuellement pour quelles raisons il a été refusé. Certains le font. Ce droit est relativement peu utilisé, mais il existe. Je ne souscris donc pas à l’idée de critères incompréhensibles.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2869706" ordre_absolu_seance="204" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012966" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5590.59">La parole est à M. Romain Eskenazi.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2869707" ordre_absolu_seance="205" id_acteur="PA842195" id_mandat="PM843707" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012967" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Romain Eskenazi (SOC)</nom>
+            <id>842195</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5594.15">Si vous êtes d’accord, madame la présidente, je poserai mes deux questions à la fois. Monsieur le ministre, vous semblez défendre avec une certaine conviction l’efficacité de Parcoursup – c’est votre rôle. Je suis d’accord avec vous sur un point : ce n’est qu’un outil. Et tout outil est souvent un bouc émissaire. Parcoursup ne fait qu’administrer une rareté, sans la corriger, et dissimule la pénurie de places et les difficultés d’orientation. J’aimerais discuter de cet outil, de l’orientation qui le précède et de la réforme du collège.<br/>Sur les 900 000 inscrits sur Parcoursup, 500 000 sont des néobacheliers, 400 000 sont en réorientation – mais comme on est appelé à se former tout au long de sa vie, il ne faut pas les négliger –, 85 000 se retrouvent sans affectation. S’agissant du vécu, plus de 83 % des usagers considèrent que Parcoursup est source de stress et d’angoisse, alors qu’il intervient à un moment où on est censé décider avec optimisme de son avenir. C’est inquiétant. D’autant plus que le sentiment d’opacité demeure, malgré la demande en 2020 du Conseil constitutionnel et de la Cour des comptes de faire la transparence sur les critères de sélection. Le sentiment d’arbitraire nourrit alors le sentiment d’injustice.<br/>Par ailleurs le système est complexe. PAAS, LAS, BUT, CPES, LDD, usage abusif de l’appellation bachelor ou mastère : dans une jungle de sigles parfois incompréhensibles, de nombreuses écoles proposent des formations sans diplôme reconnu nationalement, ni visa ni grade, s’appuyant uniquement sur le titre dans le répertoire national des certifications professionnelles. Les familles dotées d’un capital culturel savent les décoder, les autres s’autocensurent ou font des choix par défaut. De fait, Parcoursup devient un facteur de reproduction sociale.<br/>Le marché de l’enseignement privé explose, avec une croissance annuelle de 15 % à 30 %, et des tarifs de séances de consulting ou de conseil qui vont de 20 à 100 euros. Certains parents témoignent de prestations décevantes d’accompagnement pour Parcoursup à plus de 1 000 euros !<br/>Il y a tout de même des acteurs vertueux. L’un d’eux m’a aidé à préparer ce débat. Il s’agit de Thotis, un site soutenu par votre ministère, qui fournit une information gratuite, fiable et accessible à tous. Il propose un vérificateur de diplôme contrôler la véracité d’un diplôme proposé sur Parcoursup. Comptez-vous augmenter les capacités des filières en tension, telles que l’Université Paris-1 ou d’autres universités très demandées ? Par quels moyens entendez-vous revaloriser la filière professionnelle, qui forme à de très nombreux secteurs peinant à recruter, pour des beaux métiers offrant de belles carrières et des rémunérations intéressantes ? Cela me paraît fondamental ! Enfin, comptez-vous obliger à la publication quantitative des critères de sélection ?<br/>Sur le temps qu’il me reste, j’aimerais aborder deux autres sujets. À la suite de la réforme de 2018, l’orientation a été confiée aux régions avec une inégalité de fait assez forte entre elles : certaines ferment des centres d’information et d’orientation (CIO), d’autres non. Les conseillers d’orientation, que j’ai moi-même connus, ont été remplacés par des psy-EN. En Île-de-France, il y en a un pour trois lycées, soit un pour 3 000 élèves. Ce sont donc les professeurs, essentiellement les professeurs principaux, qui se chargent de l’orientation. Un renforcement de leur propre formation est-il prévu afin qu’ils accompagnent au mieux les élèves ? Trop souvent, ce sont les heures de formation qu’on sacrifie en priorité lorsqu’il faut récupérer des heures. On constate une importante inégalité dans l’accès à une information qu’il s’agirait de renforcer et d’harmoniser. Quand bien même cette compétence relève de la région, avez-vous un plan en la matière ?<br/>J’en viens, pour finir, à la réforme du bac et à l’inégalité entre les filières. Avant la réforme, les classes de terminale S comptaient 48,4 % de filles ; elles ne sont plus que 39,8 % en spécialité mathématiques. On constate que la réforme a aggravé les inégalités d’accès aux filières scientifiques. Avec le recul que nous avons désormais, envisagez-vous des ajustements ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2869713" ordre_absolu_seance="212" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012973" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5639.24">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2869714" ordre_absolu_seance="213" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012974" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5841.53">Je le répète, Parcoursup n’est qu’un outil et une procédure. S’il faut une évolution, j’y suis ouvert. Parcoursup n’est plus le même qu’en 2017, il a profondément évolué. Certes, il cristallise un certain nombre d’angoisses et de questions, mais quel que soit le nom ou la procédure, l’orientation, qui est un moment difficile, génère mécaniquement du stress. Il faut tout faire pour le limiter, mais à un moment donné, le candidat doit choisir. Jusque-là, le lycéen est comme dans un cocon ; il est très accompagné dans ses choix, parfois même poussé. À cette nouvelle étape, il doit faire un choix pour son futur.<br/>Je conteste le chiffre de 85 000 jeunes sans affectation. J’ai déjà fourni l’explication : certains sont partis faire autre chose ; en fin de procédure, les jeunes qui voulaient trouver une formation et étaient en difficulté étaient moins de trente l’an dernier – un nombre similaire à celui de l’année précédente.<br/>Je suis d’accord avec vous, monsieur le député, sur la profusion des formations – classes préparatoires, licences, LDD, bachelors, diplômes universitaires spécialisés, écoles d’infirmières, CPES, etc. –, beaucoup plus grande qu’hier. Toutes sont disponibles sur la plateforme.<br/>Je suis également d’accord avec vous sur un autre point : il existe une forme d’inégalité sociale dans la compréhension et la manipulation de ces informations. Si vous avez les codes et les outils, cette plateforme est d’une richesse objectivement incroyable. Pour chaque formation, vous avez le taux de succès ou les emplois vers lesquels elle débouche. Comment s’en servir pour que cette mine d’informations ne devienne pas un frein à l’ambition des jeunes, mais bien un moment d’ouverture sur le monde du supérieur ? Les familles ont un rôle à jouer, tout comme les professeurs. Vous l’avez dit, les psy-EN jouent un rôle très important, mais ils sont en nombre relativement limité. Je crois donc que l’un des rôles fondamentaux des professeurs de lycée, en particulier des professeurs principaux, consiste à accompagner les jeunes. C’est vraiment capital. Il faut réussir à placer ce sujet au cœur du débat. Grâce au plan Avenir – défendu par Élisabeth Borne, alors ministre de l’éducation nationale –, ils seront davantage formés.<br/>J’aimerais revenir un instant au sujet des mathématiques, auquel je suis sensible, étant moi-même mathématicien. Lors de la réforme du baccalauréat, personne n’avait identifié le risque de fuite : on trouve aujourd’hui moins de filles en spécialité mathématiques qu’on en trouvait hier dans les grandes options mathématiques des bacs scientifiques. Cela étant, l’effet est neutralisé dans les études supérieures. Les statistiques montrent une forme de stabilité. Auparavant, des filles poursuivaient l’étude des mathématiques parce qu’elles se destinaient à faire médecine par exemple. Elles ont désormais la possibilité d’échapper aux mathématiques. Cette réforme a donc servi de révélateur. Il ne faut pas s’en contenter, mais je ne crois pas qu’elle ait généré une désaffection particulière des mathématiques ; elle a révélé quelque chose plus tôt qu’on ne le voyait avant. Il faut que nous réussissions à travailler là-dessus.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2869718" ordre_absolu_seance="218" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4012978" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6104.92">La parole est à M. Laurent Croizier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2869719" ordre_absolu_seance="219" id_acteur="PA793716" id_mandat="PM842528" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4012979" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Croizier (Dem)</nom>
+            <id>793716</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6112.75">Je poserai aussi mes deux questions en une fois.<br/>Depuis une quinzaine d’années, l’université connaît une croissance continue et soutenue du nombre d’étudiants, mettant à l’épreuve ses capacités d’accueil et son modèle de formation. Combien d’étudiants intègrent l’université par défaut, sans projet structuré, sans appétence pour des études longues ? Combien sont mal orientés, insuffisamment préparés à des cursus où ils ont peu de chances de réussir ? Nous sommes en droit de nous poser ces questions.<br/>En premier cycle universitaire, nous en avons déjà débattu, seul un étudiant sur trois obtient sa licence en trois ans, moins d’un sur deux la réussit en quatre ans. Cet échec est plus souvent un échec d’orientation qu’un véritable échec scolaire. Il a cependant un coût humain et financier pour ces jeunes et leurs familles ainsi que pour les universités et l’avenir du pays.<br/>Il y a un autre paradoxe : des diplômés universitaires cherchent parfois en vain un emploi correspondant à leurs qualifications, quand des entreprises peinent à recruter pour des métiers manuels et techniques.<br/>L’accès à l’université, sans discernement, est une erreur. Il faut avoir la lucidité de dire que tous les bacheliers n’ont pas les compétences ou l’autonomie suffisante pour poursuivre un cursus universitaire, non par manque de mérite ou de capacités, mais simplement parce que leurs compétences méritent d’être approfondies ou parce que leurs talents s’expriment ailleurs.<br/>Redonner du sens à l’accès à l’enseignement supérieur, c’est redonner du sens à toutes les formations – pas seulement aux formations universitaires. C’est redonner du sens au processus d’orientation en reconnaissant qu’il existe mille façons de réussir sa vie professionnelle et personnelle.<br/>Il faut orienter les jeunes selon leurs talents réels. Un élève en difficulté au collège, au lycée ou à l’université n’est pas dépourvu de ressources ou de compétences, il faut seulement être en capacité de les repérer. Redonner du sens, c’est valoriser l’exigence et l’excellence de toutes les voies de formation, non seulement universitaires, mais également technologiques ou professionnelles. La France a autant besoin de techniciens qualifiés, d’artisans compétents ou d’ouvriers spécialisés que de cadres supérieurs ou d’ingénieurs de haut niveau.<br/>Je conteste l’idée que la réussite de notre jeunesse se mesure à l’obtention d’un diplôme universitaire ou d’une grande école. Elle se mesure à la qualité des formations – entendez par là toutes les formations publiques, notamment universitaires – et à la capacité des jeunes à trouver leur voie et à s’y épanouir.<br/>Comme vous le voyez, mon intervention est plutôt une remarque en forme de manifeste qu’une question à proprement parler.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2869796" ordre_absolu_seance="228" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4013149" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6118.51">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2869797" ordre_absolu_seance="229" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4013150" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="6321.31">Il y a eu une très forte croissance du nombre d’étudiants dans le monde de l’enseignement supérieur. De mémoire, cette augmentation est de l’ordre de 25 % en dix ans. Cette croissance n’a pas été uniforme dans les différents secteurs. Une très grande partie a été absorbée par l’enseignement supérieur privé, qui a crû de manière spectaculaire ces dernières années, avec quelques dérives mentionnées précédemment et beaucoup de formations de qualité. Le nombre d’étudiants dans les universités a crû lui aussi ; cependant cette croissance a été plus modeste et il y a une relative stabilité sur les diplômes nationaux que sont la licence, le master et le doctorat.<br/>Vous avez parlé de l’université comme d’un projet « par défaut », mais je voudrais souligner une des grandes évolutions du premier cycle dans les établissements supérieurs publics et en particulier dans les universités : il existe désormais des formations qui attirent les meilleurs bacheliers au sein des universités, ce qui n’était pas systématiquement le cas il y a dix ou quinze ans. Les doubles diplômes, en particulier les doubles licences, les bachelors, les diplômes spécialisés ou créés conjointement avec les lycées, les CPES, toutes ces formations nouvelles construites par les universités ces quinze dernières années sont extrêmement compétitives et parfois très attractives. Elles ont développé une voie d’excellence. Je pense que c’est très bien.<br/>Plusieurs d’entre vous ont abordé la question des bacheliers professionnels. Le bac professionnel a été conçu pour amener à un métier, que ceux qui en sont titulaires exerceraient après le baccalauréat. Le taux de succès en bac pro a suivi une évolution très dynamique. Ensuite, beaucoup de titulaires d’un bac pro décident de poursuivre leurs études. Certains vont en BTS, formation<italique> a priori</italique> la plus adaptée pour eux – cependant le taux de succès des étudiants titulaires d’un bac pro en BTS est souvent un peu en retrait par rapport aux autres bacheliers, et certains s’inscrivent en licence.<br/>Sur ce sujet, je reprendrai ce que vous avez dit en employant des mots plus durs : une promesse leur est faite qui est peut-être une hypocrisie. Je vous donne des chiffres de mémoire – là encore, pardonnez-moi s’ils ne sont pas tout à fait précis : un bachelier professionnel qui s’inscrit en licence a une probabilité d’obtenir ce diplôme de l’ordre de 7 %. Pourtant, non seulement il peut s’inscrire en licence, mais si un bachelier professionnel le demande, la loi m’impose de lui trouver une place dans la licence à laquelle il souhaite accéder, ce que nous faisons. Cependant ce système repose sur une forme d’hypocrisie.<br/>Je ne soutiens en aucune façon qu’il faudrait interdire aux bacheliers professionnels de poursuivre leurs études. En revanche, il faut avoir l’honnêteté et le courage de dire à ces bacheliers que s’ils poursuivent leurs études immédiatement après le bac, ils doivent se remettre à niveau – c’était l’objectif de ce que l’on appelait il y a longtemps la propédeutique. Dans Parcoursup, cela correspond aux réponses « oui si », c’est-à-dire à des parcours adaptés aux besoins des jeunes, qui comportent souvent une première année de remédiation et de remise à niveau. Ces parcours donnent de meilleurs résultats, qui peuvent toutefois être encore améliorés. Il y a également la possibilité d’aller travailler et de revenir plus tard pour mieux faire des études dans l’enseignement supérieur. Cette question est décisive. Il faut l’aborder avec plus de courage que nous ne l’avons fait jusqu’à maintenant.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2869801" ordre_absolu_seance="234" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4013154" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6578.83">La parole est à M. Lionel Vuibert.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2869802" ordre_absolu_seance="235" id_acteur="PA793194" id_mandat="PM853806" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4013155" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Lionel Vuibert (NI)</nom>
+            <id>793194</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6585.06">Le système d’orientation postbac est un des premiers contacts des jeunes avec la République. Chaque année, près de 900 000 lycéens passent par Parcoursup. Ce qui devrait être un moment d’accompagnement, de projection, d’égalité des chances est souvent vécu comme une épreuve anxiogène, opaque et parfois profondément injuste. On demande à des jeunes de 17 ou 18 ans de formuler en moyenne une douzaine de vœux et de comprendre des attendus parfois très techniques, des classements, des listes d’attente, des taux d’accès différents selon les formations. Pour beaucoup, c’est trop complexe.<br/>Selon plusieurs enquêtes, près de sept lycéens sur dix déclarent vivre Parcoursup comme une période très anxiogène. Un lycéen sur deux dit ne pas comprendre clairement pourquoi il est accepté ici, refusé ailleurs ou placé sur liste d’attente. Cette incertitude dure parfois plusieurs semaines, voire tout l’été. Pour les parents, ce n’est pas plus simple. La majorité reconnaît ne pas maîtriser le fonctionnement du système – c’est du vécu. Les notions de rang, de taux d’accès ou de délai de réponse sont difficiles à expliquer. Ainsi, beaucoup de familles avancent à l’aveugle, avec le sentiment que les règles ne sont pas les mêmes pour tous. Cette complexité accentue les inégalités : les élèves accompagnés par leur famille ou par des services privés s’en sortent mieux. À l’inverse, ceux qui sont seuls face à la plateforme, notamment dans les territoires ruraux ou les milieux modestes, subissent davantage le stress et l’incertitude.<br/>Enfin, ce qui est à mes yeux plus problématique encore, Parcoursup continue de véhiculer une forme de hiérarchie implicite entre les filières. Certaines formations sont perçues comme des échecs, alors qu’elles offrent de vrais débouchés. Ainsi, les formations qui mènent vers l’industrie ne sont pas toujours mises en valeur par Parcoursup.<br/>Vous avez déjà répondu à plusieurs reprises à la question que je m’apprête à vous poser. Comment rendre l’orientation dans l’enseignement supérieur plus compréhensible, moins anxiogène, plus juste ? Nous avons besoin d’avancer pour que chacun s’y retrouve.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2869806" ordre_absolu_seance="239" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4013159" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6653.96">La parole est à M. le ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2869807" ordre_absolu_seance="240" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4013160" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="6726.03">J’essaierai de répondre à votre question relative à une orientation plus juste et au sentiment d’injustice qui peut être ressenti. Il arrive ainsi qu’entre deux étudiants qui jugent avoir le même profil, l’un soit accepté dans une formation où l’autre est refusé. Cependant, j’insiste sur le fait qu’il n’y a pas, derrière la plateforme, une mécanique qui prendrait les notes, réaliserait une moyenne et affecterait les élèves dans une formation en fonction de cette moyenne.<br/>Ce sont des hommes et des femmes qui examinent les dossiers. S’il y a 50 places dans une formation, 200 ou 250 dossiers seront retenus, et classés en fonction des appréciations, de la dispersion des notes, de toute une analyse humaine. Ainsi, deux jeunes peuvent avoir le sentiment d’avoir des dossiers très proches et cependant être jugés différemment. Soit on crée une énorme usine à gaz qui réalise des moyennes et classe sur cette base, mais je pense que ce serait le pire des systèmes,…</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2869809" ordre_absolu_seance="242" id_acteur="PA795390" id_mandat="PM874935" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4013162" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sandrine Lalanne</nom>
+            <id>795390</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6768.37">Oui !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2869810" ordre_absolu_seance="243" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4013163" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Philippe Baptiste</nom>
+            <id>855049</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="6799.24">…soit on laisse la place aux hommes et aux femmes pour faire les choix. Dans tous les cas il y aura un sentiment d’injustice – et je ne cherche pas à me défausser sur ceux qui effectuent les classements, au contraire.<br/>Par ailleurs, je suis très ouvert à des propositions pour diminuer la complexité de Parcoursup, mais ce n’est pas évident.<br/>Enfin, je voudrais revenir sur les filières industrielles que vous avez mentionnées. Parcoursup n’établit aucune hiérarchie entre les filières. En revanche, je suis d’accord avec vous sur le fait qu’il existe un ressenti, dans la société, selon lequel les technologies et l’industrie ne seraient pas tellement chics – la manière dont les sciences sont appréciées est à peine plus favorable. Il s’agit pourtant d’un enjeu majeur : la nation a besoin d’ingénieurs, de techniciens et de scientifiques – c’est notre priorité.<br/>Il reste que les demandes des jeunes aujourd’hui ne correspondent vraiment pas du tout à ce besoin. Nous avons donc un vrai problème en amont : comment collectivement leur expliquer que les besoins de la nation résident dans les sciences, l’ingénierie ou la technique, que nous devons nous développer dans ces domaines si nous voulons que la France et l’Europe restent dans la course, et aussi qu’il y a là de très beaux métiers ?Cet enjeu dépasse largement la plateforme.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2869813" ordre_absolu_seance="247" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4013166" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>794354</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6883.91">Le débat est clos.</texte>
+      </paragraphe>
+    </point>
+    <finSeance>
+      <point nivpoint="1" valeur_ptsodj="2" ordinal_prise="7" id_preparation="2869815" ordre_absolu_seance="249" code_grammaire="FIN_SEAN_1_2" code_style="Titre" code_parole="" sommaire="1" id_syceron="4013168" valeur="">
+        <orateurs/>
+        <texte>Ordre du jour de la prochaine séance</texte>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="7" id_preparation="2869816" ordre_absolu_seance="250" id_acteur="PA794354" id_mandat="PM842960" id_nomination_oe="0" id_nomination_op="PM873247" code_grammaire="FIN_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4013169" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>794354</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6885.89">Prochaine séance, demain, à quatorze heures :<br/> Questions au gouvernement ;<br/> Débat sur le rapport relatif à la pétition intitulée « Non à la loi Duplomb » ;<br/> Débat, en salle Lamartine, sur le thème : « Clarification des compétences : quel bilan des lois de décentralisation, quelles perspectives ? ».<br/> La séance est levée.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="7" id_preparation="2869817" ordre_absolu_seance="251" code_grammaire="FIN_SEAN_2_4" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4013170" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance est levée à vingt-trois heures dix.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="7" id_preparation="2869818" ordre_absolu_seance="252" code_grammaire="FIN_SEAN_2_5" code_style="Signature droite" code_parole="" sommaire="0" id_syceron="4013171" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>Le directeur des comptes rendus<br/> Serge Ezdra</italique>
+          </texte>
+        </paragraphe>
+      </point>
+    </finSeance>
+  </contenu>
+</compteRendu>

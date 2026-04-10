@@ -1,0 +1,1114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compteRendu xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid>CRSANR5L17S2026O1N105</uid>
+  <seanceRef>RUANR5L17S2026IDS30080</seanceRef>
+  <sessionRef>SCR5A2026O1</sessionRef>
+  <metadonnees>
+    <dateSeance>20260107213000000</dateSeance>
+    <dateSeanceJour>mercredi 07 janvier 2026</dateSeanceJour>
+    <numSeanceJour>2</numSeanceJour>
+    <numSeance>105</numSeance>
+    <typeAssemblee>AN</typeAssemblee>
+    <legislature>17</legislature>
+    <session>Session ordinaire 2025 -2026</session>
+    <nomFichierJo>20260105</nomFichierJo>
+    <validite>valide</validite>
+    <etat>complet</etat>
+    <diffusion>public</diffusion>
+    <version>avant_JO</version>
+    <environnement>PROD</environnement>
+    <heureGeneration>2026-01-14T13:44:42.000+01:00</heureGeneration>
+    <sommaire>
+      <presidentSeance id_syceron="3984032">Présidence de M. Christophe Blanchet</presidentSeance>
+      <sommaire1 valeur_pts_odj="1">
+        <titreStruct id_syceron="3984012">
+          <intitule>Suites données au rapport de la commission d’enquête sur les manquements des politiques publiques de protection de l’enfance.</intitule>
+          <sousIntitule>0</sousIntitule>
+        </titreStruct>
+        <para id_syceron="3984041">Mme Olga Douin, directrice du programme Enfance protégée, au groupe Caisse des dépôts</para>
+        <para id_syceron="3984065">Mme Emmanuelle Coint, première vice-présidente du conseil départemental de la Côte-d’Or</para>
+        <para id_syceron="3983873">M. Daniel Goldberg, président de l’Union nationale interfédérale des œuvres et organismes privés non lucratifs sanitaires et sociaux</para>
+        <para id_syceron="3983815">Mme Isabelle Santiago (SOC)</para>
+        <para id_syceron="3983826">Mme Olga Douin</para>
+        <para id_syceron="3983834">Mme Emmanuelle Coint</para>
+        <para id_syceron="3984143">M. Daniel Goldberg</para>
+        <para id_syceron="3984151">Mme Liliana Tanguy (EPR)</para>
+        <para id_syceron="3984158">Mme Emmanuelle Coint</para>
+        <para id_syceron="3984170">M. Daniel Goldberg</para>
+        <para id_syceron="3984220">Mme Olga Douin</para>
+        <para id_syceron="3984223">Mme Isabelle Santiago (SOC)</para>
+        <para id_syceron="3984231">Mme Liliana Tanguy (EPR)</para>
+        <para id_syceron="3984233">Mme Emmanuelle Coint</para>
+        <para id_syceron="3984243">M. Daniel Goldberg</para>
+        <para id_syceron="3984255">Mme Olga Douin </para>
+      </sommaire1>
+      <sommaire3>
+        <titreStruct id_syceron="3984045">
+          <intitule>
+            <italique>Suspension et reprise de la séance<br/></italique>
+          </intitule>
+        </titreStruct>
+        <para id_syceron="3984049">Mme Stéphanie Rist, ministre de la santé, des familles, de l’autonomie et des personnes handicapées</para>
+        <para id_syceron="3984185">Mme Isabelle Santiago (SOC)</para>
+        <para id_syceron="3984191">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3984194">M. Arnaud Bonnet (EcoS)</para>
+        <para id_syceron="3984201">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3984206">Mme Liliana Tanguy (EPR)</para>
+        <para id_syceron="3984210">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3984343">Mme Julie Ozenne (EcoS)</para>
+        <para id_syceron="3984347">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3984349">Mme Isabelle Santiago (SOC)</para>
+        <para id_syceron="3984354">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3984357">Mme Isabelle Santiago (SOC)</para>
+        <para id_syceron="3984361">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3984363">Mme Isabelle Santiago (SOC)</para>
+        <para id_syceron="3984367">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3984442">M. Arnaud Bonnet (EcoS)</para>
+        <para id_syceron="3984445">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3984447">M. Arnaud Bonnet (EcoS)</para>
+        <para id_syceron="3984449">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3984451">Mme Isabelle Santiago (SOC)</para>
+        <para id_syceron="3984457">Mme Stéphanie Rist, ministre</para>
+      </sommaire3>
+      <sommaire1 valeur_pts_odj="2">
+        <titreStruct id_syceron="3984462">
+          <intitule>Ordre du jour de la prochaine séance</intitule>
+        </titreStruct>
+      </sommaire1>
+    </sommaire>
+  </metadonnees>
+  <contenu>
+    <quantiemes>
+      <journee>Deuxième séance du mercredi 07 janvier 2026</journee>
+      <session>Session ordinaire 2025 -2026</session>
+    </quantiemes>
+    <ouvertureSeance nivpoint="1" valeur_ptsodj="0" ordinal_prise="1" id_preparation="2843494" ordre_absolu_seance="1" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="0" code_grammaire="OUV_SEAN_1_1" code_style="Présidence" code_parole="" sommaire="1" id_syceron="3984032" valeur="">
+      <orateurs/>
+      <texte>Présidence de M. Christophe Blanchet<br/>vice-président</texte>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2843494" ordre_absolu_seance="2" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="-1" id_nomination_op="PM873244" code_grammaire="OUV_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984033" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="949.07">La séance est ouverte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2843494" ordre_absolu_seance="3" code_grammaire="OUV_SEAN_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="3984034" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(La séance est ouverte à vingt et une heures trente.)</italique>
+        </texte>
+      </paragraphe>
+    </ouvertureSeance>
+    <point nivpoint="1" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2843495" ordre_absolu_seance="5" code_grammaire="TITRE_TEXTE_DISCUSSION" code_style="Titre" code_parole="" sommaire="1" id_syceron="3984012" valeur="">
+      <orateurs/>
+      <texte>Suites données au rapport de la commission d’enquête sur les manquements des politiques publiques de protection de l’enfance.</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2843496" ordre_absolu_seance="6" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="ODJ_APPEL_DISCUSSION" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984013" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="953.79">L’ordre du jour appelle le débat sur le thème : « Les suites données au rapport de la commission d’enquête sur les manquements des politiques publiques de protection de l’enfance ».<br/>Ce débat a été demandé par le groupe Socialistes et apparentés.<br/>La conférence des présidents a décidé de l’organiser en deux parties d’une durée d’une heure chacune : nous commencerons par une table ronde, en présence de personnalités invitées, puis nous procéderons, après avoir entendu une intervention liminaire du gouvernement, à une séquence de questions-réponses. La durée des questions et des réponses sera limitée à deux minutes, sans droit de réplique.<br/> Pour la première phase du débat, je souhaite la bienvenue à Mme Olga Douin, directrice du programme Enfance protégée, au groupe Caisse des dépôts, à Mme Emmanuelle Coint, première vice-présidente du conseil départemental de la Côte-d’Or, et à M. Daniel Goldberg, président de l’Union nationale interfédérale des œuvres et organismes privés non lucratifs sanitaires et sociaux (Uniopss). Chacun disposera de cinq minutes pour s’exprimer.<br/>La parole est à Mme Olga Douin, directrice du programme Enfance protégée, au groupe Caisse des dépôts.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2843496" ordre_absolu_seance="8" id_acteur="PA-126309" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3984041" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Olga Douin</nom>
+            <id>-126309</id>
+            <qualite>directrice du programme Enfance protégée, au groupe Caisse des dépôts</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1147.12">Permettez-moi tout d’abord de vous transmettre les excuses d’Olivier Sichel, directeur général du groupe Caisse des dépôts, dont vous savez qu’il est très engagé en faveur de la protection de l’enfance et qui regrette de ne pas être ici ce soir.<br/>En tant que directrice du programme Enfance protégée au sein de la Banque des territoires, je suis très heureuse de pouvoir porter devant vous la voix de l’institution à laquelle j’appartiens, car c’est un sujet d’importance capitale sur lequel nous nous engageons avec beaucoup d’humilité.<br/>Notre lien avec la protection de l’enfance a commencé en 2016 avec la mission confiée à la Caisse des dépôts de recevoir et de sécuriser l’allocation de rentrée scolaire des jeunes accueillis par l’aide sociale à l’enfance (ASE), et de restituer ce pécule, sur demande, à leur majorité. Puis, lors de la crise du covid, Olivier Sichel, alors directeur général de la Banque des territoires, a été interpellé par de nombreux départements sur les difficultés rencontrées par le secteur de l’enfance protégée, en particulier sur deux sujets : les besoins de financements immobiliers pour réhabiliter ou créer des places d’accueil – estimés plus tard entre 1,4 et 2,4 milliards d’euros – et la pénurie de professionnels liée aux difficultés de recrutement subies par 97 % des établissements de la protection de l’enfance.<br/>Les conséquences de ces dysfonctionnements sont graves et d’abord immédiates : au moins 3 000 enfants en danger – mais plutôt 6 000 à 8 000 suivant les estimations – étant maintenus dans leur famille faute de places d’accueil disponibles. Elles sont également plus profondes sur la santé de ces enfants, leur échec scolaire et leur insertion dans la vie active.<br/>En janvier 2025, Olivier Sichel, missionné par Catherine Vautrin et Florence Dabin, a présenté un rapport comprenant vingt propositions concrètes construites avec les départements et les associations. Moins d’un an après, la Caisse des dépôts a créé deux dispositifs complémentaires : le programme Enfance protégée, que j’ai l’honneur de diriger au sein de la Banque des territoires, et l’association d’intérêt général Pépinière d’avenirs. Ces deux dispositifs servent un même objectif : fédérer les acteurs de la protection de l’enfance autour de projets concrets permettant à la fois d’améliorer les conditions d’accueil et d’accompagnement des jeunes, mais aussi les conditions d’exercice des professionnels.<br/>Le programme Enfance protégée mobilisera 550 millions d’euros d’ici à la fin de l’année 2028 pour accompagner le secteur, grâce notamment à notre offre de prêt, mais aussi à des moyens supplémentaires en ingénierie et en investissements suivant quatre grands axes. Tout d’abord l’immobilier, qui est notre cœur de métier, mais aussi la formation professionnelle, le numérique et l’accès des jeunes au droit et à l’autonomie. Ces nouveaux moyens sont d’abord destinés aux associations et aux départements, mais également aux bailleurs sociaux et aux organismes de formation professionnelle qui œuvrent dans le secteur.<br/>Une première partie du programme est déjà opérationnelle, dans les mains des directions régionales de la Banque des territoires. Puis, de nouvelles solutions compléteront notre appui au secteur au cours de l’année 2026. Concernant les prêts, après une première enveloppe bonifiée de 67 millions d’euros pour financer les projets de création et de réhabilitation de places d’accueil, épuisée en seulement trois semaines en 2024, nous avons pu obtenir en 2025 une nouvelle enveloppe bonifiée de 350 millions. À l’aide de ces moyens renforcés et de notre offre de financement, nous souhaitons impulser la construction et la rénovation d’environ 7 000 places d’ici à 2028, ce qui correspond environ à un tiers des besoins de financement du secteur.<br/>Je ne peux conclure sans évoquer le pécule des jeunes confiés à l’ASE, et les efforts récemment déployés pour améliorer sa restitution. En octobre 2025, une campagne d’information individuelle menée avec la Caisse nationale de l’assurance maladie (Cnam), la Caisse nationale des allocations familiales (Cnaf) et la Caisse centrale de la Mutualité sociale agricole (CCMSA) a permis d’envoyer 24 000 courriels aux jeunes majeurs n’ayant pas réclamé leur pécule. Ainsi, de nouvelles demandes nous sont parvenues, si bien qu’en 2025, 11 607 jeunes ont reçu leur pécule, contre environ 7 000 habituellement.</texte>
+      </paragraphe>
+      <interExtraction nom_orateur="Mme Emmanuelle Coint" qualite="première vice-présidente du conseil départemental de la Côte-d'Or" id_acteur="PA-126319" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2843505" ordre_absolu_seance="16" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="-1" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3984064" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1502.46">La parole est à Mme Emmanuelle Coint, première vice-présidente du conseil départemental de la Côte-d’Or.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2843505" ordre_absolu_seance="17" id_acteur="PA-126319" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3984065" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Emmanuelle Coint</nom>
+              <id>-126319</id>
+              <qualite>première vice-présidente du conseil départemental de la Côte-d’Or</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="1515.33">Le rapport de la commission d’enquête de l’Assemblée nationale sur les manquements des politiques publiques de protection de l’enfance a confirmé ce que les départements disent depuis longtemps. Si la protection de l’enfance est une compétence du département, c’est aussi une responsabilité partagée, car un enfant confié à l’ASE est scolarisé et a besoin de soins ou de loisirs. C’est avec beaucoup d’engagement que Départements de France s’est approprié ce rapport et a créé un comité de suivi qui, de mai à octobre, a dialogué à plusieurs reprises avec Mme la rapporteure Isabelle Santiago.<br/>Une task force de dix vice-présidents chargés de l’enfance a travaillé sur ces quatre-vingt-douze recommandations. Les quarante-huit qui ont reçu un avis favorable – dix nous paraissant prioritaires, quinze relevant plutôt des bonnes pratiques – sont déjà engagées ou appliquées. Huit ont reçu un avis défavorable pour des raisons budgétaires ou d’atteinte à la libre administration de notre collectivité. Vingt-deux ont reçu un avis plutôt défavorable, huit demandent des compléments, et le reste est en cours de discussion.<br/>Si nous souhaitons poursuivre ce travail, nous avons besoin que l’État participe à ce comité à l’échelon interministériel, puisque les questions de santé, d’éducation nationale, mais aussi les règles d’urbanisme peuvent être concernées par ces recommandations.<br/>En ce qui concerne les avancées, nous conduisons un travail autour du projet de loi sur la refonte de la protection de l’enfance, sur lequel nous fondons beaucoup d’espérance. Nous saluons aussi le travail de concertation approfondie de révision du décret de 1974 sur les pouponnières, qui n’est pas simple, mais qui constitue un devoir pour que nous puissions répondre au mieux aux besoins des tout-petits. Le système d’information Honorabilité est généralisé depuis le mois d’octobre, mais nous souhaitons l’étendre aux tiers de confiance, alors que la loi relative à la protection des enfants, la loi Taquet, ne l’a pas prévu.<br/>Le groupe de travail Enfance, présidé par Florence Dabin, suit des expérimentations sur la prévention dans le Var, et sur les assistants familiaux en Gironde. Nous croyons dans la force de l’expérimentation dans l’innovation sociale, sous réserve qu’elle se fasse dans de bonnes conditions financières et qu’elle soit sérieusement évaluée, amendée si besoin, avant toute généralisation. Tant en prévention qu’en protection, ces politiques exigent des ressources financières et humaines suffisantes, dont les présidents de département manquent cruellement, alors que c’est, pour eux, une préoccupation majeure.<br/>Si le parcours de chaque jeune est singulier, nombre d’entre eux sont à la croisée de politiques publiques : handicap, santé mentale, justice pénale. On peut regretter, comme votre rapport le souligne, que la protection de l’enfance soit trop souvent laissée seule face à des situations complexes. Un quart des enfants confiés sont en double vulnérabilité, certains placements n’étant motivés que par l’absence de réponse adéquate au handicap de l’enfant, ce qui fait craquer les familles – si vous me permettez l’expression.<br/>Les événements indésirables graves ont augmenté dans nos maisons d’enfants à caractère social (Mecs) car, malheureusement, nous accueillons de plus en plus de jeunes multiréitérants relevant de la protection judiciaire de la jeunesse (PJJ). Or on ne peut demander à un éducateur spécialisé de l’ASE d’être également psychologue et éducateur PJJ. La juste réponse ne peut être que pluridisciplinaire. Les départements prendront toute leur part : nous devrons faire mieux puisque nous ne pouvons pas faire plus. Un outil d’évaluation d’autodiagnostic Départements de France-Inspection générale des affaires sociales (Igas), en cours de déploiement, nous permettra de mesurer nos forces, mais aussi de repérer nos faiblesses afin de les corriger.<br/>Les départements ne sont plus capables de pallier les manquements des politiques qui ne relèvent pas de leur compétence. Conformément à notre résolution adoptée à l’unanimité au congrès du Tarn, nous demandons que le principe de compensation financière par l’État de la prise en charge d’enfants ou de personnes relevant de sa compétence soit inscrit dans la loi, afin de mettre à l’abri les personnes se présentant comme des mineurs non accompagnés (MNA) – y compris pendant la durée du recours –, les jeunes doublement suivis par l’ASE et la PJJ et les jeunes en double vulnérabilité handicap-ASE. Nous aiderons l’État en singularisant ces dépenses en budget annexe dès le 1<exposant>er</exposant> janvier 2026.<br/>Les difficultés de l’ASE ne sont que l’expression des maux sociétaux que nous connaissons : violences et paupérisation – monétaire comme personnelle.<br/>Nous constatons tous que des parents, qui devraient être les premiers protecteurs de l’enfant, sont de plus en plus en difficulté pour assumer leur rôle. La protection de l’enfance doit être un projet de société, toutes ses dimensions concourant à sa réalisation, et le plus possible en prévention.<br/>Comme vous le savez, il faut un village pour élever un enfant ; les départements se sont pleinement approprié votre rapport, se sont engagés pour y répondre au mieux. Désormais, nous attendons le même engagement de la part de l’État et du législateur sur les recommandations relevant de sa compétence.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Daniel Goldberg" qualite="président de l'Union nationale interfédérale des œuvres et organismes privés non lucratifs sanitaires et sociaux" id_acteur="PA-126299" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2843367" ordre_absolu_seance="28" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="-1" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3983872" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1835.15">La parole est à M. Daniel Goldberg, président de l’Union nationale interfédérale des œuvres et organismes privés non lucratifs sanitaires et sociaux (Uniopss).</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2843367" ordre_absolu_seance="29" id_acteur="PA-126299" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3983873" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Daniel Goldberg</nom>
+              <id>-126299</id>
+              <qualite>président de l’Union nationale interfédérale des œuvres et organismes privés non lucratifs sanitaires et sociaux</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="1848.38">Je vous remercie de nous permettre de nous exprimer, dans la diversité de nos positions. Je représente les associations qui agissent dans les secteurs social, médico-social et sanitaire. Je ne vais pas refaire l’intervention que j’avais faite en juin 2024, lors de mon audition par Mme Isabelle Santiago, rapporteure de la commission d’enquête sur les manquements des politiques publiques de protection de l’enfance ; d’autant plus que trois jours après mon audition, l’Assemblée nationale avait été dissoute. Je ne voudrais pas, sans y voir un quelconque lien de causalité, qu’une même intervention de ma part provoque le même résultat.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2843370" ordre_absolu_seance="30" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983804" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Isabelle Santiago</nom>
+              <id>774960</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1880.72">On le souhaite tous !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2843371" ordre_absolu_seance="31" id_acteur="PA-126299" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983805" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Daniel Goldberg</nom>
+              <id>-126299</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1890.36">Le constat, qui a été dressé à plusieurs reprises, y compris dans le rapport, est toujours le même – la situation de la protection de l’enfance ayant peu évolué ces derniers mois. Le nombre d’enfants et de jeunes majeurs à protéger est en effet en augmentation – pour diverses raisons –, des enfants qui devraient être protégés ne le sont pas, des mesures ne sont pas appliquées, les délais d’attente pour l’accompagnement à domicile sont très importants dans certains départements, des situations se dégradent, des enfants sont parfois victimes de violences dans les lieux de protection, de nombreux postes sont vacants, les lois sont inégalement et trop partiellement exécutées, les décisions départementales sont dictées par des considérations budgétaires – cela se comprend, mais les associations s’interrogent –, des enfants protégés souffrent du manque de moyens dans des secteurs connexes de la protection de l’enfance – Mme Coint en a parlé – et aucune réponse ne leur est apportée, la tension augmente dans les relations entre associations et autorités publiques dans plusieurs départements – notamment dans les Bouches-du-Rhône où l’on refuse d’accompagner certains jeunes majeurs.<br/>Qu’est-ce qui a été fait depuis la publication du rapport ? Du côté du gouvernement, je me réjouis tout d’abord du décret « pouponnières », lequel comporte plusieurs avancées. C’est suffisamment rare pour être souligné : leur financement est normalement prévu par le projet de loi de finances (PLF) pour 2026 – encore faut-il qu’il soit adopté. En dehors de cet accompagnement budgétaire, le PLF pour 2026 ne prévoyait pas d’effort particulier pour la protection de l’enfance – certains crédits devaient même baisser par rapport à 2025.<br/>Un autre point positif est le portage plus important au sein du ministère de la justice. Nous nous en félicitons, puisque la protection de l’enfance est fortement judiciarisée. L’implication du ministère est donc fondamentale.<br/>Du côté des parlementaires, plusieurs propositions de loi sont déposées – demain, nous serons également auditionnés sur une proposition de loi sur la protection de l’enfance, laquelle témoigne de l’importance grandissante de ce sujet. Des propositions de loi ont été adoptées qui prévoient notamment la systématisation de la présence d’un avocat pour l’enfant en assistance éducative et la protection renforcée des MNA lors de la phase d’évaluation.<br/>La ministre de la santé a annoncé la création d’un comité de suivi consacré à la protection de l’enfance, lequel prévoit une représentation parlementaire. Vous ne serez pas étonnés que l’Uniopss, qui représente les associations, lesquelles mettent très largement en œuvre les politiques publiques en matière de protection de l’enfance pour le compte de l’État et des départements, demande également à y être représentée. De la même manière, ce comité vise à établir un plan pluriannuel pour la protection de l’enfance. Il doit être budgété et impliquer l’ensemble des ministères concernés.<br/>De notre point de vue, il ne peut y avoir de bonne protection de l’enfance sans politique de l’enfance, ce qui suppose qu’elle fasse l’objet d’un ministère spécifique.<br/>Je ne reviens pas sur le projet de loi – la ministre en parlera sans doute – sur lequel nous avions travaillé avec Mme Catherine Vautrin, précédente ministre de la santé. Je signale néanmoins que la généralisation annoncée des comités départementaux pour la protection de l’enfance (CDPE) revient finalement à appliquer la loi. Leur généralisation resterait néanmoins positive.<br/>Enfin, ce n’est pas le projet de loi annoncé – du moins ce que nous en connaissons – qui permettra de sortir de la crise de la protection de l’enfance que j’ai décrite au début de mon intervention. Certains freins ne seront toujours pas levés : budgets, manque de moyens, formation, réponses d’urgence, pilotage général – je m’arrête là.<br/>En tant qu’associations appliquant les politiques publiques pour le compte de l’État et des départements, nous avons besoin de clarté et de visibilité quant à la mise en œuvre d’un certain nombre de décisions, notamment la création des comités des métiers socio-éducatifs, annoncée le 18 février 2022 par Jean Castex, alors premier ministre, et qui est restée lettre morte.</texte>
+        </paragraphe>
+      </interExtraction>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2843380" ordre_absolu_seance="40" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983814" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2202.65">Nous en venons aux questions des députés.<br/> La première sera celle de Mme Isabelle Santiago.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2843381" ordre_absolu_seance="41" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983815" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Isabelle Santiago (SOC)</nom>
+            <id>774960</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2282.79">Je remercie les intervenants de nous honorer de leur présence. C’est un plaisir de pouvoir dialoguer avec vous. Vous connaissez mon attachement à l’ensemble des questions liées à la protection de l’enfance et mon application à les suivre, à quelque niveau que ce soit, en particulier à la suite de la publication du rapport de la commission d’enquête, rapport qu’on peut, sur le fond, qualifier d’historique en ce qu’il pose clairement les problèmes.<br/>Bien évidemment, le décret « pouponnières » a été évoqué. Aucune des lois – ni aucun des décrets publiés – n’est appliquée quand il s’agit de protection de l’enfance. Je pense que c’est lié à ce qu’a démontré la commission d’enquête : la dilution de l’ensemble des responsabilités. La démonstration en a été à nouveau faite très récemment avec le cas de l’enfant tondu. J’ai rencontré l’association concernée, que je connais bien, et j’y ai constaté une pauvreté absolue dans la direction et un manque de professionnels formés.<br/>C’est loin d’être nouveau. Cela fait trop longtemps que des gens travaillent sans être formés et sans respecter les normes. Le décret « pouponnières » existe grâce à l’alerte nationale que j’ai lancée. Cela faisait cinquante ans que la situation des pouponnières était inacceptable – tous les professionnels que nous avions rencontrés en étaient horrifiés – et qu’il fallait limiter le nombre de places à trente par site. Cette réalité était attestée depuis longtemps. C’est même Simone Veil, avec tout le respect que je lui porte, qui a signé le décret de 1974.<br/>Les connaissances scientifiques et cliniques de la santé des enfants doivent se traduire par de vraies réponses. Comment la santé et l’environnement de ces enfants seront-ils pris en considération par les associations, les départements et la Banque des territoires – en particulier du point de vue immobilier ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2843385" ordre_absolu_seance="45" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983823" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2409.20">La parole est à Mme Olga Douin.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2843386" ordre_absolu_seance="46" id_acteur="PA-126309" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983826" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Olga Douin</nom>
+            <id>-126309</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2436.66">Nous partageons les préoccupations présentes dans le rapport de la commission d’enquête, qui rejoint le rapport d’Olivier Sichel sur le constat et les solutions proposées : l’accompagnement des acteurs du secteur pour construire des structures d’accueil ou les réhabiliter, le renforcement de l’accès au pécule – réponses à la crise d’attractivité du secteur. Il nous semble essentiel de répondre aux manquements constatés dans les conditions d’accueil. L’urgence absolue est d’adapter celles-ci et de créer des places là où il en manque, mais aussi d’adapter le parc au public qu’il accueille – les bébés, les adolescents ou les enfants à multiples vulnérabilités exigent des accueils différents – et de s’adapter aux nouveaux usages – notamment le respect de l’intimité, jusque dans les plus petites entités, dans tous les espaces communs, pas seulement là où dorment les enfants. Nous sommes persuadés qu’en agissant sur l’immobilier nous changerons les pratiques.<br/>Cela nous amène à la formation professionnelle, un sujet important : il faut du personnel pour accueillir et accompagner les enfants dans ces locaux. C’est un des axes du programme Enfance protégée.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2843388" ordre_absolu_seance="48" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3983831" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2550.83">La parole est à Mme Emmanuelle Coint.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2843389" ordre_absolu_seance="49" id_acteur="PA-126319" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3983834" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Emmanuelle Coint</nom>
+            <id>-126319</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2559.42">Le projet architectural doit en effet traduire le projet de l’établissement et de ses services. C’est indispensable.<br/>Permettez-moi de vous parler de la pouponnière du département de la Côte-d’Or, puisque je la connais bien – elle est nommée « Simone Veil », la boucle est bouclée. Elle est constituée de petites unités, avec un mobilier très doux : tous les revêtements et le mobilier visent à la douceur. Il est important d’y avoir quelque chose de très matriciel – si vous me permettez ce vocabulaire. Ces petites unités sont vraiment de petits îlots pour les tout-petits.<br/>Nous avons également prévu des lieux où faire la cuisine ou la toilette et où les parents peuvent être accompagnés dans l’apprentissage des premiers gestes parce que certains ont besoin d’une aide à la parentalité pour préparer le retour au domicile. Nous avons également prévu un lieu d’accueil dédié à l’adoption et au premier contact entre les parents adoptants et l’enfant né sous secret, parce qu’une pouponnière abrite différents projets. C’est très important.<br/>Ce sont des lieux très lumineux et qui sont pensés pour permettre la meilleure observation et la meilleure évaluation de l’enfant parce que la pouponnière n’est pas la réponse idéale pour un tout-petit. L’idéal, c’est la famille d’accueil.<br/>Il faut trouver une réponse urbanistique rapide pour les départements dépourvus de ce type d’établissement : l’urgence exige des procédures accélérées, car on ne peut pas se permettre d’attendre six ou sept ans pour réunir toutes les autorisations. Nous aurions besoin, pour des solutions comme SOS Villages d’enfants, de plus d’opérateurs – il n’y en a que deux – pour diversifier les réponses et s’adapter au mieux au projet de vie de l’enfant.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843395" ordre_absolu_seance="54" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984142" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2571.34">La parole est à M. Daniel Goldberg.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843396" ordre_absolu_seance="55" id_acteur="PA-126299" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984143" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Daniel Goldberg</nom>
+            <id>-126299</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2688.88">Le décret « pouponnière », comme l’ont relevé Mme Santiago et les deux intervenantes qui m’accompagnent, est assez révélateur. Comment en sommes-nous arrivés là ? Quels sont nos constats ? Pourquoi les besoins de la prise en charge des tout-petits jusqu’aux jeunes majeurs ont-ils augmenté ?<br/>Je le dis tout en étant conscient des faits extrêmement graves rapportés ces dernières semaines : le système de la protection de l’enfance, depuis qu’il a été bâti, a produit des résultats. Il a permis l’accompagnement de quantité de jeunes qui, sans lui, seraient restés dépourvus de solutions. Cela ne veut pas dire que tout est parfait – il faut condamner les situations les plus dramatiques –, mais il faut aussi rappeler que ce système, en dépit de ses grandes faiblesses, parvient à accompagner des enfants dont le cadre familial n’offre pas les bonnes conditions pour grandir.<br/>Cela dit, on pourrait, en plus du décret « pouponnière », évoquer le décret d’application de la loi Taquet relatif aux taux et normes d’encadrement. Il n’a jamais paru et s’il était pris demain matin, il reviendrait aux conseils départementaux d’en financer les mesures.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843399" ordre_absolu_seance="58" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984146" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Emmanuelle Coint</nom>
+            <id>0</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2734.90">Pas seulement ! Il faudrait trouver les ressources humaines !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843400" ordre_absolu_seance="59" id_acteur="PA-126299" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984147" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Daniel Goldberg</nom>
+            <id>-126299</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2776.12">En outre – et sans même me définir comme le représentant d’un opérateur –, je sais bien que pour que les associations conçoivent des projets et offrent un accompagnement de qualité aux enfants, il faut avoir des professionnels nombreux – plus nombreux –, mieux formés et dont la qualité de vie au travail aurait progressé – les métiers de l’action sociale présentent une accidentologie plus importante que ceux du BTP. C’est ainsi que nous éviterions les situations dramatiques que nous avons connues, qui impliquaient des personnes qui n’avaient pas la formation nécessaire pour accompagner des mineurs en difficulté – à plus forte raison pour les accompagner en leur laissant la possibilité de choisir leur parcours de vie, y compris dans les cas les plus difficiles.<br/>Les associations peuvent contribuer au débat mais, à un moment donné, l’État, les départements et les autorités publiques doivent définir une trajectoire qui permettra aux acteurs de l’accompagnement et de l’application des politiques publiques sur le terrain de s’organiser. Voilà l’enjeu pour les associations, qui se trouvent, depuis de très nombreuses années maintenant, en très grande souffrance budgétaire et organisationnelle.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843403" ordre_absolu_seance="61" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984150" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2851.95">La parole est à Mme Liliana Tanguy.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843404" ordre_absolu_seance="62" id_acteur="PA719550" id_mandat="PM842660" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984151" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Liliana Tanguy (EPR)</nom>
+            <id>719550</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2863.55">Je remercie les personnalités invitées pour leurs interventions très éclairantes. En tant que membre de la commission d’enquête sur les manquements des politiques publiques de protection de l’enfance, j’ai souhaité donner suite au rapport qui en est issu et dont l’utilité fait consensus.<br/>Les auditions que nous avons menées ont mis en lumière des dysfonctionnements structurels persistants. J’ai rencontré des assistantes familiales de ma circonscription du Finistère, qui m’ont fait part de nombreuses difficultés, notamment liées à des jeunes souffrant de troubles du comportement.<br/>J’ai étudié de manière plus approfondie la question de la prostitution des mineurs accompagnés par la protection de l’enfance et j’ai interpellé, lors de son audition, Michèle Créoff, vice-présidente de l’Union pour l’enfance, qui a rappelé avec force que si des outils juridiques existaient bel et bien, leur application demeurait insuffisante.<br/>Je tiens à rappeler qu’encore trop de jeunes sortent de l’Aide sociale à l’enfance sans accompagnement réel et sans situation stable – parfois même sans logement ni ressources. Cependant, cette rupture n’est pas une fatalité : elle résulte d’un défaut de coordination institutionnelle et d’un accompagnement trop fragile pour permettre à des jeunes profondément vulnérables de devenir autonomes du jour au lendemain.<br/>Je me réjouis de l’adoption d’un amendement au PLF pour 2026, défendu par Laure Miller, présidente de la commission d’enquête. Il tend à créer un fonds de mobilisation départementale doté de 800 millions d’euros, qui permettra l’application concrète de la loi Taquet par les départements et la garantie d’un accompagnement effectif jusqu’à l’âge de 21 ans. C’est un signal politique fort qu’envoie ainsi notre groupe politique.<br/>Toutefois, les sorties sèches demeurent une réalité. Avez-vous constaté des avancées réelles dans l’application de la loi Taquet depuis la publication de notre rapport ? Faut-il aller plus loin, conformément à sa soixante-dix-septième recommandation, en portant à 25 ans l’âge limite de l’accompagnement ? Enfin, le contrat jeune majeur ne devrait-il pas devenir automatique et être prolongé, afin de sécuriser réellement le parcours de ces jeunes privés de soutien familial ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843410" ordre_absolu_seance="68" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984157" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2967.13">La parole est à Mme Emmanuelle Coint.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843411" ordre_absolu_seance="69" id_acteur="PA-126319" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984158" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Emmanuelle Coint</nom>
+            <id>-126319</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3067.36">Les problèmes dont vous ont fait part les assistants familiaux de votre circonscription sont au cœur du sujet que j’ai évoqué, celui de la double vulnérabilité. La prise en charge du handicap des enfants étant une compétence de l’État, force est de constater que nous avons à faire mieux ensemble et qu’il faut encourager la diversification et l’amélioration des réponses qu’il apporte.<br/>La prostitution est un problème prégnant auquel je m’intéresse particulièrement au sein de Départements de France. C’est un sujet de société, c’est un sujet dont le traitement n’obtiendra de résultats que s’il relève d’un travail collectif et de longue haleine. Vous avez certainement lu le rapport de l’Observatoire national de la protection de l’enfance (ONPE) sur la question, dans lequel il apparaît clairement que nos efforts doivent s’inscrire dans la durée, et nous devrons peut-être apporter à ce problème complexe et protéiforme une réponse<italique> ad hoc</italique>.<br/>Le nombre de contrats jeune majeur signés depuis l’entrée en vigueur de la loi Taquet a augmenté de 75 %. Dans mon département, il a peu évolué, car nous en comptions déjà beaucoup.<br/>D’autres outils doivent être présentés. Nous soutenons les associations départementales d’entraide des personnes accueillies en protection de l’enfance (Adepape), dont l’engagement est très important. En effet, certains enfants ne veulent plus avoir affaire à l’ASE après en être sortis : il faut bien leur proposer une pair-aidance ou un relais pour passer la main, si je puis dire, et encadrer l’évolution du jeune par un nouveau contrat. Or, à cette fin, nous ne pouvons pas nous appuyer sur une politique nationale très élaborée, vous me l’accorderez. Et pour cause, il n’y en a pas et le dispositif garantie jeunes est difficile à appliquer.<br/>L’ASE offre un accompagnement éducatif et n’a pas pour seul but de solvabiliser les jeunes devant payer un loyer – sinon, elle serait autre chose qu’un projet éducatif. L’ASE doit accompagner le mieux possible les jeunes, tant du point de vue éducatif que de celui de la prise d’autonomie. Nous n’attendons pas qu’un jeune ait 18 ans pour l’accompagner vers une autonomie encadrée : le travail de l’ASE débute dès l’âge de 16 ans.<br/>Faut-il rendre le contrat jeune majeur obligatoire ? Pourquoi pas, mais faut rappeler qu’il concerne des individus majeurs et que le travail social n’est efficace que si le public concerné adhère à ses objectifs. Nous faisons en sorte de susciter cette adhésion, mais ce travail n’est pas toujours facile.<br/>Ainsi, il nous faut disposer d’une pluralité de réponses, qui ne doivent pas toutes dépendre de l’ASE. Dans le département de la Côte-d’Or, nous avons conçu, avec l’ancienne direction départementale de la cohésion sociale (DDCS), le dispositif accueil mineurs majeurs isolés (Ammi), qui permet de transférer du département aux services de la cohésion sociale l’accompagnement des jeunes qui ne veulent plus dépendre de l’ASE. En outre, l’Adepape permet de développer la pair-aidance ; il s’y passe des choses très intéressantes.<br/>Je vois bien que vos intentions sont bonnes, mais n’oublions pas que le travail social a besoin de l’adhésion de ses bénéficiaires, pour que ceux-ci soient les acteurs de leur parcours.<br/>Faut-il prolonger l’accompagnement jusqu’à 25 ans ? À ce sujet, je me pose beaucoup de questions, madame. Vous proposez 25 ans, mais pourquoi pas 30 ? L’avez-vous retenu parce qu’à partir de cet âge les individus peuvent percevoir le RSA ? Nous ne pourrons pas nous dédouaner d’une politique pour la jeunesse. Or celle-ci est encore inexistante à ce jour, si bien que c’est le département ou rien ! Nous demanderez-vous bientôt que tout jeune âgé de 18 à 25 ans sans solution soit pris en charge par l’ASE ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843420" ordre_absolu_seance="78" id_acteur="PA719550" id_mandat="PM842660" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984167" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Liliana Tanguy</nom>
+            <id>719550</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3152.37">Non !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843421" ordre_absolu_seance="79" id_acteur="PA-126319" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984168" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Emmanuelle Coint</nom>
+            <id>-126319</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3316.69">Je vous invite à y réfléchir : pourquoi 25 ans ? Pourquoi pas 30 ? À ce rythme, on reste pris en charge par l’ASE jusqu’à la retraite… Soyons sérieux et n’oublions pas que toute dépense imposée aux conseils départementaux par une nouvelle loi devra être intégralement compensée par l’État.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843422" ordre_absolu_seance="80" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984169" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3342.86">La parole est à M. Daniel Goldberg.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843423" ordre_absolu_seance="81" id_acteur="PA-126299" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984170" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Daniel Goldberg</nom>
+            <id>-126299</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3354.01">Je partage ce qui vient d’être dit sur le fait que les associations d’enfants ou d’anciens enfants accompagnés jouent un rôle très important ; leur parole doit être pleinement écoutée.<br/>Quand un mineur est confié à l’Aide sociale à l’enfance, c’est que ses parents, son cadre familial, ne sont plus en situation de l’accompagner et de lui permettre de grandir dans de bonnes conditions. Même si le milieu ouvert permet encore l’accompagnement dans le cadre familial, la République prend ses responsabilités. Je ne connais aucune famille qui va bien et dans laquelle on dit à un enfant âgé de 18 ans et 1 jour : « Débrouille-toi ! » Je n’en connais aucune et d’ailleurs, je n’en connais pas beaucoup plus qui procéderaient ainsi pour des enfants âgés de 21 ans et 1 jour. Quand ils le peuvent, les parents accompagnent leurs enfants dans leurs études et leur parcours de vie.<br/>Dans notre pays, des jeunes – pas tous les jeunes et pas tous les jeunes en difficulté sociale, mais des jeunes dont on a jugé que le cadre familial ne leur permettait pas de grandir ou de suivre leur parcours de vie – bénéficient d’un cadre aménagé. De ce point de vue, nous avons une responsabilité.<br/>Vous avez cité des chiffres – je pourrais en citer aussi – relatifs aux sorties sèches et à l’accès au logement de jeunes majeurs se retrouvant à la rue après avoir fréquenté des structures de l’ASE pendant des années. Mme la première vice-présidente du conseil départemental de la Côte-d’Or affirme qu’on ne peut pas tout demander aux départements, mais à la place qui est la mienne, c’est la République que j’interroge : je ne ferai pas de différence entre l’État et les départements.<br/>Peut-on laisser un jeune sans solution parce qu’il est âgé de 18 ans et 1 jour ? Parce que les contrats jeune majeur ne sont pas généralisés ? La question d’un prolongement jusqu’à 25 ans peut être posée, mais il faut aussi nous demander si nous enjoignons à nos propres enfants de se débrouiller par eux-mêmes dès qu’ils ont atteint 21 ans.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843428" ordre_absolu_seance="86" id_acteur="PA719550" id_mandat="PM842660" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984216" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Liliana Tanguy</nom>
+            <id>719550</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3404.74">En effet !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2843428" ordre_absolu_seance="87" id_acteur="PA-126299" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984213" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Daniel Goldberg</nom>
+            <id>-126299</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3499.38">Je crois que ce n’est pas le cas si nous pouvons faire autrement – certaines familles le peuvent et d’autres non. C’est ainsi qu’il faut penser le problème.<br/>Je vous rejoins : s’agissant de majeurs, nous devons nous assurer de leur pleine adhésion à ce qui leur est proposé. Cependant, hors de l’ASE, il est rare que des parents puissent imposer beaucoup de choses à leurs enfants âgés de 21, 22 ou 23 ans.<br/>Avant tout cela, nous avons besoin d’une grande politique de l’enfance et de la jeunesse, qui ne soit pas qu’une politique de la protection de l’enfance – sur ce point je vous rejoins. C’est dans le cadre d’une grande politique de l’enfance et de la jeunesse que les mineurs qui ont besoin d’un accompagnement ou d’une protection supplémentaire trouveront leur place. Où sont, aujourd’hui, les maîtres E et les maîtres G des réseaux d’aide et de soutien aux élèves en difficulté ? Ces enseignants avaient reçu une formation supplémentaire pour repérer, en classe banale, les premiers dysfonctionnements. Où en est-on de la généralisation des centres médico-psycho-pédagogiques (CMPP), alors que la santé mentale restera une grande cause nationale en 2026 ? On sait bien quels sont les manques en la matière.<br/>Les exemples ne manquent pas. En tout cas, c’est en pensant globalement l’ensemble des mineurs et des jeunes majeurs de ce pays qu’on trouvera la solution la plus adaptée pour celles et ceux qui dépendent de la protection de l’enfance.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843457" ordre_absolu_seance="91" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984219" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3511.62">La parole est à Mme Olga Douin.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843458" ordre_absolu_seance="92" id_acteur="PA793214" id_mandat="PM874933" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984220" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Olga Douin</nom>
+            <id>793214</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3618.22">J’ajouterai que les sorties sèches sont un sujet de société qui nécessite une mobilisation large. Il me semble très important d’y inclure la société et le secteur privé pour qu’ils se mobilisent, eux aussi, au service de ces enfants qui sortent de l’ASE. Le groupe Caisse des dépôts souhaite, avec les moyens qui sont les siens, mobiliser ses entités pour proposer aux départements un appui dans l’accompagnement vers l’autonomie de ces jeunes – accès au logement, insertion professionnelle et bancarisation. Notre groupe a un périmètre très large grâce à ses différentes filiales et entités, et a donc des moyens adaptés à la mise en œuvre de cet accompagnement. Nous allons y travailler en 2026 et nous espérons faire des propositions à ce sujet aux départements d’ici à la fin de l’année.<br/>Très bien, je vous en remercie.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843460" ordre_absolu_seance="94" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984222" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3689.80">La parole est à Mme Isabelle Santiago.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843461" ordre_absolu_seance="95" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984223" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Isabelle Santiago (SOC)</nom>
+            <id>774960</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3694.95">Évidemment, je me félicite de ce débat. On sait bien que la crise de la protection de l’enfance est systémique. Si j’ai évoqué tout à l’heure le décret « pouponnière », c’était bien sûr à titre d’exemple parce que je le trouve très révélateur : il aura tout de même fallu attendre plus de cinquante ans pour modifier des normes. Et les acteurs représentant ici les départements ou les associations savent qu’ils sont comptables de cette réalité factuelle, à savoir qu’ils sont aussi, à un moment donné, des interlocuteurs des services de l’État et constatent comme moi qu’il n’y a pas de vision de l’enfance et de la jeunesse en France, et que nous en souffrons.<br/>J’ai pu démontrer par ailleurs, dans le cadre de la commission d’enquête, que la France a fait une grave erreur historique dans les années 1970 en séparant la santé de la question du social et du médico-social, et qu’aujourd’hui nous le payons encore parce que cela aboutit à des politiques publiques en silos. Il n’y a qu’à voir le retard abyssal de notre pays concernant l’autisme. Et on a même les pires difficultés à faire accepter les prescriptions de la Haute Autorité de santé (HAS) en raison des réserves exprimées par des professionnels certes formés, mais qui ne tiennent pas compte des nouvelles connaissances scientifiques. Au terme des travaux de cette commission d’enquête, je pense que nous avons démontré à tous qu’il fallait faire un pas de côté pour sortir du système des silos, ce qui permettrait de se tourner vers l’avenir en se posant la question suivante : comment faire pour changer ce modèle ?<br/>La refondation du modèle actuel, à laquelle nous invitons, passe par un projet de loi qui est en effet annoncé. Mais on sait que des lois ont été votées sur le sujet depuis 2002, et on peut les prendre une par une : la plupart n’ont pas été appliquées, ou en partie seulement. Et s’il offrira de nouvelles possibilités, on sait d’avance que, sur le terrain, le texte à venir sera appliqué dans un système totalement éclaté, comportant autant d’associations que de territoires et autant d’individualités que d’acteurs.<br/>J’aimerais par ailleurs avoir votre avis sur le constat suivant : sur les 12 milliards d’euros alloués aux politiques publiques de protection de l’enfance, 9 milliards concernent les associations, dont 2 milliards l’assistance éducative en milieu ouvert (AEMO). Et je rappelle que l’AEMO simple ne représente aujourd’hui qu’une heure dix par mois dans une famille : est-il dès lors possible d’accompagner vraiment un enfant au titre de la protection de l’enfance, avec de surcroît du personnel non formé ou très peu formé, au vu des difficultés que rencontrent ces familles ? J’ajoute qu’une grande partie des AEMO relèvent d’une logique de placement direct puisqu’il y a possibilité de passage dans le second dispositif un peu plus tard, l’action éducative étant souvent renouvelée pour deux à trois ans.<br/>En outre, je note que nous sommes un des derniers pays de l’OCDE à ne pas définir légalement la notion de danger : vous ne la trouverez pas dans le code civil. Qu’en pensez-vous ? Je pense pour ma part que c’est un problème majeur, y compris dans l’élaboration des formations proposées aux professionnels.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843466" ordre_absolu_seance="100" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984228" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3786.41">Il faut conclure.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843467" ordre_absolu_seance="101" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984229" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Isabelle Santiago</nom>
+            <id>774960</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3898.69">Je vous remercie de me le permettre, monsieur le président. Récemment, et j’en suis fort fâchée, ont été publiés des décrets sur la formation professionnelle des éducateurs spécialisés qui ne tiennent absolument pas compte des conclusions de la commission d’enquête sur ladite formation. Cela illustre parfaitement comment l’État ne fonctionne pas pour le bien des enfants puisqu’on va ainsi continuer à former des gens qui ne seront pas les professionnels dont nous avons besoin.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843468" ordre_absolu_seance="102" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984230" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3932.63">J’ai pris note de la demande de parole de Mme Liliane Tanguy, puis les intervenants extérieurs auront chacun la parole pour conclure, sachant que la première partie du débat sera close de toute façon à vingt-deux heures trente. Plus vous serez brève, ma chère collègue, plus ils auront le temps de vous répondre, soit trois minutes chacun, je présume.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843469" ordre_absolu_seance="103" id_acteur="PA793214" id_mandat="PM874933" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984231" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Liliana Tanguy (EPR)</nom>
+            <id>793214</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3953.78">Je me permets de rebondir après avoir entendu qu’il n’y aurait aucune politique de l’enfance et de la jeunesse en France. C’est vraiment réducteur. Il faut la regarder comme une politique transversale, et elle existe bel et bien, depuis la toute petite enfance jusqu’à l’âge de la majorité. Je ne citerai qu’un seul exemple et sur lequel nous avons beaucoup travaillé au sein de la commission d’enquête : celui de la politique des 1 000 premiers jours, d’autant que l’on sait très bien maintenant que la plupart des déterminants se forment durant cette période.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843470" ordre_absolu_seance="104" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984232" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4029.31">La parole est à Mme Emmanuelle Coint.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843471" ordre_absolu_seance="105" id_acteur="PA793214" id_mandat="PM874933" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984233" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Emmanuelle Coint</nom>
+            <id>793214</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4041.83">Rassurez-vous, madame la députée, je n’oublie pas la politique des 1 000 jours, d’autant que nous, nous sommes bien au cœur du sujet à travers la protection maternelle et infantile (PMI), mais c’est sur les 18-25 ans que j’ai souhaité pointer les difficultés dues à des politiques non structurées.<br/>Pour prendre un peu de recul, comme vous nous y invitez, madame Santiago, je dirai que nous avons besoin d’une stratégie interministérielle. On voit bien, en effet, à travers nos échanges, et surtout dans votre rapport, qu’il faut travailler sur la formation, y compris la formation initiale – on peut aussi s’interroger sur Parcoursup s’agissant de certaines d’entre elles.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843473" ordre_absolu_seance="107" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984235" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Isabelle Santiago</nom>
+            <id>774960</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4077.43">Clairement !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843474" ordre_absolu_seance="108" id_acteur="PA793214" id_mandat="PM874933" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984236" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Emmanuelle Coint</nom>
+            <id>793214</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4080.07">Il faut aussi considérer les passerelles possibles entre les métiers, sachant que ce sont des métiers qui touchent l’intime et qui peuvent épuiser. Prévoir des passerelles permet de rester tout de même dans des champs d’activité que l’on aime, mais pas forcément toujours dans le même mode d’exercice. Cette perspective concerne aussi la formation des juges et celle des avocats, parce que le nouveau droit à être accompagné va nécessiter des juristes formés à l’accompagnement de l’enfant et à un recueil de parole très particulier.<br/>Quant aux structures, on voit bien que l’immobilier s’intègre dans un projet de service, qu’il s’agisse de l’immobilier en dur ou de l’aller vers – la visite à domicile. On a parlé aussi, bien sûr, de l’urbanisme, mais les politiques publiques de protection de l’enfance concernent également l’éducation nationale qui, à travers l’école inclusive, se confronte au handicap. Les pôles d’appui à la scolarité apportent de nouvelles façons de repérer les difficultés chez les enfants.<br/>On voit bien que beaucoup de choses bougent, mais on a besoin, je le répète, d’une stratégie interministérielle pour mettre un peu de cohérence dans tout cela, d’autant que tout changement en ces domaines suppose des modifications de pratique qui demandent du temps car changer une pratique, c’est très difficile.<br/>Et puis, vous l’avez dit, les textes concernant nos secteurs se caractérisent parfois par une sorte de logorrhée. Nous avons besoin que chaque loi, chaque décret, chaque texte soit une pierre à l’édifice, que chacun d’entre eux permette de se rapprocher de l’idéal que nous aurons défini et commencé de construire ensemble, afin de pouvoir vraiment, cette fois-ci, resserrer les mailles du filet pour les situations difficiles. On n’a pas besoin forcément d’une très grande révolution, mais surtout d’une meilleure coopération et d’un copilotage État-département. Vous avez bien compris que le mot « État » englobe pour moi la santé, l’éducation nationale, l’organisation de notre cité – y compris les loisirs – et la politique à mener s’agissant des réseaux sociaux. Il y a vraiment un grand chantier ouvert devant nous et je pense, pour toutes les raisons que j’ai mentionnées, qu’il faut, je le répète, des stratégies interministérielles. En tout cas, sachez que Départements de France est à votre disposition pour coconstruire tout cela. Votre rapport est un support de réflexion.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843478" ordre_absolu_seance="112" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984240" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4127.99">Il faut conclure.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843479" ordre_absolu_seance="113" id_acteur="PA793214" id_mandat="PM874933" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984241" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Emmanuelle Coint</nom>
+            <id>793214</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4215.94">Maintenant, nous avons besoin, je l’ai dit dans mon propos liminaire, d’une concrétisation. Excusez-moi pour ma passion, monsieur le président.<italique> (Sourires.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843480" ordre_absolu_seance="114" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984242" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4223.07">C’était en effet passionnant et vous avez parlé trois minutes pile.<br/> La parole est à M. Daniel Goldberg.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843481" ordre_absolu_seance="115" id_acteur="PA793214" id_mandat="PM874933" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984243" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Daniel Goldberg</nom>
+            <id>793214</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4228.05">Tout d’abord, merci encore une fois pour ce rapport et je me félicite que l’Assemblée nationale l’ait adopté. Il met en exergue un certain nombre de situations, offre le temps d’y réfléchir et même un droit de poursuite à travers cette audition, tout en ouvrant la voie, je l’espère, à un travail qui continuera.<br/>Madame Santiago, vous avez évoqué des logiques de silos dont nous souffrons dans l’action sociale et je me permets d’attirer l’attention de la représentation nationale sur les évolutions possibles des ARS, les agences régionales de santé, parce que cette question doit aussi être posée dans ce cadre-ci. Je suis opposé au<italique> statu quo</italique> en l’occurrence, mais ce que je sais aujourd’hui des projets en cours dans les champs social, médico-social et sanitaire, c’est qu’ils risquent de déplacer des silos existants ou d’en créer de nouveaux. Il ne faudrait pas que les changements aillent dans ce sens.<br/>Certes, pas de grand soir, je suis d’accord, mais des petits matins pour tous les enfants qui doivent être accueillis et accompagnés.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843484" ordre_absolu_seance="118" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984246" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Isabelle Santiago</nom>
+            <id>774960</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4280.06">C’est bien !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843485" ordre_absolu_seance="119" id_acteur="PA793214" id_mandat="PM874933" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984247" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Daniel Goldberg</nom>
+            <id>793214</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4294.91">Mais c’est ce dont nous manquons aujourd’hui, la promesse républicaine n’étant pas tenue.<br/>Je partage par ailleurs la logique interministérielle mais, parlant ici au nom des associations, je dois dire que nous sommes parfois fatigués des revers et des coups droits que s’échangent l’État et les départements quand il s’agit de se renvoyer les responsabilités.<br/>En tout cas, nous essayons de faire avec les moyens que l’on nous donne et je suis persuadé qu’il y a des marges de progrès dans le champ associatif pour améliorer l’offre d’accompagnement. Mais il n’y aura pas d’accompagnement de meilleure qualité si on ne définit pas une logique budgétaire au moins à moyen terme pour savoir à peu près où l’on va. Si on veut des professionnels mieux formés et plus reconnus, et ainsi à terme plus nombreux, cela a un coût. En tant qu’associations, notre grande chance, c’est de ne pas avoir d’actionnaires à rémunérer – notre grand problème, c’est qu’on n’a pas d’actionnaires qui peuvent injecter de l’argent frais. C’est à l’État et aux départements de savoir si les 12 milliards d’euros consacrés aujourd’hui à la protection de l’enfance sont dilapidés ou bien de savoir si les moyens manquent.<br/>Enfin, je tiens à insister sur le soutien à la parentalité parce que, pour éviter d’arriver à des situations qui relèvent de la protection de l’enfance, il faut prendre les problèmes le plus en amont possible.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843489" ordre_absolu_seance="123" id_acteur="PA719550" id_mandat="PM842660" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984251" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Liliana Tanguy</nom>
+            <id>719550</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4300.15">En effet !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843490" ordre_absolu_seance="124" id_acteur="PA793214" id_mandat="PM874933" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984252" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Daniel Goldberg</nom>
+            <id>793214</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4389.36">C’est pourquoi j’ai évoqué ce qui se passe à l’école en classe banale. Je suis pour la même raison très favorable à la généralisation des CDPE, à condition qu’on leur donne un cadre.<br/>Je conclurai en soulignant que, comme le grand âge et comme la petite enfance, la protection de l’enfance peut devenir un marché demain pour des acteurs lucratifs dont les motivations pourront être différentes des nôtres ici.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843492" ordre_absolu_seance="126" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984254" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4405.58">La parole est à Mme Olga Douin.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2843493" ordre_absolu_seance="127" id_acteur="PA-126309" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984255" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Olga Douin</nom>
+            <id>-126309</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4438.83">En conclusion, je soulignerai que la Caisse des dépôts n’est pas un acteur qui intervient directement dans le secteur de l’enfance protégée. Nous sommes force de soutien et, à ce titre, nous travaillons avec les départements mais aussi avec les associations et parfois avec d’autres acteurs privés – par exemple, dans le champ de la formation. Il est nécessaire aujourd’hui de fédérer nos forces et nos compétences pour apporter des réponses adaptées : à un problème systémique, il faut apporter des solutions également systémiques.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2843549" ordre_absolu_seance="128" id_acteur="PA791812" id_mandat="PM840384" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984042" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Olga Douin</nom>
+            <id>791812</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4483.41">Nous souhaitons apporter notre soutien en matière de formation dans le secteur de l’aide sociale à l’enfance pour améliorer l’attractivité de ses métiers. Même si l’augmentation de l’offre de formation ne suffira pas à atteindre cet objectif, elle représente tout de même un levier important. Mme Santiago a relevé que les professionnels au contact des enfants devaient connaître certaines bases scientifiques pour exercer leurs métiers. Il faut les former à de nouvelles pratiques puis s’assurer que les connaissances acquises sont utilisées pour changer les façons de faire sur le terrain. Nous souhaitons donc financer les opérateurs de formation pour qu’ils puissent développer leur offre spécifique au secteur de l’ASE.<br/>Dans le cadre du plan France 2030, la Caisse des dépôts est titulaire d’un mandat Compétences et métiers d’avenir pour les professions du numérique et de l’industrie. Pour nous, les métiers sociaux sont aussi des métiers d’avenir et nous aimerions étudier avec le secrétariat général pour l’investissement (SGPI) la possibilité de consacrer une partie de ce mandat aux professions de l’ASE. Cela permettrait de beaucoup innover en matière de formation.<italique> (Mme Isabelle Santiago acquiesce.)</italique> Vous pouvez compter sur notre soutien pour avancer sur ce sujet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2843551" ordre_absolu_seance="130" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984044" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4620.92">Je remercie nos trois invités pour leur participation à nos travaux. Nous avons utilisé tout le temps imparti pour organiser un beau débat et obtenir des explications très claires. En référence à un propos tenu en début de soirée, j’ajoute espérer que nous serons toujours là dans trois jours – ceux qui étaient présents comprendront mon allusion. Je vais brièvement suspendre la séance avant que nous passions à la seconde partie du débat.</texte>
+      </paragraphe>
+      <point nivpoint="99" valeur_ptsodj="1" ordinal_prise="5" id_preparation="2843552" ordre_absolu_seance="131" code_grammaire="SUSP_SEANCE_1_1" code_style="Suspension rappel" code_parole="" sommaire="1" id_syceron="3984045" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>Suspension et reprise de la séance</italique>
+        </texte>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2843553" ordre_absolu_seance="132" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="SUSP_SEANCE_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984046" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4645.13">La séance est suspendue.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2843554" ordre_absolu_seance="133" code_grammaire="SUSP_SEANCE_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="3984047" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance, suspendue à vingt-deux heures trente, est reprise à vingt-deux heures trente-cinq.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2843555" ordre_absolu_seance="134" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="SUSP_SEANCE_2_3" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984048" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4857.72">La séance est reprise. Je souhaite la bienvenue à Mme Stéphanie Rist, ministre de la santé, des familles, de l’autonomie et des personnes handicapées, à qui je donne la parole.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2843556" ordre_absolu_seance="135" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984049" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Stéphanie Rist</nom>
+              <id>720066</id>
+              <qualite>ministre de la santé, des familles, de l’autonomie et des personnes handicapées</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="4876.00">La commission d’enquête dont vous avez été la rapporteure, madame Santiago, a dressé un constat sévère, mais lucide et largement partagé, sur la protection de l’enfance. Avec la hausse du nombre de placements, le système connaît une tension extrême ; il est marqué par de profondes inégalités territoriales ; la prévention est trop faible ; les conditions de prise en charge sont parfois indignes au regard des besoins fondamentaux des enfants ; les métiers du secteur affrontent une crise durable en matière d’attractivité. Je salue la qualité des travaux de la commission, leur caractère inédit, leur ampleur et, surtout, la clarté du diagnostic. Dans votre rapport, rien n’est minimisé, rien n’est contourné.<br/>Oui, pendant des décennies, décisions et non-décisions ont cohabité. Oui, trop longtemps, et jusqu’à récemment, la protection de l’enfance a constitué un impensé des politiques publiques, pour reprendre vos mots. Toutefois, je ne suis pas devant vous pour porter un jugement sur ce qui a été fait ou sur ce qui n’aurait pas été fait, mais pour vous dire une chose simple : nous ne détournerons plus le regard et l’État agira là où il le faut, au côté des départements.<br/>Depuis la remise de votre rapport et grâce à l’action résolue de ma prédécesseure, Catherine Vautrin, le gouvernement s’est engagé dans une dynamique d’action claire et structurée, autour de quatre priorités. Premièrement, réaffirmer le rôle stratégique de l’État dans ses compétences auprès des enfants de l’ASE. Deuxièmement, sécuriser affectivement et matériellement les enfants et les jeunes majeurs en faisant toujours passer leur intérêt avant le reste. Troisièmement, agir sur la prévention dès le plus jeune âge et auprès des familles. Quatrièmement, lutter contre toutes les formes de maltraitance, d’exploitation ou de violence envers les enfants. Ce qui est arrivé dernièrement dans un foyer de l’enfance est inadmissible, comme l’est l’augmentation de la prostitution des mineurs.<br/>Pour accompagner cette démarche, nous présenterons, le garde des sceaux et moi-même, un projet de loi de réforme de l’ASE. Justice et ministères sociaux avancent ensemble, main dans la main, comme jamais auparavant. Ce projet de loi a pour seule boussole l’intérêt supérieur de l’enfant. Nos objectifs sont clairs : replacer le parcours de vie de l’enfant au cœur du système, limiter les placements, développer autant que possible les solutions à caractère familial et toujours faire primer la sécurité de l’enfant.<br/>J’ai déjà eu l’occasion de rencontrer un certain nombre d’entre vous depuis ma prise de fonctions. Je pense notamment à vous, madame Santiago, et à Perrine Goulet. Nous menons avec vous deux un travail constructif et j’assure aux députés que je serai toujours à leur disposition pour avancer de concert. Je répondrai évidemment à toutes les questions, mais permettez-moi d’abord de revenir sur cinq axes de votre rapport qui m’apparaissent déterminants et sur lesquels nous agissons.<br/>Le premier est celui de la gouvernance et du pilotage. Par nature, la protection de l’enfance est une politique à la fois partenariale, interministérielle et de proximité. Elle se vit sur le terrain, au plus près des réalités des familles et des enfants. Elle ne peut donc se décider ou se piloter uniquement depuis le niveau central. Toutefois, la proximité ne saurait justifier des inégalités en matière de respect des besoins fondamentaux de l’enfant. Les écarts territoriaux ne se corrigent ni par le désengagement de l’État ni par la confusion des responsabilités, mais par des normes claires, des contrôles effectifs et des moyens assumés.<br/>C’est le sens des deux leviers que nous avons activés. Le premier passe par des contrôles conjoints entre État et départements. Le second tient dans la contractualisation, avec 130 millions d’euros prévus dans le projet de loi de finances pour 2026. Elle a pour but d’assurer le dialogue entre les services sur le terrain, avec trois objectifs clairs : harmoniser les pratiques, engager une démarche de renforcement des interventions à domicile et des accueils à dimension familiale, mettre à niveau les systèmes d’information.<br/>Au fond, l’enjeu est de garantir à chaque enfant, avec les départements et sur l’ensemble du territoire, un niveau socle de protection. C’est notamment pour cela que, conformément à la recommandation du rapport de la commission d’enquête, le projet de loi sur la protection de l’enfance prévoira la généralisation des comités départementaux pour la protection de l’enfance. C’est également pour cela que, conformément à l’engagement pris avec le garde des sceaux, nous venons de signer un décret intégrant les acteurs de la protection de l’enfance aux commissions départementales de lutte contre la prostitution. J’ai pu mesurer, lors d’un déplacement dans les Yvelines, à quel point un travail rapproché entre les services de police, le département, l’ARS, les associations et la justice permet d’assurer que des enfants ne passent pas entre les mailles du filet.<br/>Le deuxième axe est celui de la prévention et du repérage. On ne répare pas un système de protection de l’enfance en aval si on renonce à le refonder en amont. Le véritable changement de paradigme est là, je crois que cette conviction est partagée par le gouvernement et le Parlement.<br/>Pour le repérage, nous renforçons progressivement les cellules de recueil des informations préoccupantes, les Crip. Formation, réduction des délais de traitement et coordination avec la justice sont des engagements déjà concrétisés grâce à la contractualisation avec les départements. Il faut aussi améliorer l’évaluation de ces informations préoccupantes. Nous le faisons en créant des indicateurs spécifiques. Un meilleur repérage passera aussi par le soutien au numéro 119. Les objectifs sont de refonder l’écoute pour améliorer le taux de décrochage et d’augmenter le nombre d’écoutants, sujet sur lequel Florence Dabin, présidente du groupement d’intérêt public France enfance protégée, est fortement engagée.<br/>Par ailleurs, nous consolidons la prévention précoce. Il y a beaucoup à dire sur le sujet, mais je serai brève puisque je répondrai ensuite à vos questions. Ce renforcement intervient sur trois champs : PMI, périnatalité, parentalité. Une nouvelle stratégie des 1 000 premiers jours vise à renforcer les interventions à domicile, à outiller parents et professionnels en matière de développement des enfants et à mailler le territoire de maisons des 1 000 premiers jours, pour accompagner en proximité. Il est également nécessaire de mieux soutenir la parentalité, pour donner suite aux travaux des parlementaires et d’une commission d’experts dédiés. Après concertation, une nouvelle stratégie sera publiée et mise en œuvre dès cette année, avec des réponses aux besoins concrets et actuels des familles, notamment sur le numérique.<br/>Le troisième axe est celui de la prise en charge. Il recouvre trois enjeux. Le premier concerne les conditions d’accueil. Il faut revenir sur les placements hôteliers, qui ne devraient plus exister puisqu’ils sont interdits depuis l’adoption de la loi Taquet, en 2022. Là où ils persistent, c’est en raison d’une insuffisance de l’offre. C’est pourquoi nous développons d’autres solutions : le projet de loi en préparation entend améliorer l’attractivité du métier d’assistant familial et renforcer le recours aux tiers dignes de confiance et aux accueillants durables et bénévoles.<br/>Au cours des trois prochaines années, nous prévoyons également de consacrer 350 millions d’euros à la rénovation ou à la construction de 7 000 places en structures grâce à l’appui de la Banque des territoires. Il nous faut aussi réfléchir collectivement à un renforcement des contrôles, qui doit être discuté en tenant compte des mesures inscrites dans la proposition de loi sur l’intérêt de l’enfant de Perrine Goulet et des conclusions de la mission que j’ai confiée à l’Igas après de récents événements de maltraitance.<br/>Le deuxième enjeu est celui la santé des enfants. Nous devons absolument renforcer la prise en charge de la santé somatique et psychique des enfants de l’ASE, pour repérer au plus tôt leurs besoins et assurer les soins nécessaires. Les expérimentations Santé protégée et Pegase – protocole de santé standardisé appliqué aux enfants ayant bénéficié avant l’âge de 5 ans d’une mesure de protection de l’enfance – ont permis d’évaluer des dispositifs spécifiques d’organisation des soins pour les tout-petits et pour les jeunes ainsi que de structurer un parcours coordonné et renforcé de soins dédiés qui sera déployé en début d’année pour concerner l’ensemble des enfants et des jeunes majeurs de l’ASE.<br/>Le troisième enjeu est celui des pouponnières. Votre rapport souligne à juste titre les sureffectifs qu’elles connaissent. Au-delà des rénovations que j’ai annoncées, il faut se rendre compte que la réglementation n’avait pas évolué depuis le décret et l’arrêté pris en 1974 par Simone Veil. Devenus obsolètes, ces textes ne correspondaient plus à la réalité des besoins des enfants ni aux conditions concrètes de leur prise en charge.<br/>Le gouvernement a donc pris en septembre 2025 un décret qui comporte plusieurs avancées majeures. Les taux d’encadrement pour les auxiliaires de puériculture passent ainsi à un professionnel pour cinq enfants le jour, contre un pour six auparavant, et à un professionnel pour quinze la nuit, contre un pour trente actuellement. La capacité maximale d’accueil est abaissée à trente places, contre cinquante jusque-là. Enfin, la durée de l’accueil est désormais limitée à quatre mois. Ces dispositions entrent en vigueur de manière progressive, afin de garantir leur bonne mise en œuvre opérationnelle. Nous accompagnons les départements dans cet effort, avec près de 35 millions d’euros supplémentaires prévus dans le projet de loi de finances pour 2026.<br/>J’en viens au quatrième axe : celui des mineurs non accompagnés. Je le redis avec force, ils sont avant tout des enfants relevant de la protection de l’enfance. Ils doivent donc être accompagnés comme des enfants protégés. Là aussi, nous travaillons principalement sur deux champs : l’harmonisation des procédures d’évaluation de leur minorité et l’accès à la santé, notamment mentale, ce qui est fondamental pour ces enfants.<br/>Le cinquième axe concerne les jeunes majeurs. Les avancées sont réelles, mais il faut consolider leur mise en œuvre. On ne prépare pas l’autonomie en rompant brutalement l’accompagnement à 18 ans. La prise en charge jusqu’à 21 ans est désormais une obligation légale, issue de la loi du 7 février 2022. Cette extension de compétence a été reconnue comme telle et accompagnée financièrement par l’État à hauteur de 50 millions d’euros par an, financement pérennisé depuis 2022.<br/>Si la question du coût réel est posée, celle de l’efficacité de la dépense l’est aussi. Ces jeunes doivent pouvoir accéder à l’insertion professionnelle, à un logement, à des études supérieures. C’est pourquoi nous travaillons à l’élaboration d’une feuille de route interministérielle pour les jeunes majeurs. J’en fais une priorité. Elle doit permettre de sortir d’une logique de contractualisation précaire pour aller vers un accompagnement réel à l’insertion.<br/>Pour conclure, je veux dire les choses simplement sur un sujet complexe : personne ne peut dire que rien n’est entrepris, mais personne ne peut se satisfaire de l’existant. La protection de l’enfance appelle une refondation globale, exigeante et surtout collective. Je sais pouvoir compter sur votre engagement, en tant que parlementaires, pour réaliser ensemble cette ambition.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2843520" ordre_absolu_seance="155" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984184" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5514.41">Nous en venons maintenant aux questions. Je rappelle que la durée des questions comme des réponses est limitée à deux minutes, sans droit de réplique.<br/>La parole est à Mme Isabelle Santiago.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2843521" ordre_absolu_seance="156" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984185" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Isabelle Santiago (SOC)</nom>
+              <id>774960</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5525.35">Merci pour vos propos, madame la ministre. Neuf mois se sont écoulés depuis la remise du rapport, qui avait été adopté à l’unanimité. Comme vous l’avez dit, la vérité est établie, elle fait l’objet d’un consensus, au Parlement comme entre tous les partenaires de la protection de l’enfance – et on sait qu’ils sont très nombreux.<br/>Parmi les points que j’ai pu mettre en évidence et qui font consensus figure la question des données de santé, en particulier celle des expériences traumatiques de l’enfance (ACE – <italique> Adverse Childhood Experiences</italique> ). Quand les enfants relevant de la protection de l’enfance en connaissent, leur niveau moyen d’adversité est évalué à 4. Cela signifie que ces enfants cumulent des expériences de violence, de négligence, de rupture et de maltraitance dont l’effet sur leur développement s’avère durable, cumulatif et parfois irréversible.<br/>Ces multiples vulnérabilités peuvent entraîner des problèmes majeurs dans les pratiques professionnelles, dès lors qu’elles ne sont pas adaptées, et des parcours de rupture. Le lien d’attachement manque évidemment, mais il ne se forme pas non plus dans le cadre de la protection de l’enfance comme il devrait pouvoir le faire grâce à la présence de figures d’attachement. L’enfant n’en a pas.<br/>Nous médiquons à outrance ces enfants, souvent faute de comprendre leurs vulnérabilités. Il arrive ainsi qu’on regarde comme un « trouble du comportement » ce qui relève en fait de l’autisme pour certains, des troubles de l’apprentissage pour d’autres, ou pour d’autres encore les fameuses ACE. Ces vulnérabilités cumulées suscitent effectivement des troubles du comportement, mais ceux-ci doivent être traités comme des problèmes de santé. En somme, l’intrication du social et du médico-social a plongé la protection de l’enfance dans la plus grave crise systémique, faute d’une formation pluridisciplinaire adéquate des professionnels.<br/>Je voudrais avoir votre avis sur la façon de changer la donne sur ces sujets.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2843526" ordre_absolu_seance="161" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984190" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5654.94">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2843527" ordre_absolu_seance="162" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984191" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Stéphanie Rist</nom>
+              <id>720066</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="5658.10">Si je comprends bien, votre question porte sur la non-séparation du social et du sanitaire. Comme je l’ai dit, dès mon arrivée au ministère, j’ai souhaité généraliser les parcours coordonnés renforcés afin que tous les enfants protégés puissent bénéficier d’un bilan de santé et surtout d’une prise en charge de leur santé tant somatique que psychique – examens, consultations d’ergothérapie, de psychologie, etc. Il s’agit d’un engagement important. Les expérimentations qui ont été conduites auparavant ont montré l’efficacité d’un tel parcours. Cette généralisation interviendra dès 2026. Comme je l’ai précisé dans mon propos liminaire, elle concernera tous les enfants et débouchera sur une prise en charge globale et durable. Il ne s’agit pas de faire un bilan lors de l’entrée en protection, puis de laisser de côté les enfants par la suite.<br/>Fruit d’une coordination indispensable, ces parcours seront financés et nous soutiendrons les différentes structures qui offrent des réponses graduées – je pense notamment au centre Asterya de la professeure Céline Greco, qui a montré son efficacité dans la prise en charge des cas les plus graves. C’est la seule façon de parvenir à rassembler les secteurs sanitaire et social. Il a été scientifiquement établi que l’espérance de vie de ces enfants était diminuée. Nous ne pouvons rester sans rien faire et nous agirons dès cette année en déployant une prise en charge d’ensemble.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2843529" ordre_absolu_seance="164" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984193" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5783.72">La parole est à M. Arnaud Bonnet.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2843530" ordre_absolu_seance="165" id_acteur="PA841885" id_mandat="PM843446" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984194" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Arnaud Bonnet (EcoS)</nom>
+              <id>841885</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5793.95">La commission d’enquête sur les manquements des politiques publiques de protection de l’enfance conduite par notre collègue Isabelle Santiago a posé un diagnostic clair : notre système de protection de l’enfance est en grande difficulté ; des enfants vulnérables en paient le prix chaque jour.<br/>Face à ce constat désormais largement partagé, vous l’avez rappelé, nous ne pouvons plus nous contenter de rapports qui s’empilent. Les incantations doivent céder la place à des actes concrets suffisamment forts pour refonder la protection de l’enfance dans notre pays.<br/>Le groupe Écologiste et social attend donc beaucoup du projet de loi que le gouvernement doit présenter au printemps. Mais ce texte ne pourra être à la hauteur que s’il est construit avec celles et ceux qui font vivre la protection de l’enfance au quotidien : les professionnels, évidemment, les associations – le président de l’Uniopss, Daniel Goldberg, le rappelait tout à l’heure – et les anciens enfants placés, dont les alertes et les revendications doivent être enfin prises en compte avec tout le sérieux qu’elles méritent.<br/>Une clarification s’impose : la protection de l’enfance ne doit pas être confondue avec la PJJ. Bien qu’elles puissent être complémentaires, leurs missions sont différentes et certaines confusions actuelles affaiblissent l’action publique.<br/>Il conviendrait aussi de ne pas oublier l’éducation nationale – le temps scolaire représente un tiers du temps de vie de nos enfants –, dont le rôle est d’autant plus essentiel pour des enfants ayant besoin d’être accompagnés par l’État.<br/>Dans sa contribution au rapport de la commission d’enquête, notre groupe a formulé des propositions très concrètes : garantir la stabilité des parcours des enfants confiés à l’ASE – certains sont suivis par trente, voire quarante professionnels en deux ou trois ans, ce qui est délirant ; limiter les changements de lieu de placement, qui constituent autant de ruptures traumatisantes ; engager un véritable choc d’attractivité pour les professionnels en améliorant les conditions de travail, la formation et la reconnaissance – sans reconnaissance, c’est comme pour les enseignants, il n’y aura pas plus de vocations. Nous exprimons également une exigence forte sur les lieux de vie de l’ASE : il faut investir dans leur rénovation et fixer des normes d’encadrement claires. Enfin, nous défendons l’instauration d’un revenu – vous en avez parlé – pour les jeunes majeurs sortant de l’ASE.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2843536" ordre_absolu_seance="171" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984200" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5931.74">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2843537" ordre_absolu_seance="172" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984201" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Stéphanie Rist</nom>
+              <id>720066</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="5936.83">Votre prise de parole appelle plusieurs remarques, dont la première est que le futur projet de loi fait évidemment l’objet d’une concertation avec les acteurs de la protection de l’enfance. L’Uniopss participe d’ailleurs aux groupes de travail qui se penchent sur le projet de loi, que le garde des sceaux et moi-même espérons vous présenter très prochainement.<br/>Rétablir une certaine stabilité pour ces enfants, notamment à travers celle des professionnels, constitue le fil directeur de ce texte. Nous essaierons de faire en sorte que les parcours soient aussi peu hachés que possible et que l’enfant passe le plus de temps possible avec les mêmes professionnels ou dans des lieux familiaux qui lui offrent cette stabilité. C’est tout l’enjeu du projet de loi.<br/>Quant à l’éducation nationale, nous travaillons main dans la main avec son ministre de tutelle, Édouard Geffray, sur les scolarités protégées. Outre le garde des sceaux, le ministre de l’éducation est associé, comme l’ensemble du gouvernement, à ce projet de loi. La protection de l’enfance ne peut relever du seul ministère des familles et de la santé.<br/>Vous avez également évoqué le renouvellement du bâti. Vous savez les investissements qui sont consentis, notamment par la Banque des territoires, en faveur de la rénovation de nombreuses places afin que les lieux de vie de ces enfants leur garantissent la meilleure qualité de vie possible. Nous poursuivrons ces investissements.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2843541" ordre_absolu_seance="176" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984205" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6015.22">La parole est à Mme Liliana Tanguy.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2843542" ordre_absolu_seance="177" id_acteur="PA719550" id_mandat="PM842660" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984206" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Liliana Tanguy (EPR)</nom>
+              <id>719550</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6056.98">Merci d’être parmi nous, madame la ministre, et de nous éclairer sur la politique à venir.<br/>Vous avez évoqué la politique des 1 000 premiers jours. Au sein de la stratégie qui se dessine pour essayer d’améliorer la situation, cette politique de la toute petite enfance a-t-elle un effet positif pour prévenir les placements ? J’estime en effet que la meilleure des politiques est celle qui évite que les enfants soient placés. Cette politique des 1 000 premiers jours a-t-elle été évaluée ? Pensez-vous qu’elle donne déjà des résultats ?<br/>Vous avez également évoqué la prostitution, objet de ma seconde question. Alors que certains jeunes de l’ASE se retrouvent en errance, devenant parfois les victimes de réseaux, qu’il s’agisse d’addiction aux drogues ou de prostitution de mineurs, existe-t-il déjà des mesures de prévention ou est-il prévu d’en prendre dans le cadre du projet de loi dont vous nous avez parlé ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2843545" ordre_absolu_seance="180" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984209" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6141.21">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2843546" ordre_absolu_seance="181" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984210" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Stéphanie Rist</nom>
+              <id>720066</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6144.02">Vous soulevez la question de la prévention. Nécessaire pour tous les enfants, elle l’est d’autant plus pour les enfants protégés, deux fois plus exposés à des conséquences graves. Il importe néanmoins de rappeler qu’elle doit concerner tous les enfants.<br/>La prévention concerne de multiples aspects : aussi bien la santé, tant physique que psychique – c’est tout l’objet du parcours de soins spécifique pour les enfants protégés –, que la parentalité – aux côtés de la haute-commissaire à l’enfance, Sarah El Haïry, je proposerai une nouvelle, et indispensable, stratégie de soutien à la parentalité – ou encore l’exposition aux écrans, qui concerne tous les enfants, mais à plus forte raison les enfants protégés.<br/>Vous avez évoqué les mesures de lutte contre les addictions et de prévention des violences sexuelles, auxquelles tous les enfants sont exposés, mais plus particulièrement, là encore, les enfants protégés. Le phénomène de la prostitution des mineurs est un fléau : les chiffres ont de quoi nous affoler, tous autant que nous sommes. Reste à chercher des moyens de lutte efficaces. Il est facile de dire « ce n’est pas bien » et de nous affoler chaque semaine, lors des séances de questions – j’ai encore eu l’occasion de le rappeler récemment –, mais il faut avoir le courage de regarder en face cette réalité pour rechercher l’efficacité. Nous n’avons pas de baguette magique permettant de supprimer cette prostitution du jour au lendemain. Même si nous disposions de milliards, cela ne réglerait pas tous les problèmes. Il existe en revanche des protocoles efficaces. J’ai par exemple pu observer le travail de lutte contre la prostitution des mineurs conduit dans les Yvelines. Nous essayons d’élaborer de tels protocoles avec les acteurs de terrain qui, forts de leur contact avec la réalité, expérimentent différentes solutions pour identifier celles qui sont efficaces.<br/>La démarche pragmatique que nous adoptons pour lutter contre ce fléau consiste à soutenir ces acteurs qui travaillent au plus près des jeunes.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843572" ordre_absolu_seance="185" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984342" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6306.65">La parole est à Mme Julie Ozenne.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843573" ordre_absolu_seance="186" id_acteur="PA842045" id_mandat="PM843581" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984343" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Julie Ozenne (EcoS)</nom>
+              <id>842045</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6317.88">Je remercie d’abord notre collègue Isabelle Santiago, rapporteure de la commission d’enquête sur les manquements des politiques publiques de protection de l’enfance, qui nous a permis d’étudier ces problèmes et de donner l’alarme en ce qui concerne les enfants placés.<br/>Madame la ministre, je souhaiterais davantage de précisions sur la question de la prostitution, qui touche particulièrement le département où je suis élue. Le 27 novembre 2025, l’émission « Envoyé spécial » a révélé un scandale d’ampleur nationale : en France, 20 000 mineures, dont 80 % sont placées sous la protection de l’ASE, seraient victimes de prostitution. Parmi elles se trouvent des jeunes filles de l’Essonne, dont certaines ont été exploitées dès l’âge de 11 ou 12 ans dans des foyers censés les protéger.<br/>Notre rapport préconisait de renforcer en la matière le rôle des commissions départementales de lutte contre la prostitution, le proxénétisme et la traite des êtres humains aux fins d’exploitation sexuelle en prévoyant un protocole d’action spécifique, ainsi que d’engager dans les meilleurs délais les formations prévues pour la stratégie nationale de lutte contre le système prostitutionnel. Qu’en est-il ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843576" ordre_absolu_seance="189" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984346" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6383.81">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843577" ordre_absolu_seance="190" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984347" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Stéphanie Rist</nom>
+              <id>720066</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6391.02">Je viens de rappeler notre soutien au protocole de lutte contre la prostitution. D’autres mesures ont été prises – elles ne sont sans doute pas suffisantes, mais il est difficile de garantir l’efficacité en la matière. À ce stade, j’ai adressé un courrier à l’ensemble des professionnels pour les alerter. Nous avons aussi, le garde des sceaux et moi, généralisé la pluridisciplinarité du travail des commissions départementales de lutte contre la prostitution afin que les différents professionnels partagent leur expertise. Nous travaillons également au croisement des données informatiques. Toutes ces mesures améliorent la lutte contre la prostitution au niveau local.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843578" ordre_absolu_seance="191" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984348" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6458.20">La parole est à Mme Isabelle Santiago.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843579" ordre_absolu_seance="192" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984349" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Isabelle Santiago (SOC)</nom>
+              <id>774960</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6473.00">La France est l’un des rares pays de l’OCDE à ne pas avoir de base de données pour la protection de l’enfance. Cet état de fait est lié à son histoire mais n’en reste pas moins anormal – d’autant qu’un consensus est en train de se dégager en faveur d’une évolution. Il est en effet anormal que l’État ne sache pas où sont les enfants et ne dispose pas des données qui permettraient de connaître leurs parcours et leurs trajectoires. Il faut donc créer ces bases de données par des politiques de recherche, ce qui nous permettra aussi d’évaluer nos politiques publiques.<br/>Les départements pilotent actuellement à vue, ce que faisait déjà l’État avec les associations à l’époque de la Ddass – direction départementale des affaires sanitaires et sociales. Cet impensé de la protection de l’enfance n’est plus acceptable. À titre d’exemple, personne ne sait combien d’enfants sont placés en Belgique au moment où nous parlons. Nous pouvons établir que, sur les 1 750 enfants autistes français accueillis dans le cadre des conventions entre les établissements français et belges, 450 sont sous la protection de l’ASE, mais les enfants placés en Belgique directement par les départements ne sont, eux, recensés par personne. C’est absolument scandaleux.<br/>Historiquement, l’État n’est pas stratège en matière de protection de l’enfance – c’était déjà le cas du temps de la Ddass. J’invite tout le monde à faire un pas de côté sur ce point : il nous faut une base de données digne de ce nom pour connaître les données de chaque territoire et pour que les présidents de département puissent, par exemple, savoir qu’ils doivent placer ou accompagner 250 enfants au titre de l’ASE. Actuellement, personne ne sait d’où viennent ces décisions sociétales, ni pourquoi il y a davantage d’enfants placés dans le Haut-Médoc qu’à Bordeaux même, ou à Vitry ou Créteil plutôt que dans d’autres communes du Val-de-Marne.<br/>Que nous ne disposions ni de base de données ni d’évaluation de nos politiques publiques en matière de protection de l’enfance n’est plus acceptable. Il nous faut une vision globale du sujet – l’apanage d’un État véritablement stratège. Madame la ministre, une telle base de données est-elle prévue ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843583" ordre_absolu_seance="196" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984353" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6616.44">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843584" ordre_absolu_seance="197" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984354" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Stéphanie Rist</nom>
+              <id>720066</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6631.98">Cette année, ma prédécesseure Catherine Vautrin a mis en place un pilotage national. Elle a renforcé les moyens des directions centrales comme la DGCS – la direction générale de la cohésion sociale – en créant notamment un poste de chef de projet informatique qui s’occupe, avec la Banque des territoires, de l’ambitieux déploiement d’Olinpe – dispositif d’observation longitudinale, individuelle et nationale en protection de l’enfance –, le système informatique qui nous permettra de disposer de telles données. Il faut effectivement que nous en disposions de manière plus efficace.<br/>À l’heure actuelle, ce dispositif informatique n’est pas encore installé mais, depuis quelques mois, le travail est en cours, les mesures ont été prises et, en tant qu’État stratège, nous avons la volonté politique d’avancer avec les départements. Cela dit, dans la mesure où il nécessite cette coordination, le déploiement de ce dispositif n’est pas simple. Nous devons par ailleurs faire progresser nos connaissances scientifiques, une question corrélée à celle du recueil des données, et je prendrai des initiatives en ce sens.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843586" ordre_absolu_seance="199" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984356" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6728.21">La parole est à Mme Isabelle Santiago.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843587" ordre_absolu_seance="200" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984357" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Isabelle Santiago (SOC)</nom>
+              <id>774960</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6736.09">Comme l’ont montré mes échanges avec d’autres pays, certaines bases de données performantes appliquées aux politiques publiques permettent de se projeter et de mener des analyses scientifiques. Elles viennent ainsi nourrir les décisions politiques par la visibilité qu’elles permettent. Or, comme je l’ai écrit dans le rapport, nous avons constaté qu’Olinpe était loin d’être un tel outil – je me permets de vous le dire. Pour être au niveau des bases de données des pays phares en la matière, et même si cela prend du temps, on a encore du boulot !<br/>Sur un autre point, j’ai été très surprise de découvrir les arrêtés signés au mois d’octobre 2025 par la DGCS sur la formation professionnelle de niveau 6 – et notamment le diplôme d’État d’éducateur spécialisé. Notre commission d’enquête – qui a donc fait consensus – avait pourtant préconisé exactement l’inverse de ce que ces arrêtés prévoient. Il est en effet impossible de continuer comme cela en matière de formation ! Le décalage entre les demandes collectives de notre rapport et ces arrêtés est pour moi d’une gravité absolue.<br/>La protection de l’enfance fonctionne sur deux jambes : d’un côté, les enfants, et de l’autre, les professionnels qui les accompagnent et sécurisent leur parcours. À l’heure actuelle, leur formation est un vrai problème, alors même qu’ils doivent monter en compétence sur de nombreux sujets. Or ces arrêtés sont pris pour plusieurs années ! Nous avions demandé que la formation en protection de l’enfance ne soit plus proposée sur Parcoursup ; que les étudiants aient un bon niveau et que leur formation, à la fois initiale et continue, leur apporte un socle de connaissances spécifiques. En effet, les éducateurs spécialisés ne peuvent plus recevoir une formation généraliste, qui traite indifféremment du travail en protection de l’enfance, dans le domaine du handicap ou du soutien aux personnes âgées. Ce n’est plus viable et je regrette donc la signature de ces arrêtés par la DGCS.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843590" ordre_absolu_seance="203" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984360" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6799.81">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843591" ordre_absolu_seance="204" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984361" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Stéphanie Rist</nom>
+              <id>720066</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6908.50">Ces arrêtés ont été pris avant mon arrivée au ministère de la santé mais je suis solidaire avec ce qu’ils proposent – des propositions travaillées en concertation avec certains représentants syndicaux, qui les ont saluées. Cela dit, j’ai lancé une mission sur les pratiques existantes qui permettra d’améliorer ces formations, notamment en ce qui concerne les spécificités de la protection de l’enfance.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843592" ordre_absolu_seance="205" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984362" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6957.93">La parole est à Mme Isabelle Santiago.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843593" ordre_absolu_seance="206" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984363" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Isabelle Santiago (SOC)</nom>
+              <id>774960</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6968.59">Il faut nous mettre d’accord. J’entends bien que certaines organisations syndicales ont approuvé ces décisions, mais comment est-il possible de relancer des formations qui ne correspondent pas aux besoins des enfants, et cela pour des années ?<br/>Il faut distinguer les formations en protection de l’enfance, dans le handicap ou auprès de nos grands seniors en situation de dépendance. On ne peut pas, d’autre part, continuer à accueillir des étudiants dont ces formations sont le huitième choix sur Parcoursup – d’autant que les écoles n’attirent actuellement que 4 000 étudiants, qui n’y restent même pas. C’est cette situation très préoccupante qui a conduit le secteur privé lucratif à s’inviter en masse dans le secteur de la protection de l’enfance, comme dans les crèches et les Ehpad.<br/>La question professionnelle est donc cruciale. Il faut sortir de Parcoursup, distinguer les parcours en fonction des secteurs et permettre aux étudiants en protection de l’enfance de se former à ses spécificités : les 1 000 premiers jours et le traitement des psychotraumatismes graves, de l’autisme, des apprentissages ou du développement de l’enfant. Tant que nous ne le ferons pas – et tant que nous signerons de tels arrêtés applicables aux prochaines rentrées scolaires –, nous marcherons sur la tête et le rapport de la commission d’enquête sera vidé de son sens.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843596" ordre_absolu_seance="209" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984366" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7081.91">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2843597" ordre_absolu_seance="210" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984367" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Stéphanie Rist</nom>
+              <id>720066</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7084.64">Nous pouvons avancer sur ce sujet de manière pragmatique, et ces arrêtés, qui avaient vocation à tenir compte d’enjeux plus larges que la seule protection de l’enfance, ne devraient pas tout mettre en péril. Pour ma part, je crois beaucoup à l’évolutivité des métiers. La spécialisation des professionnels de la protection de l’enfance est effectivement nécessaire, mais elle peut aussi se déployer dans la durée par les VAE – les validations des acquis de l’expérience – ou d’autres formes d’évolutions, distinctes des modes habituels de formation. Pour l’instant, la formation d’éducateur spécialisé se fonde certes sur un socle commun à plusieurs secteurs, mais nous pourrons l’améliorer de façon pragmatique. Pour avoir commencé à y travailler sur le sujet, nous pourrons progresser bien avant les cinq ans prévus par les arrêtés que vous évoquez. Je vous rejoins donc sur une partie de vos propos, mais je ne crois pas non plus que la formation réglera tous les problèmes.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2843432" ordre_absolu_seance="211" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984441" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7182.25">La parole est à M. Arnaud Bonnet.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2843433" ordre_absolu_seance="212" id_acteur="PA841885" id_mandat="PM843446" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984442" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Arnaud Bonnet (EcoS)</nom>
+              <id>841885</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7186.77">La vision du groupe Écologiste et social est un peu différente : nous pensons que la manière dont l’enfance est traitée est une des raisons de l’état actuel de notre société. Cela justifierait l’existence d’un ministère de l’enfance. Par ailleurs, je l’ai dit tout à l’heure, un tiers du temps de vie de nos enfants est du temps scolaire, qui relève de l’éducation nationale.<br/>La question du suivi des enfants relevant de la protection de l’enfance m’interpelle. Sans arriver à une médicalisation excessive, il est tout de même nécessaire de mettre en place un suivi pédopsychiatrique et pédopsychologique. Or nous savons qu’au vu de l’état de la pédopsychiatrie – parent pauvre de la psychiatrie, elle-même parent pauvre de la médecine –, un tel suivi est actuellement totalement impossible. Que fait le gouvernement pour améliorer le suivi et l’accompagnement de ces enfants ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2843435" ordre_absolu_seance="214" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984444" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7241.01">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2843436" ordre_absolu_seance="215" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984445" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Stéphanie Rist</nom>
+              <id>720066</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7247.57">Je distingue deux situations. Certains cas relèvent du parcours coordonné renforcé, qui intègre la prise en charge psychologique nécessaire pour les enfants. Et pour les plus sérieusement traumatisés d’entre eux, qui relèvent du niveau 3, nous allons soutenir le modèle des hôpitaux de jour pour enfants tel que le propose la professeure Céline Greco afin de le diffuser. Ce sont des centres de ressources qui accueilleront les enfants les plus polytraumatisés.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2843437" ordre_absolu_seance="216" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984446" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7291.50">La parole est à M. Arnaud Bonnet.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2843438" ordre_absolu_seance="217" id_acteur="PA841885" id_mandat="PM843446" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984447" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Arnaud Bonnet (EcoS)</nom>
+              <id>841885</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7294.66">Dans mon département de Seine-et-Marne, il existe trois pôles de pédopsychiatrie. Dans l’un de ces pôles, on dénombrait dix-huit psychiatres ; aujourd’hui, ils ne sont plus que onze. Voilà la situation.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2843439" ordre_absolu_seance="218" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984448" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7307.54">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2843440" ordre_absolu_seance="219" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984449" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Stéphanie Rist</nom>
+              <id>720066</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7311.23">C’est exact, et c’est pourquoi la loi de financement de la sécurité sociale pour 2026 a prévu des financements pour augmenter le nombre d’étudiants, d’internes et de chefs de clinique en pédopsychiatrie. Toutefois, cela ne se fait pas en quelques jours. L’évolution est plutôt positive, bien que le nombre de pédopsychiatres dans notre pays reste trop faible. C’est une spécialité dont les effectifs demeurent insuffisants et des mesures d’attractivité sont prises : les tarifs de consultation des psychiatres ont été revalorisés au 1<exposant>er</exposant> janvier 2026, et il faudra poursuivre dans cette voie. Je suis d’accord avec vous, nous n’avons pas assez de pédopsychiatres et c’est la raison pour laquelle nous travaillons aussi à développer d’autres métiers qui interviennent en complémentarité avec les psychiatres, notamment les infirmières de pratique avancée, pour améliorer la prise en charge.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2843441" ordre_absolu_seance="220" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984450" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7342.79">La parole est à Mme Isabelle Santiago.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2843442" ordre_absolu_seance="221" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984451" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Isabelle Santiago (SOC)</nom>
+              <id>774960</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7376.85">La commission d’enquête a émis des préconisations. Certaines relèvent du futur projet de loi que vous avez évoqué ; d’autres points sont à traiter au niveau interministériel, notamment avec le ministère de l’éducation nationale ; enfin, certaines mesures d’ordre législatif devraient se retrouver dans plusieurs propositions de loi qui sont en cours d’élaboration.<br/>Un point central, celui du contrôle des établissements, soulève une problématique majeure. Lorsque les collectivités, y compris les départements assistés des services de l’État, annoncent qu’elles vont contrôler, il manque une cartographie nationale de ce qui existe en protection de l’enfance. Vous ne disposez pas, madame la ministre, d’une cartographie d’ensemble. Lorsque j’étais vice-présidente du département du Val-de-Marne, je ne disposais pas d’une telle carte et nous avons dû la construire. Et des enfants étaient dispersés partout en France, car le Val-de-Marne est issu du département de la Seine et a hérité de cette histoire. Des enfants du Val-de-Marne pouvaient ainsi se trouver dans l’Hérault. La commission d’enquête a donc voulu clarifier la situation.<br/>La commission d’enquête a demandé la mise en place d’un comité de suivi et j’aimerais que vous nous disiez s’il va être créé. Départements de France l’a fait directement, mais il était demandé que l’État-stratège y participe, avec les associations, pour que l’on puisse assurer le suivi des recommandations de la commission. Si toutes les préconisations ne sont pas retenues, ce n’est pas grave ; ce qui importe est que nous avancions pour adopter une vision pluriannuelle.<br/>S’agissant du contrôle, la commission a recommandé la création d’une autorité de contrôle indépendante dont la composition devrait inclure des enfants issus de l’ASE, qui sont souvent très engagés dans les départements. Elle préconise aussi de permettre aux parlementaires de visiter ces lieux d’accueil. Comme il ne s’agit pas de lieux de privation de liberté, ils ne peuvent y réaliser des visites impromptues. Il faut modifier la législation pour leur donner ce droit.<br/>Il faut donc créer un comité de suivi, préparer le projet de loi en concertation avec des parlementaires, prévoir la possibilité d’un contrôle sur pièces et sur place, y compris pour constater les bonnes pratiques, afin que nous puissions évaluer la qualité de l’accueil ainsi que les projets pédagogiques prévus pour ces enfants. Il est très important de modifier le cadre légal pour que ce contrôle puisse se faire au plus près de tous les territoires. Si les 577 députés avaient le droit de visiter ces lieux d’accueil, si l’autorité de contrôle indépendante existait à l’échelle des territoires avec des personnes bien plus disponibles pour réaliser des visites, je crois que le maillage serait beaucoup plus fin et nous récolterions bien plus de données.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2843447" ordre_absolu_seance="226" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984456" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7475.84">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2843448" ordre_absolu_seance="227" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3984457" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Stéphanie Rist</nom>
+              <id>720066</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7476.98">À plusieurs reprises, il m’a été demandé si les parlementaires seraient associés à la préparation du projet de loi. Oui, je souhaite que nous le fassions ensemble, avec les départements, les parlementaires, les acteurs et les associations. Nous pouvons avoir des désaccords, mais chacun participera à ce travail. Les débats à l’Assemblée le montrent, il ne s’agit pas d’un débat politicien. Les visions peuvent être différentes, mais nous partageons tous le même objectif.<br/>La cartographie n’est pas disponible aujourd’hui ; elle est en cours de réalisation et nous devrions l’avoir en avril.<br/>S’agissant de la vision pluriannuelle, nous avons des divergences de vues à ce sujet. Je considère que ce qui compte est d’avoir des objectifs clairs, transparents, qui peuvent s’étaler sur plusieurs années, et que le suivi soit assuré. Je ne pense pas qu’il soit indispensable de prévoir une formalisation de cette pluriannualité. Certains proposent des lois de programmation ; je pense que l’important est d’être clair sur le constat de départ et sur les objectifs que nous nous fixons, et j’espère que l’enfance fera l’objet de débats lors de la campagne présidentielle de 2027.<br/>Quant aux contrôles, nous les avons renforcés, notamment en demandant aux préfets, chaque fois que des vulnérabilités étaient identifiées, d’exercer leur pouvoir de contrôle. Il faut travailler avec les départements pour voir comment être efficaces. Cela peut passer par un droit de contrôle pour les députés – je n’ai pas d’avis à ce sujet, mais nous allons en débattre dans le cadre de la proposition de loi de Perrine Goulet. Je suis convaincue que pour être efficaces, nous devons réfléchir avec les départements. L’intérêt n’est pas d’aller faire des contrôles lorsque nous savons que tout va mal ou que tout va bien. Nous devons cibler les contrôles et les acteurs ont les éléments pour nous aider à nous mettre en ordre de marche. Faut-il fixer un rythme de contrôle, un nombre de contrôles ou des quotas ? Cela doit être décidé avec les départements, mais ce débat aura lieu.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2843451" ordre_absolu_seance="231" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="-1" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PRESIDE_DISCOURS_1_10" sommaire="0" id_syceron="3984588" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7827.16">Le débat est clos. Il a été très intéressant et je remercie chacun pour la qualité de ses interventions.</texte>
+        </paragraphe>
+      </point>
+    </point>
+    <finSeance>
+      <point nivpoint="1" valeur_ptsodj="2" ordinal_prise="8" id_preparation="2843453" ordre_absolu_seance="233" code_grammaire="FIN_SEAN_1_2" code_style="Titre" code_parole="" sommaire="1" id_syceron="3984462" valeur="">
+        <orateurs/>
+        <texte>Ordre du jour de la prochaine séance</texte>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="8" id_preparation="2843454" ordre_absolu_seance="234" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="FIN_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3984463" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7847.78">Prochaine séance, demain, à neuf heures :<br/> Débat sur le thème : « Face aux violences de la police et de la gendarmerie, comment faire respecter la déontologie ? » ;<br/> Débat sur le thème : « Face au changement climatique, comment remédier à l’échec de la réforme de l’assurance récolte ? »<br/> La séance est levée.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="8" id_preparation="2843455" ordre_absolu_seance="235" code_grammaire="FIN_SEAN_2_4" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="3984464" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance est levée à vingt-trois heures vingt-cinq.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="8" id_preparation="2843456" ordre_absolu_seance="236" code_grammaire="FIN_SEAN_2_5" code_style="Signature droite" code_parole="" sommaire="0" id_syceron="3984465" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>Le directeur des comptes rendus<br/> Serge Ezdra</italique>
+          </texte>
+        </paragraphe>
+      </point>
+    </finSeance>
+  </contenu>
+</compteRendu>

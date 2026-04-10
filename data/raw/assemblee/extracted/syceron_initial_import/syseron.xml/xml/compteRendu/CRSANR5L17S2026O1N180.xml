@@ -1,0 +1,1242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compteRendu xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid>CRSANR5L17S2026O1N180</uid>
+  <seanceRef>RUANR5L17S2026IDS30402</seanceRef>
+  <sessionRef>SCR5A2026O1</sessionRef>
+  <metadonnees>
+    <dateSeance>20260325213000000</dateSeance>
+    <dateSeanceJour>mercredi 25 mars 2026</dateSeanceJour>
+    <numSeanceJour>2</numSeanceJour>
+    <numSeance>180</numSeance>
+    <typeAssemblee>AN</typeAssemblee>
+    <legislature>17</legislature>
+    <session>Session ordinaire 2025 -2026</session>
+    <nomFichierJo>20260180</nomFichierJo>
+    <validite>valide</validite>
+    <etat>complet</etat>
+    <diffusion>public</diffusion>
+    <version>avant_JO</version>
+    <environnement>PROD</environnement>
+    <heureGeneration>2026-03-31T09:49:30.000+02:00</heureGeneration>
+    <sommaire>
+      <presidentSeance id_syceron="4044269">Présidence de M. Sébastien Chenu</presidentSeance>
+      <sommaire1 valeur_pts_odj="1">
+        <titreStruct id_syceron="4044273">
+          <intitule>Spatial : vers un décrochage de la France et de l’Europe ?</intitule>
+          <sousIntitule>0</sousIntitule>
+        </titreStruct>
+        <para id_syceron="4044278">M. Xavier Pasco, directeur de la Fondation pour la recherche stratégique</para>
+        <para id_syceron="4044288">M. François Jacq, président-directeur général du Centre national d’études spatiales</para>
+        <para id_syceron="4044299">M. Jean-Marie Bétermier, vice-président de la commission espace du Groupement des industries françaises aéronautiques et spatiales</para>
+        <para id_syceron="4044439">Mme Anna Pic (SOC)</para>
+        <para id_syceron="4044444">M. François Jacq</para>
+        <para id_syceron="4044447">M. Jean-Marie Bétermier</para>
+        <para id_syceron="4044449">Mme Christine Arrighi (EcoS)</para>
+        <para id_syceron="4044454">M. Xavier Pasco</para>
+        <para id_syceron="4044457">M. François Jacq</para>
+        <para id_syceron="4044459">Mme Sophie Mette (Dem)</para>
+        <para id_syceron="4044874">M. Jean-Marie Bétermier</para>
+        <para id_syceron="4044879">M. Jean-Paul Lecoq (GDR)</para>
+        <para id_syceron="4044886">M. François Jacq</para>
+        <para id_syceron="4044890">M. Xavier Pasco</para>
+        <para id_syceron="4044892">M. David Taupiac (LIOT)</para>
+        <para id_syceron="4044898">M. Jean-Marie Bétermier</para>
+        <para id_syceron="4044902">M. François Jacq</para>
+        <para id_syceron="4044904">M. Emeric Salmon (RN)</para>
+        <para id_syceron="4044908">M. François Jacq</para>
+        <para id_syceron="4045074">Mme Corinne Vignon (EPR)</para>
+        <para id_syceron="4045077">M. Jean-Marie Bétermier</para>
+        <para id_syceron="4045080">M. François Jacq</para>
+        <para id_syceron="4045082">M. Hadrien Clouet (LFI-NFP)</para>
+        <para id_syceron="4045088">M. François Jacq</para>
+        <para id_syceron="4045090">M. Jean-Marie Bétermier</para>
+        <para id_syceron="4045093">M. Bartolomé Lenoir (UDR)</para>
+        <para id_syceron="4045095">M. Xavier Pasco</para>
+        <para id_syceron="4045098">M. Jacques Oberti (SOC)</para>
+        <para id_syceron="4045100">M. Jean-Marie Bétermier</para>
+        <para id_syceron="4044370">M. Arnaud Simion (SOC)</para>
+        <para id_syceron="4044375">M. François Jacq</para>
+        <para id_syceron="4044378">M. Jean-Marie Bétermier</para>
+      </sommaire1>
+      <sommaire3>
+        <titreStruct id_syceron="4044381">
+          <intitule>
+            <italique>Suspension et reprise de la séance<br/></italique>
+          </intitule>
+        </titreStruct>
+        <para id_syceron="4044386">M. Philippe Baptiste, ministre de l’enseignement supérieur, de la recherche et de l’espace</para>
+        <para id_syceron="4044524">M. Arnaud Simion (SOC)</para>
+        <para id_syceron="4044531">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4044536">Mme Christine Arrighi (EcoS)</para>
+        <para id_syceron="4044541">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4044780">Mme Sophie Mette (Dem)</para>
+        <para id_syceron="4044786">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4044792">M. David Taupiac (LIOT)</para>
+        <para id_syceron="4044798">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4044804">M. Jean-Victor Castor (GDR)</para>
+        <para id_syceron="4044813">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4044818">Mme Corinne Vignon (EPR)</para>
+        <para id_syceron="4044823">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4045022">Mme Marie Récalde (SOC)</para>
+        <para id_syceron="4045029">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4045034">M. Jean-Victor Castor (GDR)</para>
+        <para id_syceron="4045039">M. Philippe Baptiste, ministre</para>
+      </sommaire3>
+      <sommaire1 valeur_pts_odj="2">
+        <titreStruct id_syceron="4045045">
+          <intitule>Ordre du jour de la prochaine séance</intitule>
+        </titreStruct>
+      </sommaire1>
+    </sommaire>
+  </metadonnees>
+  <contenu>
+    <quantiemes>
+      <journee>Deuxième séance du mercredi 25 mars 2026</journee>
+      <session>Session ordinaire 2025 -2026</session>
+    </quantiemes>
+    <ouvertureSeance nivpoint="1" valeur_ptsodj="0" ordinal_prise="1" id_preparation="2898013" ordre_absolu_seance="1" code_grammaire="OUV_SEAN_1_1" code_style="Présidence" code_parole="" sommaire="1" id_syceron="4044269" valeur="">
+      <orateurs/>
+      <texte>Présidence de M. Sébastien Chenu<br/> vice-président</texte>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2898014" ordre_absolu_seance="2" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="OUV_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044270" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="780.75">La séance est ouverte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2898015" ordre_absolu_seance="3" code_grammaire="OUV_SEAN_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4044271" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(La séance est ouverte à vingt et une heures trente.)</italique>
+        </texte>
+      </paragraphe>
+    </ouvertureSeance>
+    <point nivpoint="1" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2898017" ordre_absolu_seance="5" code_grammaire="TITRE_TEXTE_DISCUSSION" code_style="Titre" code_parole="" sommaire="1" id_syceron="4044273" valeur="">
+      <orateurs/>
+      <texte>Spatial : vers un décrochage de la France et de l’Europe ?</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2898018" ordre_absolu_seance="6" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="ODJ_APPEL_DISCUSSION" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044274" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="781.90">L’ordre du jour appelle le débat sur le thème : « Spatial : vers un décrochage de la France et de l’Europe ? ». Ce débat a été demandé par le groupe Socialistes et apparentés.<br/>La conférence des présidents a décidé de l’organiser en deux parties, d’une durée d’une heure chacune. Nous commencerons par une table ronde, en présence de personnalités invitées, puis nous procéderons, après avoir entendu une intervention liminaire du gouvernement, à une séquence de questions-réponses. La durée des questions et des réponses sera limitée à deux minutes, sans droit de réplique.<br/>Pour la première phase du débat, je souhaite la bienvenue à M. Xavier Pasco, directeur de la Fondation pour la recherche stratégique, à M. François Jacq, président-directeur général du Centre national d’études spatiales (Cnes) et à M. Jean-Marie Bétermier, vice-président de la commission espace du Groupement des industries françaises aéronautiques et spatiales (Gifas). Chacun de nos invités aura la parole pour une intervention de cinq minutes.<br/>La parole est à M. Xavier Pasco, directeur de la Fondation pour la recherche stratégique.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2898022" ordre_absolu_seance="10" id_acteur="PA-126349" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044278" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Xavier Pasco</nom>
+            <id>-126349</id>
+            <qualite>directeur de la Fondation pour la recherche stratégique</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="870.93">Dans ma fonction de directeur de la Fondation pour la recherche stratégique et pour ouvrir ce débat, je tenterai de présenter le paysage global et d’expliquer comment il affecte l’Europe et plus particulièrement la France.<br/>D’abord, l’espace est sans doute l’un des domaines d’activité les plus récents. Les activités qui y ont trait naissent dans les années 1950, mais l’espace a connu ces dernières années de profondes évolutions à de nombreux égards, tant sur le plan politique que sur le plan stratégique – il prend une importance croissante dans les politiques stratégiques des États. Les technologies ont aussi considérablement évolué et l’objet spatial lui-même se transforme du fait de sa proximité de plus en plus grande avec l’ensemble très dynamique des technologies de l’information et du numérique.<br/>Je vous présenterai donc une photographie qui expose de manière simplifiée les évolutions. Trois grands domaines d’activité connaissent de grandes transformations et font aussi l’objet d’importants investissements, majoritairement publics – j’y reviendrai – mais aussi privés.<br/>Le premier domaine d’activité spatiale rassemble tout ce qui se déroule en orbite basse, c’est-à-dire sur les orbites de 500 à 2 000 kilomètres autour de la Terre. Depuis une quinzaine d’années, les satellites et les grands programmes qui visent à utiliser l’espace pour établir et densifier des réseaux se multiplient. Ils forment des constellations ; nous éviterons de citer toujours la même entreprise, mais l’exemple de Starlink permet d’illustrer cette évolution : 10 000 satellites Starlink sont en l’air pour établir des réseaux. C’est une grande nouveauté.<br/>L’espace relevait auparavant de l’artisanat d’art, avec une exceptionnelle exigence technique. Si cette dimension demeure, une culture nouvelle est venue compléter la première : une démarche d’industrialisation, de production à bas coût et de prolifération des objets dans l’espace. Des sociétés privées lancent plus de 150 satellites de ce genre par an. Cette utilisation est donc très intensive.<br/>Un deuxième domaine suscite également beaucoup d’investissements : l’exploration, notamment l’exploration habitée. Il y a une vingtaine d’années, on n’aurait sans doute pas parié sur un retour de l’exploration lunaire, mais il se trouve que les États-Unis, qui sont le plus grand acteur spatial étatique, ont décidé, pour de multiples raisons sur lesquelles nous pourrons revenir, de relancer ce programme. Ce dernier suscite de nombreux investissements publics ainsi qu’une aide importante aux industriels, notamment américains. Avec les activités dans l’orbite basse, ces activités nourrissent l’écosystème industriel, ce qui est très important.<br/>Le troisième domaine qui connaît un surcroît d’activité à l’échelle mondiale est le domaine militaire. Nous devenons très dépendants des systèmes spatiaux pour la sécurité et la défense.<br/>Depuis quelques années, différents pays, dont la France, ont choisi d’accentuer leur effort en la matière. Nous commençons à construire des systèmes pour agir dans l’espace. C’est nouveau. L’espace militaire, qui existe depuis les années 1960, était jusqu’à présent principalement chargé de collecter des données au sol – le lien avec la Terre était déterminant. Désormais, en complément de cette activité d’observation, de télécommunication et de transmission, des systèmes sont dédiés à l’action dans l’espace. Cela a entraîné la constitution, dans différents pays, de commandements de l’espace, de forces spatiales, et cela conditionne des activités technologiques et industrielles.<br/>Plus généralement, des technologies communes à ces trois domaines se développent. Elles concernent l’utilisation de l’espace, la manœuvre, la gestion et le stockage de l’énergie, l’automatisation des systèmes, avec le développement de l’intelligence artificielle. Des programmes qui fédèrent de grands investissements technologiques traversent ainsi les trois domaines. Au surinvestissement dans ces trois domaines spatiaux se superposent des investissements de fond dans des technologies de l’espace, de l’information et du numérique. En France, nous sommes particulièrement conscients de tout cela ; il faut favoriser la prise de conscience à l’échelon européen et prendre en considération ces développements pour élaborer une stratégie industrielle et technologique.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2898031" ordre_absolu_seance="19" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044287" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1199.02">La parole est à M. François Jacq, président-directeur général du Centre national d’études spatiales.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2898032" ordre_absolu_seance="20" id_acteur="PA-126359" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044288" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. François Jacq</nom>
+            <id>-126359</id>
+            <qualite>président-directeur général du Centre national d’études spatiales</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1207.78">Je vais reprendre le propos là où Xavier Pasco s’est arrêté.<br/>Longtemps, on a parlé du spatial en insistant sur la fascination, sur l’exploration – sur tout ce qui fait rêver. Nous commençons à comprendre à quel point il structure notre quotidien, à travers le positionnement, avec Galileo ou le GPS, à travers aussi l’étude de la planète, l’observation ou la gestion des crises.<br/>Comme l’a expliqué Xavier Pasco, c’est un domaine en profonde mutation : de nouveaux usages apparaissent, les conflits et la compétition entre les acteurs s’accroissent, les transformations technologiques et l’innovation bouleversent le champ – Xavier Pasco a évoqué les constellations, on pourrait également mentionner les lanceurs réutilisables. Les acteurs et les partenariats que nous pouvons établir au plan international connaissent aussi de grands bouleversements. Il y a trente ans, la France aurait dit qu’elle travaillait sans état d’âme avec l’Union des républiques socialistes soviétiques (URSS) d’un côté et avec les États-Unis de l’autre. Depuis le début de la guerre en Ukraine, le partenariat avec la Russie s’est arrêté ; les relations avec les États-Unis se sont compliquées. On observe une redistribution des cartes.<br/>Dans ce paysage-là, comment se placent la France et l’Europe ? Nous sommes évidemment ébranlés par toutes ces transformations, même si – il faut le dire – il y a des nouvelles positives et des acquis sur lesquels nous pouvons nous appuyer. Nous avons bâti depuis les années 1960 et la construction continue. Ainsi, le lanceur Ariane 6 a eu la courbe de progression pour le retour en vol la plus efficace et la plus remarquable de tous les lanceurs depuis dix ans – cet exemple est assez instructif. Nous connaissons des réussites remarquables dans des objets qui vont de la science très fondamentale, comme le projet d’horloge atomique par refroidissement d’atomes en orbite (Pharao) qui mesure le temps universel à un dixième puissance 12 de seconde près, à des objets d’observation qui relèvent du premier domaine qu’évoquait Xavier Pasco, c’est-à-dire qui forment une transition entre les grands objets d’artisanat d’autrefois et des constellations un peu plus petites, mais qui, par combinaison, peuvent se révéler assez efficaces.<br/>Nous avons aussi réussi à conserver un écosystème assez dynamique d’industries et de laboratoires. Je ne le dis pas seulement parce que j’ai l’honneur d’être au Cnes : le fait d’avoir une agence spatiale nationale qui allie la technique et la capacité à monter des grands projets à une capacité d’analyse est crucial. Nous disposons donc d’atouts.<br/>Dans la suite de mon propos, j’insisterai sur ce à quoi nous devons à mon sens être vigilants.<br/>D’abord, il faut savoir coopérer en Européens et entre Européens afin d’éviter la fragmentation. Pour l’instant, tout le monde considère que le spatial est important, mais chacun fait son spatial. Pourtant, si nous ne coopérons pas pour faire face à tous les enjeux, nous rencontrerons de sévères difficultés.<br/>Ensuite, Xavier Pasco l’a évoqué mais je le dirai différemment, il convient de prêter attention à la dualité entre civil et militaire. L’espace fait actuellement l’objet de conflits entre les puissances. La capacité à faire travailler ensemble des technologies civiles et des technologies à usage militaire est décisive et nous devons y être très attentifs.<br/>D’autre part – je pense que Jean-Marie Bétermier y reviendra : nous allons essayer de nous passer la balle –, il faut être attentifs à la base industrielle et à toute la chaîne d’approvisionnement. Nous avons une base industrielle mais il est nécessaire de l’entretenir, de la préserver et de la choyer, sans quoi elle pourrait se dissiper assez vite.<br/>Dans toutes ces évolutions technologiques, il faut aussi réussir à trouver les bonnes combinaisons. Il n’y a pas une réponse unique à un problème, un seul bon outil, une seule bonne technologie ; nous pouvons atteindre les objectifs que nous nous fixons grâce à des combinaisons. Par exemple, on peut, avec quelques petits satellites, atteindre des taux de revisite et accomplir des actions complémentaires de ce qu’on réalise avec un gros instrument très puissant placé sur une orbite géostationnaire.<br/>Enfin – peut-être aurais-je dû commencer par ça, du fait de ma profession –, il ne faut pas oublier que derrière tout cela, il y a de la recherche et de la science. Si nous ne les préservons pas, nous aurons grandement perdu. Il est essentiel de les préserver pour l’avenir.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2898041" ordre_absolu_seance="31" id_acteur="PA341981" id_mandat="PM842822" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044400" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie Récalde</nom>
+            <id>341981</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1493.48">Ça, c’est certain !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2898042" ordre_absolu_seance="32" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044298" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1513.32">La parole est à M. Jean-Marie Bétermier, vice-président de la commission espace du Groupement des industries françaises aéronautiques et spatiales.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2898043" ordre_absolu_seance="33" id_acteur="PA-126369" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044299" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Marie Bétermier</nom>
+            <id>-126369</id>
+            <qualite>vice-président de la commission espace du Groupement des industries françaises aéronautiques et spatiales</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1524.00">Je vais prendre le ballon, tout en m’appuyant sur ce qui a déjà été dit.<br/>La filière française est très active. Parmi les 150 adhérents, certains travaillent depuis longtemps – souvent depuis les années 1960 – dans le spatial, d’autres sont des start-up et des acteurs du<italique> new space</italique>. Cette filière représente 21 000 emplois en France, 4 milliards d’euros de chiffre d’affaires et 30 % de l’activité européenne. L’industrie française reste toujours relativement forte en Europe.<br/>Vous posez la question d’un décrochage de la France et de l’Europe. Cette impression vient d’une accélération très forte ces dix dernières années des États-Unis, qui consacrent un budget de plus de 70 milliards de dollars à résoudre les problèmes spatiaux, y compris en matière de souveraineté. Dans le même temps, la France accorde à ce secteur un budget, que nous apprécions, de 3 milliards d’euros, et le budget européen s’élevait jusqu’à présent – si l’on additionne tous les financements, qu’ils viennent de la Commission européenne, de l’Agence spatiale européenne (ESA) ou des agences militaires – à 15 milliards d’euros : effectivement, nous ne boxions pas dans la même catégorie.<br/>Notre industrie dépend de la commande publique ; or les conditions actuelles sont compliquées. Il y a aussi quelques secteurs dits commerciaux, qui représentaient 30 % du volume de l’activité. Ces dix dernières années ont été marquées par une mutation majeure dans le secteur des télécommunications, à savoir le remplacement des satellites géostationnaires par des constellations de satellites en orbite basse – je pense, par exemple, au rachat de OneWeb par Eutelsat, qui bénéficie d’un important soutien du gouvernement français. Ce changement radical a mis en difficulté les trois grandes entreprises de la filière : ArianeGroup, qui avait développé le lanceur Ariane 5 pour placer des satellites sur orbite géostationnaire et a dû se réinventer avec le lanceur Ariane 6, Airbus et Thales Alenia Space (TAS).<br/>Notre présence dans l’espace est devenue absolument vitale, alors que plus de 3 milliards de smartphones recourent quotidiennement à la géolocalisation et navigation par un système de satellites (GNSS). Je crois d’ailleurs pouvoir dire que le programme européen de GNSS, Galileo, est le meilleur au monde.<br/>La présence dans l’espace est aussi un enjeu de souveraineté pour les pays. Hier, à Washington, j’ai rencontré les dirigeants des Émirats arabes unis, qui souhaitent renforcer leurs capacités de détection spatiale et de résilience ; ils ont l’intention de s’équiper rapidement d’un segment spatial fort.<br/>Le futur est donc engageant. Nous nous réjouissons que la France ait consacré une enveloppe importante au budget de l’ESA pour soutenir la préparation de ces grands projets. Nous suivons également avec attention les négociations du prochain cadre financier pluriannuel européen, qui pourraient faire passer le budget du programme spatial de 14 milliards à plus de 40 milliards d’euros.<br/>La filière fonctionne. Nous disposons de technologies précieuses. Néanmoins, pour rester concurrentiels sur le marché, pour créer les technologies du futur, il faut avoir des commandes. Si elle est bien soutenue par l’État, notamment grâce à la stratégie spatiale en cours d’élaboration, la filière arrivera à dépasser les difficultés actuelles pour aborder l’avenir avec confiance.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898145" ordre_absolu_seance="41" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044438" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1842.71">Nous en venons aux questions des députés.<br/> La parole est à Mme Anna Pic.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898146" ordre_absolu_seance="42" id_acteur="PA794270" id_mandat="PM842972" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044439" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Anna Pic (SOC)</nom>
+            <id>794270</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1882.92">Hier, nous apprenions que l’Allemagne se détachait d’Iris², le projet d’infrastructure de résilience et d’interconnexion sécurisée par satellite, pour développer son propre réseau de satellites militaires. Cette nouvelle est un dur rappel à la réalité : la concurrence européenne est en hausse dans ce domaine critique, alors que la coordination devrait primer.<br/>Dans ce contexte de ruée vers l’espace – pour reprendre le titre de l’un des ouvrages de M. Pasco –, qui conjugue massification de l’activité spatiale, encombrement orbital, compétition internationale débridée, privatisation et arsenalisation, la France et l’Europe risquent d’être déclassées. C’est la raison pour laquelle nous avons souhaité organiser ce débat. Au nom du groupe Socialistes et apparentés, je vous remercie, messieurs, pour votre présence, malgré cette heure tardive, et pour les éclairages que vous nous apporterez.<br/>La publication en novembre dernier de la stratégie nationale spatiale par la France est un effort de planification qui mérite d’être salué. Toutefois, deux points soulèvent des inquiétudes. L’effort annoncé d’ici à 2030 est limité : il est trois fois inférieur au budget allemand. De la même manière, la contribution française à l’ESA témoigne d’un décrochage budgétaire par rapport à nos voisins allemands et italiens. Cette équation budgétaire n’est pas prise en compte par la stratégie, qui identifie de nombreuses priorités sans opérer de réels choix, au risque de saupoudrer des crédits déjà insuffisants.<br/>Où en est-on de l’élaboration de la stratégie spatiale européenne ? Quelles ambitions lui donne-t-on dans le cadre des négociations autour du futur cadre financier pluriannuel 2028-2034 ? Quelles seraient, selon vous, les dépendances mutualisées que la France et ses partenaires européens devraient accepter afin d’éviter un émiettement du spatial européen qui pourrait aller de pair avec un déclassement de l’Europe et de la France ? Ce dernier renforcerait davantage encore la dépendance critique de l’Europe à certaines capacités étrangères, notamment américaines. Dans le contexte international actuel, une telle dépendance nous semble inacceptable.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898150" ordre_absolu_seance="46" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044443" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1947.82">La parole est à M. François Jacq.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898151" ordre_absolu_seance="47" id_acteur="PA-126359" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044444" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. François Jacq</nom>
+            <id>-126359</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2020.37">Les ordres de grandeur ont été rappelés par Xavier Pasco et Jean-Marie Bétermier : le budget spatial américain est de 70 milliards de dollars, loin devant les budgets français et européens. Face à ce constat, l’enjeu est d’abord de soutenir notre capacité d’innovation à travers la recherche. Grâce à la valeur de nos technologies, nous sommes capables de monter des projets de grande ampleur.<br/>Ensuite, il faut se donner les moyens d’agir au niveau européen. Les négociations sur le cadre financier pluriannuel européen sont en cours et devraient être conclues d’ici à la fin de l’année. Pour l’instant, la Commission a prévu une enveloppe globalisée de quelque 130 milliards d’euros pour la défense spatiale. Un effort particulier sera consacré au soutien des capacités d’observation et au développement d’un réseau de satellites, à travers le projet Iris². D’ici quelques mois, nous verrons donc si nous sommes capables de nous mobiliser ensemble, au niveau européen. Je pense que c’est un défi que nous pouvons relever.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898153" ordre_absolu_seance="49" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044446" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2097.32">La parole est à M. Jean-Marie Bétermier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898154" ordre_absolu_seance="50" id_acteur="PA-126369" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044447" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Marie Bétermier</nom>
+            <id>-126369</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2103.94">On assiste en effet à une montée des souverainismes dans le domaine spatial – l’exemple que vous citez le montre. Pourtant, tout le monde est convaincu qu’un projet comme Iris² est nécessaire, car il est essentiel de disposer d’un réseau de télécommunications souverain, et que ce projet ne pourra se développer qu’à l’échelle européenne. Le paradoxe, c’est que quand on est en compétition avec d’autres puissances, la vitesse est un facteur clé, mais qu’au niveau européen, il faut accepter d’être patient, le temps que les choses se mettent en route. Néanmoins, la France est très motivée pour faire avancer ce projet et la vision européenne qu’elle promeut dans le cadre de sa stratégie spatiale est très encourageante.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898155" ordre_absolu_seance="51" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044448" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2175.82">La parole est à Mme Christine Arrighi.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898156" ordre_absolu_seance="52" id_acteur="PA793780" id_mandat="PM842714" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044449" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Christine Arrighi (EcoS)</nom>
+            <id>793780</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2180.04">Je souhaite évoquer le projet Bromo, qui a fait tout à l’heure l’objet d’une question au gouvernement de la part de M. Arnaud Simion. Ce projet a été présenté par les industriels comme un levier de renforcement de la politique spatiale et de l’emploi. Or il semble qu’il serve plutôt à faire primer des logiques industrielles sur l’intérêt stratégique de la puissance publique et le maintien des emplois et des compétences.<br/>Dans le même temps, Mme Pic l’a rappelé, l’Allemagne a annoncé qu’elle allait développer une constellation militaire nationale en parallèle d’Iris². Manifestement, les Allemands trouvent Iris² moins indispensable que vous ! Cette décision induit le risque d’une fragmentation des capacités européennes.<br/>Dans ce contexte, comment éviter une double dérive entre, d’un côté, la captation de la stratégie spatiale par les industriels – on a vu ce que cela donnait avec Starlink et Elon Musk –, de l’autre, une renationalisation des politiques spatiales, qui risquerait d’affaiblir la cohérence, la souveraineté et l’efficacité du projet spatial européen ?<br/>En outre, nous avons appris, aujourd’hui même, que le tribunal des activités économiques de Lyon avait rejeté le projet de reprise de Vencorex, entreprise dont les écologistes avaient demandé la nationalisation temporaire. Ce projet, porté par un entrepreneur local et d’anciens salariés, ambitionnait de produire de façon décarbonée de l’acide chlorhydrique, de la soude et du chlore liquide à destination de l’industrie spatiale, notamment pour ArianeGroup, que nous sommes très fiers d’accueillir à Toulouse. Quels enseignements peut-on tirer de cette décision du tribunal et de l’absence de réaction de l’État ? Comment y remédier pour réduire nos vulnérabilités les plus critiques, sachant qu’une partie de l’activité de Vencorex a été reprise par les Chinois ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898160" ordre_absolu_seance="56" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044453" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2271.40">La parole est à M. Xavier Pasco.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898161" ordre_absolu_seance="57" id_acteur="PA-126349" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044454" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Xavier Pasco</nom>
+            <id>-126349</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2327.59">Comment structurer une vision spatiale authentiquement européenne, qui ne se contente pas de reproduire des dynamiques qui ne sont pas les nôtres ? C’est une question que nous nous posons tous. S’agissant de l’Allemagne, il faut tenir compte du fait que le contexte politique a évolué très rapidement ces derniers temps. Ce pays souhaite depuis longtemps renforcer sa place dans le domaine spatial – de grandes entreprises désormais bien connues ont été créées à cette fin. En raison des pressions géopolitiques actuelles, cette tendance s’accélère. Le ministre allemand de la défense a ainsi annoncé qu’une enveloppe de 35 milliards d’euros serait consacrée au spatial militaire sur les cinq prochaines années.<br/>À quel point les industries allemandes seront-elles capables d’absorber cet investissement massif ? C’est ce que nous verrons. En tout cas, cela nous invite à repenser notre relation avec l’Allemagne, puisque cela fait des décennies que nous investissons des moyens importants dans le domaine spatial et que la France dispose d’un grand savoir-faire en la matière. Il serait bon de reprendre des contacts en vue de lancer de nouvelles coopérations. Cela ne sera pas facile, en raison notamment de la forte pression américaine, qui peut séduire les industriels outre-Rhin – on le voit bien avec les grands programmes comme Golden Dome. C’est un moment de vérité pour l’Europe. Il faut une vision politique : si l’on investit dans le spatial, c’est pour répondre à un enjeu politique – je suis tout à fait d’accord avec vous sur ce point.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898163" ordre_absolu_seance="59" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044456" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2370.84">La parole est à M. François Jacq.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898164" ordre_absolu_seance="60" id_acteur="PA-126359" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044457" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. François Jacq</nom>
+            <id>-126359</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2455.49">Pour ce qui concerne la deuxième question, je suis un peu gêné, parce qu’il ne s’agit pas d’une entreprise purement spatiale. En revanche, je vous rejoins complètement, madame la députée, sur le fait qu’il faut assurer un suivi fin de notre base industrielle. L’une des missions du Cnes est précisément d’alerter l’État sur les éventuelles difficultés de ces entreprises ; le Cnes ne dispose pas nécessairement de moyens d’intervention, mais il peut cartographier les entreprises pour identifier les technologies critiques et les savoir-faire indispensables à préserver.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898165" ordre_absolu_seance="61" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044458" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2495.40">La parole est à Mme Sophie Mette.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2898166" ordre_absolu_seance="62" id_acteur="PA719640" id_mandat="PM842831" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044459" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sophie Mette (Dem)</nom>
+            <id>719640</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2515.40">J’irai droit au but : comment apprécier la position de l’Europe sur ces segments stratégiques ? Quelles sont, selon vous, les marges de progression ou de consolidation possibles ? Faut-il concentrer davantage nos efforts sur quelques filières clés – lanceurs réutilisables, constellations, défense et cybersécurité de nos infrastructures spatiales –, qui constituent désormais des actifs stratégiques à part entière, ou bien faut-il d’abord faire évoluer la gouvernance collective à l’échelon européen, afin de mieux coordonner nos capacités ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898102" ordre_absolu_seance="63" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044873" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2549.15">La parole est à M. Jean-Marie Bétermier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898103" ordre_absolu_seance="64" id_acteur="PA-126369" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044874" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Marie Bétermier</nom>
+            <id>-126369</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2555.81">Pour ce qui est de la vision européenne, l’Europe dispose à l’heure actuelle de la meilleure filière d’observation au monde grâce au programme Copernicus, le programme européen de collecte de données sur l’état de la Terre. J’étais récemment aux États-Unis et les scientifiques américains nous l’envient terriblement – et cela davantage encore depuis les récentes décisions de l’administration aux commandes. Nous l’avons dit, Iris<exposant>2 </exposant>sera bientôt déployé, et il s’agit d’un élément important.<br/>Nous disposons aussi avec le GNSS Galileo du meilleur système mondial, ce qui peut sembler normal dans la mesure où nous l’avons déployé bien plus tard que le GPS, mais les plus âgés se souviennent combien Galileo a été difficile à mettre en route. Pourtant, nous l’avons fait.<br/>Enfin, nous travaillons à des systèmes de constellations d’observation IOGS pour la défense. Je pense donc qu’au niveau européen, nous sommes prêts à atteindre de très beaux résultats. Si la filière se voit attribuer les budgets à hauteur de 136 milliards d’euros évoqués par François Jacq, nous pourrons déployer nos ailes et mener des projets dont nous n’aurons pas à rougir.<br/>En outre, l’Europe dispose de l’ESA, une agence de développement de projets qui, même si elle ne prend pas toujours les dimensions que nous souhaiterions, est forte et grandit. L’ESA s’inscrit dans une logique de plus en plus cohérente vis-à-vis de l’Union européenne, où elle tient de plus en plus souvent le rôle de maître d’œuvre délégué pour les programmes. L’alignement des planètes est intéressant.<br/>Au niveau européen, la vision est donc structurée ; elle peut être porteuse pour l’ensemble de la filière.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898107" ordre_absolu_seance="69" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044878" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2595.83">La parole est à M. Jean-Paul Lecoq.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898108" ordre_absolu_seance="70" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044879" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq (GDR)</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2685.76">Je trouve la métaphore de l’alignement de planètes bienvenue lorsqu’on parle de spatial !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898109" ordre_absolu_seance="71" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044880" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2693.69">Tant que vous n’êtes pas dans la Lune !<italique> (Sourires.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898110" ordre_absolu_seance="72" id_acteur="PA335612" id_mandat="PM843398" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044881" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Paul Lecoq</nom>
+            <id>335612</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2695.91">En ce qui me concerne, je garde les pieds sur terre, mais la tête dans l’espace, j’aime bien !<italique> (Sourires.)</italique><br/>J’aborderai plusieurs points.<br/>L’orbite basse est l’une des plus fragiles et l’une des plus sensibles, et nombreux sont les satellites qui y circulent. Les normes que nous avions soutenues pour le retour des satellites se sont révélées handicapantes parce que coûteuses à mettre en œuvre. En face, l’un de nos concurrents considère l’espace à peu près comme un far west : aux États-Unis, on pense que l’absence de normes, c’est mieux parce que cela favorise la recherche et l’innovation. Qu’en pensez-vous ? Les choses évoluent-elles dans le bon sens ?<br/>D’autre part, nous sommes champions d’Europe en matière de spatial mais tous les États membres ne jouent pas le même match ! Il n’y a en vérité que l’Italie, l’Allemagne et la France. Nous disposons de talents, même si nous ne savons pas toujours les garder, et de start-up, même si l’une d’elles, installée à Marseille, vient de déménager à Munich – ce qui est regrettable. Le retour géographique exigé par l’Union européenne pour les investissements auxquels elle consent est donc problématique. Dans la mesure où seuls trois pays sont ultraperformants, ce retour géographique ne constitue-t-il pas une absurdité dans le domaine spatial ? La dissémination des investissements sur l’ensemble du territoire européen risque au contraire de poser un problème.<br/>Où en sommes-nous sur ce point ? Le gouvernement vous a-t-il accompagné en promouvant une forme d’exception spatiale, comme on a mis en avant une exception culturelle ? Selon vous, serait-il légitime de défendre une telle idée ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898114" ordre_absolu_seance="77" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044885" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2779.44">La parole est à M. François Jacq.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898115" ordre_absolu_seance="78" id_acteur="PA-126359" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044886" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. François Jacq</nom>
+            <id>-126359</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2819.20">Concernant l’encombrement des orbites, non, je ne suis pas sûr que les choses évoluent dans le bon sens ! Si le bon sens consiste à maîtriser parfaitement ce qui se passe, c’est plutôt l’aspect far west qui semble se développer. Il est préoccupant que le nombre de satellites actifs en orbite basse, comme les 10 000 satellites de Starlink que Xavier Pasco mentionnait, oblige d’ores et déjà à augmenter régulièrement le nombre de manœuvres d’évitement – c’est la tendance que je constate pour les quelques satellites que nous pilotons. Certes, certains pays ont leurs propres positions sur ce sujet mais nous devons faire un effort au niveau international pour trouver des mécanismes de régulation. Si tout le monde envoie des dizaines de milliers de satellites en orbite basse, cela finira par poser un problème ! C’est en effet un sujet de vigilance et de préoccupation.<br/>Ensuite, il existe bien un retour géographique dans le cadre de l’ESA, mais pas dans le cadre communautaire de l’Union européenne. Ce retour avait initialement la vertu de mettre le pied à l’étrier à un certain nombre de pays et de leur donner l’impression qu’ils participaient à la démarche spatiale. Actuellement, il est peut-être davantage source de dispersion, de reproduction et de duplication entre les différents États.<br/>Au fond, tout cela est lié à la question stratégique soulevée tout à l’heure par Xavier Pasco. Nous devons nous convaincre que nous sommes européens, que nous devons travailler ensemble et que les retours en matière spatiale se feront moins au niveau national qu’au niveau européen pour la simple raison que nous serons plus forts et davantage en capacité de monter des projets. Sur ce point, je reconnais que nos partenaires sont parfois difficiles à convaincre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898118" ordre_absolu_seance="81" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044889" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2909.49">La parole est à M. Xavier Pasco.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898119" ordre_absolu_seance="82" id_acteur="PA-126349" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044890" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Xavier Pasco</nom>
+            <id>-126349</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2937.85">Concernant les normes, il y a bien un aspect far west mais, simultanément, certains acteurs surdominants du secteur fixent eux-mêmes des seuils parce qu’ils ont besoin d’un encadrement réglementaire pour leur business. C’est un acte politique. La situation est donc ambiguë et il faut être très vigilant à la manière dont les normes sont fixées dans la mesure où elles auront des conséquences industrielles.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898119" ordre_absolu_seance="83" id_acteur="PA341981" id_mandat="PM842822" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045049" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie Récalde</nom>
+            <id>341981</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2961.71">Absolument !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898120" ordre_absolu_seance="84" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044891" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2964.15">La parole est à M. David Taupiac.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898121" ordre_absolu_seance="85" id_acteur="PA793796" id_mandat="PM842723" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044892" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. David Taupiac (LIOT)</nom>
+            <id>793796</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2972.99">Le secteur spatial connaît une transformation rapide sous l’effet du<italique> new space,</italique> de la montée des rivalités géopolitiques et de la militarisation de l’espace. L’Europe doit donc s’interroger sur sa capacité d’adaptation aux concurrences des start-up, plus agiles, plus rapides et mieux financées, notamment par le capital-risque.<br/>L’Europe accuse en effet un décrochage industriel, ce dont témoignent son retard en matière de technologies de réutilisation ainsi que les difficultés du programme Ariane 6, dont les retards et les surcoûts ont fragilisé la crédibilité sur le marché des lancements.<br/>Entre les États membres, l’Agence spatiale européenne et l’Union européenne, la gouvernance du spatial européen apparaît comme fragmentée et l’absence de véritable préférence européenne affaiblit sa souveraineté, ce que révèle le recours à des lanceurs étrangers pour des programmes stratégiques.<br/>Le modèle industriel européen, structuré autour de grands groupes moins agiles que sont Airbus, Thales et ArianeGroup et d’un secteur aval insuffisamment développé, peine donc à intégrer pleinement les dynamiques du<italique> new space,</italique> marquées par l’essor des start-up, du capital-risque et des constellations.<br/>De votre point de vue, face à cette révolution et à la recomposition des puissances spatiales, le modèle européen est-il encore adapté ou doit-il être profondément réformé pour rester compétitif et souverain à l’échelle internationale ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898126" ordre_absolu_seance="90" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044897" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2976.61">La parole est à M. Jean-Marie Bétermier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898127" ordre_absolu_seance="91" id_acteur="PA-126369" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044898" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Marie Bétermier</nom>
+            <id>-126369</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3066.96">D’abord, nous sommes très heureux de disposer d’Ariane 6, qui a fait une introduction exceptionnelle, injecte ses charges utiles avec une précision remarquable et nous permet d’être autonomes dans notre accès à l’espace, conformément à la stratégie spatiale française.<br/>Parallèlement, nous disposons de champions plutôt<italique> new space</italique>, comme MaiaSpace, bien dotés pour travailler le réutilisable, et nous sommes revenus dans la course – même s’il est vrai que nous ne pouvons nous comparer à SpaceX. Le<italique> new space</italique> est effectivement une réalité. En Europe, la société finlandaise Iceye, dirigée par un jeune homme de vingt-trois ans, a construit sa constellation commerciale et fournit actuellement l’ensemble des images SAR – radar à synthèse d’ouverture – dans toutes les zones de conflits du monde. C’est un exemple important.<br/>Certes, notre accès au capital ne peut être comparé à celui des États-Unis et notre écosystème est faible, mais, en France, nous pouvons être fiers de nos sociétés<italique> new space</italique>. Ce sont elles qui détiennent les projets industriels les plus importants en volume parce qu’elles ont commencé à travailler sur les petits segments : les nanosatellites, les microsatellites et les minisatellites. Elles constituent donc bien des acteurs du<italique> new space,</italique> sont en train de réussir leur transformation industrielle et participent au futur. Sur le plan industriel, il est extrêmement judicieux d’encourager ces nouvelles pousses qui bousculent l’écosystème global.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898130" ordre_absolu_seance="94" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044901" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3094.59">La parole est à M. François Jacq.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898131" ordre_absolu_seance="95" id_acteur="PA-126359" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044902" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. François Jacq</nom>
+            <id>-126359</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3115.43">Le concept de préférence européenne n’est pas encore ancré mais il est selon moi déterminant. Il faut en effet voir comment le communautaire peut nous aider en imposant le recours à des sources européennes, ce qui rétablira une égalité de compétition et de concurrence. L’Europe a bien besoin d’affirmer cette préférence face aux subventions croisées qui existent dans d’autres grands pays entre différents domaines. Ce sera l’un des enjeux de la discussion européenne dans les mois à venir.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898132" ordre_absolu_seance="96" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044903" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3205.88">La parole est à M. Emeric Salmon.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898133" ordre_absolu_seance="97" id_acteur="PA794954" id_mandat="PM840357" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044904" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Emeric Salmon (RN)</nom>
+            <id>794954</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3213.14">J’ai eu la chance, lors de la session parlementaire 2023-2024, d’être auditeur à l’IHEDN – l’Institut des hautes études de défense nationale. Le thème de mon comité portait sur la souveraineté de la France dans l’accès à l’espace. Mon tuteur de comité était M. Xavier Pasco, ici présent – une deuxième chance. Notre comité travaillait spécifiquement sur les lanceurs comme moyen d’action de la France pour garder sa souveraineté.<br/>Contrairement à mon collègue Taupiac, je considère, comme vous, messieurs Pasco et Bétermier, qu’Ariane 6 est un réel succès technologique français – et cela, malgré la concurrence de SpaceX et de ses lanceurs réutilisables. Cependant, comment voyez-vous la suite ? Faut-il un Ariane 7 pour concurrencer les lanceurs réutilisables de SpaceX ? La France et l’Europe peuvent-elles se passer d’une telle technologie ?<br/>Ma seconde question est plus corrosive et n’avait cessé de se poser au cours de nos travaux à l’IHEDN. Le site majeur de Kourou est-il menacé par les normes, qu’elles soient environnementales ou liées au monde du travail ? La France pourrait-elle se passer d’un tel site ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898136" ordre_absolu_seance="100" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044907" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3252.33">La parole est à M. François Jacq.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2898137" ordre_absolu_seance="101" id_acteur="PA-126359" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044908" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. François Jacq</nom>
+            <id>-126359</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3313.22">Concernant le réutilisable, non, nous ne pouvons pas nous passer d’y travailler. C’est ce que rappelait Jean-Marie Bétermier en évoquant les projets de MaiaSpace qui intègrent la question de l’étage réutilisable. Je souligne que le réutilisable est aussi lié à la question des cadences de lancement : pour qu’il vaille la peine d’y recourir, il faut tirer plus souvent. Tout se tient : il faut à la fois avoir des éléments à lancer, un marché et une préférence européenne. Le réutilisable est donc un sujet crucial pour les années à venir et vous avez raison de dire que nos perspectives, au-delà d’Ariane 6, doivent intégrer cette logique.<br/>La base spatiale de Kourou constitue quant à elle un atout à la fois français et européen, puisqu’il s’agit d’une base européenne, mise au service de l’Union par la France. Dans ce cadre, il nous faut trouver comment la gérer au mieux pour la rendre la plus efficace possible, en travaillant nos modes de gestion et notre capacité à moderniser et à automatiser certains de ses éléments.<br/>On ne va pas le dissimuler, l’enjeu de la préservation du patrimoine environnemental est réel et entre en conflit avec le fait de disposer des surfaces nécessaires au fonctionnement de la base. Cet arbitrage ne m’appartient évidemment pas, mais si nous voulons disposer d’une base spatiale, je pense qu’il faut des surfaces.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898167" ordre_absolu_seance="104" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045073" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3387.61">La parole est à Mme Corinne Vignon.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898168" ordre_absolu_seance="105" id_acteur="PA719512" id_mandat="PM842699" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045074" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Corinne Vignon (EPR)</nom>
+            <id>719512</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3427.64">Les constellations en orbite basse – LEO – pourraient, à terme, représenter plusieurs centaines de milliers de satellites. Au-delà des capacités industrielles, la vraie ressource critique reste l’accès aux fréquences et leur coordination. Plus le nombre de satellites en LEO augmente, plus les risques d’interférence et de congestion du spectre s’intensifient, y compris avec les systèmes en orbite géostationnaire – GEO –, qui restent essentiels pour de nombreuses applications stratégiques.<br/>L’Europe dispose-t-elle d’une stratégie suffisamment claire et proactive pour sécuriser l’accès aux fréquences, garantir la coexistence entre LEO et GEO et éviter une saturation qui viendrait compromettre la qualité et la résilience de nos communications ? Comment éviter la compétition croissante pour le spectre et les ressources orbitales et empêcher qu’elle ne pénalise à terme les capacités européennes – et éventuellement l’IRIS², si elle existe un jour ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898170" ordre_absolu_seance="107" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045076" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3525.05">La parole est à M. Jean-Marie Bétermier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898171" ordre_absolu_seance="108" id_acteur="PA-126369" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045077" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Marie Bétermier</nom>
+            <id>-126369</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3549.13">Il est exact que la question de la disponibilité des<italique> slots</italique>, les emplacements spatiaux, se pose, mais un vrai enjeu concernera les fréquences. Quand il n’y avait que des satellites en orbite géostationnaire, nous avions des règles très claires, avec des exclusions. Aujourd’hui, il faut imaginer une constellation Starlink à moins de 600 kilomètres d’altitude, une constellation OneWeb à 1 200 kilomètres, puis les satellites en orbite géostationnaire. Certains industriels travaillent pour avoir les outils permettant de vérifier que les acteurs respectent leurs engagements. C’est compliqué, et cela rejoint nos échanges précédents sur la surveillance de l’espace : il est extrêmement important qu’en France et en Europe, nous nous donnions les moyens de surveiller ce qui se passe et ne pas laisser régner le far west, où les premiers arrivés s’approprieraient les fréquences et leur utilisation. C’est un enjeu essentiel : le spectre est une ressource rare. Ainsi, EchoStar a récemment vendu les fréquences qu’il n’utilisait pas à AT&amp;T et SpaceX pour un montant de 30 milliards de dollars.<br/>En France, l’Agence nationale des fréquences est vigilante et fait bien son travail, mais il faut développer nos moyens de surveillance pour ne pas nous contenter de brandir un doigt grondeur en disant : « Nous avons l’impression que ce que vous faites n’est pas bien ».</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898173" ordre_absolu_seance="110" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045079" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3550.59">La parole est à M. François Jacq.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898174" ordre_absolu_seance="111" id_acteur="PA-126359" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045080" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. François Jacq</nom>
+            <id>-126359</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3617.16">Dans le cadre européen, pour IRIS², une première réservation de fréquences a été faite. Nous avons donc montré notre sensibilité au spectre. Réserver des fréquences pour des satellites qui vont être mis en orbite est important et il faut y être vigilant, en plus de la coordination internationale qui sera nécessaire pour empêcher le far west.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898175" ordre_absolu_seance="112" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045081" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3642.70">La parole est à M. Hadrien Clouet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898176" ordre_absolu_seance="113" id_acteur="PA793736" id_mandat="PM842693" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045082" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Hadrien Clouet (LFI-NFP)</nom>
+            <id>793736</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3648.82">Une fusion avec zéro acquisition : c’est ainsi que j’aurais tendance à décrire le projet Bromo, qui a pour objectif de regrouper trois leaders de l’aérospatiale, Airbus Defence and Space, Thales Alenia Space et Leonardo. J’y vois – et je ne pense pas être le seul – un danger majeur pour l’industrie spatiale et la souveraineté nationale.<br/>La première justification donnée à ce projet est celle des « synergies » – traduction : il faut regrouper des sites, des moyens et des laboratoires, au risque de l’emploi. Le processus a commencé, avec la suppression de 1 000 postes chez Thales et de 2 500 chez Airbus.<br/>On entend parler de concurrencer Starlink, l’entreprise de l’astrofasciste Elon Musk. Cela me semble absurde dans la mesure où Starlink est une entreprise à caractère vertical qui réunit tout – assemblage, lancement de satellites, services internet –, tandis que Bromo réaliserait une concentration horizontale, de fabricants de même niveau. Ne payons-nous pas une forme de suivisme ? Je pense notamment à l’annonce par la Nasa, ce matin, de son renoncement au projet de station orbitale lunaire, ce qui signifie que Thales Alenia Space a produit depuis dix ans des pièces détachées en vain.<br/>Nul besoin d’être un géant européen. Thales et Airbus sont leaders mondiaux des télécoms, tandis que Bromo sera toujours plus petit que le plus petit des opérateurs nord-américains qui lui feraient concurrence.<br/>En plus, ce projet donne à l’Allemagne de quoi tirer le tapis sous les pieds de ses partenaires. La Commission européenne – qui est elle-même un problème… – n’acceptera pas un monopole français. Nous allons donc ouvrir le marché à un nouvel acteur, c’est une évidence, et celui qui est positionné est l’Allemand OHB-System, qui pourrait racheter les actifs qu’Airbus ou Thales seraient amenés à vendre dans la prochaine version du projet. Et si cela ne suffit pas, je vous alerte sur l’investissement par la direction allemande d’Airbus dans la constellation de la Bundeswehr, l’outil militaire allemand, détournant ainsi des fonds nécessaires pour IRIS².<br/>J’aurais tendance à plaider pour arrêter Bromo et planifier les besoins dans l’aérospatiale en fonction des besoins populaires du plus grand nombre, et non de ceux des actionnaires. Que pensez-vous de ces différents éléments ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898181" ordre_absolu_seance="119" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045087" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3746.83">La parole est à M. François Jacq.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898182" ordre_absolu_seance="120" id_acteur="PA-126359" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045088" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. François Jacq</nom>
+            <id>-126359</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3791.11">Vous l’avez dit : le processus sera soumis à la Commission européenne, qui l’examinera sous l’angle du droit de la concurrence et décidera si des cessions sont nécessaires. Nous devrons alors être extrêmement vigilants pour déterminer si, en fonction de l’ampleur des cessions requises, des implantations industrielles ou des technologies critiques sont remises en cause. En tant qu’agence spatiale, le Cnes sera vigilant sur ces points.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898183" ordre_absolu_seance="121" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045089" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3824.05">La parole est à M. Jean-Marie Bétermier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898184" ordre_absolu_seance="122" id_acteur="PA-126369" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045090" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Marie Bétermier</nom>
+            <id>-126369</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3830.09">Les questions que vous abordez, monsieur le député, sont intéressantes.<br/>S’agissant du modèle de concentration vertical de Starlink, son équivalent européen serait de regrouper Eutelsat – l’ensemble – et les lanceurs. Il n’est donc pas complètement question de la même chose, et il y a effectivement différentes manières d’interpréter ces communications.<br/>Nous ne nous inquiétons pas de la volonté de créer un champion européen, bien que ce ne soit pas très populaire en Europe. À titre personnel, je pense que cela va favoriser la naissance d’autres acteurs très spécialisés capables de concurrencer Bromo. Je ne crois pas en un modèle avec une seule société.<br/>Vous mentionnez OHB, qui est l’intégrateur allemand. Au regard de la taille, il ne boxe pas dans la même catégorie, et il est plutôt très inquiet de cette position, car il craint la force que peut représenter cette filière. La création d’un champion qui permettra de régler des problèmes de doublons dans la filière – en l’espèce les satellites géostationnaires – ne doit pas susciter d’inquiétude.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898186" ordre_absolu_seance="126" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045092" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3867.31">La parole est à M. Bartolomé Lenoir.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898187" ordre_absolu_seance="127" id_acteur="PA840983" id_mandat="PM842597" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045093" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Bartolomé Lenoir (UDR)</nom>
+            <id>840983</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3938.12">Où en sommes-nous au sujet du stockage d’énergie dans l’espace ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898188" ordre_absolu_seance="128" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045094" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3948.71">La parole est à M. Xavier Pasco.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898189" ordre_absolu_seance="129" id_acteur="PA-126349" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045095" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Xavier Pasco</nom>
+            <id>-126349</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3954.12">Cette question se pose en effet pour les grands projets spatiaux. Les Américains suivent leur voie avec la volonté, conformément à leur projet politique, de soutenir ce projet en s’appuyant sur un certain nombre de technologies, notamment le nucléaire. Nous, Européens, devons réfléchir à ces questions en fonction de nos propres besoins, et cette réflexion vaut également pour d’autres questions dont nous avons discuté.<br/>Un parallèle peut être dressé avec le projet de création de Bromo : nous ne pouvons analyser ces questions qu’au regard de l’appétence européenne à construire sa propre politique spatiale. Un projet industriel de ce type ne prend son sens que dans le cadre d’un projet politique plus large. C’est compliqué, parce que le niveau européen et le niveau national coexistent. Sommes-nous capables de bâtir une vision commune, un projet politique d’occupation de l’espace du point de vue européen, qui ne reproduira pas nécessairement la vision politique des États-Unis ? Dans le cadre de cette vision, des déclinaisons technologiques seront associées à ce projet politique et à notre ambition. Par exemple, il faut réfléchir à l’utilisation du nucléaire dans l’espace, en l’associant à notre ambition d’occupation de l’orbite basse, de l’exploration habitée, de nos projets pour la Lune et même par rapport à l’activité militaire. C’est sans doute l’un des points que nous devons le plus travailler.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898191" ordre_absolu_seance="131" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045097" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4067.96">La parole est à M. Jacques Oberti.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898192" ordre_absolu_seance="132" id_acteur="PA841107" id_mandat="PM842717" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045098" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jacques Oberti (SOC)</nom>
+            <id>841107</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4104.72">Je vais insister sur un point abordé par d’autres, notamment par Hadrien Clouet.<br/>Dans le cadre du<italique> new</italique><italique> space</italique>, un certain nombre d’acteurs intégrés émergent, massivement soutenus par les puissances publiques, particulièrement les États-Unis et la Chine. En Europe, une question se pose à cet égard. La concurrence mondiale a changé de nature en la matière. Or le spatial est au cœur de l’autonomie stratégique des États – nous avons évoqué la dualité des usages. Les structures regroupées au sein de Bromo étaient elles-mêmes concurrentes au niveau européen, voire mondial. Que deviendra cette concurrence après la création de Bromo ? Cela aura-t-il pour effet de pousser des structures telles qu’OHB, Rheinmetall, voire des structures américaines ou chinoises – sachant que nous aurions un véritable intérêt à ce que la commande publique, au niveau national ou européen, profite à des entreprises issues de nos propres pays, pour nos propres économies ? Des études ont-elles été réalisées sur ces possibles déplacements de concurrence et, le cas échéant, quelles en sont les principales hypothèses, voire les principales conclusions ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898193" ordre_absolu_seance="134" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045099" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4133.51">La parole est à M. Jean-Marie Bétermier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2898194" ordre_absolu_seance="135" id_acteur="PA-126369" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045100" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Marie Bétermier</nom>
+            <id>-126369</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4174.46">À ma connaissance, de telles études n’existent pas. Dans le modèle passé, nos maîtres d’œuvre verticalisaient la technologie et leur savoir-faire de systémier. Je suis vice-président du Gifas au titre des équipementiers. Nous ne sommes pas inquiets que la concurrence se déplace et que tout s’en aille, au caveat près ; comme François Jacq l’a expliqué, dans le cadre du projet Bromo, l’Union européenne analysera les choses sous l’angle de la réglementation antitrust. Je ne présage pas de l’issue, mais il est possible d’imaginer un modèle européen avec, d’une part, des systémiers, d’autre part, des équipements souverains et des technologies souveraines, qui travailleraient comme dans le secteur aéronautique. Chez les avionneurs, tout n’est pas verticalisé, il existe un réseau d’équipementiers.<br/>La création de Bromo est importante et bousculera le paysage, mais ce dernier va de toute façon changer drastiquement. Les investissements massifs, l’arrivée du marché de volume, les changements politiques et la montée des souverainismes vont profondément modifier le paysage industriel en Europe.<br/>Effectivement, Bromo va déplacer un peu le centre de gravité mais, en tant qu’équipementier et représentant de la filière, je ne suis guère inquiet. Cela peut être l’occasion de développer des technologies susceptibles d’être utilisées par plusieurs types de systémiers ou d’intégrateurs ; on s’affranchirait ainsi des modèles passés où tout était relativement verticalisé.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2898046" ordre_absolu_seance="138" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044369" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4364.32">La parole est à M. Arnaud Simion.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2898047" ordre_absolu_seance="139" id_acteur="PA841091" id_mandat="PM842705" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044370" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Arnaud Simion (SOC)</nom>
+            <id>841091</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4370.03">Je vous remercie, messieurs, de votre présence. Nous avons bien retenu les points sur lesquels vous appelez à la vigilance : savoir coopérer ; prendre en compte la dualité de la filière – le civil, le militaire ; protéger le savoir-faire et les emplois qualifiés ; préserver la science et la recherche.<br/>Je souhaite à mon tour évoquer Bromo, car ce projet suscite des interrogations de la part des territoires, des salariés, des collectivités, de l’ensemble des secteurs concernés et, parfois, des militaires. J’aborde la question sous un autre angle : on nous explique qu’il faut grossir, fusionner et atteindre une taille critique pour faire face aux États-Unis et à la Chine. Peut-être est-ce le cas mais, dans un secteur aussi sensible, être plus gros ne signifie pas nécessairement être plus fort, et certainement pas être plus souverain.<br/>Si la recherche de la taille critique se traduit par l’émergence d’un acteur dominant face auquel les États ne disposent plus que d’une marge de manœuvre réduite, alors le risque est clair : ce qui est présenté comme un instrument de souveraineté peut devenir un facteur de dépendance. En effet, lorsque la puissance publique a face à elle un acteur incontournable, elle négocie moins, arbitre moins, oriente moins. Elle peut alors perdre progressivement la main sur les coûts, sur les calendriers, sur les choix technologiques, sur la localisation des compétences et demain, peut-être, sur des fonctions directement liées à la souveraineté militaire.<br/>J’aimerais donc vous entendre, en tant qu’experts, sur un point simple mais fondamental : à partir de quel moment la recherche de la taille critique cesse-t-elle d’être une solution et devient-elle, au contraire, un problème industriel, démocratique et stratégique pour les États ? Dans un secteur dual comme le spatial, quelles garanties faut-il impérativement établir pour que la consolidation éventuelle de la filière renforce effectivement notre souveraineté militaire et industrielle, au lieu de l’affaiblir et de réduire la capacité de la puissance publique à piloter sa propre stratégie ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2898051" ordre_absolu_seance="143" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044374" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4480.75">La parole est à M. François Jacq.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2898052" ordre_absolu_seance="144" id_acteur="PA-126359" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044375" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. François Jacq</nom>
+            <id>-126359</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4517.16">Je repars de ce que Jean-Marie Bétermier a dit précédemment : il y a deux acteurs qui fabriquent des satellites géostationnaires à un moment où le besoin en satellites géostationnaires est moindre. Le fait de s’opposer sur ce segment sans coopérer peut devenir un problème. En tout cas, il faudra veiller à ce que ce rapprochement permette des investissements supplémentaires dans l’innovation et la recherche.<br/>Je termine par un plaidoyer qui ne vous surprendra pas : pour répondre à vos préoccupations, que je partage, il est nécessaire de disposer de structures publiques fortes, en particulier d’agences spatiales nationales fortes. Il suffit de regarder de par le monde : dans tous les pays où il y a un secteur spatial fort, notamment aux États-Unis, il existe une agence comparable au Cnes. En disant cela, je ne défends pas ma paroisse, je vous fais part d’une conviction profonde – je l’aurais dit de la même manière lorsque j’occupais d’autres fonctions, liées à la recherche. Si l’on veut que la puissance publique soit capable de mener un dialogue responsable et vigoureux avec l’acteur industriel, il faut qu’elle incorpore une telle compétence technique. Je pense que c’est indispensable, y compris pour faire émerger des idées. Cela ne veut pas dire qu’on a toujours raison, mais ce dialogue technique est un élément clé.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2898054" ordre_absolu_seance="146" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044377" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4545.39">La parole est à M. Jean-Marie Bétermier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2898055" ordre_absolu_seance="147" id_acteur="PA-126369" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044378" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Jean-Marie Bétermier</nom>
+            <id>-126369</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4592.55">Je complète le propos du point de vue de la filière. Vous avez tout à fait raison, monsieur Simion, il est très important d’avoir des filières. Nous enregistrons, en France, un succès exceptionnel : l’aéronautique. Elle est d’ailleurs, au sein du Gifas, une sorte de grande sœur. Nous observons que, dans cette filière, les choses fonctionnent bien entre les maîtres d’œuvre et les équipementiers.<br/>Aujourd’hui, la filière spatiale est en train de créer de la valeur. Des acteurs tels que Bromo auront des défis à relever, car être gros ne veut pas dire être rapide ; or nous vivons dans un monde où il faut être rapide. Néanmoins, il n’y a pas de raison qu’ils ne parviennent pas à relever ces défis. Je suis un garçon positif et je tiens à faire passer le message suivant : avec cette transformation, avec la mise en place de cette filière comprenant d’un côté des industries de premier plan et de l’autre des équipementiers, la France tient un écosystème à même de la rendre plus résiliente et plus solide pour l’avenir.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2898057" ordre_absolu_seance="149" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044380" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4662.38">Nous vous remercions, messieurs, d’avoir participé à nos travaux.</texte>
+      </paragraphe>
+      <point nivpoint="99" valeur_ptsodj="1" ordinal_prise="5" id_preparation="2898058" ordre_absolu_seance="150" code_grammaire="SUSP_SEANCE_1_1" code_style="Suspension rappel" code_parole="" sommaire="1" id_syceron="4044381" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>Suspension et reprise de la séance</italique>
+        </texte>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2898059" ordre_absolu_seance="151" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="SUSP_SEANCE_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044382" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4675.13">La séance est suspendue.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2898060" ordre_absolu_seance="152" code_grammaire="SUSP_SEANCE_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4044383" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance, suspendue à vingt-deux heures trente-cinq, est reprise à vingt-deux heures trente-huit.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2898061" ordre_absolu_seance="153" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="SUSP_SEANCE_2_3" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044384" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4837.72">La séance est reprise.<br/>Nous en venons à la seconde phase du débat.<br/> Je souhaite la bienvenue à M. le ministre de l’enseignement supérieur, de la recherche et de l’espace, à qui je cède tout de suite la parole.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2898063" ordre_absolu_seance="155" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044386" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre de l’enseignement supérieur, de la recherche et de l’espace</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="4855.23">Je suis très heureux d’échanger avec vous ce soir sur la place de la France et de l’Europe dans le monde du spatial. Ce sujet ne concerne pas exclusivement les scientifiques, les industriels ou les spécialistes du domaine. Il concerne chacun d’entre nous en tant qu’Européen. Vous le savez, vous recourez chaque jour aux outils du spatial, quand vous utilisez sur votre téléphone un outil de navigation, quand vous communiquez, quand vous allumez votre radio dans votre voiture. Qui plus est, les outils du spatial sont essentiels pour comprendre le climat, observer l’océan, établir les prévisions météorologiques. Bref, le spatial est incontournable.<br/>Incontournable, le spatial l’est aussi dans le champ de la défense et de la sécurité. Les conflits récents l’ont montré. Je pense en particulier au conflit en Ukraine : au moment de l’invasion de ce pays, les premières attaques ont visé des outils spatiaux. Le spatial occupe donc une place centrale et stratégique. En parallèle, la conquête spatiale revient au premier plan des expressions de la puissance des États. On ne peut que le constater, les États-Unis et la Chine étant en pointe en la matière.<br/>Le paysage mondial du spatial a été profondément modifié en l’espace de dix ans. Le spatial est désormais présent partout, je l’ai dit. C’est un pilier de l’efficacité économique, un outil scientifique et un levier de l’excellence scientifique, un levier de la puissance militaire et de la défense. Le spatial a donc suscité des investissements considérables.<br/>Autre évolution majeure : au début de l’ère spatiale, ce domaine était l’apanage des États, qui y étaient les investisseurs exclusifs ; au fur et à mesure, quelques capitaux privés s’y sont risqués, en particulier dans le secteur des télécommunications. Ces dernières années, cet état de fait a été profondément bouleversé, puisque toute une économie du spatial s’est construite avec des fonds et des entreprises privées. Néanmoins, le spatial reste dominé par des capitaux et des investissements publics, y compris aux États-Unis. L’américain SpaceX, qui a révolutionné le secteur des lanceurs et celui des télécommunications, en offre une très bonne illustration : c’est le poids des investissements publics qui lui a permis de se développer, non pas des investissements directs en R&amp;D (recherche et développement), comme nous les pratiquons beaucoup en Europe, mais un soutien à l’activité commerciale et un achat massif de services.<br/>Dans ce tableau très mouvant, la France et l’Europe ne partent pas de rien. Nous occupons, depuis le milieu du siècle dernier, une place éminente à la table des puissances spatiales. Nous disposons d’une expertise industrielle, reconnue depuis longtemps, en particulier parce que nous comptons parmi les rares puissances à pouvoir revendiquer une forme d’autonomie sur l’ensemble de la chaîne de valeur – des lanceurs jusqu’aux satellites et aux services associés aux satellites.<br/>La France a pleinement joué son rôle de puissance d’équilibre en collaborant, au cours des dernières décennies, avec l’ensemble des acteurs de l’échiquier géopolitique. Notre pays est le seul à avoir travaillé avec toutes les grandes agences spatiales dans le monde : les États-Unis, la Russie, la Chine, les Émirats arabes unis, l’Inde – qui est devenue dans ce domaine un acteur majeur – et l’ensemble des puissances européennes. Cela a une vraie valeur : la France a la capacité de mettre l’ensemble des acteurs autour de la table ; au niveau mondial, elle est un acteur relativement incontournable du spatial.<br/>Notre pays dispose de l’expertise du Centre national d’études spatiales et d’un tissu industriel fort. L’Agence spatiale européenne, qui a une empreinte en France, joue aussi un rôle tout à fait significatif.<br/>Cet équilibre, dans lequel la France et l’Europe occupaient une place incontestable, a été mis en cause par les changements que j’ai évoqués : une Europe industrielle qui change énormément et des industriels d’outre-Atlantique qui prennent au niveau mondial une place qui confine à l’hégémonie. Bien évidemment, l’Europe doit réagir, en particulier sur deux segments importants pour lesquels – il faut dire les choses comme elles sont – nous n’avons pas pris les bons tournants industriels et stratégiques.<br/>Premièrement, le pari des lanceurs réutilisables n’a pas été fait. Cela ne tient pas à des questions techniques : les projets de lanceurs réutilisables étaient depuis longtemps dans les cartons, aussi bien dans les bureaux des ingénieurs que dans les agences spatiales. Toutefois, personne n’a cru à l’existence d’un marché pour ces lanceurs et à la nécessité d’investir dans la réutilisabilité.<br/>Deuxièmement, nous avons pris du retard en matière de satellites et de constellations de satellites en orbite basse, en particulier dans le secteur des télécommunications. Nous étions dans l’excellence pour les gros satellites géostationnaires et nous n’avons pas vu venir la révolution des satellites en orbite basse.<br/>Nous sommes passés d’une position de leader dans le domaine des lanceurs – avec Ariane 5 au début de sa carrière – et dans celui des satellites géostationnaires à une position de challenger en Europe dans le domaine des télécommunications, ce qui constitue un point de vigilance tout particulier, même si, avec le lancement réussi d’Ariane 6, nous avons heureusement résolu une grosse partie de la crise des lanceurs, ce qui est un acquis considérable des dernières années.<br/>La France et l’Europe conservent par ailleurs une place absolument centrale et le leadership sur tous les sujets liés à l’observation de la Terre, en particulier les questions climatiques, ce qui est très important.<br/>S’agissant de la place de la France en Europe, à gros traits, un peu plus de la moitié de l’industrie spatiale européenne est aujourd’hui en France. Nous sommes le deuxième contributeur au budget de l’ESA et nous représentons le premier budget spatial civil du continent, avec un investissement à venir de 16 milliards d’euros d’ici 2030. Cette différence entre le niveau de notre investissement budgétaire national et notre contribution relative au budget de l’ESA s’explique parce que nous avons fait le choix de conserver une agence nationale historique, le Cnes, qui réalise – c’est fondamental – des missions duales au service du ministère des armées mais aussi des scientifiques. Le Cnes capte une partie du budget alloué au spatial civil en sus de celui qui est affecté à l’ESA.<br/>Nous disposons de grands atouts, par exemple le centre spatial guyanais de Kourou, doté d’un ensemble de pas de tir stratégiquement situés, tout proches de l’Équateur. Sa façade orientale offre une porte de lancement absolument parfaite pour quasiment toutes les configurations de tirs. Nous n’avons qu’à nous louer du lanceur Ariane 6 : s’il est encore au début de sa carrière, les premiers lancements réalisés ont été une série de succès, ce qui n’était pas gagné d’avance ! Je croise les doigts pour que cela continue.<br/>Nous bénéficions d’une base industrielle solide, d’acteurs qui se connaissent et qui savent travailler ensemble, en tout cas le plus souvent.<br/>Enfin, je n’oublie pas une tradition et une lignée autour d’astronautes, Sophie Adenot aujourd’hui, Thomas Pesquet, hier et aujourd’hui, puisque Thomas va revoler et continuer sa carrière, mais aussi Claudie Haigneré qui était dans l’espace il y a quelques années.<br/>En novembre dernier, le président de la République a présenté notre stratégie spatiale nationale, caractérisée, à partir des atouts que j’ai précédemment mentionnés, par une vision profondément duale, articulant les questions de défense, d’une part, et les questions de science et de technologie, d’autre part.<br/>Nous avons évidemment un travail important à mener pour améliorer la coopération européenne. On le sait tous, les rivalités industrielles sont fortes en Europe alors même que les enjeux portent moins, même si c’est facile à dire, sur la place respective des pays européens que sur la place de l’Europe par rapport au reste du monde. Il nous faut dépasser ces tensions industrielles.<br/>Nous devons aussi revenir à des relations de travail plus raisonnables avec les États-Unis. Au cours des derniers jours, semaines et mois, l’agence spatiale américaine a connu des changements très nombreux et des réorientations stratégiques assez fréquentes. Si ce rythme est habituel pour les États-Unis, il est parfois difficile à concilier avec le temps spatial, qui se compte en général en décennies. Il faut évidemment maintenir ce lien transatlantique essentiel.<br/>Dans le domaine scientifique, nous avons mené des coopérations récentes extrêmement réussies. C’est le cas avec la Chine. S’il reste compliqué de travailler avec ce pays, – cela pose de nombreuses questions – la Chine a démontré qu’elle pouvait être un partenaire spatial efficace et solide. C’est aussi le cas avec l’Inde, qui est aussi un grand partenaire spatial pour la France.<br/>Je terminerai en mentionnant qu’un sommet spatial se profile en septembre prochain, sans doute à Paris, même si le lieu n’est pas encore complètement identifié. Ce sommet spatial international comprendra un volet européen, un volet consacré aux questions de défense et de sécurité, et d’autres volets ouverts à l’ensemble des acteurs. Il offrira l’occasion de réaffirmer les ambitions de la France et de l’Europe dans ce domaine central pour notre avenir économique et social ainsi que pour la compréhension de notre monde.<br/>Voilà les éléments fondamentaux que je voulais mettre en avant dans cette introduction. Je suis à votre entière disposition pour tenter de répondre à vos questions.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2898269" ordre_absolu_seance="177" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044523" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5566.09">Nous entamons une série de questions-réponses. Comme les questions au gouvernement, les questions sont limitées à deux minutes, sans droit de réplique.<br/>La parole est à M. Arnaud Simion.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2898270" ordre_absolu_seance="178" id_acteur="PA841091" id_mandat="PM842705" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044524" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Arnaud Simion (SOC)</nom>
+              <id>841091</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5580.25">Dans le prolongement de l’échange que nous avons eu cet après-midi lors des questions au gouvernement, ma question, qui ne vous étonnera pas, porte sur le projet Bromo.<br/>Personne ici ne conteste que le secteur spatial entre dans une phase de concurrence mondiale ni que l’Europe doive se donner les moyens de tenir son rang mais précisément, à propos d’un secteur aussi stratégique, nous attendons autre chose qu’un récit général sur la taille critique et sur la création d’un champion européen. Vous nous dites : « plus gros, plus fort » mais, pour quiconque connaît réellement ce secteur, les perspectives de croissance et de rentabilité avancées apparaissent à tout le moins fragiles. Si l’objectif est vraiment de rivaliser avec les grands groupes américains ou chinois, il est incompréhensible d’exclure les lanceurs du consortium. Autrement dit, on invoque un changement d’échelle mondial mais on construit un ensemble incomplet, qui ne maîtrise pas toute la chaîne stratégique.<br/>La seule question qui se pose est de savoir si l’État français gardera réellement la main ou s’il laissera se constituer un acteur dominant, sans garantie suffisante pour notre souveraineté et pour notre industrie.<br/>Nous avons simplement besoin de réponses précises à des questions précises. En voici quelques-unes. Premièrement, sur la gouvernance, l’État français disposera-t-il d’une représentation effective au conseil d’administration ? Pourra-t-il peser réellement dans les droits de vote ? Exigerez-vous une<italique> golden share,</italique> c’est-à-dire une action spécifique ?<br/>Deuxièmement, sur l’actionnariat : exigerez-vous une durée d’engagement des partenaires de cinq, dix ou quinze ans ? Si l’un d’eux souhaite sortir du capital, qui pourra racheter : d’autres acteurs européens ? des fonds privés ? des groupes étrangers ? Dans ce secteur, vous ne pouvez pas nous répondre par des promesses de vigilance générale.<br/>Troisièmement, en matière d’emploi, quelles garanties concrètes apporterez-vous pour protéger les sites et les compétences, les entreprises associées et le tissu économique local ?<br/>Ma question est en somme très simple : sur le projet Bromo, pouvez-vous nous indiquer, précisément et formellement, les lignes rouges que se fixe le gouvernement pour protéger la souveraineté militaire de la France, sa souveraineté industrielle et les bassins d’emploi qui dépendent de cette filière stratégique.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2898276" ordre_absolu_seance="185" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044530" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5645.03">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2898277" ordre_absolu_seance="186" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044531" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="5713.12">Aujourd’hui, nous avons deux champions : Thales Alenia Space et Airbus Defence and Space. Les deux entreprises, qui étaient les leaders mondiaux en matière de satellites géostationnaires, ont financé et développé des programmes concurrents dans ce domaine, en bénéficiant du soutien extrêmement fort des agences nationales et, donc indirectement de l’État français. Ainsi, deux programmes de R&amp;D concurrents ont été développés pour aboutir à des technologies proches, pour ne pas dire similaires, et ont été payés deux fois.<br/>Ce qui était concevable à un moment où nos deux champions dominaient le marché mondial ne l’est plus dès lors que nous ne sommes plus en position de leader incontesté mais plutôt dans celle du challenger qui doit redévelopper des capacités. Alors que nous avons besoin de davantage de synergies et qu’il nous faut réfléchir à une meilleure utilisation des ressources et à la coordination des programmes de R&amp;D, ce n’est pas une lubie de penser qu’il faut rassembler ces deux acteurs. Derrière ce rapprochement se profilent des économies d’échelle considérables. Je crois vraiment qu’il faut le faire. C’est aussi un problème d’équipements redondants : nous avons les mêmes à Nice, à Cannes et à Toulouse. À un moment donné, il nous faut davantage de logique et de concertation.<br/>Il s’agit d’un projet industriel. Cela signifie que les industriels ont les clés de ce programme, de sorte que je ne peux pas répondre à toutes vos questions.<br/>Vous avez évoqué les lignes rouges pour l’État. Il me semble qu’elles seraient les suivantes : à l’occasion de ce rapprochement, la Commission européenne va examiner les questions de non-concurrence, voir si le rapprochement pose, ou non, des difficultés en la matière et, dans l’affirmative, demander éventuellement des compensations. Nous y serons très attentifs : si ces compensations compromettaient l’intérêt du programme inintéressant, nous ne le ferions pas, mais il est crucial de conserver les compétences clés en France et en Europe.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2898281" ordre_absolu_seance="190" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044535" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5800.00">La parole est à Mme Christine Arrighi.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2898282" ordre_absolu_seance="191" id_acteur="PA793780" id_mandat="PM842714" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044536" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Christine Arrighi (EcoS)</nom>
+              <id>793780</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5862.41">Nous avons déjà posé des questions aux invités de la table ronde précédente : nous attendons de voir si vos réponses corroborent, ou non, les leurs.<br/>Nous avons évoqué l’écosystème industriel du secteur spatial, qui me paraît très important, ainsi que les règles qui lui sont applicables au travers de la question de la bataille normative. Je reviendrai sur ces deux points.<br/>Nous avons appris aujourd’hui que le tribunal des activités économiques de Lyon avait rejeté le projet de reprise de Vencorex. Vencorex, en Isère, fournit du perchlorate de sodium à ArianeGroup. Le groupe Écologiste et social avait proposé une nationalisation temporaire de Vencorex pour préserver notre souveraineté d’approvisionnement, ce qui a été rejeté par le gouvernement. Quel enseignement tirez-vous de la fermeture de cette entreprise qui va être démantelée, voire donnée à un ferrailleur, laissant 450 salariés sur le carreau ? Comment remédier à nos faiblesses les plus critiques, étant observé qu’en l’occurrence, ne plus disposer de la ressource nécessaire à Ariane 6 sur le territoire national constitue une vraie vulnérabilité ? Comment expliquez-vous que l’État soit si fragile ou du moins si hésitant et laisse partir une telle ressource chimique, alors même qu’il aurait pu y avoir un plan de reprise ou une nationalisation temporaire ?<br/>Deuxième question : l’Europe est-elle encore en mesure d’imposer des règles en matière de durabilité orbitale, de gestion des débris et des fréquences – nous avons évoqué le far west des constellations lors de la table ronde –, ou pensez-vous qu’elle est déjà en train de perdre la bataille normative ? En fonction de votre réponse, qu’est-ce qui garantit que l’Europe puisse continuer à être le maître du jeu en ce domaine ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2898286" ordre_absolu_seance="195" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044540" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6004.29">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2898287" ordre_absolu_seance="196" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044541" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6013.18">La question des débris, des fréquences et de la durabilité ne peut évidemment se régler qu’à un niveau mondial, en mettant autour de la table les deux puissances qui placent le plus de satellites en orbite basse, c’est-à-dire les États-Unis et la Chine. Les fréquences et les débris seront d’ailleurs au cœur du sommet spatial international qui se tiendra à Paris : j’espère que nous parviendrons à réunir toutes les puissances spatiales mondiales pour dialoguer sur le sujet.<br/>Quels que soient les dissensus politiques ou géostratégiques entre les pays, ils utilisent la même orbite basse à 400 km d’ici, et il faut bien, à un moment ou un autre, qu’ils se mettent d’accord pour partager une orbite possiblement encombrée – cela me rend optimiste ! Certes, l’encombrement reste mesuré mais nous avons besoin d’un certain nombre de règles, aussi bien en matière de fréquence qu’en matière de débris et de trafic orbital, et il faut arriver à se mettre d’accord sur ces questions.<br/>En ce qui concerne Vencorex, je crois que les investissements en jeu à l’époque étaient absolument considérables et ne permettaient pas une reprise aisée, ce qui semble se confirmer – je manque des derniers éléments qui me permettraient d’être plus précis.<br/>S’agissant des conséquences pour nos lanceurs, nous disposons des stocks nécessaires pour quelques années. Je n’ai pas les chiffres précis en tête mais les stocks sont bien là.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2898290" ordre_absolu_seance="200" id_acteur="PA793780" id_mandat="PM842714" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044544" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Christine Arrighi</nom>
+              <id>793780</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6078.60">Pourquoi aller chercher en Pologne et en Allemagne, alors ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898386" ordre_absolu_seance="201" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044779" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6095.00">La parole est à Mme Sophie Mette.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898387" ordre_absolu_seance="202" id_acteur="PA719640" id_mandat="PM842831" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044780" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Sophie Mette (Dem)</nom>
+              <id>719640</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6149.11">La France est une grande nation spatiale. Avec le Cnes, Ariane, Copernicus ou Galileo, elle a longtemps incarné l’excellence européenne dans la conquête spatiale. C’est encore le cas aujourd’hui puisque sa filière industrielle représente 40 % des emplois du secteur en Europe et comprend des groupes mondialement reconnus comme Airbus Defence and Space ou encore Thales.<br/>Face à des acteurs privés américains qui dominent désormais l’internet par satellite et imposent un rythme d’innovation sans précédent, l’Europe a accusé un certain retard – ceux d’Ariane 6, couplés à la forte compétition imposée par SpaceX, ont mis à mal notre souveraineté en matière de lanceurs.<br/>Cependant, une réponse a bien été apportée. Le président de la République s’est engagé avec détermination. Le plan France 2030 consacre 1,5 milliard au spatial, dont près d’un tiers est fléché vers les start-up. Au niveau européen, l’ESA a présenté une demande de financement de 23 milliards pour 2026-2028 – un montant en forte hausse par rapport à la période précédente.<br/>Monsieur le ministre, comment entendez-vous transformer cet élan budgétaire en succès industriel durable ? Comment la France compte-t-elle peser davantage au sein de l’ESA et convaincre ses partenaires européens d’accélérer ensemble pour que l’Europe cesse de subir la compétition américaine ?<br/>Par ailleurs, quelles mesures envisagez-vous pour que nos universités et nos laboratoires de recherche forment davantage de talents qui choisissent de construire leur avenir dans la filière spatiale française plutôt qu’américaine ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898392" ordre_absolu_seance="207" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044785" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6208.56">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898393" ordre_absolu_seance="208" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044786" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6248.22">Tout d’abord, s’agissant des talents – une question essentielle –, il faut rappeler que le secteur spatial continue de faire rêver, en particulier les jeunes. Il représente pour eux une porte d’entrée vers les sciences et les technologies alors même qu’en France, comme d’ailleurs partout en Europe, on a beaucoup de mal à susciter leur intérêt pour ces domaines. Le secteur spatial joue ainsi un rôle de moteur, de locomotive. À cet égard, des personnalités telles que Thomas Pesquet ou Sophie Adenot, considérées comme des modèles, constituent des atouts essentiels. Nous avons une chance extraordinaire de pouvoir faire appel à eux.<br/>Vous l’avez mentionné, nous avons beaucoup investi dans les start-up au cours des dernières années. C’est un choix politique assumé. Je pourrais aussi évoquer le<italique> new</italique><italique> space</italique>, un modèle fortement développé par nos partenaires américains et par des pays asiatiques.<br/>Le calcul est simple : on investit dans des start-up parce qu’elles représentent un raccourci en matière d’innovation. En effet, elles font des paris technologiques dont elles dépendent intégralement. Par conséquent, elles peuvent aller plus vite que des grands groupes, pour un coût beaucoup moins élevé – avec bien sûr, en contrepartie, l’éventualité que plusieurs de ces entreprises, qui prennent des risques considérables, n’aillent pas au bout du processus.<br/>Nous avons souhaité lancer et développer ce modèle très différent, notamment dans le cadre de France 2030. L’expérience me semble plutôt prometteuse mais nous devrons attendre quelques années avant d’en dresser un bilan. Actuellement, certaines entreprises semblent très bien orientées tandis que quelques-unes ont déjà fait faillite.<br/>Vous m’avez également demandé comment la France comptait jouer un rôle plus important au sein de l’ESA. Cette question est complexe. Pendant très longtemps, notre pays a été le leader incontesté du secteur spatial en Europe, ce qui n’est plus le cas aujourd’hui si l’on considère le volume de contribution. Dès lors, mécaniquement, les positionnements ne sont plus exactement les mêmes. L’agence dispose de davantage d’autonomie par rapport à la France qu’auparavant, ce qui n’est pas forcément grave. En revanche, il me semble fondamental qu’elle renforce ses capacités compétitives et concurrentielles.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898398" ordre_absolu_seance="213" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044791" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6394.99">La parole est à M. David Taupiac.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898399" ordre_absolu_seance="214" id_acteur="PA793796" id_mandat="PM842723" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044792" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. David Taupiac (LIOT)</nom>
+              <id>793796</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6406.79">L’espace représente désormais un enjeu majeur en matière de souveraineté, à la fois civile et militaire, au cœur des rapports de puissance. Face à la montée des tensions internationales et à l’aggravation de la dépendance technologique européenne, il convient de concilier ambition spatiale et souveraineté.<br/>Malgré les efforts engagés, l’Europe reste confrontée à des dépendances critiques, notamment s’agissant des composants soumis à la réglementation américaine ITAR sur les exportations en matière de défense mais aussi du recours à des lanceurs étrangers.<br/>Le contexte géopolitique impose une montée en puissance rapide : les États-Unis sont très en avance dans le<italique> new</italique><italique> space</italique>, les investissements de la Chine sont massifs et nous assistons à une militarisation croissante de l’espace.<br/>Plusieurs programmes européens structurants doivent encore faire leurs preuves – par exemple Iris, Galileo ou le GovSatcom, le programme de communication par satellite de l’Union européenne. Leur réussite dépendra de différents facteurs : la pérennité des financements, la tenue du calendrier et la volonté politique à l’échelle européenne. J’ajoute que la frontière entre usage civil et militaire devient de plus en plus poreuse.<br/>Dans un contexte géopolitique tendu, marqué par l’interdépendance, quelle stratégie la France et l’Europe doivent-elles déployer pour garantir une véritable autonomie stratégique dans le domaine spatial ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898404" ordre_absolu_seance="219" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044797" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6422.94">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898405" ordre_absolu_seance="220" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044798" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6440.43">Je partage totalement votre point de vue. Il s’agit d’un enjeu majeur. Dans le contexte géostratégique actuel, il me semble – et c’est la position de la France – que développer nos capacités spatiales sans jouer la carte de l’autonomie stratégique nationale et européenne n’a pas de sens. Pendant très longtemps, notre pays était relativement isolé sur ce point mais de plus en plus de pays membres de l’Agence spatiale européenne sont aujourd’hui d’accord avec nous.<br/>Sauf erreur de ma part – il faudrait vérifier –, Ariane 6 est intégralement ITAR<italique> free</italique>. Autrement dit, le lanceur ne comprend pas de composants américains et n’est donc pas soumis à la réglementation que vous avez mentionnée. Il faudrait, bien sûr, que les nouvelles générations de satellites, en particulier dans les télécommunications, dont nous disposerons soient tout aussi indépendantes – sinon, autant acheter des services à SpaceX.<br/>Pour atteindre cette autonomie, il faut accepter de payer les coûts de développement nécessaires pour remédier aux retards technologiques que nous avons connus. Il faut aussi assumer le fait que ce processus est plus lent et complexe que si nous nous contentions d’aller chercher sur une étagère les outils américains disponibles.<br/>L’autonomie stratégique n’est pas uniquement un discours mais représente bien sûr un coût. Elle peut, à l’arrivée, constituer une force industrielle mais, au départ, c’est un pari. Je crois profondément qu’il faut relever ce défi et investir dans ce domaine.<br/>Vous avez cité différents programmes. S’agissant d’Iris, nous ne sommes pas au bout du processus, de nombreuses questions se posent encore, le pari n’est pas encore gagné. D’autres se révèlent de très grands succès européens, par exemple Galileo, le GPS européen qui est aussi, vous le savez, le meilleur GPS mondial.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898410" ordre_absolu_seance="225" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044803" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6584.69">La parole est à M. Jean-Victor Castor.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898411" ordre_absolu_seance="226" id_acteur="PA795868" id_mandat="PM843722" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044804" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jean-Victor Castor (GDR)</nom>
+              <id>795868</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6606.42">En 1985, François Mitterrand déclarait qu’il ne fallait plus lancer de fusée sur fond de bidonville. En 2017, alors que des milliers de personnes avaient occupé la base spatiale dans le cadre d’un mouvement social. Jean-Claude Juncker, alors président de la Commission européenne, expliquait que la Guyane était la grande oubliée du spatial.<br/>Aujourd’hui, derrière l’affichage stratégique, la réalité demeure profondément déséquilibrée. Tout d’abord, on ne constate aucun rendement concret à la hauteur des enjeux : ni fiscalité foncière ni octroi de mer et des retombées économiques limitées pour la population locale, malgré une activité à fort impact environnemental et territorial.<br/>Ensuite, les Guyanais n’ont jamais été réellement consultés. Nous assistons à la consolidation d’une base à la fois commerciale et militarisée de plus en plus opaque. Le contentieux avec la Russie autour de Soyouz, puis l’ouverture à d’autres lanceurs illustrent la rapidité de l’évolution, sans réel débat local.<br/>Or cette évolution n’est pas neutre. Elle expose la Guyane à de nouveaux risques, y compris celui de devenir une cible dans un contexte de tensions internationales.<br/>Je m’interroge également sur le manque de transparence des études d’impact sur la faune, la flore et les populations.<br/>Les Guyanais sont confrontés au quotidien à un paradoxe : nous sommes une terre de lancement de satellites, mais une grande partie du territoire reste en zone blanche, avec l’une des couvertures GSM les plus dégradées de France.<br/>Enfin, la participation locale recule. Il n’existe aujourd’hui plus de cadre clair s’agissant de la contribution du Cnes au développement économique du territoire.<br/>Ma question est simple : comment justifier un modèle spatial qui, en Guyane, concentre les risques, limite les retombées et exclut les populations locales des décisions ? Surtout, êtes-vous prêt, en associant pleinement élus locaux et acteurs du territoire, à instaurer une commission d’évaluation des retombées de l’industrie spatiale en Guyane ainsi qu’une commission de réparation chargée des préjudices liés à l’implantation de la base ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898419" ordre_absolu_seance="234" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044812" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6718.44">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898420" ordre_absolu_seance="235" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044813" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6728.97">En tant qu’ancien président du Cnes, j’ai souvent eu l’occasion de me rendre en Guyane. J’ai pu mesurer à la fois la place qu’occupe le secteur spatial en Guyane et celle que la Guyane occupe dans le secteur spatial. Je sais que cette région et ce secteur sont profondément imbriqués.<br/>Je rappelle que la base spatiale représente une partie significative de l’activité économique de la Guyane – environ 10 % du PIB, de mémoire. Les personnes qui travaillent sur la base ont été formées en Guyane. Les contrats sont très majoritairement locaux – à hauteur de 80 %, de mémoire, là encore –, ce qui constitue une profonde évolution par rapport au moment où la base spatiale a été créée. Les Guyanais prennent donc pleinement part à cette activité économique.<br/>La question de l’octroi de mer a été débattue à de nombreuses reprises, notamment avec la collectivité territoriale de Guyane. Si l’on instaure un octroi de mer, mécaniquement, on perd en compétitivité et l’on se prive par conséquent de lancements. Une telle mesure nuirait donc à la base, mais je suis tout à fait prêt à discuter de ces questions.<br/>Vous avez évoqué le problème des zones blanches. Les acteurs du spatial sont mobilisés sur ce dossier. Ils se sont attelés à plusieurs projets visant à fournir l’internet par satellite à différentes écoles de Guyane, notamment le long des fleuves et dans les terres, là où il n’existe pas toujours d’accès satellitaire direct.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898424" ordre_absolu_seance="239" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044817" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6824.03">La parole est à Mme Corinne Vignon.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898425" ordre_absolu_seance="240" id_acteur="PA719512" id_mandat="PM842699" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044818" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Corinne Vignon (EPR)</nom>
+              <id>719512</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6872.82">J’ai de nombreuses questions à l’esprit, j’essaierai de vous en poser une seule. Le secteur spatial est confronté à une fragmentation croissante : multiplication des constellations en orbite basse, pression des fréquences, concurrence agressive des États-Unis et de la Chine, difficulté à articuler efficacement les priorités publiques entre les grands groupes, les start-up et le<italique> new space</italique> – et j’en passe.<br/>Malgré la présence d’acteurs majeurs et une excellence reconnue, la gouvernance, en France, reste éclatée. Il y a le Cnes, les industriels, le Gifas et l’ESA, mais on ne distingue aucune véritable structure stratégique de pilotage au niveau national.<br/>À l’inverse, grâce à la plateforme de la filière automobile, l’ensemble des acteurs de ce secteur, les pouvoirs publics et les industriels sont alignés et unis autour d’une vision assez claire, ce qui permet de coordonner les investissements et de renforcer la compétitivité.<br/>Alors que l’espace est devenu, depuis longtemps, un enjeu de souveraineté, de défense et de puissance économique, ne pensez-vous pas qu’il serait nécessaire de structurer une véritable filière spatiale sur ce modèle, afin d’éviter une dispersion des efforts et de garantir une stratégie cohérente face au poids des grandes puissances ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898429" ordre_absolu_seance="244" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4044822" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6901.71">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2898430" ordre_absolu_seance="245" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4044823" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6977.90">Bien sûr, le système de gouvernance actuel peut être amélioré – on constate parfois en effet une forme de fragmentation. Cependant, la coordination repose avant tout sur les programmes et les projets, qui restent majoritairement financés par les puissances publiques, c’est-à-dire l’État mais aussi l’Agence spatiale européenne – très souvent, lorsqu’on parle de l’action de celle-ci, on désigne en réalité indirectement l’État, ou les États lorsqu’ils s’associent.<br/>La coordination existe donc de manière très forte dans la filière spatiale – contrairement par exemple à la filière automobile, où il faut compter notamment avec une multiplicité de clients. Il n’empêche qu’il peut en effet exister des rivalités entre industriels, entre structures de financements, entre programmes, entre projets. Il faut donc continuer à travailler sur ce point.<br/>Le premier enjeu est la capacité à mieux s’organiser au niveau européen, c’est-à-dire à sortir des tensions et des rivalités industrielles entre pays européens pour agir ensemble au niveau international. Un travail important doit être mené pour y parvenir.<br/>Nous devons aussi réfléchir à l’articulation entre le rôle de l’ESA et celui de la Commission. Leurs périmètres, les États impliqués – certains États membres de l’ESA ne sont pas membres de l’Union européenne – et les majorités qui se dégagent dans l’une et l’autre structure ne sont pas les mêmes. Cela constitue un important facteur de complexité qui requiert un travail considérable, loin d’être simple, en vue de faire évoluer les règles, en particulier celle du retour géographique, qui s’est à plusieurs reprises montrée délétère pour les programmes industriels.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2898074" ordre_absolu_seance="249" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045021" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7018.91">La parole est à Mme Marie Récalde.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2898075" ordre_absolu_seance="250" id_acteur="PA341981" id_mandat="PM842822" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045022" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Marie Récalde (SOC)</nom>
+              <id>341981</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7100.53">Je rappelle d’abord que la France et l’Europe disposent d’atouts indéniables dans le domaine spatial. Cela peut paraître évident mais je crois qu’il est bon de ne pas sous-estimer ces atouts – on a trop tendance, parfois, à se couvrir la tête de cendres.<br/>La compétitivité de notre pays et, plus largement, la compétitivité européenne reposent sur la qualité des services et des produits que nous proposons. Le secteur des lanceurs illustre parfaitement ce savoir-faire, comme en témoigne Ariane, notamment en Gironde. En outre, on observe un changement dans l’approche du risque, mis en avant par l’exemple de MaiaSpace.<br/>Depuis le début de cette soirée, on rappelle qu’une politique spatiale efficace passe par un degré élevé d’autonomie, par un secteur industriel fort mais également par la multiplicité des propositions, donc par la redondance des infrastructures – on pourrait examiner la question d’un second pas de tir ainsi que celle des systèmes dans l’espace.<br/>Cette politique suppose encore un effort de coopération pragmatique au niveau européen, en vue de maintenir un niveau important de compétitivité face à des concurrents qui bénéficient souvent d’un marché captif et d’un fort soutien de leurs appareils étatiques respectifs. Or de nombreux acteurs du<italique> new space</italique> soulignent que certains acteurs étatiques français manqueraient encore trop souvent d’ouverture envers les PME, alors même qu’elles pourraient apporter des solutions innovantes et compétitives, notamment du point de vue de leur coût, puisque, comme vous le savez, monsieur le ministre, elles jouent un rôle central dans le secteur spatial.<br/>Au-delà de la nécessité d’encourager agilité et innovation par cette plus grande ouverture aux PME, quelles seront les mesures adoptées pour garantir que le pacte spatial auquel vous avez fait référence soit réellement accessible et transparent pour ces entreprises ?<br/>Enfin, en matière de défense spatiale, la France et l’Europe demeurent fortement dépendantes des États-Unis, que ce soit pour le renseignement, l’observation spatiale, la connectivité internet ou encore la surveillance des orbites. Cette dépendance, mise en lumière par le retour d’expérience du conflit ukrainien, soulève des préoccupations majeures. Quatre ans après le choc ukrainien, il est légitime de s’interroger : quel est l’état des lieux et quels efforts faut-il encore accomplir pour renforcer notre autonomie stratégique dans ce domaine ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2898081" ordre_absolu_seance="256" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045028" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7236.00">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2898082" ordre_absolu_seance="257" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045029" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7240.56">Vous avez raison et je vous remercie d’avoir rappelé nos atouts. L’exemple des lanceurs est très bon. Comme je l’ai dit, Ariane 6 fonctionne – même si je ne peux pas ne pas mentionner qu’elle est malheureusement arrivée avec quelques années de retard et que son développement a occasionné des surcoûts que je qualifierai pudiquement de significatifs… Néanmoins, elle est là.<br/>En outre, Maia semble très bien orientée et témoigne d’une capacité à produire un lanceur différemment, en prenant plus de risques et en conférant davantage d’autonomie à l’industriel. Les choses bougent donc dans la bonne direction et la crise des lanceurs – je touche du bois – est derrière nous.<br/>Vous avez mentionné la possibilité de disposer d’un second pas de tir, pour bénéficier d’une redondance par rapport à la Guyane. Il faut tout de même mesurer le coût des investissements que cela supposerait, qui se chiffre en milliards d’euros pour un seul pas de tir supplémentaire.<br/>Nos partenaires américains peuvent compter quant à eux sur plusieurs pas de tir, tout comme les Chinois, mais je rappelle – cela répondra aussi à beaucoup des questions que vous avez posées ensuite – que le budget spatial américain est de l’ordre de 80 ou 90 milliards de dollars par an, soit à peu près sept fois le budget européen… À l’impossible, nul n’est tenu ! Il faut tenir compte de cette différence d’échelle, qui explique bien des choses, et avoir en tête que les investissements américains ont spectaculairement crû ces dernières années, surtout dans le domaine de la défense spatiale. À ce stade, nous autres, en Europe, n’avons pas été capables de les suivre, ce qui induit en effet certaines dépendances, pas sur tous les plans, mais sur nombre d’entre eux.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2898086" ordre_absolu_seance="261" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045033" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7293.36">La parole est à M. Jean-Victor Castor.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2898087" ordre_absolu_seance="262" id_acteur="PA795868" id_mandat="PM843722" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045034" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jean-Victor Castor (GDR)</nom>
+              <id>795868</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7368.86">Vous n’avez pas répondu à mes questions. Je vous demandais précisément si vous étiez prêt à créer une commission d’évaluation des retombées de l’installation de notre centre spatial en Guyane, où siégeraient, bien sûr, les élus guyanais et les acteurs locaux. Il vous a d’ailleurs été difficile de me dire, chiffres à l’appui, ce que représente vraiment le secteur spatial en Guyane – il n’aurait pas pu en être autrement, étant donné son opacité. C’est un vieux sujet. J’ai pris le temps de vous rappeler qu’en 2017, des milliers de personnes avaient occupé la base, un site militaro-industriel stratégique, et je pense que vous prenez cela un peu à la légère.<br/>Je ne crois pas que l’on puisse continuer de la sorte. La population de la Guyane augmente et malheureusement, ce territoire, ce pays, s’appauvrit : en 2017, 20 % des Guyanais vivaient sous le seuil de pauvreté – en prenant pour base de calcul un seuil fixé à un niveau bien plus bas que le seuil national –, contre 53 % en 2022, cinq ans après ! On ne peut donc pas continuer ainsi.<br/>Vous dites, s’agissant par exemple de l’octroi de mer, que cela poserait un problème. J’entends bien mais j’ai envie d’adopter le point de vue inverse : ce qui pose un problème, c’est de considérer qu’on peut continuer à lancer des fusées même si le territoire s’appauvrit ! Une partie des budgets prévus pour le secteur spatial devrait donc très clairement être consacrée au développement de la Guyane. Or il n’en a jamais été ainsi et ce besoin a toujours été relégué à la marge.<br/>En tant que député de la Guyane, je tiens à vous le dire : cette situation n’est plus acceptable, elle n’est pas tenable ! Il faut mener une vraie réflexion sur la participation, pas simplement du point de vue de l’emploi, mais en prenant pour point de départ le fait que la parole publique a assuré, dès l’implantation de l’activité spatiale, que les expropriés auraient dû être indemnisés. Or cette indemnisation n’a jamais eu lieu et cette parole n’a jamais été tenue ! C’est un péché originel qui se perpétue.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2898091" ordre_absolu_seance="266" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045038" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7463.33">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2898092" ordre_absolu_seance="267" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4045039" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7509.31">Je suis bien conscient que les difficultés économiques et sociales de la Guyane sont réelles et profondes. Il me semble néanmoins – mais je suis tout à fait prêt à en discuter plus longuement – que l’activité spatiale constitue plutôt une richesse et un poumon économique pour ce territoire. Aujourd’hui, la très grande majorité des personnes qui travaillent dans le centre spatial guyanais ont un contrat local et vivent et dépensent en Guyane, ce qui contribue à sa richesse.<br/>Cela répond-il à l’ensemble de ses difficultés économiques et sociales ? Non, mais vous savez comme moi qu’il s’agit de très loin de la première, et quasiment de la seule, activité industrielle guyanaise. Elle est donc importante et bénéficie au territoire.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2898094" ordre_absolu_seance="269" id_acteur="PA795868" id_mandat="PM843722" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045041" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jean-Victor Castor</nom>
+              <id>795868</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7559.35">Pas sur le plan fiscal !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2898095" ordre_absolu_seance="270" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045042" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7577.52">Les gens paient tout de même des impôts et l’activité économique qu’elle engendre est soumise à des taxes !<br/>Vous avez évoqué les expropriations. Je sais très bien que lors de l’installation de la base, les choses se sont parfois faites de manière extrêmement brutale. Des discussions ont eu lieu, ainsi que des compensations, très discutables quant à leur forme et à la manière dont elles ont été accordées. Un dialogue constant et ininterrompu s’est noué entre la direction du centre spatial et les familles expropriées. J’ai en tête le musée installé sur le site du centre, où le premier élément qui apparaît est bien la brutalité de cette expropriation. Je comprends qu’il s’agit d’une blessure encore vivace, dont je ne peux que constater la réalité. Je suis tout à fait prêt à poursuivre le dialogue avec vous et à travailler à nouveau sur cette question, dont il est normal qu’elle soit toujours réabordée et remise en exergue, même si l’on ne peut pas dire que rien n’ait été fait.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2898096" ordre_absolu_seance="272" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="-1" id_nomination_op="PM873246" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PRESIDE_DISCOURS_1_10" sommaire="0" id_syceron="4045162" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7651.45">Le débat est clos.</texte>
+        </paragraphe>
+      </point>
+    </point>
+    <finSeance>
+      <point nivpoint="1" valeur_ptsodj="2" ordinal_prise="8" id_preparation="2898098" ordre_absolu_seance="274" code_grammaire="FIN_SEAN_1_2" code_style="Titre" code_parole="" sommaire="1" id_syceron="4045045" valeur="">
+        <orateurs/>
+        <texte>Ordre du jour de la prochaine séance</texte>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="8" id_preparation="2898099" ordre_absolu_seance="275" id_acteur="PA720468" id_mandat="PM840333" id_nomination_oe="0" id_nomination_op="PM873246" code_grammaire="FIN_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4045046" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7655.48">Prochaine séance, demain, à neuf heures :<br/> Discussion, en deuxième lecture, de la proposition de loi relative aux missions des professionnels de santé, vétérinaires, psychothérapeutes et psychologues des services d’incendie et de secours ;<br/>Discussion de la proposition de loi visant à renforcer l’effectivité des droits voisins des éditeurs et des agences de presse ;<br/> Discussion, en deuxième lecture, de la proposition de loi visant à simplifier la sortie de l’indivision et la gestion des successions vacantes ;<br/> Discussion de la proposition de loi visant à renforcer la place des agriculteurs dans l’aménagement du territoire et à sécuriser l’exercice des activités agricoles face au changement climatique ;<br/> Discussion de la proposition de loi visant à soutenir les collectivités territoriales dans la prévention et la gestion des inondations ;<br/>Discussion de la proposition de loi visant à renforcer l’enseignement à la défense nationale dans le cadre du parcours de citoyenneté ;<br/> Discussion de la proposition de loi visant à renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État ;<br/> Discussion de la proposition de loi visant à interdire les sucres ajoutés dans les aliments destinés aux nourrissons et aux enfants en bas âge ;<br/> Discussion de la proposition de loi relative à la sécurisation des marchés publics numériques.<br/> La séance est levée.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="8" id_preparation="2898100" ordre_absolu_seance="276" code_grammaire="FIN_SEAN_2_4" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4045047" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance est levée à vingt-trois heures vingt-cinq.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="8" id_preparation="2898101" ordre_absolu_seance="277" code_grammaire="FIN_SEAN_2_5" code_style="Signature droite" code_parole="" sommaire="0" id_syceron="4045048" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>Le directeur des comptes rendus<br/> Serge Ezdra</italique>
+          </texte>
+        </paragraphe>
+      </point>
+    </finSeance>
+  </contenu>
+</compteRendu>

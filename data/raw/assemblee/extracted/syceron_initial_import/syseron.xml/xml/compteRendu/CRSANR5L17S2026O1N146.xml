@@ -1,0 +1,1340 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compteRendu xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid>CRSANR5L17S2026O1N146</uid>
+  <seanceRef>RUANR5L17S2026IDS30261</seanceRef>
+  <sessionRef>SCR5A2026O1</sessionRef>
+  <metadonnees>
+    <dateSeance>20260211214500000</dateSeance>
+    <dateSeanceJour>mercredi 11 février 2026</dateSeanceJour>
+    <numSeanceJour>2</numSeanceJour>
+    <numSeance>146</numSeance>
+    <typeAssemblee>AN</typeAssemblee>
+    <legislature>17</legislature>
+    <session>Session ordinaire 2025 -2026</session>
+    <nomFichierJo>20260146</nomFichierJo>
+    <validite>valide</validite>
+    <etat>complet</etat>
+    <diffusion>public</diffusion>
+    <version>avant_JO</version>
+    <environnement>PROD</environnement>
+    <heureGeneration>2026-02-18T14:29:23.000+01:00</heureGeneration>
+    <sommaire>
+      <presidentSeance id_syceron="4014083">Présidence de M. Christophe Blanchet</presidentSeance>
+      <sommaire1 valeur_pts_odj="1">
+        <titreStruct id_syceron="4014087">
+          <intitule>Quelle réforme des bourses sur critères sociaux pour faire face à l’aggravation de la précarité des étudiants ?</intitule>
+          <sousIntitule>0</sousIntitule>
+        </titreStruct>
+        <para id_syceron="4014094">Mme Manon Moret, secrétaire générale adjointe de l’Unef</para>
+        <para id_syceron="4014109">M. Tom Chevalier, chercheur au CNRS, spécialiste des politiques de jeunesse</para>
+        <para id_syceron="4014124">Mme Marie Mesmeur (LFI-NFP)</para>
+        <para id_syceron="4014130">Mme Manon Moret</para>
+        <para id_syceron="4014318">M. Arnaud Bonnet (EcoS)</para>
+        <para id_syceron="4014321">Mme Manon Moret</para>
+        <para id_syceron="4014325">Mme Delphine Lingemann (Dem)</para>
+        <para id_syceron="4014329">M. Tom Chevalier</para>
+        <para id_syceron="4014336">M. Stéphane Lenormand (LIOT)</para>
+        <para id_syceron="4014341">Mme Manon Moret</para>
+        <para id_syceron="4014347">Mme Soumya Bourouaha (GDR)</para>
+        <para id_syceron="4014625">Mme Manon Moret</para>
+        <para id_syceron="4014627">M. Tom Chevalier</para>
+        <para id_syceron="4014629">M. Julien Brugerolles (GDR)</para>
+        <para id_syceron="4014632">Mme Manon Moret</para>
+        <para id_syceron="4014636">Mme Marie Mesmeur (LFI-NFP)</para>
+        <para id_syceron="4014640">M. Tom Chevalier</para>
+        <para id_syceron="4014646">Mme Delphine Lingemann (Dem)</para>
+        <para id_syceron="4014649">M. Tom Chevalier</para>
+        <para id_syceron="4014654">M. Stéphane Lenormand (LIOT)</para>
+        <para id_syceron="4014656">Mme Manon Moret</para>
+        <para id_syceron="4014817">Mme Soumya Bourouaha (GDR)</para>
+        <para id_syceron="4014819">Mme Manon Moret</para>
+        <para id_syceron="4014823">M. Tom Chevalier</para>
+        <para id_syceron="4014825">Mme Marie Mesmeur (LFI-NFP)</para>
+        <para id_syceron="4014827">M. Tom Chevalier</para>
+        <para id_syceron="4014830">Mme Manon Moret</para>
+      </sommaire1>
+      <sommaire3>
+        <titreStruct id_syceron="4014172">
+          <intitule>
+            <italique>Suspension et reprise de la séance<br/></italique>
+          </intitule>
+        </titreStruct>
+        <para id_syceron="4014177">M. Philippe Baptiste, ministre de l’enseignement supérieur, de la recherche et de l’espace</para>
+        <para id_syceron="4014194">Mme Soumya Bourouaha (GDR)</para>
+        <para id_syceron="4014199">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4014204">M. Emmanuel Fernandes (LFI-NFP)</para>
+        <para id_syceron="4014283">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4014290">Mme Delphine Lingemann (Dem)</para>
+        <para id_syceron="4014296">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4014302">M. Stéphane Lenormand (LIOT)</para>
+        <para id_syceron="4014308">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4014312">M. Julien Brugerolles (GDR)</para>
+        <para id_syceron="4014315">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4014704">Mme Marie Mesmeur (LFI-NFP)</para>
+        <para id_syceron="4014710">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4014714">M. Arnaud Bonnet (EcoS)</para>
+        <para id_syceron="4014719">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4014722">Mme Soumya Bourouaha (GDR)</para>
+        <para id_syceron="4014725">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4014728">M. Stéphane Lenormand (LIOT)</para>
+        <para id_syceron="4014731">M. Philippe Baptiste, ministre de l’enseignement supérieur, de la recherche et de l’espace</para>
+        <para id_syceron="4014839">Mme Delphine Lingemann (Dem)</para>
+        <para id_syceron="4014841">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4014845">Mme Soumya Bourouaha (GDR)</para>
+        <para id_syceron="4014848">M. Philippe Baptiste, ministre</para>
+        <para id_syceron="4014851">M. Arnaud Bonnet (EcoS)</para>
+        <para id_syceron="4014854">M. Philippe Baptiste, ministre</para>
+      </sommaire3>
+      <sommaire1 valeur_pts_odj="2">
+        <titreStruct id_syceron="4014857">
+          <intitule>Ordre du jour de la prochaine séance</intitule>
+        </titreStruct>
+      </sommaire1>
+    </sommaire>
+  </metadonnees>
+  <contenu>
+    <quantiemes>
+      <journee>Deuxième séance du mercredi 11 février 2026</journee>
+      <session>Session ordinaire 2025 -2026</session>
+    </quantiemes>
+    <ouvertureSeance nivpoint="1" valeur_ptsodj="0" ordinal_prise="1" id_preparation="2870975" ordre_absolu_seance="1" code_grammaire="OUV_SEAN_1_1" code_style="Présidence" code_parole="" sommaire="1" id_syceron="4014083" valeur="">
+      <orateurs/>
+      <texte>Présidence de M. Christophe Blanchet<br/> vice-président</texte>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2870976" ordre_absolu_seance="2" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="OUV_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014084" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1702.64">La séance est ouverte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2870977" ordre_absolu_seance="3" code_grammaire="OUV_SEAN_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4014085" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(La séance est ouverte à</italique>
+          <italique> vingt</italique>
+          <italique> et</italique>
+          <italique> une</italique>
+          <italique> heure</italique>
+          <italique> quarante-cinq.)</italique>
+        </texte>
+      </paragraphe>
+    </ouvertureSeance>
+    <point nivpoint="1" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2870979" ordre_absolu_seance="5" code_grammaire="TITRE_TEXTE_DISCUSSION" code_style="Titre" code_parole="" sommaire="1" id_syceron="4014087" valeur="">
+      <orateurs/>
+      <texte>Quelle réforme des bourses sur critères sociaux pour faire face à l’aggravation de la précarité des étudiants ?</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2870980" ordre_absolu_seance="6" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="ODJ_APPEL_DISCUSSION" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014088" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1704.62">L’ordre du jour appelle le débat sur le thème : « Quelle réforme des bourses sur critères sociaux pour faire face à l’aggravation de la précarité des étudiants ? » Ce débat a été demandé par le groupe de la Gauche démocrate et républicaine.<br/>La conférence des présidents a décidé de l’organiser en deux parties, d’une durée d’une heure chacune. Nous commencerons par une table ronde, en présence de personnalités invitées, puis nous procéderons, après avoir entendu une intervention liminaire du gouvernement, à une séquence de questions-réponses. La durée des questions et des réponses sera limitée à deux minutes, sans droit de réplique.<br/>Pour la première phase du débat, je souhaite la bienvenue à Mme Manon Moret, secrétaire générale adjointe de l’Union nationale des étudiants de France, l’Unef, et à M. Tom Chevalier, chercheur au Centre national de la recherche scientifique, le CNRS, spécialiste des politiques de jeunesse. Chacun de nos invités aura la parole pour une intervention de cinq minutes.<br/>La parole est à Mme Manon Moret, secrétaire générale adjointe de l’Unef.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2870986" ordre_absolu_seance="10" id_acteur="PA-126329" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014094" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Manon Moret</nom>
+            <id>-126329</id>
+            <qualite>secrétaire générale adjointe de l’Unef</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="1780.84">Je vous remercie pour votre invitation. Ce débat est important : le système de bourses sur critères sociaux (BCS) n’a pas fait l’objet de réforme structurelle depuis plusieurs décennies – les bases de calcul sont restées les mêmes –, alors que la réalité de la vie étudiante, avec l’explosion de la précarité, est totalement différente et que le coût de la vie a augmenté de plus de 31 % depuis 2017.<br/>Le système de bourses est à bout de souffle et défaillant à plusieurs niveaux. Premièrement, les bourses sur critères sociaux sont attribuées en fonction du revenu des parents, ce qui signifie qu’en France, les jeunes sont majeurs juridiquement mais pas socialement. Aucune bourse n’est calculée en fonction de la situation des étudiants eux-mêmes, si bien que chaque année, des milliers d’entre eux perdent des échelons de bourse. Cette année, 17 000 étudiants ont perdu leur bourse à cause de variations minimes des revenus parentaux.<br/>Ce système paternaliste reproduit un schéma désuet et inégalitaire puisqu’il conduit à fermer les yeux sur la dépendance familiale, qui reste pourtant un frein majeur à l’autonomie. Encore trop d’étudiants sont exclus du système des bourses : 73 % n’y ont pas droit et doivent, pour payer leurs factures, se tourner vers le salariat étudiant, alors même que celui-ci représente un facteur important d’échec à l’université. Les étudiants étrangers en sont également exclus, bien qu’ils soient les plus précaires – une précarité encore aggravée par les dernières mesures du gouvernement, qui sont autant d’attaques envers leur situation.<br/>Enfin, le montant des bourses est largement insuffisant pour permettre à leurs bénéficiaires de vivre dignement. Il atteint, pour l’échelon le plus élevé, 633 euros mensuels, alors que le coût de la vie étudiante a explosé et dépasse 1 000 euros dans toutes les villes universitaires.<br/>Face à cette situation, une réforme structurelle est nécessaire, mais nous réclamons aussi, à l’Unef, des mesures d’urgence. Premièrement, les bourses doivent être annualisées. Les étudiants sont confrontés à des charges toute l’année, pas uniquement pendant les mois universitaires. Il faut mettre fin à cette situation aberrante qui voit des boursiers se retrouver sans ressources pendant l’été.<br/>Deuxièmement, le nombre de boursiers doit augmenter significativement. La précarité étudiante touche bien plus de personnes que les bénéficiaires actuels des bourses.<br/>Troisièmement, il faudrait indexer les bourses sur l’inflation. Je rappelle qu’elles représentent l’une des rares aides sociales pour lesquelles le moindre centime d’augmentation est forcément le fruit d’une décision politique.<br/>Quatrièmement, il est nécessaire de prévoir un complément de bourse spécifique de 200 euros dans les Drom, les départements et régions d’outre-mer. Le coût de la vie y est structurellement plus élevé que dans l’Hexagone. Or cet écart n’est pas compensé par la modique somme de 30 euros, complément de bourse obtenu par l’Unef il y a trois ans et qui n’a jamais été augmenté depuis.<br/>L’Unef réclame depuis soixante-dix ans une transformation en profondeur de notre système d’aides sociales. Actuellement, l’âge de la jeunesse n’est pas reconnu socialement. Nous souhaitons que la jeunesse, cette période particulière de la vie, soit reconnue comme une composante à part entière, et active, de la société et que, par conséquent, des droits sociaux lui soient accordés.<br/>Un tel statut social devrait garantir le droit au logement, à la santé et à la culture. Il s’accompagnerait d’un volet financier : la création d’une allocation d’autonomie versée à tous les étudiants, sans conditions de revenu, fondée sur leurs besoins propres. Nous devons sortir de la dépendance à la solidarité familiale et au salariat : telles sont les conditions essentielles pour que la jeunesse accède à l’autonomie et à l’émancipation. Le montant de l’allocation s’élèverait au niveau du seuil de pauvreté, soit 1 288 euros actuellement, ce qui n’est pas du luxe mais représente le minimum pour vivre dignement, se loger, se nourrir, se soigner et étudier dans de bonnes conditions, sans avoir besoin de se salarier.<br/>Pour financer cette allocation d’autonomie, l’Unef demande que soit créée une sixième branche de la sécurité sociale dédiée à la protection sociale de la jeunesse. Comme la santé, le chômage ou la vieillesse, la jeunesse doit devenir un pilier de notre modèle social.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2871000" ordre_absolu_seance="21" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014108" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2012.27">La parole est à M. Tom Chevalier, chercheur au CNRS, spécialiste des politiques de jeunesse.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2871001" ordre_absolu_seance="22" id_acteur="PA-126339" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014109" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Tom Chevalier</nom>
+            <id>-126339</id>
+            <qualite>chercheur au CNRS, spécialiste des politiques de jeunesse</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="2022.38">Je vous remercie pour votre invitation. Après l’intervention de Manon Moret, qui a décrit la situation actuelle, je vous propose de prendre un peu de recul. Mes travaux sur les politiques de jeunesse – notamment destinées aux étudiants – reposent sur des perspectives comparées. J’étudie et compare les différents modèles qui existent en Europe, ce qui me permet d’analyser la situation de la France par rapport à d’autres pays.<br/>On distingue en Europe deux grands modèles en matière d’aides aux étudiants, qui sont aussi deux manières de considérer la jeunesse.<br/>Dans certains pays, on considère les étudiants, et les jeunes, comme des enfants. On observe alors une logique de familialisation de l’action publique, ce qui signifie que les dispositifs proposés visent en réalité à aider les parents qui aident leurs enfants.<br/>À l’inverse, dans les pays nordiques ou anglo-saxons, on considère les jeunes comme des adultes. À l’âge de la majorité civile, 18 ans, on devient aussi majeur politiquement et socialement. Par conséquent, on peut recevoir l’ensemble des aides publiques, notamment les aides aux étudiants.<br/>Selon le modèle suivi par le pays, les effets produits sont très différents. Cela se vérifie concrètement, par exemple en matière de précarité. Dans les pays où l’on reconnaît aux étudiants et aux jeunes un statut de personne adulte, le niveau de pauvreté est beaucoup plus bas. Certes, les foyers ne bénéficient plus des dispositifs de politique familiale puisque les jeunes ne sont plus considérés comme des enfants. En revanche, l’attribution des aides ne dépend plus des revenus des parents, mais de ceux des jeunes. Par conséquent, la quasi-totalité d’entre eux peuvent recevoir une aide, sous une forme qui combine souvent bourse et prêt.<br/>Autre conséquence : le niveau de satisfaction vis-à-vis du système d’aides est plus élevé dans ces pays, alors que le niveau d’insatisfaction et de stress est très élevé dans les pays qui suivent l’autre modèle.<br/>Enfin, dans les pays où la citoyenneté sociale est individualisée, le niveau de confiance dans l’État est beaucoup plus élevé. L’obtention de ces aides plus généreuses constitue en effet le premier contact des jeunes avec l’administration, avec l’État social. Or on sait que le rapport à l’État est un facteur déterminant, notamment au moment du vote.<br/>En France, le système d’aides obéit très fortement à une logique de familialisation, en décalage avec la réalité des étudiants, lesquels demandent plus d’autonomie, de décohabitation, de mobilité. Or la familialisation repose sur l’idée qu’un étudiant habite chez ses parents. Ce modèle apparaît donc comme un frein à la mobilité entre les différentes villes et universités. Il est assez obsolète dans un contexte de massification de l’enseignement supérieur.<br/>Pour réformer le système d’aides et réduire significativement le niveau de la précarité étudiante, il faudrait prendre le chemin de la défamilialisation, une voie empruntée, depuis plusieurs années déjà, par la moitié des États européens.<br/>Deux options s’offrent à nous : premièrement, la défamilialisation par le haut, c’est-à-dire la suppression des dispositifs fiscaux destinés aux parents – on sait que ce sont les familles les plus favorisées qui bénéficient de telles aides, nombreuses en France. Deuxième possibilité : la défamilialisation par le bas, qui consiste à se concentrer sur les bourses, censées cibler les étudiants issus de milieux défavorisés.<br/>D’un pays à l’autre, tous les systèmes d’individualisation ne sont pas équivalents. Ainsi, au sein des aides proposées, la part de la bourse et celle du prêt ne sont pas les mêmes. En Suède, par exemple, l’aide aux étudiants se compose d’une bourse, à hauteur de 25 %, et d’un prêt, à hauteur de 75 %, alors qu’au Danemark, les proportions sont inversées et que, dans les pays anglo-saxons comme l’Angleterre, l’aide est versée uniquement sous forme de prêt.<br/>Si les équilibres varient et peuvent faire l’objet d’un débat, ces mesures de défamilialisation s’inscrivent toutes dans un processus d’individualisation des aides aux étudiants, c’est-à-dire d’une reconnaissance du statut d’adulte pour les jeunes et pour les étudiants, un modèle qui produit des effets très importants en matière de lutte contre la précarité.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2871014" ordre_absolu_seance="34" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014122" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2318.18">Nous en venons aux questions des députés.<br/>La parole est à Mme Marie Mesmeur.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2871016" ordre_absolu_seance="36" id_acteur="PA841215" id_mandat="PM842801" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014124" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie Mesmeur (LFI-NFP)</nom>
+            <id>841215</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2334.80">Je remercie les deux invités pour leurs interventions. Je m’adresserai tout particulièrement à Mme Moret, qui a synthétisé, en cinq minutes, le programme de La France insoumise pour la jeunesse et résumé tout ce pour quoi je me battais lorsque, avant d’être élue députée, j’étais responsable du premier syndicat étudiant de France – qui porte aujourd’hui le nom d’Union étudiante.<br/>La situation des étudiants s’aggrave, ce qui n’est une surprise pour personne : on a vu les images des distributions alimentaires et entendu les témoignages sur les réseaux sociaux et dans les salles de cours. S’ajoute à cela la crise du logement, qui touche violemment les étudiants. Ma circonscription, par exemple, ne compte que 6 000 logements du Crous, le centre régional des œuvres universitaires et scolaires, pour 70 000 étudiants, ce qui contribue à la précarisation car on jette en pâture les étudiants à des spéculateurs immobiliers à l’appétit vorace. Je ne vous parle même pas de la situation dramatique des jeunes en matière de santé mentale, prétendument grande cause du quinquennat d’Emmanuel Macron.<br/>J’ai été responsable syndicale entre 2019 et 2022. Les sujets dont nous discutons aujourd’hui étaient déjà à l’ordre du jour de toutes mes rencontres avec les députés et les sénateurs comme avec le gouvernement, notamment avec les nombreux ministres que, comme vous, j’ai vus défiler.<br/>Le gouvernement annonce une réforme des bourses depuis des années. Cela a commencé en 2017 ; une nouvelle promesse a été faite en 2022, puis en 2023, en 2024 et en 2025. Finalement, lors des discussions sur le projet de loi de finances l’an dernier, le ministre de l’enseignement supérieur a expliqué que cette réforme serait reportée pour des raisons budgétaires.<br/>Ma question est donc simple : faites-vous confiance à ce gouvernement pour écouter, protéger et mettre en sécurité les jeunes afin qu’ils puissent s’émanciper, accéder à un esprit critique et se confronter à tous les grands enjeux sociaux, démocratiques, économiques et environnementaux qui se présentent à nous ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2871021" ordre_absolu_seance="41" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014129" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2405.57">La parole est à Mme Manon Moret.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2871022" ordre_absolu_seance="42" id_acteur="PA-126329" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014130" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Manon Moret</nom>
+            <id>-126329</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2455.50">Je vous remercie pour cette question. À l’Unef, notre constat est que le gouvernement se contente de multiplier les promesses en direction de la jeunesse, pas seulement au sujet des bourses, d’ailleurs. Il profère également des mensonges s’agissant de la construction de logements étudiants : sur les 60 000 logements promis en 2017, moins de 10 % ont été construits.<br/>Le gouvernement ne prend pas en considération les réalités auxquelles est confrontée la jeunesse. En 2023, on nous a promis que 500 millions d’euros seraient injectés dans le système des bourses mais nous nous sommes rendu compte, quelques mois plus tard, que moins de la moitié de cette somme avait été allouée dans le cadre du projet de loi de finances pour 2024.<br/>Le gouvernement refuse de voir la réalité des universités. Après l’annonce, en 2017, d’une réforme du système des bourses, des concertations nationales et territoriales ont été menées. L’Unef y a pris part en expliquant qu’une telle réforme était impossible si l’on ne mettait pas de l’argent supplémentaire sur la table. En juillet 2025, le ministère nous a appelés pour nous expliquer que, faute de budget, cette réforme ne serait pas engagée.<br/>Le gouvernement refuse d’investir de façon sérieuse dans les universités et dans les aides accordées aux étudiants – comme je l’ai dit tout à l’heure, 17 000 étudiants ont perdu leur bourse cette année. Or l’urgence est réelle : des étudiants n’arrivent plus à se loger, à se soigner, à se nourrir, à payer leurs factures. S’ils veulent payer leur loyer, ils doivent manger un jour sur deux.<br/>Vous le voyez, la situation est catastrophique et c’est dans ce contexte que nous avons reçu, en plein mois de juillet, un appel du ministère de l’enseignement supérieur pour nous annoncer l’abandon de la réforme des bourses, faute de moyens. Décidément, le gouvernement ne mène pas les actions qui nous permettraient de sortir de la précarité.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871027" ordre_absolu_seance="47" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014317" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2582.95">La parole est à M. Arnaud Bonnet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871028" ordre_absolu_seance="48" id_acteur="PA841885" id_mandat="PM843446" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014318" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Arnaud Bonnet (EcoS)</nom>
+            <id>841885</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2586.15">En tant que parlementaires, lors de l’élaboration d’un budget, nous n’avons pas la capacité de supprimer, par exemple, une niche fiscale lorsque nous discutons de la première partie, relative aux recettes, en ayant la certitude que les fonds libérés par cette suppression seront investis dans un autre poste lors de la discussion de la deuxième partie, relative aux dépenses. Cela signifie que toute décision tendant à défamilialiser les bourses est à la main du gouvernement.<br/>J’en viens à ma question, relative à un sujet qui tient à cœur au groupe GDR, à l’initiative de notre débat, les outre-mer. Quand on est parlementaire, il peut être très difficile d’accéder aux données sur ce sujet. Pouvez-vous nous fournir des informations concernant les bourses étudiantes dans les outre-mer ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871030" ordre_absolu_seance="50" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014320" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2629.95">La parole est à Mme Manon Moret.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871031" ordre_absolu_seance="51" id_acteur="PA-126329" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014321" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Manon Moret</nom>
+            <id>-126329</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2640.40">La réalité des outre-mer est en effet bien différente de celle de l’Hexagone. Lors des mobilisations étudiantes de 2023, l’Unef a obtenu la satisfaction d’une de ses revendications de longue date : le complément de bourse dans les Drom.<br/>Le problème tient à ce que depuis cette date, ce complément n’a pas connu d’augmentation. Or dans les outre-mer, le coût de la vie étudiante est bien différent de celui qui a cours en métropole – à échelon égal, celui d’un étudiant boursier ultramarin sera supérieur de 10 % à celui d’un boursier étudiant dans l’Hexagone. En outre, les structures des Crous sont complètement abandonnées : les bâtiments sont vétustes et les restaurants universitaires manquants ne sont pas construits.<br/>La situation est donc très alarmante. L’Unef estime que le complément de bourse doit augmenter de 200 euros, ce qui permettrait de combler l’écart entre les étudiants ultramarins et ceux qui étudient dans l’Hexagone mais aussi de compenser l’explosion du coût de la vie que ces territoires continueront probablement de subir. Nous poursuivons les discussions avec le ministère de l’enseignement supérieur pour faire valoir ce point de vue, mais on nous répond que l’on ne dispose pas du budget que requerrait une telle augmentation. La réalité est qu’elle est indispensable pour mettre fin à cette inégalité entre les étudiants d’outre-mer – dont la situation, bien plus dure qu’en métropole, est catastrophique – et ceux de l’Hexagone.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871034" ordre_absolu_seance="54" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014324" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2746.86">La parole est à Mme Delphine Lingemann.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871035" ordre_absolu_seance="55" id_acteur="PA794702" id_mandat="PM843248" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014325" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Delphine Lingemann (Dem)</nom>
+            <id>794702</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2763.40">Monsieur Chevalier, vous avez pris l’exemple de pays limitrophes de la France ou anglo-saxons, dans lesquels la précarité des étudiants est moindre car les systèmes qui s’y appliquent, combinant bourses et prêts, ne sont pas les mêmes. Pour ma part, je connais un peu le système allemand, qui s’appuie sur la Bafög, la loi fédérale sur l’aide à la formation – je ne sais pas s’il existe encore.<br/>Pourriez-vous développer un peu les exemples que vous avez évoqués ? Je suppose qu’il s’agit de prêts garantis par l’État, dont j’imagine qu’ils ne sont pas accordés par des banques privées. À quelles conditions le sont-ils ? Il est important que nous disposions de détails au sujet de ces modèles qui fonctionnent à l’étranger et dont nous pourrions nous inspirer.<br/>Je souhaiterais également vous interroger sur un autre point relatif aux bourses, sans rapport avec mes premières questions : la mobilité. En effet, certains étudiants – mon voisin du Puy-de-Dôme peut en témoigner – vivent en milieu rural, ce qui suppose des frais supplémentaires. Ne faudrait-il pas inclure des éléments liés à la mobilité dans les critères d’attribution des bourses ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871038" ordre_absolu_seance="58" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014328" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2845.38">La parole est à M. Tom Chevalier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871039" ordre_absolu_seance="59" id_acteur="PA-126339" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014329" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Tom Chevalier</nom>
+            <id>-126339</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2854.04">Les prêts en question ne reposent pas sur des emprunts bancaires classiques comme les prêts étudiants en France. Il s’agit de prêts publics dits prêts à remboursement contingent au revenu futur. Cela peut avoir différentes implications.<br/>Dans sa version anglaise, un tel prêt n’est remboursé que si le revenu auquel on accède une fois entré sur le marché du travail dépasse un certain seuil, c’est-à-dire si le gain attendu des études est au rendez-vous ; dans le cas contraire, le prêt n’est pas remboursé.<br/>La version nordique est un peu différente. Il s’agit également d’un prêt consenti par l’État, à un taux d’intérêt très faible, de l’ordre de 1 %, et assorti de facilités de remboursement si l’on rencontre des difficultés dans sa vie ou que l’on est au chômage. Le bénéficiaire négocie constamment avec l’organisme qui gère ces prêts et peut obtenir une diminution de ses mensualités ou le décalage dans le temps de leur paiement. Si mes souvenirs sont bons, ceux qui atteignent l’âge de 60 ans voient les mensualités restantes annulées.<br/>Quant à la mobilité, il s’agit d’un enjeu considérable, systémiquement solidaire de celui de la familialisation. En effet, dans l’ancien modèle, qui constitue l’horizon du système familialisé, les étudiants, issus de familles aisées, vivent chez leurs parents, dans les centres-villes où se situent les universités. La logique de logement sous-jacente se caractérise par une très faible mobilité.<br/> <br/>Dans un système individualisé, la logique est complètement différente, conforme à la tradition suivant laquelle on change de ville pour aller à l’université. C’est celle qui a cours dans les pays anglo-saxons – en Angleterre et aux États-Unis – mais aussi dans les pays nordiques : on peut choisir d’aller dans une ville située à l’autre bout du pays puisqu’il est normal, à 18 ans, de quitter le domicile familial. Cela implique des politiques de campus – tout le monde, du moins au niveau de la licence, dispose d’un logement au sein des universités.<br/>Dans les pays nordiques, une importante politique de logement s’applique également. Toutefois, elle ne bénéficie pas à tout le monde mais privilégie ceux qui entrent à l’université et non les étudiants les plus précaires. La proportion des étudiants qui résident dans les logements qui leur sont destinés y est bien plus importante que dans notre pays – ils sont environ 30 % en Suède, contre 10 % en France.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871045" ordre_absolu_seance="65" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014335" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3011.99">La parole est à M. Stéphane Lenormand.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871046" ordre_absolu_seance="66" id_acteur="PA795244" id_mandat="PM843749" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014336" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Stéphane Lenormand (LIOT)</nom>
+            <id>795244</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3014.77">C’est sans doute Mme Moret qui pourra répondre à ma question. Je suis autour de cette table le seul député issu des outre-mer et vous avez en partie répondu à certaines de mes interrogations à leur sujet.<br/>Existe-t-il au sein des organisations étudiantes une volonté des ultramarins de s’investir et de prendre leurs responsabilités en créant des branches outre-mer ?<br/>J’ai fait mes études à une époque lointaine – on confondait alors Saint-Pierre-Quiberon et Saint-Pierre-et-Miquelon, qui ne sont séparés que de 4 500 kilomètres ! Aujourd’hui, deux choses me frappent. D’une part, la plupart de nos jeunes étudiants, lorsqu’ils arrivent en première ou en deuxième année, sont très fragiles parce qu’ils sont partis loin de chez eux. Prenez-vous cette problématique en compte et avez-vous la volonté de porter leur parole ? Il faut faire valoir la spécificité des étudiants ultramarins, non pour les différencier des autres, mais parce qu’il faut bien comprendre qu’ils ne peuvent pas rentrer chez eux tous les week-ends et que cet éloignement suscite des échecs plus fréquents en première année – je ne dispose pas d’éléments statistiques à ce sujet mais j’ai pu le constater au cours de ma vie.<br/>D’autre part, j’ai rencontré des étudiants issus de différents territoires d’outre-mer et observé que leur mal-être et leur précarité étaient significatifs. Votre organisation syndicale prend-elle ces difficultés en considération ? Ce mal-être que l’on perçoit chez les jeunes, naturellement divers et diffus, m’inquiète en tant que père et ancien enseignant.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871050" ordre_absolu_seance="70" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014340" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3047.52">La parole est à Mme Manon Moret.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871051" ordre_absolu_seance="71" id_acteur="PA-126329" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014341" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Manon Moret</nom>
+            <id>-126329</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3082.45">L’Unef est bien consciente que ce n’est pas du tout la même chose d’être étudiant en outre-mer et dans l’Hexagone. Des sections de l’Unef existent dans certains territoires d’outre-mer, notamment en Guadeloupe et en Guyane, et nous menons un travail de suivi à distance.<br/>Ce travail porte ses fruits : je pense à la création d’un Crous autonome en Guyane, que demande l’Unef depuis très longtemps. Je rappelle que le Crous des Antilles couvre à la fois la Guyane, la Guadeloupe et la Martinique, alors même que des milliers de kilomètres les séparent. Les élus de nos sections de Guyane et de Guadeloupe se sont battus pour la création d’un Crous autonome dédié à ce territoire d’une très grande superficie et pour que la diversité des réalités guyanaise, guadeloupéenne et martiniquaise soit prise en compte. Une fois acté le principe de cette création, le travail continue au sein des instances locales et au niveau national, auprès du Cnous, le Centre national des œuvres universitaires et scolaires, afin qu’elle soit effective.<br/>Nous devons continuer à œuvrer dans les outre-mer sur le fondement d’une appréhension précise de ce qui s’y passe – le fait qu’on ait créé un Crous supposé couvrir des territoires séparés par des milliers de kilomètres montre bien que les réalités locales ne sont pas prises en considération.<br/>Quant au mal-être – il me semble que votre question concernait l’ensemble des étudiants –, nous l’observons en effet dans les universités. Après la crise sanitaire, qui l’a particulièrement mis en lumière, et la fin du confinement, il a été passé sous silence. Pourtant, l’explosion de la précarité étudiante pèse sur la santé mentale des étudiants.<br/>Évidemment, cette question est également liée aux politiques gouvernementales visant à prendre en charge cette santé mentale. Je pense par exemple aux services de santé universitaires, dont le rôle dans l’accompagnement des étudiants est essentiel, et aux bureaux d’aide psychologique universitaires. Ces dispositifs existent et doivent continuer de fonctionner. Malheureusement, ces services de santé pâtissent d’un sous-financement chronique, dont l’effet sur les étudiants, qui n’ont pas forcément les moyens ou le temps de consulter des psychologues, est mécanique.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871056" ordre_absolu_seance="76" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014346" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3217.89">La parole est à Mme Soumya Bourouaha.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2871057" ordre_absolu_seance="77" id_acteur="PA720838" id_mandat="PM843671" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014347" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Soumya Bourouaha (GDR)</nom>
+            <id>720838</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3321.48">Chers collègues, je vous remercie sincèrement pour votre présence et vos prises de parole ce soir. Le groupe GDR a souhaité inscrire ce débat à l’ordre du jour de cette semaine de contrôle car son sujet – la précarité étudiante et le système des bourses –, essentiel pour l’avenir de notre jeunesse, est d’actualité.<br/>On connaît le problème : la précarité étudiante s’est installée durablement dans le débat public et, pour ceux et celles qui la vivent, elle n’a rien de nouveau. Elle est structurelle et documentée depuis de nombreuses années par les travaux des chercheurs, les remontées du terrain et les organisations étudiantes.<br/>C’est aussi ce qu’a montré le rapport d’évaluation des aides sur critères sociaux pour les étudiants que j’ai présenté en octobre au comité d’évaluation et de contrôle des politiques publiques (CEC) de l’Assemblée nationale. Il dresse un constat unanimement partagé : la précarité s’est installée depuis plusieurs décennies et le système d’aides ne parvient pas à atteindre ses objectifs.<br/>Les conclusions de vos travaux, monsieur Chevalier, s’accordent avec ce constat : notre modèle d’aides sociales demeure marqué par des logiques familialistes dépassées qui donnent lieu à d’importants angles morts. À ce titre, nous estimons également, madame Moret, qu’une transformation profonde de ce système est nécessaire, pour aller vers un revenu étudiant ou une allocation d’études. Je déposerai prochainement une proposition de loi en ce sens.<br/>Avant qu’une telle réforme structurelle ne voie le jour, les étudiants risquent de demeurer plongés dans une intolérable précarité. Dès lors, une question s’impose : par où doit-on commencer ? Quelles mesures d’urgence, applicables à court terme, faut-il promouvoir pour corriger les injustices les plus criantes ?<br/>Par ailleurs, pouvez-vous décrire les difficultés que rencontrent les étudiants internationaux et nous indiquer comment elles pourraient être résolues ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871063" ordre_absolu_seance="83" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014624" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3457.75">Je pense que ce sera une réponse à deux voix. La parole est à Mme Manon Moret.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871064" ordre_absolu_seance="84" id_acteur="PA-126329" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014625" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Manon Moret</nom>
+            <id>-126329</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3468.96">En effet, la situation des étudiants étrangers est catastrophique et ils font actuellement partie des publics les plus précaires dans les universités. Il y a évidemment à cela des raisons diverses, mais il faut savoir que, depuis plusieurs années, leurs conditions de vie matérielles font l’objet d’attaques importantes. Je pense à l’augmentation des frais d’inscription pour les étudiants extra-européens, qui ont atteint 3 000 euros pour une année de licence et 4 000 euros pour une année de master. Je pense aussi, plus récemment, à la suppression des APL – aides personnelles au logement – pour les étudiants étrangers. C’est une mesure de précarisation sans précédent, puisque plusieurs centaines de milliers d’étudiants vont perdre la seule aide sociale à laquelle ils avaient accès.<br/>La situation des étudiants étrangers est vraiment catastrophique, et les chiffres le montrent : d’après le rapport d’activité du Cnous, ils représentent plus de 60 % des bénéficiaires des aides d’urgence. À l’Unef, nous revendiquons depuis très longtemps l’inclusion des étudiants étrangers dans le système des bourses, mais cela implique, de fait, d’abandonner le modèle de la familialisation.<br/>Avant de céder la parole à Tom Chevalier, je conclurai en indiquant qu’une première mesure d’urgence pour les étudiants étrangers consisterait déjà à retirer le critère de la nationalité pour l’obtention de l’aide annuelle, dont le montant équivaut à celui d’une bourse.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871065" ordre_absolu_seance="87" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="-1" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PRESIDE_DISCOURS_1_10" sommaire="0" id_syceron="4014659" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3526.61">La parole est à M. Tom Chevalier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871066" ordre_absolu_seance="88" id_acteur="PA-126339" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014627" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Tom Chevalier</nom>
+            <id>-126339</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3567.44">La mesure d’urgence essentielle est la revalorisation du montant des bourses, parce que le nerf de la guerre reste évidemment le montant des aides reçues par les étudiants. Toutefois, dans le prolongement de mon propos introductif, j’insisterai sur la nécessité de ne pas raisonner seulement dans l’urgence, mais de prendre en compte le fait que notre modèle est obsolète et qu’il est essentiel d’en changer si l’on veut avoir des résultats positifs et significatifs en matière de lutte contre la précarité étudiante. Il faut avoir conscience que le montant global des aides par étudiant dans les pays nordiques est trois à quatre fois supérieur à celui des aides françaises. C’est vraiment sans commune mesure. Par conséquent, même si l’on revalorise le montant des bourses françaises, on sera encore à des années-lumière de celui des pays nordiques.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871067" ordre_absolu_seance="89" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014628" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3612.57">La parole est à M. Julien Brugerolles.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871068" ordre_absolu_seance="90" id_acteur="PA794710" id_mandat="PM867916" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014629" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Julien Brugerolles (GDR)</nom>
+            <id>794710</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3618.19">Je tiens moi aussi à remercier nos deux intervenants pour leur présence ce soir. On a parlé de la précarité étudiante et du nombre historiquement bas d’étudiants boursiers – je crois que, depuis 2015, on n’en avait jamais eu aussi peu.<br/>Parmi les dépenses principales des étudiants, il y a le logement, les transports et la nourriture. Ma question portera sur le logement : étant donné qu’il y a 175 000 places en résidence Crous pour 662 000 étudiants boursiers, quelles sont, selon vous, les mesures à prendre en priorité en matière de logement étudiant ? L’obligation d’avoir, dans chaque territoire, un nombre de logements étudiants égal au nombre d’étudiants boursiers vous paraît-elle une mesure juste et applicable ? Par ailleurs, quel type de financement peut-on imaginer pour le déploiement de logements étudiants ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871070" ordre_absolu_seance="92" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014631" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3650.07">La parole est à Mme Manon Moret.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871071" ordre_absolu_seance="93" id_acteur="PA-126329" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014632" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Manon Moret</nom>
+            <id>-126329</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3681.39">Le logement représente effectivement plus de 50 % d’un budget étudiant ; c’est une réalité caractéristique du mal-logement étudiant. Le nombre d’étudiants logeant en Crous n’est que de 6 % : c’est très peu. Et cela conforte le constat que vous avez fait, à savoir que tous les étudiants boursiers ne vivent pas en logement Crous. Ceux qui bénéficient d’un tel logement ont généralement une bourse dont l’échelon est très élevé – 6 ou 7.<br/>Quant à atteindre un nombre de logements étudiants égal au nombre de boursiers, ce pourrait effectivement être une solution. L’Unef demande la construction urgente de 150 000 logements pour les Crous. Précisons qu’ils seront destinés à leur appartenir et à être gérés par eux – c’est un point important, car la propriété du foncier est matière à débats dans certaines villes universitaires. Le gouvernement nous annonce la construction de 45 000 logements étudiants, mais ce ne serait pas la première fois qu’une telle annonce ne serait pas suivie d’effet. L’urgence, c’est bien de construire ces logements, mais aussi de rénover le parc existant, puisque certaines résidences universitaires logent les étudiants dans des conditions indécentes. Il faut pouvoir construire, certes, mais aussi pouvoir rénover.<br/>Pour ce qui concerne le montant total du financement requis pour de tels investissements, je vous avoue que je n’ai pas de chiffre à vous donner, mais cela se compte clairement en millions d’euros. Pour nous, les choix budgétaires sont en réalité des choix politiques : est-ce qu’on décide ou pas de lutter contre le mal-logement étudiant ? À Paris, 3 % seulement des étudiants sont logés en Crous. La réalité, c’est bien qu’il manque des logements de ce type et qu’il faudrait pouvoir en augmenter le nombre pour arriver à 600 000 logements étudiants. Malheureusement, on en est loin aujourd’hui.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871074" ordre_absolu_seance="96" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014635" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3826.12">La parole est à Mme Marie Mesmeur.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871075" ordre_absolu_seance="97" id_acteur="PA841215" id_mandat="PM842801" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014636" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie Mesmeur (LFI-NFP)</nom>
+            <id>841215</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3837.01">Ma deuxième question s’adresse à M. Tom Chevalier, dont j’apprécie beaucoup les travaux ; ils ont d’ailleurs largement contribué à l’élaboration de nos positions politiques, à La France insoumise, comme aux miennes dans mon passé syndical.<br/>Vous avez présenté, en réponse à ma collègue Lingemann, les différents modèles de bourses existant en Angleterre et dans les pays du Nord. Je voudrais vous interroger sur les conséquences de ces modèles, parce qu’il me semble – et vos travaux le confirment – qu’elles ont été énormes, notamment en Angleterre, où la crise de la dette étudiante a pris une part grandissante dans l’économie du pays. Par ailleurs, quelles sont, pour vous, les conséquences du modèle nordique sur le long terme ? Et quel modèle préconiseriez-vous pour répondre à la crise en France ?<br/>Enfin, que pensez-vous, en tant que chercheur, de l’idée d’instaurer une allocation d’autonomie pour la jeunesse, au niveau du seuil de pauvreté, soit à un peu plus de 1 260 euros mensuels ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871078" ordre_absolu_seance="100" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014639" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3848.62">La parole est à M. Tom Chevalier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871079" ordre_absolu_seance="101" id_acteur="PA-126339" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014640" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Tom Chevalier</nom>
+            <id>-126339</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3911.74">Il faut bien distinguer le modèle anglo-saxon, notamment anglais, du modèle nordique.<br/>Une première différence que je n’ai pas encore mentionnée, c’est que les frais de scolarité dans les pays anglo-saxons, notamment en Angleterre, sont très élevés, alors qu’ils n’existent pas dans les pays nordiques où, conformément au principe du service public de l’éducation, les études sont gratuites. Cela fait déjà une grosse différence.<br/>Ensuite, il faut savoir que dans les pays anglo-saxons, il n’y a pas de bourses au niveau national– les bourses dépendent des universités –, seulement des prêts – un prêt pour les frais de scolarité et un autre pour les dépenses de la vie courante. Ces prêts ne sont remboursés qu’à partir du moment où le salaire de celui qui en a bénéficié dépasse un certain seuil. Tout l’enjeu, c’est le montant de ce seuil. Il y a eu à ce sujet de gros conflits en Angleterre, puisque selon que le seuil est bas ou élevé, le poids de la dette à rembourser varie du tout au tout.<br/>Toutes les problématiques liées à l’endettement des étudiants reposent en Angleterre sur le niveau du seuil, lequel n’existe pas dans les pays nordiques. Le premier échelon de bourse y recouvre, selon les pays, soit un quart, soit la moitié, soit les trois-quarts du montant global de l’aide aux étudiants. Cette aide est complétée par un prêt, qui ne dépend pas d’un seuil. Ce système est beaucoup plus flexible et individualisé, et plus à même de tenir compte des caractéristiques de chacun ; les conséquences, en termes de surendettement, sont donc beaucoup moins présentes dans ces pays.<br/>J’étais en Suède l’année dernière, et quand j’essayais d’aborder avec les étudiants la question de leurs conditions de vie et de la précarité, ils ne comprenaient pas mes questions, tout simplement parce que le problème n’existe pas pour eux. Et il en est de même concernant l’enjeu de l’endettement : ils ne comprennent que la question puisse se poser parce qu’ils savent que l’État est là pour les accompagner. Il n’y a aucun problème de surendettement dans les pays nordiques.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871084" ordre_absolu_seance="106" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014645" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3924.23">La parole est à Mme Delphine Lingemann.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871085" ordre_absolu_seance="107" id_acteur="PA794702" id_mandat="PM843248" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014646" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Delphine Lingemann (Dem)</nom>
+            <id>794702</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3952.79">Je voudrais, pour ma part, revenir sur la question du repas à 1 euro – même si je sais que ma position, sur cette question, est minoritaire ce soir. Pour certains, c’est un marqueur politique, mais pour moi, cette mesure ne résout pas le problème de la précarité étudiante de façon structurelle. La généralisation du repas à 1 euro va tout de même coûter 90 millions d’euros ; il me semble que cette somme pourrait être investie dans d’autres domaines tout aussi importants, notamment le logement. Cela a été dit, beaucoup d’étudiants n’arrivent pas à se loger, du fait du manque criant de logements étudiants. Cette situation est le fruit de plusieurs décennies de sous-investissement, voire d’absence d’investissement, dans nos universités – nous sommes tous d’accord là-dessus.<br/>Le rapport d’information de Thomas Cazenave et de Charles Sitzenstuhl sur la réforme des bourses étudiantes montre toutefois que 45 % des bénéficiaires des APL étudiants sont issus des 30 % de foyers les plus riches. Ne faudrait-il pas restreindre le versement des aides personnelles au logement aux étudiants qui sont issus des foyers modestes ou des classes moyennes, au lieu de les donner à tout le monde ? Il me semble que ce serait, là aussi, un facteur de justice sociale – ma question s’adresse à M. Tom Chevalier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871087" ordre_absolu_seance="109" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014648" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4147.78">La parole est à M. Tom Chevalier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871088" ordre_absolu_seance="110" id_acteur="PA-126339" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014649" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Tom Chevalier</nom>
+            <id>-126339</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4152.95">Je vous remercie beaucoup pour votre question, qui peut être reformulée de la manière suivante : entre l’universalisation des dispositifs et le ciblage, lequel des deux modèles est le plus apte à favoriser la redistribution et à lutter contre la précarité ? Cette opposition entre universalisation et ciblage structure le débat sur les bourses. En effet, le système qui veut que le montant des bourses dépende des revenus des parents obéit à une logique familialiste, mais aussi à une logique de redistribution envers les familles précaires.<br/>En politique sociale, on parle du « paradoxe de la redistribution ». Au premier abord, la logique de ciblage semble beaucoup plus efficace pour redistribuer, car on centre les dépenses sur les plus précaires, mais la réalité montre que, dans la plupart des cas, plus les bourses seront universalisées, plus leur montant moyen sera élevé, et plus le potentiel redistributif des politiques sociales sera important. On le constate, notamment, dans le système d’aides aux étudiants. On a en France un système ciblé, en théorie bien plus apte que celui des pays nordiques à redistribuer l’argent vers les étudiants les plus précaires, et il y a en effet plus d’aides réservées aux plus pauvres en France qu’en Suède, où le montant des aides est à peu près le même pour tout le monde.<br/>Mais ce qui importe, c’est le montant distribué. En Suède, il s’élève à 1 200 euros, alors qu’en France, il atteint au maximum, pour moins de 5 % des étudiants, 500 euros à peine. Plus un dispositif d’aides est universalisé, plus il bénéficie du soutien de la population, qui accepte de payer beaucoup d’impôts pour le financer ; cela permet à l’État de disposer de budgets importants pour financer la politique publique concernée, avec des montants plus élevés et, en bout de course, un potentiel redistributif plus fort, donc un niveau plus bas de précarité. En politique sociale, c’est souvent un peu contre-intuitif !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871092" ordre_absolu_seance="113" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014653" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4232.59">La parole est à M. Stéphane Lenormand.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871093" ordre_absolu_seance="114" id_acteur="PA795244" id_mandat="PM843749" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014654" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Stéphane Lenormand (LIOT)</nom>
+            <id>795244</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4273.99">Je souhaite vous interroger sur la prise en compte du handicap dans les différentes institutions universitaires. J’ai longtemps été élu local et j’ai essayé d’appliquer ce que le législateur avait voté en matière de handicap – je pense, par exemple, à l’accès des établissements aux personnes à mobilité réduite. Quand je suis arrivé à l’Assemblée nationale, j’ai un peu souri : c’était un peu « faites ce que je dis, mais pas ce que je fais ». J’aimerais savoir comment le handicap, au sens large du terme, est pris en compte dans les différentes universités. Pensez-vous qu’il soit possible, pour une personne qui souffre d’un handicap, quel qu’il soit, de suivre sereinement des études universitaires ou une formation à l’université ? Je sais, bien sûr, qu’il y a des questions de moyens, mais est-ce qu’au moins les instances concernées prennent en compte la situation de l’étudiant en situation de handicap ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871094" ordre_absolu_seance="115" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014655" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4341.77">La parole est à Mme Manon Moret.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2871095" ordre_absolu_seance="116" id_acteur="PA-126329" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014656" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Manon Moret</nom>
+            <id>-126329</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4344.50">Le handicap à l’université est une question importante. Vous avez évoqué les moyens : le premier barrage à toute action en faveur de l’université inclusive, c’est effectivement le manque de moyens. Il y a encore énormément de problèmes, mais les choses avancent et, depuis plusieurs années, nous sommes parvenus à introduire des aménagements dans les universités. Encore faut-il vérifier s’ils sont respectés par le corps enseignant et pris en compte par l’administration. Il est encore difficile aujourd’hui de réussir à l’université quand on est étudiant handicapé.<br/>Certains étudiants atteints d’un handicap moteur ne peuvent pas se déplacer comme ils le voudraient, faute de rampes d’accès ou d’ascenseurs. Cette situation se rencontre surtout sur les campus les plus délabrés.<br/>Même si quelques chambres du Crous, trop peu nombreuses, ont été adaptées, même si des aménagements existent, notamment pour les partiels, l’accompagnement pédagogique du handicap reste largement à développer dans les universités. Quelques administrations sont malheureusement encore réticentes et le travail de pédagogie auprès d’elles doit continuer.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871128" ordre_absolu_seance="119" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014816" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4452.07">La parole est à Mme Soumya Bourouaha.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871129" ordre_absolu_seance="120" id_acteur="PA720838" id_mandat="PM843671" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014817" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Soumya Bourouaha (GDR)</nom>
+            <id>720838</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4459.65">Je vais revenir sur le sujet du logement, l’une des premières causes de la précarité, et poser une question sur la garantie Visale – visa pour le logement et l’emploi. Il s’agit d’un dispositif gratuit d’Action logement, qui se porte caution pour des locataires en cas d’impayé de loyer ou de charges. Souvent utilisée dans les Crous, cette garantie ne peut pas être souscrite dans le cadre d’un bail géré en intermédiation locative alors que les associations qui la pratiquent offrent des possibilités de logement. J’aimerais avoir votre avis sur ce point, demander à M. Chevalier s’il a connaissance de l’existence de dispositifs similaires de protection des étudiants dans les pays anglo-saxons ou nordiques et, plus globalement, si le logement y est un problème pour cette catégorie de la population.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871130" ordre_absolu_seance="121" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014818" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4518.92">La parole est à Mme Manon Moret.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871131" ordre_absolu_seance="122" id_acteur="PA-126329" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014819" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Manon Moret</nom>
+            <id>-126329</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4527.73">La garantie Visale offre une protection aux étudiants sur plusieurs sujets et l’Unef considère qu’elle devrait être étendue à l’ensemble des organismes qui logent les étudiants, associations comprises. Je profite de votre question pour souligner que nombre de bailleurs privés refusent les dossiers sous garantie Visale.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871132" ordre_absolu_seance="123" id_acteur="PA720838" id_mandat="PM843671" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014820" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Soumya Bourouaha</nom>
+            <id>720838</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4561.19">Tout à fait !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871133" ordre_absolu_seance="124" id_acteur="PA-126329" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014821" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Manon Moret</nom>
+            <id>-126329</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4565.79">Parce que les chambres du Crous sont en nombre insuffisant et parce qu’accéder au parc privé est compliqué, certains étudiants n’arrivent pas à se loger. Il faut donc étendre cette garantie aux associations, mais il faut surtout que l’État impose aux bailleurs privés, aux propriétaires, d’accepter et de ne pas discriminer les dossiers sous garantie Visale.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871134" ordre_absolu_seance="125" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014822" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4588.14">La parole est à M. Tom Chevalier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871135" ordre_absolu_seance="126" id_acteur="PA-126339" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014823" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Tom Chevalier</nom>
+            <id>-126339</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4590.68">Je n’ai pas connaissance de dispositifs de ce type dans les pays scandinaves et je n’en ai jamais entendu parler en entretien. Cela ne prouve pas qu’il n’en existe pas, mais cette hypothèse est probable dans la mesure où le problème du logement y est beaucoup moins présent qu’en France. S’il arrive désormais que, dans les plus importantes villes universitaires de Suède, comme Stockholm ou Göteborg, certains étudiants commencent à le mentionner, c’est pour relever que leur logement leur coûte 600 euros, alors qu’ils perçoivent 1 200 euros d’aides. Mais quand je leur raconte qu’à Paris, un étudiant peut payer 900 euros de loyer et ne toucher que 200 ou 300 euros d’aides, ils conviennent que, comparativement, ils n’ont pas de problème de logement. Comme dans toutes les villes universitaires d’Europe et du monde, les loyers augmentent en Suède, y compris pour les étudiants. Toutefois, la comparaison en valeur absolue avec la France permet de dire que le problème du logement n’est pas du tout de même ampleur dans les deux pays.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871136" ordre_absolu_seance="127" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014824" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4666.54">La parole est à Mme Marie Mesmeur.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871137" ordre_absolu_seance="128" id_acteur="PA841215" id_mandat="PM842801" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014825" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie Mesmeur (LFI-NFP)</nom>
+            <id>841215</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4670.27">Monsieur Chevalier, vous n’avez pas eu le temps de répondre à deux de mes questions : quel modèle préconisez-vous pour répondre à la crise que connaissent les étudiants en France et que pensez-vous de l’allocation d’autonomie ? J’en ajoute une, en rebond à vos explications sur la situation des étudiants suédois, dont vous nous avez dit qu’ils ne connaissent que très peu la précarité et qu’ils ne redoutent pas le surendettement car ils savent que l’État est là. Vos entretiens et vos travaux vous donnent-ils assez de recul pour évaluer les effets de cette confiance des étudiants vis-à-vis de l’État ? A-t-elle des conséquences sur leur niveau de connaissances, de qualifications et d’insertion ? Cette population participe-t-elle mieux à la vie démocratique parce qu’elle est bien prise en considération par son gouvernement ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871138" ordre_absolu_seance="129" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014826" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4725.75">C’était la dernière question de la soirée. Comme il nous reste quatre minutes, je vous accorde deux minutes à chacun pour y réagir et, si vous le souhaitez, compléter d’autres réponses. La parole est d’abord à M. Tom Chevalier.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871139" ordre_absolu_seance="130" id_acteur="PA-126339" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014827" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Tom Chevalier</nom>
+            <id>-126339</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4742.95">Je vais commencer par la question sur l’allocation d’autonomie. Vous aurez compris qu’il ressort de mes travaux que le modèle nordique est le plus efficace sur nombre d’aspects. Cela m’amène à la seconde partie de la question. En Suède, le taux de participation des jeunes à l’enseignement supérieur est particulièrement fort. C’est important sur un plan individuel, puisque l’insertion sur le marché du travail et le niveau de qualification des emplois occupés sont liés au niveau d’éducation. Il y aura donc plus de personnes bien armées pour affronter le marché du travail et moins de personnes qui seront en difficulté ou confrontées à la précarité. À l’échelle macroéconomique, cela permet d’avoir une main-d’œuvre très qualifiée qui pourra être au service d’une économie fondée sur les exportations à haute valeur ajoutée et très compétitive sur les marchés internationaux.<br/>Le modèle de croissance est centré sur les exportations à haute valeur ajoutée, qui nécessitent une main-d’œuvre très qualifiée passée par l’enseignement supérieur, donc beaucoup d’étudiants dont il faut financer les études jusqu’au bout, donc de l’argent. En plus de ses effets macroéconomiques et individuels, ce modèle entraîne une bonne satisfaction à propos du système de bourses et, par ricochet, à propos de l’État social. En effet, on touche des bourses au début de sa période de socialisation à l’égard de l’État. Cela entraîne ensuite une confiance plus élevée dans les institutions en général et une meilleure participation électorale des jeunes. Ma préférence va donc à l’allocation d’autonomie, dont il existe plusieurs formes, et l’équilibre entre bourses et prêts peut faire l’objet de discussions, notamment budgétaires.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871141" ordre_absolu_seance="132" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014829" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4809.40">La parole est à Mme Manon Moret.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871142" ordre_absolu_seance="133" id_acteur="PA-126329" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014830" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Manon Moret</nom>
+            <id>-126329</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4879.32">Je vais compléter la réponse de M. Chevalier en exposant la vision qu’a l’Unef de l’allocation d’autonomie, dont plusieurs modèles ont été présentés. L’Unef défend depuis soixante-dix ans la création d’une telle allocation et est donc ravie que des groupes parlementaires se saisissent de l’idée.<br/>Nous plaidons tout simplement pour l’instauration d’une sixième branche de la sécurité sociale. Si l’enfance et la vieillesse font l’objet de dispositifs spécifiques, si un accompagnement social est prévu en cas de chômage, la période particulière de la vie qui s’étend entre la fin de l’enseignement secondaire et l’entrée dans la vie active n’est ni prise en compte ni reconnue socialement. Notre revendication de la création de cette sixième branche est ancienne, et est majoritaire parmi les étudiants depuis quelques années. La majorité d’entre eux sont conscients qu’il faut sortir du désastreux système actuel des bourses. Nous insistons sur l’importance de la création d’une sixième branche de la sécurité sociale, qui témoignerait d’un investissement collectif dans la protection sociale de la jeunesse qui se forme.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2871144" ordre_absolu_seance="135" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014832" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4973.68">Je remercie nos deux invités d’avoir participé à nos travaux.</texte>
+      </paragraphe>
+      <point nivpoint="99" valeur_ptsodj="1" ordinal_prise="5" id_preparation="2871145" ordre_absolu_seance="136" code_grammaire="SUSP_SEANCE_1_1" code_style="Suspension rappel" code_parole="" sommaire="1" id_syceron="4014172" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>Suspension et reprise de la séance</italique>
+        </texte>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2871146" ordre_absolu_seance="137" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="SUSP_SEANCE_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014173" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4983.23">La séance est suspendue.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2871147" ordre_absolu_seance="138" code_grammaire="SUSP_SEANCE_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4014174" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance, suspendue à vingt-deux heures quarante, est reprise à vingt-deux heures quarante-cinq.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2871148" ordre_absolu_seance="139" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="SUSP_SEANCE_2_3" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014175" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5363.31">La séance est reprise.<br/>La parole est à M. le ministre de l’enseignement supérieur, de la recherche et de l’espace.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2871150" ordre_absolu_seance="141" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014177" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre de l’enseignement supérieur, de la recherche et de l’espace</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="5384.10">Je remercie le groupe de la Gauche démocrate et républicaine pour l’organisation de ce débat, qui nous permet d’aborder un sujet important : la lutte contre la précarité étudiante.<br/>Le système en place aujourd’hui est sans doute encore perfectible. Je peux convenir, comme vous, que nous n’avons pas encore atteint le « sur-mesure » en matière d’aides aux étudiants. Cependant, les différentes aides disponibles ne donnent une idée juste ni de l’ambition affichée ni de la totalité des moyens engagés par l’État.<br/>Le budget actuel de la vie étudiante s’établit à environ 3,2 milliards d’euros par an. Il a augmenté de 263 millions d’euros depuis 2017. Grâce à ces crédits, les bourses ont été majorées à la rentrée 2023. Il s’agissait là de l’acte I de la réforme des bourses souhaitée par le président de la République. Elle a permis à 140 000 étudiants boursiers d’accéder à un échelon supérieur et à 30 000 étudiants non boursiers de le devenir, dont 1 000 étudiants au titre de points de charge supplémentaires. Elle constitue la plus forte augmentation depuis dix ans.<br/>J’ai déjà eu l’occasion de le dire dans l’hémicycle, je souhaite que nous puissions rapidement enclencher l’acte II de la réforme. En effet, le système actuel présente certains défauts, à commencer par des effets de seuil trop importants. Il faut avoir conscience que pour 1 euro de revenu en plus, on peut perdre jusqu’à 900 euros de bourse sur une année. Il existe aujourd’hui des étudiants qui se trouvent exclus de l’accès aux bourses à 1 euro près, en raison du fonctionnement par échelon. La précarité étudiante, ce sont aussi ces étudiants dont les ressources se situent juste au-dessus du dernier palier et que l’on retrouve dans les épiceries solidaires. Il s’agit d’une première difficulté, liée à ces effets de seuil ou de marche dans la gestion des bourses.<br/>Par ailleurs, la dégressivité est excessivement forte. Près d’un tiers des boursiers perçoivent moins de 150 euros par mois. Surtout, le dispositif est trop complexe, puisqu’il existe 144 plafonds de ressources distincts et jusqu’à six échelons de bourses différents pour un même revenu. Enfin, les bourses de l’enseignement supérieur sont le seul dispositif d’aide sociale qui n’est pas indexé, problème que votre groupe a identifié, puisqu’il a fait l’objet d’une proposition de loi.<br/>Le système actuel protège, à juste titre, les étudiants les plus modestes. Mais il faut reconnaître qu’il laisse de côté une partie croissante des classes moyennes : des familles qui gagnent trop – si l’on peut dire – pour être aidées, mais pas assez pour financer des études dans des villes où le coût de la vie est de plus en plus élevé pour de multiples raisons. Les classes moyennes ne doivent pas être les angles morts de la politique de bourses. Je tiens d’ailleurs à saluer le travail des députés Thomas Cazenave et Charles Sitzenstuhl sur le sujet.<br/>Il faut réformer ces bourses, j’en suis profondément convaincu. Améliorer le système coûterait 400 millions d’euros. En effet, une linéarisation du système ne peut se faire que par le haut – on ne peut du jour au lendemain faire de très nombreux perdants. Or un lissage par le haut a un coût, de l’ordre de 400 millions d’euros. Cet argent, aujourd’hui je ne l’ai pas, je le regrette : j’aimerais que nous soyons en mesure d’investir davantage dans ce domaine, mais je n’ai pas l’argent.<br/>Cela ne doit pour autant pas nous empêcher d’œuvrer dès aujourd’hui à favoriser l’accès des étudiants à leurs droits. C’est dans ce cadre que nous avons lancé une démarche pilote, le dispositif « Campus zéro non-recours », qui doit permettre de renforcer la mobilisation de l’ensemble des acteurs concernés, dans huit établissements expérimentateurs.<br/>La lutte contre la précarité étudiante se traduit aussi par la mise à disposition d’autres aides qui ne sont pas toutes conditionnées à l’obtention d’une bourse, en premier lieu les aides au logement. Ainsi, les APL – ou l’allocation de logement sociale (ALS), selon les revenus et le montant du loyer – sont mobilisables, que les étudiants soient boursiers ou non.<br/>Dans le cadre de la loi de finances pour 2026, les aides au logement ont d’ailleurs bien été revalorisées au niveau de l’inflation. Entre 2018 et 2024, 35 000 logements sociaux étudiants sont sortis de terre. L’an dernier, plus de 9 000 logements ont été agréés.<br/>Annoncé il y a un peu plus d’un an par François Bayrou, le plan visant à créer 45 000 logements étudiants abordables en trois ans est destiné à répondre à cet enjeu : aider les étudiants à trouver des logements. Je rappelle l’engagement permanent d’Action Logement, qui propose la garantie Visale – une caution gratuite –, mais aussi le Loca-Pass, qui permet une avance sans intérêt du dépôt de garantie.<br/>Par ailleurs, le Crous verse des aides d’urgence, qui sont attribuées en fonction de la situation de l’étudiant, que ce soit en cas de difficultés financières, de rupture familiale, ou dans toute autre situation de vulnérabilité.<br/>Je rappelle aussi l’engagement du premier ministre en faveur de la généralisation du repas à 1 euro dans le cadre de la loi de finances pour 2026, afin de permettre à chaque étudiant d’avoir accès à des repas abordables et de qualité. Dans le cadre de la loi Lévi, des aides supplémentaires de 20 à 50 euros par mois sont accordées depuis 2025 aux étudiants qui n’ont pas accès à un restaurant universitaire proche. Quelque 65 000 étudiants en bénéficient aujourd’hui et le dispositif est amené à croître.<br/>Enfin, il me semble important de mentionner la progression de l’accès à des soins gratuits, grâce à la réforme des services de santé étudiante et aux 9,5 millions d’euros qui y sont consacrés. Je pense notamment à Santé psy étudiant, dispositif entièrement gratuit et sans que l’étudiant ait à avancer de frais – le nombre de séances offertes est passé de huit à douze –, dont plus de 140 000 étudiants ont bénéficié, avec une très forte croissance des consultations l’année dernière.<br/>Nous agissons pour la santé mentale des étudiants, mais nous devons aussi et avant tout leur garantir des conditions de vie décentes. Voilà pourquoi la subvention pour charges de service public du Cnous augmentera de 15 millions d’euros en 2026, ce qui la portera à plus de 710 millions d’euros.<br/>Mesdames et messieurs les députés, après avoir rappelé que le système des bourses s’inscrivait dans un ensemble d’aides, il n’est pas question de nier qu’il en constitue la pierre angulaire. Je crois pouvoir dire ce soir que nous partageons le diagnostic. Reste à définir les voies et moyens pour proposer un système plus efficace, plus juste et probablement mieux financé. Tel était le sens de mon intervention ; je serai ravi de répondre à vos questions.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2871166" ordre_absolu_seance="157" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014193" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5805.44">Merci, monsieur le ministre. Nous en venons aux questions, dont je rappelle que la durée est limitée à deux minutes, sans droit de réplique.<br/>La parole est à Mme Soumya Bourouaha.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2871167" ordre_absolu_seance="158" id_acteur="PA720838" id_mandat="PM843671" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014194" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Soumya Bourouaha (GDR)</nom>
+              <id>720838</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5825.65">Lors de votre audition en commission des affaires culturelles, le 28 octobre, vous aviez déclaré être « convaincu » qu’une « réforme structurelle des bourses » était « nécessaire ». Vous avez notamment ouvert la porte à leur indexation sur l’inflation, rappelant que les bourses sur critères sociaux sont les seules prestations qui n’y sont pas indexées. Vous avez aussi souligné les effets de seuil mal maîtrisés et reconnu que « de nombreux éléments ne fonctionnent pas bien dans le système actuel », comme vous l’avez répété ce soir.<br/>Ce constat, nous le partageons pleinement. Si nous, députés communistes et progressistes ultramarins du groupe GDR, défendons à terme une allocation d’études proche des revendications des organisations étudiantes, l’urgence impose de prendre des mesures immédiates et concrètes. C’est le sens de la proposition de loi que j’ai déposée le 14 octobre, articulée autour de deux mesures simples, dont nous avons évoqué la première : l’indexation des montants ainsi que des barèmes des bourses sur l’inflation.<br/>La seconde, c’est l’annualisation du versement des bourses, qui passerait de dix mois à douze mois. En effet, vous le savez comme moi, les charges ne s’arrêtent pas l’été pour les étudiants : les loyers ne s’interrompent pas, les achats de la rentrée universitaire s’anticipent, les abonnements de transport se poursuivent. Quand je parle d’annualisation, j’entends bien le versement de deux mensualités supplémentaires, et non un étalement du montant actuel, qui aggraverait encore la précarité. Cela correspondrait à une augmentation d’environ 20 % du montant annuel des bourses, un minimum syndical au vu de l’ampleur du problème auquel nous faisons face.<br/>Ma question est donc la suivante, monsieur le ministre : puisque vous partagez nos constats – c’est une bonne nouvelle –, soutiendrez-vous également nos solutions ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2871171" ordre_absolu_seance="162" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014198" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5936.90">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2871172" ordre_absolu_seance="163" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014199" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="5940.15">Si nous partageons les constats, il faut aussi que nous partagions les contraintes. En tant que ministre, j’assume en tout cas les contraintes budgétaires qui pèsent sur notre travail. Celles-ci n’ont pas empêché le budget de la mission interministérielle<italique> Recherche et enseignement supérieur</italique> (Mires) d’augmenter de 750 millions d’euros cette année.<br/>Les propositions qui font l’objet de votre question ont des coûts très élevés. L’annualisation des bourses, c’est-à-dire le passage de dix à douze mois, pour l’ensemble des étudiants coûterait ainsi 450 millions d’euros. La réforme visant à linéariser le système représenterait 400 millions supplémentaires. Nous arrivons ainsi à des montants considérables, difficiles à trouver dans les conditions budgétaires que nous connaissons.<br/>Je maintiens qu’il s’agit d’une question importante, d’autant que les BCS sont les seules prestations sociales à ne pas être indexées, comme vous l’avez rappelé. Cela provoque des retards : gelées pendant quelques années, ces bourses font ensuite l’objet d’un effort très significatif, comme lors du fort rattrapage intervenu en 2023. Ces effets « accordéon » ne sont pas des plus souhaitables.<br/>Il convient donc que la question reste à l’ordre du jour et que nous parvenions à trouver une solution en tenant compte des contraintes budgétaires. Ces dernières rendent impossible en 2026 la réforme que j’ai évoquée. J’espère néanmoins que nous trouverons des solutions.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2871176" ordre_absolu_seance="167" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014203" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6069.81">La parole est à M. Emmanuel Fernandes.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2871177" ordre_absolu_seance="168" id_acteur="PA794786" id_mandat="PM843242" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014204" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Emmanuel Fernandes (LFI-NFP)</nom>
+              <id>794786</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6076.34">Aujourd’hui, à Strasbourg comme ailleurs, des milliers d’étudiants survivent dans la précarité, notamment en raison d’un système de bourses défaillant : c’est moins une question de moyens pour l’État – des recettes sont possibles, nous l’avons prouvé lors de l’examen du budget – que de volonté politique envers notre jeunesse.<br/>Les faits sont accablants : un étudiant sur cinq déclare d’importantes difficultés financières et a déjà eu recours à une aide alimentaire, quand 36 % d’entre eux sautent des repas régulièrement, selon un baromètre récent de l’association Cop1. Par ailleurs, les syndicats alertent aussi sur les retards administratifs : en 2024, près du tiers des étudiants strasbourgeois – pour prendre l’exemple de ma circonscription – ont subi des retards de versement de plus de deux mois, les contraignant à cumuler emplois précaires et dettes pour payer loyer et nourriture.<br/>Cette situation existe à la même ampleur au niveau national. Un étudiant devrait étudier, et non survivre. Or comment étudier sereinement avec la peur de perdre son logement ou le ventre vide ? S’ajoutent des effets de seuil absurdes : à l’université de Strasbourg, un étudiant a perdu sa bourse pour 100 euros de revenus parentaux en trop et dû renoncer à ses projets d’études.<br/>La flambée des loyers des petits logements, liée à la spéculation et au manque d’encadrement, aggrave encore la situation. Le système actuel ne fonctionne pas : lourdeurs administratives, court-termisme budgétaire et absence de vision politique laissent des jeunes sans ressources pendant des mois. Cette double difficulté à se loger et à se nourrir alimente le désespoir : le nombre d’étudiants ayant pensé au suicide a été multiplié par trois depuis 2020. Tel est le résultat de la politique macroniste.<br/>Pourtant, des solutions existent. La France insoumise propose un revenu étudiant universel, qui dépasserait le seuil de pauvreté, versé dès 18 ans sans conditions de ressources parentales, garantissant l’autonomie financière. Finis la bureaucratie, les inégalités de soutien familial et les seuils dépassés de quelques euros qui brisent des avenirs. Les études doivent rester un levier d’émancipation garanti par la République.<br/>Monsieur le ministre, quand le gouvernement réformera-t-il radicalement ce système pour qu’aucun jeune ne cesse ses études faute de moyens ? Un pays qui abandonne ses étudiants est un pays qui abandonne son avenir.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871183" ordre_absolu_seance="174" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014282" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6191.57">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871184" ordre_absolu_seance="175" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014283" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6205.13">J’ai mentionné dans mon intervention liminaire un certain nombre des points sur lesquels vous m’interrogez, notamment les effets de seuil. Vous évoquez des effets de seuil pour 100 euros, mais nous avons même des exemples où ils jouent à 1 euro près ! Ces marches dans le calcul des bourses représentent une difficulté et contribuent au manque de lisibilité du système : c’est une des raisons pour lesquelles une réforme est nécessaire.<br/>Vous avez visiblement de votre côté des solutions qui permettraient de dégager des marges budgétaires. Je ne les ai pas encore parfaitement comprises, mais je ne doute pas une seconde que vos propositions seront à la fois efficientes et concrètes !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871186" ordre_absolu_seance="177" id_acteur="PA794786" id_mandat="PM843242" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014285" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Emmanuel Fernandes</nom>
+              <id>794786</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6239.31">L’ISF, c’est 4 milliards !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871187" ordre_absolu_seance="178" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014286" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6261.90">Les aides pour les étudiants, qu’elles soient gérées par les Crous ou par d’autres organismes, représentent 3,2 milliards d’euros. L’effort de la nation est significatif, même s’il faut probablement aller plus loin.<br/>Je souhaite modérer vos propos sur les lourdeurs administratives. Les personnels qui s’occupent des aides pour les étudiants, en particulier les agents des Crous et du Cnous, sont très mobilisés, focalisés sur la réussite des étudiants ; ils travaillent beaucoup pour trouver des solutions à des situations souvent difficiles. J’aimerais plutôt leur rendre hommage.<br/>Enfin, je rappelle qu’il existe au-delà des bourses sur critères sociaux tout un ensemble d’aides aux étudiants distribuées par l’État comme l’aide au mérite, l’aide à la mobilité en master, l’aide à la mobilité internationale, l’aide à la mobilité Parcoursup. Il existe aussi des prêts garantis par l’État et des aides spécifiques ponctuelles – c’est-à-dire des aides d’urgence – instruites et distribuées par les Crous dans des situations particulièrement difficiles.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871190" ordre_absolu_seance="181" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014289" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6332.04">La parole est à Mme Delphine Lingemann.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871191" ordre_absolu_seance="182" id_acteur="PA794702" id_mandat="PM843248" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014290" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Delphine Lingemann (Dem)</nom>
+              <id>794702</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6337.42">Nous débattons de l’indispensable réforme structurelle des bourses étudiantes sur critères sociaux qui, selon la DGESIP, la direction générale de l’enseignement supérieur et de l’insertion professionnelle, coûterait entre 300 et 600 millions d’euros.<br/>Accorder le repas à 1 euro à tous les étudiants, et non plus seulement aux boursiers et aux étudiants les plus précaires, ne résout pas structurellement la précarité étudiante. Les 90 millions d’euros que représente cette généralisation du repas à 1 euro pourraient en effet être investis dans d’autres domaines tout aussi importants, notamment le logement, le premier poste de dépenses des étudiants.<br/>Sur ce point, le rapport de nos collègues Thomas Cazenave et Charles Sitzenstuhl que vous mentionniez souligne une anomalie : 45 % des bénéficiaires étudiants des APL sont issus des 30 % des foyers les plus riches. Ne faudrait-il pas restreindre le versement des aides personnalisées au logement aux étudiants issus de foyers modestes et de la classe moyenne ?<br/>La mobilité étudiante est tout aussi importante. Dans le Puy-de-Dôme – mon collègue Julien Brugerolles pourrait le confirmer –, les jeunes s’autocensurent faute de moyens et faute de mobilité. Il existe, certes, des aides ponctuelles à la mobilité, mais ne faudrait-il pas inclure des critères durables de mobilité dans les bourses sur critères sociaux, comme le suggère aussi le rapport de nos collègues ?<br/>Enfin, vous repensez actuellement le modèle économique des universités. Nous pourrions aussi repenser le modèle de financement des études. Un de nos invités évoquait la possibilité, entre autres, de combiner prêts d’État et bourses. Dans les pays où ce type de dispositif existe, comme en Allemagne avec le Bafög, la précarité étudiante est moindre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871196" ordre_absolu_seance="187" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014295" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6469.12">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871197" ordre_absolu_seance="188" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014296" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6477.29">Concernant le repas à 1 euro, vous savez que le budget pour 2026 est le fruit d’un compromis et, si vous avez suivi les débats à l’Assemblée, vous savez aussi que j’étais initialement opposé à cette mesure. Cela dit, ces 90 millions vont être donnés à des étudiants, qui ne font pas partie des gens les plus aisés de la population. Ce n’est donc pas de l’argent perdu, même s’il ne sera pas spécifiquement dirigé vers ceux qui en ont le plus besoin. Par ailleurs, les Crous sont actuellement saturés, ce qui risque d’engendrer des effets d’éviction. Nous y serons très attentifs et nous essaierons de trouver à la fois comment pousser les murs et comment aider les personnels des Crous. Nous sommes très mobilisés sur ce sujet compliqué ; la réforme aura bien lieu à compter du mois de mai, comme le premier ministre l’a annoncé.<br/>Le logement est effectivement une source majeure de précarité étudiante. La Banque des territoires a investi la somme considérable de 5 milliards d’euros pour la construction de 40 000 nouveaux logements. À ce stade, ce plan de construction est sur les rails et les délais tiennent.<br/>Enfin, vous m’interrogez sur la possibilité d’un nouveau modèle de financement des études. C’est une vraie question. Des prêts de l’État pourraient effectivement être envisagés, mais nous pourrions aussi réfléchir, plus que nous ne l’avons fait jusqu’à présent, au travail étudiant. Pour l’instant, il s’agit le plus souvent d’un travail subi,…</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871200" ordre_absolu_seance="191" id_acteur="PA841215" id_mandat="PM842801" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014299" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Marie Mesmeur</nom>
+              <id>841215</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6556.01">Il est tout le temps subi ! Les étudiants ne travaillent pas par plaisir !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871201" ordre_absolu_seance="192" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014300" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6587.38">…mais si nous mettions ce travail en adéquation avec les études, nous transformerions significativement une partie du monde étudiant.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871202" ordre_absolu_seance="193" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014301" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6596.22">La parole est à M. Stéphane Lenormand.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871203" ordre_absolu_seance="194" id_acteur="PA795244" id_mandat="PM843749" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014302" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Stéphane Lenormand (LIOT)</nom>
+              <id>795244</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6602.62">J’ai retenu qu’il y avait 650 000 étudiants boursiers en 2024-2025 : c’est le chiffre le plus bas depuis dix ans, ce qui nous montre bien que le système est à revoir. Je me permets donc de lancer quelques propositions ou interrogations. D’abord, pourquoi n’avons-nous jamais pensé à indexer le montant des bourses sur l’inflation ? Nous éviterions peut-être des suivis et des décalages sur plusieurs années.<br/>Il y a ensuite un réel besoin d’information et de simplification de l’accès aux bourses sur critères sociaux. J’ai été surpris de croiser dans différents territoires d’outre-mer de nombreux jeunes qui avaient droit à ces bourses mais qui, pour différentes raisons, n’ont pas été informés et n’ont pas eu accès à leur système informatisé, parfois complexe.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871204" ordre_absolu_seance="196" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014738" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6642.77">Oui, c’est vrai.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871205" ordre_absolu_seance="197" id_acteur="PA795244" id_mandat="PM843749" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014304" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Stéphane Lenormand</nom>
+              <id>795244</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6649.78">Enfin, de manière générale, il nous manque de la souplesse pour aider les étudiants dans le besoin. Je pense aux enfants de familles monoparentales, mais aussi aux enfants dont les parents sont en instance de divorce, une situation fréquente lorsqu’ils partent étudier. Le mode de calcul prenant pour base les revenus des années antérieures, ils peuvent ne pas obtenir de bourse et avoir à arrêter leurs études.<br/>En tant qu’élu de Saint-Pierre-et-Miquelon, je me concentrerai sur l’outre-mer. Le système national de bourses sur critères sociaux ne les pondère pas selon le niveau de vie des différents territoires d’outre-mer. Ainsi, un étudiant issu d’un foyer fiscal de catégorie C pourrait être boursier dans l’Hexagone, et ne le serait pas dans certains territoires d’outre-mer parce que les revenus du foyer seront trop élevés. Mais c’est parce que la vie est très chère ! Pour compenser cette vie chère, le gouvernement a accordé en 2025 une majoration de 300 euros sur les bourses sur critères sociaux pour les étudiants des Drom. Les autres catégories de territoires d’outre-mer n’ont pas été intégrées à cette mesure, alors que la vie y est également plus chère que dans l’Hexagone. Quelle a été la raison politique ou technique de cette sélection ?<br/>Enfin, vous avez fait un effort sur les bourses des étudiants en situation de handicap. Selon vous, sommes-nous à la hauteur de l’enjeu d’intégration de ces étudiants dans nos universités ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871208" ordre_absolu_seance="200" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014307" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6728.42">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871209" ordre_absolu_seance="201" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014308" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6739.14">La complexité du système est bien réelle. Elle rend d’une part très difficile pour les élèves qui se projettent dans les études supérieures de savoir quel niveau de bourse ils obtiendront, et elle empêche d’autre part certains étudiants d’avoir accès aux bourses auxquelles ils ont droit. C’est pourquoi nous avons lancé le dispositif « Campus zéro non-recours », actuellement en phase d’expérimentation sur huit campus universitaires, dont l’objectif est d’aller chercher les étudiants potentiellement bénéficiaires de bourses sur critères sociaux, plutôt que le contraire. Le dispositif sera évalué et nous verrons ce que cela a donné.<br/>En ce qui concerne les étudiants ultramarins, leurs bourses sont majorées de 30 euros par mois, soit 20 % de leur montant, depuis la rentrée 2023. Cette majoration concerne 27 000 étudiants et a constitué un premier geste. En outre, de 11 000 à 12 000 étudiants ultramarins qui poursuivent leurs études dans l’Hexagone bénéficient des deux mensualités supplémentaires – juillet et août – du complément vacances réservé aux boursiers. Enfin, 800 logements Crous seront rénovés d’ici 2027 dans les outre-mer.<br/>Ces mesures sont-elles suffisantes ? Probablement pas, mais la première cause d’inégalité dans les outre-mer, comme dans certains territoires ruraux de l’Hexagone, est surtout l’éloignement des lieux d’études supérieures et une offre de proximité réduite, avec peu de formations disponibles. Cette profonde inégalité oblige les étudiants à des mobilités coûteuses et insuffisamment couvertes par les bourses. Tout cela, nous le comprenons bien. Peut-être faudrait-il prendre conscience du fait qu’ouvrir des formations de proximité serait à la fois moins cher et plus efficace que de mettre en place des dispositifs très coûteux à destination d’étudiants envoyés dans l’Hexagone et que ce changement d’environnement met en difficulté.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871212" ordre_absolu_seance="204" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014311" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6877.81">La parole est à M. Julien Brugerolles.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871213" ordre_absolu_seance="205" id_acteur="PA794710" id_mandat="PM867916" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014312" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Julien Brugerolles (GDR)</nom>
+              <id>794710</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6885.26">Je voudrais à mon tour revenir sur la généralisation du repas à 1 euro pour tous les étudiants. Vous étiez initialement opposé à cette mesure, contrairement au groupe GDR qui l’avait fortement soutenue puisque la précarité alimentaire des étudiants est pour nous un enjeu central. Il est vrai que le financement de cette mesure devrait aussi passer par une grande politique publique de l’alimentation, ce qui n’existe toujours pas dans notre pays.<br/>La loi de finances pour 2026 prévoit donc la généralisation du repas à 1 euro dans les restaurants universitaires à compter du 1<exposant>er</exposant> mai 2026 pour tous les étudiants et sans conditions de ressources. Une enveloppe de 30 millions d’euros est inscrite au budget pour ce dispositif mais, comme mes collègues l’ont dit, les Crous estiment son coût réel à près de 90 millions d’euros. Un repas servi par les Crous coûte en moyenne 8 euros – soit bien davantage que 1 euro. En l’absence d’une compensation intégrale et pérenne de l’État, cette mesure est donc matériellement difficile, voire impossible à mettre en œuvre sans fragiliser l’équilibre financier des Crous. Nous en redoutons donc les conséquences potentielles : la saturation des restaurants universitaires, la dégradation de la qualité alimentaire des repas, voire la mise en tension des personnels et de certains services de Crous. Comment entendez-vous favoriser l’application de cette mesure sans mettre en difficulté les Crous et surtout en garantissant la qualité alimentaire des repas servis dans les restaurants universitaires ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871215" ordre_absolu_seance="207" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014314" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6917.07">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2871216" ordre_absolu_seance="208" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014315" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6928.67">Le montant de l’enveloppe additionnelle n’est pas de 30 millions, mais de 80 millions. Dans la mesure où ces annonces sont très récentes, nous n’avons pas encore finalisé la répartition exacte des crédits et les différents volets du dispositif du repas à 1 euro. Je vous indiquerai bien entendu tous les éléments dès qu’ils seront sur la table. Le dispositif sera mis en œuvre au mois de mai et il y aura l’argent suffisant pour que les Crous puissent compenser la perte de 2 euros – si je puis dire – par repas d’étudiant non boursier.<br/>Mais comme vous le dites, l’enjeu n’est pas tout à fait là. La mesure fait sens, mais les Crous, eux, sont saturés, le temps d’attente moyen avoisine les quarante-cinq minutes. Si notre objectif est d’aller plus loin et d’accueillir davantage d’étudiants, cela ne représente donc pas 80 ou 90 millions d’euros en année pleine, mais bien plus ! Il faut créer des antennes des Crous, il faut pousser les murs, il faut acheter du matériel et avoir éventuellement plus de personnel – des aspects décorrélés de la question du repas à 1 euro<italique> stricto sensu.</italique> Voilà donc les deux sujets sur lesquels nous devons trouver des solutions. Quoi qu’il en soit, cette mesure a été endossée et annoncée par le premier ministre et, même si ce n’était pas notre priorité, elle sera mise en œuvre sans que nous reculions.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871096" ordre_absolu_seance="210" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014703" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7094.05">La parole est à Mme Marie Mesmeur.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871097" ordre_absolu_seance="211" id_acteur="PA841215" id_mandat="PM842801" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014704" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Marie Mesmeur (LFI-NFP)</nom>
+              <id>841215</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7098.66">Ce débat autour de la réforme des bourses étudiantes me met très mal à l’aise, particulièrement après votre introduction, monsieur le ministre. Cette réforme a été promise par Emmanuel Macron en 2017, puis à nouveau en 2022, annoncée pour 2023, puis 2024, puis 2025. Finalement, à la fin du mois de juillet, vous avez annoncé son report pour des raisons budgétaires. Autrement dit, pas un euro, circulez, il n’y a rien à voir !<br/>Il y a pourtant beaucoup à voir. La précarité étudiante est structurelle : deux étudiants sur trois sont exclus du système des bourses, et autant sautent des repas toutes les semaines. Qui peut étudier correctement le ventre vide ? Il n’y a jamais eu aussi peu de boursiers depuis dix ans. Entre la réalité des étudiants et le système des bourses, il y a un gouffre.<br/>Pourtant, la seule réponse du gouvernement est d’annoncer une limitation des effets de seuil dans les montants, autrement dit de passer d’un système à échelons à un calcul au prorata. Une réforme technique, un coup de com’. Combien le gouvernement compte-t-il investir ? 500 millions d’euros, c’est ridicule, c’est à peine suffisant pour donner une bourse à l’échelon maximal à 0,0026 % du nombre total d’étudiants.<br/>C’est le système entier de protection sociale qu’il faut refondre. Il faut mettre en place une allocation d’autonomie universelle d’un montant qui permette réellement de vivre. Premièrement, parce que les aides actuelles sont dramatiquement insuffisantes : la bourse maximale est de 633,50 euros, or le coût de la vie étudiante est largement supérieur à 1 200 euros par mois, soit le double. Deuxièmement, conditionner les aides en fonction du revenu des parents est injuste et inefficace. Un étudiant n’est pas l’enfant de quelqu’un, c’est un adulte, un citoyen. Personne n’imaginerait calculer les allocations d’un retraité en fonction du salaire de ses enfants. Troisièmement, le droit d’étudier doit être universel, il doit bénéficier à tous, sans stigmatisation ni exclusion. Cela suppose un véritable investissement collectif avec la création d’une nouvelle branche de la sécurité sociale, financée par une cotisation sur les richesses produites. Comme après la seconde guerre mondiale, la création de la retraite a permis de reconnaître aux plus âgés le droit au repos par la solidarité nationale, nous devons mettre en place une allocation d’autonomie universelle au niveau du seuil de pauvreté, pour le droit d’étudier de tous et toutes et pour notre avenir.<br/>Monsieur le ministre, au-delà des coups de com’ et des fausses annonces pour les étudiants, aurez-vous le courage politique requis pour les protéger réellement ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871102" ordre_absolu_seance="216" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014709" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7213.88">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871103" ordre_absolu_seance="217" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014710" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7225.61">Madame la députée, je crois que le courage politique consiste à dire la vérité.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871103" ordre_absolu_seance="218" id_acteur="PA841215" id_mandat="PM842801" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014740" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Marie Mesmeur</nom>
+              <id>841215</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7230.98">Pas seulement !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871103" ordre_absolu_seance="219" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014739" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7234.51">La vérité est qu’il existe des difficultés techniques, comme je l’ai toujours dit. J’ai évoqué une linéarisation du système de bourses, en laquelle vous ne voyez qu’une simple mesure technique ou un coup de com’. Ce n’est pas le cas, et puisque j’ai reconnu que nous n’étions pas en mesure de mettre en place cette réforme dès maintenant, ce serait une communication pour le moins maladroite.<br/>Cette mesure, que j’estime indispensable pour améliorer un système aujourd’hui trop complexe, coûterait déjà entre 400 et 500 millions d’euros. Il faut pouvoir la mettre en œuvre, et compte tenu des contraintes budgétaires et de l’état des finances publiques, ce n’est pas possible aujourd’hui. D’autres mesures ont été mises en place, en particulier s’agissant du logement étudiant.<br/>S’agissant du rôle du revenu des parents dans l’attribution des bourses, je rappelle que les parents ont l’obligation légale de subvenir aux besoins de leurs enfants, en particulier quand ils font des études. C’est pourquoi le parallèle que vous établissez ne me semble pas tout à fait exact.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871106" ordre_absolu_seance="222" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014713" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7320.78">La parole est à M. Arnaud Bonnet.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871107" ordre_absolu_seance="223" id_acteur="PA841885" id_mandat="PM843446" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014714" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Arnaud Bonnet (EcoS)</nom>
+              <id>841885</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7329.93">Nous avons précédemment reçu des représentants de l’Unef, et je souhaite reprendre certains de leurs chiffres, car l’étude annuelle effectuée par l’association est intéressante. L’augmentation du coût de la vie étudiante à la rentrée 2025 est de 4,12 %, ce qui porte l’évolution du coût de la vie étudiante depuis 2017 à + 31,88 %, sans commune mesure avec l’évolution des bourses. La réforme des bourses avait été annoncée par le gouvernement au plus fort de la mobilisation contre la réforme des retraites, et je rappelle qu’une augmentation du budget des aides sociales étudiantes de 500 millions d’euros dès la rentrée 2023 avait été promise. Pourtant, en janvier 2024, le système des bourses n’avait été abondé que de 117 millions d’euros et le programme budgétaire<italique> Vie étudiante</italique> de 220 millions d’euros. Il manquait donc 280 millions d’euros. Où sont-ils passés ?<br/>Vous avez affiché la volonté de poursuivre la réforme des bourses pour lutter contre la précarité étudiante, mais cette réforme a été suspendue en juillet. Sera-t-elle abandonnée ? En tant que parlementaire, je le sais pour avoir proposé un amendement, nous n’avons pas la possibilité de déplacer une niche de la partie recettes du budget à la partie dépenses. Serons-nous obligés d’attendre encore un an et l’élection présidentielle ? Il y a urgence.<br/>S’agissant de la linéarisation, je suis intéressé par les chiffres que vous donnez, car notre estimation était bien inférieure aux 450 millions que vous citez. Nous préconisons plutôt une défamiliarisation, objet de l’amendement que j’ai proposé au projet de loi de finances. Quel est votre avis sur la défamiliarisation ?<br/>S’agissant du repas à 1 euro, les montants évoqués sont inférieurs à 100 millions d’euros, nous n’allons donc pas nous extasier quand les étudiants ont faim. Rappelons les chiffres, on compte près de 900 points de restauration pour 3 millions d’étudiants, nous allons donc au-devant de sérieuses difficultés, d’autant qu’il est estimé que la fréquentation pourrait augmenter de 15 à 20 % à la suite de l’instauration du repas à 1 euro. Des moyens pérennes seront indispensables. Enfin, comment faire dans les zones blanches qui ne contiennent pas de points de restauration ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871111" ordre_absolu_seance="227" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014718" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7375.88">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871112" ordre_absolu_seance="228" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014719" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7504.64">Le dispositif de la loi Lévi, qui fonctionne depuis un an et demi, permet de répondre en partie au problème des zones blanches. Il faut peut-être en augmenter le montant. Par ailleurs, le taux de non-recours est assez élevé et nous devons faire la publicité de ce dispositif. Mais la solution technique existe et s’avère efficace, puisque 52 000 étudiants en bénéficient à ce jour. Il s’agit d’une carte prépayée dématérialisée d’un montant de 40 euros pour les boursiers et de 20 euros pour les non-boursiers, utilisable dans les commerces alimentaires partenaires.<br/>La réforme des bourses de 2023 n’a pas changé la structuration des bourses : nous n’avons fait qu’abonder un dispositif et une organisation existants. Il s’agissait de la première revalorisation du barème depuis dix ans, c’était un geste très attendu et important. Il a permis d’accroître de 30 000 le nombre des bénéficiaires et d’augmenter les montants des bourses pour tous les échelons, sans faire un seul perdant. L’augmentation forfaitaire était de 370 euros par an pour tous les boursiers et la revalorisation du barème était de 6 % pour le plafond de ressources, ce qui permettait à certains étudiants de progresser d’un échelon. Le coût total de cette revalorisation s’est élevé à 370 millions d’euros en 2023.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871114" ordre_absolu_seance="230" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014721" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7628.60">La parole est à Mme Soumya Bourouaha.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871115" ordre_absolu_seance="231" id_acteur="PA720838" id_mandat="PM843671" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014722" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Soumya Bourouaha (GDR)</nom>
+              <id>720838</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7634.61">Monsieur le ministre, je souhaite vous interroger sur un angle mort de vos politiques publiques en matière de précarité étudiante : l’après-diplôme. La période précédant l’entrée dans la vie professionnelle après un cursus universitaire est aujourd’hui beaucoup plus longue, parce que la précarité ne s’arrête pas au jour de la remise du diplôme. Pour des milliers de jeunes, et singulièrement pour les étudiants boursiers, elle ne fait que changer de visage. Les aides s’interrompent brutalement. Les enquêtes annuelles sur l’insertion des jeunes diplômés le montrent bien : en 2024, selon la conférence des grandes écoles et l’Association pour l’emploi des cadres (Apec), le moment de l’accès au premier emploi a reculé, y compris pour les diplômés de grandes écoles, et on compte 48 580 cadres débutants recrutés, soit une baisse de 19 % par rapport à l’année précédente. Autrement dit, l’entrée dans la vie professionnelle ralentit et se précarise, et ce phénomène frappe d’abord ceux qui n’ont ni capital social ni soutien familial pour amortir cette période.<br/>Un mécanisme de soutien avait été mis en place, mais il a été arrêté. La recommandation n<exposant>o</exposant> 11 du rapport d’information du comité d’évaluation et de contrôle des politiques publiques sur l’évaluation des aides sur critères sociaux pour les étudiants préconise d’instaurer un soutien spécifique aux boursiers néodiplômés à la recherche d’un premier emploi, pour une durée maximum de six mois. J’aimerais connaître votre avis sur cette question.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871117" ordre_absolu_seance="233" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014724" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7732.81">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871118" ordre_absolu_seance="234" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014725" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7737.39">Le point que vous soulevez est pertinent. La précarité ne prend effectivement pas fin à la sortie des études, la période de transition peut être compliquée. Les difficultés sur le marché de l’emploi se traduisent souvent par un allongement des études et se manifestent immédiatement sur le nombre d’inscrits en master ou à un second master. Lorsqu’il y a des difficultés, les étudiants restent dans le système universitaire et continuent à bénéficier des bourses existantes.<br/>Nous voulons travailler avec la délégation générale à l’emploi et à la formation professionnelle du ministère du travail et des solidarités pour renforcer les liens avec Pôle emploi et aider plus efficacement les étudiants ayant terminé leur cursus à trouver leur premier emploi. Toutefois, étant donné les contraintes que nous connaissons, ma priorité est de soutenir les étudiants qui entrent dans le système, durant leurs premières années d’études. Sans évidemment oublier les autres, il faut focaliser les politiques publiques sur ce point de fragilité que constituent les premières années d’études.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871120" ordre_absolu_seance="236" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014727" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7827.97">La parole est à M. Stéphane Lenormand.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871121" ordre_absolu_seance="237" id_acteur="PA795244" id_mandat="PM843749" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014728" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Stéphane Lenormand (LIOT)</nom>
+              <id>795244</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7833.87">Je souhaite revenir sur le cas des étudiants en situation de handicap, tant du point de vue de la prise en charge financière que des mesures d’accompagnement qui sont souvent nécessaires pour leur permettre de compenser une partie de leur handicap. Quel regard portez-vous sur les dispositifs en place ?<br/>De manière plus générale, en tant qu’ancien enseignant, je sais qu’en primaire, au collège et au lycée, toutes sortes de dispositifs sont prévus pour les accompagner – je ne les citerai pas parce qu’ils changent tous les ans. J’ai l’impression que d’un point de vue pédagogique, cet accompagnement disparaît dans les universités – à part peut-être lors des travaux dirigés –, ce qui n’est naturellement pas une bonne façon de les accompagner, de leur mettre le pied à l’étrier et de compenser leurs difficultés. Dans d’autres pays, l’accompagnement est beaucoup plus personnalisé et individualisé.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871123" ordre_absolu_seance="239" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014730" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7869.68">La parole est à M. le ministre de l’enseignement supérieur, de la recherche et de l’espace.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2871124" ordre_absolu_seance="240" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014731" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre de l’enseignement supérieur, de la recherche et de l’espace</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7893.77">Le budget consacré aux étudiants en situation de handicap a été multiplié par trois ces dernières années, un réel effort est donc en cours. DD’importants investissements ont été réalisés par nos établissements d’enseignement supérieur, comme dans tous les bâtiments publics, pour améliorer l’accessibilité. Ce n’est pas une condition suffisante, mais elle est souvent nécessaire, en particulier pour accueillir les personnes qui souffrent d’un handicap moteur.<br/>Vous avez mentionné les dispositifs tels que les accompagnants d’élèves en situation de handicap (AESH) qui sont les aidants au quotidien des personnes en situation de handicap à l’école, au collège ou dans les lycées. Ils ont permis une vraie transformation, puisque des jeunes qui n’arrivaient pas à suivre un cycle normal peuvent dorénavant le faire. Cette montée en charge atteint progressivement l’université, et c’est très bien. Nous privilégions aujourd’hui les étudiants aidants, d’autres étudiants de l’université qui ont un ou deux ans de plus que l’étudiant en situation de handicap. Les aidants bénéficient ainsi d’un contrat et réalisent un travail qui a du sens.<br/>N’oublions pas non plus les nombreux dispositifs que nous avons imaginés pour nous adapter aux difficultés des élèves en situation de handicap – je pense en particulier au déroulement des examens.<br/>Enfin, un travail très important a été réalisé pour développer l’accessibilité numérique et l’accessibilité pédagogique. L’apprentissage de tous les élèves, quel que soit leur handicap, doit être facilité. Un gros effort a été fait pour aider les élèves atteints de troubles psy. J’ai vu bon nombre de collègues très mobilisés sur le terrain.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2871377" ordre_absolu_seance="244" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014838" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8026.05">La parole est à Mme Delphine Lingemann.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2871378" ordre_absolu_seance="245" id_acteur="PA794702" id_mandat="PM843248" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014839" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Delphine Lingemann (Dem)</nom>
+              <id>794702</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8045.87">Comment envisagez-vous de combiner les différents outils dont disposent les étudiants pour financer leurs études, qu’il s’agisse des bourses, des prêts, du travail étudiant, afin de construire un modèle solide et durable, susceptible de faire enfin reculer la précarité étudiante ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2871379" ordre_absolu_seance="246" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014840" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8068.48">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2871380" ordre_absolu_seance="247" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014841" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="8074.53">C’est une vaste question qui recouvre des situations très diverses d’un étudiant à l’autre, puisqu’ils sont loin de s’inscrire tous dans le même schéma familial. Il faut donc imaginer des dispositifs qui s’adaptent à ces multiples réalités. Je crois que les aides ne doivent pas être uniformes, mais conçues pour que les moyens de l’État permettent de soutenir en priorité les étudiants qui en ont le plus besoin.<br/>Concernant le travail étudiant, il ne me semble pas prévu que nous engagions dans les prochains mois une grande réforme mais à titre personnel, il me paraît important que nous commencions à y réfléchir. Le travail étudiant est, aujourd’hui, trop souvent subi. Je ne dis pas qu’il n’est pas intéressant ni formateur, mais il impose tout de même des volumes horaires souvent importants. Nous devrions engager une réflexion collective sur la manière dont les étudiants travaillent, et de quelle façon nous pourrions les aider à trouver un poste qui ait du sens et fasse écho à leurs études, par exemple dans l’accompagnement de leurs pairs. Nous l’avons évoqué pour ce qui concerne le handicap, mais nous pourrions tout aussi bien creuser cette piste pour tout ce qui a trait au soutien scolaire des plus petits, aux missions pour les collectivités, etc.<br/>Pas moins d’un étudiant sur deux travaille, parfois dans des conditions qui ne sont pas satisfaisantes. Ce sujet-là doit être mis sur la table dans l’année qui vient.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2871383" ordre_absolu_seance="250" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014844" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8179.93">La parole est à Mme Soumya Bourouaha.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2871384" ordre_absolu_seance="251" id_acteur="PA720838" id_mandat="PM843671" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014845" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Soumya Bourouaha (GDR)</nom>
+              <id>720838</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8183.85">Je voudrais aborder le sujet du logement étudiant. La garantie Visale, proposée par Action logement, fonctionne et est financée. Cette garantie gratuite, qui couvre jusqu’à trente-six mois de loyers impayés, sécurise les propriétaires et facilite l’accès au logement des jeunes ainsi que des actifs précaires. Pourtant, ce dispositif est très peu connu, surtout dans le parc privé où beaucoup de bailleurs continuent d’exiger une caution familiale. Résultat : les jeunes restent exclus, sans logement.<br/>Ma question recoupe l’une des recommandations que j’avais formulées dans mon rapport : serait-il envisageable de lancer une campagne de promotion de la garantie Visale auprès des bailleurs privés et de l’étendre aux associations d’intermédiation locative ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2871386" ordre_absolu_seance="253" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014847" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8246.78">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2871387" ordre_absolu_seance="254" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014848" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="8252.16">Ce dispositif est un outil important, c’est pourquoi il a été beaucoup promu en 2017. Il offre une garantie locative aux étudiants dont les parents n’ont pas les ressources suffisantes. Lancé en 2017, ce dispositif n’a cessé de s’étendre : de 159 000 bénéficiaires en 2022, il est passé à presque 200 000 en 2025, une année record. C’est bien le signe que des efforts sont faits et que tout le monde s’accorde pour reconnaître les mérites de cette garantie. J’approuve votre proposition d’en faire une plus large publicité. C’est là en effet une aide que nous proposons aux étudiants, même si elle est indirecte, mais ils ne la sollicitent pas en nombre suffisant car ils ne la connaissent pas tous..<br/>On en revient à ce problème du non-recours. Ce sera sans doute l’un des grands enjeux du ministère, des rectorats, des Crous, du Cnous et des établissements, que de le résoudre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2871389" ordre_absolu_seance="256" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014850" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8335.95">La parole est à M. Arnaud Bonnet.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2871390" ordre_absolu_seance="257" id_acteur="PA841885" id_mandat="PM843446" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014851" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Arnaud Bonnet (EcoS)</nom>
+              <id>841885</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8347.20">Dans certaines filières, les étudiants peuvent avoir à suivre trente-cinq heures de cours dans la semaine, ce qui représente l’équivalent d’un temps plein professionnel. Je tenais à le rappeler, pour l’avoir moi-même vécu. Et certains étudiants doivent travailler la nuit pour compenser ! C’est une réalité.<br/>Revenons au sujet de la santé mentale, qui nous inquiète tout particulièrement du fait du manque de professionnels de soin. Les dernières études réalisées par des syndicats étudiants révèlent que 30 % des étudiants déclarent avoir renoncé à des soins pour des raisons financières. Je ne vais pas citer cinquante chiffres, mais sachez que 16 % des étudiants se sont déjà privés de soins ophtalmologiques et 7 % d’un suivi gynécologique. Que faites-vous pour améliorer la situation ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2871392" ordre_absolu_seance="259" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014853" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8395.45">La parole est à M. le ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2871393" ordre_absolu_seance="260" id_acteur="PA855049" id_mandat="-1" id_nomination_oe="PM873691" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4014854" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Baptiste</nom>
+              <id>855049</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="8400.53">Plusieurs dispositifs ont été créés, en particulier celui de Santé psy étudiant, qui a permis d’augmenter le nombre de séances gratuites, notamment avec un psychologue. Parallèlement, de nombreux établissements ont constitué des cabinets médicaux au sein des campus, qui permettent de faciliter l’accès des étudiants à ces consultations qui restent des consultations de ville. On peut y trouver des généralistes, des dentistes, des gynécologues. Ces initiatives dépendent fortement de la volonté du président de l’université et ne s’inscrivent pas dans une démarche proposée uniformément dans tout le pays. Dans certains territoires, comme à Tours, le résultat est remarquable, avec des équipes médicales fournies, des infirmiers et des étudiants qui se mobilisent et jouent le rôle de relais auprès des étudiants en difficulté pour les intégrer au dispositif. J’ai vu de très belles réalisations, mais la difficulté sera de généraliser le système. Ce sera d’autant plus compliqué que nous avons volontairement laissé la main aux établissements, en leur laissant en particulier la possibilité de mobiliser dans cet objectif une partie de la CVEC – contribution de vie étudiante et de campus. Tous ne font pas ce choix-là, les actions sont variées, mais je crois que c’est dans cette direction que nous devons agir : offrir des soins sur les campus.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2871394" ordre_absolu_seance="261" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="DISC_GENERALE_2_40" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014855" valeur="" bibard="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8500.57">Le débat est clos.</texte>
+        </paragraphe>
+      </point>
+    </point>
+    <finSeance>
+      <point nivpoint="1" valeur_ptsodj="2" ordinal_prise="8" id_preparation="2871396" ordre_absolu_seance="263" code_grammaire="FIN_SEAN_1_2" code_style="Titre" code_parole="" sommaire="1" id_syceron="4014857" valeur="">
+        <orateurs/>
+        <texte>Ordre du jour de la prochaine séance</texte>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="8" id_preparation="2871397" ordre_absolu_seance="264" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="FIN_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4014858" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8502.73">Prochaine séance, demain, à neuf heures :<br/> Discussion de la proposition de loi améliorant la protection des personnes ciblées par les réseaux de criminalité organisée ;<br/> Discussion de la proposition de loi pour protéger l’eau potable ;<br/> Discussion de la proposition de loi visant à empêcher la constitution de monopoles économiques dans le secteur des médias d’information ;<br/> Discussion de la proposition de loi visant à permettre aux maires de loger les habitants en mobilisant les logements vacants ;<br/> Discussion de la proposition de loi pour une génération sans sucre ;<br/> Discussion de la proposition de loi constitutionnelle visant à instaurer un référendum d’initiative citoyenne délibératif ;<br/> Discussion de la proposition de loi visant à réduire les risques sanitaires liés aux contaminations au cadmium dans l’alimentation ;<br/> Discussion de la proposition de loi visant à promouvoir l’éducation en extérieur, au contact de la nature ;<br/> Discussion, en deuxième lecture, de la proposition de loi constitutionnelle, modifiée par le Sénat, visant à accorder le droit de vote et d’éligibilité aux élections municipales aux étrangers non ressortissants de l’Union européenne résidant en France ;<br/> La séance est levée.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="8" id_preparation="2871398" ordre_absolu_seance="265" code_grammaire="FIN_SEAN_2_4" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4014859" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance est levée à vingt-trois heures quarante.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="8" id_preparation="2871399" ordre_absolu_seance="266" code_grammaire="FIN_SEAN_2_5" code_style="Signature droite" code_parole="" sommaire="0" id_syceron="4014860" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>Le directeur des comptes rendus<br/> Serge Ezdra</italique>
+          </texte>
+        </paragraphe>
+      </point>
+    </finSeance>
+  </contenu>
+</compteRendu>

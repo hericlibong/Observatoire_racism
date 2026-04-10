@@ -1,0 +1,708 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compteRendu xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid>CRSANR5L17S2026O1N178</uid>
+  <seanceRef>RUANR5L17S2026IDS30400</seanceRef>
+  <sessionRef>SCR5A2026O1</sessionRef>
+  <metadonnees>
+    <dateSeance>20260324213000000</dateSeance>
+    <dateSeanceJour>mardi 24 mars 2026</dateSeanceJour>
+    <numSeanceJour>3</numSeanceJour>
+    <numSeance>178</numSeance>
+    <typeAssemblee>AN</typeAssemblee>
+    <legislature>17</legislature>
+    <session>Session ordinaire 2025 -2026</session>
+    <nomFichierJo>20260178</nomFichierJo>
+    <validite>valide</validite>
+    <etat>complet</etat>
+    <diffusion>public</diffusion>
+    <version>avant_JO</version>
+    <environnement>PROD</environnement>
+    <heureGeneration>2026-03-31T12:58:13.000+02:00</heureGeneration>
+    <sommaire>
+      <presidentSeance id_syceron="4043054">Présidence de Mme Nadège Abomangoli</presidentSeance>
+      <sommaire1 valeur_pts_odj="1">
+        <titreStruct id_syceron="4043058">
+          <intitule>Ingérences étrangères à l’approche des échéances électorales</intitule>
+          <sousIntitule>0</sousIntitule>
+        </titreStruct>
+        <para id_syceron="4043062">Mme Constance Le Grip (EPR)</para>
+        <para id_syceron="4043072">Mme Ségolène Amiot (LFI-NFP)</para>
+        <para id_syceron="4043085">Mme Marie Récalde (SOC)</para>
+        <para id_syceron="4043096">Mme Virginie Duby-Muller (DR)</para>
+        <para id_syceron="4043107">Mme Catherine Hervieu (EcoS)</para>
+        <para id_syceron="4043232">Mme Laetitia Saint-Paul (HOR)</para>
+        <para id_syceron="4043244">M. Joël Bruneau (LIOT)</para>
+        <para id_syceron="4043255">M. Édouard Bénard (GDR)</para>
+        <para id_syceron="4043409">Mme Sylvie Josserand (RN)</para>
+        <para id_syceron="4043423">Mme Marie-Pierre Vedrenne, ministre déléguée chargée de la citoyenneté</para>
+        <para id_syceron="4043171">M. Éric Bothorel (EPR)</para>
+        <para id_syceron="4043181">Mme Marie-Pierre Vedrenne, ministre déléguée</para>
+        <para id_syceron="4043189">Mme Natalia Pouzyreff (EPR)</para>
+        <para id_syceron="4043195">Mme Marie-Pierre Vedrenne, ministre déléguée</para>
+        <para id_syceron="4043443">Mme Gabrielle Cathala (LFI-NFP)</para>
+        <para id_syceron="4043448">Mme Marie-Pierre Vedrenne, ministre déléguée</para>
+        <para id_syceron="4043456">Mme Catherine Hervieu (EcoS)</para>
+        <para id_syceron="4043459">Mme Marie-Pierre Vedrenne, ministre déléguée</para>
+        <para id_syceron="4043461">M. Bertrand Bouyx (HOR)</para>
+        <para id_syceron="4043466">Mme Marie-Pierre Vedrenne, ministre déléguée</para>
+        <para id_syceron="4043470">Mme Anne Sicard (RN)</para>
+        <para id_syceron="4043476">Mme Marie-Pierre Vedrenne, ministre déléguée</para>
+        <para id_syceron="4043507">Mme Sylvie Josserand (RN)</para>
+        <para id_syceron="4043509">Mme Marie-Pierre Vedrenne, ministre déléguée</para>
+      </sommaire1>
+      <sommaire1 valeur_pts_odj="2">
+        <titreStruct id_syceron="4043511">
+          <intitule>Ordre du jour de la prochaine séance</intitule>
+        </titreStruct>
+      </sommaire1>
+    </sommaire>
+  </metadonnees>
+  <contenu>
+    <quantiemes>
+      <journee>Troisième séance du mardi 24 mars 2026</journee>
+      <session>Session ordinaire 2025 -2026</session>
+    </quantiemes>
+    <ouvertureSeance nivpoint="1" valeur_ptsodj="0" ordinal_prise="1" id_preparation="2896968" ordre_absolu_seance="1" code_grammaire="OUV_SEAN_1_1" code_style="Présidence" code_parole="" sommaire="1" id_syceron="4043054" valeur="">
+      <orateurs/>
+      <texte>Présidence de Mme Nadège Abomangoli<br/> vice-présidente</texte>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2896969" ordre_absolu_seance="2" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="OUV_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043055" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="885.24">La séance est ouverte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2896970" ordre_absolu_seance="3" code_grammaire="OUV_SEAN_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4043056" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(La séance est ouverte à vingt et une heures trente.)</italique>
+        </texte>
+      </paragraphe>
+    </ouvertureSeance>
+    <point nivpoint="1" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2896972" ordre_absolu_seance="5" code_grammaire="TITRE_TEXTE_DISCUSSION" code_style="Titre" code_parole="" sommaire="1" id_syceron="4043058" valeur="">
+      <orateurs/>
+      <texte>Ingérences étrangères à l’approche des échéances électorales</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2896973" ordre_absolu_seance="6" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="ODJ_APPEL_DISCUSSION" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043059" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="887.83">L’ordre du jour appelle le débat sur le thème : « Ingérences étrangères à l’approche des échéances électorales ». Ce débat a été demandé par le groupe Ensemble pour la République.<br/>La conférence des présidents a décidé d’organiser ce débat en deux parties : dans un premier temps, nous entendrons les orateurs des groupes, puis le gouvernement ; nous procéderons ensuite à une séquence de questions-réponses.<br/>La parole est à Mme Constance Le Grip.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2896976" ordre_absolu_seance="9" id_acteur="PA345722" id_mandat="PM843650" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043062" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Constance Le Grip (EPR)</nom>
+            <id>345722</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="920.79">Il est une guerre que nous n’avons pas forcément vue venir : la guerre hybride que mènent à la France et aux démocraties européennes des acteurs mal intentionnés – des puissances étrangères qui s’en prennent à nous soit directement, soit par l’intermédiaire de proxys, d’officines privées, de réseaux d’influenceurs, de médias à leur solde, de bots ou encore de trolls, entre autres leviers et moyens d’action.<br/>Les ingérences étrangères, multiples et diversifiées, ne peuvent plus être considérées comme un phénomène marginal ou conjoncturel. Elles s’inscrivent désormais dans des stratégies assumées, durables, qui revendiquent la conflictualité comme mode d’action. Il ne s’agit plus seulement d’influencer les opinions, de créer un environnement favorable ou compréhensif, mais de fragiliser et de déstabiliser nos démocraties en s’en prenant au cœur même de leur fonctionnement, à savoir les conditions du débat public, la sincérité des processus électoraux, la fiabilité des informations et le sérieux des médias, mais aussi la confiance placée dans les institutions – pour ne citer que quelques-unes des cibles de ces ingérences malveillantes et agressives qui se multiplient à notre encontre.<br/>Quatre grandes lignes d’action reviennent de manière récurrente : la délégitimation du processus électoral ; la mise en cause de la crédibilité des médias ; le ciblage de partis politiques, de personnalités politiques ou journalistiques ; l’instrumentalisation de sujets sensibles afin de polariser le débat public, de le déformer, de l’hystériser. Les acteurs à l’origine de ces ingérences ne se manifestent pas uniquement à l’approche des scrutins, ils opèrent dans le temps long en établissant des relais, en testant des récits, en occupant l’espace informationnel. Cependant, force est de constater que l’approche des échéances électorales exacerbe l’intensité et accroît la dangerosité de leurs manœuvres. Le débat de ce soir, parce qu’il intervient juste après les élections municipales et alors que se profile une séquence électorale très dense, avec un scrutin présidentiel et sans doute des élections législatives, prend donc tout son sens.<br/>Ce n’est pas la première fois que le Parlement s’intéresse à ce sujet. Au premier semestre de l’année 2023, il a fait l’objet d’une commission d’enquête dont j’ai eu l’honneur d’être la rapporteure. Le rapport annuel 2022-2023 de la délégation parlementaire au renseignement (DPR), rendu public en novembre 2023, en avait fait son thème principal. Le Sénat lui avait également consacré une commission d’enquête, dont les conclusions furent présentées en juillet 2024. Enfin, il y a surtout la loi du 25 juillet 2024 visant à prévenir les ingérences étrangères en France – issue des principales recommandations de la délégation parlementaire au renseignement et d’une proposition cosignée par Sacha Houlié, Thomas Gassilloud et moi-même –, qui a instauré plus de transparence en obligeant les représentants d’intérêts étrangers à se déclarer auprès de la Haute Autorité pour la transparence de la vie publique (HATVP), mais également alloué des moyens supplémentaires à nos services de renseignement sur ce sujet. Enfin, plus modestement, j’anime un groupe de travail informel transpartisan au sein de la commission des affaires européennes, laquelle s’est très tôt intéressée aux ingérences étrangères dans le sillage des travaux du Parlement européen. Je ne doute pas que des collègues ici présents auront à cœur de rendre compte des travaux menés au sein d’autres commissions.<br/>À l’approche des échéances municipales, Viginum, le service de vigilance et de protection contre les ingérences numériques étrangères, placé sous l’égide du secrétariat général de la défense et de la sécurité nationale (SGDSN), chargé de détecter et de caractériser les ingérences numériques étrangères, avait mis en place, avec d’autres services de l’État, le réseau de coordination et de protection des élections. Ce réseau, qui implique plusieurs acteurs, a bien fonctionné durant la période qui a précédé les élections municipales et pendant le scrutin, permettant de mettre en évidence certaines opérations d’ingérence. Ce dispositif de vigilance a fait la preuve de son efficacité, les tentatives de délégitimation du scrutin municipal n’ayant pas abouti.<br/>Grâce à ce réseau, d’autres formes d’ingérences ont pu être identifiées, telles celles visant à copier des sites de la presse quotidienne locale pour désinformer et alimenter la défiance. Ont également été observés des dispositifs structurés associant sites internet et comptes sur les réseaux sociaux pour dénigrer, ou tenter de dénigrer, certains candidats. Depuis 2017, aucun scrutin organisé en France n’a été totalement épargné par les ingérences et les actions informationnelles malveillantes. Le but est toujours le même : fragiliser, affaiblir notre démocratie, instaurer de la méfiance et de la confusion, effacer la frontière entre le vrai et le faux, favoriser tel candidat ou tel camp au détriment des autres, travailler à l’installation d’un récit alternatif.<br/>Les autres démocraties européennes sont également visées. En Roumanie, la Cour suprême a dû annuler le premier tour de la présidentielle pour cause d’ingérence. L’Allemagne et la Pologne ont aussi connu des campagnes d’ingérence à l’occasion de scrutins récents. La Moldavie a dû résister vaillamment, avec notre aide d’ailleurs – celle de Viginum et de l’Agence nationale de la sécurité des systèmes d’information (Anssi) –, à une vague massive d’attaques informationnelles. Et pas plus tard que le week-end dernier, la Slovénie a su résister à une campagne malveillante visant à déstabiliser un camp pour en promouvoir un autre. Ces ingérences, cette guerre hybride, ont toujours le même point d’origine : la Fédération de Russie et les réseaux de Vladimir Poutine. Comment, enfin, ne pas évoquer la Hongrie, où se concentrent des manipulations à grande échelle visant à abattre l’opposant au premier ministre, en bonne position dans les sondages, qui semble parvenir à cristalliser l’envie d’alternance ? C’est dans ce pays que Mme Le Pen a cru bon de se rendre pour soutenir Viktor Orbán, le jour même où l’on apprenait que le ministre des affaires étrangères hongrois informait régulièrement son homologue russe des délibérations européennes confidentielles.<br/>Face à ces agressions, qu’elles émanent de la Russie, de la république populaire de Chine, de la république islamique d’Iran, d’Azerbaïdjan, d’Algérie ou même, à certains égards, de la sphère Maga, chère à Donald Trump, la riposte ne peut pas être exclusivement nationale. Je salue l’implication des autorités françaises et la création de réseaux et d’agences dédiés, de même que le grand professionnalisme des agents, ainsi que notre capacité à résister, à détecter, à caractériser et à prévenir – j’ai déjà cité Viginum et l’Anssi, mais je n’oublie pas, plus globalement, les services du ministère des armées, du ministère des affaires étrangères, du ministère de l’intérieur et de beaucoup d’autres. Si la coordination interministérielle pilotée par Matignon est efficace et témoigne de la capacité de résistance de notre démocratie, la riposte doit toutefois être européenne. C’est tout l’objet du bouclier européen pour la démocratie, dispositif présenté en novembre 2025 par la Commission européenne, que le président de la République souhaite intégrer à un agenda de mesures plus puissantes encore destinées à protéger nos démocraties et à réguler les grandes plateformes.<br/>Le chef de l’État, il faut le souligner, a su, peut-être plus vite que d’autres, analyser, mettre en garde et appeler à l’action contre cette guerre hybride informationnelle que nous mènent des puissances étrangères, des régimes autoritaires et des dictatures – au premier rang desquels la Russie de Poutine. Cela tient sans doute au fait que lors de sa campagne de 2017, il fut lui-même concerné par de telles ingérences. Le 28 octobre, le président Macron lançait à l’Élysée le cycle « La démocratie à l’heure des réseaux sociaux », dans lequel la lutte contre la désinformation d’origine étrangère figurait en bonne place. Le lendemain, lors du Forum de Paris pour la paix, il consacrait une intervention à la nécessité de résister à ces attaques en affirmant que « quand le mensonge triomphe sur la vérité, nos sociétés sont fragilisées ». Il a eu raison de tirer sans cesse la sonnette d’alarme et d’inciter notre pays à relever la garde. Car toutes ces manipulations, quelle que soit la forme qu’elles revêtent, s’en prennent à notre démocratie, à nos valeurs. Or protéger nos démocraties est l’affaire de tous.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2896985" ordre_absolu_seance="18" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043071" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1515.85">La parole est à Mme Ségolène Amiot.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2896986" ordre_absolu_seance="19" id_acteur="PA794138" id_mandat="PM842909" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043072" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Ségolène Amiot (LFI-NFP)</nom>
+            <id>794138</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1525.86">Les ingérences électorales ont marqué le scrutin municipal qui s’achève. Qu’elles proviennent de Russie, des États-Unis ou d’Israël, ces manœuvres, qui ciblent le plus souvent la gauche, ont affaibli notre résilience démocratique. Au nom de mon groupe, je salue le travail du SGDSN et de Viginum. Les équipes de ces services ont rencontré l’ensemble des formations politiques pour expliquer concrètement les mécanismes à l’œuvre et nous alerter lorsque nos candidats étaient visés par des opérations malveillantes. Ce travail de prévention est précieux. Nous les en remercions.<br/>Néanmoins, force est de constater que des campagnes massives de désinformation ont été déployées, que la puissance publique n’est pas en mesure d’enrayer : la Russie a multiplié les faux sites internet imitant la presse française pour favoriser, le plus souvent, le Rassemblement national et des candidats d’extrême droite ; des campagnes d’affichage diffamatoires ont visé les candidats Insoumis à Toulouse et à Marseille ; des raids numériques menés par des sociétés israéliennes ont également ciblé ces candidats, ainsi que David Guiraud à Roubaix, comme l’a révélé<italique> Le Canard enchaîné</italique>.<br/>La conclusion de cette séquence municipale est que la France est perméable à un ensemble d’ingérences électorales. À un an de l’élection présidentielle, un tel constat oblige le gouvernement à agir rapidement pour y remédier, afin de garantir à nos concitoyens le bon déroulement des prochains scrutins.<br/>La France n’est pas un cas isolé. Les ingérences se multiplient partout dans l’Union européenne, avec une influence grandissante sur les résultats électoraux. À l’Est, la Russie favorise des candidats qui lui sont favorables. Israël, par l’intermédiaire d’organisations relais, pèse également sur nos démocraties en organisant des campagnes de dénigrement contre les candidats de gauche qui dénoncent ses crimes de guerre et qui défendent les peuples qu’il opprime dans la région. Quant aux États-Unis, ils s’immiscent aussi, par l’entremise des Gafam, dans nos processus démocratiques.<br/>Le rôle de ces plateformes demeure la préoccupation principale de la France tant les réseaux sociaux sont devenus omniprésents dans notre vie quotidienne et influencent en profondeur le débat démocratique. Leurs algorithmes sont entre les mains de quelques oligarques de la Silicon Valley qui défendent une vision d’extrême droite, suprémaciste et profondément raciste. À titre d’exemple, Sarah Knafo, candidate de Reconquête à la mairie de Paris, a vu ses statistiques sur le réseau X fortement progresser : elles ont été largement amplifiées par les algorithmes de cette plateforme.<br/>Depuis la réélection de Donald Trump, tous les garde-fous ont sauté : les maigres dispositifs de vérification ont été démantelés, les algorithmes sont devenus plus opaques et échappent toujours davantage au contrôle démocratique. Les plateformes constituent désormais un vecteur central de diffusion des idées les plus extrêmes. Elon Musk et Mark Zuckerberg l’assument ouvertement. Le premier va jusqu’à intervenir directement dans les débats politiques européens en soutenant des candidats d’extrême droite, y compris dans notre pays. Or nos médias sont loin d’y être imperméables : une polémique naît sur X à partir de comptes d’extrême droite, elle est reprise par les chaînes de Bolloré, puis relayée par toute la presse bien-pensante qui court derrière l’audimat de ce milliardaire.<br/>Il convient donc de nous demander collectivement comment nous pouvons agir et réguler ces plateformes. Comment instaurer un véritable rapport de force avec ces<italique> techno bros</italique> bien décidés à transformer nos démocraties en laboratoires de l’extrême droite ? L’Union européenne a avancé une réponse : le règlement sur les services numériques (DSA). Toutefois, celui-ci se révèle largement insuffisant et ne régule rien. Heureusement, d’autres voies existent et doivent être examinées. Au Brésil, Lula a su instaurer un rapport de force avec ces plateformes en leur imposant une vérification de l’information. Il leur a clairement exposé ses conditions : soit vous régulez l’information et vous participez à une vie démocratique saine, soit vos entreprises n’auront plus accès à notre territoire. Quel a été le résultat ? Les Gafam ont plié et Lula a eu gain de cause.<br/>Le rapport de force politique paie. Il existe donc un chemin : accepter d’engager un rapport de force avec les oligarques de la tech et Donald Trump. Nous en avons besoin pour l’élection présidentielle à venir. La France n’a pas vocation à devenir une colonie numérique des États-Unis.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2896943" ordre_absolu_seance="27" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043084" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1827.67">La parole est à Mme Marie Récalde.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2896944" ordre_absolu_seance="28" id_acteur="PA341981" id_mandat="PM842822" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043085" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie Récalde (SOC)</nom>
+            <id>341981</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1836.48">Ce n’est pas la première fois de notre histoire – hélas ! – que les menaces d’ingérence étrangère sont au cœur des débats de l’Assemblée nationale. Si les manœuvres informationnelles ont toujours fait partie de l’histoire des conflits, il est indéniable que la rapidité d’exécution et l’ampleur des méthodes de guerre hybride font peser un risque sans précédent sur nos démocraties.<br/>En tant que deuxième pays le plus ciblé en Europe, après l’Ukraine, par des attaques informationnelles, la France doit continuer de montrer l’exemple dans cette lutte d’influence. L’enjeu est crucial : il faut nous prémunir contre le risque d’être « défaits sans être envahis ». Or la période électorale que nous venons de vivre a encore été bouleversée par de nombreuses tentatives d’ingérence numérique, à Roubaix, à Marseille et à Toulouse par exemple – comme mes collègues l’ont rappelé. L’objectif de nos compétiteurs est connu : miner notre démocratie à tous les échelons, du local au national, en brisant la confiance des citoyens en toute information et en toute institution. Ne nous y trompons pas, nos compétiteurs sont nombreux : Russie, Chine, Iran, Turquie, réseaux Maga – avec depuis peu des connexions assez inimaginables pour nos esprits cartésiens entre les deux côtés de l’Atlantique.<br/>L’annulation de l’élection présidentielle roumaine de 2024 doit doublement nous alerter. D’abord, les manipulations de grande ampleur qui ont eu lieu dans ce pays seront certainement déployées en France. Viginum a d’ores et déjà mis en garde contre l’emploi du mode opératoire dit Storm-1516 lors des élections européennes et des élections législatives de 2024. Un risque de reproduction de cette manipulation lors des prochaines élections présidentielles de 2027 est indéniable – nous avons d’ailleurs, avec ma collègue Natalia Pouzyreff, décrit cette menace dans notre rapport d’information relatif à la manipulation de l’information et aux stratégies d’influence déposé au nom de la commission de la défense en juillet 2025.<br/>Ensuite, l’annulation des élections nourrit les discours dénonçant la censure de certaines opinions politiques. Toute décision prise<italique> a posteriori</italique> comporte donc le risque de produire, à long terme, des effets contre-productifs. Il importe donc de nous préparer en amont pour ne pas être condamnés à la simple réaction. Notre pays peut se féliciter d’avoir instauré, depuis la création d’une nouvelle fonction stratégique influence dans la revue nationale stratégique (RNS) de 2022, une architecture interministérielle visant à lutter efficacement contre les menaces hybrides. Toutefois, celle-ci mériterait d’être clarifiée afin de gagner en efficacité.<br/>Dans cette perspective, je tiens à saluer l’action de Viginum. Cet opérateur incarne la politique de protection du débat public français. Sa méthodologie, reposant sur la détection des manipulations des contenus plutôt que sur la vérification de leur véracité, permet d’éviter tout soupçon de censure idéologique. Nous saluons également la hausse des crédits alloués au SGDSN dans le projet de loi de finances (PLF) pour 2026. Cette revalorisation doit être accentuée car les missions de Viginum sont capitales.<br/>La lutte contre les ingérences étrangères dans les territoires constitue également un enjeu crucial dans le cadre d’une stratégie globale de résilience de la société. Le groupe Socialistes et apparentés tient à rappeler la recommandation issue du rapport d’information « Défense et territoires : quels rôles pour les acteurs du territoire dans la défense nationale », présenté en mai 2024 : il convient de créer des postes de délégués régionaux de Viginum auprès des préfets de région afin d’accompagner tous les services déconcentrés de l’État.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2896951" ordre_absolu_seance="34" id_acteur="PA345722" id_mandat="PM843650" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043092" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Constance Le Grip</nom>
+            <id>345722</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1963.24">Oui, c’est une bonne idée !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2896952" ordre_absolu_seance="35" id_acteur="PA341981" id_mandat="PM842822" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043093" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie Récalde</nom>
+            <id>341981</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2038.11">Nous soutenons également la demande adressée à la Commission européenne par le président de la République : il faut mobiliser pleinement et activement les prérogatives d’enquête et de déclenchement de protocoles de crise en période électorale. Néanmoins, la temporalité très rapide de l’élection rend l’application du droit particulièrement complexe. Si nous saluons la volonté de rendre l’action judiciaire plus rapide grâce à une boîte à outils juridique structurée, la priorité absolue réside dans la prévention à destination de l’ensemble de la société civile. Aucune politique publique ne pourra aboutir dans ce domaine sans le renforcement de notre immunité collective – je reprends volontiers l’image médicale du chercheur David Colon qui évoque une « pandémie informationnelle ».<br/>Le nerf de cette guerre informationnelle est évidemment l’éducation, en particulier l’éducation aux médias qui doit être renforcée dans le parcours scolaire afin d’affermir l’esprit critique. Surtout, il convient de développer la sensibilisation des publics les plus âgés, qui s’avèrent moins avertis aux risques de désinformation. À l’approche de nouvelles échéances électorales, il est plus que jamais temps de permettre à chaque citoyen de s’informer véritablement, de contextualiser et de décrypter l’information. Face à cette urgence démocratique, nous avons tous un rôle à jouer. Le groupe Socialistes et apparentés restera toujours force de proposition dans ce domaine crucial afin de renforcer notre immunité collective face aux ingérences étrangères.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2896954" ordre_absolu_seance="37" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043095" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2136.59">La parole est à Mme Virginie Duby-Muller.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2896955" ordre_absolu_seance="38" id_acteur="PA608826" id_mandat="PM843365" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043096" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Virginie Duby-Muller (DR)</nom>
+            <id>608826</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2155.26">À l’approche de chaque échéance électorale, une menace insidieuse, persistante et en constante mutation se rappelle à nous : celle des ingérences étrangères. Longtemps perçue comme marginale, voire théorique, elle constitue désormais une réalité documentée, protéiforme et surtout profondément déstabilisatrice pour nos démocraties. Les ingérences étrangères désignent toute action menée par un acteur extérieur – État, organisation ou groupe affilié – visant à influencer, à perturber ou à altérer le fonctionnement normal de la vie démocratique.<br/>Auparavant, l’ingérence pouvait être diplomatique et économique ; aujourd’hui, elle est avant tout informationnelle et numérique. Elle se déploie sur les réseaux sociaux au moyen de faux comptes, de campagnes coordonnées de désinformation, de sites d’information frauduleux, de cyberattaques ou encore d’opérations de manipulation algorithmique. Elle s’appuie sur la viralité, l’émotion et la défiance pour fracturer l’opinion publique.<br/>Ces stratégies ne visent pas nécessairement à faire élire un candidat plutôt qu’un autre. Leur objectif est souvent plus pernicieux : semer le doute, affaiblir la confiance dans les institutions, polariser la société et,<italique> in fine</italique>, délégitimer le processus démocratique lui-même. Ces ingérences représentent un danger majeur pour notre pays parce qu’elles abîment le fondement même de notre démocratie en attaquant la sincérité du débat public et la liberté de choix des citoyens.<br/>En effet, une démocratie ne peut fonctionner que si les électeurs disposent d’une information fiable, pluraliste et accessible. Or les campagnes de désinformation brouillent les repères, saturent l’espace informationnel et rendent difficile la distinction entre le vrai et le faux. Elles exploitent également nos vulnérabilités collectives : la défiance envers les médias, la fragmentation des sources d’information et l’accélération des cycles de diffusion. Le numérique, en permettant une propagation instantanée et massive de contenus, agit comme un amplificateur. Dans ce contexte, la manipulation de l’information devient une arme stratégique à faible coût et à fort impact.<br/>Face à cette menace, l’État a réagi. Je tiens à saluer le rôle essentiel de Viginum, créé en 2021. Ce service, rattaché au SGDSN, est chargé de détecter, d’analyser et de caractériser les opérations d’ingérence numérique étrangères. Son action est déterminante. Lors de la période électorale de 2022, Viginum a identifié une soixantaine de phénomènes douteux sur les plateformes numériques, qui visaient à influencer le débat public français. Ces opérations reposaient notamment sur des réseaux de faux comptes diffusant des récits trompeurs, parfois amplifiés par des médias étrangers ou des relais locaux. Les élections plus récentes ont confirmé cette tendance. Lors des élections européennes et législatives de 2024, vingt-cinq tentatives d’ingérence ont été détectées et attribuées principalement à des acteurs malveillants russes. Elles reposaient sur la diffusion de contenus falsifiés, sur la création de faux sites d’information et des campagnes ciblées sur certaines circonscriptions.<br/>Les élections municipales de 2026 qui viennent de s’achever n’ont pas échappé à ces opérations d’influence particulièrement insidieuses. Ainsi, des plateformes qui se présentaient comme des médias locaux ont diffusé de fausses informations sur des candidats ou des politiques publiques, brouillant le débat à l’échelle territoriale. Un large spectre de candidats – de La France insoumise à la droite – ont été touchés par ces tentatives de déstabilisation.<br/>Face à ces défis, des avancées législatives ont été réalisées. La loi du 25 juillet 2024 visant à prévenir les ingérences étrangères en France a renforcé notre arsenal juridique. Elle permet notamment de mieux encadrer les activités d’influence, d’accroître la transparence des financements étrangers et de sanctionner plus efficacement les comportements frauduleux. Par ailleurs, des autorités de régulation comme l’Arcom, l’Autorité de régulation de la communication audiovisuelle et numérique, ont intensifié leurs actions de lutte contre la diffusion de contenus trompeurs, en particulier en période électorale. Les plateformes numériques, quant à elles, sont désormais davantage mises à contribution, même si leur responsabilité demeure sujette à débat.<br/>Cependant, les défis à venir demeurent considérables. À l’approche de l’élection présidentielle de 2027, la France sera une cible privilégiée de campagnes de désinformation, d’autant que les outils technologiques évoluent très rapidement : l’essor de l’intelligence artificielle générative, le développement des<italique> deepfakes</italique> et la diffusion automatisée de contenus crédibles permettent déjà d’orchestrer des manipulations à grande échelle, rendant la frontière entre information et désinformation toujours plus floue.<br/>Dans ce contexte, l’éducation aux médias constitue un enjeu essentiel pour toutes les générations. Un récent sondage de l’Ifop a mis en évidence que nombre de Français rencontrent des difficultés à distinguer les fausses informations et à appréhender les mécanismes de désinformation. Si ces difficultés touchent plus particulièrement les personnes âgées et les publics moins diplômés, aucune catégorie de la population n’est réellement épargnée. Il s’agit donc d’un problème majeur pour la préservation de la vie démocratique et le renforcement de l’esprit critique.<br/>Je conclurai en vous posant une question simple mais essentielle, madame la ministre déléguée chargée de la citoyenneté : dans la perspective de l’élection présidentielle de 2027, alors que tout indique que la France sera une cible privilégiée d’opérations d’ingérence étrangère, comment le gouvernement envisage-t-il de renforcer notre dispositif de lutte, tant sur le plan technologique que sur les plans juridique et humain, afin de garantir la sincérité du débat démocratique et la confiance de nos concitoyens dans les urnes ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2896965" ordre_absolu_seance="48" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043106" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2494.28">La parole est à Mme Catherine Hervieu.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2896966" ordre_absolu_seance="49" id_acteur="PA840947" id_mandat="PM842570" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043107" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Catherine Hervieu (EcoS)</nom>
+            <id>840947</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2505.60">Les élections municipales se sont achevées il y a deux jours au terme de plusieurs mois de campagne. Durant cette période, une autre bataille s’est livrée, à bas bruit, bien qu’elle soit désormais suffisamment documentée : Viginum a recensé quatre opérations principales d’ingérence ciblant ces élections. Ces opérations ont reposé sur quatre modes opératoires distincts et constitué autant de tentatives de peser sur notre débat démocratique depuis l’étranger.<br/>La plus préoccupante, par son ampleur, a été menée par le réseau Storm-1516 – un groupe servant les intérêts du gouvernement russe. Depuis février 2025, ce groupe conduit une campagne de désinformation en ligne en imitant des articles de la presse quotidienne régionale (PQR). L’ONG Reporters sans frontières a ainsi identifié 85 faux sites internet actifs et 13 900 articles destinés à semer le doute dans la population française à l’approche des municipales. Le 5 mars 2026, à Paris, les services de Viginum ont repéré sur le réseau X une vidéo frauduleuse attribuée au réseau Storm-1516. Celle-ci mettait en scène des personnes présentées comme migrantes devant la mairie de Paris et relayait une fausse proposition imputée à Pierre-Yves Bournazel : transformer le centre Pompidou en centre d’accueil. Le site de campagne du candidat a été copié par les opérateurs russes, reproduisant ses visuels pour rendre le mensonge vraisemblable.<br/>Loin d’être anecdotique, ce cas est caractéristique d’un mode opératoire bien rodé. Il bénéficie du laisser-faire des plateformes numériques, si bien qu’on peut dire que les algorithmes ne luttent pas contre la désinformation et favorisent même certains types de contenus. En janvier 2026, les vidéos de Sarah Knafo, candidate d’extrême droite à la mairie de Paris, ont ainsi généré plus de 17 millions de vues sur X. Selon le média Arago, ces contenus ont bénéficié d’une exposition trois fois supérieure à celle que leur audience organique aurait dû produire. Cela représente l’équivalent d’environ 44 000 euros en espaces publicitaires – espaces offerts par Elon Musk, alors que le code électoral interdit toute publicité. Nous avons là l’exemple d’une ingérence dans le processus électoral de la part d’un milliardaire américain assumant d’œuvrer au soutien de l’extrême droite.<br/>Ces opérations font office de répétition générale avant la présidentielle de 2027. Certes, il existe un règlement européen sur les services numériques, mais, d’une part, le DSA est impropre à prévenir les manipulations dans le temps court d’une campagne électorale, et, d’autre part, les enquêtes avancent lentement. Quand ces dernières aboutissent, les sanctions, trop faibles, ne sont même pas respectées. Ursula von der Leyen, en somme, cède au chantage exercé par Donald Trump sur les droits de douane.<br/>Ce sujet ne se résume pourtant pas à une guerre commerciale : il y va de la souveraineté démocratique. Parce qu’il est temps d’agir concrètement, nos collègues Jérémie Iordanoff et Thierry Sother ont déposé une proposition de résolution européenne appelant à l’application stricte du DSA. Cette proposition a été adoptée à l’unanimité par l’Assemblée nationale. Elle nous a donné l’occasion de dire qu’il est inacceptable que des acteurs privés et des puissances étrangères redessinent les contours du débat public.<br/>Madame la ministre, quelles mesures le gouvernement entend-il prendre, avant l’élection présidentielle de 2027, pour contraindre la Commission européenne à agir avec fermeté contre les plateformes ? N’est-il pas temps pour l’Arcom de prendre des mesures quand la Commission fait défaut ? Comment le gouvernement garantira-t-il l’intégrité du débat public dans la période électorale majeure qui s’ouvre dès aujourd’hui ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2897078" ordre_absolu_seance="55" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043231" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2743.29">La parole est à Mme Laetitia Saint-Paul.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2897079" ordre_absolu_seance="56" id_acteur="PA720138" id_mandat="PM842846" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043232" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Laetitia Saint-Paul (HOR)</nom>
+            <id>720138</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2751.33">En 2025, nous avons conduit avec mon collègue Alain David, pour la commission des affaires étrangères, une mission d’information sur l’irruption de l’intelligence artificielle dans les ingérences étrangères. Permettez-moi de vous présenter le fruit de nos travaux.<br/>En introduisant la vitesse, la personnalisation algorithmique et la simulation visuelle, l’IA transforme la bataille de l’information en une guerre de perception, conduite non plus par des acteurs humains, mais par des systèmes d’apprentissage capables de manipuler l’attention à grande échelle. Cette mutation technique s’inscrit dans un contexte culturel plus large : l’entrée des sociétés contemporaines dans l’ère de la post-vérité. Dans cet environnement, la sincérité émotionnelle tend à l’emporter sur la véracité des faits ; l’adhésion à un message repose moins sur sa valeur de vérité que sur sa capacité à susciter l’émotion, la peur ou l’indignation.<br/>Les plateformes numériques, structurées par des algorithmes de recommandation, exploitent ces ressorts affectifs – en particulier les émotions négatives – pour capter l’attention et la convertir en influence. La désinformation n’est donc plus un simple mensonge ; elle devient un outil d’ingénierie émotionnelle. L’espace public se recompose dès lors autour de flux d’émotions et de récits concurrents, où la vérité devient relative, fragmentée et instable. Cette dérive n’a pas échappé aux responsables politiques que nous sommes. Si les régimes libéraux dépendent de plus en plus d’infrastructures numériques qu’ils ne maîtrisent plus, la souveraineté cognitive des démocraties est en question.<br/>Derrière cette vulnérabilité, que l’on peut qualifier de structurelle, se joue une transformation plus profonde du rapport entre information, pouvoir et souveraineté. L’espace public, autrefois fondé sur la délibération rationnelle et la confrontation des idées, est désormais façonné depuis l’étranger par des logiques algorithmiques qui orientent l’attention, amplifient les émotions et redéfinissent la notion même de vérité partagée. Il devient ainsi essentiel de concevoir des cadres normatifs capables de préserver la rationalité du débat public, de garantir l’intégrité des processus électoraux et de renforcer la résilience cognitive des sociétés ouvertes.<br/>Les démocraties parviendront-elles à forger les armes pour faire face à la puissance de frappe que l’IA permettra de déployer dans le champ informationnel ? Je le résume ainsi : nous sommes face à un compétiteur qui met de l’encre dans un stylo qui écrit tout seul.<br/>Voici les trois propositions principales de la mission d’information que nous avons menée. D’abord, rendre obligatoire le consentement aux algorithmes dans les suggestions de contenus sur les plateformes. Ensuite, instaurer une réserve algorithmique préélectorale sur les plateformes pendant une période définie, en amont du scrutin, afin d’éviter toute manipulation et de préserver la sincérité des votes. Enfin, mettre rapidement et effectivement en place au niveau européen ou, à défaut, à l’échelle nationale – j’espère que c’est en bonne voie – une majorité numérique conditionnant l’accès aux réseaux sociaux.<br/>Permettez-moi de vous proposer un rapide état des lieux des différentes ingérences auxquelles la France a été confrontée, venant de Russie, tout d’abord. En 2024, d’après NewsGuard, 3 600 000 articles de propagande ont été publiés. On attribue à l’opération Storm-1516 : 77 actions, 55 millions de vues, 38 000 publications, des usurpations d’identité de présentateurs de télévision, des faux sites d’information dans quarante-huit langues, ainsi que des achats de pages de journaux pour blanchir l’information et empoisonner les modèles IA. Derrière les cent étoiles de David bleues taguées sur les murs de Paris, on trouve quatre Moldaves et 1 095 bots. La Chine, elle, s’appuie sur un dispositif d’influence alimenté par IA dont l’objectif est de diffuser des narratifs favorables au parti auprès d’une audience internationale. Ce mode opératoire, appelé « spamouflage », repose sur des réseaux de comptes aux caractéristiques inauthentiques chargés de mener des manœuvres informationnelles sur une multitude de plateformes. Terminons par le proto-État islamique. Selon les experts, en 2000, il lui fallait seize mois pour recruter des partisans et les radicaliser ; en 2010, quelques mois étaient nécessaires ; désormais, en ligne, il lui suffit de quelques semaines. Au Royaume-Uni, 25 % des individus arrêtés pour radicalisme sont des mineurs. On observe également un nombre important d’autoradicalisations.<br/>Pour conclure, madame la ministre, j’espère que nos préconisations seront mises en œuvre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2897090" ordre_absolu_seance="64" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043243" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3055.72">La parole est à M. Joël Bruneau.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2897091" ordre_absolu_seance="65" id_acteur="PA840817" id_mandat="PM842483" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043244" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Joël Bruneau (LIOT)</nom>
+            <id>840817</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3069.08">Les risques que les ingérences étrangères font courir à notre débat démocratique ne sont plus seulement théoriques, mais bien réels. Les analyses de Viginum indiquent que si ces manœuvres visent prioritairement les grandes élections – présidentielles, législatives et européennes –, c’est bien l’ensemble de notre cycle démocratique qui est désormais concerné. Les exemples récents doivent nous alerter. Ces dernières semaines, à l’occasion des municipales, plusieurs centaines de faux sites d’information ont ainsi été identifiés par le réseau de coordination et de protection des élections. Générés par intelligence artificielle, ils imitent l’apparence de médias régionaux bien connus pour diffuser des contenus orientés. Un tiers de ces sites, pour la plupart liés à la Russie, usurpent directement l’identité de titres de presse locaux. Un faux site, reprenant exactement l’identité visuelle officielle d’un candidat à la mairie de Paris, a prêté à ce dernier un projet fictif de transformation d’un musée en centre d’accueil pour migrants. Là encore, l’opération a pu être rattachée à une structure russe.<br/>Des soupçons se sont également portés sur des formes d’ingérence plus insidieuses, via les plateformes numériques. Le réseau social X, notamment, est suspecté de biais algorithmiques favorisant certains contenus. Nos territoires ultramarins sont particulièrement ciblés. L’Azerbaïdjan a déployé des campagnes numériques visant les mouvements indépendantistes en Nouvelle-Calédonie, à Mayotte, en Polynésie ou encore en Corse. Ces contenus, souvent relayés via des pages Facebook administrées depuis l’étranger, cherchent à remettre en cause la souveraineté française et à attiser les tensions locales. Certes, compte tenu du caractère local des dernières élections, ces publications ont rencontré un écho relativement limité. Nous aurions cependant tort de sous-estimer leur potentiel de nuisance, d’autant que l’essor de l’intelligence artificielle générative risque d’aggraver le phénomène. Cette dernière abaisse en effet considérablement le coût d’entrée de la manipulation de l’information et permet de produire désormais en quelques heures des milliers de contenus adaptés à des publics ciblés en exploitant les données personnelles – toujours avec l’apparence troublante de la réalité.<br/>Face à cela, notre réponse doit être structurée et opérationnelle. Le réseau de coordination et de protection des élections créé cette année par l’exécutif va incontestablement dans le bon sens. Il permet une coordination interministérielle et des actions concrètes, dont l’information directe des équipes de campagne visées et, quand c’est nécessaire, la dénonciation publique des opérations d’ingérence. Dans la durée, cependant, je crains que cela ne suffise pas. Nous devons aussi agir en amont.<br/>Il faut d’abord former nos concitoyens. Comme l’ont rappelé les travaux récents de nos collègues du Sénat, l’exploitation massive des données personnelles rend possible un ciblage personnalisé qui fragilise particulièrement les publics les moins avertis. Viginum a le projet de créer une académie de la lutte contre les manipulations de l’information : cette initiative doit être amplifiée afin de créer chez nos concitoyens une culture de la vigilance.<br/>Il faut ensuite soutenir nos médias locaux, dont les identités sont directement usurpées alors même que leur modèle économique est sous pression. Ils sont sur le terrain un maillon essentiel de l’information et nos concitoyens leur accordent, de ce fait, peut-être plus de crédit qu’aux autres médias. Ce n’est pas seulement la sincérité d’un scrutin qui est en jeu : c’est la confiance même dans le processus démocratique et électoral.<br/>Madame la ministre, à l’approche des prochaines grandes échéances électorales nationales et particulièrement de l’élection présidentielle, comment le gouvernement entend-il adapter nos capacités de détection, de réaction et de résilience face à des campagnes d’ingérence amplifiées par l’intelligence artificielle ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2897101" ordre_absolu_seance="71" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043254" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3309.19">La parole est à M. Édouard Bénard.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2897102" ordre_absolu_seance="72" id_acteur="PA796106" id_mandat="PM843383" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043255" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Édouard Bénard (GDR)</nom>
+            <id>796106</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3320.65">Ce débat est bienvenu au lendemain des élections municipales. Quelques soupçons d’interventions ou de tentatives d’intervention se sont en effet portés sur ce scrutin important pour les Français. Via des infox, des proxys ont parfois pesé – comme à Paris, à Roubaix, à Toulouse ou à Marseille – sur son bon déroulement. Ce sujet n’est donc en rien périphérique. Il s’agit d’un enjeu central pour la souveraineté populaire, pour la sincérité du scrutin et pour la confiance que nos concitoyens accordent à la démocratie. Je tiens donc à saluer à mon tour le travail des agents de Viginum et de l’Anssi.<br/>Les ingérences numériques étrangères sont une réalité documentée. Lors des scrutins de 2024, pas moins de vingt-cinq tentatives d’ingérence ont été clairement identifiées par les autorités françaises. Elles ont été plus nombreuses encore à faire l’objet d’un signalement. Derrière ces chiffres, il y a des stratégies coordonnées, des réseaux organisés, des contenus fabriqués pour influencer l’opinion publique, semer le doute et opposer les citoyens entre eux.<br/>Chacun peut aujourd’hui observer les formes que prennent ces opérations : faux sites d’information imitant des médias français, campagnes virales sur les réseaux sociaux relayant des contenus manipulés, vidéos sorties de leur contexte ou générées artificiellement, comptes automatisés amplifiant des messages polarisants, etc. Pensons à la campagne de désinformation russe dite<italique> Doppelgänger</italique>, qui a consisté à reproduire l’apparence de médias reconnus afin de diffuser des contenus favorables à des intérêts étrangers. Toute la stratégie tient en cela : exploiter les fragilités sociales, économiques et territoriales pour fracturer davantage notre société et fragiliser l’idée même du faire nation.<br/>Nous faisons face à une forme de guerre hybride, une guerre qui ne dit pas son nom, mais qui agit sur les perceptions, sur les émotions, sur la capacité des citoyens à distinguer le vrai du faux – une guerre qui vise, au fond, à affaiblir notre capacité collective à décider librement.<br/>Face à cela, notre réponse ne saurait cependant consister en une fuite en avant sécuritaire. Nous ne défendrons pas la démocratie en la restreignant. Nous ne répondrons pas à la manipulation par la censure généralisée – je crois que nous sommes toutes et tous d’accord sur ce point. Notre responsabilité est de tenir cette fragile ligne de crête : protéger l’intégrité du débat public tout en garantissant pleinement la liberté d’expression. Car le suspect ne saurait être celui qui exploite une donnée fausse ou non vérifiée – c’est son droit de le faire –, mais bien le commanditaire de cette donnée.<br/>Cela suppose d’abord de renforcer les outils existants. Le droit français permet déjà d’agir contre la diffusion massive et délibérée de fausses informations en période électorale, mais des angles morts subsistent, notamment pendant le déroulement du scrutin. Nous devons combler ces failles.<br/>Cela suppose ensuite d’exiger davantage des grandes plateformes numériques – j’ai d’ailleurs beaucoup apprécié la proposition d’y rendre obligatoire l’acceptation des algorithmes par les utilisateurs. Aujourd’hui, ces algorithmes favorisent les contenus les plus viraux, souvent les plus clivants, parfois les plus mensongers. Ce modèle économique n’est pas neutre : il alimente la désinformation. Le cadre européen, avec le Digital Services Act, va dans le bon sens ; encore doit-il être appliqué et contrôlé.<br/>Enfin, nous devons mener cette bataille au niveau européen et international. Les ingérences sont transnationales et notre réponse doit l’être également. Construire une coopération entre États européens, renforcer les capacités de détection, partager les informations : ces conditions sont indispensables pour ne pas subir.<br/>Protéger nos élections, ce n’est pas seulement empêcher des cyberattaques : c’est garantir que chaque citoyen, dans sa commune, son quartier, son territoire, puisse se forger une opinion libre, éclairée et indépendante de toute influence extérieure. C’est un combat pour la souveraineté et pour l’égalité car, en réalité, la désinformation ne touche pas tout le monde de la même manière. Elle frappe plus durement celles et ceux qui sont déjà éloignés de l’information, de l’éducation et des institutions ; elle creuse les inégalités démocratiques. C’est un combat pour la démocratie, que nous devons mener collectivement, avec lucidité, détermination et, surtout, confiance dans l’intelligence populaire.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2897112" ordre_absolu_seance="81" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043408" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3612.61">La parole est à Mme Sylvie Josserand.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2897113" ordre_absolu_seance="82" id_acteur="PA841075" id_mandat="PM842690" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043409" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sylvie Josserand (RN)</nom>
+            <id>841075</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3621.94">La bataille menée par les gouvernements libéraux contre les ingérences étrangères au motif allégué de leur effet sur les résultats des scrutins électoraux commence en 2016, année de la victoire du Brexit au référendum sur l’appartenance du Royaume-Uni à l’Union européenne et de l’élection de Donald Trump à la présidence des États-Unis.<br/>Cette bataille suggère que si les électeurs avaient reçu de « bonnes » informations, le résultat des scrutins aurait été différent. L’hypothèse sous-jacente est que la politique aurait cessé de porter sur les idées et serait devenue un problème d’information, dont la principale victime serait la faculté des citoyens et électeurs à distinguer le vrai du faux.<br/>Pour prétendument « protéger » les populations de « mensonges », les appels à la « régulation » se multiplient. En juillet 2024, en réaction à une poussée des partis patriotes aux élections européennes, Ursula von der Leyen annonçait la création d’un bouclier européen de la démocratie. Le résultat des élections européennes était ainsi vu comme la conséquence d’ingérences étrangères et de désinformation, et non comme l’expression d’une démocratie vivante.<br/>Pour préserver l’espace démocratique, Mme von der Leyen propose, entre autres outils, un réseau européen de vérificateurs de faits et un réseau européen d’influenceurs – tous deux présentés comme indépendants, mais financés par la Commission. Ils formeraient, avec les organisations de la société civile, une plateforme des parties prenantes, sorte d’agora post-politique.<br/>En février 2026, c’était au tour du Conseil de l’Europe de lancer un « pacte démocratique pour l’Europe ». Au cours d’une conférence internationale, sobrement intitulée « Façonner le renouveau démocratique », le secrétaire général du Conseil de l’Europe expliquait : « Chaque génération doit renouveler la démocratie. […] Le pacte démocratique pour l’Europe a besoin de la société civile, de ceux qui défendent les droits et maintiennent la vie démocratique au-delà des élections. » Ainsi, pour le Conseil de l’Europe comme pour la Commission européenne, les élections ne fondent plus la légitimité, et une plateforme de la société civile est préférable à des représentants élus par le peuple. Les déclarations d’Ursula von der Leyen visant la coalition italienne menée par Giorgia Meloni en octobre 2022 étaient d’ailleurs sans équivoque : « si les choses prennent une tournure difficile, […] nous avons des outils. »<br/>Au lendemain de la première guerre mondiale, l’historien français Marc Bloch, alors sergent d’infanterie, livrait ses «<italique> </italique> Réflexions d’un historien sur les fausses nouvelles de la guerre », texte paru en 1921 : « L’erreur ne se propage, ne s’amplifie, ne vit enfin qu’à une condition : trouver dans la société où elle se répand un bouillon de culture favorable. […] Un événement, une mauvaise perception […] qui n’irait pas dans le sens où penchent déjà les esprits de tous, pourrait tout au plus former l’origine d’une erreur individuelle, mais non pas d’une fausse nouvelle populaire et largement répandue. »<br/>Cette perspective invite à renverser les termes de l’explication de Bruxelles. Le Brexit et l’élection de Donald Trump renvoient moins à une crise de la vérité, à une incapacité à distinguer le vrai du faux, qu’à la crise du libéralisme et de la technocratie. Ce ne sont pas les algorithmes et nos biais cognitifs qui sapent la légitimité des institutions et érodent la confiance des citoyens. C’est dans le déclin de cette légitimité que prospèrent les aspirations au changement de la part de citoyens qui font montre d’esprit critique.<br/>D’ailleurs, les effets de la désinformation sur les dynamiques politiques contemporaines ont été largement amplifiés. Lors de l’élection de Donald Trump en 2016, les études ont montré que le contenu des faux comptes russes n’a représenté qu’à peine 0,004 % de ce que les utilisateurs de Facebook ont vu sur leur fil durant la campagne présidentielle.<br/>Dans le cas de la Roumanie, le rapport de Viginum n’a pas mis en avant d’ingérences numériques russes. Cela ne veut pas dire que la Russie n’a jamais fait d’ingérences, mais qu’elle n’en a pas fait en Roumanie : il ne faut pas avancer de fausses informations.<br/>La rigueur impose encore de distinguer l’ingérence de l’influence. Les États ont, de tout temps, développé des stratégies de puissance, dont la manipulation de l’information est un outil, en vue d’une lutte pour le pouvoir dans le cadre de la politique internationale. Si les technologies numériques donnent une nouvelle forme au phénomène, elles n’en sont pas à l’origine.<br/>« Puisque le peuple vote contre le Gouvernement, il faut dissoudre le peuple », « le gouvernement doit élire un nouveau peuple », écrivait Bertolt Brecht. La Commission de Bruxelles propose précisément cela : un bouclier technocratique européen contre la démocratie réelle des peuples.<br/>« La démocratie, c’est le gouvernement du peuple […] exerçant sa souveraineté sans entrave », rappelait le général de Gaulle : sans entrave, c’est-à-dire sans censure. Aussi le groupe Rassemblement national s’attachera-t-il à défendre la démocratie, laquelle n’est pas suspecte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2897125" ordre_absolu_seance="94" id_acteur="PA345722" id_mandat="PM843650" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043421" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Constance Le Grip</nom>
+            <id>345722</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3931.42">Bertolt Brecht, le général de Gaulle : rien ne nous sera épargné !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2897126" ordre_absolu_seance="95" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043422" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3943.85">La parole est à Mme la ministre déléguée chargée de la citoyenneté.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2897127" ordre_absolu_seance="96" id_acteur="PA873628" id_mandat="-1" id_nomination_oe="PM879425" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043423" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie-Pierre Vedrenne</nom>
+            <id>873628</id>
+            <qualite>ministre déléguée chargée de la citoyenneté</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3950.76">Contrairement à ce que laisse entendre la dernière intervention, nous ne sommes plus à l’ère où les ingérences étrangères relevaient de l’hypothèse ou du soupçon. Nous sommes entrés dans une époque où elles sont assumées, organisées et systémiques. Dans le même temps, elles sont diffuses, hybrides et souvent invisibles. C’est un sujet central, voire existentiel pour la République. Je vous remercie d’avoir pris l’initiative de ce débat essentiel face à cette stratégie délibérée de déstabilisation de notre démocratie.<br/>Ce qui est en jeu avec les ingérences étrangères à l’approche des échéances électorales, c’est non seulement la sincérité d’un scrutin, mais également la capacité de notre démocratie à fonctionner librement, sans manipulation. Comme vous l’avez dit, c’est la question de la garantie d’un lien de confiance intact entre les citoyens et les institutions. Sans dramatiser, mais sans faire preuve de naïveté, il nous faut répondre à une question simple : qui décidera lors des élections ? Le peuple souverain, ou des puissances étrangères qui cherchent à orienter son choix ?<br/>Les ingérences étrangères ne sont pas des accidents. Ce ne sont plus seulement des opérations d’espionnage ou d’influence diplomatique classique. Ce sont des campagnes coordonnées, menées par des acteurs étatiques ou paraétatiques, qui visent à altérer et à déstabiliser nos processus politiques et démocratiques. Leur objectif n’est pas seulement d’influencer une opinion, mais bien de fragiliser nos démocraties de l’intérieur – par le doute, la division, l’opposition – avec, au bout du compte, la volonté de miner la légitimité même des élections.<br/>Pour cela, les opérations d’ingérence utilisent toutes les ressources du monde numérique : la diffusion massive de fausses informations, l’exploitation malveillante des réseaux sociaux, la multiplication de faux comptes pour simuler les opinions ou encore, comme vous l’avez souligné, l’utilisation de l’intelligence artificielle pour produire de faux contenus ultraréalistes et anxiogènes, qui deviennent facilement viraux.<br/>Une véritable guerre émerge – plusieurs d’entre vous ont employé ce terme. Dans ce contexte, les élections sont des cibles privilégiées, parce qu’elles concentrent l’attention, les tensions, les débats, et qu’elles sont par essence le symbole de notre vie démocratique. Elles offrent enfin à des puissances étrangères une occasion unique : peser sur le résultat, sans jamais apparaître directement et sans en porter la responsabilité directe.<br/>La France n’est pas à l’écart de cette menace – vous le savez. Elle est une cible identifiée et prioritaire, justement parce qu’elle est une démocratie influente, qu’elle porte une voix indépendante sur la scène internationale et qu’elle est un pilier de l’Union européenne.<br/>La menace d’ingérence numérique étrangère s’est renouvelée et aggravée, à la faveur d’un contexte géopolitique fortement dégradé, notamment depuis le début de la guerre en Ukraine, le 24 février 2022, et depuis les événements de la fin de l’année 2023 au Moyen-Orient.<br/>Nous faisons face à des campagnes de manipulation, désormais documentées, attribuées et analysées. Elles sont menées avec méthode et avec des moyens importants. Certaines ont diffusé de faux contenus individuels, parfois générés ou modifiés par l’intelligence artificielle, pour porter atteinte à l’image de la France ou de ses institutions. D’autres ont consisté à amplifier artificiellement des tensions internes, à relayer des discours de division ou à soutenir des narratifs visant à fragiliser la cohésion nationale.<br/>Nous avons également observé des stratégies visant à instrumentaliser des crises locales – vous l’avez dit –, à encourager des mouvements de contestation ou à nourrir des discours de défiance vis-à-vis des institutions. Ces actions ne sont pas isolées, mais s’inscrivent dans une logique globale de pression permanente sur le débat public, facilitée par la vitesse de circulation de l’information et la puissance des plateformes numériques.<br/>Paradoxalement, cette stratégie malveillante est d’autant plus sournoise qu’elle exploite nos propres forces : la liberté d’expression, le pluralisme et l’ouverture du débat public. Ces actions ne sont pas neutres : elles visent à peser sur le débat démocratique français, à influencer directement ou indirectement le choix des citoyens et à affaiblir la cohésion nationale. Elles cherchent à détruire la confiance des Français envers les institutions, envers la parole publique et entre eux.<br/>Face à cette menace, la France fait le choix de la lucidité et de la fermeté. Il repose sur un équilibre exigeant : protéger la démocratie sans porter atteinte à ses principes. La première étape de cette réponse consiste à regarder le risque en face, pour nommer les ingérences, les documenter et les attribuer lorsque cela est possible.<br/>Pour cela, la France s’est dotée d’outils puissants, avec la création de Viginum en 2021 – je vous remercie des propos qui ont été les vôtres à son endroit et à celui de ses équipes. Ce service a permis de structurer une capacité nationale de détection et d’analyse des ingérences numériques étrangères. La France ne s’interdit plus de dénoncer publiquement les acteurs de ces ingérences, comme vous l’avez également fait.<br/>Cette capacité repose sur quatre axes : la veille en continu, l’analyse des comportements inauthentiques, le croisement de données publiquement accessibles et la coopération entre acteurs publics et privés. Elle s’appuie aussi sur un réseau élargi des services de l’État, d’autorités indépendantes, du monde académique, et sur les plateformes numériques.<br/>La deuxième étape de la réponse de la France est évidente : protéger les élections. Pour cela, il faut agir de manière coordonnée, comme nous le faisons, sous l’autorité du SGDSN – car la lutte contre les ingérences, par nature interministérielle, est une politique de souveraineté.<br/>Le SGDSN coordonne ainsi la stratégie nationale en matière cyber, de sécurité économique et de manipulation de l’information, en lien avec l’action des ministères en matière de sécurité nationale. Dans un contexte international particulièrement dégradé, la France a pour la première fois fait le choix de renforcer la sécurité en période électorale, notamment pour les élections municipales.<br/>Cela passe par le réseau de coordination et de protection des élections (RCPE), qui permet d’évaluer la menace et d’adapter la réponse en temps réel. Il réunit les administrations et les autorités indépendantes compétentes en matière électorale – comme l’Arcom –, la Commission nationale des comptes de campagne et des financements politiques (CNCCFP), le secrétariat général du gouvernement, le ministère de l’intérieur, Viginum et le comité éthique et scientifique chargé de suivre son activité.<br/>En parallèle, l’État a renforcé son arsenal législatif et réglementaire pour affermir la réponse aux tentatives d’ingérence. La loi du 22 décembre 2018 relative à la lutte contre la manipulation de l’information a doté l’Arcom et les juges des référés de nouvelles prérogatives, notamment le référé dit anti-<italique> fake news</italique> en période électorale.<br/>La loi du 25 juillet 2024 visant à prévenir les ingérences étrangères en France a instauré plusieurs mesures en matière de transparence, de renseignement et de réponse pénale.<br/>Le règlement sur les services numériques ou Digital Services Act, pleinement applicable depuis 2024, responsabilise également les plateformes en leur imposant d’atténuer les risques systémiques qu’elles font peser sur le débat public.<br/>La France entend continuer d’assumer un rôle moteur pour appliquer ce cadre européen de manière exigeante et ferme. Vous l’avez souligné, l’adoption de ce texte, soutenu notamment par la France, constitue une étape essentielle, mais l’enjeu réside désormais dans sa mise en œuvre. De nombreux parlementaires européens et commissaires européens restent mobilisés, tout comme – bien sûr – le président de la République.<br/>C’est d’ailleurs à sa demande insistante qu’a été adoptée en 2026 la stratégie nationale de lutte contre les manipulations de l’information, élaborée sous l’égide du SGDSN.<br/>Cette stratégie s’appuie sur les contributions d’experts, de chercheurs, de parlementaires et d’acteurs de terrain engagés quotidiennement. Elle offre à l’État une boîte à outils complète face aux ingérences numériques étrangères, combinant plusieurs leviers d’action qui peuvent être activés de manière graduée ou simultanée selon les situations.<br/>Ces leviers sont de plusieurs ordres. Ils peuvent être judiciaires, pour poursuivre les auteurs et sanctionner les atteintes à la sincérité du scrutin. Le garde des sceaux a d’ailleurs récemment pris plusieurs circulaires visant à cadrer les réponses judiciaires à apporter.<br/>Ils peuvent être diplomatiques, pour attribuer, dénoncer, ou s’engager dans des démarches de désescalade, mais aussi économiques, pour activer des régimes de sanctions nationaux ou européens.<br/>Ils peuvent être techniques, pour détecter, bloquer ou entraver les campagnes hostiles. Enfin, ils peuvent être communicationnels, pour rétablir les faits et informer les citoyens.<br/>Vous avez été plusieurs à le rappeler : la réponse ne peut pas être uniquement étatique. Le premier rempart, ce sont les citoyens eux-mêmes, par leur vigilance, leur esprit critique et leur capacité à distinguer le vrai du faux. Cela suppose de renforcer l’éducation aux médias, de développer une culture de vigilance, d’encourager une information fiable et vérifiée, de travailler à la transparence des plateformes et d’impliquer citoyens, médias, chercheurs et acteurs numériques dans cette lutte commune.<br/>Face à des campagnes visant à manipuler l’opinion, la meilleure défense reste une opinion éclairée, libre et critique. Dans cet objectif, la France déploiera en juin 2026 une académie de la lutte contre les manipulations de l’information au sein de Viginum. Des dispositifs d’engagement volontaire, tels que la journée défense et citoyenneté ou le service civique, seront également mobilisés pour diffuser largement cette culture de vigilance.<br/>Avant de conclure, je souhaite partager un constat plus optimiste. Grâce à la mobilisation du ministère de l’intérieur et de l’ensemble des acteurs engagés contre les ingérences étrangères, notamment numériques, les élections municipales qui se sont achevées ce week-end se sont bien déroulées. Les tentatives d’ingérences numériques étrangères n’ont pas produit d’effets significatifs.<br/>Les ingérences étrangères ne constituent pas un phénomène marginal, mais leurs conséquences ne sont donc pas une fatalité. Elles représentent l’une des formes contemporaines du rapport de force entre États. La question n’est pas de savoir si nous y serons confrontés, mais comment nous y ferons face. Si notre démocratie reste solide, ces ingérences ne produiront pas d’effets. Cette solidité n’est jamais acquise : elle se construit, se défend et se protège chaque jour.<br/>Nous nous devons d’être fermes et unis pour protéger la liberté de nos concitoyens de décider par eux-mêmes et empêcher que d’autres écrivent à leur place l’avenir de notre pays. C’est tout l’enjeu du débat – mieux comprendre, mieux prévenir et mieux combattre ces ingérences, sans jamais oublier que la force de notre modèle démocratique repose sur un principe simple : le seul pouvoir légitime vient du peuple français et de sa confiance dans les institutions et dans les élections.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2897005" ordre_absolu_seance="126" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043170" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4364.31">Nous en venons maintenant aux questions. Je rappelle que la durée des questions comme des réponses est limitée à deux minutes, sans droit de réplique.<br/>La parole est à M. Éric Bothorel.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2897006" ordre_absolu_seance="127" id_acteur="PA642695" id_mandat="PM842594" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043171" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Éric Bothorel (EPR)</nom>
+            <id>642695</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4729.35">Avant de commencer, je souhaite réagir aux propos tenus par notre collègue députée du Rassemblement national. Le pourcentage de 0,04 % auquel vous faites référence est un indicateur de prévalence mesuré par Meta, qui a fuité en 2021 dans les<italique> Facebook Papers</italique>. Il ne mesurait en aucun cas le niveau d’exposition des contenus de Donald Trump ; il portait sur d’autres catégories, notamment les contenus violents. Vous manipulez donc ce chiffre pour servir votre démonstration – CQFD.<br/>Les élections municipales sont désormais derrière nous et, à l’heure du bilan, on constate que les ingérences ont été peu nombreuses. C’est en tout cas le constat établi par Viginum. La mise en place d’un réseau de coordination et de protection des élections, qui rassemble les organismes publics chargés de la protection du scrutin, constitue une avancée majeure.<br/>Quelques améliorations restent toutefois nécessaires. Sébastien Delogu et François Piquemal, députés LFI-NFP, ont été victimes d’une attaque numérique de faible impact. Pour autant, elle était coordonnée et multicanale – des affiches apposées en ville relayaient des infox visibles sur quelques réseaux sociaux. Il faut donc identifier les instigateurs, qu’ils soient nationaux ou étrangers, de ces opérations de barbouzerie numérique.<br/>Dans une moindre mesure, Pierre-Yves Bournazel – à qui l’on reprochait de vouloir transformer Beaubourg en centre d’accueil pour migrants – a également été visé. Ce qui est intéressant, c’est que cette attaque est restée sous les radars jusqu’au moment où la députée européenne Nathalie Loiseau l’a évoquée publiquement pour dénoncer la manipulation. Mal lui en a pris puisque son intervention a produit l’effet inverse : elle a offert à cette infox une publicité inespérée, illustrant parfaitement le fameux effet Streisand.<br/>Il revient donc à Viginum, et non aux élus concernés, à d’autres responsables politiques ou aux médias traditionnels, de rendre publics les noms des personnes victimes de ces attaques. C’est l’un des moyens de faire de Viginum une véritable autorité de référence, rôle qui lui a été largement reconnu ce soir.<br/>Une autre amélioration cruciale consisterait à obtenir enfin la fermeture définitive des faux sites d’information régionale qui pullulent depuis plus d’un an. Ces sites imitent la presse locale pour détourner l’actualité française. On recense plus de 14 000 contenus produits par intelligence artificielle, 141 sites identifiés par Reporters sans frontières (RSF), et environ quatre-vingts qui rouvrent au fur et à mesure de leurs fermetures par Viginum.<br/>L’attaque est, sans aucun doute, d’origine russe : elle correspond exactement au mode opératoire russe Storm-1516. Comment couper réellement cette hydre ? Que manque-t-il à Viginum pour y parvenir ?<br/>Dernière remarque : il est manifeste qu’une candidate parisienne a bénéficié d’une visibilité sur les réseaux sociaux inversement proportionnelle à ses résultats électoraux. Il s’agit soit de publicité payante – pourtant interdite –, soit d’un soutien volontaire de la part des propriétaires de ces plateformes.<br/>Comment encadrer de manière systématique ces dérives et, surtout, comment s’assurer que de telles explosions médiatiques, qui ne sont assurément pas spontanées, ne se reproduisent pas en 2027 ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2897015" ordre_absolu_seance="136" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043180" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4740.23">La parole est à Mme la ministre déléguée.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2897016" ordre_absolu_seance="137" id_acteur="PA873628" id_mandat="-1" id_nomination_oe="PM879425" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043181" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie-Pierre Vedrenne</nom>
+            <id>873628</id>
+            <qualite>ministre déléguée</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4862.25">Je voudrais tout d’abord saluer votre mobilisation de longue date sur ces enjeux essentiels pour faire vivre la démocratie et garantir que les élections se déroulent dans les meilleures conditions.<br/>Vous l’avez dit, et je le rappelais en introduction : depuis 2017, aucune élection n’échappe aux ingérences numériques étrangères. Nous devons donc continuer d’agir, car la menace est croissante et préoccupante. C’est tout le sens du renforcement du travail de coordination. Nous devons partager une grammaire commune pour agir à la fois localement, nationalement, et mener le travail diplomatique international nécessaire pour exercer une pression sur les plateformes.<br/>Nous continuerons bien évidemment à protéger le débat public et les élections, face à ces ingérences numériques étrangères, grâce à une protection renforcée. Viginum a ouvert une opération dédiée visant à protéger le débat public, et nous continuerons à la renforcer.<br/>Une action de sensibilisation spécifique est également engagée. Vous avez évoqué, et une de vos collègues également, l’importance de la formation des partis politiques, mais aussi des associations d’élus. Ce travail de sensibilisation doit absolument se poursuivre. Il a aussi été mené auprès des présidents des deux chambres et des préfets. Des guides de sensibilisation ont été élaborés ; il faudra continuer à avancer.<br/>Nous devons aussi renforcer la coopération. Le réseau de coordination et de protection des élections, réseau de coopération<italique> ad hoc</italique> créé récemment, constitue une étape importante, mais nous devons encore le consolider pour agir pleinement.<br/>Les différents réseaux réunissent des membres permanents – Arcom, CNCCFP, secrétariat général du gouvernement, ministère de l’intérieur et Viginum. Il est indispensable de renforcer ce travail interministériel pour garantir notre souveraineté.<br/>Le RCPE n’a pas vocation à évaluer si l’intégrité du scrutin est remise en cause ; cette compétence relève du tribunal administratif. En revanche, nous poursuivrons notre mobilisation.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2897023" ordre_absolu_seance="144" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043188" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4992.63">La parole est à Mme Natalia Pouzyreff.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2897024" ordre_absolu_seance="145" id_acteur="PA721916" id_mandat="PM843470" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043189" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Natalia Pouzyreff (EPR)</nom>
+            <id>721916</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4998.81">Encore récemment, des campagnes de désinformation d’origine russe de type Storm-1516, ciblant la France, ont été mises au jour par Viginum. Je ne reviendrai pas sur les faits déjà évoqués – ils sont avérés.<br/>Contrairement à ce qui a pu être affirmé, l’administration Trump revendique son soutien aux partis prétendument patriotiques en Europe, quitte à s’ingérer dans les processus électoraux, comme ce fut le cas en Allemagne. Dans ce contexte, l’espace informationnel mérite une vigilance accrue à l’approche de l’élection présidentielle de 2027 afin de protéger le débat démocratique.<br/>Si l’on peut se féliciter de l’enthousiasme suscité par le compte<italique> French Response</italique>, qui permet de riposter à de fausses informations, la question de l’opérationnalisation de notre cadre juridique demeure. La loi du 22 décembre 2018 et celle de 2024 visant à sécuriser et à réguler l’espace numérique renforcent le contrôle et les sanctions à l’égard des plateformes. En revanche, la notion de contenu illicite dans le règlement DSA ne couvre pas spécifiquement la désinformation.<br/>Le rapport que j’ai remis en 2025 avec ma collègue Marie Récalde en conclusion des travaux d’une mission d’information sur le thème « l’opérationnalisation de la nouvelle fonction stratégique influence » recommande donc de renforcer les pouvoirs de supervision de l’Arcom et plaide pour une mobilisation accrue des parquets compétents contre les ingérences étrangères en période électorale. Nous préconisons également une coopération renforcée entre Viginum et la Commission nationale de contrôle de la campagne en vue de l’élection présidentielle (CNCCEP).<br/>Enfin, Xenia Fedorova, ancienne directrice de<italique> Russia Today</italique>, relaie sur les antennes d’Europe 1 et de CNews le narratif du Kremlin sans qu’aucune contradiction ne lui soit opposée. Elle bénéficie d’un titre de séjour de longue durée, ce qui interroge de nombreux observateurs avertis, dont je fais partie.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2897029" ordre_absolu_seance="150" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043194" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5048.78">La parole est à Mme la ministre déléguée.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2897030" ordre_absolu_seance="151" id_acteur="PA873628" id_mandat="-1" id_nomination_oe="PM879425" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043195" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie-Pierre Vedrenne</nom>
+            <id>873628</id>
+            <qualite>ministre déléguée</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5145.76">Le ministre de l’intérieur partage pleinement les orientations de votre rapport. S’agissant du renforcement des pouvoirs de l’Arcom, celle-ci a publié son bilan annuel le 24 mars 2026. Elle y formule une série de recommandations visant à renforcer l’effectivité du DSA, avec plusieurs orientations : amplifier l’opérationnalisation du règlement, mettre en place des mécanismes de financement pérennes pour soutenir les travaux de recherche et de vérification des faits, structurer une coopération nationale pour renforcer la mobilisation collective, ou encore développer et élargir les actions d’éducation aux médias.<br/>La lutte contre les ingérences étrangères en période électorale nécessite une mobilisation pleine et entière des parquets dans la répression des comportements contraires aux dispositions du code électoral, en particulier en matière de manœuvres informationnelles.<br/>C’est le sens des circulaires prises par le garde des sceaux, Gérald Darmanin, et transmises aux parquets quelques semaines avant les élections municipales. Elles rappellent l’ensemble des dispositions pénales existantes et invitent les procureurs généraux et les procureurs à s’en saisir.<br/>S’agissant de l’élection présidentielle et de la coopération interservices que vous appelez de vos vœux, je précise que la stratégie nationale de lutte contre les manipulations de l’information prévoit de renforcer la répression des atteintes à la sincérité du scrutin et de mieux prendre en compte l’extranéité de la menace.<br/>À l’occasion des élections municipales, plusieurs actions ont été déployées, notamment par le SGDSN, Viginum et le ministère de l’intérieur, en lien avec l’ensemble des autorités administratives indépendantes. Le RCPE, placé sous la coordination du secrétariat général de la défense et de la sécurité nationale, a également joué son rôle.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897035" ordre_absolu_seance="156" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043442" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5266.96">La parole est à Mme Gabrielle Cathala.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897036" ordre_absolu_seance="157" id_acteur="PA842187" id_mandat="PM843704" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043443" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Gabrielle Cathala (LFI-NFP)</nom>
+            <id>842187</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5275.86">Je remercie à mon tour le secrétariat général de la défense et de la sécurité nationale, ainsi que le service Viginum.<br/>On parle beaucoup des ingérences de la Russie et des États-Unis, qu’ont évoquées nos collègues, de celles des entreprises américaines à la solde de M. Trump ; on parle moins de deux autres pays, les Émirats arabes unis – sur lesquels l’État est bien plus silencieux – et Israël.<br/>Pour les Émirats arabes unis, nous avons un exemple d’ingérence avec la distribution gratuite, à l’Assemblée, du magazine<italique> Écran de veille</italique>, directement dans nos boîtes aux lettres. Les révélations successives faites par<italique> Mediapart</italique> n’ont suscité aucune réaction du gouvernement. Ainsi, en 2023,<italique> Mediapart</italique> écrivait : « À la différence de ses homologues européens, Paris n’a pas réagi aux révélations sur les opérations d’ingérence des Émirats arabes unis. Même silence du côté des directions d’Europe 1,<italique> Valeurs actuelles</italique> et du<italique> Point</italique> concernant les liens de journalistes avec les barbouzes d’Abou Dhabi. » Comment y réagissez-vous ? Pouvez-vous nous donner des informations sur les différentes ingérences des Émirats arabes unis ?<br/>L’influence d’Israël est également minimisée.<italique> Le Monde</italique> a révélé que mes collègues Sébastien Delogu, François Piquemal et David Guiraud faisaient l’objet d’une opération de déstabilisation venant du lobby israélien Elnet.<italique> Le Canard enchaîné</italique> a révélé ce soir de nouvelles informations, qui seront dans le numéro imprimé de demain. Il rappelle que quatre faux sites web associés à des dizaines de comptes Facebook frelatés, avec noms inventés et photos générées par l’intelligence artificielle, ont été identifiés par Viginum pendant les élections municipales. Mon collègue François Piquemal a été accusé d’être un pédocriminel, tandis que mon collègue marseillais Sébastien Delogu a été présenté comme un violeur sur le blog de Sophie, une lanceuse d’alerte qui avait été inventée de toutes pièces et dont tous les comptes ont disparu dès que l’alarme a été sonnée – on mesure le professionnalisme des officines qui ont créé l’incident. Pouvez-vous réagir à cette actualité et nous donner de plus amples informations sur l’influence israélienne ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897040" ordre_absolu_seance="161" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043447" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5405.03">La parole est à Mme la ministre déléguée.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897041" ordre_absolu_seance="162" id_acteur="PA873628" id_mandat="-1" id_nomination_oe="PM879425" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043448" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie-Pierre Vedrenne</nom>
+            <id>873628</id>
+            <qualite>ministre déléguée</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5409.73">Comme je l’ai dit dans mon propos liminaire, quand il faut dénoncer publiquement les ingérences étrangères, les équipes de Viginum comme le gouvernement le font – vous avez dû lire les bulletins du RCPE. Pour nommer les choses, il faut avoir conscience de l’état de la menace et expertiser les incidents. Je vous remercie donc une nouvelle fois d’avoir organisé ce débat : il faut continuer à doter le SGDSN et Viginum – une autorité collégiale – de moyens adéquats. Disposer d’une expertise complète permet d’informer les partis politiques, les candidats et l’opinion publique, et c’est sur la base de cette expertise que les responsables politiques peuvent s’exprimer.<br/>Il faut cependant distinguer l’influence de certains États, dans le cadre de rapports de force, et les cas d’ingérence. Pour ce qui est des dernières élections municipales, le travail d’expertise de Viginum a permis d’agir pour se prémunir des menaces, qui ont toutes été nommées dans les bulletins.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897043" ordre_absolu_seance="164" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043450" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5473.11">J’ai vu Mme Constance Le Grip réagir : en effet, c’est elle, et non Mme Cathala, qui est à l’origine de ce débat.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897044" ordre_absolu_seance="165" id_acteur="PA345722" id_mandat="PM843650" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043451" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Constance Le Grip</nom>
+            <id>345722</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5494.12">C’est le groupe EPR !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897045" ordre_absolu_seance="166" id_acteur="PA721916" id_mandat="PM843470" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043452" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Natalia Pouzyreff</nom>
+            <id>721916</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5506.69">En effet, mais Mme la ministre a bien regardé Mme Le Grip !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897046" ordre_absolu_seance="167" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043453" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5518.84">J’ai cru que vous réagissiez pour marquer votre désapprobation ; j’essaie de décrypter les expressions des visages, mais il m’arrive de me tromper.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897047" ordre_absolu_seance="168" id_acteur="PA345722" id_mandat="PM843650" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043454" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Constance Le Grip</nom>
+            <id>345722</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5530.69">Merci, madame la présidente !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897048" ordre_absolu_seance="169" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043455" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5532.03">La parole est à Mme Catherine Hervieu.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897049" ordre_absolu_seance="170" id_acteur="PA840947" id_mandat="PM842570" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043456" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Catherine Hervieu (EcoS)</nom>
+            <id>840947</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5553.05">Protéger, de manière transversale, notre écosystème numérique exige des moyens. Cette culture de protection pose également la question de la relation avec la société civile, une relation qui doit évoluer pour cesser d’être trop verticale. Comment envisagez-vous des partenariats plus protecteurs, et avec qui ?<br/>La montée en compétences est essentielle pour l’ensemble des agents publics, à tous les niveaux et dans tous les domaines de leur engagement. Les entreprises sont également concernées, et nous savons qu’elles renforcent leur vigilance. Il n’en demeure pas moins que la question des moyens qu’exige une culture de protection se pose.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897051" ordre_absolu_seance="172" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043458" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5608.74">La parole est à Mme la ministre déléguée.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897052" ordre_absolu_seance="173" id_acteur="PA873628" id_mandat="-1" id_nomination_oe="PM879425" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043459" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie-Pierre Vedrenne</nom>
+            <id>873628</id>
+            <qualite>ministre déléguée</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5620.38">On l’a dit, la menace va croissant depuis 2017 ; c’est préoccupant et cela exige en effet des moyens adaptés. Il s’agit d’aider les acteurs qui doivent détecter et neutraliser les menaces, mais aussi de sensibiliser le grand public, c’est-à-dire l’ensemble de nos concitoyens. La stratégie nationale publiée le 12 février vise à favoriser l’émergence de cette culture en travaillant au niveau législatif et diplomatique. L’académie qui doit voir le jour en juin 2026 poursuit le même objectif. Viginum lui-même s’occupe tant de la détection des menaces que de la sensibilisation : son site propose ainsi plusieurs guides à destination des jeunes, mais également d’autres acteurs ; ils donnent des clés d’analyse permettant de comprendre les enjeux de l’ingérence étrangère. Les agents de l’État continueront d’agir sur ces deux plans : en interne, pour détecter les menaces, et en externe, pour mobiliser les citoyens, qui doivent s’approprier ces enjeux. Les chercheurs et l’éducation nationale doivent également être associés à l’effort.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897053" ordre_absolu_seance="174" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043460" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5715.41">La parole est à M. Bertrand Bouyx.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897054" ordre_absolu_seance="175" id_acteur="PA719032" id_mandat="PM842393" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043461" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Bertrand Bouyx (HOR)</nom>
+            <id>719032</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5725.33">À l’approche de l’élection présidentielle, la question des ingérences étrangères dans notre démocratie devient de plus en plus préoccupante ; nos débats de ce soir en témoignent. En Roumanie, une élection présidentielle a été annulée en 2024 par la Cour constitutionnelle du pays, dans un contexte d’ingérence russe. En Moldavie, plusieurs alertes ont été lancées, pointant des ingérences russes particulièrement structurées, dans le cadre de l’élection présidentielle et des élections législatives.<br/>La France n’est pas à l’abri. Partout en Europe, des exemples récents ont montré l’ampleur des stratégies mises en œuvre : campagnes de désinformation, financements occultes, utilisation massive de réseaux sociaux pour influencer l’opinion publique, exploitation des algorithmes des plateformes numériques pour amplifier les contenus manipulés – la liste n’est pas exhaustive. Ces stratégies sont aujourd’hui plus diffuses et plus difficiles à détecter qu’autrefois ; elles passent par des comptes anonymes, parfois alimentés depuis l’étranger mais relayés localement, ce qui rend la frontière entre débat démocratique et manipulation beaucoup plus floue.<br/>Le Digital Services Act impose désormais aux très grandes plateformes de rendre publics les critères de leurs systèmes de recommandation et de soumettre leurs algorithmes à des audits indépendants. Pourtant, vous le savez, madame la ministre, malgré ces avancées, les enquêtes récentes visant les plateformes comme X ou TikTok pour des manquements à ces obligations révèlent des failles persistantes dans la lutte contre les manipulations algorithmiques.<br/>À l’approche des échéances électorales importantes, quelles mesures concrètes entendez-vous mettre en œuvre pour prévenir et contrer ces ingérences étrangères et garantir la sincérité du débat démocratique ? Comment comptez-vous assurer que les plateformes respectent pleinement leurs obligations de transparence algorithmique, notamment en période électorale ? Comment la France entend-elle coopérer avec la Commission européenne pour renforcer l’efficacité du DSA face à ces menaces ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897058" ordre_absolu_seance="179" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043465" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5850.53">La parole est à Mme la ministre déléguée.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897059" ordre_absolu_seance="180" id_acteur="PA873628" id_mandat="-1" id_nomination_oe="PM879425" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043466" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie-Pierre Vedrenne</nom>
+            <id>873628</id>
+            <qualite>ministre déléguée</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5857.91">Un travail fondamental a été réalisé par la France, le président de la République et les parlementaires européens pour adopter ce règlement européen ; tout l’enjeu est maintenant de s’assurer de sa bonne mise en œuvre. Il faut continuer à agir et à mettre la pression sur la Commission pour que ce texte soit appliqué et joue pleinement son rôle face aux défis que vous avez énumérés.<br/>Le DSA impose aux fournisseurs de services intermédiaires l’aménagement de mécanismes pour lutter contre des contenus illicites et préjudiciables. Différents articles – notamment les articles 34 et 35 – font spécifiquement référence aux ingérences numériques étrangères. Ils visent à évaluer les risques systémiques et à prévoir des mesures d’atténuation proportionnées et efficaces. Ils obligent également les plateformes à afficher un registre recensant les publicités qu’elles hébergent et à disposer d’un code de conduite susceptible de prévenir les risques. Le règlement contient donc beaucoup de leviers qui donnent à la Commission européenne des prérogatives importantes et nous permettent d’agir.<br/>Comme le président de la République l’a souligné lors du dernier conseil européen, qui s’est tenu les 19 et 20 mars, nous continuerons le travail d’échange avec la Commission, avec nos partenaires de l’Union et avec les parlementaires européens, pour que toutes les dispositions du DSA soient pleinement efficaces face à des plateformes qui profitent de l’opacité des algorithmes et de leur hébergement extra-européen.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897062" ordre_absolu_seance="183" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043469" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5965.59">La parole est à Mme Anne Sicard.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897063" ordre_absolu_seance="184" id_acteur="PA842255" id_mandat="PM843770" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043470" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Anne Sicard (RN)</nom>
+            <id>842255</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5973.32">Dimanche soir, à Roubaix, ce n’est pas le drapeau tricolore qui a été brandi pour fêter l’élection du nouveau maire, mais le drapeau algérien. Roubaix n’est pas la seule ville à avoir basculé dans le giron de La France insoumise : Saint-Denis, Vénissieux, La Courneuve, Creil sont dans le même cas. Puisque nous débattons ce soir d’ingérences étrangères, permettez-moi une question. Les drapeaux algérien et palestinien ont été brandis devant des hôtels de ville de la République française après les élections ; s’ils avaient été russes, ne parlerions-nous pas d’ingérence étrangère ?<br/>La réalité, c’est que la première cause de l’ingérence étrangère est l’immigration.<italique> (Mme Ségolène Amiot rit.)</italique> Des États étrangers ont fait de leur diaspora installée sur notre sol un levier de déstabilisation politique, documentée par nos propres services de renseignement. Une note du contre-espionnage français, révélée par « Complément d’enquête », établit que des services secrets algériens ont mené des opérations ciblées auprès d’élus municipaux d’origine algérienne. Une élue, qui a été victime d’intimidations après l’inauguration d’une plaque en hommage à une personnalité kabyle, en témoigne : « Il y a énormément d’élus locaux qui ont été approchés par les consulats algériens. On va rappeler à ces élus qu’ils sont les enfants de l’Algérie et qu’ils ont un devoir vis-à-vis de l’Algérie. » Nous parlons au minimum de 700 000 ressortissants algériens sur notre sol.<br/>La Turquie d’Erdoğan ne fait pas autrement : via Millî Görüs et le Parti égalité et justice, Ankara déploie son entrisme dans les communes où ses 300 000 ressortissants sont concentrés, pour y ancrer l’islam politique et des intérêts hostiles aux Kurdes et aux Arméniens. Pendant ce temps, les maires de certaines de ces villes s’affichent aux côtés de structures islamistes et participent à des iftars organisés par les mêmes réseaux.<br/>Alger comme Ankara comptent sur la gauche et l’extrême gauche pour franchir la dernière étape : accorder le droit de vote aux 4,4 millions d’étrangers non européens, leur offrant un levier d’ingérence sanctuarisé par la loi française.<br/>Madame la ministre, quelles mesures entendez-vous opposer à ces puissances étrangères qui utilisent l’immigration et la démographie pour saper notre souveraineté nationale ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897068" ordre_absolu_seance="189" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043475" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6074.65">La parole est à Mme la ministre déléguée.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897069" ordre_absolu_seance="190" id_acteur="PA873628" id_mandat="-1" id_nomination_oe="PM879425" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043476" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie-Pierre Vedrenne</nom>
+            <id>873628</id>
+            <qualite>ministre déléguée</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="6095.19">Je vais commencer par remercier Mme Constance Le Grip d’avoir proposé ce débat. Si on veut réellement agir contre les ingérences numériques étrangères, il faut bien définir de quoi on parle. Quel est l’état de la menace ? Un travail doit être mené sur cette question…</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897070" ordre_absolu_seance="191" id_acteur="PA345722" id_mandat="PM843650" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043477" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Constance Le Grip</nom>
+            <id>345722</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6113.14">Oui, ici même !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2897071" ordre_absolu_seance="192" id_acteur="PA873628" id_mandat="-1" id_nomination_oe="PM879425" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043478" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie-Pierre Vedrenne</nom>
+            <id>873628</id>
+            <qualite>ministre déléguée</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="6113.84">…au sein de la représentation nationale pour bien nommer les choses et comprendre contre quoi on doit lutter.<br/>Madame Sicard, à entendre l’oratrice de votre groupe tout à l’heure, on avait l’impression que le sujet n’existait pas ; maintenant, vous détournez le sujet. Pour agir contre les ingérences étrangères, il faut bien les qualifier et circonscrire l’état et la nature de la menace. En l’occurrence, ce n’est pas ce que vous avez fait.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2896928" ordre_absolu_seance="194" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043506" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6145.66">La parole est à Mme Sylvie Josserand.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2896929" ordre_absolu_seance="195" id_acteur="PA841075" id_mandat="PM842690" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043507" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sylvie Josserand (RN)</nom>
+            <id>841075</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6153.07">Sous couvert de lutte contre les ingérences étrangères, la Commission européenne envisage la mise en œuvre d’une vigie numérique européenne appelée Centre européen pour la résilience démocratique. Cette initiative s’ajoute à la révélation par le<italique> Financial Times</italique>, en novembre 2025, du projet de création d’un service européen de renseignement placé sous l’autorité de la Commission européenne. Un tel outil renforcera le pouvoir de la Commission au-delà de la compétence limitative prévue par les traités, en lui permettant d’outrepasser son rôle d’exécutif au service des nations. Ma question est simple : que pensez-vous de la légitimité, du fondement juridique et de l’impact sur la souveraineté nationale de ces deux services ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2896930" ordre_absolu_seance="196" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043508" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6168.36">La parole est à Mme la ministre déléguée.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2896931" ordre_absolu_seance="197" id_acteur="PA873628" id_mandat="-1" id_nomination_oe="PM879425" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="4043509" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marie-Pierre Vedrenne</nom>
+            <id>873628</id>
+            <qualite>ministre déléguée</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="6206.45">Je serai très brève. Les traités européens répartissent les compétences : la Commission européenne n’a pas à exercer les prérogatives régaliennes appartenant aux États membres. La France est toujours très claire lorsque la Commission européenne outrepasse les limites de ses compétences.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2896931" ordre_absolu_seance="198" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="-1" id_nomination_op="PM873242" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PRESIDE_DISCOURS_1_10" sommaire="0" id_syceron="4043516" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>795228</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6232.56">Le débat est clos.</texte>
+      </paragraphe>
+    </point>
+    <finSeance>
+      <point nivpoint="1" valeur_ptsodj="2" ordinal_prise="7" id_preparation="2896933" ordre_absolu_seance="200" code_grammaire="FIN_SEAN_1_2" code_style="Titre" code_parole="" sommaire="1" id_syceron="4043511" valeur="">
+        <orateurs/>
+        <texte>Ordre du jour de la prochaine séance</texte>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="7" id_preparation="2896934" ordre_absolu_seance="201" id_acteur="PA795228" id_mandat="PM840447" id_nomination_oe="0" id_nomination_op="PM873242" code_grammaire="FIN_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="4043512" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>795228</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6234.36">Prochaine séance, demain, à quatorze heures :<br/> Questions au gouvernement ;<br/> Présentation du rapport annuel de la Cour des comptes ;<br/> Déclaration du gouvernement, en application de l’article 50-1 de la Constitution, suivie d’un débat sur la situation au Proche et Moyen-Orient.<br/>La séance est levée.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="7" id_preparation="2896936" ordre_absolu_seance="203" code_grammaire="FIN_SEAN_2_4" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="4043514" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance est levée à vingt-trois heures.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="7" id_preparation="2896937" ordre_absolu_seance="204" code_grammaire="FIN_SEAN_2_5" code_style="Signature droite" code_parole="" sommaire="0" id_syceron="4043515" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>Le directeur des comptes rendus<br/> Serge Ezdra</italique>
+          </texte>
+        </paragraphe>
+      </point>
+    </finSeance>
+  </contenu>
+</compteRendu>

@@ -1,0 +1,607 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compteRendu xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid>CRSANR5L17S2026O1N108</uid>
+  <seanceRef>RUANR5L17S2026IDS30083</seanceRef>
+  <sessionRef>SCR5A2026O1</sessionRef>
+  <metadonnees>
+    <dateSeance>20260108213000000</dateSeance>
+    <dateSeanceJour>jeudi 08 janvier 2026</dateSeanceJour>
+    <numSeanceJour>3</numSeanceJour>
+    <numSeance>108</numSeance>
+    <typeAssemblee>AN</typeAssemblee>
+    <legislature>17</legislature>
+    <session>Session ordinaire 2025 -2026</session>
+    <nomFichierJo>20260108</nomFichierJo>
+    <validite>valide</validite>
+    <etat>complet</etat>
+    <diffusion>public</diffusion>
+    <version>avant_JO</version>
+    <environnement>PROD</environnement>
+    <heureGeneration>2026-01-15T10:54:15.000+01:00</heureGeneration>
+    <sommaire>
+      <presidentSeance id_syceron="3985307">Présidence de M. Christophe Blanchet</presidentSeance>
+      <sommaire1 valeur_pts_odj="1">
+        <titreStruct id_syceron="3985311">
+          <intitule>Réforme de l’aide sociale à l’enfance</intitule>
+          <sousIntitule>0</sousIntitule>
+        </titreStruct>
+        <para id_syceron="3985314">Mme Marine Hamelet (RN)</para>
+        <para id_syceron="3985324">Mme Joséphine Missoffe (EPR)</para>
+        <para id_syceron="3985331">Mme Sophia Chikirou (LFI-NFP)</para>
+        <para id_syceron="3985375">Mme Isabelle Santiago (SOC)</para>
+        <para id_syceron="3985387">Mme Julie Ozenne (EcoS)</para>
+        <para id_syceron="3985246">Mme Béatrice Piron (HOR)</para>
+        <para id_syceron="3985256">Mme Stéphanie Rist, ministre de la santé, des familles, de l’autonomie et des personnes handicapées</para>
+        <para id_syceron="3985271">Mme Marine Hamelet (RN)</para>
+        <para id_syceron="3985273">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3985445">Mme Florence Goulet (RN)</para>
+        <para id_syceron="3985449">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3985452">M. Arnaud Saint-Martin (LFI-NFP)</para>
+        <para id_syceron="3985456">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3985459">Mme Isabelle Santiago (SOC)</para>
+        <para id_syceron="3985469">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3985478">Mme Julie Ozenne (EcoS)</para>
+        <para id_syceron="3985481">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3985485">Mme Béatrice Piron (HOR)</para>
+        <para id_syceron="3985487">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3985489">Mme Florence Goulet (RN)</para>
+        <para id_syceron="3985491">Mme Stéphanie Rist, ministre</para>
+        <para id_syceron="3985494">Mme Isabelle Santiago (SOC)</para>
+        <para id_syceron="3985499">Mme Stéphanie Rist, ministre</para>
+      </sommaire1>
+      <sommaire1 valeur_pts_odj="2">
+        <titreStruct id_syceron="3985505">
+          <intitule>Ordre du jour de la prochaine séance</intitule>
+        </titreStruct>
+      </sommaire1>
+    </sommaire>
+  </metadonnees>
+  <contenu>
+    <quantiemes>
+      <journee>Troisième séance du jeudi 08 janvier 2026</journee>
+      <session>Session ordinaire 2025 -2026</session>
+    </quantiemes>
+    <ouvertureSeance nivpoint="1" valeur_ptsodj="0" ordinal_prise="1" id_preparation="2844582" ordre_absolu_seance="1" code_grammaire="OUV_SEAN_1_1" code_style="Présidence" code_parole="" sommaire="1" id_syceron="3985307" valeur="">
+      <orateurs/>
+      <texte>Présidence de M. Christophe Blanchet<br/> vice-président</texte>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2844583" ordre_absolu_seance="2" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="OUV_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985308" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="861.25">La séance est ouverte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2844584" ordre_absolu_seance="3" code_grammaire="OUV_SEAN_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="3985309" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(La séance est ouverte à vingt et une heures trente.)</italique>
+        </texte>
+      </paragraphe>
+    </ouvertureSeance>
+    <point nivpoint="1" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2844586" ordre_absolu_seance="5" code_grammaire="TITRE_TEXTE_DISCUSSION" code_style="Titre" code_parole="" sommaire="1" id_syceron="3985311" valeur="">
+      <orateurs/>
+      <texte>Réforme de l’aide sociale à l’enfance</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2844587" ordre_absolu_seance="6" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="ODJ_APPEL_DISCUSSION" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985312" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="866.64">L’ordre du jour appelle le débat sur le thème : « La réforme de l’aide sociale à l’enfance ». Ce débat a été demandé par le groupe Rassemblement national.<br/> La conférence des présidents a décidé d’organiser ce débat en deux parties : dans un premier temps, nous entendrons les orateurs des groupes, puis le gouvernement ; nous procéderons ensuite à une séquence de questions-réponses.<br/>La parole est à Mme Marine Hamelet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2844589" ordre_absolu_seance="8" id_acteur="PA795900" id_mandat="PM843524" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985314" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marine Hamelet (RN)</nom>
+            <id>795900</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="908.90">Permettez-moi tout d’abord d’avoir un mot pour tous ces enfants et ces familles qui n’ont pas eu la chance de partager Noël ensemble. Chaque année, des milliers de familles sont privées, parfois injustement, de ces instants irremplaçables. Un avocat spécialisé souligne qu’elles sont parfois démunies face à notre système de protection de l’enfance, dans lequel les droits et les devoirs de chacun sont parfaitement asymétriques. Sur les 1 200 demandes qu’il a adressées à des juges pour que des enfants placés retournent dans leur famille au moment des fêtes de Noël, il n’a reçu qu’une vingtaine de réponses. C’est la seule matière du droit dans laquelle une partie pourtant légitime, les parents, ne peut pas faire valoir un droit, tout simplement parce que le juge n’est pas obligé de lui répondre.<br/>Notre procédure d’aide sociale à l’enfance (ASE) est trop souvent une zone de non-droit ; paradoxalement, alors que les enjeux sont majeurs, les droits des parents sont presque inexistants. Dans bien trop de cas, les parents et leur avocat découvrent, le jour même de l’audience, le dossier sur lequel le juge se fondera pour déterminer l’avenir de leur famille.<br/>Les auditions de la commission d’enquête sur les manquements des politiques publiques de protection de l’enfance ont abouti à un constat implacable : sur plus de 200 000 placements en France, seule une minorité concerne de véritables cas de maltraitance – violences physiques ou sexuelles, négligence grave, parent toxicomane. Les placements liés à ces situations d’urgence, qui ont sans doute – je tiens à le dire – permis de sauver la vie de nombreux enfants, sont minoritaires. Trop souvent, les placements d’enfant se fondent sur des interprétations subjectives qui remettent en cause le principe même de liberté éducative ou sur des difficultés passagères des parents, dues à un divorce ou à une situation professionnelle compliquée. La commission a également révélé que de plus en plus d’enfants sont placés en raison de la situation financière de leurs parents. On touche ici du doigt une pratique véritablement abusive et illégale, en plus d’être immorale.<br/>Dans l’attente d’une recentralisation de l’aide sociale à l’enfance, que nous réaliserons à notre arrivée au pouvoir, nous devons de toute urgence rééquilibrer la procédure existante. C’est pourquoi je déposerai, dans les prochains jours, deux propositions de lois. L’une vise à garantir aux parents l’accès au dossier de l’enquête sociale au moins sept jours avant l’audience afin qu’ils puissent s’y préparer dans le respect de nos principes fondamentaux ; l’autre tend à définir de manière plus objective les critères permettant d’évaluer si un enfant est en danger. Ces deux propositions de loi, rédigées avec des avocats dans un esprit transpartisan, visent à remédier à des dysfonctionnements procéduraux qui ne sont malheureusement que la partie émergée de l’iceberg.<br/>Derrière chaque droit bafoué se cache un système profondément défaillant, dans lequel une part significative de la protection de l’enfance fonctionne tout simplement en totale illégalité. C’est une réalité largement documentée par des associations et par de nombreux anciens enfants placés : trop d’enfants sont ballottés de département en département, de foyer en foyer, de famille d’accueil en famille d’accueil. Conçu sous la monarchie pour protéger les orphelins, notre système de protection de l’enfance est devenu une machine à en produire en masse. Il organise un nomadisme institutionnel, en violation directe de la loi Taquet de 2022. Malgré l’obligation de privilégier le placement familial ou familier, seuls 8 % des plus de 200 000 enfants placés le sont dans ce cadre. Une exception française ! Il est tout simplement inconcevable que dans 92 % des cas, aucun membre de la famille ni aucun proche ne puisse accueillir l’enfant.<br/>Je pourrais citer d’autres exemples de violation manifeste de la loi Taquet, au mépris de l’intérêt supérieur des enfants, mais je voudrais m’attarder sur ce qui constitue un véritable scandale d’État : celui qui commence quand ces enfants placés sont livrés à des horreurs bien pires que ce qu’ils risquaient dans leur propre famille. On estime que 20 000 jeunes filles placées à l’ASE sont victimes de réseaux de prostitution. Il n’y a pas un département qui ne soit confronté à un problème de prostitution de mineurs dans les foyers de l’ASE. Cela révèle un État qui, ayant perdu toute autorité, a permis à ces réseaux de pédocriminalité de se développer. Cela révèle aussi un État qui n’hésite pas à user de la force publique pour se substituer à la famille, mais qui démontre ensuite son incapacité flagrante à protéger les enfants dont il a la charge. Telle est l’absurdité d’un système devenu inhumain : dur avec les parents, faible face aux réseaux pédocriminels. Au milieu de tout cela, ce sont les enfants les plus vulnérables qui se font briser par le système.<br/>Le 12 décembre, l’Assemblée nationale a adopté à l’unanimité une proposition de loi visant à assurer le droit de chaque enfant à disposer d’un avocat dans le cadre des procédures relatives à l’ASE. Cela traduit le début d’une prise de conscience, mais face au constat implacable d’une défaillance généralisée, nous ne pouvons pas laisser croire aux victimes de ce système que leur situation s’améliorera, ne serait-ce que d’un pouce, grâce à ce texte. En effet, cela revient à administrer du Doliprane à un malade atteint d’un cancer métastasé. Une réforme du système actuel ne saurait passer par un énième ajustement législatif. Ce sont justement trente ans d’empilement législatif déconnecté qui ont échoué à corriger les défaillances de l’ASE.<br/>Nous ne pouvons plus ignorer ce constat : les départements ne sont pas armés pour assurer la protection de l’enfance. La République s’est trompée d’échelon et nous devons l’assumer sans équivoque. La décentralisation de notre politique d’ASE est un échec. Un échec cuisant, qui nous coûte cher – 11 milliards d’euros en 2024 – et qui ne remplit plus son rôle d’accompagnement des familles en difficulté et de protection des enfants en danger.<br/>Madame la ministre, cela fait dix mois que la commission d’enquête a rendu ses conclusions. Depuis, qu’a fait le gouvernement pour réagir à ce scandale d’État ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2844598" ordre_absolu_seance="17" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985323" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1279.44">La parole est à Mme Joséphine Missoffe.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2844599" ordre_absolu_seance="18" id_acteur="PA795962" id_mandat="PM849121" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985324" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Joséphine Missoffe (EPR)</nom>
+            <id>795962</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1296.50">La réforme de l’aide sociale à l’enfance est une exigence républicaine majeure. Elle nous oblige collectivement, parce qu’elle concerne des enfants et des jeunes pour qui la puissance publique est souvent le dernier recours. J’aimerais d’abord saluer le travail approfondi et exigeant de la commission d’enquête parlementaire sur les manquements des politiques publiques de protection de l’enfance. Son diagnostic, lucide et largement partagé, a permis de nommer des dysfonctionnements connus sur le terrain. Ce travail constitue un socle précieux pour construire des réponses concrètes et durables.<br/>Madame la ministre, vous avez clairement pris la mesure de cette exigence. Le projet de loi de refondation de la protection de l’enfance, auquel vous travaillez avec le garde des sceaux, est très attendu. Il s’inscrit dans une continuité, tout en affirmant une volonté claire, celle de transformer durablement un système aujourd’hui sous tension. Vous avez posé un principe simple et fort : l’intérêt supérieur de l’enfant avant toute chose.<br/>Le groupe Ensemble pour la République partage pleinement cette orientation, d’abord parce que la prévention doit être le socle de la réforme. Agir trop tard, c’est souvent agir dans l’urgence, et au prix de ruptures qui pourraient être évitées. Les premières années de la vie, la périnatalité et les 1 000 premiers jours sont décisifs pour sécuriser les trajectoires. À la frontière du sanitaire et du social, la protection maternelle et infantile (PMI) joue alors un rôle essentiel pour repérer les fragilités, accompagner les familles et prévenir les situations de danger.<br/>Les orientations que vous avez présentées le 6 janvier sur le soutien à la parentalité vont clairement dans ce sens. Il ne peut y avoir de protection de l’enfance efficace sans une politique d’accompagnement des parents. Soutenir la parentalité, c’est agir en amont, renforcer la sécurité affective de l’enfant et éviter que les difficultés ne s’aggravent.<br/>J’aimerais également saluer le travail engagé par la haute-commissaire à l’enfance, Sarah El Haïry, pour renforcer la cohérence et la lisibilité des politiques de l’enfance. La volonté d’inscrire le soutien à la parentalité dans la durée, de mieux coordonner les acteurs et de décloisonner les approches est un apport utile à la réforme que nous appelons de nos vœux.<br/>Cette réforme de l’ASE doit aussi garantir un suivi continu tout au long du parcours de l’enfant. Être pris en charge par la protection de l’enfance ne devrait pas constituer une succession de ruptures. La continuité des parcours, l’accès aux soins et l’accompagnement éducatif doivent être garantis partout et pour tous dans notre territoire. Le décret du 5 septembre 2025 sur les pouponnières est une avancée majeure, qui renforce l’encadrement et recentre l’accueil sur les besoins fondamentaux de l’enfant, mais cette exigence appelle un pilotage rigoureux et un contrôle effectif. La protection de l’enfance ne peut reposer uniquement sur la confiance. Elle suppose des contrôles réguliers et exigeants ainsi qu’une vigilance constante concernant les conditions d’accueil des personnes au contact des enfants. Élus de la nation, notre cap est clair : protéger les enfants, c’est aussi protéger celles et ceux qui les accompagnent.<br/>Enfin, cette réforme ne serait pas complète sans une attention particulière portée au passage à la majorité. La loi prévoit désormais un accompagnement possible jusqu’à 21 ans. C’est un progrès, mais nous savons tous qu’il est insuffisant. Le rapport d’enquête préconise d’ailleurs un accompagnement jusqu’à 25 ans. En outre, des inégalités persistent encore entre les territoires et trop de jeunes continuent de se heurter à des ruptures brutales. Le suivi doit donc se construire dans la durée, par un accompagnement progressif et effectif.<br/>Madame la ministre, cette réforme était attendue et votre engagement lui donne corps et perspective. Nous la saluons et la soutenons avec conviction. Le groupe Ensemble pour la République sera pleinement mobilisé pour qu’elle permette de réduire les inégalités territoriales, de sécuriser les parcours et de faire de la prévention une priorité durable. Protéger les enfants, ce n’est pas seulement réparer quand tout a échoué ; c’est faire le choix collectif d’une République qui tient sa promesse d’égalité dès l’enfance.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2844605" ordre_absolu_seance="26" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985330" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1608.94">La parole est à Mme Sophia Chikirou.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2844606" ordre_absolu_seance="27" id_acteur="PA791812" id_mandat="PM840384" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985331" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sophia Chikirou (LFI-NFP)</nom>
+            <id>791812</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1614.08">« La nation […] garantit à tous, notamment à l’enfant […] la protection de la santé, la sécurité matérielle, le repos et les loisirs. » C’est ce qui figure dans le préambule de la Constitution de 1946 ; c’est un engagement solennel de la République. L’aide sociale à l’enfance est censée être la traduction en actes de cet engagement de la nation. Quels sont les actes ? Quelle est la réalité ?<br/>Alors que près de 400 000 enfants et jeunes majeurs dépendent de l’ASE et ont été confiés à la République, les moyens alloués par l’État à cette politique sont de l’ordre de 2 euros par jour et par enfant. Alors qu’on sait qu’un enfant dans sa famille a besoin de plus de 600 euros de dépenses pour son entretien, l’État n’accorde à ses enfants, à ceux dont il a la tutelle, que 60 euros par mois, soit dix fois moins que ce dont ils ont besoin. Seuls 3 % du budget de ce dispositif leur reviennent. Le reste est distribué au petit bonheur la chance.<br/>Les résultats de cette politique, qui relève d’ailleurs plutôt d’un désengagement organisé, sont dramatiques. Plus de 3 000 de ces enfants vivent à la rue et plus de 40 % des jeunes sans-abri de 18 à 25 ans sont issus de l’ASE. Les études relatives à la prostitution montrent que 20 % à 40 % des jeunes concernés sont passés par la protection de l’enfance. En prison, environ un quart des personnes détenues ont connu un placement à l’ASE dans leur enfance. Combien finissent addicts, hospitalisés en psychiatrie, brisés ? Combien meurent prématurément ?<br/>Ce ne sont pas des trajectoires individuelles malheureuses ou des destins tragiques ; ce sont les conséquences directes d’une politique qui mêle mépris social, désintérêt humain et, de plus en plus, racisme. Pourtant, c’est souvent au nom de décisions de justice prises pour les protéger qu’on jette ces enfants dans des situations qui sont parfois pires que celles qu’ils vivaient jusqu’alors. Résultat : des enfants déplacés de foyer en foyer, des parcours disloqués, des jeunes qui se suicident, isolés, dans des chambres d’hôtel ; des enfants agressés, humiliés, invisibilisés ; des professionnels épuisés, écœurés, qui tiennent encore par sens du devoir.<br/>On ne va pas se raconter d’histoires : les collectivités ne sont pas irréprochables. Certaines agissent, parfois mal, d’autres n’agissent pas du tout. La décentralisation, sans garantie nationale forte, a produit une loterie territoriale. Selon le département où vous vous trouvez, soit vous êtes accompagné, soit vous êtes abandonné.<br/>Prenons un exemple concret : l’âge de sortie de l’ASE. Dans certains départements, à 18 ans, vous êtes mis dehors, parfois du jour au lendemain, sans logement, sans ressources, sans accompagnement. Dans d’autres, l’accompagnement se poursuit jusqu’à 21 ans, parfois même un peu plus. Même pays, même République, destins radicalement différents.<br/>Soit nous considérons que ces enfants sont nos enfants – et qui, ici, mettrait son gosse à la rue, à 18 ans ou à 21 ans, sans toit ni revenus ? –, soit nous les considérons comme une charge dont il faut se débarrasser. Ne nous étonnons pas, dans ce cas, de les retrouver à la rue ou à la morgue.<br/>La commission d’enquête parlementaire de 2025 l’a dit sans détour : il faut tout refonder et remettre les besoins de l’enfant au centre. Si le diagnostic est ici partagé, la question est simple : qu’attend-on, depuis tout ce temps, pour agir ?<br/>La protection de l’enfance ne se joue pas uniquement derrière les murs d’un foyer ; elle se joue à l’école, dans le périscolaire, dans tous les espaces du quotidien où l’on a laissé s’installer la précarité, le sous-effectif, l’absence de formation, l’absence de contrôle.<br/>Là encore, l’État s’est désengagé. L’enveloppe du fonds de soutien au développement des activités périscolaires est passée de 381 millions d’euros il y a dix ans à 41 millions en 2022, avant de disparaître en 2025. Partout où les enfants devraient être protégés, nous assistons à une politique de retrait systématique.<br/>Il est urgent de mettre en avant des garanties nationales opposables. Stop à la débrouille locale et aux inégalités territoriales. L’État doit reprendre sa part et garantir la même protection partout, pour tous. Il faut renationaliser.<br/>À Paris, sur les 10 000 enfants relevant de la responsabilité municipale, un sur deux est placé en dehors de la ville. Nous proposons la mise en place d’un code public de la protection de l’enfance et d’un fonds pluriannuel pour planifier, sécuriser et financer durablement.<br/>Je rappelle que ce débat est organisé à l’initiative du Rassemblement national. Je vais être très claire avec vous : la protection de l’enfance ne doit pas trier les enfants d’ici et les enfants d’ailleurs. À Paris, 30 % des enfants confiés à l’ASE sont des mineurs isolés non accompagnés (MNA). Ces enfants sont en danger. Ce soir, ils dorment dehors, dans le froid. Les traiter comme des suspects, les criminaliser, les remettre à la rue, tout cela dans le seul but de les déshumaniser et de leur refuser la reconnaissance de l’enfance, c’est criminel.<br/>Nous défendons la présomption de minorité. Nous voulons contrôler pour mieux protéger et empêcher les sorties sèches. Nous devons garantir un accueil réel jusqu’à 25 ans. C’est pourquoi nous proposons un revenu de solidarité jusqu’à 25 ans pour tous les enfants issus de l’ASE.<br/>C’est la justice qui a placé ces enfants sous la protection et la responsabilité de la nation. Nous sommes donc tous responsables. Soyons à la hauteur.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2844621" ordre_absolu_seance="42" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985374" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1932.84">La parole est à Mme Isabelle Santiago.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2844622" ordre_absolu_seance="43" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985375" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Isabelle Santiago (SOC)</nom>
+            <id>774960</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1965.94">À l’occasion de cette semaine de contrôle, plusieurs groupes ont souhaité aborder le sujet de la protection de l’enfance. Madame la ministre, je suis ravie de vous revoir ce soir. Hier, à l’initiative de mon groupe, mes collègues et moi avons déjà pu vous interroger sur plusieurs points. Je me félicite que nous renouvelions ce soir ce dialogue autour de la protection de l’enfance ; cela me permettra d’aborder des sujets que nous n’avons pas traités hier.<br/>J’aimerais en particulier soulever des questions de fond, notamment celle des carences de l’État en matière de recherche et de pilotage par la connaissance.<br/>Comme je l’ai souvent dit au cours de la commission d’enquête, il est nécessaire que chacun fasse un pas de côté pour avancer et se remobiliser collectivement. Nous ne pouvons pas nous contenter d’un « y a qu’à, faut qu’on » ; certains sujets de fond nécessitent une vraie refondation, car l’urgence est réelle.<br/>La commission d’enquête a établi un constat sans appel : la France ne dispose ni d’un dispositif national structuré de recherche appliquée en protection de l’enfance, ni d’indicateurs de résultats stabilisés permettant d’évaluer l’impact réel des politiques publiques sur le parcours des enfants. Pourtant, de nombreux pays le font – j’ai eu l’occasion de travailler avec des grands chercheurs de McGill ou de Laval et d’apprendre beaucoup à leurs côtés sur leurs pratiques en matière de recherche appliquée.<br/>La France est manifestement en retard sur ce point. Nous manquons d’une culture scientifique suffisamment intégrée aux formations, aux travaux des grandes administrations d’État, des collectivités ou des préfectures, aux décisions politiques et publiques. Les préfectures m’ont dit qu’elles étaient totalement désarmées pour nous accompagner, y compris dans le cadre de la généralisation demandée des CDPE, les comités départementaux pour la protection de l’enfance.<br/>Sans recherche adossée aux pratiques, sans données longitudinales, sans évaluation des effets des décisions que nous prenons, nous légiférons dans le vide. Depuis 2002, plusieurs lois ont été votées en matière de protection de l’enfance, mais elles restent très peu appliquées sur le terrain, faute d’une stratégie de pilotage et d’instruments d’évaluation. Il en résulte la crise systémique que nous rencontrons aujourd’hui. C’est une des réalités que nous devons avoir en tête.<br/>J’aimerais donc savoir comment le gouvernement entend faire évoluer les pratiques, en relation avec les chercheurs les plus expérimentés, sur des sujets importants. Nous avons par exemple évoqué hier les questions de santé et leurs effets sur le développement de l’enfant, pouvant aboutir à l’âge adulte à des maladies chroniques très graves.<br/>Dans de nombreux pays, l’étude des ACE, les expériences négatives de l’enfance, fait partie du cursus des médecins. Ce n’est pas le cas en France, où ce champ reste méconnu – vous me corrigerez si je me trompe.<br/>De même, sur la question de l’autisme, la France accuse un retard abyssal. Des témoignages sous serment lors de la commission d’enquête ont révélé que des enfants avaient été placés pendant des années simplement parce qu’ils n’avaient pas été reconnus comme autistes. Aujourd’hui encore, des juges nous confirment que c’est le cas. La commission d’enquête a démontré que la France était le seul pays à avoir une telle approche.<br/>Cela peut résulter soit d’une incapacité à faire la différence entre mauvais traitements et autisme, soit du fait que les familles craquent parce que l’État n’a pas la capacité de répondre à la demande de prise en charge des enfants autistes. Le défaut de places, le manque de visibilité et les besoins en données créent un problème majeur : ces enfants, relevant de la protection de l’enfance, subissent des ruptures de parcours et finissent parfois en Belgique. La capacité de la France à les accueillir correctement n’est pas au rendez-vous. C’est une urgence sanitaire et un vrai sujet de santé publique. J’aimerais que vous puissiez nous dire comment nous pouvons mieux travailler sur ces questions.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2844633" ordre_absolu_seance="53" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985386" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2296.00">La parole est à Mme Julie Ozenne.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2844634" ordre_absolu_seance="54" id_acteur="PA842045" id_mandat="PM843581" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985387" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Julie Ozenne (EcoS)</nom>
+            <id>842045</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2305.94">Quelle ironie que ce débat soit proposé par le Rassemblement national ! Si le sujet est absolument primordial, le voir inscrit à l’ordre du jour par un groupe qui se moque totalement de l’avenir des prochaines générations est d’un cynisme sans nom.<br/>Je tiens tout d’abord à remercier notre collègue Isabelle Santiago, rapporteure de la commission d’enquête sur les manquements des politiques publiques de protection de l’enfance. Elle a produit un travail de très haute qualité, qui a par ailleurs donné lieu à une proposition de loi, adoptée lors de la niche du groupe socialiste, prévoyant la présence systématique d’un avocat auprès des enfants dans le cadre d’une mesure d’assistance éducative et de protection de l’enfance – texte que nous avons évidemment soutenu.<br/>Si le gouvernement actuel semble saisir l’urgence de la situation, Mme la ministre a, avant-hier lors de la séance de questions au gouvernement, avancé un manque de moyens pour justifier la mise en place d’une simple expérimentation du dispositif. Je tiens à souligner l’importance du travail que nous avons engagé et à rappeler la volonté de l’Assemblée nationale, qui s’est manifestée par un vote unanime en faveur d’un déploiement généralisé, sans expérimentation.<br/>Lors de cette commission d’enquête, le Rassemblement national a eu l’occasion de faire part de ses contributions. Le groupe en a profité pour proposer une mesure raciste et xénophobe, témoin de leur volonté nataliste absurde : s’attaquer aux mineurs non accompagnés en proposant une présomption de majorité et en les soumettant à une politique d’immigration plus stricte.<br/>Comment croire, après les recherches aussi extensives de Mme la rapporteure, les contributions de tous les autres groupes, les preuves apportées par tous les organismes et personnes auditionnés, que le problème de la protection de l’enfance en France réside dans la question des MNA ?<br/>Mais comment s’étonner d’une telle conclusion de la part d’un groupe qui est toujours hors sujet, et dont les votes montrent le désintérêt total pour le bien-être des générations futures ? On parle bien d’un groupe qui vote contre une proposition de loi visant à protéger les mineurs isolés et à lutter contre le sans-abrisme, qui vote pour la loi Duplomb, pourtant responsable de l’empoisonnement des enfants, ou encore pour la suppression des zones à faibles émissions, qui permettent pourtant de réduire les émissions d’oxyde d’azote et de particules fines touchant les enfants.<br/>La protection de l’enfance est en crise parce qu’elle est devenue le refuge des dysfonctionnements des autres politiques publiques. Comme mon collègue Arnaud Bonnet et moi l’avons souligné dans nos contributions, la protection de l’enfance a été abandonnée par l’État et par certains départements. Depuis vingt-cinq ans, l’aide sociale à l’enfance fait face à une hausse continue du nombre d’enfants qui lui sont confiés et à des enjeux sociétaux qui se développent : la prise en charge des mineurs non accompagnés, l’explosion de la prostitution des mineurs chez les 13-17 ans, la prise en charge d’enfants en situation de handicap – notamment l’autisme, comme l’a rappelé ma collègue.<br/>En France, 344 682 mineurs ou jeunes majeurs sont pris en charge par l’ASE ; un chiffre en hausse de 19 % depuis 2011.<br/>L’ASE présente des défaillances, et ce n’est pas anodin. En matière de protection de l’enfance, un dysfonctionnement peut traumatiser, blesser, meurtrir, voire tuer. Nous en sommes tous des témoins vivants.<br/>Malheureusement, ces dernières années, les exemples se sont multipliés. Je l’ai rappelé hier : le 27 novembre 2025, l’émission « Envoyé spécial » a révélé un scandale d’ampleur nationale. En France, 20 000 mineures seraient victimes de prostitution et 80 % d’entre elles sont placées sous la protection de l’ASE. C’est un scandale inadmissible. Parmi elles, des jeunes filles de l’Essonne, mon département, dont certaines ont été exploitées dès l’âge de 11 ou 12 ans, parfois dans des foyers censés les protéger ; parfois même devant nous.<br/>La commission d’enquête parlementaire d’avril 2025 a confirmé l’ampleur du problème : 15 000 mineurs seraient victimes de prostitution en France, majoritairement des enfants placés. Le ministère de la justice a reconnu une situation critique et envoyé une circulaire pour renforcer les contrôles dans les foyers de l’ASE, mais les associations et les familles demandent des mesures concrètes : formation des professionnels, responsabilisation des clients et, surtout, une réforme en profondeur du système de protection de l’enfance.<br/>Cette situation n’est pas nouvelle. Elle est connue des pouvoirs publics. De nombreuses alertes, des rapports, des avis, des décisions des institutions françaises et internationales ont été publiés. Des juges des enfants ont dénoncé le quotidien de ces derniers. Pourtant, la situation n’a jamais été aussi dramatique. Oui, il y a eu des manquements de l’ASE. L’État a été complice, et nous le sommes encore aujourd’hui. Il a abandonné ses enfants.<br/>Il est temps de mettre en œuvre les dispositions préconisées par le rapport de la commission d’enquête et par la Convention internationale des droits de l’enfant.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2844553" ordre_absolu_seance="67" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985245" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2607.64">La parole est à Mme Béatrice Piron.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2844554" ordre_absolu_seance="68" id_acteur="PA721844" id_mandat="PM843461" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985246" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Béatrice Piron (HOR)</nom>
+            <id>721844</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2613.82">La protection de l’enfance, plus particulièrement l’ASE, s’impose aujourd’hui à nous avec une acuité particulière. Chaque semaine ou presque, un nouveau fait divers vient rappeler de manière tragique les défaillances de notre système, à travers la violence faite à certains enfants que la collectivité avait précisément pour mission de protéger. Cette succession de drames ne peut être regardée comme une simple accumulation de cas isolés. Elle révèle une crise profonde, durable, et désormais parfaitement documentée, de l’aide sociale à l’enfance. Il s’agit non plus d’une série de dysfonctionnements ponctuels, mais bien d’un déséquilibre structurel, qui met en cause notre capacité collective à garantir l’intérêt supérieur de l’enfant, pourtant au cœur de notre droit.<br/>Près de 400 000 enfants et jeunes majeurs sont aujourd’hui concernés par une mesure de protection. Les besoins augmentent, les parcours se complexifient, les ruptures se multiplient, tandis que les professionnels s’épuisent et que les réponses demeurent inégales selon les territoires. Cette réalité, que chacun ici connaît, a été largement confirmée par la Cour des comptes, par le Cese – le Conseil économique, social et environnemental –, comme par la commission d’enquête parlementaire du printemps dernier.<br/>Face à ce constat, le groupe Horizons &amp; indépendants souhaite d’abord affirmer une conviction simple : la protection de l’enfance ne peut pas être une variable d’ajustement – ni financière ni organisationnelle. Elle est un investissement humain et social majeur. L’inaction coûte toujours plus cher que l’engagement. Notre modèle repose sur une forte décentralisation qui a permis des adaptations locales utiles, mais cette organisation atteint aujourd’hui ses limites. L’État ne peut pas se contenter d’un rôle d’animateur lointain. Il doit pleinement assumer son rôle de garant de l’égalité territoriale en fixant un cap clair, des standards minimaux et en créant des outils de suivi et d’évaluation réellement effectifs.<br/>La situation des jeunes majeurs sortant de l’ASE illustre particulièrement ces fragilités. Le caractère facultatif de l’accompagnement après 18 ans a trop souvent conduit à des sorties sèches, brutales, aux conséquences humaines dramatiques. La loi de 2022 a constitué une avancée importante, en consacrant un droit à l’accompagnement jusqu’à 21 ans, mais les rapports récents montrent que ce droit reste trop souvent théorique : information lacunaire des jeunes, pratiques restrictives persistantes, inégalités territoriales fortes. Nous devons avoir le courage de le dire : le passage à l’âge adulte ne se décrète pas à 18 ans, surtout pour des jeunes marqués par des parcours émaillés de ruptures. Il faut donc aller vers un accompagnement réellement sécurisant.<br/>Dans ce contexte, nous avons récemment adopté à l’unanimité la proposition de loi visant à assurer le droit de chaque enfant à être assisté par un avocat dans le cadre d’une mesure d’assistance éducative et de protection de l’enfance. Je suis fière de ce vote unanime qui affirme l’importance de la défense et de la voix de l’enfant dans la procédure. J’espère que la navette parlementaire sera rapide afin que le Sénat puisse étudier le texte et que cette protection devienne rapidement effective. Donner un avocat à chaque enfant, c’est reconnaître son droit d’être écouté et représenté.<br/>Dans le même esprit, je salue l’initiative de notre collègue Nathalie Colin-Oesterlé, qui a déposé une proposition de loi destinée à garantir le bénéfice effectif des prestations familiales, des pensions alimentaires et de certaines aides sociales aux personnes qui assument la charge des enfants placés. En effet, il n’est ni juste ni compréhensible que des aides destinées à l’enfant ne le suivent pas systématiquement. Cette proposition de loi soulève toutefois des questions importantes que je souhaite mettre en lumière.<br/>D’abord, elle nous amène à nous interroger sur la fiscalité des familles dont l’enfant est placé. Aujourd’hui, la part ou demi-part fiscale peut être maintenue, alors même que l’enfant n’est plus du tout à la charge effective du foyer fiscal parental. Cette situation est problématique au regard de l’équité fiscale et de la cohérence de notre système. Une réflexion mérite d’être engagée pour que la fiscalité reflète la réalité de la charge assumée, tout en tenant compte des situations familiales complexes. Quel est votre avis à ce sujet, madame la ministre ?<br/>Ensuite, cette proposition de loi pousse à s’interroger sur l’accueil bénévole durable, expérimenté dans certains départements, comme les Yvelines. Ces accueillants, qui s’engagent durablement auprès d’enfants et de jeunes, n’ont pas le statut de famille d’accueil, mais ils jouent un rôle essentiel de stabilité et de protection. Il est légitime de s’interroger sur leur reconnaissance : l’accès à certaines prestations de la CAF, la caisse d’allocations familiales, ou à des dispositifs fiscaux adaptés permettrait de sécuriser et d’encourager ces formes d’engagement.<br/>Enfin, au-delà des dispositifs, c’est bien une refondation du pilotage de la protection de l’enfance qui est nécessaire : davantage de prévention, une diversification ou spécialisation réelle des modes d’accueil, un soutien renforcé, notamment économique, aux professionnels, ainsi qu’une clarification des responsabilités entre l’État et les départements.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2844563" ordre_absolu_seance="77" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985255" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2921.65">La parole est à Mme la ministre de la santé, des familles, de l’autonomie et des personnes handicapées.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2844564" ordre_absolu_seance="78" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985256" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Stéphanie Rist</nom>
+            <id>720066</id>
+            <qualite>ministre de la santé, des familles, de l’autonomie et des personnes handicapées</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="2944.59">Je vais essayer d’apporter des éléments complémentaires par rapport à la séance d’hier soir. Merci à nouveau pour l’inscription de ce débat à l’ordre du jour de votre assemblée. J’ai déjà évoqué hier, lors du débat inscrit à l’ordre du jour à la demande du groupe Socialistes et apparentés, la feuille de route du gouvernement concernant la refondation de la politique de protection de l’enfance. Nous avons eu un débat riche et constructif pour faire cause commune et agir ensemble pour une meilleure protection de nos enfants.<br/>Pour partager avec vous les enjeux plus spécifiques relatifs à l’ASE, que vous mettez à l’ordre du jour, repartons des constats. S’ils sont documentés, les événements médiatisés ces dernières semaines nous les rappellent douloureusement et nous heurtent profondément.<br/>Citons d’abord quelques chiffres éloquents : en vingt ans, le nombre de mesures de protection a augmenté de 50 %. Les enfants confiés à l’aide sociale à l’enfance ont en moyenne vingt ans d’espérance de vie en moins que le reste de la population. Seuls 12 % d’entre eux obtiennent le baccalauréat. Un enfant hospitalisé en psychiatrie sur deux a été ou est encore suivi par l’ASE.<br/>Ces chiffres ne sont pas des abstractions ; ils racontent des parcours heurtés, des enfances instables et des décisions parfois trop tardives. Ils disent surtout une chose simple : notre modèle est affaibli depuis longtemps et il est confronté à de nouvelles difficultés qui viennent fragiliser les progrès réalisés depuis une dizaine d’années. C’est pourquoi il nous faut le refonder. Ce n’est pas une option, c’est un devoir, parce que les enfants placés n’ont pas juste besoin que l’on réponde à leurs urgences ; ils ont besoin d’un horizon, d’un cadre lisible, d’une stabilité matérielle et affective qui leur permette de se projeter et de se construire. Telle est la promesse républicaine que nous devons tenir.<br/>C’est le sens du projet de loi que je présenterai avec le garde des sceaux, Gérald Darmanin. Son objectif est clair : replacer le parcours de vie de l’enfant au cœur de notre système, limiter les placements en institution et développer autant que possible les solutions à caractère familial. Ce texte engage une transformation structurelle cohérente, attendue par les professionnels, les magistrats et les départements. Il leur donne des outils, il redonne du sens à l’action, il favorise l’exécution des décisions et il remet l’enfant au centre.<br/>Ce projet de loi constituera une marche importante de la refondation attendue, mais celle-ci passe également par une dynamique d’action que nous mettons en œuvre par ailleurs : le plein investissement des responsabilités de l’État, l’impulsion d’un plan de transition de l’offre des départements en soutenant les initiatives, avec des territoires pilotes, l’accompagnement des pratiques professionnelles en liaison avec les départements, ou encore la transformation des systèmes d’information.<br/>Avant de répondre à vos questions, je développerai quatre axes structurants de l’action que nous voulons mener dans le domaine de l’aide sociale à l’enfance.<br/>Le premier porte sur la prévention et le soutien à la parentalité. J’ai longuement abordé cette question hier, mais il faut le redire avec force : l’intervention précoce – avant que les difficultés s’installent –, que nous avons promue avec la politique des 1 000 premiers jours, doit être renforcée dès que des vulnérabilités sont identifiées ; c’est un enjeu central. C’est pourquoi nous allons renforcer l’accompagnement des familles, sur le plan éducatif, psychologique et budgétaire. Nous aurons également à simplifier la mise en œuvre des mesures administratives à domicile, afin d’éviter les placements lorsque le maintien de l’enfant dans son environnement est à la fois possible et protecteur.<br/>Le deuxième axe concerne la mobilisation de l’entourage et le développement de l’accueil à caractère familial. La stabilité affective ne se décrète pas, elle se construit à partir des liens existants. C’est la raison pour laquelle le projet de loi qui vous sera présenté pose un principe clair : avant tout placement, il sera obligatoire de rechercher un tiers digne de confiance, ayant déjà un lien affectif avec l’enfant, qu’il soit de sa famille ou non. Ce recours prioritaire à l’entourage vise une chose simple : éviter les ruptures inutiles et offrir à l’enfant une continuité relationnelle, le maintien des repères positifs et des points d’ancrage.<br/>Le texte doit aussi favoriser le développement de l’accueil durable et bénévole, qui est une alternative précieuse entre le placement classique et le parrainage et qui donne déjà des résultats probants pour les pupilles. La profession d’assistant familial sera également modernisée. Les conditions d’exercice seront assouplies et les possibilités de cumul d’activité élargies, afin de répondre à un double enjeu : le renforcement de l’attractivité et le renouvellement de la profession. Comme vous le savez, près de 35 % des enfants confiés à l’ASE, soit 71 800 enfants, sont accueillis par un assistant familial. Or l’âge d’entrée dans la profession est élevé. Les assistants familiaux sont âgés en moyenne de 54 ans.<br/>Le troisième axe, la sécurisation des parcours des enfants et la stabilisation de leur projet de vie, est sans doute le cœur du texte. En effet, ce qui abîme les enfants confiés, ce sont autant les ruptures initiales que l’accumulation des ruptures secondaires : changement de lieu, de référent, d’orientation. J’évoquerai trois actions en rapport avec ce troisième axe.<br/>Premièrement, cela faisait plus de cinquante ans que les textes relatifs aux pouponnières, publiés en 1974 à l’initiative de Simone Veil, n’avaient pas évolué. C’est chose faite depuis septembre dernier. Les enfants en pouponnière bénéficieront d’un suivi renforcé : leur situation sera obligatoirement réévaluée tous les six mois. Deuxièmement, s’agissant de la durée du placement, le caractère provisoire de ce dernier est réaffirmé, mais lorsque le retour en famille est durablement impossible, le texte qui vous sera présenté assume une responsabilité : privilégier les solutions d’accueil pérenne. Troisièmement, aujourd’hui, des enfants sont en situation d’attente, ce qui les prive d’une perspective stable durant leurs toutes premières années. La procédure de délaissement parental en vue d’une adoption simple sera accélérée tout en préservant les liens de filiation.<br/>Enfin, le quatrième axe concerne la coordination entre l’État, la justice et les départements. La protection de l’enfance est une politique décentralisée de proximité, mais l’État doit être pleinement au rendez-vous de ses responsabilités, notamment en matière de santé, de justice et d’éducation. Le projet de loi qui vous sera soumis renforce la coordination de proximité en généralisant les comités départementaux pour la protection de l’enfance, qui associent services de l’État et des départements. Il structure mieux les relations entre services sociaux et autorité judiciaire, en mettant l’accent sur la coordination, l’amélioration de la connaissance des situations et un suivi plus rigoureux de l’exécution des décisions, attendu par tous.<br/>Quand le cadre et la volonté sont là, cela marche. Je l’ai vu dans les Yvelines, où commissaires, procureurs, associations, acteurs de l’accompagnement social et direction départementale travaillent ensemble, avec des liens constants et des résultats tangibles en matière de lutte contre la prostitution des mineurs protégés. Là encore, l’objectif est clair : garantir la cohérence des parcours, améliorer la réponse aux besoins des enfants et réduire les inégalités territoriales, qui ne sont plus acceptables.<br/>Mesdames et messieurs les députés, sur ce sujet plus que sur tout autre, nous ne pouvons être ni dans l’incantation ni dans la promesse de miracles. Le chemin que le gouvernement vous propose est celui de la cohérence, de la stabilité pour les enfants et de la responsabilité. Notre conviction est qu’un enfant protégé ne doit pas seulement être mis à l’abri ; ce doit être un enfant à qui l’on donne des repères, des liens durables et des perspectives d’avenir. Pour engager une réelle dynamique d’action, nous faisons enfin le choix du collectif, en rassemblant l’État, les départements, les associations, les professionnels ainsi que les parlementaires.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2844577" ordre_absolu_seance="93" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985269" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3401.59">Nous en venons aux questions. Je vous rappelle que la durée des questions ainsi que celle des réponses est limitée à deux minutes, sans droit de réplique.<br/>Néanmoins, si vous en êtes d’accord, nous procéderons comme hier. Comme tous les groupes ne se sont pas exprimés, nous disposons d’un reliquat de vingt minutes. Vous pourrez donc déborder un peu des deux minutes pour achever votre propos, afin que le débat soit aussi riche que possible – étant entendu que je veillerai à appliquer cette tolérance de manière équitable.<br/>Il n’y a pas d’opposition ?…<br/>La parole est à Mme Marine Hamelet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2844579" ordre_absolu_seance="97" id_acteur="PA795900" id_mandat="PM843524" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985271" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Marine Hamelet (RN)</nom>
+            <id>795900</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3455.11">La décentralisation de l’aide sociale à l’enfance, confiée aux conseils départementaux, est source d’inégalités importantes entre les enfants. D’autre part, l’aide sociale à l’enfance et la protection judiciaire de la jeunesse ont besoin de travailler étroitement ensemble. Le fait qu’il y ait 101 politiques différentes d’ASE, une par département, rend la coordination presque impossible. Les conséquences en sont une moins bonne prise en charge globale des enfants. Eu égard aux enjeux pour le pays que représentent une politique en faveur des enfants en danger et son articulation avec d’autres politiques publiques, il est indispensable de confier de nouveau à l’État la compétence en matière d’aide sociale à l’enfance. Ne pensez-vous pas qu’il faille unifier le système en définissant une politique générale et en créant un ministère de l’enfance ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2844580" ordre_absolu_seance="98" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985272" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3508.49">La parole est à Mme la ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2844581" ordre_absolu_seance="99" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985273" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Stéphanie Rist</nom>
+            <id>720066</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3517.17">S’il suffisait de recentraliser une politique pour qu’elle soit efficace, ce serait très bien ! Cependant, je ne crois pas que créer un ministère de l’enfance ou recentraliser cette politique suffirait. Pourquoi l’État ferait-il mieux que les départements, qui sont pour la plupart engagés dans la conduite de cette politique ?<br/>Ce qui m’intéresse, en tant que ministre des familles, des enfants et de la protection de l’enfance, c’est que les enfants en question soient bien en sécurité et qu’ils puissent avoir un avenir. Pour être efficace, la gouvernance de l’État doit être renforcée. Nous ne faisons pas tout parfaitement. C’est pourquoi nous avons augmenté les moyens de la direction générale de la cohésion sociale (DGCS). Nous avons compris qu’aider les départements à mieux évaluer leur politique et à gagner en efficacité passait notamment par de la transmission de données. Il existe un dispositif pour ce faire, d’observation longitudinale individuelle et nationale en protection de l’enfance – Olinpe –, qui n’est pas parfait et a besoin d’être amélioré et diffusé. Nous y consacrons des moyens. Nous nous dotons surtout d’une stratégie ambitieuse en matière de système d’information, afin de récupérer ces données.<br/>Cela me permet de répondre à Mme Isabelle Santiago au sujet du comité scientifique. Il me paraît en effet vraiment nécessaire de remettre la science au cœur de la gouvernance. Je proposerai donc la création de ce comité scientifique pour améliorer l’efficacité du pilotage national des politiques au niveau des départements. Nous avons réellement besoin d’un État stratège, qui pilote sans nécessairement gérer. La politique de la protection de l’enfance, parce qu’elle repose sur la proximité, se joue au niveau des départements. J’ai eu l’occasion d’en discuter avec des maires ruraux, qui m’expliquaient combien ils se sentaient démunis alors qu’ils avaient un rôle important à jouer, précisément du fait de cette proximité, parce qu’ils connaissent les familles ou la personne susceptible de devenir un tiers de confiance.<br/>Il serait tellement plus simple d’affirmer qu’il suffit de recentraliser la politique de la protection de l’enfance pour sauver les enfants, mais je ne crois pas que ce soit la solution. Il y a d’autres choses à faire.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2844682" ordre_absolu_seance="103" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985444" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3693.16">La parole est à Mme Florence Goulet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2844683" ordre_absolu_seance="104" id_acteur="PA794418" id_mandat="PM840309" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985445" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Florence Goulet (RN)</nom>
+            <id>794418</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3700.90">Maltraitance de tous ordres, placements inadaptés, recrutements douteux : la liste est longue des graves dysfonctionnements de la politique d’aide sociale à l’enfance, au détriment d’enfants, mais aussi de parents, voire de familles d’accueil. Nous avons tous des exemples de situations accablantes dans nos départements. En Meuse, une enfant de 4 ans, placée depuis sa naissance dans une famille d’accueil exerçant depuis plus de trente ans, a été retirée de cette famille du jour au lendemain, alors même que cette dernière n’a pas perdu son agrément et a continué de recevoir d’autres enfants ; l’enfant a été placée dans une pouponnière, avec l’interdiction de voir cette famille. J’avais par ailleurs alerté les autorités locales au sujet d’une maison d’enfants à caractère social (Mecs), installée dans une ancienne gendarmerie, rénovée à hauteur de 1,7 million d’euros : au-delà de l’environnement scolaire et communal, très perturbé par certains de ses occupants, cette structure a malheureusement fermé deux ans plus tard, à la suite d’agissements graves, parmi lesquels des infractions de nature sexuelle.<br/>Dysfonctionnements, inégalités territoriales, irresponsabilités partagées, subventions qu’il faut maintenir à tout prix, recours à des profils inadaptés et non formés pour remplir la fonction d’éducateur spécialisé : la gestion de l’ASE est manifestement un échec, elle a trop souvent perdu le sens des réalités humaines. La loi de décentralisation de 1983 a certes confié l’ASE aux départements, mais comme l’a récemment rappelé le garde des sceaux dans une circulaire adressée aux procureurs et aux magistrats, ce sont bien les services de l’État et l’autorité judiciaire qui sont chargés du contrôle des établissements. Les préfets, via les directions départementales de l’emploi, du travail et des solidarités (DDETS), doivent élaborer une stratégie de contrôle des établissements, accompagner l’action du conseil départemental en la matière et, en cas de carences manifestes de ce dernier, s’y substituer pour mener des contrôles. Pourquoi ne les exercent-ils pas, ou si peu, ou si mal ? Pourquoi, par principe, la responsabilité des présidents de conseils départementaux n’est-elle jamais engagée ?<br/>Au reste, quand une procédure judiciaire intervient, les délais sont souvent trop longs, et les décisions souvent reportées, alors que les parties prenantes devraient collectivement œuvrer, au bénéfice de l’intérêt supérieur de l’enfant. Au groupe Rassemblement national, nous souhaitons une recentralisation de cette politique. En attendant un projet de loi, il y a urgence : que comptez-vous faire pour que cessent ces dérives inacceptables ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2844686" ordre_absolu_seance="107" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985448" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3832.97">La parole est à Mme la ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2844687" ordre_absolu_seance="108" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985449" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Stéphanie Rist</nom>
+            <id>720066</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="3848.42">Votre question porte sur l’importance des contrôles. Nous y reviendrons lors de l’examen de la proposition de loi de Mme Perrine Goulet relative à l’intérêt des enfants, qui doit bientôt être mise à l’ordre du jour de l’Assemblée.<br/>Il est vrai que nous pouvons d’ores et déjà organiser des contrôles conjoints entre le préfet et le département en cas de suspicion de vulnérabilité. Pour être le plus efficace possible, il faut travailler de concert avec le département afin de tenter d’analyser qui doit être contrôlé, et comment. J’ai pu répondre à cette question hier soir, lors du débat sur les suites données au rapport de la commission d’enquête sur les manquements des politiques publiques de protection de l’enfance. Il me paraît nécessaire de travailler à des plans obligatoires de contrôle, en se demandant aussitôt : lesquels, à quelle fréquence ? Comment cibler au mieux les situations qui requièrent l’attention ? Les départements, qui connaissent bien les structures, peuvent y aider, parce qu’ils sont susceptibles de distinguer celles où tout se passe bien de celles où tout va mal. L’efficacité passe par là. Nous avons commencé à y réfléchir dans le cadre d’un plan de contrôle obligatoire.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2844689" ordre_absolu_seance="110" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985451" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3937.63">La parole est à M. Arnaud Saint-Martin pour une durée de quatre minutes. Vous avez le choix de poser d’emblée deux questions, ou de reposer une question après la réponse de la ministre, monsieur le député.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2844690" ordre_absolu_seance="111" id_acteur="PA841845" id_mandat="PM843407" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985452" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Arnaud Saint-Martin (LFI-NFP)</nom>
+            <id>841845</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3969.36">En préambule, je souhaite dénoncer, tout comme mes collègues Sophia Chikirou et Julie Ozenne, les positions nauséabondes de certains députés, en particulier celles du Rassemblement national, qui préconise la mise en place d’une présomption de majorité et des prélèvements osseux systématiques pour les mineurs non accompagnés. Les décisions rendues par la Cour européenne des droits de l’homme (CEDH) en 2025 sont pourtant claires : ce type de test viole le consentement et le droit à la vie privée ; il transgresse également la Convention internationale des droits de l’enfant. Le RN et une partie de la droite dite républicaine approfondissent leur entrisme réactionnaire et raciste en faisant porter les défaillances de l’ASE sur les MNA, lesquels sont pourtant les premières victimes de ces défaillances. Les mineurs non accompagnés ne constituent que 6 à 7 % des jeunes pris en charge par l’ASE, mais ce sont les premiers à ne pas accéder à l’école, faute de classes en unités pédagogiques pour élèves allophones arrivants (UPE2A). Ils sont aussi les moins accompagnés lorsqu’ils arrivent à la majorité, alors qu’ils en ont le plus besoin pour obtenir un titre de séjour.<br/>Une conclusion évidente s’impose. Elle a été maintes fois répétée aujourd’hui et figure parmi les principales leçons de la commission d’enquête sur le sujet : il faut durablement refinancer et réorganiser l’ASE. Les budgets successifs ont fait peser sur les départements la prise en charge de l’aide sociale à l’enfance, alors même qu’ils voient leur enveloppe diminuer chaque année. En 2026, aux dernières nouvelles, le budget des collectivités locales devrait être amputé de 5 milliards d’euros. L’état de l’aide sociale à l’enfance est absolument catastrophique.<br/>Je reviens aux MNA, dont certains ont été expulsés de la Gaîté lyrique à Paris. Je pense aussi à ces jeunes tondus, maltraités, agressés sexuellement, abandonnés : autant de situations de détresse intolérables que j’ai pu constater sur site, dans des structures d’accueil de ma circonscription, en Seine-et-Marne. Les financements sont insuffisants et l’État est structurellement défaillant. Aux grands maux, les grands remèdes : pour l’accueil des mineurs non accompagnés, vous prévoyez une enveloppe exceptionnelle de 50 millions d’euros – 50 petits millions d’euros. Remis en perspective et ventilé à l’échelle départementale, un tel montant représente 50 000 euros par département, soit le coût de la prise en charge d’un seul jeune pendant un an. Comment comptez-vous subvenir à leurs besoins avec une enveloppe aussi dérisoire ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2844693" ordre_absolu_seance="114" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985455" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4124.47">La parole est à Mme la ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2844694" ordre_absolu_seance="115" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985456" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Stéphanie Rist</nom>
+            <id>720066</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4134.55">Avant de vous répondre, monsieur le député, j’ai oublié de préciser à Florence Goulet que l’Inspection générale des affaires sociales (Igas) avait aussi été missionnée pour travailler sur la question des contrôles en vue d’aider les départements à pratiquer des contrôles plus efficaces et d’améliorer la formation, notamment grâce à un guide des bonnes pratiques du contrôle. L’objectif reste l’efficacité. Nous pouvons tous tenir des beaux discours, plus ou moins politisés, mais ce qui compte, finalement, c’est que les enfants soient réellement protégés.<br/>J’en viens à votre question, monsieur Saint-Martin. Vous avez raison : un enfant reste un enfant et s’il a besoin d’être protégé, il doit l’être. Telle est la ligne que nous devons tenir. Nous avons établi une feuille de route pour les jeunes majeurs sortants de l’ASE. L’enveloppe de 50 millions d’euros n’est pas dédiée à leur prise en charge intégrale, il s’agit d’un forfait, annuel, pour évaluer l’entrée du jeune dans le dispositif, avant que celui-ci ne soit, le cas échéant, pris en charge par le département. Car une fois qu’il est reconnu comme devant être protégé, il dépend des autres enveloppes du département. Il me semblait utile de préciser que ces 50 millions d’euros ne sont dédiés qu’à amorcer le dispositif.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2844696" ordre_absolu_seance="117" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985458" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4237.46">La parole est à Mme Isabelle Santiago, pour une première question.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2844697" ordre_absolu_seance="118" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985459" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Isabelle Santiago (SOC)</nom>
+            <id>774960</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4246.70">Je dispose bien de quatre minutes ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2844698" ordre_absolu_seance="119" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985460" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4260.21">Puisque vous êtes la seule représentante du groupe Socialistes et apparentés, vous êtes libre d’utiliser les quatre minutes dévolues à votre groupe comme vous le souhaitez, en posant deux questions ou bien une seule.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2844699" ordre_absolu_seance="120" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985461" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Isabelle Santiago</nom>
+            <id>774960</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4277.68">Deux points méritent d’être abordés. Tout d’abord, celui de la crise systémique à laquelle sont confrontés les professionnels de la protection de l’enfance. Comme vous le savez, il manque plus de 30 000 postes. Nous avons fait des propositions très concrètes en la matière, et formulé des demandes immédiates lors de la publication du rapport de la commission d’enquête sur les manquements des politiques publiques de protection de l’enfance.<br/>Les enfants ont évidemment besoin d’être accompagnés par des professionnels bien formés et nous savons que le bât blesse sur ce plan. Cependant, il y a aussi des gens dévoués, qui font un travail très difficile. La charge mentale et émotionnelle de l’ensemble des professionnels de la protection de l’enfance est en effet considérable. Or ils n’ont pas été préparés à rencontrer de telles difficultés – je pense aux problématiques liées à la prostitution, ou à l’autisme – en étant autant livrés à eux-mêmes. Nous sommes aussi là pour nous dire les choses : dans les territoires, les services de l’État rencontrent de grandes difficultés à prendre en charge ou accompagner la santé de ces enfants. La commission d’enquête et les propositions que vous faites pourraient modifier la donne, mais nous savons que tout cela prend du temps. Or comme je le dis souvent dans cette assemblée, le temps de l’enfant n’est pas celui de l’adulte, encore moins celui du politique.<br/>Dans les faits, il y a eu beaucoup de départs de professionnels à la suite du covid, et le recours à l’intérim a explosé – ce dernier permettant par ailleurs à des travailleurs sociaux, en temps ordinaire très mal payés, d’avoir des salaires plus élevés. Ce phénomène n’est pas vertueux mais il est réel. Nous faisons face à une pénurie de personnel, au développement de l’intérim et à l’arrivée du privé lucratif dans le secteur. Après être entré dans les crèches et les Ehpad, donnant lieu à plusieurs scandales, ce dernier vise à présent la protection de l’enfance – avec aussitôt plusieurs scandales, dont la presse quotidienne régionale a pu se faire l’écho.<br/>On ne peut laisser les enfants dans cette situation et passer encore dix ans sans résoudre les difficultés rencontrées par les travailleurs sociaux dans leur métier, qui doit être reconnu et s’assortir d’une formation de haut niveau. Le turnover est tel que lorsqu’un enfant se lève le matin, il ne sait pas quelle personne s’occupera de lui – le plus souvent, il aura à en connaître plus de quarante différentes.<br/>Si l’on ajoute à cela les ruptures que ces enfants connaissent dans leur parcours – ils peuvent être conduits à changer de foyer ou de famille d’accueil quinze, vingt ou trente fois –, on voit bien que les professionnels qui se succèdent ne peuvent assurer la sécurité affective nécessaire à la construction de l’identité de ces jeunes. Et on se demande ensuite pourquoi ils ne vont pas bien à l’adolescence ! La réponse est connue : les connaissances issues des neurosciences et des sciences du développement montrent qu’en procédant de la sorte, nous construisons de très grandes fragilités.<br/>Ces questions essentielles doivent être posées et traitées sans attendre : on peut penser le long terme, mais il faut de façon très pragmatique répondre à l’urgence et aux postes qui manquent.<br/>Enfin, n’oublions pas nos amis des outre-mer. La France est présente dans tous les océans et j’ai pu me rendre en Guadeloupe, en Martinique et à La Réunion, où les difficultés sont encore plus prégnantes. Les territoires ultramarins doivent faire l’objet de toute notre attention.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844651" ordre_absolu_seance="127" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985468" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4522.70">La parole est à Mme la ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844652" ordre_absolu_seance="128" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985469" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Stéphanie Rist</nom>
+            <id>720066</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4531.50">Vous posez la question de l’attractivité de ces métiers et il y aurait beaucoup de réponses à apporter, en particulier concernant l’amélioration de la santé et de la prise en charge de l’enfant. Un enfant bien pris en charge facilitera la tâche de la personne appelée à s’en occuper, allégera la charge psychologique de cette dernière et favorisera sa fidélisation dans le métier. Beaucoup de mesures sont à prendre en matière d’attractivité, qui ne se limitent pas à la rémunération. On retrouve ici le problème rencontré par tous les métiers de l’humain, qui sont faiblement valorisés alors qu’ils sont indispensables à la cohésion sociale.<br/>Je ne reviens pas sur les propositions exposées hier afin de mieux prendre en charge la santé de l’enfant, notamment la généralisation des parcours coordonnés renforcés – qui me tiennent à cœur –, lesquels permettent désormais d’obtenir un même niveau de remboursement des consultations de psychologue – à 50 euros la séance – que dans le dispositif Mon Soutien psy, pour autant de séances qu’il est nécessaire. Ils incluent également l’ensemble des soins dont les enfants ont besoin ainsi qu’un financement de la coordination de ces soins.<br/>S’agissant de la formation, plusieurs niveaux sont à prendre en compte : celui de la formation initiale et celui de la formation continue. J’ai rencontré dernièrement plusieurs acteurs avec qui nous avons décidé d’entamer un travail sur la reconversion, l’évolutivité des métiers et la validation des acquis de l’expérience (VAE), afin de renforcer l’attractivité de ces métiers et la formation de ces professionnels. J’ai également confié une mission à l’Igas afin de nous aider à améliorer la formation des professionnels qui exercent au plus près des enfants.<br/>Pour ce qui concerne l’intérim, vous connaissez mon engagement à ce sujet : j’ai soutenu la limitation de l’intérim votée par le Parlement, non pas parce que l’intérim ne servirait à rien – dans certains cas, il est indispensable – mais parce que, lorsqu’il devient la norme, plus aucun travail d’équipe ni aucun projet n’est possible, ce qui évidemment engendre une instabilité pour les enfants. Comme pour les établissements de santé, une limitation a donc été posée au recours à l’intérim.<br/>Plusieurs d’entre vous ont évoqué la lutte contre la prostitution. D’abord, nous avons pu observer, à l’occasion d’un déplacement dans les Yvelines – vous étiez présente, madame Piron –, des protocoles efficaces permettant de lutter contre la prostitution des enfants ; nous voulons les généraliser. Ensuite, un décret a été publié qui permet l’intégration des services de l’ASE dans les commissions départementales de lutte contre la prostitution : c’est efficace et cela doit être fait partout.<br/>Par ailleurs, le garde des sceaux a déclaré qu’il entendait renforcer la répression et la réponse judiciaire en matière de prostitution.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844660" ordre_absolu_seance="134" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985477" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4793.43">La parole est à Mme Julie Ozenne.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844661" ordre_absolu_seance="135" id_acteur="PA842045" id_mandat="PM843581" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985478" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Julie Ozenne (EcoS)</nom>
+            <id>842045</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4797.02">Comme cette séance traite d’un problème spécifique, nous ne sommes pas très nombreux. Ma question aurait pu être posée à Daniel Goldberg, qui était présent lors de la séance d’hier soir. Des associations viennent souvent nous voir, confrontées à des difficultés avec le conseil départemental qui leur refuse l’agrément leur permettant de s’installer. Est-ce là quelque chose de courant ? Comment peut-on soutenir au mieux ces associations ?<br/>En l’occurrence, il s’agit d’une association qui développe un lieu de vie et d’accueil (LVA) en Essonne : le dossier est complet, avec des garanties financières et des loyers en cours, mais le département de l’Essonne refuse d’octroyer l’agrément qui permettrait à cette association d’accueillir des enfants, y compris ceux du département voisin – l’administration essonnienne dit d’ailleurs elle-même qu’elle aurait des enfants à lui proposer. Comment, en tant que député, peut-on obliger le département à agir afin que les acteurs associatifs puissent travailler correctement ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844663" ordre_absolu_seance="137" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985480" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4887.63">La parole est à Mme la ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844664" ordre_absolu_seance="138" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985481" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Stéphanie Rist</nom>
+            <id>720066</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="4890.46">La politique de protection de l’enfance est totalement décentralisée : la responsabilité en revient aux départements. Cela n’empêche pas de pouvoir travailler avec eux et d’obtenir une réponse à votre question, soit que vous la demandiez en tant que députée, soit que nous discutions nous-mêmes avec le département en question pour savoir pourquoi l’agrément n’a pas été délivré. Je n’ai pas connaissance du cas particulier que vous mentionnez mais vous pouvez nous transmettre le dossier et nous tâcherons de vous faire part de la réponse que le département nous donnera.<br/>Le rôle de l’État doit être renforcé en matière de protection de l’enfance, nous sommes bien d’accord, mais il faut accepter le caractère décentralisé de cette politique : j’imagine que le département a des raisons pour lesquelles il n’a pas voulu délivrer l’agrément.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844666" ordre_absolu_seance="140" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985483" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="4971.04">Nous en avons fini avec les questions qui étaient inscrites. Comme il nous reste une dizaine de minutes, je peux les accorder à ceux qui le souhaitent, en toute équité, si l’ensemble des groupes en est d’accord.<br/>La parole est à Mme Béatrice Piron.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844668" ordre_absolu_seance="142" id_acteur="PA721844" id_mandat="PM843461" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985485" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Béatrice Piron (HOR)</nom>
+            <id>721844</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5004.85">Madame la ministre, quelle est votre position sur l’accueil durable et bénévole de l’enfant ? Des mesures seront-elles prises pour le faciliter et en renforcer l’offre ? Nous avons rencontré ensemble, dans les Yvelines, des personnes qui prenaient en charge des enfants dans ce cadre. Elles nous ont fait part de leurs difficultés, que ce soit au quotidien – elles ne disposent pas, par exemple, des autorisations nécessaires en cas de sortie scolaire, dont l’enfant se retrouve privé – ou financièrement – bien que cela soit du bénévolat, cela représente une charge significative pour ces familles, qui accueillent parfois plusieurs enfants. Pourraient-elles être mieux reconnues, comme de vraies familles d’accueil ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844669" ordre_absolu_seance="143" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985486" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5059.95">La parole est à Mme la ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844670" ordre_absolu_seance="144" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985487" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Stéphanie Rist</nom>
+            <id>720066</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5063.86">Ce point sera inclus dans le projet de loi que nous déposerons avec le garde des sceaux. Nous voulons renforcer ce type d’accueil. Nous entendons également consolider, dans le même temps, le contrôle d’honorabilité. La personne que nous avons pu rencontrer lors de ce déplacement a témoigné de façon convaincante de la nécessité d’une indemnisation – qui n’est pas une rémunération – afin d’accueillir ces enfants ; on a pu voir qu’un lien se crée très facilement qui pourra, pour les enfants qui ne peuvent pas retourner dans leur famille d’origine, donner lieu à une adoption.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844671" ordre_absolu_seance="145" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985488" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5126.20">La parole est à Mme Florence Goulet.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844672" ordre_absolu_seance="146" id_acteur="PA794418" id_mandat="PM840309" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985489" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Florence Goulet (RN)</nom>
+            <id>794418</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5132.74">Une petite question complémentaire : puisque nous faisons le constat que la décentralisation ne fonctionne pas – elle est source de dysfonctionnements et d’inégalités territoriales –, pourquoi aller vers encore plus de décentralisation, comme vous entendez le faire dans un futur projet de loi ? Si vous pensez qu’il faut donner davantage de pouvoir aux services de l’État, allons vers une centralisation ! Au Rassemblement national, c’est ce que nous préconisons.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844673" ordre_absolu_seance="147" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985490" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5161.93">La parole est à Mme la ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844674" ordre_absolu_seance="148" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985491" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Stéphanie Rist</nom>
+            <id>720066</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5164.73">À l’époque où cette politique était centralisée avec les directions départementales des affaires sanitaires et sociales (Ddass), cela ne marchait pas. S’il suffisait de recentraliser cette politique pour qu’elle fonctionne, nous le ferions très volontiers, mais ce n’est pas le cas.<br/>Ce qui importe, c’est d’être efficace. Il faut renforcer le poids, la responsabilité et les compétences de l’État dans la santé et dans la justice. Nous devons conforter le pilotage : l’État doit être stratège, il doit pouvoir accroître les contrôles lorsque c’est nécessaire, comme nous le faisons avec les préfets. Nous travaillons également avec les départements pour qu’ils puissent mieux contrôler. Nous devons rechercher l’efficacité, mais je ne crois pas, malheureusement, que recentraliser cette politique réglerait tous les problèmes.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844676" ordre_absolu_seance="150" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985493" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5231.87">La parole est à Mme Isabelle Santiago.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2844677" ordre_absolu_seance="151" id_acteur="PA774960" id_mandat="PM840417" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985494" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Isabelle Santiago (SOC)</nom>
+            <id>774960</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5243.19">Dans mon rapport fait au nom de la commission d’enquête sur les manquements des politiques publiques de protection de l’enfance, j’ai voulu éclairer ce débat entre centralisation et décentralisation en rappelant à tout le monde notre histoire, qui est à l’origine de la crise que nous traversons : la protection de l’enfance a d’abord relevé de la charité avec, il y a plus d’un siècle, les congrégations religieuses. Quand les religieux s’en vont, les associations bénévoles prennent le relais, mais les lieux restent les mêmes. Vous pourrez l’observer dans chacun de vos départements, le bâti qui sert à accueillir les enfants n’a pas changé depuis cent ans. C’est d’ailleurs ce qui explique que plusieurs milliards d’euros de travaux soient aujourd’hui nécessaires, pour rénover parfois des châteaux que les associations recevaient sous la forme de legs. Tout cela vient de l’histoire : en France, la prise en charge des vulnérabilités a d’abord été liée à la charité.<br/>L’État, à l’époque des Ddass, ne pilotait pas : ces directions étaient déjà départementales, au sens préfectoral du terme, et c’étaient les associations qui étaient à l’œuvre. Le seul changement intervenu dans les associations est qu’elles sont passées, dans les années 1970, du bénévolat à la professionnalisation, à l’issue de la convention collective du 15 mars 1966, qui fait l’objet de nouvelles discussions.<br/>Si on n’a pas ces éléments à l’esprit, il est impossible de comprendre la crise systémique à laquelle nous sommes confrontés et d’y répondre. La réalité n’est pas seulement celle de 101 départements mais aussi celle de 2 600 associations et de lieux de vie dont nous ignorons même la localisation. Les scandales dont nous avons pris connaissance sont la conséquence de cet état de fait. Nous essayons aujourd’hui, petit à petit, de reprendre par les lois le contrôle de la situation – en faisant en sorte, par exemple, que des informations soient échangées entre les départements quand un enfant en quitte un pour un autre.<br/>Tout cela est lié à notre histoire ; nous devons le comprendre pour ne pas nous tromper de débat et parvenir à changer les choses. L’État doit être un État stratège. Nous l’avons indiqué dans le rapport de la commission sur les manquements des politiques publiques des protections de l’enfance : il doit établir un socle, édicter des normes, engager des recherches et former des personnes. Il reviendra ensuite aux départements de travailler sur ces bases. Nous avons aussi demandé un meilleur encadrement des associations et la création d’une instance indépendante de contrôle : autant de questions majeures, que je tenais à rappeler.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2844542" ordre_absolu_seance="155" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985498" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5328.66">La parole est à Mme la ministre.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2844543" ordre_absolu_seance="156" id_acteur="PA720066" id_mandat="-1" id_nomination_oe="PM873675" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="3985499" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Stéphanie Rist</nom>
+            <id>720066</id>
+            <qualite>ministre</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5389.25">Je vous remercie pour les échanges que nous avons eus ; ils sont importants pour le bien des enfants.<br/>Madame Santiago, vous avez évoqué les bâtis : je ne voudrais pas que l’on oublie le rôle de la Banque des territoires, qui permet la réhabilitation ou la création de nouvelles places dans les établissements, en nombre toujours plus important. Il reste cependant encore beaucoup à faire.<br/>Vous l’aurez compris, le gouvernement a envie d’agir. Catherine Vautrin, qui m’a précédée au ministère de la santé, a beaucoup fait en ce sens, en prenant par exemple le décret refondant les normes d’encadrement des pouponnières, afin de mieux protéger les plus petits. Elle a commencé à renforcer le pilotage de l’ASE, et je poursuis son action. Le projet de loi que nous vous présenterons bientôt, avec le garde des sceaux, s’inscrira également dans cette logique.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2844546" ordre_absolu_seance="159" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985502" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>719024</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5450.01">Le débat est clos.<br/>Je tiens à vous remercier, chers collègues, pour la qualité des échanges que nous avons eus lors des différents débats de cette semaine de contrôle – celui de ce soir était pour moi le sixième. C’est avec plaisir que j’ai passé tout ce temps en votre compagnie.</texte>
+      </paragraphe>
+    </point>
+    <finSeance>
+      <point nivpoint="1" valeur_ptsodj="2" ordinal_prise="6" id_preparation="2844549" ordre_absolu_seance="162" code_grammaire="FIN_SEAN_1_2" code_style="Titre" code_parole="" sommaire="1" id_syceron="3985505" valeur="">
+        <orateurs/>
+        <texte>Ordre du jour de la prochaine séance</texte>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2844550" ordre_absolu_seance="163" id_acteur="PA719024" id_mandat="PM842390" id_nomination_oe="0" id_nomination_op="PM873244" code_grammaire="FIN_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3985506" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>719024</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5465.93">Prochaine séance, lundi 12 janvier, à seize heures :<br/> Suite de la discussion de la proposition de loi visant à améliorer l’accès au logement des travailleurs des services publics.<br/> La séance est levée.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2844551" ordre_absolu_seance="164" code_grammaire="FIN_SEAN_2_4" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="3985507" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance est levée à vingt-deux heures quarante-cinq.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2844552" ordre_absolu_seance="165" code_grammaire="FIN_SEAN_2_5" code_style="Signature droite" code_parole="" sommaire="0" id_syceron="3985508" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>Le directeur des comptes rendus<br/> Serge Ezdra</italique>
+          </texte>
+        </paragraphe>
+      </point>
+    </finSeance>
+  </contenu>
+</compteRendu>
