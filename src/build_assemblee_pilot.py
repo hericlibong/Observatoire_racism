@@ -227,6 +227,8 @@ def build_d3_json_from_csv() -> list[dict[str, object]]:
             interventions.append(intervention)
 
     interventions.sort(key=lambda item: (item["ordre"], item["intervention_id"]))
+    for index, intervention in enumerate(interventions, start=1):
+        intervention["display_order"] = index
     return interventions
 
 

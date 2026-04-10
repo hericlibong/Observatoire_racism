@@ -27,7 +27,7 @@ EXPECTED_COLUMNS = [
     "nb_caracteres",
 ]
 
-EXPECTED_JSON_FIELDS = EXPECTED_COLUMNS + ["signal_intensity"]
+EXPECTED_JSON_FIELDS = EXPECTED_COLUMNS + ["signal_intensity", "display_order"]
 
 
 class BuildAssembleePilotTest(unittest.TestCase):
@@ -51,6 +51,7 @@ class BuildAssembleePilotTest(unittest.TestCase):
         self.assertIsInstance(payload, list, "Le JSON D3 doit contenir une liste.")
         self.assertGreater(len(payload), 0, "Le JSON D3 doit contenir au moins une intervention.")
         self.assertEqual(list(payload[0].keys()), EXPECTED_JSON_FIELDS)
+        self.assertEqual(payload[0]["display_order"], 1)
 
 
 if __name__ == "__main__":
