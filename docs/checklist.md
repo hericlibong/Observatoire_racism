@@ -15,6 +15,6 @@
 - [x] Verifier manuellement quelques interventions dans l'export
 - [x] Produire un JSON minimal pour D3 a partir du meme XML test
 - [x] Definir l'encodage couleur comme intensite de signal candidat
-- [ ] Monter une premiere timeline intra-seance en D3
-- [ ] Verifier que la timeline suit bien l'ordre reel de la seance
+- [x] Monter une premiere timeline intra-seance en D3
+- [x] Verifier que la timeline suit bien l'ordre reel de la seance
 - [ ] Noter les champs absents, ambigus ou non fiables pour la suite
