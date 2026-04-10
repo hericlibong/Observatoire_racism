@@ -19,6 +19,8 @@ PILOT_PATH = SOURCE_DIR / PILOT_FILENAME
 INTERIM_DIR = ROOT_DIR / "data/interim/assemblee"
 MANIFEST_PATH = INTERIM_DIR / "source_manifest.json"
 CSV_PATH = INTERIM_DIR / "interventions_test.csv"
+EXPORTS_D3_DIR = ROOT_DIR / "data/exports/d3"
+JSON_PATH = EXPORTS_D3_DIR / "assemblee_pilot_timeline.json"
 
 CSV_FIELDS = [
     "intervention_id",
@@ -50,6 +52,10 @@ class InterventionRow:
     texte: str
     nb_mots: int
     nb_caracteres: int
+
+
+def signal_intensity_from_row(row: dict[str, str]) -> int:
+    return 0
 
 
 def normalize_text(value: str) -> str:
@@ -197,6 +203,41 @@ def write_csv(rows: list[InterventionRow]) -> None:
             writer.writerow(asdict(row))
 
 
+def build_d3_json_from_csv() -> list[dict[str, object]]:
+    interventions: list[dict[str, object]] = []
+
+    with CSV_PATH.open(encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle)
+        for row in reader:
+            intervention = {
+                "intervention_id": row["intervention_id"],
+                "seance_id": row["seance_id"],
+                "ordre": int(row["ordre"]),
+                "point_titre": row["point_titre"],
+                "sous_point_titre": row["sous_point_titre"],
+                "orateur_nom": row["orateur_nom"],
+                "orateur_qualite": row["orateur_qualite"],
+                "code_grammaire": row["code_grammaire"],
+                "roledebat": row["roledebat"],
+                "texte": row["texte"],
+                "nb_mots": int(row["nb_mots"]),
+                "nb_caracteres": int(row["nb_caracteres"]),
+                "signal_intensity": signal_intensity_from_row(row),
+            }
+            interventions.append(intervention)
+
+    interventions.sort(key=lambda item: (item["ordre"], item["intervention_id"]))
+    return interventions
+
+
+def write_d3_json(interventions: list[dict[str, object]]) -> None:
+    EXPORTS_D3_DIR.mkdir(parents=True, exist_ok=True)
+    JSON_PATH.write_text(
+        json.dumps(interventions, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
 def main() -> None:
     INTERIM_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -208,12 +249,15 @@ def main() -> None:
 
     rows = parse_pilot()
     write_csv(rows)
+    d3_interventions = build_d3_json_from_csv()
+    write_d3_json(d3_interventions)
 
     print(f"Manifest écrit : {MANIFEST_PATH.relative_to(ROOT_DIR)} ({len(manifest['files'])} fichiers)")
     print(f"CSV écrit : {CSV_PATH.relative_to(ROOT_DIR)} ({len(rows)} lignes)")
+    print(f"JSON écrit : {JSON_PATH.relative_to(ROOT_DIR)} ({len(d3_interventions)} objets)")
     print("Aperçu :")
-    for row in rows[:5]:
-        preview = asdict(row)
+    for row in d3_interventions[:5]:
+        preview = dict(row)
         preview["texte"] = preview["texte"][:120]
         print(json.dumps(preview, ensure_ascii=False))
 
