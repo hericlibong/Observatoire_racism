@@ -16,14 +16,14 @@
 
 ## Phase B - stabiliser la methode
 
-- [ ] Lister les regles de detection utilisees.
-- [ ] Lister les champs conserves pour la suite.
+- [x] Lister les regles de detection utilisees.
+- [x] Lister les champs conserves pour la suite.
 - [ ] Verifier un echantillon de passages signales.
 - [ ] Noter les faux positifs visibles.
 - [ ] Noter les faux negatifs visibles.
 - [ ] Noter les cas ambigus.
 - [ ] Ajuster les regles trop bruyantes.
-- [ ] Fixer le format minimal de sortie.
+- [x] Fixer le format minimal de sortie.
 - [ ] Documenter les limites de la methode.
 
 ## Phase C - etendre au corpus local Assemblee
@@ -49,16 +49,16 @@
 - [ ] Tester la collecte sur un petit volume.
 - [ ] Documenter la commande de collecte.
 
-## Phase E - ajouter la couche contextuelle
+## Phase E - articuler signaux et contextualisation
 
-- [ ] Ajouter les informations de seance utiles a la relecture.
-- [ ] Ajouter les informations de point de debat utiles a la relecture.
-- [ ] Ajouter les references source disponibles.
-- [ ] Ajouter le contexte avant et apres intervention si disponible.
-- [ ] Adapter le JSON D3 pour porter ces champs.
-- [ ] Adapter la timeline D3 pour afficher le contexte de lecture.
-- [ ] Verifier que le contexte reste lisible.
-- [ ] Verifier que la timeline ne transforme pas le signal en verdict.
+- [ ] Relire les sorties contextualisees du fichier pilote.
+- [ ] Verifier la coherence entre signaux rule-based et decisions contextualisees.
+- [ ] Identifier quelques cas representatifs par famille de signal.
+- [ ] Identifier les faux positifs et cas ambigus utiles a la stabilisation.
+- [ ] Decider quels champs contextualises doivent etre ajoutes au JSON D3.
+- [ ] Adapter la timeline D3 avec les champs contextualises retenus.
+- [ ] Verifier que la visualisation reste lisible.
+- [ ] Verifier que la visualisation ne presente pas la contextualisation comme un verdict.
 
 ## Remis a plus tard
 

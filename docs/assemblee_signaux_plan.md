@@ -2,9 +2,9 @@
 
 ## Objectif immediat
 
-Enrichir le fichier pilote Assemblee avec des signaux candidats relisibles, puis les afficher dans une timeline D3 enrichie.
+Piloter la detection, la stabilisation et la visualisation des signaux candidats Assemblee.
 
-Le but de cette sequence est de produire un premier cadrage robuste sur un seul fichier avant d'etendre au corpus local.
+Le fichier pilote reste le point d'appui. La contextualisation existe dans une brique separee et n'est pas documentee ici.
 
 ## Definition de signal candidat
 
@@ -16,7 +16,19 @@ Il sert a orienter le controle humain, pas a produire un jugement.
 
 - Source Assemblee : XML Syceron locaux de l'Assemblee nationale.
 - Fichier pilote : `CRSANR5L17S2026O1N191.xml`.
-- Timeline D3 : visualisation intra-seance ordonnee par intervention.
+- Export enrichi : `data/interim/assemblee/interventions_test.csv`.
+- JSON D3 : `data/exports/d3/assemblee_pilot_timeline.json`.
+- Timeline D3 : `data/exports/d3/assemblee_pilot_timeline.html`.
+- Tableau de revue : `data/interim/assemblee/signals_review_pilot.csv`.
+
+Hors perimetre de ce plan :
+
+- contrats internes de contextualisation ;
+- providers mock ou Mistral ;
+- prompt provider ;
+- orchestration agentique.
+
+Ces points sont suivis dans les documents `assemblee_contextualization_*`.
 
 ## Phases de travail
 
@@ -25,27 +37,31 @@ Il sert a orienter le controle humain, pas a produire un jugement.
 Objectif :
 
 - ajouter des champs de signaux candidats au fichier pilote deja extrait ;
-- garder une sortie lisible et controlable.
+- garder une sortie lisible et controlable ;
+- alimenter la timeline D3 pilote.
 
 Livrables :
 
 - export tabulaire pilote enrichi ;
 - JSON D3 enrichi ;
-- timeline D3 affichant les signaux candidats sans jugement automatique.
+- timeline D3 affichant les signaux candidats sans jugement automatique ;
+- tableau de revue humaine des signaux du fichier pilote.
 
 ### Phase B - stabiliser la methode
 
 Objectif :
 
-- verifier les champs utiles ;
-- clarifier les regles de detection ;
-- documenter les limites.
+- consolider les regles rule-based ;
+- verifier les faux positifs, faux negatifs et cas ambigus ;
+- documenter les limites de la detection.
 
 Livrables :
 
 - liste des champs conserves ;
 - liste des regles de detection retenues ;
-- notes sur les faux positifs, faux negatifs et cas ambigus.
+- format minimal de sortie stabilise ;
+- notes sur les faux positifs, faux negatifs et cas ambigus ;
+- limites de methode documentees.
 
 ### Phase C - etendre au corpus local Assemblee
 
@@ -73,18 +89,22 @@ Livrables :
 - regle de nommage et de rangement ;
 - journal minimal des fichiers recuperes.
 
-### Phase E - ajouter la couche contextuelle
+### Phase E - articuler signaux et contextualisation
 
 Objectif :
 
-- ajouter les informations utiles pour relire les signaux dans leur contexte ;
-- ne pas transformer le signal candidat en score moral.
+- exploiter les sorties contextualisees sans dupliquer la brique de contextualisation ;
+- comparer les signaux rule-based aux decisions contextualisees ;
+- preparer une reinjection utile dans D3 ;
+- eviter tout rendu interpretable comme un verdict.
 
 Livrables :
 
-- contexte de seance et de point de debat ;
-- liens ou references source si disponibles ;
-- affichage D3 enrichi avec contexte de lecture.
+- synthese des cas representatifs ;
+- liste des faux positifs et cas ambigus utiles a la stabilisation ;
+- choix des champs contextualises a ajouter au JSON D3 ;
+- timeline D3 enrichie avec les champs retenus ;
+- verification de lisibilite et de prudence du rendu.
 
 ## Remis a plus tard
 
