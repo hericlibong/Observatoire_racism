@@ -18,13 +18,14 @@
 
 - [x] Lister les regles de detection utilisees.
 - [x] Lister les champs conserves pour la suite.
-- [ ] Verifier un echantillon de passages signales.
-- [ ] Noter les faux positifs visibles.
+- [x] Verifier un echantillon de passages signales.
+- [x] Noter les faux positifs visibles.
 - [ ] Noter les faux negatifs visibles.
-- [ ] Noter les cas ambigus.
+- [x] Noter les cas ambigus.
 - [ ] Ajuster les regles trop bruyantes.
 - [x] Fixer le format minimal de sortie.
 - [ ] Documenter les limites de la methode.
+- [x] Produire un tableau comparatif signaux rule-based / contextualisation.
 
 ## Phase C - etendre au corpus local Assemblee
 
