@@ -3,6 +3,7 @@ from __future__ import annotations
 import csv
 import json
 import re
+import unicodedata
 from dataclasses import asdict, dataclass
 from datetime import datetime
 from pathlib import Path
@@ -35,6 +36,53 @@ CSV_FIELDS = [
     "texte",
     "nb_mots",
     "nb_caracteres",
+    "signal_candidate",
+    "signal_family",
+    "signal_trigger",
+    "signal_intensity",
+]
+
+
+@dataclass(frozen=True)
+class SignalRule:
+    family: str
+    trigger: str
+    intensity: int
+
+
+@dataclass(frozen=True)
+class SignalHit:
+    signal_candidate: bool
+    signal_family: str
+    signal_trigger: str
+    signal_intensity: int
+
+
+SIGNAL_RULES = [
+    SignalRule("devalorisation", "honteuse", 2),
+    SignalRule("devalorisation", "une honte", 2),
+    SignalRule("devalorisation", "propos deshonorants", 2),
+    SignalRule("devalorisation", "inadmissibles", 2),
+    SignalRule("devalorisation", "irresponsable", 2),
+    SignalRule("devalorisation", "inacceptable", 2),
+    SignalRule("devalorisation", "mepris", 2),
+    SignalRule("devalorisation", "trahir", 2),
+    SignalRule("tension_politique", "passage en force", 2),
+    SignalRule("tension_politique", "ligne rouge", 2),
+    SignalRule("tension_politique", "chaos", 2),
+    SignalRule("tension_politique", "colere", 2),
+    SignalRule("tension_politique", "violences", 2),
+    SignalRule("tension_politique", "obstruction", 2),
+    SignalRule("designation_groupe", "anti-independantistes", 2),
+    SignalRule("designation_groupe", "puissance colonisatrice", 2),
+    SignalRule("designation_groupe", "independantistes", 1),
+    SignalRule("designation_groupe", "non-independantistes", 1),
+    SignalRule("designation_groupe", "peuple kanak", 1),
+    SignalRule("designation_groupe", "identite kanak", 1),
+    SignalRule("designation_groupe", "communautes", 1),
+    SignalRule("designation_groupe", "loyalistes", 1),
+    SignalRule("designation_groupe", "kanaky", 1),
+    SignalRule("designation_groupe", "flnks", 1),
 ]
 
 
@@ -52,10 +100,32 @@ class InterventionRow:
     texte: str
     nb_mots: int
     nb_caracteres: int
+    signal_candidate: bool
+    signal_family: str
+    signal_trigger: str
+    signal_intensity: int
 
 
-def signal_intensity_from_row(row: dict[str, str]) -> int:
-    return 0
+def normalize_for_signal(value: str) -> str:
+    normalized = unicodedata.normalize("NFKD", value.casefold())
+    without_accents = "".join(char for char in normalized if not unicodedata.combining(char))
+    return re.sub(r"\s+", " ", without_accents.replace("’", "'")).strip()
+
+
+def signal_hit_from_text(text: str) -> SignalHit:
+    normalized = normalize_for_signal(text)
+    best_match: SignalRule | None = None
+
+    for rule in SIGNAL_RULES:
+        trigger = normalize_for_signal(rule.trigger)
+        if re.search(rf"(?<!\w){re.escape(trigger)}(?!\w)", normalized):
+            if best_match is None or rule.intensity > best_match.intensity:
+                best_match = rule
+
+    if best_match is None:
+        return SignalHit(False, "", "", 0)
+
+    return SignalHit(True, best_match.family, best_match.trigger, best_match.intensity)
 
 
 def normalize_text(value: str) -> str:
@@ -131,6 +201,7 @@ def iter_paragraphs(
             texte = paragraph_text(child)
             if not texte:
                 continue
+            signal_hit = signal_hit_from_text(texte)
             orateur_nom, orateur_qualite = first_orateur(child)
             ordre_raw = child.attrib.get("ordre_absolu_seance", "0")
             try:
@@ -150,6 +221,10 @@ def iter_paragraphs(
                 texte=texte,
                 nb_mots=len(texte.split()),
                 nb_caracteres=len(texte),
+                signal_candidate=signal_hit.signal_candidate,
+                signal_family=signal_hit.signal_family,
+                signal_trigger=signal_hit.signal_trigger,
+                signal_intensity=signal_hit.signal_intensity,
             )
         elif child_tag in {"point", "ouvertureSeance", "finSeance", "interExtraction"}:
             yield from iter_paragraphs(child, compte_rendu_uid, point_titre, sous_point_titre)
@@ -222,7 +297,10 @@ def build_d3_json_from_csv() -> list[dict[str, object]]:
                 "texte": row["texte"],
                 "nb_mots": int(row["nb_mots"]),
                 "nb_caracteres": int(row["nb_caracteres"]),
-                "signal_intensity": signal_intensity_from_row(row),
+                "signal_candidate": row["signal_candidate"] == "True",
+                "signal_family": row["signal_family"],
+                "signal_trigger": row["signal_trigger"],
+                "signal_intensity": int(row["signal_intensity"]),
             }
             interventions.append(intervention)
 
@@ -257,8 +335,8 @@ def main() -> None:
     print(f"Manifest écrit : {MANIFEST_PATH.relative_to(ROOT_DIR)} ({len(manifest['files'])} fichiers)")
     print(f"CSV écrit : {CSV_PATH.relative_to(ROOT_DIR)} ({len(rows)} lignes)")
     print(f"JSON écrit : {JSON_PATH.relative_to(ROOT_DIR)} ({len(d3_interventions)} objets)")
-    print("Aperçu :")
-    for row in d3_interventions[:5]:
+    print("Aperçu signaux candidats :")
+    for row in [item for item in d3_interventions if item["signal_candidate"]][:5]:
         preview = dict(row)
         preview["texte"] = preview["texte"][:120]
         print(json.dumps(preview, ensure_ascii=False))
