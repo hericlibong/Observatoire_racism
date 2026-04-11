@@ -44,6 +44,8 @@
 ## Run pilote Mistral
 
 - [x] Documenter les variables `MISTRAL_API_KEY` et `MISTRAL_MODEL`.
+- [x] Ajouter `.env.example` sans secret.
+- [x] Ajouter le chargement local de `.env`.
 - [x] Lancer le runner pilote avec le provider Mistral.
 - [x] Produire `contextual_reviews_pilot.jsonl` au format JSONL.
 - [x] Verifier le nombre de sorties produites.

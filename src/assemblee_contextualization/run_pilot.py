@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 
 from .context_builder import load_interventions_csv
+from .env import load_dotenv
 from .mistral_provider import MistralContextualReviewProvider
 from .mock_provider import MockContextualReviewProvider
 from .reviewer import ContextualReviewer
@@ -17,6 +18,8 @@ PILOT_SOURCE_FILE = "CRSANR5L17S2026O1N191.xml"
 
 
 def main() -> None:
+    load_dotenv()
+
     parser = argparse.ArgumentParser(description="Run Assemblee contextual review on the pilot file.")
     parser.add_argument("--provider", choices=["mock", "mistral"], default="mock")
     parser.add_argument("--input", type=Path, default=INTERVENTIONS_PATH)

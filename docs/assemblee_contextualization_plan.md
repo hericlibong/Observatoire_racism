@@ -34,6 +34,9 @@ Variables attendues pour un appel reel :
 
 Si `MISTRAL_MODEL` est absent, le provider utilise `mistral-medium-latest`.
 
+Le projet peut lire ces variables depuis un fichier `.env` local non versionne.
+Le fichier `.env.example` sert de modele sans secret.
+
 ## Role de l'agent contextualisateur
 
 - relire le passage candidat dans son contexte local ;

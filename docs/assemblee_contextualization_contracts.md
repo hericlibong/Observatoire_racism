@@ -111,6 +111,12 @@ Variables d'environnement :
 - `MISTRAL_API_KEY` : cle API Mistral.
 - `MISTRAL_MODEL` : modele a utiliser.
 
+Chargement local :
+
+- `.env` : fichier local non versionne, peut contenir les valeurs reelles.
+- `.env.example` : modele versionne, sans secret.
+- Les variables deja presentes dans `os.environ` gardent la priorite sur `.env`.
+
 Valeur par defaut si `MISTRAL_MODEL` est absent :
 
 - `mistral-medium-latest`
@@ -120,6 +126,8 @@ Commande de run pilote :
 ```bash
 python -m src.assemblee_contextualization.run_pilot --provider mistral
 ```
+
+Avec un `.env` local renseigne, il n'est pas necessaire d'exporter les variables a chaque lancement.
 
 Sortie :
 

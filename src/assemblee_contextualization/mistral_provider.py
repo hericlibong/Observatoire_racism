@@ -5,6 +5,7 @@ import os
 from typing import Any
 
 from .contracts import validate_review_output
+from .env import load_dotenv
 from .providers import ContextualReviewProvider
 
 
@@ -48,6 +49,7 @@ class MistralContextualReviewProvider(ContextualReviewProvider):
         model: str | None = None,
         client: Any | None = None,
     ) -> None:
+        load_dotenv()
         self.api_key = api_key if api_key is not None else os.environ.get("MISTRAL_API_KEY", "")
         self.model = model or os.environ.get("MISTRAL_MODEL", DEFAULT_MISTRAL_MODEL)
         self.client = client
@@ -134,4 +136,3 @@ class MistralContextualReviewProvider(ContextualReviewProvider):
             "model_name": self.model,
         }
         return validate_review_output(fallback).to_dict()
-
