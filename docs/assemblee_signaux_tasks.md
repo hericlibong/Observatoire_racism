@@ -2,16 +2,17 @@
 
 ## Phase A - enrichir le fichier pilote
 
-- [ ] Relire la structure actuelle de l'export pilote.
-- [ ] Identifier les champs deja disponibles pour chaque intervention.
-- [ ] Ajouter un champ de presence de signal candidat.
-- [ ] Ajouter un champ de type ou famille de signal candidat.
-- [ ] Ajouter un champ de justification courte du signal.
-- [ ] Ajouter un champ de niveau d'intensite visuelle pour D3.
-- [ ] Produire un export tabulaire pilote enrichi.
-- [ ] Produire un JSON D3 pilote enrichi.
-- [ ] Adapter la timeline D3 pour afficher les signaux candidats.
-- [ ] Verifier que l'affichage ne presente pas le signal comme un jugement.
+- [x] Relire la structure actuelle de l'export pilote.
+- [x] Identifier les champs deja disponibles pour chaque intervention.
+- [x] Ajouter un champ de presence de signal candidat.
+- [x] Ajouter un champ de type ou famille de signal candidat.
+- [x] Ajouter un champ de justification courte du signal.
+- [x] Ajouter un champ de niveau d'intensite visuelle pour D3.
+- [x] Produire un export tabulaire pilote enrichi.
+- [x] Produire un JSON D3 pilote enrichi.
+- [x] Adapter la timeline D3 pour afficher les signaux candidats.
+- [x] Verifier que l'affichage ne presente pas le signal comme un jugement.
+- [x] Produire un tableau de revue humaine des signaux du fichier pilote.
 
 ## Phase B - stabiliser la methode
 
