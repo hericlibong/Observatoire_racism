@@ -88,6 +88,73 @@ class MistralProviderTest(unittest.TestCase):
         self.assertEqual(output["model_name"], "test-model")
         self.assertEqual(client.chat.last_kwargs["response_format"], {"type": "json_object"})
 
+    def test_string_limits_are_normalized_before_validation(self) -> None:
+        client = FakeClient(
+            json.dumps(
+                {
+                    "candidate_id": "c1",
+                    "decision": "validated_signal",
+                    "needs_human_review": True,
+                    "confidence": "high",
+                    "rationale": "Signal pertinent dans le contexte local.",
+                    "evidence_span": "Texte cible",
+                    "limits": "Analyse limitee au contexte local.",
+                    "model_provider": "ignored",
+                    "model_name": "ignored",
+                }
+            )
+        )
+        provider = MistralContextualReviewProvider(api_key="test-key", model="test-model", client=client)
+
+        output = provider.review(payload())
+
+        self.assertEqual(output["decision"], "validated_signal")
+        self.assertEqual(output["limits"], ["Analyse limitee au contexte local."])
+
+    def test_mixed_limits_are_normalized_before_validation(self) -> None:
+        client = FakeClient(
+            json.dumps(
+                {
+                    "candidate_id": "c1",
+                    "decision": "false_positive",
+                    "needs_human_review": False,
+                    "confidence": "medium",
+                    "rationale": "Faux positif clair.",
+                    "evidence_span": "Texte cible",
+                    "limits": ["Contexte local.", 123],
+                    "model_provider": "ignored",
+                    "model_name": "ignored",
+                }
+            )
+        )
+        provider = MistralContextualReviewProvider(api_key="test-key", model="test-model", client=client)
+
+        output = provider.review(payload())
+
+        self.assertEqual(output["limits"], ["Contexte local.", "123"])
+
+    def test_candidate_id_is_forced_from_payload(self) -> None:
+        client = FakeClient(
+            json.dumps(
+                {
+                    "candidate_id": "wrong-id",
+                    "decision": "false_positive",
+                    "needs_human_review": False,
+                    "confidence": "medium",
+                    "rationale": "Faux positif clair.",
+                    "evidence_span": "Texte cible",
+                    "limits": ["Contexte local."],
+                    "model_provider": "ignored",
+                    "model_name": "ignored",
+                }
+            )
+        )
+        provider = MistralContextualReviewProvider(api_key="test-key", model="test-model", client=client)
+
+        output = provider.review(payload())
+
+        self.assertEqual(output["candidate_id"], "c1")
+
     def test_missing_api_key_uses_safe_fallback(self) -> None:
         provider = MistralContextualReviewProvider(api_key="", model="test-model")
 

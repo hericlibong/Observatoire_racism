@@ -31,10 +31,24 @@ Contraintes:
 - validated_signal implique needs_human_review=true en v0.
 - false_positive peut avoir needs_human_review=false si le cas est clair.
 - evidence_span doit etre un court extrait du texte utilise pour la decision.
+- limits doit etre une liste de chaines, meme s'il n'y a qu'une seule limite.
 - limits doit mentionner les limites utiles, dont l'absence de recherche web.
 
 Retourne uniquement un objet JSON avec ces champs:
 candidate_id, decision, needs_human_review, confidence, rationale, evidence_span, limits, model_provider, model_name.
+
+Exemple de forme attendue:
+{{
+  "candidate_id": "exemple",
+  "decision": "ambiguous",
+  "needs_human_review": true,
+  "confidence": "low",
+  "rationale": "Le contexte local ne permet pas de trancher clairement.",
+  "evidence_span": "court extrait utilise",
+  "limits": ["Analyse limitee au contexte local.", "Aucune recherche web effectuee."],
+  "model_provider": "mistral",
+  "model_name": "{model_name}"
+}}
 
 Payload:
 {payload_json}
@@ -61,9 +75,10 @@ class MistralContextualReviewProvider(ContextualReviewProvider):
                 return self._fallback(payload, "MISTRAL_API_KEY absent.")
             raw_output = self._call_mistral(payload)
             parsed = json.loads(raw_output)
-            parsed["candidate_id"] = str(parsed.get("candidate_id") or payload["candidate_id"])
+            parsed["candidate_id"] = str(payload["candidate_id"])
             parsed["model_provider"] = "mistral"
             parsed["model_name"] = self.model
+            parsed = self._normalize_review_payload(parsed)
             return validate_review_output(parsed).to_dict()
         except (json.JSONDecodeError, ValueError, TypeError, KeyError, AttributeError) as exc:
             return self._fallback(payload, f"Sortie Mistral invalide ou non conforme : {exc}")
@@ -79,7 +94,8 @@ class MistralContextualReviewProvider(ContextualReviewProvider):
                 {
                     "role": "user",
                     "content": USER_PROMPT_TEMPLATE.format(
-                        payload_json=json.dumps(payload, ensure_ascii=False, indent=2)
+                        payload_json=json.dumps(payload, ensure_ascii=False, indent=2),
+                        model_name=self.model,
                     ),
                 },
             ],
@@ -115,6 +131,18 @@ class MistralContextualReviewProvider(ContextualReviewProvider):
         missing_target = required_target - target.keys()
         if missing_target:
             raise ValueError(f"target incomplet : {sorted(missing_target)}")
+
+    @staticmethod
+    def _normalize_review_payload(payload: dict[str, Any]) -> dict[str, Any]:
+        normalized = dict(payload)
+        limits = normalized.get("limits", [])
+        if isinstance(limits, str):
+            normalized["limits"] = [limits]
+        elif isinstance(limits, list):
+            normalized["limits"] = [str(item) for item in limits]
+        else:
+            normalized["limits"] = [str(limits)]
+        return normalized
 
     def _fallback(self, payload: dict[str, Any], rationale: str) -> dict[str, Any]:
         candidate_id = str(payload.get("candidate_id", "unknown"))
