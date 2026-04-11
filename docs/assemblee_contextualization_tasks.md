@@ -28,11 +28,15 @@
 - [x] Tester le provider mock.
 - [x] Tester les decisions minimales du reviewer.
 
+## Run pilote mock
+
+- [x] Lancer une revue agentique mock du fichier pilote.
+- [x] Produire `contextual_reviews_pilot.jsonl`.
+- [x] Verifier le nombre de sorties produites.
+
 ## Remis a plus tard
 
 - [ ] Brancher un provider LLM reel.
 - [ ] Ecrire le prompt final.
-- [ ] Lancer une revue agentique complete du fichier pilote.
-- [ ] Produire `contextual_reviews_pilot.jsonl`.
 - [ ] Ajouter une interface de revue humaine.
 - [ ] Reinjecter la revue agentique dans D3.

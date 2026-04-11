@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Carte visuelle OBSERVATOIRE</title>
+  <desc id="desc">Workflow du projet OBSERVATOIRE, de la source Assemblee aux exports, a la contextualisation agentique et a la revue humaine.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f7f5; }
+      .title { fill: #222; font: 700 34px Arial, sans-serif; }
+      .subtitle { fill: #555; font: 400 16px Arial, sans-serif; }
+      .section-title { fill: #222; font: 700 18px Arial, sans-serif; }
+      .label { fill: #252525; font: 600 15px Arial, sans-serif; }
+      .small { fill: #555; font: 400 13px Arial, sans-serif; }
+      .note { fill: #555; font: 400 12px Arial, sans-serif; }
+      .box { fill: #fff; stroke: #d3d3cb; stroke-width: 2; rx: 8; }
+      .source { fill: #e9f2ef; stroke: #9bb9ad; }
+      .pipeline { fill: #eef1f7; stroke: #aab5cc; }
+      .review { fill: #f4f0e8; stroke: #c9b987; }
+      .agent { fill: #f0edf6; stroke: #b4a7c8; }
+      .guard { fill: #f6eeee; stroke: #c7a0a0; }
+      .arrow { fill: none; stroke: #777; stroke-width: 2.5; marker-end: url(#arrowhead); }
+      .soft-arrow { fill: none; stroke: #aaa; stroke-width: 2; stroke-dasharray: 7 6; marker-end: url(#arrowhead-soft); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#777" />
+    </marker>
+    <marker id="arrowhead-soft" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#aaa" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1400" height="900" />
+
+  <text class="title" x="60" y="62">OBSERVATOIRE - carte visuelle du workflow</text>
+  <text class="subtitle" x="60" y="92">Pipeline Assemblee pilote, signaux candidats, contextualisation agentique et revue humaine.</text>
+
+  <rect class="box source" x="60" y="150" width="250" height="160" />
+  <text class="section-title" x="88" y="185">Source Assemblee</text>
+  <text class="label" x="88" y="225">XML Syceron locaux</text>
+  <text class="small" x="88" y="252">Fichier pilote</text>
+  <text class="small" x="88" y="278">CRSANR5L17S2026O1N191.xml</text>
+
+  <rect class="box pipeline" x="390" y="130" width="290" height="210" />
+  <text class="section-title" x="420" y="165">Pipeline deterministe</text>
+  <text class="label" x="420" y="205">Parsing XML</text>
+  <text class="small" x="420" y="232">1 ligne = 1 intervention</text>
+  <text class="label" x="420" y="270">Export enrichi</text>
+  <text class="small" x="420" y="297">interventions_test.csv</text>
+
+  <rect class="box pipeline" x="760" y="130" width="270" height="210" />
+  <text class="section-title" x="790" y="165">Signaux candidats</text>
+  <text class="label" x="790" y="205">Detection rule-based</text>
+  <text class="small" x="790" y="232">signal_candidate</text>
+  <text class="small" x="790" y="255">signal_family</text>
+  <text class="small" x="790" y="278">signal_trigger</text>
+  <text class="small" x="790" y="301">signal_intensity</text>
+
+  <rect class="box pipeline" x="1110" y="130" width="230" height="210" />
+  <text class="section-title" x="1140" y="165">Exports D3</text>
+  <text class="label" x="1140" y="205">Timeline pilote</text>
+  <text class="small" x="1140" y="232">assemblee_pilot_timeline.json</text>
+  <text class="small" x="1140" y="255">assemblee_pilot_timeline.html</text>
+  <text class="note" x="1140" y="295">Visualisation, pas validation</text>
+
+  <rect class="box agent" x="390" y="450" width="290" height="230" />
+  <text class="section-title" x="420" y="485">Context builder</text>
+  <text class="label" x="420" y="525">Construit le contexte local</text>
+  <text class="small" x="420" y="555">paragraphe cible</text>
+  <text class="small" x="420" y="578">voisinage avant / apres</text>
+  <text class="small" x="420" y="601">point_titre</text>
+  <text class="small" x="420" y="624">sous_point_titre</text>
+  <text class="note" x="420" y="655">Source : interventions enrichies</text>
+
+  <rect class="box agent" x="760" y="450" width="270" height="230" />
+  <text class="section-title" x="790" y="485">Reviewer agentique</text>
+  <text class="label" x="790" y="525">Provider-agnostic</text>
+  <text class="small" x="790" y="555">interface provider</text>
+  <text class="small" x="790" y="578">mock provider v0</text>
+  <text class="small" x="790" y="601">validation JSON stricte</text>
+  <text class="note" x="790" y="655">Pas d'API reelle en v0</text>
+
+  <rect class="box review" x="1110" y="450" width="230" height="230" />
+  <text class="section-title" x="1140" y="485">Sorties de revue</text>
+  <text class="label" x="1140" y="525">Agentique</text>
+  <text class="small" x="1140" y="552">contextual_reviews_pilot.jsonl</text>
+  <text class="label" x="1140" y="592">Humaine</text>
+  <text class="small" x="1140" y="619">signals_review_pilot.csv</text>
+  <text class="small" x="1140" y="642">review_status</text>
+  <text class="small" x="1140" y="665">review_note</text>
+
+  <rect class="box guard" x="60" y="500" width="250" height="180" />
+  <text class="section-title" x="88" y="535">Garde-fous</text>
+  <text class="small" x="88" y="575">Pas de verdict moral automatique</text>
+  <text class="small" x="88" y="603">Pas de recherche web par defaut</text>
+  <text class="small" x="88" y="631">Pas de refonte du pipeline</text>
+  <text class="small" x="88" y="659">Validation humaine avant usage</text>
+
+  <path class="arrow" d="M310 230 L390 230" />
+  <path class="arrow" d="M680 230 L760 230" />
+  <path class="arrow" d="M1030 230 L1110 230" />
+
+  <path class="arrow" d="M895 340 C895 390 535 390 535 450" />
+  <path class="arrow" d="M680 565 L760 565" />
+  <path class="arrow" d="M1030 565 L1110 565" />
+
+  <path class="soft-arrow" d="M1225 450 C1225 390 1225 380 1225 340" />
+  <path class="soft-arrow" d="M310 590 L390 590" />
+
+  <text class="note" x="62" y="825">Lecture : les signaux rule-based alimentent deux usages distincts : visualisation D3 et contextualisation agentique. La revue humaine reste separee.</text>
+  <text class="note" x="62" y="852">Decision agentique : validated_signal, false_positive ou ambiguous. needs_human_review reste un booleen separe.</text>
+</svg>
