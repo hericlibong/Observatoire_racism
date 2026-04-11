@@ -20,6 +20,9 @@
 - [x] Ajouter un provider mock stable.
 - [x] Ajouter un reviewer minimal.
 - [x] Valider la sortie du provider.
+- [x] Ajouter un provider Mistral reel de test.
+- [x] Conserver le provider mock.
+- [x] Ajouter un runner pilote configurable.
 
 ## Tests
 
@@ -27,6 +30,10 @@
 - [x] Tester le context builder sur des interventions enrichies.
 - [x] Tester le provider mock.
 - [x] Tester les decisions minimales du reviewer.
+- [x] Tester le provider Mistral sans appel reseau.
+- [x] Tester le fallback si cle API absente.
+- [x] Tester le fallback si la reponse Mistral est invalide.
+- [x] Tester la validation minimale du payload Mistral.
 
 ## Run pilote mock
 
@@ -34,9 +41,15 @@
 - [x] Produire `contextual_reviews_pilot.jsonl`.
 - [x] Verifier le nombre de sorties produites.
 
+## Run pilote Mistral
+
+- [x] Documenter les variables `MISTRAL_API_KEY` et `MISTRAL_MODEL`.
+- [x] Lancer le runner pilote avec le provider Mistral.
+- [x] Produire `contextual_reviews_pilot.jsonl` au format JSONL.
+- [x] Verifier le nombre de sorties produites.
+
 ## Remis a plus tard
 
-- [ ] Brancher un provider LLM reel.
 - [ ] Ecrire le prompt final.
 - [ ] Ajouter une interface de revue humaine.
 - [ ] Reinjecter la revue agentique dans D3.

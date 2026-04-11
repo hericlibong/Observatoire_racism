@@ -101,3 +101,45 @@ JSON strict minimal :
 - Pas de provider LLM impose.
 - Pas de modification du parsing XML.
 - Pas de modification de la timeline D3 en v0.
+
+## Provider Mistral
+
+Mistral est le premier provider reel branche pour tester le workflow.
+
+Variables d'environnement :
+
+- `MISTRAL_API_KEY` : cle API Mistral.
+- `MISTRAL_MODEL` : modele a utiliser.
+
+Valeur par defaut si `MISTRAL_MODEL` est absent :
+
+- `mistral-medium-latest`
+
+Commande de run pilote :
+
+```bash
+python -m src.assemblee_contextualization.run_pilot --provider mistral
+```
+
+Sortie :
+
+- `data/interim/assemblee/contextual_reviews_pilot.jsonl`
+
+Politique de fallback :
+
+- cle API absente ;
+- erreur d'appel ;
+- sortie non parseable ;
+- sortie non conforme au contrat.
+
+Dans ces cas, la sortie reste conforme :
+
+```json
+{
+  "decision": "ambiguous",
+  "needs_human_review": true,
+  "confidence": "low"
+}
+```
+
+Le champ `rationale` doit expliquer l'echec.

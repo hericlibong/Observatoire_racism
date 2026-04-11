@@ -20,6 +20,20 @@ Sequence visee :
 
 La brique intervient apres la detection rule-based et avant validation ou publication.
 
+## Providers
+
+- Provider mock : conserve pour les tests et les runs sans API.
+- Provider Mistral : premier provider reel de test.
+
+Mistral est branche comme provider reel initial, sans devenir un choix definitif pour tout le projet.
+
+Variables attendues pour un appel reel :
+
+- `MISTRAL_API_KEY`
+- `MISTRAL_MODEL`
+
+Si `MISTRAL_MODEL` est absent, le provider utilise `mistral-medium-latest`.
+
 ## Role de l'agent contextualisateur
 
 - relire le passage candidat dans son contexte local ;
@@ -46,19 +60,32 @@ La brique intervient apres la detection rule-based et avant validation ou public
 - conclure qu'un passage est raciste, discriminatoire ou haineux ;
 - remplacer la revue humaine.
 
+## Politique de fallback
+
+En cas de cle absente, d'erreur d'appel, de JSON non parseable ou de sortie non conforme :
+
+- `decision = ambiguous`
+- `needs_human_review = true`
+- `confidence = low`
+- `rationale` explique l'echec
+- `limits` rappelle l'absence de recherche web
+
+Ce fallback reste une sortie sure, pas une analyse reelle.
+
 ## Livrables attendus
 
 - contrats d'entree et de sortie ;
 - context builder minimal ;
 - interface provider-agnostic ;
 - provider mock stable ;
+- provider Mistral de test ;
 - reviewer minimal ;
 - tests unitaires du squelette.
 
 ## Remis a plus tard
 
-- choix d'un provider LLM reel ;
-- prompt final ;
+- choix definitif du provider LLM ;
+- prompt final stabilise ;
 - batch complet sur corpus local ;
 - reinjection dans la timeline ;
 - scoring complexe ;
