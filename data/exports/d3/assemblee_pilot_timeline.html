@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assemblee Pilot Timeline</title>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f7f5;
+        --panel: #ffffff;
+        --ink: #222222;
+        --muted: #666666;
+        --line: #d7d7d2;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background: var(--bg);
+        color: var(--ink);
+      }
+
+      main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 32px 20px 40px;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: 28px;
+        font-weight: 600;
+      }
+
+      p {
+        margin: 0 0 18px;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+      .meta {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+        margin: 0 0 18px;
+      }
+
+      .meta-card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 10px 12px;
+      }
+
+      .meta-label {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      .meta-value {
+        font-size: 15px;
+        font-weight: 600;
+      }
+
+      .chart-wrap {
+        position: relative;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 16px 16px 28px;
+        overflow-x: auto;
+      }
+
+      svg {
+        display: block;
+      }
+
+      .axis path,
+      .axis line {
+        stroke: var(--line);
+      }
+
+      .axis text {
+        fill: var(--muted);
+        font-size: 12px;
+      }
+
+      .tooltip {
+        position: absolute;
+        pointer-events: none;
+        min-width: 240px;
+        max-width: 340px;
+        background: rgba(255, 255, 255, 0.98);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        padding: 12px 14px;
+        font-size: 13px;
+        line-height: 1.45;
+        opacity: 0;
+      }
+
+      .tooltip strong {
+        display: block;
+        margin-bottom: 4px;
+      }
+
+      .legend {
+        margin-top: 14px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      .axis-label {
+        margin-top: 12px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Timeline intra-seance</h1>
+      <p>
+        Prototype D3 minimal. Une marque = une intervention. L’axe horizontal suit
+        <code>display_order</code>. La couleur suit <code>signal_intensity</code>.
+      </p>
+
+      <section class="meta" id="meta"></section>
+
+      <div class="chart-wrap">
+        <div class="tooltip" id="tooltip"></div>
+        <svg id="chart" width="1160" height="550" aria-label="Timeline intra-seance"></svg>
+        <div class="axis-label" id="axis-label"></div>
+      </div>
+
+      <div class="legend">
+        Palette neutre. Le gris plus dense correspond a une intensite plus forte.
+      </div>
+    </main>
+
+    <script>
+      const jsonPath = "./assemblee_pilot_timeline.json";
+
+      const shortText = (value, max = 180) =>
+        value.length <= max ? value : `${value.slice(0, max).trim()}…`;
+
+      const axisMode = "display_order";
+
+      const axisConfig = {
+        ordre: {
+          field: "ordre",
+          label: "Axe horizontal : ordre reel dans la seance",
+        },
+        display_order: {
+          field: "display_order",
+          label: "Axe horizontal : index dense des interventions triees, sans trous techniques",
+        },
+      };
+
+      const colorForSignal = d3
+        .scaleLinear()
+        .domain([0, 1, 2])
+        .range(["#cfd4d0", "#8c948d", "#3d4a43"]);
+
+      d3.json(jsonPath).then((rawData) => {
+        const data = rawData
+          .map((d) => ({
+            ...d,
+            ordre: Number(d.ordre),
+            display_order: Number(d.display_order),
+            signal_candidate: Boolean(d.signal_candidate),
+            signal_family: d.signal_family || "",
+            signal_trigger: d.signal_trigger || "",
+            signal_intensity: Number(d.signal_intensity ?? 0),
+          }))
+          .sort((a, b) => d3.ascending(a.ordre, b.ordre));
+
+        const svg = d3.select("#chart");
+        const tooltip = d3.select("#tooltip");
+        const meta = d3.select("#meta");
+        const axisLabel = d3.select("#axis-label");
+
+        const width = 1160;
+        const height = 420;
+        const margin = { top: 24, right: 24, bottom: 56, left: 24 };
+        const chartWidth = width - margin.left - margin.right;
+        const barY = 160;
+        const barHeight = 44;
+        const activeAxis = axisConfig[axisMode];
+        const axisField = activeAxis.field;
+        const seanceId = data[0]?.seance_id ?? "";
+        const ordreMin = d3.min(data, (d) => d.ordre);
+        const signalCount = data.filter((d) => d.signal_candidate).length;
+
+        meta.html(`
+          <div class="meta-card">
+            <span class="meta-label">seance_id</span>
+            <span class="meta-value">${seanceId}</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-label">Interventions</span>
+            <span class="meta-value">${data.length}</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-label">Ordre min</span>
+            <span class="meta-value">${ordreMin}</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-label">Signaux candidats</span>
+            <span class="meta-value">${signalCount}</span>
+          </div>
+        `);
+
+        axisLabel.text(activeAxis.label);
+
+        const x = d3
+          .scaleLinear()
+          .domain(d3.extent(data, (d) => d[axisField]))
+          .range([margin.left, width - margin.right]);
+
+        const axis = d3
+          .axisBottom(x)
+          .ticks(12)
+          .tickFormat(d3.format("d"));
+
+        svg
+          .append("g")
+          .attr("class", "axis")
+          .attr("transform", `translate(0, ${barY + barHeight + 24})`)
+          .call(axis);
+
+        svg
+          .append("line")
+          .attr("x1", margin.left)
+          .attr("x2", width - margin.right)
+          .attr("y1", barY + barHeight / 2)
+          .attr("y2", barY + barHeight / 2)
+          .attr("stroke", "#d7d7d2")
+          .attr("stroke-width", 1);
+
+        svg
+          .append("text")
+          .attr("x", margin.left)
+          .attr("y", 28)
+          .attr("fill", "#666666")
+          .attr("font-size", 13)
+          .text(`Interventions: ${data.length}`);
+
+        const defaultBarWidth = Math.max(chartWidth / data.length - 1, 3);
+
+        svg
+          .append("g")
+          .selectAll("rect")
+          .data(data)
+          .join("rect")
+          .attr("x", (d) => x(d[axisField]) - defaultBarWidth / 2)
+          .attr("y", barY)
+          .attr("width", defaultBarWidth)
+          .attr("height", barHeight)
+          .attr("rx", 2)
+          .attr("fill", (d) => colorForSignal(Math.max(0, Math.min(2, d.signal_intensity))))
+          .attr("stroke", "#ffffff")
+          .attr("stroke-width", 0.7)
+          .on("mouseenter", function (event, d) {
+            d3.select(this).attr("fill", "#2f3a34");
+            tooltip
+              .style("opacity", 1)
+              .html(`
+                <strong>Ordre ${d.ordre}</strong>
+                <div><strong>Orateur</strong> ${d.orateur_nom || "Non renseigne"}</div>
+                <div><strong>Point</strong> ${d.point_titre || "Non renseigne"}</div>
+                <div><strong>Signal candidat</strong> ${d.signal_candidate ? "oui" : "non"}</div>
+                <div><strong>Famille</strong> ${d.signal_family || "Aucune"}</div>
+                <div><strong>Declencheur</strong> ${d.signal_trigger || "Aucun"}</div>
+                <div><strong>Intensite</strong> ${d.signal_intensity}</div>
+                <div><strong>Texte</strong> ${shortText(d.texte || "")}</div>
+              `);
+          })
+          .on("mousemove", function (event) {
+            tooltip
+              .style("left", `${event.offsetX + 18}px`)
+              .style("top", `${event.offsetY + 18}px`);
+          })
+          .on("mouseleave", function (event, d) {
+            d3.select(this).attr(
+              "fill",
+              colorForSignal(Math.max(0, Math.min(2, d.signal_intensity)))
+            );
+            tooltip.style("opacity", 0);
+          });
+      });
+    </script>
+  </body>
+</html>

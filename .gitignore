@@ -30,7 +30,15 @@ build/
 
 # Data outputs generated during work
 data/interim/
-data/exports/
+
+# Ignore all exports by default
+data/exports/*
+
+# Keep the D3 pilot artifacts versioned
+!data/exports/d3/
+data/exports/d3/*
+!data/exports/d3/assemblee_pilot_timeline.html
+!data/exports/d3/assemblee_pilot_timeline.json
 
 # Coverage
 .coverage
