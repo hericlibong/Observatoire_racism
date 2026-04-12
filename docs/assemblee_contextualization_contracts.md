@@ -1,5 +1,9 @@
 # Contrats contextualisation Assemblee
 
+Note : ce document decrit le contrat pilote v0/v1 fonde sur `decision`.
+Le contrat metier cible v2 est documente dans
+[`docs/assemblee_contextualization_contract_v2.md`](assemblee_contextualization_contract_v2.md).
+
 ## Source metier principale
 
 La source metier principale est l'export enrichi des interventions.

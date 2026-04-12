@@ -1,5 +1,9 @@
 # Plan contextualisation Assemblee
 
+Note : ce plan decrit le pilote v0/v1. Le pivot metier cible v2
+`scope_level / signal_category` est documente dans
+[`docs/assemblee_contextualization_contract_v2.md`](assemblee_contextualization_contract_v2.md).
+
 ## Objectif
 
 Ajouter une brique de relecture contextuelle des signaux candidats issus du pipeline Assemblee.
