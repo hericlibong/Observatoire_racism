@@ -104,6 +104,46 @@ Critere de sortie :
 - les regles lexicales ne sont plus un filtre bloquant unique ;
 - une note de stabilisation existe.
 
+## Todo actif - Phase B
+
+### Bloc 1 - Execution minimale V2 sur le pilote
+
+- [ ] Creer un run V2 minimal separe sur `CRSANR5L17S2026O1N191.xml`.
+- [ ] Creer ou adapter un provider V2 minimal sans casser V1.
+- [ ] Valider chaque sortie avec `validate_review_output_v2`.
+- [ ] Produire un export V2 dedie dans `data/interim/assemblee/`.
+- [ ] Verifier explicitement que `is_fallback = true` est present seulement
+  dans le cas technique autorise.
+
+### Bloc 2 - Controle methodologique sur une deuxieme seance
+
+- [ ] Executer le meme flux V2 sur `CRSANR5L17S2026O1N190.xml`.
+- [ ] Comparer N191 et N190 avec le meme schema V2.
+- [ ] Verifier que les sorties V2 ne restent pas dependantes du seul cas
+  Nouvelle-Caledonie.
+
+### Bloc 3 - Role exact des regles lexicales
+
+- [ ] Decrire noir sur blanc le role secondaire exact des regles lexicales :
+  selection, cout, audit, comparaison, jamais decision finale seule.
+- [ ] Decider quelles regles actuelles sont conservees, resserrees ou
+  retirees.
+
+### Bloc 4 - Agregation prudente
+
+- [ ] Produire un mini resume agrege V2 sur N191 puis N190.
+- [ ] Exclure systematiquement `is_fallback = true` des metriques
+  substantielles.
+- [ ] Verifier qu'un vrai `hors_perimetre / no_signal` reste distinct d'un
+  fallback technique.
+
+### Bloc 5 - Cloture Phase B
+
+- [ ] Rediger une note courte de stabilisation Phase B.
+- [ ] Lister ce qui est valide, ce qui reste fragile, et ce qui est reporte a la
+  phase suivante.
+- [ ] Declarer explicitement le critere de sortie de Phase B atteint ou non.
+
 ## Phase C - Extension petit lot Assemblee
 
 Statut : a faire.
