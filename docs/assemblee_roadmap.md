@@ -117,9 +117,9 @@ Critere de sortie :
 
 ### Bloc 2 - Controle methodologique sur une deuxieme seance
 
-- [ ] Executer le meme flux V2 sur `CRSANR5L17S2026O1N190.xml`.
-- [ ] Comparer N191 et N190 avec le meme schema V2.
-- [ ] Verifier que les sorties V2 ne restent pas dependantes du seul cas
+- [x] Executer le meme flux V2 sur `CRSANR5L17S2026O1N190.xml`.
+- [x] Comparer N191 et N190 avec le meme schema V2.
+- [x] Verifier que les sorties V2 ne restent pas dependantes du seul cas
   Nouvelle-Caledonie.
 
 ### Bloc 3 - Role exact des regles lexicales

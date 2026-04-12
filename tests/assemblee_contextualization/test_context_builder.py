@@ -64,7 +64,17 @@ class ContextBuilderTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             build_context_payload(sample_interventions(), "i2", source_file="pilot.xml")
 
+    def test_can_build_context_for_non_candidate_when_allowed(self) -> None:
+        payload = build_context_payload(
+            sample_interventions(),
+            "i2",
+            source_file="pilot.xml",
+            allow_non_candidate=True,
+        )
+
+        self.assertEqual(payload.candidate_id, "i2")
+        self.assertFalse(payload.rule_based_signal.signal_candidate)
+
 
 if __name__ == "__main__":
     unittest.main()
-

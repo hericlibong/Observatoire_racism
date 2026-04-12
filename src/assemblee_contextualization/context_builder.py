@@ -36,6 +36,7 @@ def build_context_payload(
     *,
     source_file: str,
     window: int = 2,
+    allow_non_candidate: bool = False,
 ) -> ContextPayload:
     if window < 0:
         raise ValueError("window doit etre positif ou nul.")
@@ -43,7 +44,8 @@ def build_context_payload(
     rows = sorted(interventions, key=lambda row: (_as_int(row.get("ordre")), str(row.get("intervention_id", ""))))
     target_index = _find_target_index(rows, candidate_id)
     target_row = rows[target_index]
-    if not is_signal_candidate(target_row):
+    target_is_signal_candidate = is_signal_candidate(target_row)
+    if not target_is_signal_candidate and not allow_non_candidate:
         raise ValueError(f"Intervention non candidate : {candidate_id}")
 
     seance_id = str(target_row.get("seance_id", ""))
@@ -62,7 +64,7 @@ def build_context_payload(
         ),
         target=TargetIntervention(**_context_item_kwargs(target_row)),
         rule_based_signal=RuleBasedSignal(
-            signal_candidate=True,
+            signal_candidate=target_is_signal_candidate,
             signal_family=str(target_row.get("signal_family", "")),
             signal_trigger=str(target_row.get("signal_trigger", "")),
             signal_intensity=_as_int(target_row.get("signal_intensity")),
@@ -98,4 +100,3 @@ def _as_int(value: Any) -> int:
         return int(value)
     except (TypeError, ValueError):
         return 0
-
