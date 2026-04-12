@@ -108,11 +108,11 @@ Critere de sortie :
 
 ### Bloc 1 - Execution minimale V2 sur le pilote
 
-- [ ] Creer un run V2 minimal separe sur `CRSANR5L17S2026O1N191.xml`.
-- [ ] Creer ou adapter un provider V2 minimal sans casser V1.
-- [ ] Valider chaque sortie avec `validate_review_output_v2`.
-- [ ] Produire un export V2 dedie dans `data/interim/assemblee/`.
-- [ ] Verifier explicitement que `is_fallback = true` est present seulement
+- [x] Creer un run V2 minimal separe sur `CRSANR5L17S2026O1N191.xml`.
+- [x] Creer ou adapter un provider V2 minimal sans casser V1.
+- [x] Valider chaque sortie avec `validate_review_output_v2`.
+- [x] Produire un export V2 dedie dans `data/interim/assemblee/`.
+- [x] Verifier explicitement que `is_fallback = true` est present seulement
   dans le cas technique autorise.
 
 ### Bloc 2 - Controle methodologique sur une deuxieme seance
