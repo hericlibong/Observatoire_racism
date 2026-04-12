@@ -3,6 +3,8 @@
 Note : cette checklist retrace le pilote v0/v1. Le contrat metier cible v2
 est documente dans
 [`docs/assemblee_contextualization_contract_v2.md`](assemblee_contextualization_contract_v2.md).
+Le planning actif est desormais suivi dans
+[`docs/assemblee_roadmap.md`](assemblee_roadmap.md).
 
 ## Documentation
 

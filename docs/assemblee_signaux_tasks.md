@@ -1,5 +1,9 @@
 # Taches Assemblee - signaux candidats
 
+Note : cette checklist reste l'historique de la phase signaux et du pipeline
+pilote. Le planning actif est desormais suivi dans
+[`docs/assemblee_roadmap.md`](assemblee_roadmap.md).
+
 ## Phase A - enrichir le fichier pilote
 
 - [x] Relire la structure actuelle de l'export pilote.
