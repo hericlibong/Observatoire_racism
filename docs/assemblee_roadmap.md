@@ -124,9 +124,9 @@ Critere de sortie :
 
 ### Bloc 3 - Role exact des regles lexicales
 
-- [ ] Decrire noir sur blanc le role secondaire exact des regles lexicales :
+- [x] Decrire noir sur blanc le role secondaire exact des regles lexicales :
   selection, cout, audit, comparaison, jamais decision finale seule.
-- [ ] Decider quelles regles actuelles sont conservees, resserrees ou
+- [x] Decider quelles regles actuelles sont conservees, resserrees ou
   retirees.
 
 ### Bloc 4 - Agregation prudente
@@ -143,6 +143,52 @@ Critere de sortie :
 - [ ] Lister ce qui est valide, ce qui reste fragile, et ce qui est reporte a la
   phase suivante.
 - [ ] Declarer explicitement le critere de sortie de Phase B atteint ou non.
+
+## Decision Bloc 3 - Role des regles lexicales
+
+Audit court : les regles lexicales actuelles sont definies dans
+`src/build_assemblee_pilot.py` avec trois familles : `tension_politique`,
+`designation_groupe`, `devalorisation`. Sur le pilote N191, elles produisent
+26 candidats : 8 `tension_politique`, 11 `designation_groupe`, 7
+`devalorisation`. Le run V2 Mistral N191 qualifie 24 de ces candidats en
+`hors_perimetre / no_signal` et seulement 2 en `adjacent /
+problematic_group_targeting`, tous deux issus de `designation_groupe`. Le run
+V2 Mistral N190 relit 15 paragraphes et les qualifie tous en
+`hors_perimetre / no_signal`. Aucun fallback technique n'est present dans ces
+exports.
+
+Role futur retenu : les regles lexicales restent une aide secondaire. Elles
+peuvent servir a selectionner des candidats a relire, reduire le cout d'appel
+modele, construire des echantillons d'audit et comparer les ecarts entre
+signaux lexicaux et qualification V2. Elles ne produisent jamais la decision
+finale, ne remplacent jamais `scope_level` / `signal_category`, et ne doivent
+jamais redevenir un filtre bloquant unique : un flux V2 doit pouvoir relire des
+paragraphes hors detection lexicale, notamment par echantillonnage neutre.
+
+Decision par famille :
+
+- `tension_politique` est retrogradee a un role exploratoire et d'audit. Les
+  declencheurs comme `chaos`, `obstruction`, `passage en force` ou `violences`
+  captent surtout la conflictualite parlementaire ordinaire ; ils ne doivent
+  pas alimenter seuls une selection V2 substantielle.
+- `devalorisation` est resserree. Les declencheurs generiques comme `honteuse`,
+  `inacceptable`, `irresponsable`, `mepris` ou `une honte` ne suffisent pas :
+  ils ne deviennent utiles que comme indices secondaires lorsqu'un groupe du
+  perimetre discrimination / racisme / xenophobie est aussi present.
+- `designation_groupe` est conservee mais fortement resserree. La famille est
+  utile pour reperer des references collectives, mais elle est trop large en
+  l'etat : les groupes politiques ou comportementaux comme
+  `independantistes`, `anti-independantistes`, `loyalistes` ou `FLNKS` ne
+  doivent pas etre traites comme des groupes du coeur de l'observatoire par
+  defaut. Seules les designations avec ancrage clair dans l'origine,
+  l'ethnicite reelle ou supposee, la nationalite, la religion ou une categorie
+  comparable du perimetre peuvent justifier une priorisation V2 ; les autres
+  restent des indices exploratoires.
+
+Regle de methode : `adjacent` ne doit pas absorber les tensions politiques,
+les critiques institutionnelles ou les conflits partisans detectes par lexique.
+Il reste reserve aux cas frontieres avec ancrage plausible dans le perimetre de
+l'observatoire.
 
 ## Phase C - Extension petit lot Assemblee
 
@@ -238,8 +284,9 @@ Taches :
 
 ## Prochaines taches immediates
 
-1. Creer un run V2 minimal separe sur N191.
-2. Tester V2 sur N190.
+1. Produire un mini resume agrege V2 sur N191 puis N190.
+2. Verifier dans l'agregation que `is_fallback = true` reste distinct d'un vrai
+   `hors_perimetre / no_signal`.
 3. Produire une note de stabilisation Phase B.
 
 ## Ne pas faire maintenant
