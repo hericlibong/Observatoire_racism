@@ -52,8 +52,26 @@ class HeatmapExportTest(unittest.TestCase):
 
         item = payload["items"][0]
         self.assertTrue(payload["fallbacks_excluded_from_substantive_metrics"])
+        self.assertEqual(payload["metrics"]["non_fallback_items"], 1)
         self.assertEqual(payload["metrics"]["substantive_items"], 1)
         self.assertEqual(payload["axis"]["field"], "ordre")
+        for field in (
+            "ordre",
+            "axis_position",
+            "intervention_id",
+            "orateur_nom",
+            "point_titre",
+            "sous_point_titre",
+            "excerpt",
+            "evidence_span",
+            "scope_level",
+            "signal_category",
+            "confidence",
+            "needs_human_review",
+            "is_fallback",
+            "review_label",
+        ):
+            self.assertIn(field, item)
         self.assertEqual(item["seance_date"], "2026-04-02")
         self.assertEqual(item["ordre"], 7)
         self.assertEqual(item["review_label"], "signal \u00e0 revoir")
@@ -100,6 +118,7 @@ class HeatmapExportTest(unittest.TestCase):
         )
 
         self.assertEqual(payload["metrics"]["fallback_count"], 1)
+        self.assertEqual(payload["metrics"]["non_fallback_items"], 0)
         self.assertEqual(payload["metrics"]["substantive_items"], 0)
         self.assertTrue(payload["items"][0]["is_fallback"])
         self.assertEqual(payload["items"][0]["review_label"], "fallback technique \u00e0 revoir")

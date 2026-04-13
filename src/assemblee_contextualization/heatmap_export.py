@@ -52,6 +52,7 @@ def build_heatmap_session_payload(
         "metrics": {
             "reviewed_items": len(items),
             "fallback_count": fallback_count,
+            "non_fallback_items": len(items) - fallback_count,
             "substantive_items": len(items) - fallback_count,
         },
         "items": items,

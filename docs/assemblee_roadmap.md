@@ -615,10 +615,29 @@ Note Bloc 1 - contrat visuel minimal heatmap seance :
 
 ### Bloc 2 - Preparation des donnees de visualisation
 
-- [ ] Verifier ou ajuster `heatmap_session_n191_v2.json`.
-- [ ] Verifier les champs necessaires au clic detail.
-- [ ] Garder les fallbacks visibles mais exclus des metriques substantielles.
-- [ ] Ne pas relancer Mistral.
+- [x] Verifier ou ajuster `heatmap_session_n191_v2.json`.
+- [x] Verifier les champs necessaires au clic detail.
+- [x] Garder les fallbacks visibles mais exclus des metriques substantielles.
+- [x] Ne pas relancer Mistral.
+
+Note Bloc 2 - donnees heatmap seance :
+
+- export verifie et regenere : `data/interim/assemblee/heatmap_session_n191_v2.json` ;
+- decision vocabulaire : ajout de `non_fallback_items` dans `metrics` et
+  conservation temporaire de `substantive_items` comme alias pour eviter une
+  rupture inutile ;
+- champs verifies : `session` contient `seance_id`, `source_file`,
+  `seance_date`, `seance_date_label`, `processed_at`, `provider`,
+  `model_name` ; `axis` contient `field`, `min`, `max`, `reviewed_items` ;
+  `items` contient les champs necessaires au clic detail, dont `ordre`,
+  `axis_position`, `intervention_id`, `orateur_nom`, `point_titre`,
+  `sous_point_titre`, `excerpt`, `evidence_span`, `scope_level`,
+  `signal_category`, `confidence`, `needs_human_review`, `is_fallback`,
+  `review_label` ;
+- fallbacks : visibles dans `items` via `is_fallback`, mais exclus de
+  `non_fallback_items` ; N191 contient 0 fallback ;
+- libelles : `aucun signal a revoir` et `signal a revoir`, sans verdict
+  automatique.
 
 ### Bloc 3 - Vue detaillee d'une seance
 
