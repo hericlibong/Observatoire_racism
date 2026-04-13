@@ -52,11 +52,10 @@ Fait :
 
 En cours :
 
-- Phase D - Socle incremental seance par seance.
+- Phase E - Visualisation heatmap seance et suivi inter-seances.
 
 A faire :
 
-- Phase E - Visualisation heatmap seance et suivi inter-seances ;
 - Phase F - Automatisation collecte et detection des nouvelles seances.
 
 Explicitement remis a plus tard :
@@ -379,7 +378,7 @@ Note Bloc 5 - cloture Phase C :
 
 ## Phase D - Socle incremental seance par seance
 
-Statut : en cours.
+Statut : cloturee.
 
 Objectif : preparer le processus qui traitera chaque nouvelle seance des
 qu'elle sera disponible. Tant qu'aucune nouvelle seance n'existe localement,
@@ -527,9 +526,28 @@ Note Bloc 5 - export heatmap seance :
 
 ### Bloc 6 - Cloture Phase D
 
-- [ ] Verifier que le flux fonctionne sur une seance unique de simulation.
-- [ ] Lister ce qui est valide, fragile et reporte.
-- [ ] Declarer explicitement le critere de sortie de Phase D atteint ou non.
+- [x] Verifier que le flux fonctionne sur une seance unique de simulation.
+- [x] Lister ce qui est valide, fragile et reporte.
+- [x] Declarer explicitement le critere de sortie de Phase D atteint ou non.
+
+Note Bloc 6 - cloture Phase D :
+
+- Decision : le critere de sortie de Phase D est atteint. La Phase D est
+  cloturee ; la prochaine phase active devient la Phase E. Cela ne lance pas le
+  travail de visualisation.
+- Valide : N191 traitee comme simulation unique, 26 sorties V2 Mistral
+  validees, 0 fallback technique, resume Phase D disponible, journal JSONL cree
+  avec date de seance et date de traitement distinctes, non-duplication
+  detectable, export heatmap seance produit.
+- Fallbacks : exclus des metriques substantielles dans le resume V2 et dans
+  l'export heatmap ; aucun fallback technique observe sur N191.
+- Fragile : validation sur une seule seance de simulation, pas encore sur une
+  nouvelle seance reelle ; la detection automatisee des nouvelles seances reste
+  hors Phase D ; dans l'export heatmap, `substantive_items` signifie aujourd'hui
+  "items non fallback".
+- Reporte : visualisation heatmap et vue inter-seances en Phase E ; collecte et
+  detection automatisees en Phase F ; avant la visualisation, envisager un nom
+  plus clair comme `non_fallback_items`.
 
 ## Phase D optionnelle - Reserve d'audit historique
 
@@ -546,7 +564,7 @@ Taches eventuelles :
 
 ## Phase E - Visualisation heatmap seance et suivi inter-seances
 
-Statut : a faire.
+Statut : en cours.
 
 Objectif : afficher d'abord une heatmap detaillee d'une seance, puis une vue
 generale inter-seances.
@@ -604,20 +622,18 @@ Taches :
 
 ## Prochaines taches immediates
 
-1. Definir le journal de traitement des seances.
-2. Constater l'etat actuel : derniere seance locale disponible et absence ou
-   presence d'une nouvelle seance a traiter.
-3. Traiter une seance existante de simulation de bout en bout, puis preparer
-   son export de heatmap detaillee.
+1. Definir le contrat visuel minimal de la heatmap seance a partir de
+   `heatmap_session_n191_v2.json`.
+2. Construire la vue detaillee d'une seance sans verdict automatique.
+3. Preparer ensuite la vue generale inter-seances.
 
 ## Ne pas faire maintenant
 
-- pas de D3 ;
 - pas de backfill complet du corpus historique local ;
 - pas d'automatisation collecte ;
 - pas de nouvelle taxonomie ;
 - pas de refonte architecture ;
-- pas d'application UI pendant la Phase D.
+- pas d'application UI complete pendant la Phase E.
 
 ## Points de vigilance
 
