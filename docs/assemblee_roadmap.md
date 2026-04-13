@@ -52,16 +52,17 @@ Fait :
 
 En cours :
 
-- Phase D - Corpus local complet.
+- Phase D - Socle incremental seance par seance.
 
 A faire :
 
-- Phase E - Visualisation ;
-- Phase F - Automatisation collecte.
+- Phase E - Visualisation heatmap seance et suivi inter-seances ;
+- Phase F - Automatisation collecte et detection des nouvelles seances.
 
 Explicitement remis a plus tard :
 
 - Phase G - Application ;
+- backfill complet du corpus historique local ;
 - scoring definitif ;
 - modele de classification entraine ;
 - interpretation politique automatisee ;
@@ -364,116 +365,146 @@ Note Bloc 5 - cloture Phase C :
 - Volumes : 5 seances, 992 interventions structurees, 51 sorties Mistral V2
   relues ; N191 26, N190 15, N120 1, N150 6, E1N014 3 ; 0 fallback technique.
 - Couts / appels : 51 appels Mistral V2 reels sur le lot. Le cout exact n'est
-  pas chiffre dans la roadmap ; le volume reste borne pour Phase C et devra
-  etre estime avant l'extension corpus complet.
+  pas chiffre dans la roadmap ; le volume reste borne pour Phase C et confirme
+  qu'il faut eviter un backfill historique massif sans besoin produit clair.
 - Valide : parsing du lot, exports V2 separes, validation contrat V2, resume
   Mistral V2, controle qualite court et exclusion des fallbacks techniques des
   metriques substantielles.
 - Fragile : lot limite a cinq seances, peu de cas `adjacent`, dependance aux
   candidats lexicaux hors echantillon neutre N190, cout exact non mesure.
-- Reporte a la Phase D : passage au corpus local complet, agregations
-  multi-seances, estimation de cout a plus grande echelle et maintien des
-  exclusions de fallbacks.
+- Reporte a la Phase D : socle incremental seance par seance,
+  journalisation des traitements, exports de seance pour visualisation et
+  maintien des exclusions de fallbacks. Le corpus historique local reste une
+  reserve de test ou d'audit ponctuel, pas la phase active.
 
-## Phase D - Corpus local complet
+## Phase D - Socle incremental seance par seance
 
 Statut : en cours.
 
-Objectif : appliquer la methode stabilisee au corpus local Assemblee.
+Objectif : preparer le processus qui traitera chaque nouvelle seance des
+qu'elle sera disponible. Tant qu'aucune nouvelle seance n'existe localement,
+le flux est teste sur une seance existante de simulation, sans backfill complet
+du corpus historique local.
 
 Taches :
 
-- parser le corpus local ;
-- produire les exports multi-seances ;
-- generer des agregations par seance, date, `scope_level`,
-  `signal_category` ;
-- exclure `is_fallback = true` des metriques substantielles.
+- tenir un journal des seances traitees ;
+- savoir constater qu'aucune nouvelle seance n'est encore disponible ;
+- choisir explicitement une seance de simulation si necessaire ;
+- parser une seance a la fois ;
+- appliquer le flux V2 a la seance courante ;
+- produire un export de seance exploitable par la visualisation ;
+- journaliser le traitement pour eviter les doublons ;
+- maintenir l'exclusion de `is_fallback = true` des metriques substantielles.
 
 Critere de sortie :
 
-- exports multi-seances produits ;
-- agregations V2 disponibles ;
+- le flux fonctionne sur une seance unique existante utilisee comme simulation ;
+- un journal de traitement indique ce qui a deja ete traite ;
+- le systeme peut distinguer "nouvelle seance disponible" de "rien a traiter" ;
+- l'export de seance est disponible pour la heatmap detaillee ;
 - fallbacks exclus des metriques substantielles.
 
 ## Todo actif - Phase D
 
-### Bloc 1 - Inventaire du corpus local et volumes
+### Bloc 1 - Journal de traitement
 
-- [ ] Lister les seances XML locales retenues pour Phase D.
-- [ ] Estimer le nombre de seances et d'interventions attendues.
-- [ ] Identifier les contraintes de volume avant tout run V2 massif.
+- [ ] Definir le format minimal du journal des seances traitees.
+- [ ] Prevoir les champs utiles : seance_id, fichier source, date de traitement,
+  provider, exports produits, statut, erreur eventuelle.
+- [ ] Decider ou stocker ce journal sans melanger avec les exports historiques.
 
-### Bloc 2 - Parsing du corpus local
+### Bloc 2 - Detection de nouvelle seance ou simulation
 
-- [ ] Reutiliser le parsing existant sur le corpus local.
-- [ ] Produire une sortie structuree multi-seances.
-- [ ] Verifier les champs necessaires au flux V2.
+- [ ] Identifier la derniere seance locale disponible et l'etat du journal.
+- [ ] Constater explicitement si aucune nouvelle seance n'est disponible.
+- [ ] Choisir une seance existante de simulation seulement si necessaire.
+- [ ] Documenter la regle de selection sans backfill complet.
 
-### Bloc 3 - Strategie d'application V2 et estimation cout
+### Bloc 3 - Traitement d'une seance unique
 
-- [ ] Definir l'ordre de passage V2 et les bornes de volume.
-- [ ] Estimer le nombre d'appels Mistral avant execution.
-- [ ] Decider du decoupage d'execution si le volume l'impose.
-
-### Bloc 4 - Execution V2 controlee sur le corpus local
-
-- [ ] Lancer le flux V2 seulement apres validation volume / cout.
-- [ ] Produire des exports V2 corpus local separes.
-- [ ] Valider les sorties avec le contrat V2.
+- [ ] Parser uniquement la seance retenue.
+- [ ] Appliquer le flux V2 a cette seance.
+- [ ] Produire un export V2 dedie a cette seance.
 - [ ] Verifier que `is_fallback = true` reste exclu des metriques
   substantielles.
 
-### Bloc 5 - Agregations multi-seances
+### Bloc 4 - Journalisation et non-duplication
 
-- [ ] Produire les agregations par seance, date, `scope_level` et
-  `signal_category`.
-- [ ] Verifier la coherence entre exports V2 et agregations.
-- [ ] Documenter les volumes retenus dans les agregations substantielles.
+- [ ] Enregistrer le traitement dans le journal.
+- [ ] Verifier qu'une seance deja traitee n'est pas relancee par defaut.
+- [ ] Documenter les erreurs ou fallbacks eventuels.
+
+### Bloc 5 - Export pour visualisation seance
+
+- [ ] Produire ou definir l'export necessaire a la heatmap intra-seance.
+- [ ] Prevoir les champs utiles au clic detail : ordre, extrait, categorie,
+  niveau de perimetre, besoin de revue humaine.
+- [ ] Garder la visualisation prudente : signal a revoir, jamais verdict.
 
 ### Bloc 6 - Cloture Phase D
 
-- [ ] Controler les volumes produits et les couts effectifs.
+- [ ] Verifier que le flux fonctionne sur une seance unique de simulation.
 - [ ] Lister ce qui est valide, fragile et reporte.
 - [ ] Declarer explicitement le critere de sortie de Phase D atteint ou non.
 
-## Phase E - Visualisation
+## Phase D optionnelle - Reserve d'audit historique
+
+Statut : optionnelle.
+
+Objectif : utiliser les anciennes seances locales comme reserve de test,
+d'audit ponctuel ou de regression, sans backfill complet.
+
+Taches eventuelles :
+
+- selectionner un petit echantillon cible si un doute methodologique apparait ;
+- comparer une sortie recente a quelques cas historiques de controle ;
+- ne jamais confondre cette reserve avec le flux vivant de production.
+
+## Phase E - Visualisation heatmap seance et suivi inter-seances
 
 Statut : a faire.
 
-Objectif : reinjecter prudemment les resultats V2 dans la visualisation.
+Objectif : afficher d'abord une heatmap detaillee d'une seance, puis une vue
+generale inter-seances.
 
 Taches :
 
-- choisir les champs V2 a afficher ;
-- adapter le JSON D3 ;
-- adapter la timeline ;
+- construire la vue detaillee d'une seance : axe interne, densite / presence de
+  signaux, clic vers les passages ;
+- construire ensuite la vue generale : une case ou un segment par seance / jour
+  de seance, clic vers la vue detaillee ;
+- choisir les champs V2 a afficher prudemment ;
 - verifier que la visualisation ne produit pas de verdict.
 
 Critere de sortie :
 
-- timeline adaptee aux champs V2 retenus ;
-- rendu lisible ;
+- heatmap detaillee par seance exploitable ;
+- vue generale inter-seances minimale ;
 - absence de formulation ou codage visuel assimilable a un verdict.
 
-## Phase F - Automatisation collecte
+## Phase F - Automatisation collecte et detection des nouvelles seances
 
 Statut : a faire.
 
-Objectif : automatiser la recuperation et l'actualisation des XML.
+Objectif : automatiser l'arrivee des nouveaux XML qui alimenteront le flux
+incremental de la Phase D.
 
 Taches :
 
 - identifier la source de collecte ;
-- automatiser le telechargement ;
+- detecter qu'une nouvelle seance est disponible apres la derniere seance
+  journalisee ;
+- automatiser le telechargement ou l'import du XML ;
 - eviter les doublons ;
 - mettre a jour le manifest ;
-- preparer le parsing incremental.
+- preparer le declenchement du traitement incremental.
 
 Critere de sortie :
 
 - collecte reproductible ;
 - manifest mis a jour ;
-- parsing incremental prepare.
+- une nouvelle seance peut etre detectee et mise a disposition du flux Phase D.
 
 ## Phase G - Application
 
@@ -490,14 +521,16 @@ Taches :
 
 ## Prochaines taches immediates
 
-1. Parser le corpus local Assemblee.
-2. Produire les exports multi-seances.
-3. Generer les agregations V2 en excluant `is_fallback = true` des metriques
-   substantielles.
+1. Definir le journal de traitement des seances.
+2. Constater l'etat actuel : derniere seance locale disponible et absence ou
+   presence d'une nouvelle seance a traiter.
+3. Traiter une seance existante de simulation de bout en bout, puis preparer
+   son export de heatmap detaillee.
 
 ## Ne pas faire maintenant
 
 - pas de D3 ;
+- pas de backfill complet du corpus historique local ;
 - pas d'automatisation collecte ;
 - pas de nouvelle taxonomie ;
 - pas de refonte architecture ;
