@@ -253,6 +253,40 @@ Critere de sortie :
 - methode validee sur plusieurs seances ;
 - limites et erreurs documentees.
 
+## Todo actif - Phase C
+
+### Bloc 1 - Selection du petit lot local
+
+- [ ] Identifier les seances locales candidates pour le petit lot.
+- [ ] Retenir un petit lot suffisant pour tester la methode sans passer au
+  corpus complet.
+- [ ] Noter la liste des seances retenues.
+
+### Bloc 2 - Parsing et sorties structurees
+
+- [ ] Parser le petit lot retenu.
+- [ ] Produire les sorties structurees pour chaque seance du lot.
+- [ ] Verifier que les exports produits sont exploitables par le flux V2.
+
+### Bloc 3 - Application du flux V2
+
+- [ ] Appliquer le flux V2 au petit lot.
+- [ ] Valider les sorties avec le contrat V2.
+- [ ] Conserver des exports V2 separes des sorties historiques.
+
+### Bloc 4 - Controle qualite
+
+- [ ] Controler les faux positifs.
+- [ ] Controler les faux negatifs.
+- [ ] Controler les cas ambigus.
+- [ ] Documenter les limites et erreurs observees.
+
+### Bloc 5 - Couts, volumes et cloture Phase C
+
+- [ ] Verifier les volumes relus sur le petit lot.
+- [ ] Verifier les couts du flux V2 sur le petit lot.
+- [ ] Declarer explicitement le critere de sortie de Phase C atteint ou non.
+
 ## Phase D - Corpus local complet
 
 Statut : a faire.
