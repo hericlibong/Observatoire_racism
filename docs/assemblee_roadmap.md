@@ -584,6 +584,43 @@ Critere de sortie :
 - vue generale inter-seances minimale ;
 - absence de formulation ou codage visuel assimilable a un verdict.
 
+## Todo actif - Phase E
+
+### Bloc 1 - Contrat visuel minimal de la heatmap seance
+
+- [ ] Definir ce que represente l'axe interne de seance.
+- [ ] Definir ce que represente la couleur.
+- [ ] Definir les libelles prudents : signal a revoir, jamais verdict.
+- [ ] Clarifier `substantive_items` / `non_fallback_items` avant affichage.
+
+### Bloc 2 - Preparation des donnees de visualisation
+
+- [ ] Verifier ou ajuster `heatmap_session_n191_v2.json`.
+- [ ] Verifier les champs necessaires au clic detail.
+- [ ] Garder les fallbacks visibles mais exclus des metriques substantielles.
+- [ ] Ne pas relancer Mistral.
+
+### Bloc 3 - Vue detaillee d'une seance
+
+- [ ] Creer ou adapter une heatmap / timeline pour une seule seance.
+- [ ] Utiliser N191 comme seance de simulation.
+- [ ] Prevoir un clic ou une interaction vers les details des passages.
+- [ ] Ne jamais afficher de verdict automatique.
+
+### Bloc 4 - Vue generale inter-seances minimale
+
+- [ ] Definir une structure minimale de listing inter-seances.
+- [ ] Utiliser uniquement les seances journalisees ou les exports disponibles.
+- [ ] Prevoir un lien conceptuel vers la vue detaillee.
+- [ ] Ne pas traiter tout le corpus historique.
+
+### Bloc 5 - Verification editoriale et cloture Phase E
+
+- [ ] Verifier la prudence des libelles.
+- [ ] Verifier que `is_fallback = true` n'est pas compte comme signal substantiel.
+- [ ] Lister ce qui est valide, fragile et reporte.
+- [ ] Declarer explicitement le critere de sortie de Phase E atteint ou non.
+
 ## Phase F - Automatisation collecte et detection des nouvelles seances
 
 Statut : a faire.
