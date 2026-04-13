@@ -52,11 +52,10 @@ Fait :
 
 En cours :
 
-- Phase B - Stabilisation methode V2.
+- Phase C - Extension petit lot Assemblee.
 
 A faire :
 
-- Phase C - Extension petit lot Assemblee ;
 - Phase D - Corpus local complet ;
 - Phase E - Visualisation ;
 - Phase F - Automatisation collecte.
@@ -83,7 +82,7 @@ Explicitement remis a plus tard :
 
 ## Phase B - Stabilisation methode V2
 
-Statut : en cours.
+Statut : cloturee.
 
 Objectif : terminer la methode avant extension.
 
@@ -139,10 +138,10 @@ Critere de sortie :
 
 ### Bloc 5 - Cloture Phase B
 
-- [ ] Rediger une note courte de stabilisation Phase B.
-- [ ] Lister ce qui est valide, ce qui reste fragile, et ce qui est reporte a la
+- [x] Rediger une note courte de stabilisation Phase B.
+- [x] Lister ce qui est valide, ce qui reste fragile, et ce qui est reporte a la
   phase suivante.
-- [ ] Declarer explicitement le critere de sortie de Phase B atteint ou non.
+- [x] Declarer explicitement le critere de sortie de Phase B atteint ou non.
 
 ## Decision Bloc 3 - Role des regles lexicales
 
@@ -204,9 +203,39 @@ substantielles. Un vrai `hors_perimetre / no_signal / is_fallback = false`
 reste compte comme hors-perimetre substantiel, distinct d'un fallback technique
 `hors_perimetre / ambiguous / is_fallback = true`.
 
+## Note de stabilisation Phase B
+
+Decision : le critere de sortie de Phase B est atteint. La Phase B est
+cloturee ; la methode V2 Assemblee est suffisamment stabilisee pour passer a
+la Phase C. Cela ne signifie pas que l'application est terminee.
+
+Valide :
+
+- flux V2 minimal separe sur N191, avec sorties validees par le contrat V2 ;
+- comparaison N191 / N190 avec le meme schema V2 ;
+- role secondaire des regles lexicales confirme : selection, cout, audit et
+  comparaison, jamais decision finale seule ni filtre bloquant unique ;
+- agregation prudente consolidee : fallbacks techniques exclus des metriques
+  substantielles, vrais `hors_perimetre / no_signal` conserves comme cas
+  distincts.
+
+Fragile :
+
+- validation encore limitee a deux seances ;
+- faible volume de cas substantiels pour eprouver les categories frontieres ;
+- regles lexicales encore trop larges si elles sont utilisees sans controle
+  V2.
+
+Reporte a la Phase C :
+
+- extension sur un petit lot local ;
+- controle des faux positifs, faux negatifs et cas ambigus ;
+- verification des couts et volumes avant corpus complet, D3, automatisation
+  ou application.
+
 ## Phase C - Extension petit lot Assemblee
 
-Statut : a faire.
+Statut : en cours.
 
 Objectif : tester sur quelques seances locales avant tout le corpus.
 
@@ -298,10 +327,10 @@ Taches :
 
 ## Prochaines taches immediates
 
-1. Rediger une note courte de stabilisation Phase B.
-2. Lister ce qui est valide, ce qui reste fragile, et ce qui est reporte a la
-   phase suivante.
-3. Declarer explicitement le critere de sortie de Phase B atteint ou non.
+1. Selectionner un petit lot local de seances Assemblee.
+2. Parser le lot et produire les sorties structurees.
+3. Appliquer le flux V2 et controler faux positifs, faux negatifs, cas ambigus,
+   couts et volumes.
 
 ## Ne pas faire maintenant
 
@@ -310,7 +339,7 @@ Taches :
 - pas d'automatisation collecte ;
 - pas de nouvelle taxonomie ;
 - pas de refonte architecture ;
-- pas d'application UI tant que Phase B n'est pas close.
+- pas d'application UI pendant la Phase C.
 
 ## Points de vigilance
 
