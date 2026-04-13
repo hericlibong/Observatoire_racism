@@ -327,10 +327,29 @@ Note Bloc 3 - exports V2 Phase C :
 
 ### Bloc 4 - Controle qualite
 
-- [ ] Controler les faux positifs.
-- [ ] Controler les faux negatifs.
-- [ ] Controler les cas ambigus.
-- [ ] Documenter les limites et erreurs observees.
+- [x] Controler les faux positifs.
+- [x] Controler les faux negatifs.
+- [x] Controler les cas ambigus.
+- [x] Documenter les limites et erreurs observees.
+
+Note Bloc 4 - controle qualite Mistral V2 :
+
+- sorties relues : 51 ; fallbacks techniques : 0 ; `is_fallback = true` absent.
+- Absence de signal / faux positifs probables : 48 sorties
+  `hors_perimetre / no_signal`, surtout des declencheurs lexicaux trop larges
+  ou contextuels, plus l'echantillon neutre N190 : tensions politiques,
+  mentions institutionnelles, groupes politiques caledoniens, prisons,
+  occupation sans droit ni titre, elus locaux.
+- Faux negatifs probables : aucun signal evident rate dans les sorties relues
+  de N190, N120, N150 et E1N014 ; cette conclusion ne couvre pas les passages
+  non relus hors candidats lexicaux, sauf l'echantillon neutre N190.
+- Cas a revue humaine : 3 sorties N191 `adjacent / problematic_group_targeting`
+  autour de `Kanaks`, `peuple kanak` et `anti-independantistes`. Elles sont
+  plausibles comme signaux a revoir vu l'ancrage colonial et historique, mais
+  restent fragiles : elles peuvent aussi relever de tension politique ou
+  historique plutot que d'un ciblage problematique stabilise.
+- Limite : controle documentaire court, sans verdict politique, sans nouvelle
+  taxonomie et sans relance modele.
 
 ### Bloc 5 - Couts, volumes et cloture Phase C
 
