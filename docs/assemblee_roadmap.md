@@ -451,11 +451,25 @@ Note Bloc 2 - detection incremental / simulation :
 
 ### Bloc 3 - Traitement d'une seance unique
 
-- [ ] Parser uniquement la seance retenue.
-- [ ] Appliquer le flux V2 a cette seance.
-- [ ] Produire un export V2 dedie a cette seance.
-- [ ] Verifier que `is_fallback = true` reste exclu des metriques
+- [x] Parser uniquement la seance retenue.
+- [x] Appliquer le flux V2 a cette seance.
+- [x] Produire un export V2 dedie a cette seance.
+- [x] Verifier que `is_fallback = true` reste exclu des metriques
   substantielles.
+
+Note Bloc 3 - traitement N191 simulation :
+
+- seance traitee : `CRSANR5L17S2026O1N191.xml`, comme simulation
+  incrementale, pas comme nouvelle seance reelle ;
+- commande : `python -m src.assemblee_contextualization.run_pilot_v2 --provider mistral --source-file CRSANR5L17S2026O1N191.xml --output data/interim/assemblee/contextual_reviews_phase_d_simulation_n191_v2_mistral.jsonl --summary-output data/interim/assemblee/contextual_reviews_phase_d_simulation_n191_v2_mistral_summary.json` ;
+- export : `data/interim/assemblee/contextual_reviews_phase_d_simulation_n191_v2_mistral.jsonl` ;
+- resume : `data/interim/assemblee/contextual_reviews_phase_d_simulation_n191_v2_mistral_summary.json` ;
+- sorties V2 : 26 ; fallbacks techniques : 0 ;
+- validation : toutes les sorties sont relues par `read_outputs_v2` et passent
+  `validate_review_output_v2` ; les metriques substantielles excluent les
+  fallbacks ;
+- journal : `data/interim/assemblee/processing_journal_v2.jsonl` reste absent ;
+  la journalisation releve du Bloc 4.
 
 ### Bloc 4 - Journalisation et non-duplication
 
