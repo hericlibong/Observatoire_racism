@@ -395,6 +395,47 @@ Critere de sortie :
 - agregations V2 disponibles ;
 - fallbacks exclus des metriques substantielles.
 
+## Todo actif - Phase D
+
+### Bloc 1 - Inventaire du corpus local et volumes
+
+- [ ] Lister les seances XML locales retenues pour Phase D.
+- [ ] Estimer le nombre de seances et d'interventions attendues.
+- [ ] Identifier les contraintes de volume avant tout run V2 massif.
+
+### Bloc 2 - Parsing du corpus local
+
+- [ ] Reutiliser le parsing existant sur le corpus local.
+- [ ] Produire une sortie structuree multi-seances.
+- [ ] Verifier les champs necessaires au flux V2.
+
+### Bloc 3 - Strategie d'application V2 et estimation cout
+
+- [ ] Definir l'ordre de passage V2 et les bornes de volume.
+- [ ] Estimer le nombre d'appels Mistral avant execution.
+- [ ] Decider du decoupage d'execution si le volume l'impose.
+
+### Bloc 4 - Execution V2 controlee sur le corpus local
+
+- [ ] Lancer le flux V2 seulement apres validation volume / cout.
+- [ ] Produire des exports V2 corpus local separes.
+- [ ] Valider les sorties avec le contrat V2.
+- [ ] Verifier que `is_fallback = true` reste exclu des metriques
+  substantielles.
+
+### Bloc 5 - Agregations multi-seances
+
+- [ ] Produire les agregations par seance, date, `scope_level` et
+  `signal_category`.
+- [ ] Verifier la coherence entre exports V2 et agregations.
+- [ ] Documenter les volumes retenus dans les agregations substantielles.
+
+### Bloc 6 - Cloture Phase D
+
+- [ ] Controler les volumes produits et les couts effectifs.
+- [ ] Lister ce qui est valide, fragile et reporte.
+- [ ] Declarer explicitement le critere de sortie de Phase D atteint ou non.
+
 ## Phase E - Visualisation
 
 Statut : a faire.
