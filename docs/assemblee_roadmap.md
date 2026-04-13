@@ -298,9 +298,32 @@ Note Bloc 2 - sortie structuree Phase C :
 
 ### Bloc 3 - Application du flux V2
 
-- [ ] Appliquer le flux V2 au petit lot.
-- [ ] Valider les sorties avec le contrat V2.
-- [ ] Conserver des exports V2 separes des sorties historiques.
+- [x] Appliquer le flux V2 au petit lot.
+- [x] Valider les sorties avec le contrat V2.
+- [x] Conserver des exports V2 separes des sorties historiques.
+
+Note Bloc 3 - exports V2 Phase C :
+
+- providers utilises : `mock_v2` pour verifier la mecanique, puis
+  `mistral_v2` pour les sorties reelles ;
+- exports : `contextual_reviews_phase_c_lot_n191_v2_mock.jsonl`,
+  `contextual_reviews_phase_c_lot_n190_v2_mock.jsonl`,
+  `contextual_reviews_phase_c_lot_n120_v2_mock.jsonl`,
+  `contextual_reviews_phase_c_lot_n150_v2_mock.jsonl`,
+  `contextual_reviews_phase_c_lot_n014_v2_mock.jsonl` ;
+- exports Mistral : `contextual_reviews_phase_c_lot_n191_v2_mistral.jsonl`,
+  `contextual_reviews_phase_c_lot_n190_v2_mistral.jsonl`,
+  `contextual_reviews_phase_c_lot_n120_v2_mistral.jsonl`,
+  `contextual_reviews_phase_c_lot_n150_v2_mistral.jsonl`,
+  `contextual_reviews_phase_c_lot_n014_v2_mistral.jsonl` ;
+- resume : `data/interim/assemblee/contextual_reviews_phase_c_lot_v2_mock.json` ;
+- resume Mistral :
+  `data/interim/assemblee/contextual_reviews_phase_c_lot_v2_mistral.json` ;
+- sorties V2 : N191 26, N190 15, N120 1, N150 6, E1N014 3 ;
+- fallbacks techniques Mistral : 0 ; fallbacks exclus des metriques
+  substantielles ;
+- verification : toutes les sorties sont relues et validees par
+  `validate_review_output_v2`.
 
 ### Bloc 4 - Controle qualite
 
