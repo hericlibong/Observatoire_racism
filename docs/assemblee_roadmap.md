@@ -257,10 +257,28 @@ Critere de sortie :
 
 ### Bloc 1 - Selection du petit lot local
 
-- [ ] Identifier les seances locales candidates pour le petit lot.
-- [ ] Retenir un petit lot suffisant pour tester la methode sans passer au
+- [x] Identifier les seances locales candidates pour le petit lot.
+- [x] Retenir un petit lot suffisant pour tester la methode sans passer au
   corpus complet.
-- [ ] Noter la liste des seances retenues.
+- [x] Noter la liste des seances retenues.
+
+Note Bloc 1 - lot Phase C retenu :
+
+- `CRSANR5L17S2026O1N191.xml` : reference Phase B, Nouvelle-Caledonie.
+- `CRSANR5L17S2026O1N190.xml` : reference Phase B, lutte contre les fraudes
+  sociales et fiscales.
+- `CRSANR5L17S2026O1N120.xml` : questions au gouvernement, sujets varies dont
+  gens du voyage.
+- `CRSANR5L17S2025O1N150.xml` : session ordinaire 2024-2025, aide publique au
+  developpement et prisons.
+- `CRSANR5L17S2025E1N014.xml` : session extraordinaire 2025, statut de l'elu
+  local.
+
+Raison du choix : lot court de cinq seances, avec les deux references deja
+testees et trois seances locales differenciees par periode, format ou theme.
+
+Limites : selection faite au niveau fichier et sommaire, sans lecture complete,
+sans parsing du lot et sans run V2. Le lot ne represente pas le corpus complet.
 
 ### Bloc 2 - Parsing et sorties structurees
 
