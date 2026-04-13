@@ -588,10 +588,30 @@ Critere de sortie :
 
 ### Bloc 1 - Contrat visuel minimal de la heatmap seance
 
-- [ ] Definir ce que represente l'axe interne de seance.
-- [ ] Definir ce que represente la couleur.
-- [ ] Definir les libelles prudents : signal a revoir, jamais verdict.
-- [ ] Clarifier `substantive_items` / `non_fallback_items` avant affichage.
+- [x] Definir ce que represente l'axe interne de seance.
+- [x] Definir ce que represente la couleur.
+- [x] Definir les libelles prudents : signal a revoir, jamais verdict.
+- [x] Clarifier `substantive_items` / `non_fallback_items` avant affichage.
+
+Note Bloc 1 - contrat visuel minimal heatmap seance :
+
+- Source de travail : `data/interim/assemblee/heatmap_session_n191_v2.json`,
+  26 items, 0 fallback, axe `ordre` de 13 a 260.
+- Axe interne : utiliser `ordre` comme position canonique ; `axis_position`
+  peut servir de duplicat technique si besoin. L'utilisateur doit comprendre un
+  deroulement ordonne dans la seance, pas un temps chronometrique ni une duree.
+  Une normalisation visuelle eventuelle ne change pas ce sens.
+- Couleur : coder un niveau de revue prudent, jamais une culpabilite, une
+  gravite morale ou un verdict. Proposition : `hors_perimetre / no_signal`
+  neutre ; `adjacent` teinte de revue moderee ; `core` teinte de revue plus
+  visible ; `is_fallback = true` teinte technique separee, hors metriques
+  substantielles.
+- Libelles : afficher `aucun signal a revoir`, `signal a revoir` ou
+  `passage a revoir` ; interdire `signal valide`, `propos raciste`,
+  `haine detectee` et formulations equivalentes.
+- Vocabulaire : dans l'export actuel, `substantive_items` signifie "items non
+  fallback". Avant affichage, preferer un libelle ou un alias plus clair :
+  `non_fallback_items`. Pas de changement de code dans ce bloc.
 
 ### Bloc 2 - Preparation des donnees de visualisation
 
