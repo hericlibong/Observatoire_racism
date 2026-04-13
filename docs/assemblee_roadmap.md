@@ -410,8 +410,8 @@ Critere de sortie :
 ### Bloc 1 - Journal de traitement
 
 - [x] Definir le format minimal du journal des seances traitees.
-- [x] Prevoir les champs utiles : seance_id, fichier source, date de traitement,
-  provider, exports produits, statut, erreur eventuelle.
+- [x] Prevoir les champs utiles : seance_id, fichier source, date de seance,
+  date de traitement, provider, exports produits, statut, erreur eventuelle.
 - [x] Decider ou stocker ce journal sans melanger avec les exports historiques.
 
 Note Bloc 1 - journal de traitement :
@@ -419,13 +419,16 @@ Note Bloc 1 - journal de traitement :
 - format retenu : JSONL, un enregistrement par seance traitee ;
 - emplacement retenu : `data/interim/assemblee/processing_journal_v2.jsonl`,
   separe des exports historiques `contextual_reviews_*` et des exports D3 ;
-- champs minimaux : `seance_id`, `source_file`, `processed_at`, `provider`,
-  `model_name`, `status`, `outputs`, `fallback_count`, `reviewed_items`,
-  `error` ;
+- champs minimaux : `seance_id`, `source_file`, `seance_date`,
+  `seance_date_label`, `processed_at`, `provider`, `model_name`, `status`,
+  `outputs`, `fallback_count`, `reviewed_items`, `error` ;
+- `seance_date` et `seance_date_label` viennent des metadonnees XML
+  `dateSeance` et `dateSeanceJour` ; `processed_at` reste la date de traitement
+  informatique ;
 - `outputs` liste les chemins produits pour la seance ; `status` reste sobre,
   par exemple `success` ou `error` ;
-- aucun fichier journal n'est encore cree : il sera alimente lors du premier
-  vrai traitement incremental ou de la seance de simulation.
+- aucun fichier journal n'etait encore cree au Bloc 1 : il est alimente lors du
+  premier vrai traitement incremental ou de la seance de simulation.
 
 ### Bloc 2 - Detection de nouvelle seance ou simulation
 
@@ -480,9 +483,10 @@ Note Bloc 3 - traitement N191 simulation :
 Note Bloc 4 - journalisation N191 simulation :
 
 - journal cree : `data/interim/assemblee/processing_journal_v2.jsonl` ;
-- entree ajoutee : `CRSANR5L17S2026O1N191`, statut `success`, provider
-  `mistral_v2`, modele `mistral-medium-latest`, 26 sorties relues,
-  0 fallback technique, `error` vide ;
+- entree ajoutee : `CRSANR5L17S2026O1N191`, date de seance `2026-04-02`
+  (`jeudi 02 avril 2026`), statut `success`, provider `mistral_v2`, modele
+  `mistral-medium-latest`, 26 sorties relues, 0 fallback technique,
+  `error` vide ;
 - outputs journalises :
   `data/interim/assemblee/contextual_reviews_phase_d_simulation_n191_v2_mistral.jsonl`
   et
