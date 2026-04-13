@@ -282,9 +282,19 @@ sans parsing du lot et sans run V2. Le lot ne represente pas le corpus complet.
 
 ### Bloc 2 - Parsing et sorties structurees
 
-- [ ] Parser le petit lot retenu.
-- [ ] Produire les sorties structurees pour chaque seance du lot.
-- [ ] Verifier que les exports produits sont exploitables par le flux V2.
+- [x] Parser le petit lot retenu.
+- [x] Produire les sorties structurees pour chaque seance du lot.
+- [x] Verifier que les exports produits sont exploitables par le flux V2.
+
+Note Bloc 2 - sortie structuree Phase C :
+
+- sortie : `data/interim/assemblee/interventions_phase_c_lot.csv` ;
+- seances representees : 5 ;
+- interventions : 992 au total, dont `CRSANR5L17S2026O1N191` 159,
+  `CRSANR5L17S2026O1N190` 240, `CRSANR5L17S2026O1N120` 102,
+  `CRSANR5L17S2025O1N150` 280, `CRSANR5L17S2025E1N014` 211 ;
+- verification V2 : CSV chargeable par le constructeur de contexte V2, sans
+  provider et sans appel Mistral.
 
 ### Bloc 3 - Application du flux V2
 

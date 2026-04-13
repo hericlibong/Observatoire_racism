@@ -250,18 +250,26 @@ def build_manifest() -> dict:
     }
 
 
-def parse_pilot() -> list[InterventionRow]:
-    if not PILOT_PATH.exists():
-        raise FileNotFoundError(f"Fichier pilote introuvable : {PILOT_PATH}")
+def source_path(source_file: str | Path) -> Path:
+    path = Path(source_file)
+    if path.exists():
+        return path
+    return SOURCE_DIR / path
 
-    root = ET.parse(PILOT_PATH).getroot()
+
+def parse_source_file(source_file: str | Path) -> list[InterventionRow]:
+    path = source_path(source_file)
+    if not path.exists():
+        raise FileNotFoundError(f"Fichier Assemblee introuvable : {path}")
+
+    root = ET.parse(path).getroot()
     compte_rendu_uid = child_text(root, "uid")
     if not compte_rendu_uid:
-        raise ValueError("UID introuvable dans le fichier pilote.")
+        raise ValueError(f"UID introuvable dans {path}.")
 
     contenu = root.find("a:contenu", NS)
     if contenu is None:
-        raise ValueError("Element contenu introuvable dans le fichier pilote.")
+        raise ValueError(f"Element contenu introuvable dans {path}.")
 
     rows = list(iter_paragraphs(contenu, compte_rendu_uid, "", ""))
     for row in rows:
@@ -270,8 +278,12 @@ def parse_pilot() -> list[InterventionRow]:
     return rows
 
 
-def write_csv(rows: list[InterventionRow]) -> None:
-    with CSV_PATH.open("w", encoding="utf-8", newline="") as handle:
+def parse_pilot() -> list[InterventionRow]:
+    return parse_source_file(PILOT_PATH)
+
+
+def write_csv(rows: list[InterventionRow], output_path: Path = CSV_PATH) -> None:
+    with output_path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=CSV_FIELDS)
         writer.writeheader()
         for row in rows:
