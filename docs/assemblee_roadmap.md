@@ -468,14 +468,31 @@ Note Bloc 3 - traitement N191 simulation :
 - validation : toutes les sorties sont relues par `read_outputs_v2` et passent
   `validate_review_output_v2` ; les metriques substantielles excluent les
   fallbacks ;
-- journal : `data/interim/assemblee/processing_journal_v2.jsonl` reste absent ;
-  la journalisation releve du Bloc 4.
+- journal : `data/interim/assemblee/processing_journal_v2.jsonl` n'a pas ete
+  cree au Bloc 3 ; la journalisation releve du Bloc 4.
 
 ### Bloc 4 - Journalisation et non-duplication
 
-- [ ] Enregistrer le traitement dans le journal.
-- [ ] Verifier qu'une seance deja traitee n'est pas relancee par defaut.
-- [ ] Documenter les erreurs ou fallbacks eventuels.
+- [x] Enregistrer le traitement dans le journal.
+- [x] Verifier qu'une seance deja traitee n'est pas relancee par defaut.
+- [x] Documenter les erreurs ou fallbacks eventuels.
+
+Note Bloc 4 - journalisation N191 simulation :
+
+- journal cree : `data/interim/assemblee/processing_journal_v2.jsonl` ;
+- entree ajoutee : `CRSANR5L17S2026O1N191`, statut `success`, provider
+  `mistral_v2`, modele `mistral-medium-latest`, 26 sorties relues,
+  0 fallback technique, `error` vide ;
+- outputs journalises :
+  `data/interim/assemblee/contextual_reviews_phase_d_simulation_n191_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_phase_d_simulation_n191_v2_mistral_summary.json` ;
+- non-duplication : `is_seance_already_processed("CRSANR5L17S2026O1N191")`
+  retourne `true` ; une seance absente du journal, par exemple N192, retourne
+  `false` ;
+- limite : le journal marque la simulation N191 comme traitement incremental
+  reussi ; les exports historiques N191 ne sont pas convertis en entrees du
+  journal.
 
 ### Bloc 5 - Export pour visualisation seance
 
