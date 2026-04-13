@@ -500,10 +500,30 @@ Note Bloc 4 - journalisation N191 simulation :
 
 ### Bloc 5 - Export pour visualisation seance
 
-- [ ] Produire ou definir l'export necessaire a la heatmap intra-seance.
-- [ ] Prevoir les champs utiles au clic detail : ordre, extrait, categorie,
+- [x] Produire ou definir l'export necessaire a la heatmap intra-seance.
+- [x] Prevoir les champs utiles au clic detail : ordre, extrait, categorie,
   niveau de perimetre, besoin de revue humaine.
-- [ ] Garder la visualisation prudente : signal a revoir, jamais verdict.
+- [x] Garder la visualisation prudente : signal a revoir, jamais verdict.
+
+Note Bloc 5 - export heatmap seance :
+
+- decision : l'export V2 Phase D seul ne suffit pas pour la heatmap, car il ne
+  contient pas l'axe interne de seance ni les champs de clic detail ; une
+  transformation minimale est donc creee ;
+- export produit : `data/interim/assemblee/heatmap_session_n191_v2.json` ;
+- source : `contextual_reviews_phase_d_simulation_n191_v2_mistral.jsonl`,
+  `contextual_reviews_phase_d_simulation_n191_v2_mistral_summary.json` et
+  `processing_journal_v2.jsonl`, avec parsing local de N191 pour les metadonnees
+  d'intervention ;
+- contenu : 26 items, axe `ordre` de 13 a 260, champs `seance_id`,
+  `source_file`, `seance_date`, `seance_date_label`, `ordre`,
+  `intervention_id`, `orateur_nom`, `point_titre`, `sous_point_titre`,
+  `excerpt`, `evidence_span`, `scope_level`, `signal_category`, `confidence`,
+  `needs_human_review`, `is_fallback` ;
+- prudence : libelles `signal a revoir` / `aucun signal a revoir`, jamais
+  verdict automatique ;
+- fallbacks : 0 dans l'export N191 ; la structure garde les fallbacks visibles
+  mais les exclut des metriques substantielles.
 
 ### Bloc 6 - Cloture Phase D
 
