@@ -130,6 +130,19 @@ class RunPilotV2Test(unittest.TestCase):
             model_provider="test",
             model_name="test",
         )
+        adjacent = ContextualReviewOutputV2(
+            candidate_id="s1_adjacent",
+            scope_level=ScopeLevel.ADJACENT,
+            signal_category=SignalCategory.AMBIGUOUS,
+            is_fallback=False,
+            needs_human_review=True,
+            confidence=Confidence.LOW,
+            rationale="Cas frontiere substantif.",
+            evidence_span="",
+            limits=[],
+            model_provider="test",
+            model_name="test",
+        )
         clear = ContextualReviewOutputV2(
             candidate_id="s2_clear",
             scope_level=ScopeLevel.HORS_PERIMETRE,
@@ -145,19 +158,29 @@ class RunPilotV2Test(unittest.TestCase):
         )
 
         with tempfile.TemporaryDirectory() as directory:
-            fallback_path = Path(directory) / "fallback.jsonl"
+            mixed_path = Path(directory) / "mixed.jsonl"
             clear_path = Path(directory) / "clear.jsonl"
             summary_path = Path(directory) / "summary.json"
-            write_outputs_v2([fallback], fallback_path)
+            write_outputs_v2([fallback, adjacent, clear], mixed_path)
             write_outputs_v2([clear], clear_path)
-            summary = write_comparison_summary([fallback_path, clear_path], summary_path)
+            summary = write_comparison_summary([mixed_path, clear_path], summary_path)
 
-            self.assertEqual(len(read_outputs_v2(fallback_path)), 1)
+            self.assertEqual(len(read_outputs_v2(mixed_path)), 3)
             self.assertTrue(summary_path.exists())
 
         self.assertTrue(summary["fallbacks_excluded_from_substantive_metrics"])
         self.assertEqual(summary["sessions"][0]["fallback_technical"], 1)
-        self.assertEqual(summary["sessions"][0]["substantive_scope_level_distribution"], {})
+        self.assertEqual(summary["sessions"][0]["true_hors_perimetre_no_signal"], 1)
+        self.assertEqual(summary["sessions"][0]["scope_level_distribution"]["hors_perimetre"], 2)
+        self.assertEqual(summary["sessions"][0]["signal_category_distribution"]["ambiguous"], 2)
+        self.assertEqual(
+            summary["sessions"][0]["substantive_scope_level_distribution"],
+            {"adjacent": 1, "hors_perimetre": 1},
+        )
+        self.assertEqual(
+            summary["sessions"][0]["substantive_signal_category_distribution"],
+            {"ambiguous": 1, "no_signal": 1},
+        )
         self.assertEqual(summary["sessions"][1]["true_hors_perimetre_no_signal"], 1)
 
 

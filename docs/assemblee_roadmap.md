@@ -131,10 +131,10 @@ Critere de sortie :
 
 ### Bloc 4 - Agregation prudente
 
-- [ ] Produire un mini resume agrege V2 sur N191 puis N190.
-- [ ] Exclure systematiquement `is_fallback = true` des metriques
+- [x] Produire un mini resume agrege V2 sur N191 puis N190.
+- [x] Exclure systematiquement `is_fallback = true` des metriques
   substantielles.
-- [ ] Verifier qu'un vrai `hors_perimetre / no_signal` reste distinct d'un
+- [x] Verifier qu'un vrai `hors_perimetre / no_signal` reste distinct d'un
   fallback technique.
 
 ### Bloc 5 - Cloture Phase B
@@ -189,6 +189,20 @@ Regle de methode : `adjacent` ne doit pas absorber les tensions politiques,
 les critiques institutionnelles ou les conflits partisans detectes par lexique.
 Il reste reserve aux cas frontieres avec ancrage plausible dans le perimetre de
 l'observatoire.
+
+## Decision Bloc 4 - Agregation prudente
+
+Le mini resume agrege V2 de reference pour N191 et N190 est
+`data/interim/assemblee/contextual_reviews_v2_n191_n190_summary.json`. Il
+liste, par seance, le nombre de sorties relues, les distributions
+`scope_level` et `signal_category`, le nombre de fallbacks techniques, le
+nombre de vrais `hors_perimetre / no_signal`, et les distributions
+substantielles hors fallback.
+
+Regle retenue : toute sortie avec `is_fallback = true` est exclue des metriques
+substantielles. Un vrai `hors_perimetre / no_signal / is_fallback = false`
+reste compte comme hors-perimetre substantiel, distinct d'un fallback technique
+`hors_perimetre / ambiguous / is_fallback = true`.
 
 ## Phase C - Extension petit lot Assemblee
 
@@ -284,10 +298,10 @@ Taches :
 
 ## Prochaines taches immediates
 
-1. Produire un mini resume agrege V2 sur N191 puis N190.
-2. Verifier dans l'agregation que `is_fallback = true` reste distinct d'un vrai
-   `hors_perimetre / no_signal`.
-3. Produire une note de stabilisation Phase B.
+1. Rediger une note courte de stabilisation Phase B.
+2. Lister ce qui est valide, ce qui reste fragile, et ce qui est reporte a la
+   phase suivante.
+3. Declarer explicitement le critere de sortie de Phase B atteint ou non.
 
 ## Ne pas faire maintenant
 
