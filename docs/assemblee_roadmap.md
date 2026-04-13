@@ -409,17 +409,45 @@ Critere de sortie :
 
 ### Bloc 1 - Journal de traitement
 
-- [ ] Definir le format minimal du journal des seances traitees.
-- [ ] Prevoir les champs utiles : seance_id, fichier source, date de traitement,
+- [x] Definir le format minimal du journal des seances traitees.
+- [x] Prevoir les champs utiles : seance_id, fichier source, date de traitement,
   provider, exports produits, statut, erreur eventuelle.
-- [ ] Decider ou stocker ce journal sans melanger avec les exports historiques.
+- [x] Decider ou stocker ce journal sans melanger avec les exports historiques.
+
+Note Bloc 1 - journal de traitement :
+
+- format retenu : JSONL, un enregistrement par seance traitee ;
+- emplacement retenu : `data/interim/assemblee/processing_journal_v2.jsonl`,
+  separe des exports historiques `contextual_reviews_*` et des exports D3 ;
+- champs minimaux : `seance_id`, `source_file`, `processed_at`, `provider`,
+  `model_name`, `status`, `outputs`, `fallback_count`, `reviewed_items`,
+  `error` ;
+- `outputs` liste les chemins produits pour la seance ; `status` reste sobre,
+  par exemple `success` ou `error` ;
+- aucun fichier journal n'est encore cree : il sera alimente lors du premier
+  vrai traitement incremental ou de la seance de simulation.
 
 ### Bloc 2 - Detection de nouvelle seance ou simulation
 
-- [ ] Identifier la derniere seance locale disponible et l'etat du journal.
-- [ ] Constater explicitement si aucune nouvelle seance n'est disponible.
-- [ ] Choisir une seance existante de simulation seulement si necessaire.
-- [ ] Documenter la regle de selection sans backfill complet.
+- [x] Identifier la derniere seance locale disponible et l'etat du journal.
+- [x] Constater explicitement si aucune nouvelle seance n'est disponible.
+- [x] Choisir une seance existante de simulation seulement si necessaire.
+- [x] Documenter la regle de selection sans backfill complet.
+
+Note Bloc 2 - detection incremental / simulation :
+
+- derniere seance locale disponible : `CRSANR5L17S2026O1N191.xml`, presente
+  dans `data/raw/assemblee/extracted/syceron_initial_import/syseron.xml/xml/compteRendu/` ;
+- etat du journal : `data/interim/assemblee/processing_journal_v2.jsonl`
+  absent ; aucun traitement incremental n'est encore journalise. Les exports
+  N191 existants restent des sorties de test historiques ou Phase C, pas des
+  entrees du journal ;
+- conclusion : aucune nouvelle seance reelle plus recente que N191 n'est
+  disponible localement ; ne pas inventer de N192 ;
+- simulation retenue : N191, car c'est la derniere seance locale disponible et
+  une reference deja connue ;
+- regle : traiter uniquement la seance explicitement choisie pour simulation ou
+  la prochaine nouvelle seance reelle ; ne pas faire de backfill complet.
 
 ### Bloc 3 - Traitement d'une seance unique
 
