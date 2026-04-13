@@ -52,11 +52,10 @@ Fait :
 
 En cours :
 
-- Phase C - Extension petit lot Assemblee.
+- Phase D - Corpus local complet.
 
 A faire :
 
-- Phase D - Corpus local complet ;
 - Phase E - Visualisation ;
 - Phase F - Automatisation collecte.
 
@@ -235,7 +234,7 @@ Reporte a la Phase C :
 
 ## Phase C - Extension petit lot Assemblee
 
-Statut : en cours.
+Statut : cloturee.
 
 Objectif : tester sur quelques seances locales avant tout le corpus.
 
@@ -353,13 +352,32 @@ Note Bloc 4 - controle qualite Mistral V2 :
 
 ### Bloc 5 - Couts, volumes et cloture Phase C
 
-- [ ] Verifier les volumes relus sur le petit lot.
-- [ ] Verifier les couts du flux V2 sur le petit lot.
-- [ ] Declarer explicitement le critere de sortie de Phase C atteint ou non.
+- [x] Verifier les volumes relus sur le petit lot.
+- [x] Verifier les couts du flux V2 sur le petit lot.
+- [x] Declarer explicitement le critere de sortie de Phase C atteint ou non.
+
+Note Bloc 5 - cloture Phase C :
+
+- Decision : le critere de sortie de Phase C est atteint. La Phase C est
+  cloturee ; le test sur petit lot est valide. Cela ne signifie pas que
+  l'application finale est terminee.
+- Volumes : 5 seances, 992 interventions structurees, 51 sorties Mistral V2
+  relues ; N191 26, N190 15, N120 1, N150 6, E1N014 3 ; 0 fallback technique.
+- Couts / appels : 51 appels Mistral V2 reels sur le lot. Le cout exact n'est
+  pas chiffre dans la roadmap ; le volume reste borne pour Phase C et devra
+  etre estime avant l'extension corpus complet.
+- Valide : parsing du lot, exports V2 separes, validation contrat V2, resume
+  Mistral V2, controle qualite court et exclusion des fallbacks techniques des
+  metriques substantielles.
+- Fragile : lot limite a cinq seances, peu de cas `adjacent`, dependance aux
+  candidats lexicaux hors echantillon neutre N190, cout exact non mesure.
+- Reporte a la Phase D : passage au corpus local complet, agregations
+  multi-seances, estimation de cout a plus grande echelle et maintien des
+  exclusions de fallbacks.
 
 ## Phase D - Corpus local complet
 
-Statut : a faire.
+Statut : en cours.
 
 Objectif : appliquer la methode stabilisee au corpus local Assemblee.
 
@@ -431,19 +449,18 @@ Taches :
 
 ## Prochaines taches immediates
 
-1. Selectionner un petit lot local de seances Assemblee.
-2. Parser le lot et produire les sorties structurees.
-3. Appliquer le flux V2 et controler faux positifs, faux negatifs, cas ambigus,
-   couts et volumes.
+1. Parser le corpus local Assemblee.
+2. Produire les exports multi-seances.
+3. Generer les agregations V2 en excluant `is_fallback = true` des metriques
+   substantielles.
 
 ## Ne pas faire maintenant
 
 - pas de D3 ;
-- pas d'extension corpus complet ;
 - pas d'automatisation collecte ;
 - pas de nouvelle taxonomie ;
 - pas de refonte architecture ;
-- pas d'application UI pendant la Phase C.
+- pas d'application UI pendant la Phase D.
 
 ## Points de vigilance
 
