@@ -641,10 +641,30 @@ Note Bloc 2 - donnees heatmap seance :
 
 ### Bloc 3 - Vue detaillee d'une seance
 
-- [ ] Creer ou adapter une heatmap / timeline pour une seule seance.
-- [ ] Utiliser N191 comme seance de simulation.
-- [ ] Prevoir un clic ou une interaction vers les details des passages.
-- [ ] Ne jamais afficher de verdict automatique.
+- [x] Creer ou adapter une heatmap / timeline pour une seule seance.
+- [x] Utiliser N191 comme seance de simulation.
+- [x] Prevoir un clic ou une interaction vers les details des passages.
+- [x] Ne jamais afficher de verdict automatique.
+
+Note Bloc 3 - vue detaillee seance N191 :
+
+- decision : creation d'une vue dediee Phase E, plutot qu'adaptation du pilote
+  historique, pour eviter la confusion entre l'ancien flux lexical et l'export
+  heatmap V2 ;
+- fichiers : `data/exports/d3/assemblee_session_heatmap_n191.html` et
+  `data/exports/d3/assemblee_session_heatmap_n191.json` ;
+- source : `data/interim/assemblee/heatmap_session_n191_v2.json` ;
+- axe : `axis_position` / `ordre`, lu comme ordre de deroulement dans la seance,
+  pas comme duree chronometrique ;
+- couleur : `hors_perimetre / no_signal` neutre, `adjacent` revue moderee,
+  `core` passage a revoir plus visible, fallback technique separe ;
+- interaction : clic, survol ou clavier sur une marque pour afficher ordre,
+  orateur, point / sous-point, extrait, `evidence_span`, `scope_level`,
+  `signal_category`, `confidence`, `review_label`, `needs_human_review` et
+  `is_fallback` ;
+- prudence : libelles de type `signal a revoir`, `passage a revoir`,
+  `aucun signal a revoir`, `fallback technique a revoir`, sans verdict
+  automatique.
 
 ### Bloc 4 - Vue generale inter-seances minimale
 
