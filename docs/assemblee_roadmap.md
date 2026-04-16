@@ -564,7 +564,7 @@ Taches eventuelles :
 
 ## Phase E - Visualisation heatmap seance et suivi inter-seances
 
-Statut : en cours.
+Statut : cloturee pour socle minimal.
 
 Objectif : afficher d'abord une heatmap detaillee d'une seance, puis une vue
 generale inter-seances.
@@ -692,10 +692,54 @@ Note Bloc 4 - vue generale inter-seances minimale :
 
 ### Bloc 5 - Verification editoriale et cloture Phase E
 
-- [ ] Verifier la prudence des libelles.
-- [ ] Verifier que `is_fallback = true` n'est pas compte comme signal substantiel.
-- [ ] Lister ce qui est valide, fragile et reporte.
-- [ ] Declarer explicitement le critere de sortie de Phase E atteint ou non.
+- [x] Verifier la prudence des libelles.
+- [x] Verifier que `is_fallback = true` n'est pas compte comme signal substantiel.
+- [x] Lister ce qui est valide, fragile et reporte.
+- [x] Declarer explicitement le critere de sortie de Phase E atteint ou non.
+
+Note Bloc 5 - verification editoriale et cloture Phase E :
+
+- verification : les vues `data/exports/d3/assemblee_session_heatmap_n191.html`
+  et `data/exports/d3/assemblee_sessions_overview.html` chargent leurs JSON
+  respectifs ; les scripts embarques passent `node --check` ; aucun vocabulaire
+  de verdict ou d'accusation n'a ete releve dans les interfaces HTML ;
+- fallback : `is_fallback = true` reste distinct des signaux substantiels ;
+  dans N191, `non_fallback_items = reviewed_items - fallback_count` et le
+  nombre de fallbacks observe dans `items` est coherent avec `metrics` ; dans
+  la vue inter-seances, `available_analyses = reviewed_items - fallback_count`
+  et les signaux affiches restent inferieurs ou egaux aux analyses disponibles ;
+- critere de sortie Phase E : atteint pour un socle minimal exploitable, non
+  pour un design public final.
+
+Valide :
+
+- vue detaillee N191 exploitable ;
+- vue inter-seances minimale exploitable ;
+- navigation entre vue inter-seances et vue detaillee N191 ;
+- prudence editoriale maintenue ;
+- pas de verdict automatique ;
+- fallback technique distinct des signaux substantiels.
+
+Fragile :
+
+- une seule seance disponible dans la vue inter-seances ;
+- design encore provisoire ;
+- legendes encore a ameliorer ;
+- style difficile a maintenir ;
+- navigation vers une page detail qui pourra etre remplacee plus tard.
+
+Reporte :
+
+- consolidation visuelle ;
+- storytelling public ;
+- legendes heatmap plus lisibles ;
+- integration du detail sous la timeline principale en panneau ou slide ;
+- amelioration du style quand plusieurs seances seront disponibles ;
+- Phase F pour automatisation collecte / nouvelles seances.
+
+Note design a completer : la Phase E valide le socle fonctionnel de
+visualisation, mais le design public reste a consolider ulterieurement
+avant une mise en forme finale.
 
 ## Phase F - Automatisation collecte et detection des nouvelles seances
 
