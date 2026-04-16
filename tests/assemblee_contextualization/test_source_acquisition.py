@@ -4,6 +4,7 @@ import zipfile
 from pathlib import Path
 
 from src.assemblee_contextualization.source_acquisition import (
+    download_zip_archive,
     extract_session_xml_from_zip,
     file_sha256,
     import_session_xml,
@@ -46,6 +47,15 @@ def write_xml(
     return path
 
 
+def zip_bytes(files: dict[str, str]) -> bytes:
+    with tempfile.TemporaryDirectory() as directory:
+        zip_path = Path(directory) / "syseron.xml.zip"
+        with zipfile.ZipFile(zip_path, "w") as archive:
+            for filename, payload in files.items():
+                archive.writestr(filename, payload)
+        return zip_path.read_bytes()
+
+
 class SourceAcquisitionTest(unittest.TestCase):
     def test_file_sha256_is_stable(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -57,6 +67,78 @@ class SourceAcquisitionTest(unittest.TestCase):
                 "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
             )
             self.assertEqual(file_sha256(path), file_sha256(path))
+
+    def test_downloads_zip_archive_with_injected_fetcher(self) -> None:
+        payload = zip_bytes(
+            {
+                "syseron.xml/xml/compteRendu/CRSANR5L17S2026O1N191.xml": XML_TEMPLATE.format(
+                    seance_id="CRSANR5L17S2026O1N191",
+                    raw_date="20260402110000000",
+                    date_label="jeudi 02 avril 2026",
+                    content="",
+                )
+            }
+        )
+
+        with tempfile.TemporaryDirectory() as directory:
+            destination = Path(directory) / "syseron.xml.zip"
+            result = download_zip_archive(
+                "https://example.test/syseron.xml.zip",
+                destination,
+                fetcher=lambda url: payload,
+            )
+
+            self.assertEqual(result.status, "downloaded")
+            self.assertEqual(result.bytes_written, len(payload))
+            self.assertTrue(destination.exists())
+            self.assertEqual(file_sha256(destination), result.content_hash)
+
+    def test_download_zip_archive_reports_unchanged_archive(self) -> None:
+        payload = zip_bytes({"sample.xml": "<root />"})
+
+        with tempfile.TemporaryDirectory() as directory:
+            destination = Path(directory) / "syseron.xml.zip"
+            download_zip_archive("https://example.test/syseron.xml.zip", destination, fetcher=lambda url: payload)
+            result = download_zip_archive(
+                "https://example.test/syseron.xml.zip",
+                destination,
+                fetcher=lambda url: payload,
+            )
+
+            self.assertEqual(result.status, "unchanged")
+
+    def test_download_zip_archive_refuses_different_archive_without_overwrite(self) -> None:
+        first_payload = zip_bytes({"first.xml": "<root />"})
+        second_payload = zip_bytes({"second.xml": "<root />"})
+
+        with tempfile.TemporaryDirectory() as directory:
+            destination = Path(directory) / "syseron.xml.zip"
+            download_zip_archive("https://example.test/syseron.xml.zip", destination, fetcher=lambda url: first_payload)
+
+            with self.assertRaises(FileExistsError):
+                download_zip_archive(
+                    "https://example.test/syseron.xml.zip",
+                    destination,
+                    fetcher=lambda url: second_payload,
+                    overwrite=False,
+                )
+
+    def test_download_zip_archive_rejects_invalid_zip_without_replacing_existing(self) -> None:
+        payload = zip_bytes({"sample.xml": "<root />"})
+
+        with tempfile.TemporaryDirectory() as directory:
+            destination = Path(directory) / "syseron.xml.zip"
+            download_zip_archive("https://example.test/syseron.xml.zip", destination, fetcher=lambda url: payload)
+            before_hash = file_sha256(destination)
+
+            with self.assertRaises(ValueError):
+                download_zip_archive(
+                    "https://example.test/syseron.xml.zip",
+                    destination,
+                    fetcher=lambda url: b"not a zip",
+                )
+
+            self.assertEqual(file_sha256(destination), before_hash)
 
     def test_reads_minimal_session_metadata(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

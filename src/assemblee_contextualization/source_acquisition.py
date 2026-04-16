@@ -3,10 +3,12 @@ from __future__ import annotations
 import hashlib
 import shutil
 import tempfile
+import urllib.request
 import zipfile
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
+from typing import Callable
 import xml.etree.ElementTree as ET
 
 
@@ -32,12 +34,79 @@ class ImportResult:
     status: str
 
 
+@dataclass(frozen=True)
+class DownloadResult:
+    source_url: str
+    destination_path: str
+    content_hash: str
+    bytes_written: int
+    status: str
+
+
 def file_sha256(path: Path) -> str:
     digest = hashlib.sha256()
     with path.open("rb") as file_obj:
         for chunk in iter(lambda: file_obj.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest()
+
+
+def download_zip_archive(
+    source_url: str,
+    destination_path: Path,
+    *,
+    fetcher: Callable[[str], bytes] | None = None,
+    overwrite: bool = True,
+) -> DownloadResult:
+    payload = fetcher(source_url) if fetcher is not None else _fetch_url_bytes(source_url)
+    destination_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with tempfile.NamedTemporaryFile(
+        dir=destination_path.parent,
+        prefix=f".{destination_path.name}.",
+        suffix=".tmp",
+        delete=False,
+    ) as temporary_file:
+        temporary_path = Path(temporary_file.name)
+        temporary_file.write(payload)
+
+    try:
+        _validate_zip_archive(temporary_path)
+        downloaded_hash = file_sha256(temporary_path)
+        bytes_written = temporary_path.stat().st_size
+
+        if destination_path.exists():
+            existing_hash = file_sha256(destination_path)
+            if existing_hash == downloaded_hash:
+                temporary_path.unlink()
+                return DownloadResult(
+                    source_url=source_url,
+                    destination_path=str(destination_path),
+                    content_hash=existing_hash,
+                    bytes_written=destination_path.stat().st_size,
+                    status="unchanged",
+                )
+            if not overwrite:
+                raise FileExistsError(
+                    f"Archive existante differente : {destination_path}. "
+                    "Utiliser overwrite=True pour la remplacer."
+                )
+            status = "updated"
+        else:
+            status = "downloaded"
+
+        temporary_path.replace(destination_path)
+        return DownloadResult(
+            source_url=source_url,
+            destination_path=str(destination_path),
+            content_hash=downloaded_hash,
+            bytes_written=bytes_written,
+            status=status,
+        )
+    except Exception:
+        if temporary_path.exists():
+            temporary_path.unlink()
+        raise
 
 
 def validate_session_xml(path: Path) -> SessionXmlMetadata:
@@ -187,6 +256,21 @@ def _find_zip_member(archive: zipfile.ZipFile, source_file: str) -> str:
     if not basename_matches:
         raise FileNotFoundError(f"{source_file} introuvable dans l'archive.")
     raise ValueError(f"Nom XML ambigu dans l'archive : {source_file}.")
+
+
+def _fetch_url_bytes(source_url: str) -> bytes:
+    request = urllib.request.Request(source_url, headers={"User-Agent": "OBSERVATOIRE/phase-f"})
+    with urllib.request.urlopen(request, timeout=120) as response:
+        return response.read()
+
+
+def _validate_zip_archive(path: Path) -> None:
+    if not zipfile.is_zipfile(path):
+        raise ValueError(f"Archive ZIP invalide : {path}")
+    with zipfile.ZipFile(path) as archive:
+        corrupt_member = archive.testzip()
+    if corrupt_member is not None:
+        raise ValueError(f"Archive ZIP corrompue : {corrupt_member}")
 
 
 def _local_name(tag: str) -> str:

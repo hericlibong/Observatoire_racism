@@ -895,18 +895,66 @@ Note Bloc 3 - import XML minimal :
 
 ### Bloc 4 - Manifest de disponibilite
 
-- [ ] Clarifier le role de `source_manifest.json` par rapport au journal de
+- [x] Clarifier le role de `source_manifest.json` par rapport au journal de
   traitement.
-- [ ] Mettre a jour ou produire un manifest des XML disponibles.
-- [ ] Ajouter les champs necessaires : `source_file`, `seance_id`,
+- [x] Mettre a jour ou produire un manifest des XML disponibles.
+- [x] Ajouter les champs necessaires : `source_file`, `seance_id`,
   `seance_date`, chemin local, statut de disponibilite, empreinte si retenue.
-- [ ] Distinguer disponible, deja traite, ignore et erreur d'import.
-- [ ] Garder le manifest separe des exports V2 et des exports D3.
+- [x] Distinguer disponible, deja traite, ignore et erreur d'import.
+- [x] Garder le manifest separe des exports V2 et des exports D3.
 
 Critere de sortie Bloc 4 :
 
 - le manifest permet de savoir quels XML existent localement et lesquels
   restent candidats au traitement incremental.
+
+Note Bloc 4 - manifest de disponibilite :
+
+- manifest produit : `data/interim/assemblee/source_manifest.json` ;
+- brique ajoutee : `src/assemblee_contextualization/source_manifest.py`, qui
+  lit l'archive locale, materialise les XML retenus dans le stock raw si
+  necessaire, puis ecrit le manifest sans declencher de traitement V2 ;
+- collecte distante reelle executee depuis la source officielle Assemblee
+  nationale ; le ZIP local `data/raw/assemblee/zips/syseron.xml.zip` a ete
+  mis a jour avant regeneration du manifest ;
+- brique de telechargement ajoutee dans
+  `src/assemblee_contextualization/source_acquisition.py` : ecriture atomique,
+  validation ZIP, comparaison de hash, statut `downloaded`, `updated` ou
+  `unchanged` ;
+- regle de seuil : seules les seances avec `dateSeance >= 2026-04-02` sont
+  retenues dans le manifest actif ; les XML anterieurs sont ignores par filtre
+  et ne sont pas backfilles ;
+- resultat apres collecte distante : 486 XML comptes rendus vus dans l'archive,
+  471 ignores avant seuil, 15 seances detectees depuis le seuil ;
+- seance d'ancrage : `CRSANR5L17S2026O1N191.xml`, `2026-04-02`, deja traitee
+  mais marquee en conflit de contenu car l'archive distante actualisee differe
+  du XML local deja journalise ; aucun ecrasement automatique n'est effectue ;
+- nouvelles seances materialisees depuis le ZIP : 14, de
+  `CRSANR5L17S2026O1N192.xml` a `CRSANR5L17S2026O1N205.xml` ;
+- journal V2 : 1 seance deja traitee, `CRSANR5L17S2026O1N191`, statut
+  `success` ;
+- candidates au traitement : 14, `CRSANR5L17S2026O1N192.xml`,
+  `CRSANR5L17S2026O1N193.xml`, `CRSANR5L17S2026O1N194.xml`,
+  `CRSANR5L17S2026O1N195.xml`, `CRSANR5L17S2026O1N196.xml`,
+  `CRSANR5L17S2026O1N197.xml`, `CRSANR5L17S2026O1N198.xml`,
+  `CRSANR5L17S2026O1N199.xml`, `CRSANR5L17S2026O1N200.xml`,
+  `CRSANR5L17S2026O1N201.xml`, `CRSANR5L17S2026O1N202.xml`,
+  `CRSANR5L17S2026O1N203.xml`, `CRSANR5L17S2026O1N204.xml`,
+  `CRSANR5L17S2026O1N205.xml` ;
+- role du manifest : dire quels XML existent et sont disponibles localement,
+  avec hash et statut de disponibilite ; role du journal : dire quelles seances
+  ont reellement ete traitees par V2 ; le manifest ne declenche aucun
+  traitement ;
+- absence de traitement V2 : aucune relance Mistral, aucun run incremental,
+  aucun export V2 ou D3 produit dans ce bloc.
+
+Dette structurelle Phase F :
+
+- le package `assemblee_contextualization` regroupe maintenant collecte,
+  acquisition, inventaire, manifest, journal, contextualisation et
+  visualisation ; ne pas refactoriser pendant la Phase F, mais prevoir un
+  rangement leger apres cloture pour separer les briques collecte/source des
+  briques contextualisation et visualisation.
 
 ### Bloc 5 - Passerelle vers le flux incremental
 
@@ -955,10 +1003,12 @@ Taches :
 
 ## Prochaines taches immediates
 
-1. Identifier la source de collecte des nouveaux XML Assemblee.
-2. Clarifier le role respectif du manifest et du journal de traitement.
-3. Definir un inventaire local capable de dire : nouvelle seance disponible ou
-   rien a traiter.
+1. Preparer la selection controlee de la prochaine seance candidate a traiter,
+   a partir du manifest et du journal.
+2. Tester le mode de verification sans appel modele sur les candidates N192 a
+   N205.
+3. Definir le garde-fou qui empeche de relancer par defaut N191 deja
+   journalisee, surtout en presence du conflit de contenu detecte.
 
 ## Ne pas faire maintenant
 
