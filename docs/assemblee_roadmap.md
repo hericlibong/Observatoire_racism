@@ -858,19 +858,40 @@ Note Bloc 2 - inventaire local et etat du journal :
 
 ### Bloc 3 - Import ou telechargement minimal d'un XML
 
-- [ ] Definir le mode d'acquisition minimal : telechargement si source distante
+- [x] Definir le mode d'acquisition minimal : telechargement si source distante
   stabilisee, sinon import local controle.
-- [ ] Stocker le XML dans l'arborescence raw existante sans casser les chemins
+- [x] Stocker le XML dans l'arborescence raw existante sans casser les chemins
   actuels.
-- [ ] Eviter les doublons par nom de fichier et, si possible, par empreinte de
+- [x] Eviter les doublons par nom de fichier et, si possible, par empreinte de
   contenu.
-- [ ] Verifier que le XML importe est lisible par le parseur Assemblee existant.
-- [ ] Ne pas lancer Mistral ni le flux V2 dans ce bloc.
+- [x] Verifier que le XML importe est lisible par le parseur Assemblee existant.
+- [x] Ne pas lancer Mistral ni le flux V2 dans ce bloc.
 
 Critere de sortie Bloc 3 :
 
 - un nouveau fichier XML peut etre ajoute ou simule proprement dans le stock
   local, sans doublon et sans traitement automatique.
+
+Note Bloc 3 - import XML minimal :
+
+- mode retenu pour ce bloc : import local controle, avec extraction ciblee
+  possible depuis l'archive ZIP locale deja presente ;
+- archive d'entree locale : `data/raw/assemblee/zips/syseron.xml.zip` ;
+- destination XML conservee : `data/raw/assemblee/extracted/syceron_initial_import/syseron.xml/xml/compteRendu`,
+  afin de ne pas casser `SOURCE_DIR` ni les chemins Phase D/E ;
+- brique ajoutee : `src/assemblee_contextualization/source_acquisition.py`,
+  independante des providers, du flux V2, de D3, du manifest et du journal ;
+- regle anti-doublon : meme nom de fichier et meme SHA-256 dans la destination
+  signifie deja present, sans recopie ni traitement ;
+- regle de conflit : meme nom de fichier mais SHA-256 different bloque
+  l'import par defaut ; `overwrite=True` est requis pour remplacer
+  explicitement ;
+- validation XML : fichier parseable, racine `compteRendu` dans le namespace
+  Assemblee attendu, `uid`, `dateSeance`, `dateSeanceJour` et `contenu`
+  presents ;
+- limite du bloc : aucun telechargement distant execute, aucun manifest genere
+  ou modifie, aucun journal modifie, aucune relance Mistral et aucun lancement
+  du flux V2.
 
 ### Bloc 4 - Manifest de disponibilite
 
