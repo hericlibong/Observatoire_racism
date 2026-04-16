@@ -49,14 +49,16 @@ Fait :
 - test A/B N191 / N190 pour observer la robustesse methodologique ;
 - contrat V2 documente et teste avec `scope_level`, `signal_category`,
   `is_fallback`, `needs_human_review`.
+- phases B, C, D et E cloturees : methode V2 stabilisee, petit lot teste,
+  socle incremental simule et visualisation minimale disponible.
 
 En cours :
 
-- Phase E - Visualisation heatmap seance et suivi inter-seances.
+- Phase F - Automatisation collecte et detection des nouvelles seances.
 
 A faire :
 
-- Phase F - Automatisation collecte et detection des nouvelles seances.
+- preparer la suite applicative apres stabilisation du flux incremental.
 
 Explicitement remis a plus tard :
 
@@ -743,7 +745,7 @@ avant une mise en forme finale.
 
 ## Phase F - Automatisation collecte et detection des nouvelles seances
 
-Statut : a faire.
+Statut : en cours.
 
 Objectif : automatiser l'arrivee des nouveaux XML qui alimenteront le flux
 incremental de la Phase D.
@@ -764,6 +766,101 @@ Critere de sortie :
 - manifest mis a jour ;
 - une nouvelle seance peut etre detectee et mise a disposition du flux Phase D.
 
+## Todo actif - Phase F
+
+### Bloc 1 - Cadrage de la source de collecte
+
+- [ ] Identifier la source a utiliser pour recuperer les nouveaux XML.
+- [ ] Distinguer clairement source distante, cache local et fichiers deja
+  extraits.
+- [ ] Definir les informations minimales a conserver pour chaque XML candidat.
+- [ ] Documenter les limites : pas de backfill complet, pas de traitement V2
+  automatique dans ce bloc.
+
+Critere de sortie Bloc 1 :
+
+- une source de collecte est retenue ou, a defaut, une strategie temporaire
+  d'import local est documentee ;
+- les champs minimaux de suivi sont listes avant implementation.
+
+### Bloc 2 - Inventaire local et etat du journal
+
+- [ ] Lire les XML deja disponibles localement.
+- [ ] Lire `data/interim/assemblee/processing_journal_v2.jsonl` si present.
+- [ ] Identifier la derniere seance locale disponible.
+- [ ] Identifier la derniere seance traitee dans le journal.
+- [ ] Savoir conclure explicitement : nouvelle seance disponible ou rien a
+  traiter.
+
+Critere de sortie Bloc 2 :
+
+- une commande ou fonction peut produire un etat sec : dernier XML local,
+  dernier traitement journalise, prochaine seance candidate ou absence de
+  nouveaute.
+
+### Bloc 3 - Import ou telechargement minimal d'un XML
+
+- [ ] Definir le mode d'acquisition minimal : telechargement si source distante
+  stabilisee, sinon import local controle.
+- [ ] Stocker le XML dans l'arborescence raw existante sans casser les chemins
+  actuels.
+- [ ] Eviter les doublons par nom de fichier et, si possible, par empreinte de
+  contenu.
+- [ ] Verifier que le XML importe est lisible par le parseur Assemblee existant.
+- [ ] Ne pas lancer Mistral ni le flux V2 dans ce bloc.
+
+Critere de sortie Bloc 3 :
+
+- un nouveau fichier XML peut etre ajoute ou simule proprement dans le stock
+  local, sans doublon et sans traitement automatique.
+
+### Bloc 4 - Manifest de disponibilite
+
+- [ ] Clarifier le role de `source_manifest.json` par rapport au journal de
+  traitement.
+- [ ] Mettre a jour ou produire un manifest des XML disponibles.
+- [ ] Ajouter les champs necessaires : `source_file`, `seance_id`,
+  `seance_date`, chemin local, statut de disponibilite, empreinte si retenue.
+- [ ] Distinguer disponible, deja traite, ignore et erreur d'import.
+- [ ] Garder le manifest separe des exports V2 et des exports D3.
+
+Critere de sortie Bloc 4 :
+
+- le manifest permet de savoir quels XML existent localement et lesquels
+  restent candidats au traitement incremental.
+
+### Bloc 5 - Passerelle vers le flux incremental
+
+- [ ] Preparer la selection de la prochaine seance a traiter a partir du
+  manifest et du journal.
+- [ ] Produire une commande ou un point d'entree qui passe explicitement la
+  seance candidate au flux V2 existant.
+- [ ] Conserver un mode de verification sans appel modele avant execution
+  reelle.
+- [ ] Garantir que les doublons journalises ne sont pas relances par defaut.
+- [ ] Ne pas modifier le contrat V2, les providers ou la taxonomie.
+
+Critere de sortie Bloc 5 :
+
+- une nouvelle seance disponible peut etre transmise au flux incremental de
+  maniere controlee, avec garde-fou contre les relances involontaires.
+
+### Bloc 6 - Verification et cloture Phase F
+
+- [ ] Tester le cas "aucune nouvelle seance".
+- [ ] Tester le cas "nouveau XML disponible mais non traite".
+- [ ] Tester le cas "XML deja journalise".
+- [ ] Verifier que le manifest et le journal restent coherents.
+- [ ] Lister ce qui est valide, fragile et reporte.
+- [ ] Declarer explicitement le critere de sortie de Phase F atteint ou non.
+
+Critere de sortie Bloc 6 :
+
+- la collecte ou l'import est reproductible ;
+- le manifest est coherent avec le journal ;
+- une nouvelle seance peut etre detectee et mise a disposition du flux Phase D
+  sans backfill complet.
+
 ## Phase G - Application
 
 Statut : remis a plus tard.
@@ -779,18 +876,17 @@ Taches :
 
 ## Prochaines taches immediates
 
-1. Definir le contrat visuel minimal de la heatmap seance a partir de
-   `heatmap_session_n191_v2.json`.
-2. Construire la vue detaillee d'une seance sans verdict automatique.
-3. Preparer ensuite la vue generale inter-seances.
+1. Identifier la source de collecte des nouveaux XML Assemblee.
+2. Clarifier le role respectif du manifest et du journal de traitement.
+3. Definir un inventaire local capable de dire : nouvelle seance disponible ou
+   rien a traiter.
 
 ## Ne pas faire maintenant
 
 - pas de backfill complet du corpus historique local ;
-- pas d'automatisation collecte ;
 - pas de nouvelle taxonomie ;
 - pas de refonte architecture ;
-- pas d'application UI complete pendant la Phase E.
+- pas d'application UI complete pendant la Phase F.
 
 ## Points de vigilance
 
