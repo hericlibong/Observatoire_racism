@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vue inter-séances</title>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f7fb;
+        --panel: #ffffff;
+        --ink: #1f2328;
+        --muted: #5e6673;
+        --line: #d7dce3;
+        --neutral: #d8dee5;
+        --caution: #2a9d8f;
+        --core: #d1495b;
+        --fallback: #6f6a7c;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+      }
+
+      main {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 28px 20px 36px;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: 26px;
+        font-weight: 700;
+      }
+
+      .intro {
+        margin: 0 0 16px;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+      .legend {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 0 0 12px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .legend-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .swatch {
+        width: 14px;
+        height: 14px;
+        border-radius: 3px;
+      }
+
+      .swatch.neutral {
+        background: var(--neutral);
+      }
+
+      .swatch.caution {
+        background: var(--caution);
+      }
+
+      .swatch.core {
+        background: var(--core);
+      }
+
+      .swatch.fallback {
+        background: var(--fallback);
+      }
+
+      .heatmap-zone {
+        position: relative;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px 18px 18px;
+        overflow-x: auto;
+      }
+
+      svg {
+        display: block;
+      }
+
+      .axis text {
+        fill: var(--muted);
+        font-size: 12px;
+      }
+
+      .axis path,
+      .axis line {
+        stroke: transparent;
+      }
+
+      .session-cell {
+        cursor: pointer;
+        stroke: none;
+      }
+
+      .session-cell:hover,
+      .session-cell:focus {
+        outline: none;
+        opacity: 0.85;
+      }
+
+      .tooltip {
+        position: fixed;
+        display: none;
+        padding: 7px 9px;
+        background: #1f2328;
+        border-radius: 6px;
+        color: #ffffff;
+        font-size: 13px;
+        pointer-events: none;
+        line-height: 1.45;
+        min-width: 190px;
+        white-space: pre-line;
+        z-index: 10;
+      }
+
+      @media (max-width: 760px) {
+        main {
+          padding: 22px 14px 28px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Vue inter-séances</h1>
+      <p class="intro">Chaque rectangle représente une séance relue. Cliquez pour ouvrir le détail.</p>
+
+      <div class="legend" aria-label="Légende">
+        <span class="legend-item"><span class="swatch neutral"></span>rien à signaler ici</span>
+        <span class="legend-item"><span class="swatch caution"></span>à lire avec prudence</span>
+        <span class="legend-item"><span class="swatch core"></span>important pour l’observatoire</span>
+        <span class="legend-item"><span class="swatch fallback"></span>analyse non disponible</span>
+      </div>
+
+      <section class="heatmap-zone" aria-label="Vue inter-séances">
+        <svg id="heatmap" width="1120" height="190" role="img"></svg>
+        <div class="tooltip" id="tooltip"></div>
+      </section>
+    </main>
+
+    <script>
+      const jsonPath = "./assemblee_sessions_overview.json";
+
+      const cellWidth = 28;
+      const cellHeight = 66;
+      const cellGap = 12;
+      const margin = { top: 28, right: 32, bottom: 42, left: 46 };
+      const chartHeight = 112;
+
+      const signalCount = (session) =>
+        Number(session.read_with_caution || 0) +
+        Number(session.important_for_observatoire || 0);
+
+      const cellColor = (session) => {
+        if (Number(session.fallback_count || 0) > 0) return "var(--fallback)";
+        if (Number(session.important_for_observatoire || 0) > 0) return "var(--core)";
+        if (signalCount(session) > 0) return "var(--caution)";
+        return "var(--neutral)";
+      };
+
+      const detailHref = (session) =>
+        session.detail_view?.exists && session.detail_view.href
+          ? session.detail_view.href
+          : "";
+
+      const tooltipText = (session) =>
+        `${session.short_label}\n` +
+        `Date : ${session.seance_date_label}\n` +
+        `Passages revus : ${session.reviewed_items}\n` +
+        `Signaux : ${signalCount(session)}`;
+
+      const placeTooltip = (tooltip, x, y) => {
+        const node = tooltip.node();
+        const rect = node.getBoundingClientRect();
+        const padding = 12;
+        const left = Math.min(x, window.innerWidth - rect.width - padding);
+        const top = Math.min(y, window.innerHeight - rect.height - padding);
+        tooltip
+          .style("left", `${Math.max(padding, left)}px`)
+          .style("top", `${Math.max(padding, top)}px`);
+      };
+
+      const showTooltip = (event, session) => {
+        const tooltip = d3.select("#tooltip");
+        tooltip.style("display", "block").text(tooltipText(session));
+        placeTooltip(tooltip, event.clientX + 12, event.clientY + 12);
+      };
+
+      const showTooltipFromNode = (node, session) => {
+        const nodeRect = node.getBoundingClientRect();
+        const tooltip = d3.select("#tooltip");
+        tooltip.style("display", "block").text(tooltipText(session));
+        placeTooltip(tooltip, nodeRect.left, nodeRect.bottom + 8);
+      };
+
+      const hideTooltip = () => {
+        d3.select("#tooltip").style("display", "none");
+      };
+
+      d3.json(jsonPath).then((payload) => {
+        const sessions = [...payload.sessions].sort((a, b) =>
+          d3.ascending(a.seance_date, b.seance_date)
+        );
+
+        const svg = d3.select("#heatmap");
+        const innerWidth = Math.max(980, sessions.length * (cellWidth + cellGap));
+        const width = margin.left + innerWidth + margin.right;
+        svg.attr("width", width);
+
+        const xScale = d3
+          .scalePoint()
+          .domain(sessions.map((session) => session.seance_date))
+          .range([
+            margin.left + cellWidth / 2,
+            margin.left + cellWidth / 2 + Math.max(0, sessions.length - 1) * (cellWidth + cellGap),
+          ]);
+
+        const xAxis = d3
+          .axisBottom(xScale)
+          .tickSize(0)
+          .tickPadding(8)
+          .tickFormat((date) => d3.timeFormat("%d/%m/%Y")(new Date(`${date}T00:00:00`)));
+
+        svg
+          .append("g")
+          .attr("class", "axis")
+          .attr("transform", `translate(0, ${margin.top + chartHeight})`)
+          .call(xAxis);
+
+        const cellX = (session) => {
+          const pointX = xScale(session.seance_date) ?? margin.left + cellWidth / 2;
+          return pointX - cellWidth / 2;
+        };
+
+        svg
+          .selectAll(".session-cell")
+          .data(sessions)
+          .join("rect")
+          .attr("class", "session-cell")
+          .attr("x", cellX)
+          .attr("y", margin.top + (chartHeight - cellHeight) / 2)
+          .attr("width", cellWidth)
+          .attr("height", cellHeight)
+          .attr("rx", 4)
+          .attr("fill", cellColor)
+          .attr("tabindex", 0)
+          .attr("role", "button")
+          .attr(
+            "aria-label",
+            (session) =>
+              `${session.short_label}, ${session.seance_date_label}, ${signalCount(session)} signaux`
+          )
+          .on("mouseenter", showTooltip)
+          .on("mousemove", showTooltip)
+          .on("mouseleave", hideTooltip)
+          .on("focus", function (event, session) {
+            showTooltipFromNode(this, session);
+          })
+          .on("blur", hideTooltip)
+          .on("click", function (event, session) {
+            const href = detailHref(session);
+            if (href) window.location.href = href;
+          })
+          .on("keydown", function (event, session) {
+            if (event.key !== "Enter" && event.key !== " ") return;
+            event.preventDefault();
+            const href = detailHref(session);
+            if (href) window.location.href = href;
+          });
+      });
+    </script>
+  </body>
+</html>
