@@ -825,11 +825,11 @@ Note Bloc 1 - cadrage collecte :
 
 ### Bloc 2 - Inventaire local et etat du journal
 
-- [ ] Lire les XML deja disponibles localement.
-- [ ] Lire `data/interim/assemblee/processing_journal_v2.jsonl` si present.
-- [ ] Identifier la derniere seance locale disponible.
-- [ ] Identifier la derniere seance traitee dans le journal.
-- [ ] Savoir conclure explicitement : nouvelle seance disponible ou rien a
+- [x] Lire les XML deja disponibles localement.
+- [x] Lire `data/interim/assemblee/processing_journal_v2.jsonl` si present.
+- [x] Identifier la derniere seance locale disponible.
+- [x] Identifier la derniere seance traitee dans le journal.
+- [x] Savoir conclure explicitement : nouvelle seance disponible ou rien a
   traiter.
 
 Critere de sortie Bloc 2 :
@@ -837,6 +837,24 @@ Critere de sortie Bloc 2 :
 - une commande ou fonction peut produire un etat sec : dernier XML local,
   dernier traitement journalise, prochaine seance candidate ou absence de
   nouveaute.
+
+Note Bloc 2 - inventaire local et etat du journal :
+
+- capacite ajoutee : `src/assemblee_contextualization/source_inventory.py`,
+  independante des providers et du flux V2, avec `build_local_inventory_status`
+  pour produire un etat sec ;
+- chemin des XML locaux : `data/raw/assemblee/extracted/syceron_initial_import/syseron.xml/xml/compteRendu`,
+  via `SOURCE_DIR` existant ;
+- date seuil appliquee : `dateSeance >= 2026-04-02` ;
+- journal lu si present : `data/interim/assemblee/processing_journal_v2.jsonl` ;
+- derniere seance locale detectee : `CRSANR5L17S2026O1N191.xml`,
+  date `2026-04-02`, libelle `jeudi 02 avril 2026` ;
+- derniere seance journalisee : `CRSANR5L17S2026O1N191`, statut `success` ;
+- conclusion actuelle : aucune nouvelle seance a traiter, car aucune seance
+  locale filtree n'est absente du journal de traitement ;
+- limites : aucun telechargement, aucun appel reseau, aucun manifest modifie,
+  aucun traitement XML complet, aucune relance Mistral et aucun lancement du
+  flux V2 dans ce bloc.
 
 ### Bloc 3 - Import ou telechargement minimal d'un XML
 
