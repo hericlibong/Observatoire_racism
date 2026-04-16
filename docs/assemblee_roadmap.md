@@ -770,11 +770,11 @@ Critere de sortie :
 
 ### Bloc 1 - Cadrage de la source de collecte
 
-- [ ] Identifier la source a utiliser pour recuperer les nouveaux XML.
-- [ ] Distinguer clairement source distante, cache local et fichiers deja
+- [x] Identifier la source a utiliser pour recuperer les nouveaux XML.
+- [x] Distinguer clairement source distante, cache local et fichiers deja
   extraits.
-- [ ] Definir les informations minimales a conserver pour chaque XML candidat.
-- [ ] Documenter les limites : pas de backfill complet, pas de traitement V2
+- [x] Definir les informations minimales a conserver pour chaque XML candidat.
+- [x] Documenter les limites : pas de backfill complet, pas de traitement V2
   automatique dans ce bloc.
 
 Critere de sortie Bloc 1 :
@@ -782,6 +782,46 @@ Critere de sortie Bloc 1 :
 - une source de collecte est retenue ou, a defaut, une strategie temporaire
   d'import local est documentee ;
 - les champs minimaux de suivi sont listes avant implementation.
+
+Note Bloc 1 - cadrage collecte :
+
+- source retenue : source officielle Assemblee nationale
+  `https://data.assemblee-nationale.fr/static/openData/repository/17/vp/syceronbrut/syseron.xml.zip`,
+  archive ZIP complete `syseron.xml.zip`, consideree comme source brute
+  officielle pour les comptes rendus XML ;
+- constat local : un cache ZIP existe deja dans `data/raw/assemblee/zips/` ;
+  les XML deja extraits sont actuellement sous
+  `data/raw/assemblee/extracted/syceron_initial_import/syseron.xml/xml/compteRendu`,
+  chemin repris par `SOURCE_DIR` dans `src/build_assemblee_pilot.py` ; un
+  `data/interim/assemblee/source_manifest.json` existe deja et le journal
+  `data/interim/assemblee/processing_journal_v2.jsonl` contient N191 comme
+  seance traitee ;
+- separation des espaces : source distante officielle ; archive telechargee ou
+  cache local ; XML extraits localement ; manifest de disponibilite ; journal
+  de traitement V2 ;
+- initialisation ponctuelle : importer ou inventorier une seule fois toutes les
+  seances disponibles avec `dateSeance >= 2026-04-02` ; inclure
+  `CRSANR5L17S2026O1N191.xml`, date `2026-04-02`, point d'ancrage deja utilise
+  en simulation Phase D et visualisation Phase E ; ne pas backfiller le flux
+  actif avant le 2 avril 2026 ;
+- regime courant apres initialisation : verifier la source officielle, detecter
+  la derniere seance disponible, comparer avec le manifest et le journal local,
+  recuperer uniquement les seances absentes, et rester capable d'identifier
+  plusieurs nouvelles seances si plusieurs publications arrivent depuis le
+  dernier passage ;
+- champs minimaux a conserver pour chaque XML candidat : `source_url`,
+  `archive_name`, `source_file`, `seance_id`, `seance_date`,
+  `seance_date_label`, `local_path`, `content_hash`, `available_status`,
+  `already_processed`, `journal_status` ;
+- role du manifest : decrire les XML disponibles localement ou detectes, savoir
+  ce qui existe et ce qui est candidat au traitement ; il ne signifie pas que
+  le flux V2 a ete lance ;
+- role du journal : decrire les seances effectivement traitees par le flux V2,
+  eviter les doublons de traitement, conserver exports produits, statuts,
+  erreurs et compteurs ;
+- limite du bloc : aucun telechargement implemente, aucun traitement XML, aucune
+  relance Mistral, aucune modification du pipeline V2, des providers, de D3 ou
+  des exports.
 
 ### Bloc 2 - Inventaire local et etat du journal
 
