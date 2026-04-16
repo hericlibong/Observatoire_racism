@@ -668,10 +668,25 @@ Note Bloc 3 - vue detaillee seance N191 :
 
 ### Bloc 4 - Vue generale inter-seances minimale
 
-- [ ] Definir une structure minimale de listing inter-seances.
-- [ ] Utiliser uniquement les seances journalisees ou les exports disponibles.
-- [ ] Prevoir un lien conceptuel vers la vue detaillee.
-- [ ] Ne pas traiter tout le corpus historique.
+- [x] Definir une structure minimale de listing inter-seances.
+- [x] Utiliser uniquement les seances journalisees ou les exports disponibles.
+- [x] Prevoir un lien conceptuel vers la vue detaillee.
+- [x] Ne pas traiter tout le corpus historique.
+
+Note Bloc 4 - vue generale inter-seances minimale :
+
+- structure retenue : un export de listing `data/exports/d3/assemblee_sessions_overview.json`
+  et une vue D3 simple `data/exports/d3/assemblee_sessions_overview.html` ;
+- source : uniquement `data/interim/assemblee/processing_journal_v2.jsonl` et
+  l'export detaille disponible `data/exports/d3/assemblee_session_heatmap_n191.json` ;
+- contenu actuel : une seance disponible, N191, avec 26 passages relus,
+  26 analyses disponibles hors fallback, 24 passages "rien a signaler ici",
+  2 passages "a lire avec prudence", 0 "important pour l'observatoire" et
+  0 analyse non disponible ;
+- lien : la ligne N191 renvoie vers
+  `data/exports/d3/assemblee_session_heatmap_n191.html` ;
+- limite volontaire : aucun backfill du corpus historique, aucune relance
+  Mistral, aucun changement du flux V2, des providers ou de la taxonomie.
 
 ### Bloc 5 - Verification editoriale et cloture Phase E
 
