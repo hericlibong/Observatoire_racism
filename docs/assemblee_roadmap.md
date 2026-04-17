@@ -1270,6 +1270,53 @@ Note de continuite Bloc 5 - workflow complet N199 :
 - aucun changement de design final, de contrat V2, de provider ou de taxonomie
   n'a ete lance.
 
+Note de continuite Bloc 5 - workflow complet N200 :
+
+- N200 a ete traitee dans le workflow incremental seance par seance :
+  `CRSANR5L17S2026O1N200.xml`, date `2026-04-10` ;
+- dry-run execute sur N200 : statut `available`, `already_processed=false`,
+  `journal_status=not_processed`, exports prevus
+  `data/interim/assemblee/contextual_reviews_incremental_n200_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n200_v2_mistral_summary.json`,
+  sans appel Mistral ni ecriture d'export ;
+- traitement reel execute explicitement sur N200 avec provider `mistral` et
+  `--confirm` ; aucune autre candidate n'a ete traitee ;
+- exports V2 produits :
+  `data/interim/assemblee/contextual_reviews_incremental_n200_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n200_v2_mistral_summary.json` ;
+- journal mis a jour dans `data/interim/assemblee/processing_journal_v2.jsonl`
+  avec une entree `success` pour `CRSANR5L17S2026O1N200`, provider
+  `mistral_v2`, modele `mistral-medium-latest`, 11 sorties relues, 0 fallback,
+  `error=""` ;
+- manifest regenere : N200 est refusee a la relance par defaut car deja
+  journalisee ; N201 a N205 restent candidates ;
+- N200 dispose maintenant d'une vue D3 de detail :
+  `data/exports/d3/assemblee_session_heatmap_n200.html`, alimentee par
+  `data/exports/d3/assemblee_session_heatmap_n200.json` et par l'export
+  intermediaire `data/interim/assemblee/heatmap_session_n200_v2.json` ;
+- la heatmap inter-seances `data/exports/d3/assemblee_sessions_overview.html`
+  affiche desormais uniquement N191, N192, N193, N194, N195, N196, N197,
+  N198, N199 et N200, chacune liee a sa vue de detail ;
+- N201 a N205 restent non traitees et non visualisees dans l'overview tant
+  qu'elles ne disposent pas d'une vue detaillee ;
+- aucun changement de design final, de contrat V2, de provider, de prompt V2
+  ou de taxonomie n'a ete lance.
+
+Dette methodologique reportee apres N205 :
+
+- revoir la sensibilite du systeme aux formulations parlementaires implicites
+  ou euphemisees liees a l'identite, l'appartenance nationale, l'enracinement,
+  la transmission, la terre, le peuple ou la distinction entre "les Francais"
+  et d'autres groupes ;
+- ne pas transformer les partis politiques en declencheurs automatiques ;
+- utiliser ces elements comme indices contextuels seulement lorsqu'ils sont
+  combines a des formulations d'identite, d'appartenance, d'exclusion, de
+  hierarchisation ou de ciblage de groupes ;
+- ne pas modifier le prompt Mistral V2, le lexique ou le contrat pendant le
+  workflow seance par seance en cours.
+
 Dette visualisation reportee :
 
 - enrichir les vues avec les intitules de seance ou sujets ;
