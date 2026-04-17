@@ -38,6 +38,13 @@ def read_processing_journal(path: Path = JOURNAL_PATH) -> list[dict[str, Any]]:
     return entries
 
 
+def append_processing_journal_entry(entry: dict[str, Any], path: Path = JOURNAL_PATH) -> None:
+    _validate_entry(entry, line_number=1)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a", encoding="utf-8") as handle:
+        handle.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
+
 def is_seance_already_processed(seance_id: str, path: Path = JOURNAL_PATH) -> bool:
     return any(
         entry.get("seance_id") == seance_id and entry.get("status") == "success"

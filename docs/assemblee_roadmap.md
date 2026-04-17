@@ -958,19 +958,51 @@ Dette structurelle Phase F :
 
 ### Bloc 5 - Passerelle vers le flux incremental
 
-- [ ] Preparer la selection de la prochaine seance a traiter a partir du
+- [x] Preparer la selection de la prochaine seance a traiter a partir du
   manifest et du journal.
-- [ ] Produire une commande ou un point d'entree qui passe explicitement la
+- [x] Produire une commande ou un point d'entree qui passe explicitement la
   seance candidate au flux V2 existant.
-- [ ] Conserver un mode de verification sans appel modele avant execution
+- [x] Conserver un mode de verification sans appel modele avant execution
   reelle.
-- [ ] Garantir que les doublons journalises ne sont pas relances par defaut.
-- [ ] Ne pas modifier le contrat V2, les providers ou la taxonomie.
+- [x] Garantir que les doublons journalises ne sont pas relances par defaut.
+- [x] Ne pas modifier le contrat V2, les providers ou la taxonomie.
 
 Critere de sortie Bloc 5 :
 
 - une nouvelle seance disponible peut etre transmise au flux incremental de
   maniere controlee, avec garde-fou contre les relances involontaires.
+
+Note Bloc 5 - passerelle incremental V2 :
+
+- workflow retenu : traitement incremental seance par seance, jamais en batch
+  automatique sur toutes les candidates ;
+- point d'entree ajoute : `src/assemblee_contextualization/run_incremental_session_v2.py`,
+  avec selection explicite par `--source-file`, mode `--dry-run` sans appel
+  provider, et execution reelle uniquement avec `--confirm` ;
+- premiere candidate traitee : `CRSANR5L17S2026O1N192.xml`, date
+  `2026-04-07`, disponible dans le manifest, non journalisee avant execution ;
+- dry-run execute sur N192 : statut `available`, `already_processed=false`,
+  `journal_status=not_processed`, exports prevus
+  `data/interim/assemblee/contextual_reviews_incremental_n192_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n192_v2_mistral_summary.json`,
+  sans appel Mistral ni traitement V2 ;
+- traitement reel execute explicitement sur N192 avec provider `mistral` et
+  `--confirm` ; aucune autre candidate n'a ete traitee ;
+- exports produits :
+  `data/interim/assemblee/contextual_reviews_incremental_n192_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n192_v2_mistral_summary.json` ;
+- journal mis a jour dans `data/interim/assemblee/processing_journal_v2.jsonl`
+  avec une entree `success` pour `CRSANR5L17S2026O1N192`, provider
+  `mistral_v2`, modele `mistral-medium-latest`, 4 sorties relues, 0 fallback,
+  `error=""` ;
+- verification post-traitement : N192 est refusee a la relance par defaut car
+  deja journalisee ; le manifest regenere indique 13 candidates restantes, de
+  `CRSANR5L17S2026O1N193.xml` a `CRSANR5L17S2026O1N205.xml` ;
+- N191 n'est pas relancee : elle reste refusee par la passerelle car son statut
+  manifest est `conflict` et elle est deja journalisee ;
+- contrat V2, providers, taxonomie, D3 et exports de visualisation inchanges.
 
 ### Bloc 6 - Verification et cloture Phase F
 
