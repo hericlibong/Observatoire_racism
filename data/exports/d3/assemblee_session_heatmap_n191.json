@@ -1,6 +1,6 @@
 {
   "export_type": "assemblee_heatmap_session_v2",
-  "editorial_policy": "signal à revoir, jamais verdict automatique",
+  "editorial_policy": "signal à revoir, sans jugement automatique",
   "fallbacks_excluded_from_substantive_metrics": true,
   "session": {
     "seance_id": "CRSANR5L17S2026O1N191",

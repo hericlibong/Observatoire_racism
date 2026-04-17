@@ -1004,6 +1004,22 @@ Note Bloc 5 - passerelle incremental V2 :
   manifest est `conflict` et elle est deja journalisee ;
 - contrat V2, providers, taxonomie, D3 et exports de visualisation inchanges.
 
+Note de continuite visualisation post-traitement N192 :
+
+- N192 dispose maintenant d'une vue D3 de detail :
+  `data/exports/d3/assemblee_session_heatmap_n192.html`, alimentee par
+  `data/exports/d3/assemblee_session_heatmap_n192.json` et par l'export
+  intermediaire `data/interim/assemblee/heatmap_session_n192_v2.json` ;
+- la heatmap inter-seances `data/exports/d3/assemblee_sessions_overview.html`
+  affiche desormais N191 et N192, chacune liee a sa vue de detail ;
+- N193 a N205 restent candidates dans le manifest mais ne sont pas visualisees
+  dans l'overview tant qu'elles ne sont pas traitees et ne disposent pas d'une
+  vue detaillee ;
+- le design D3 reste provisoire et sera consolide plus tard ;
+- aucune relance Mistral, aucun traitement N193-N205, aucun changement du
+  contrat V2, des providers ou de la taxonomie n'a ete effectue pour cette
+  etape.
+
 ### Bloc 6 - Verification et cloture Phase F
 
 - [ ] Tester le cas "aucune nouvelle seance".

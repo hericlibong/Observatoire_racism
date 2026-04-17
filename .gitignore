@@ -41,6 +41,8 @@ data/exports/d3/*
 !data/exports/d3/assemblee_pilot_timeline.json
 !data/exports/d3/assemblee_session_heatmap_n191.html
 !data/exports/d3/assemblee_session_heatmap_n191.json
+!data/exports/d3/assemblee_session_heatmap_n192.html
+!data/exports/d3/assemblee_session_heatmap_n192.json
 !data/exports/d3/assemblee_sessions_overview.html
 !data/exports/d3/assemblee_sessions_overview.json
 

@@ -14,7 +14,7 @@ DEFAULT_REVIEW_PATH = (
     ROOT_DIR / "data/interim/assemblee/contextual_reviews_phase_d_simulation_n191_v2_mistral.jsonl"
 )
 DEFAULT_OUTPUT_PATH = ROOT_DIR / "data/interim/assemblee/heatmap_session_n191_v2.json"
-EDITORIAL_POLICY = "signal \u00e0 revoir, jamais verdict automatique"
+EDITORIAL_POLICY = "signal \u00e0 revoir, sans jugement automatique"
 
 
 def build_heatmap_session_payload(
@@ -29,6 +29,7 @@ def build_heatmap_session_payload(
     items.sort(key=lambda item: (item["ordre"], item["intervention_id"]))
 
     fallback_count = sum(item["is_fallback"] for item in items)
+    non_fallback_items = [item for item in items if not item["is_fallback"]]
     orders = [item["ordre"] for item in items]
     return {
         "export_type": "assemblee_heatmap_session_v2",
@@ -56,6 +57,7 @@ def build_heatmap_session_payload(
             "substantive_items": len(items) - fallback_count,
         },
         "items": items,
+        "non_fallback_items": non_fallback_items,
     }
 
 
@@ -80,12 +82,82 @@ def write_heatmap_session_export(
     return payload
 
 
+def build_sessions_overview_payload(
+    heatmap_payloads: list[Mapping[str, Any]],
+    *,
+    detail_hrefs: Mapping[str, str],
+    generated_from: list[str],
+) -> dict[str, Any]:
+    sessions = []
+    for payload in heatmap_payloads:
+        session = payload["session"]
+        source_file = str(session["source_file"])
+        href = detail_hrefs.get(source_file, "")
+        if not href:
+            continue
+        sessions.append(_overview_session_from_heatmap(payload, href))
+
+    sessions.sort(key=lambda item: (item["seance_date"], item["source_file"]))
+    return {
+        "export_type": "assemblee_sessions_overview_v1",
+        "editorial_policy": "guide de lecture, sans jugement automatique",
+        "source_policy": "séances journalisées ou exports disponibles uniquement",
+        "generated_from": generated_from,
+        "labels": {
+            "nothing_to_report": "rien à signaler ici",
+            "read_with_caution": "à lire avec prudence",
+            "important_for_observatoire": "important pour l’observatoire",
+            "analysis_unavailable": "analyse non disponible",
+        },
+        "sessions": sessions,
+    }
+
+
+def write_sessions_overview_export(
+    payload: Mapping[str, Any],
+    output_path: Path,
+) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def _journal_entry_for_source(source_file: str, journal_path: Path) -> dict[str, Any]:
     seance_id = Path(source_file).stem
     for entry in read_processing_journal(journal_path):
         if entry["source_file"] == source_file or entry["seance_id"] == seance_id:
             return entry
     raise ValueError(f"Seance absente du journal : {source_file}")
+
+
+def _overview_session_from_heatmap(payload: Mapping[str, Any], href: str) -> dict[str, Any]:
+    session = payload["session"]
+    metrics = payload["metrics"]
+    items = list(payload["items"])
+    non_fallback_items = list(payload.get("non_fallback_items") or [item for item in items if not item["is_fallback"]])
+    source_file = str(session["source_file"])
+    return {
+        "seance_id": str(session["seance_id"]),
+        "short_label": _short_label(source_file),
+        "source_file": source_file,
+        "seance_date": str(session["seance_date"]),
+        "seance_date_label": str(session["seance_date_label"]),
+        "processed_at": str(session["processed_at"]),
+        "status": "success",
+        "reviewed_items": int(metrics["reviewed_items"]),
+        "available_analyses": int(metrics["non_fallback_items"]),
+        "nothing_to_report": sum(
+            item["scope_level"] == "hors_perimetre" and item["signal_category"] == "no_signal"
+            for item in non_fallback_items
+        ),
+        "read_with_caution": sum(item["scope_level"] == "adjacent" for item in non_fallback_items),
+        "important_for_observatoire": sum(item["scope_level"] == "core" for item in non_fallback_items),
+        "fallback_count": int(metrics["fallback_count"]),
+        "detail_view": {
+            "exists": True,
+            "href": href,
+            "label": "Ouvrir la vue détaillée",
+        },
+    }
 
 
 def _heatmap_item(
@@ -126,6 +198,13 @@ def _review_label(output: ContextualReviewOutputV2) -> str:
     if output.needs_human_review:
         return "signal \u00e0 revoir"
     return "aucun signal \u00e0 revoir"
+
+
+def _short_label(source_file: str) -> str:
+    match = re.search(r"N(\d+)\.xml$", source_file)
+    if match:
+        return f"N{match.group(1)}"
+    return Path(source_file).stem
 
 
 def _excerpt(text: str, max_length: int = 280) -> str:
