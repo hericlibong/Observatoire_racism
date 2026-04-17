@@ -1102,6 +1102,45 @@ Note de continuite Bloc 5 - workflow complet N194 :
 - le design reste provisoire et aucun changement du contrat V2, des providers
   ou de la taxonomie n'a ete lance.
 
+Note de continuite Bloc 5 - workflow complet N195 :
+
+- N195 a ete traitee dans le workflow incremental seance par seance :
+  `CRSANR5L17S2026O1N195.xml`, date `2026-04-08` ;
+- dry-run execute sur N195 : statut `available`, `already_processed=false`,
+  `journal_status=not_processed`, exports prevus
+  `data/interim/assemblee/contextual_reviews_incremental_n195_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n195_v2_mistral_summary.json`,
+  sans appel Mistral ni ecriture d'export ;
+- traitement reel execute explicitement sur N195 avec provider `mistral` et
+  `--confirm` ; aucune autre candidate n'a ete traitee ;
+- exports V2 produits :
+  `data/interim/assemblee/contextual_reviews_incremental_n195_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n195_v2_mistral_summary.json` ;
+- journal mis a jour dans `data/interim/assemblee/processing_journal_v2.jsonl`
+  avec une entree `success` pour `CRSANR5L17S2026O1N195`, provider
+  `mistral_v2`, modele `mistral-medium-latest`, 12 sorties relues, 0 fallback,
+  `error=""` ;
+- manifest regenere : N195 est refusee a la relance par defaut car deja
+  journalisee ; N196 a N205 restent candidates ;
+- N195 dispose maintenant d'une vue D3 de detail :
+  `data/exports/d3/assemblee_session_heatmap_n195.html`, alimentee par
+  `data/exports/d3/assemblee_session_heatmap_n195.json` et par l'export
+  intermediaire `data/interim/assemblee/heatmap_session_n195_v2.json` ;
+- la heatmap inter-seances `data/exports/d3/assemblee_sessions_overview.html`
+  affiche desormais uniquement N191, N192, N193, N194 et N195, chacune liee a
+  sa vue de detail ;
+- N196 a N205 restent non traitees et non visualisees dans l'overview tant
+  qu'elles ne disposent pas d'une vue detaillee.
+
+Dette visualisation reportee :
+
+- enrichir les vues avec les intitules de seance ou sujets ;
+- rendre plus visibles les passages reperes dans les extraits ;
+- mieux expliciter les signaux ou passages relus sans alourdir la vue ;
+- reporter ces ameliorations apres l'avancement du workflow seance par seance.
+
 ### Bloc 6 - Verification et cloture Phase F
 
 - [ ] Tester le cas "aucune nouvelle seance".

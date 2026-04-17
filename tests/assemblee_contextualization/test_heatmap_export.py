@@ -260,13 +260,30 @@ class HeatmapExportTest(unittest.TestCase):
             "no_signal",
         )
 
+        n196_payload = self._minimal_heatmap_payload(
+            "CRSANR5L17S2026O1N196.xml",
+            "CRSANR5L17S2026O1N196",
+            "2026-04-08",
+            "mercredi 08 avril 2026",
+            "hors_perimetre",
+            "no_signal",
+        )
+
         overview = build_sessions_overview_payload(
-            [n191_payload, n192_payload, n193_payload, n194_payload, n195_payload],
+            [
+                n191_payload,
+                n192_payload,
+                n193_payload,
+                n194_payload,
+                n195_payload,
+                n196_payload,
+            ],
             detail_hrefs={
                 "CRSANR5L17S2026O1N191.xml": "./assemblee_session_heatmap_n191.html",
                 "CRSANR5L17S2026O1N192.xml": "./assemblee_session_heatmap_n192.html",
                 "CRSANR5L17S2026O1N193.xml": "./assemblee_session_heatmap_n193.html",
                 "CRSANR5L17S2026O1N194.xml": "./assemblee_session_heatmap_n194.html",
+                "CRSANR5L17S2026O1N195.xml": "./assemblee_session_heatmap_n195.html",
             },
             generated_from=["test"],
         )
@@ -278,11 +295,13 @@ class HeatmapExportTest(unittest.TestCase):
                 "CRSANR5L17S2026O1N192.xml",
                 "CRSANR5L17S2026O1N193.xml",
                 "CRSANR5L17S2026O1N194.xml",
+                "CRSANR5L17S2026O1N195.xml",
             ],
         )
         self.assertEqual(overview["sessions"][0]["read_with_caution"], 1)
         self.assertEqual(overview["sessions"][1]["nothing_to_report"], 1)
         self.assertEqual(overview["sessions"][3]["nothing_to_report"], 1)
+        self.assertEqual(overview["sessions"][4]["nothing_to_report"], 1)
         self.assertEqual(
             {
                 session["source_file"]: session["detail_view"]["href"]
@@ -293,9 +312,10 @@ class HeatmapExportTest(unittest.TestCase):
                 "CRSANR5L17S2026O1N192.xml": "./assemblee_session_heatmap_n192.html",
                 "CRSANR5L17S2026O1N193.xml": "./assemblee_session_heatmap_n193.html",
                 "CRSANR5L17S2026O1N194.xml": "./assemblee_session_heatmap_n194.html",
+                "CRSANR5L17S2026O1N195.xml": "./assemblee_session_heatmap_n195.html",
             },
         )
-        self.assertNotIn("CRSANR5L17S2026O1N195.xml", str(overview))
+        self.assertNotIn("CRSANR5L17S2026O1N196.xml", str(overview))
 
     def test_overview_html_uses_sequential_heatmap_cells(self) -> None:
         html = Path("data/exports/d3/assemblee_sessions_overview.html").read_text(
