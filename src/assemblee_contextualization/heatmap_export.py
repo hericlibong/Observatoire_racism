@@ -15,6 +15,14 @@ DEFAULT_REVIEW_PATH = (
 )
 DEFAULT_OUTPUT_PATH = ROOT_DIR / "data/interim/assemblee/heatmap_session_n191_v2.json"
 EDITORIAL_POLICY = "signal \u00e0 revoir, sans jugement automatique"
+PUBLIC_DISPLAY_REPLACEMENTS = (
+    (re.compile(r"\bsignal valid[eé]\b", re.IGNORECASE), "signal"),
+    (re.compile(r"\bpropos raciste(s)?\b", re.IGNORECASE), "propos"),
+    (re.compile(r"\bpropos haineux\b", re.IGNORECASE), "propos"),
+    (re.compile(r"\balerte(s)?\b", re.IGNORECASE), "repère"),
+    (re.compile(r"\bfaute(s)?\b", re.IGNORECASE), "[terme du passage]"),
+    (re.compile(r"\bverdict(s)?\b", re.IGNORECASE), "lecture"),
+)
 
 
 def build_heatmap_session_payload(
@@ -181,8 +189,8 @@ def _heatmap_item(
         "orateur_nom": str(row.get("orateur_nom", "")),
         "point_titre": str(row.get("point_titre", "")),
         "sous_point_titre": str(row.get("sous_point_titre", "")),
-        "excerpt": _excerpt(str(row.get("texte", ""))),
-        "evidence_span": output.evidence_span,
+        "excerpt": _public_display_text(_excerpt(str(row.get("texte", "")))),
+        "evidence_span": _public_display_text(output.evidence_span),
         "scope_level": output.scope_level.value,
         "signal_category": output.signal_category.value,
         "confidence": output.confidence.value,
@@ -212,6 +220,13 @@ def _excerpt(text: str, max_length: int = 280) -> str:
     if len(normalized) <= max_length:
         return normalized
     return normalized[: max_length - 1].rstrip() + "\u2026"
+
+
+def _public_display_text(text: str) -> str:
+    value = text
+    for pattern, replacement in PUBLIC_DISPLAY_REPLACEMENTS:
+        value = pattern.sub(replacement, value)
+    return value
 
 
 def _as_int(value: Any) -> int:

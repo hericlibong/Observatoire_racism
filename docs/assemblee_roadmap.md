@@ -1020,6 +1020,40 @@ Note de continuite visualisation post-traitement N192 :
   contrat V2, des providers ou de la taxonomie n'a ete effectue pour cette
   etape.
 
+Note de continuite Bloc 5 - workflow complet N193 :
+
+- N193 a ete traitee dans le workflow incremental seance par seance :
+  `CRSANR5L17S2026O1N193.xml`, date `2026-04-07` ;
+- dry-run execute sur N193 : statut `available`, `already_processed=false`,
+  `journal_status=not_processed`, exports prevus
+  `data/interim/assemblee/contextual_reviews_incremental_n193_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n193_v2_mistral_summary.json`,
+  sans appel Mistral ni ecriture d'export ;
+- traitement reel execute explicitement sur N193 avec provider `mistral` et
+  `--confirm` ; aucune autre candidate n'a ete traitee ;
+- exports V2 produits :
+  `data/interim/assemblee/contextual_reviews_incremental_n193_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n193_v2_mistral_summary.json` ;
+- journal mis a jour dans `data/interim/assemblee/processing_journal_v2.jsonl`
+  avec une entree `success` pour `CRSANR5L17S2026O1N193`, provider
+  `mistral_v2`, modele `mistral-medium-latest`, 13 sorties relues, 0 fallback,
+  `error=""` ;
+- manifest regenere : N193 est refusee a la relance par defaut car deja
+  journalisee ; N194 a N205 restent candidates ;
+- N193 dispose maintenant d'une vue D3 de detail :
+  `data/exports/d3/assemblee_session_heatmap_n193.html`, alimentee par
+  `data/exports/d3/assemblee_session_heatmap_n193.json` et par l'export
+  intermediaire `data/interim/assemblee/heatmap_session_n193_v2.json` ;
+- la heatmap inter-seances `data/exports/d3/assemblee_sessions_overview.html`
+  affiche desormais uniquement N191, N192 et N193, chacune liee a sa vue de
+  detail ;
+- N194 a N205 restent non traitees et non visualisees dans l'overview tant
+  qu'elles ne disposent pas d'une vue detaillee ;
+- aucune refonte design, aucun changement du contrat V2, des providers ou de
+  la taxonomie n'a ete lance.
+
 ### Bloc 6 - Verification et cloture Phase F
 
 - [ ] Tester le cas "aucune nouvelle seance".

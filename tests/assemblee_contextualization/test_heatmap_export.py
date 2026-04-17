@@ -78,6 +78,51 @@ class HeatmapExportTest(unittest.TestCase):
         self.assertEqual(item["review_label"], "signal \u00e0 revoir")
         self.assertNotIn("valid\u00e9", item["review_label"])
 
+    def test_masks_verdict_terms_in_public_display_snippets(self) -> None:
+        payload = build_heatmap_session_payload(
+            source_file="CRSANR5L17S2026O1N193.xml",
+            journal_entry={
+                "seance_id": "CRSANR5L17S2026O1N193",
+                "source_file": "CRSANR5L17S2026O1N193.xml",
+                "seance_date": "2026-04-07",
+                "seance_date_label": "mardi 07 avril 2026",
+                "processed_at": "2026-04-17T13:50:23+02:00",
+                "provider": "mistral_v2",
+                "model_name": "mistral-medium-latest",
+            },
+            interventions=[
+                {
+                    "intervention_id": "CRSANR5L17S2026O1N193_1",
+                    "seance_id": "CRSANR5L17S2026O1N193",
+                    "ordre": 1,
+                    "orateur_nom": "",
+                    "point_titre": "",
+                    "sous_point_titre": "",
+                    "texte": "Ce passage parle d'une faute institutionnelle.",
+                }
+            ],
+            outputs=[
+                ContextualReviewOutputV2(
+                    candidate_id="CRSANR5L17S2026O1N193_1",
+                    scope_level=ScopeLevel.HORS_PERIMETRE,
+                    signal_category=SignalCategory.NO_SIGNAL,
+                    is_fallback=False,
+                    needs_human_review=False,
+                    confidence=Confidence.HIGH,
+                    rationale="Aucun ancrage.",
+                    evidence_span="une faute institutionnelle",
+                    limits=["Analyse locale."],
+                    model_provider="mistral_v2",
+                    model_name="mistral-medium-latest",
+                )
+            ],
+        )
+
+        item = payload["items"][0]
+        self.assertNotIn("faute", item["excerpt"].lower())
+        self.assertNotIn("faute", item["evidence_span"].lower())
+        self.assertIn("[terme du passage]", item["evidence_span"])
+
     def test_keeps_fallback_visible_but_out_of_substantive_metrics(self) -> None:
         payload = build_heatmap_session_payload(
             source_file="CRSANR5L17S2026O1N191.xml",
@@ -196,22 +241,36 @@ class HeatmapExportTest(unittest.TestCase):
             "no_signal",
         )
 
+        n194_payload = self._minimal_heatmap_payload(
+            "CRSANR5L17S2026O1N194.xml",
+            "CRSANR5L17S2026O1N194",
+            "2026-04-07",
+            "mardi 07 avril 2026",
+            "hors_perimetre",
+            "no_signal",
+        )
+
         overview = build_sessions_overview_payload(
-            [n191_payload, n192_payload, n193_payload],
+            [n191_payload, n192_payload, n193_payload, n194_payload],
             detail_hrefs={
                 "CRSANR5L17S2026O1N191.xml": "./assemblee_session_heatmap_n191.html",
                 "CRSANR5L17S2026O1N192.xml": "./assemblee_session_heatmap_n192.html",
+                "CRSANR5L17S2026O1N193.xml": "./assemblee_session_heatmap_n193.html",
             },
             generated_from=["test"],
         )
 
         self.assertEqual(
             [session["source_file"] for session in overview["sessions"]],
-            ["CRSANR5L17S2026O1N191.xml", "CRSANR5L17S2026O1N192.xml"],
+            [
+                "CRSANR5L17S2026O1N191.xml",
+                "CRSANR5L17S2026O1N192.xml",
+                "CRSANR5L17S2026O1N193.xml",
+            ],
         )
         self.assertEqual(overview["sessions"][0]["read_with_caution"], 1)
         self.assertEqual(overview["sessions"][1]["nothing_to_report"], 1)
-        self.assertNotIn("CRSANR5L17S2026O1N193.xml", str(overview))
+        self.assertNotIn("CRSANR5L17S2026O1N194.xml", str(overview))
 
     @staticmethod
     def _minimal_heatmap_payload(
