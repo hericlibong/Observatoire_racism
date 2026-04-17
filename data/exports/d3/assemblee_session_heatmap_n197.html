@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Carte des passages relus - N197</title>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f7fb;
+        --panel: #ffffff;
+        --ink: #1f2328;
+        --muted: #5e6673;
+        --line: #d7dce3;
+        --neutral: #d8dee5;
+        --adjacent: #2a9d8f;
+        --core: #d1495b;
+        --fallback: #6f6a7c;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+      }
+
+      main {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 28px 20px 36px;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: 26px;
+        font-weight: 700;
+      }
+
+      p {
+        margin: 0 0 16px;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+      .meta {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+        margin-bottom: 16px;
+      }
+
+      .meta-item {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 10px 12px;
+      }
+
+      .meta-label {
+        display: block;
+        color: var(--muted);
+        font-size: 12px;
+        margin-bottom: 4px;
+      }
+
+      .meta-value {
+        display: block;
+        font-size: 15px;
+        font-weight: 700;
+      }
+
+      .chart-area {
+        position: relative;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 12px 14px 14px;
+        overflow-x: auto;
+      }
+
+      svg {
+        display: block;
+      }
+
+      .axis path,
+      .axis line {
+        stroke: var(--line);
+      }
+
+      .axis text {
+        fill: var(--muted);
+        font-size: 12px;
+      }
+
+      .axis-note,
+      .legend {
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.5;
+        margin-top: 8px;
+      }
+
+      .legend {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 12px;
+      }
+
+      .legend-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .swatch {
+        width: 14px;
+        height: 14px;
+        border-radius: 4px;
+        border: 1px solid var(--line);
+      }
+
+      .detail {
+        margin-top: 16px;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 14px 16px;
+        min-height: 150px;
+      }
+
+      .detail h2 {
+        margin: 0 0 10px;
+        font-size: 18px;
+      }
+
+      .detail-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px 18px;
+      }
+
+      .detail-label {
+        color: var(--muted);
+        display: block;
+        font-size: 12px;
+        margin-bottom: 3px;
+      }
+
+      .detail-value {
+        line-height: 1.45;
+      }
+
+      @media (max-width: 760px) {
+        main {
+          padding: 22px 14px 28px;
+        }
+
+        .meta,
+        .detail-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Carte des passages relus - N197</h1>
+      <p>
+        Chaque marque est un passage relu. Les couleurs aident à savoir quoi
+        lire en priorité. Cette carte sert à guider la lecture, elle ne juge
+        pas les propos.
+      </p>
+
+      <section class="meta" id="meta"></section>
+
+      <section class="chart-area" aria-label="Carte intra-séance N197">
+        <svg id="chart" width="1120" height="178" role="img"></svg>
+        <div class="axis-note" id="axis-note"></div>
+        <div class="legend" id="legend"></div>
+      </section>
+
+      <section class="detail" id="detail" aria-live="polite">
+        <h2>Détail du passage</h2>
+        <p>Sélectionner une marque pour afficher les informations de lecture.</p>
+      </section>
+    </main>
+
+    <script>
+      const jsonPath = "./assemblee_session_heatmap_n197.json";
+
+      const colorForItem = (item) => {
+        if (item.is_fallback) return "#6f6a7c";
+        if (item.scope_level === "core") return "#d1495b";
+        if (item.scope_level === "adjacent") return "#2a9d8f";
+        return "#d8dee5";
+      };
+
+      const publicLabelForItem = (item) => {
+        if (item.is_fallback) return "analyse non disponible";
+        if (item.scope_level === "core") return "important pour l’observatoire";
+        if (item.scope_level === "adjacent") return "à lire avec prudence";
+        return "rien à signaler ici";
+      };
+
+      const publicCategoryForItem = (item) => {
+        if (item.is_fallback) return "analyse non disponible";
+        if (item.signal_category === "no_signal") return "rien à signaler ici";
+        return "passage à relire dans son contexte";
+      };
+
+      const publicConfidenceForItem = (item) => {
+        const labels = {
+          high: "élevée",
+          medium: "moyenne",
+          low: "faible",
+        };
+        return labels[item.confidence] || item.confidence;
+      };
+
+      const escapeHtml = (value) =>
+        String(value ?? "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+
+      const detailLine = (label, value) => `
+        <div>
+          <span class="detail-label">${label}</span>
+          <div class="detail-value">${escapeHtml(value || "Non renseigné")}</div>
+        </div>
+      `;
+
+      d3.json(jsonPath).then((payload) => {
+        const items = [...payload.items].sort((a, b) =>
+          d3.ascending(Number(a.axis_position), Number(b.axis_position))
+        );
+        const session = payload.session;
+        const metrics = payload.metrics;
+
+        d3.select("#meta").html(`
+          <div class="meta-item">
+            <span class="meta-label">Séance</span>
+            <span class="meta-value">${escapeHtml(session.seance_id)}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Date</span>
+            <span class="meta-value">${escapeHtml(session.seance_date_label)}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Passages relus</span>
+            <span class="meta-value">${metrics.reviewed_items}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Analyses disponibles</span>
+            <span class="meta-value">${metrics.non_fallback_items}</span>
+          </div>
+        `);
+
+        d3.select("#axis-note").text(
+          "L’axe suit l’ordre de la séance, pas le temps écoulé."
+        );
+
+        const legendItems = [
+          ["rien à signaler ici", "#d8dee5"],
+          ["à lire avec prudence", "#2a9d8f"],
+          ["important pour l’observatoire", "#d1495b"],
+          ["analyse non disponible", "#6f6a7c"],
+        ];
+        d3.select("#legend")
+          .selectAll("span")
+          .data(legendItems)
+          .join("span")
+          .attr("class", "legend-item")
+          .html(
+            ([label, color]) =>
+              `<span class="swatch" style="background:${color}"></span>${escapeHtml(label)}`
+          );
+
+        const svg = d3.select("#chart");
+        const width = 1120;
+        const height = 178;
+        const margin = { top: 20, right: 28, bottom: 32, left: 28 };
+        const barY = 54;
+        const barHeight = 58;
+        const chartWidth = width - margin.left - margin.right;
+        const axisY = barY + barHeight + 14;
+
+        svg.attr("height", height);
+
+        const x = d3
+          .scaleLinear()
+          .domain(d3.extent(items, (item) => Number(item.axis_position)))
+          .range([margin.left, width - margin.right]);
+
+        svg
+          .append("rect")
+          .attr("x", margin.left)
+          .attr("y", barY - 9)
+          .attr("width", chartWidth)
+          .attr("height", barHeight + 18)
+          .attr("rx", 6)
+          .attr("fill", "#f1f4f7")
+          .attr("stroke", "#e1e6ed")
+          .attr("stroke-width", 1);
+
+        svg
+          .append("g")
+          .attr("class", "axis")
+          .attr("transform", `translate(0, ${axisY})`)
+          .call(d3.axisBottom(x).ticks(10).tickFormat(d3.format("d")));
+
+        svg
+          .append("line")
+          .attr("x1", margin.left)
+          .attr("x2", width - margin.right)
+          .attr("y1", barY + barHeight / 2)
+          .attr("y2", barY + barHeight / 2)
+          .attr("stroke", "#aeb7c2")
+          .attr("stroke-width", 2)
+          .attr("stroke-linecap", "round");
+
+        svg
+          .append("text")
+          .attr("x", margin.left)
+          .attr("y", 24)
+          .attr("fill", "#5e6673")
+          .attr("font-size", 13)
+          .text("Sélectionner une marque pour lire le détail du passage.");
+
+        const markerWidth = Math.min(
+          Math.max(chartWidth / Math.max(items.length, 1), 18),
+          42
+        );
+
+        const renderDetail = (item) => {
+          d3.select("#detail").html(`
+            <h2>${escapeHtml(publicLabelForItem(item))}</h2>
+            <div class="detail-grid">
+              ${detailLine("Ordre", item.ordre)}
+              ${detailLine("Orateur", item.orateur_nom)}
+              ${detailLine("Point", item.point_titre)}
+              ${detailLine("Sous-point", item.sous_point_titre)}
+              ${detailLine("Extrait", item.excerpt)}
+              ${detailLine("Passage repéré", item.evidence_span)}
+              ${detailLine("Lecture", publicLabelForItem(item))}
+              ${detailLine("Catégorie", publicCategoryForItem(item))}
+              ${detailLine("Confiance", publicConfidenceForItem(item))}
+              ${detailLine("À vérifier", item.needs_human_review ? "oui" : "non")}
+            </div>
+          `);
+        };
+
+        svg
+          .append("g")
+          .selectAll("rect")
+          .data(items)
+          .join("rect")
+          .attr("x", (item) => x(Number(item.axis_position)) - markerWidth / 2)
+          .attr("y", barY)
+          .attr("width", markerWidth)
+          .attr("height", barHeight)
+          .attr("rx", 4)
+          .attr("fill", colorForItem)
+          .attr("stroke", "#ffffff")
+          .attr("stroke-width", 0.8)
+          .attr("tabindex", 0)
+          .attr("role", "button")
+          .attr("aria-label", (item) => `Ordre ${item.ordre}, ${publicLabelForItem(item)}`)
+          .on("click", function (event, item) {
+            svg.selectAll("rect").attr("stroke", "#ffffff").attr("stroke-width", 0.8);
+            d3.select(this).attr("stroke", "#1f2328").attr("stroke-width", 2);
+            renderDetail(item);
+          })
+          .on("mouseenter", function (event, item) {
+            d3.select(this).attr("stroke", "#1f2328").attr("stroke-width", 2);
+            renderDetail(item);
+          })
+          .on("mouseleave", function () {
+            d3.select(this).attr("stroke", "#ffffff").attr("stroke-width", 0.8);
+          })
+          .on("keydown", function (event, item) {
+            if (event.key === "Enter" || event.key === " ") {
+              event.preventDefault();
+              renderDetail(item);
+            }
+          });
+
+        if (items.length > 0) {
+          renderDetail(items[0]);
+        }
+      });
+    </script>
+  </body>
+</html>
