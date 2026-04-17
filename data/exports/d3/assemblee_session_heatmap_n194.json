@@ -1,0 +1,110 @@
+{
+  "export_type": "assemblee_heatmap_session_v2",
+  "editorial_policy": "signal à revoir, sans jugement automatique",
+  "fallbacks_excluded_from_substantive_metrics": true,
+  "session": {
+    "seance_id": "CRSANR5L17S2026O1N194",
+    "source_file": "CRSANR5L17S2026O1N194.xml",
+    "seance_date": "2026-04-07",
+    "seance_date_label": "mardi 07 avril 2026",
+    "processed_at": "2026-04-17T16:13:42+02:00",
+    "provider": "mistral_v2",
+    "model_name": "mistral-medium-latest"
+  },
+  "axis": {
+    "field": "ordre",
+    "min": 294,
+    "max": 496,
+    "reviewed_items": 2
+  },
+  "metrics": {
+    "reviewed_items": 2,
+    "fallback_count": 0,
+    "non_fallback_items": 2,
+    "substantive_items": 2
+  },
+  "items": [
+    {
+      "seance_id": "CRSANR5L17S2026O1N194",
+      "source_file": "CRSANR5L17S2026O1N194.xml",
+      "seance_date": "2026-04-07",
+      "seance_date_label": "mardi 07 avril 2026",
+      "ordre": 294,
+      "axis_position": 294,
+      "intervention_id": "CRSANR5L17S2026O1N194_4055082",
+      "orateur_nom": "M. Laurent Jacobelli",
+      "point_titre": "Article 2 (suite)",
+      "sous_point_titre": "",
+      "excerpt": "Quel mépris pour l’Assemblée nationale ! On nous explique qu’il est inutile de poursuivre l’examen des amendements et de la proposition de loi qui a été rédigée et que nous pourrions nous contenter d’ordonnances. Je ne peux pas croire que notre assemblée ne sert à rien…",
+      "evidence_span": "Quel mépris pour l’Assemblée nationale !",
+      "scope_level": "hors_perimetre",
+      "signal_category": "no_signal",
+      "confidence": "high",
+      "needs_human_review": false,
+      "is_fallback": false,
+      "review_label": "aucun signal à revoir"
+    },
+    {
+      "seance_id": "CRSANR5L17S2026O1N194",
+      "source_file": "CRSANR5L17S2026O1N194.xml",
+      "seance_date": "2026-04-07",
+      "seance_date_label": "mardi 07 avril 2026",
+      "ordre": 496,
+      "axis_position": 496,
+      "intervention_id": "CRSANR5L17S2026O1N194_4055633",
+      "orateur_nom": "M. Thierry Sother",
+      "point_titre": "Article 2 (suite)",
+      "sous_point_titre": "",
+      "excerpt": "L’amendement de notre collègue Morel pointe un véritable problème : votre texte comporte au mieux des zones d’ombre, voire des impasses. Sous prétexte de simplifier le millefeuille territorial – un bien mauvais terme –, on risque au contraire de complexifier la vie de nos territ…",
+      "evidence_span": "complexifier la vie de nos territoires",
+      "scope_level": "hors_perimetre",
+      "signal_category": "no_signal",
+      "confidence": "high",
+      "needs_human_review": false,
+      "is_fallback": false,
+      "review_label": "aucun signal à revoir"
+    }
+  ],
+  "non_fallback_items": [
+    {
+      "seance_id": "CRSANR5L17S2026O1N194",
+      "source_file": "CRSANR5L17S2026O1N194.xml",
+      "seance_date": "2026-04-07",
+      "seance_date_label": "mardi 07 avril 2026",
+      "ordre": 294,
+      "axis_position": 294,
+      "intervention_id": "CRSANR5L17S2026O1N194_4055082",
+      "orateur_nom": "M. Laurent Jacobelli",
+      "point_titre": "Article 2 (suite)",
+      "sous_point_titre": "",
+      "excerpt": "Quel mépris pour l’Assemblée nationale ! On nous explique qu’il est inutile de poursuivre l’examen des amendements et de la proposition de loi qui a été rédigée et que nous pourrions nous contenter d’ordonnances. Je ne peux pas croire que notre assemblée ne sert à rien…",
+      "evidence_span": "Quel mépris pour l’Assemblée nationale !",
+      "scope_level": "hors_perimetre",
+      "signal_category": "no_signal",
+      "confidence": "high",
+      "needs_human_review": false,
+      "is_fallback": false,
+      "review_label": "aucun signal à revoir"
+    },
+    {
+      "seance_id": "CRSANR5L17S2026O1N194",
+      "source_file": "CRSANR5L17S2026O1N194.xml",
+      "seance_date": "2026-04-07",
+      "seance_date_label": "mardi 07 avril 2026",
+      "ordre": 496,
+      "axis_position": 496,
+      "intervention_id": "CRSANR5L17S2026O1N194_4055633",
+      "orateur_nom": "M. Thierry Sother",
+      "point_titre": "Article 2 (suite)",
+      "sous_point_titre": "",
+      "excerpt": "L’amendement de notre collègue Morel pointe un véritable problème : votre texte comporte au mieux des zones d’ombre, voire des impasses. Sous prétexte de simplifier le millefeuille territorial – un bien mauvais terme –, on risque au contraire de complexifier la vie de nos territ…",
+      "evidence_span": "complexifier la vie de nos territoires",
+      "scope_level": "hors_perimetre",
+      "signal_category": "no_signal",
+      "confidence": "high",
+      "needs_human_review": false,
+      "is_fallback": false,
+      "review_label": "aucun signal à revoir"
+    }
+  ]
+}

@@ -1068,6 +1068,40 @@ Note de correction Bloc 5 - overview inter-seances :
   traitees et ne disposent pas d'une vue detaillee ;
 - le design final de la heatmap inter-seances reste reporte.
 
+Note de continuite Bloc 5 - workflow complet N194 :
+
+- N194 a ete traitee dans le workflow incremental seance par seance :
+  `CRSANR5L17S2026O1N194.xml`, date `2026-04-07` ;
+- dry-run execute sur N194 : statut `available`, `already_processed=false`,
+  `journal_status=not_processed`, exports prevus
+  `data/interim/assemblee/contextual_reviews_incremental_n194_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n194_v2_mistral_summary.json`,
+  sans appel Mistral ni ecriture d'export ;
+- traitement reel execute explicitement sur N194 avec provider `mistral` et
+  `--confirm` ; aucune autre candidate n'a ete traitee ;
+- exports V2 produits :
+  `data/interim/assemblee/contextual_reviews_incremental_n194_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n194_v2_mistral_summary.json` ;
+- journal mis a jour dans `data/interim/assemblee/processing_journal_v2.jsonl`
+  avec une entree `success` pour `CRSANR5L17S2026O1N194`, provider
+  `mistral_v2`, modele `mistral-medium-latest`, 2 sorties relues, 0 fallback,
+  `error=""` ;
+- manifest regenere : N194 est refusee a la relance par defaut car deja
+  journalisee ; N195 a N205 restent candidates ;
+- N194 dispose maintenant d'une vue D3 de detail :
+  `data/exports/d3/assemblee_session_heatmap_n194.html`, alimentee par
+  `data/exports/d3/assemblee_session_heatmap_n194.json` et par l'export
+  intermediaire `data/interim/assemblee/heatmap_session_n194_v2.json` ;
+- la heatmap inter-seances `data/exports/d3/assemblee_sessions_overview.html`
+  affiche desormais uniquement N191, N192, N193 et N194, chacune liee a sa vue
+  de detail ;
+- N195 a N205 restent non traitees et non visualisees dans l'overview tant
+  qu'elles ne disposent pas d'une vue detaillee ;
+- le design reste provisoire et aucun changement du contrat V2, des providers
+  ou de la taxonomie n'a ete lance.
+
 ### Bloc 6 - Verification et cloture Phase F
 
 - [ ] Tester le cas "aucune nouvelle seance".
