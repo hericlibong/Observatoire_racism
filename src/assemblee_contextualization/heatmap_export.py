@@ -19,7 +19,7 @@ PUBLIC_DISPLAY_REPLACEMENTS = (
     (re.compile(r"\bsignal valid[eé]\b", re.IGNORECASE), "signal"),
     (re.compile(r"\bpropos raciste(s)?\b", re.IGNORECASE), "propos"),
     (re.compile(r"\bpropos haineux\b", re.IGNORECASE), "propos"),
-    (re.compile(r"\balerte(s)?\b", re.IGNORECASE), "repère"),
+    (re.compile(r"\balert\w*\b", re.IGNORECASE), "repère"),
     (re.compile(r"\bfaute(s)?\b", re.IGNORECASE), "[terme du passage]"),
     (re.compile(r"\bverdict(s)?\b", re.IGNORECASE), "lecture"),
 )
