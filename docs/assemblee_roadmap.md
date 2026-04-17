@@ -1338,6 +1338,53 @@ Note de continuite Bloc 5 - workflow complet N201 :
 - aucun changement de design final, de contrat V2, de provider, de prompt V2
   ou de taxonomie n'a ete lance.
 
+Note de continuite Bloc 5 - workflow complet N202 :
+
+- N202 a ete traitee dans le workflow incremental seance par seance :
+  `CRSANR5L17S2026O1N202.xml`, date `2026-04-13` ;
+- dry-run execute sur N202 : statut `available`, `already_processed=false`,
+  `journal_status=not_processed`, exports prevus
+  `data/interim/assemblee/contextual_reviews_incremental_n202_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n202_v2_mistral_summary.json`,
+  sans appel Mistral ni ecriture d'export ;
+- traitement reel execute explicitement sur N202 avec provider `mistral` et
+  `--confirm` ; aucune autre candidate n'a ete traitee ;
+- exports V2 produits :
+  `data/interim/assemblee/contextual_reviews_incremental_n202_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n202_v2_mistral_summary.json` ;
+- journal mis a jour dans `data/interim/assemblee/processing_journal_v2.jsonl`
+  avec une entree `success` pour `CRSANR5L17S2026O1N202`, provider
+  `mistral_v2`, modele `mistral-medium-latest`, 7 sorties relues, 0 fallback,
+  `error=""` ;
+- manifest regenere : N202 est refusee a la relance par defaut car deja
+  journalisee ; N203 a N205 restent candidates ;
+- N202 dispose maintenant d'une vue D3 de detail :
+  `data/exports/d3/assemblee_session_heatmap_n202.html`, alimentee par
+  `data/exports/d3/assemblee_session_heatmap_n202.json` et par l'export
+  intermediaire `data/interim/assemblee/heatmap_session_n202_v2.json` ;
+- la heatmap inter-seances `data/exports/d3/assemblee_sessions_overview.html`
+  affiche desormais uniquement N191, N192, N193, N194, N195, N196, N197,
+  N198, N199, N200, N201 et N202, chacune liee a sa vue de detail ;
+- N203 a N205 restent non traitees et non visualisees dans l'overview tant
+  qu'elles ne disposent pas d'une vue detaillee ;
+- aucun changement de design final, de contrat V2, de provider, de prompt V2
+  ou de taxonomie n'a ete lance.
+
+Dette methodologique N201 / tracabilite des classements `core` :
+
+- apres N205, verifier les cas `core` produits par Mistral V2, notamment le
+  cas observe sur N201 ou la justification n'est pas evidente dans l'extrait
+  affiche ;
+- ameliorer la tracabilite entre classement, extrait repere et contexte
+  complet ;
+- permettre de lire le passage ou l'intervention complete lorsque l'extrait
+  seul ne suffit pas ;
+- eviter qu'un classement fort apparaisse sans justification lisible ;
+- ne pas modifier le prompt Mistral V2, le contrat, le lexique, le provider ou
+  l'interface pendant le workflow seance par seance en cours.
+
 Dette methodologique reportee apres N205 :
 
 - revoir la sensibilite du systeme aux formulations parlementaires implicites
