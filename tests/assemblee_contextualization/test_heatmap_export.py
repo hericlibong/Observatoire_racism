@@ -1,4 +1,5 @@
 import unittest
+from pathlib import Path
 
 from src.assemblee_contextualization.contracts import (
     Confidence,
@@ -270,7 +271,29 @@ class HeatmapExportTest(unittest.TestCase):
         )
         self.assertEqual(overview["sessions"][0]["read_with_caution"], 1)
         self.assertEqual(overview["sessions"][1]["nothing_to_report"], 1)
+        self.assertEqual(
+            {
+                session["source_file"]: session["detail_view"]["href"]
+                for session in overview["sessions"]
+            },
+            {
+                "CRSANR5L17S2026O1N191.xml": "./assemblee_session_heatmap_n191.html",
+                "CRSANR5L17S2026O1N192.xml": "./assemblee_session_heatmap_n192.html",
+                "CRSANR5L17S2026O1N193.xml": "./assemblee_session_heatmap_n193.html",
+            },
+        )
         self.assertNotIn("CRSANR5L17S2026O1N194.xml", str(overview))
+
+    def test_overview_html_uses_sequential_heatmap_cells(self) -> None:
+        html = Path("data/exports/d3/assemblee_sessions_overview.html").read_text(
+            encoding="utf-8"
+        )
+
+        self.assertIn('data-layout="sequential-heatmap"', html)
+        self.assertIn(".scaleBand()", html)
+        self.assertIn("session.source_file", html)
+        self.assertNotIn(".scalePoint()", html)
+        self.assertNotIn(".scaleTime()", html)
 
     @staticmethod
     def _minimal_heatmap_payload(

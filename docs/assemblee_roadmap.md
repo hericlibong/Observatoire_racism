@@ -1054,6 +1054,20 @@ Note de continuite Bloc 5 - workflow complet N193 :
 - aucune refonte design, aucun changement du contrat V2, des providers ou de
   la taxonomie n'a ete lance.
 
+Note de correction Bloc 5 - overview inter-seances :
+
+- la vue inter-seances a ete corrigee apres integration N193 : N192 et N193
+  partagent la date `2026-04-07`, ce qui provoquait une superposition visuelle
+  avec la disposition precedente fondee sur la date comme position x ;
+- `data/exports/d3/assemblee_sessions_overview.json` contient bien N191, N192
+  et N193, chacune avec son lien vers la vue detaillee correspondante ;
+- `data/exports/d3/assemblee_sessions_overview.html` utilise maintenant une
+  disposition heatmap sequentielle compacte : une cellule par seance traitee,
+  cellules rapprochees, date conservee comme libelle d'axe ;
+- N194 a N205 restent absentes de l'overview car elles ne sont pas encore
+  traitees et ne disposent pas d'une vue detaillee ;
+- le design final de la heatmap inter-seances reste reporte.
+
 ### Bloc 6 - Verification et cloture Phase F
 
 - [ ] Tester le cas "aucune nouvelle seance".

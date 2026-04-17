@@ -104,6 +104,10 @@
         stroke: transparent;
       }
 
+      .date-axis line {
+        stroke: var(--line);
+      }
+
       .session-cell {
         cursor: pointer;
         stroke: none;
@@ -130,6 +134,11 @@
         z-index: 10;
       }
 
+      .heatmap-band {
+        fill: #f1f4f7;
+        stroke: #e1e6ed;
+      }
+
       @media (max-width: 760px) {
         main {
           padding: 22px 14px 28px;
@@ -149,7 +158,7 @@
         <span class="legend-item"><span class="swatch fallback"></span>analyse non disponible</span>
       </div>
 
-      <section class="heatmap-zone" aria-label="Vue inter-séances">
+      <section class="heatmap-zone" aria-label="Vue inter-séances" data-layout="sequential-heatmap">
         <svg id="heatmap" width="1120" height="190" role="img"></svg>
         <div class="tooltip" id="tooltip"></div>
       </section>
@@ -158,11 +167,10 @@
     <script>
       const jsonPath = "./assemblee_sessions_overview.json";
 
-      const cellWidth = 28;
-      const cellHeight = 66;
-      const cellGap = 12;
-      const margin = { top: 28, right: 32, bottom: 42, left: 46 };
-      const chartHeight = 112;
+      const cellWidth = 24;
+      const cellHeight = 82;
+      const margin = { top: 30, right: 34, bottom: 46, left: 34 };
+      const chartHeight = 124;
 
       const signalCount = (session) =>
         Number(session.read_with_caution || 0) +
@@ -216,38 +224,67 @@
 
       d3.json(jsonPath).then((payload) => {
         const sessions = [...payload.sessions].sort((a, b) =>
-          d3.ascending(a.seance_date, b.seance_date)
+          d3.ascending(a.seance_date, b.seance_date) ||
+          d3.ascending(a.source_file, b.source_file)
         );
 
         const svg = d3.select("#heatmap");
-        const innerWidth = Math.max(980, sessions.length * (cellWidth + cellGap));
+        const innerWidth = Math.max(cellWidth, sessions.length * 30);
         const width = margin.left + innerWidth + margin.right;
-        svg.attr("width", width);
+        svg.attr("width", width).attr("height", margin.top + chartHeight + margin.bottom);
 
         const xScale = d3
-          .scalePoint()
-          .domain(sessions.map((session) => session.seance_date))
-          .range([
-            margin.left + cellWidth / 2,
-            margin.left + cellWidth / 2 + Math.max(0, sessions.length - 1) * (cellWidth + cellGap),
-          ]);
+          .scaleBand()
+          .domain(sessions.map((session) => session.source_file))
+          .range([margin.left, margin.left + innerWidth])
+          .paddingInner(0.08)
+          .paddingOuter(0);
 
-        const xAxis = d3
-          .axisBottom(xScale)
-          .tickSize(0)
-          .tickPadding(8)
-          .tickFormat((date) => d3.timeFormat("%d/%m/%Y")(new Date(`${date}T00:00:00`)));
+        svg
+          .append("rect")
+          .attr("class", "heatmap-band")
+          .attr("x", margin.left - 6)
+          .attr("y", margin.top + (chartHeight - cellHeight) / 2 - 6)
+          .attr("width", innerWidth + 12)
+          .attr("height", cellHeight + 12)
+          .attr("rx", 6);
+
+        const dateGroups = d3
+          .groups(sessions, (session) => session.seance_date)
+          .map(([date, group]) => ({
+            date,
+            label: d3.timeFormat("%d/%m/%Y")(new Date(`${date}T00:00:00`)),
+            x: d3.mean(
+              group,
+              (session) => (xScale(session.source_file) ?? margin.left) + xScale.bandwidth() / 2
+            ),
+          }));
+
+        const axisY = margin.top + chartHeight;
+        const dateAxis = svg.append("g").attr("class", "axis date-axis");
+
+        dateAxis
+          .selectAll("line")
+          .data(dateGroups)
+          .join("line")
+          .attr("x1", (date) => date.x)
+          .attr("x2", (date) => date.x)
+          .attr("y1", axisY - 3)
+          .attr("y2", axisY + 3);
 
         svg
           .append("g")
           .attr("class", "axis")
-          .attr("transform", `translate(0, ${margin.top + chartHeight})`)
-          .call(xAxis);
+          .selectAll("text")
+          .data(dateGroups)
+          .join("text")
+          .attr("x", (date) => date.x)
+          .attr("y", axisY + 14)
+          .attr("text-anchor", "end")
+          .attr("transform", (date) => `rotate(-35 ${date.x} ${axisY + 14})`)
+          .text((date) => date.label);
 
-        const cellX = (session) => {
-          const pointX = xScale(session.seance_date) ?? margin.left + cellWidth / 2;
-          return pointX - cellWidth / 2;
-        };
+        const cellX = (session) => xScale(session.source_file) ?? margin.left;
 
         svg
           .selectAll(".session-cell")
@@ -256,7 +293,7 @@
           .attr("class", "session-cell")
           .attr("x", cellX)
           .attr("y", margin.top + (chartHeight - cellHeight) / 2)
-          .attr("width", cellWidth)
+          .attr("width", xScale.bandwidth())
           .attr("height", cellHeight)
           .attr("rx", 4)
           .attr("fill", cellColor)
