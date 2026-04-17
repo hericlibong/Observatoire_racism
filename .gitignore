@@ -65,6 +65,8 @@ data/exports/d3/*
 !data/exports/d3/assemblee_session_heatmap_n202.json
 !data/exports/d3/assemblee_session_heatmap_n203.html
 !data/exports/d3/assemblee_session_heatmap_n203.json
+!data/exports/d3/assemblee_session_heatmap_n204.html
+!data/exports/d3/assemblee_session_heatmap_n204.json
 !data/exports/d3/assemblee_sessions_overview.html
 !data/exports/d3/assemblee_sessions_overview.json
 

@@ -16,7 +16,8 @@
     "data/exports/d3/assemblee_session_heatmap_n200.json",
     "data/exports/d3/assemblee_session_heatmap_n201.json",
     "data/exports/d3/assemblee_session_heatmap_n202.json",
-    "data/exports/d3/assemblee_session_heatmap_n203.json"
+    "data/exports/d3/assemblee_session_heatmap_n203.json",
+    "data/exports/d3/assemblee_session_heatmap_n204.json"
   ],
   "labels": {
     "nothing_to_report": "rien à signaler ici",
@@ -282,6 +283,26 @@
       "detail_view": {
         "exists": true,
         "href": "./assemblee_session_heatmap_n203.html",
+        "label": "Ouvrir la vue détaillée"
+      }
+    },
+    {
+      "seance_id": "CRSANR5L17S2026O1N204",
+      "short_label": "N204",
+      "source_file": "CRSANR5L17S2026O1N204.xml",
+      "seance_date": "2026-04-14",
+      "seance_date_label": "mardi 14 avril 2026",
+      "processed_at": "2026-04-18T01:35:03+02:00",
+      "status": "success",
+      "reviewed_items": 4,
+      "available_analyses": 4,
+      "nothing_to_report": 4,
+      "read_with_caution": 0,
+      "important_for_observatoire": 0,
+      "fallback_count": 0,
+      "detail_view": {
+        "exists": true,
+        "href": "./assemblee_session_heatmap_n204.html",
         "label": "Ouvrir la vue détaillée"
       }
     }
