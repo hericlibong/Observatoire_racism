@@ -50,19 +50,22 @@ Fait :
 - contrat V2 documente et teste avec `scope_level`, `signal_category`,
   `is_fallback`, `needs_human_review`.
 - phases B, C, D et E cloturees : methode V2 stabilisee, petit lot teste,
-  socle incremental simule et visualisation minimale disponible.
+  socle incremental simule et visualisation minimale disponible ;
+- Phase F cloturee pour le socle technique incremental : collecte source,
+  manifest, journal anti-doublons et traitement N191 a N205 documentes.
 
 En cours :
 
-- Phase F - Automatisation collecte et detection des nouvelles seances.
+- aucune phase active ; Phase G - Consolidation post-serie N191-N205 a ouvrir.
 
 A faire :
 
-- preparer la suite applicative apres stabilisation du flux incremental.
+- consolider la methode, l'arborescence et les vues publiques avant nouvelle
+  extension.
 
 Explicitement remis a plus tard :
 
-- Phase G - Application ;
+- application publique finalisee ;
 - backfill complet du corpus historique local ;
 - scoring definitif ;
 - modele de classification entraine ;
@@ -745,7 +748,7 @@ avant une mise en forme finale.
 
 ## Phase F - Automatisation collecte et detection des nouvelles seances
 
-Statut : en cours.
+Statut : cloturee pour le socle technique incremental.
 
 Objectif : automatiser l'arrivee des nouveaux XML qui alimenteront le flux
 incremental de la Phase D.
@@ -1506,12 +1509,12 @@ Dette visualisation reportee :
 
 ### Bloc 6 - Verification et cloture Phase F
 
-- [ ] Tester le cas "aucune nouvelle seance".
-- [ ] Tester le cas "nouveau XML disponible mais non traite".
-- [ ] Tester le cas "XML deja journalise".
-- [ ] Verifier que le manifest et le journal restent coherents.
-- [ ] Lister ce qui est valide, fragile et reporte.
-- [ ] Declarer explicitement le critere de sortie de Phase F atteint ou non.
+- [x] Tester le cas "aucune nouvelle seance".
+- [x] Tester le cas "nouveau XML disponible mais non traite".
+- [x] Tester le cas "XML deja journalise".
+- [x] Verifier que le manifest et le journal restent coherents.
+- [x] Lister ce qui est valide, fragile et reporte.
+- [x] Declarer explicitement le critere de sortie de Phase F atteint ou non.
 
 Critere de sortie Bloc 6 :
 
@@ -1520,13 +1523,76 @@ Critere de sortie Bloc 6 :
 - une nouvelle seance peut etre detectee et mise a disposition du flux Phase D
   sans backfill complet.
 
-## Phase G - Application
+Note Bloc 6 - cloture Phase F :
+
+Decision :
+
+- Phase F cloturee pour le socle technique incremental.
+- Phase F non cloturee comme application publique finalisee.
+- La suite doit ouvrir une phase de consolidation avant nouvelle extension.
+
+Critere de sortie Phase F : atteint pour le socle incremental. La collecte ou
+l'import est reproductible, le manifest est coherent avec le journal, et une
+seance nouvelle peut etre detectee puis mise a disposition du flux incremental
+sans backfill complet.
+
+Valide :
+
+- source officielle Assemblee identifiee ;
+- archive source actualisable ;
+- inventaire local operationnel ;
+- manifest produit ;
+- journal V2 utilise pour eviter les doublons ;
+- workflow incremental seance par seance operationnel ;
+- traitement de N191 a N205 termine ;
+- overview inter-seances alimentee de N191 a N205 ;
+- aucune candidate restante dans le manifest pour cette serie :
+  `candidate_sessions_count = 0`.
+
+Fragile :
+
+- conflit connu sur N191 ;
+- `data/interim/` ignore par Git ;
+- trop grand nombre de modules dans `assemblee_contextualization` ;
+- design D3 provisoire ;
+- style / interaction non publiables en l'etat ;
+- extraits parfois insuffisants pour comprendre le classement ;
+- prompt Mistral V2 a reviser sur les cas limites.
+
+Reporte :
+
+- refactorisation legere de l'arborescence code ;
+- amelioration de la vue inter-seances ;
+- meilleure integration detail / intervention complete ;
+- enrichissement des donnees affichees : sujet, point, extrait repere,
+  passage complet ;
+- revue methodologique des cas N199, N201, N203 ;
+- revision eventuelle du prompt Mistral V2 et du lexique ;
+- automatisation periodique reelle de la collecte ;
+- decision sur la politique Git des fichiers `data/interim/` et XML bruts.
+
+## Phase G - Consolidation post-serie N191-N205
+
+Statut : a ouvrir.
+
+Objectif : consolider le socle technique, methodologique et visuel avant toute
+nouvelle extension.
+
+Priorites immediates :
+
+- audit methodologique des cas limites N199 / N201 / N203 ;
+- refactorisation legere des modules de collecte / manifest / run incremental
+  / export ;
+- amelioration de la visualisation publique : overview, detail, extraits et
+  acces au contexte.
+
+## Phase ulterieure - Application
 
 Statut : remis a plus tard.
 
 Objectif : passer des scripts a une application utilisable.
 
-Taches :
+Taches reservees :
 
 - definir l'interface minimale ;
 - definir le mode d'acces aux donnees ;
@@ -1535,19 +1601,19 @@ Taches :
 
 ## Prochaines taches immediates
 
-1. Preparer la selection controlee de la prochaine seance candidate a traiter,
-   a partir du manifest et du journal.
-2. Tester le mode de verification sans appel modele sur les candidates N192 a
-   N205.
-3. Definir le garde-fou qui empeche de relancer par defaut N191 deja
-   journalisee, surtout en presence du conflit de contenu detecte.
+1. Ouvrir la Phase G - Consolidation post-serie N191-N205.
+2. Auditer methodologiquement les cas limites N199 / N201 / N203.
+3. Preparer une refactorisation legere des modules de collecte, manifest, run
+   incremental et export.
+4. Ameliorer la visualisation publique : overview, detail, extraits et acces
+   au contexte.
 
 ## Ne pas faire maintenant
 
 - pas de backfill complet du corpus historique local ;
 - pas de nouvelle taxonomie ;
-- pas de refonte architecture ;
-- pas d'application UI complete pendant la Phase F.
+- pas de refonte architecture lourde ;
+- pas d'application UI complete avant consolidation.
 
 ## Points de vigilance
 
