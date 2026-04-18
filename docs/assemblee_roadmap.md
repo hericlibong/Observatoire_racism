@@ -1440,6 +1440,37 @@ Note de continuite Bloc 5 - workflow complet N204 :
 - aucun changement de design final, de contrat V2, de provider, de prompt V2
   ou de taxonomie n'a ete lance.
 
+Note de continuite Bloc 5 - workflow complet N205 :
+
+- N205 a ete traitee dans le workflow incremental seance par seance :
+  `CRSANR5L17S2026O1N205.xml`, date `2026-04-15` ;
+- dry-run execute sur N205 : statut `available`, `already_processed=false`,
+  `journal_status=not_processed`, exports prevus
+  `data/interim/assemblee/contextual_reviews_incremental_n205_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n205_v2_mistral_summary.json`,
+  sans appel Mistral ni ecriture d'export ;
+- traitement reel execute explicitement sur N205 avec provider `mistral` et
+  `--confirm` ; aucune autre seance n'a ete traitee ;
+- exports V2 produits :
+  `data/interim/assemblee/contextual_reviews_incremental_n205_v2_mistral.jsonl`
+  et
+  `data/interim/assemblee/contextual_reviews_incremental_n205_v2_mistral_summary.json` ;
+- journal mis a jour dans `data/interim/assemblee/processing_journal_v2.jsonl`
+  avec une entree `success` pour `CRSANR5L17S2026O1N205`, provider
+  `mistral_v2`, modele `mistral-medium-latest`, 3 sorties relues, 0 fallback,
+  `error=""` ;
+- manifest regenere : N205 est refusee a la relance par defaut car deja
+  journalisee ; aucune candidate restante dans la serie courante ;
+- N205 dispose maintenant d'une vue D3 de detail :
+  `data/exports/d3/assemblee_session_heatmap_n205.html`, alimentee par
+  `data/exports/d3/assemblee_session_heatmap_n205.json` et par l'export
+  intermediaire `data/interim/assemblee/heatmap_session_n205_v2.json` ;
+- la heatmap inter-seances `data/exports/d3/assemblee_sessions_overview.html`
+  affiche desormais N191 a N205, chacune liee a sa vue de detail ;
+- aucun changement de design final, de contrat V2, de provider, de prompt V2
+  ou de taxonomie n'a ete lance.
+
 Dette methodologique N201 / tracabilite des classements `core` :
 
 - apres N205, verifier les cas `core` produits par Mistral V2, notamment le
