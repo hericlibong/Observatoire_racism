@@ -1578,13 +1578,162 @@ Statut : a ouvrir.
 Objectif : consolider le socle technique, methodologique et visuel avant toute
 nouvelle extension.
 
-Priorites immediates :
+Invariant Phase G :
 
-- audit methodologique des cas limites N199 / N201 / N203 ;
-- refactorisation legere des modules de collecte / manifest / run incremental
-  / export ;
-- amelioration de la visualisation publique : overview, detail, extraits et
-  acces au contexte.
+- aucune relance Mistral ;
+- aucun changement de prompt, contrat V2, lexique ou taxonomie ;
+- les exports N191 a N205 existants servent de reference de non-regression ;
+- le premier `pytest` apres configuration projet sert de baseline technique ;
+- les refactorings doivent rester petits, testables et reversibles.
+
+Objectif de sequence : evacuer d'abord la dette technique et de structure,
+puis revenir a l'audit methodologique des cas limites dans un environnement
+plus propre.
+
+### Bloc G1 - Reproductibilite projet
+
+Objectif : rendre l'environnement Python reproductible avant tout refactoring.
+
+Taches :
+
+- creer `pyproject.toml` ;
+- declarer les dependances runtime et dev ;
+- configurer `pytest` ;
+- configurer `ruff` pour lint et format ;
+- preparer `mypy` de maniere progressive, sans viser le strict global
+  immediat ;
+- lancer les tests existants et documenter le resultat.
+
+Critere de sortie :
+
+- une installation projet/dev est documentee ;
+- les tests peuvent etre lances depuis la racine ;
+- le resultat de test initial est connu.
+
+### Bloc G2 - Centralisation chemins et utilitaires
+
+Objectif : eliminer les duplications simples avant les scissions plus
+sensibles.
+
+Taches :
+
+- creer `src/assemblee_contextualization/paths.py` ;
+- centraliser `ROOT_DIR`, `SOURCE_DIR`, `INTERIM_DIR` et les chemins communs ;
+- centraliser `_display_path`, `_session_slug`, `_as_int` et
+  `_normalize_syceron_date` sous des noms publics sobres si necessaire ;
+- adapter les modules importeurs sans changer leur comportement ;
+- ajouter ou ajuster les tests cibles.
+
+Critere de sortie :
+
+- les constantes et helpers ne sont plus dupliques ;
+- les tests du package contextualisation passent.
+
+### Bloc G3 - Unification des metadonnees XML
+
+Objectif : supprimer le double parsing des metadonnees de seance.
+
+Taches :
+
+- faire utiliser `read_session_xml_metadata()` par `source_inventory.py` ;
+- unifier ou supprimer `LocalSessionXml` si `SessionXmlMetadata` suffit ;
+- conserver les garanties du manifest et du journal ;
+- verifier les cas XML valide, XML invalide et journal absent.
+
+Critere de sortie :
+
+- une seule source de parsing metadata XML est utilisee ;
+- l'inventaire local, le manifest et les tests associes restent coherents.
+
+### Bloc G4 - Scission de `run_pilot_v2.py`
+
+Objectif : reduire le module d'orchestration V2 sans changer les sorties.
+
+Taches :
+
+- extraire la logique de revue V2 dans `review_engine.py` ;
+- extraire lecture/ecriture/resumes JSONL dans `io_v2.py` ;
+- conserver `run_pilot_v2.py` comme CLI mince et factory provider ;
+- adapter `run_phase_c_lot_v2.py`, `run_incremental_session_v2.py`,
+  `heatmap_export.py` et les tests.
+
+Critere de sortie :
+
+- les imports vers `run_pilot_v2.py` sont reduits ;
+- les exports JSONL et resumes gardent le meme contrat ;
+- les tests cibles passent.
+
+### Bloc G5 - Extraction XML parser et regles lexicales
+
+Objectif : inverser le couplage entre le package et `build_assemblee_pilot.py`.
+
+Taches :
+
+- extraire le parsing XML pur dans `xml_parser.py` ;
+- extraire les regles lexicales dans `signal_rules.py` ;
+- faire importer `build_assemblee_pilot.py` depuis le package au lieu de
+  servir de source commune ;
+- garder le script pilote historique comme point d'entree d'orchestration.
+
+Critere de sortie :
+
+- `assemblee_contextualization` ne depend plus du script parent pour parser les
+  XML ou lire les chemins ;
+- les tests Assemblee et contextualisation passent.
+
+### Bloc G6 - V1 historique
+
+Objectif : rendre explicite le statut historique du code V1 sans rupture
+inutile.
+
+Taches :
+
+- marquer `reviewer.py`, `mock_provider.py`, `mistral_provider.py` et
+  `run_pilot.py` comme V1 deprecie conserve pour historique ;
+- documenter que V2 reste le contrat cible ;
+- reporter un deplacement physique en `legacy/` a une decision separee.
+
+Critere de sortie :
+
+- le statut V1 est clair pour un agent codeur ;
+- aucun import historique utile n'est casse.
+
+### Bloc G7 - Visualisation et exploitation technique
+
+Objectif : rendre les sorties plus exploitables avant l'audit de fond.
+
+Taches :
+
+- simplifier la politique `.gitignore` des heatmaps versionnees ;
+- ameliorer l'acces au contexte complet depuis les vues de detail ;
+- rendre plus lisibles les extraits reperes ;
+- enrichir l'overview avec les informations utiles deja disponibles ;
+- conserver des libelles prudents et non accusatoires.
+
+Critere de sortie :
+
+- la croissance des exceptions `.gitignore` est maitrisee ;
+- les cas relus peuvent etre inspectes avec un contexte suffisant ;
+- la visualisation ne produit toujours pas de verdict automatique.
+
+### Bloc G8 - Audit methodologique N199 / N201 / N203
+
+Objectif : reprendre les cas limites une fois le socle technique clarifie.
+
+Taches :
+
+- relire les classements forts ou ambigus sur N199, N201 et N203 ;
+- comparer extrait affiche, evidence span et contexte complet ;
+- documenter les limites observees ;
+- decider seulement ensuite s'il faut reviser prompt, lexique ou methode.
+
+Critere de sortie :
+
+- les cas limites sont documentes ;
+- les eventuelles decisions methodologiques sont separees des refactorings
+  techniques ;
+- aucune modification de taxonomie ou de contrat n'est faite sans decision
+  explicite dans la roadmap.
 
 ## Phase ulterieure - Application
 
@@ -1602,11 +1751,10 @@ Taches reservees :
 ## Prochaines taches immediates
 
 1. Ouvrir la Phase G - Consolidation post-serie N191-N205.
-2. Auditer methodologiquement les cas limites N199 / N201 / N203.
-3. Preparer une refactorisation legere des modules de collecte, manifest, run
-   incremental et export.
-4. Ameliorer la visualisation publique : overview, detail, extraits et acces
-   au contexte.
+2. Commencer par le Bloc G1 - Reproductibilite projet.
+3. Enchainer avec les refactorings techniques G2 a G7.
+4. Reporter l'audit methodologique N199 / N201 / N203 au Bloc G8, apres
+   consolidation technique.
 
 ## Ne pas faire maintenant
 

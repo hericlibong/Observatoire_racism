@@ -47,7 +47,8 @@ Ce projet est orienté backend / data pipeline. Pas de frontend Python.
 - Respecter l'arborescence existante :
   - `src/` : code source, modules, CLI.
   - `src/assemblee_contextualization/` : package principal.
-  - `data/raw/` : données sources brutes, jamais modifiées par le code.
+  - `data/raw/` : données sources brutes, modifiées uniquement par les modules
+    d'acquisition contrôlée.
   - `data/interim/` : sorties intermédiaires (CSV, JSONL, JSON).
   - `data/exports/d3/` : sorties publiques pour visualisation.
   - `docs/` : documentation projet.
@@ -90,16 +91,20 @@ Ce projet est orienté backend / data pipeline. Pas de frontend Python.
 
 ## Refactoring en cours (Phase G)
 
-Priorités identifiées dans `docs/audit_architecture.md` :
+Priorités Phase G identifiées dans `docs/audit_architecture.md` et
+`docs/examen_modules_contextualization.md` :
 
 1. Créer `pyproject.toml` avec dépendances et config outils.
 2. Extraire un module `paths.py` centralisant `ROOT_DIR`, `SOURCE_DIR`,
    `INTERIM_DIR`, `_display_path`, `_session_slug`, `_normalize_syceron_date`,
    `_as_int`.
-3. Scinder `build_assemblee_pilot.py` (parsing XML, règles lexicales, chemins,
+3. Unifier le parsing des métadonnées XML entre acquisition et inventaire.
+4. Scinder `run_pilot_v2.py` en moteur de revue, IO V2 et CLI mince.
+5. Scinder `build_assemblee_pilot.py` (parsing XML, règles lexicales, chemins,
    CLI).
-4. Marquer le code V1 comme déprécié.
-5. Configurer `ruff` + `mypy`.
+6. Marquer le code V1 comme déprécié.
+7. Consolider la visualisation et la politique des exports avant l'audit de
+   fond.
 
 Ne pas anticiper ces refactorings dans une tâche qui ne les concerne pas.
 Appliquer chaque refactoring comme une étape isolée avec ses propres tests.

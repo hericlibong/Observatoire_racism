@@ -4,7 +4,7 @@ Date : 18 avril 2026
 
 ---
 
-## Carte des 17 modules (2 776 lignes)
+## Carte des 18 modules (2 776 lignes)
 
 | Module | LOC | Role | Statut |
 |--------|-----|------|--------|
