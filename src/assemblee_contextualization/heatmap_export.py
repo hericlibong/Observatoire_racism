@@ -6,8 +6,9 @@ from pathlib import Path
 from typing import Any, Mapping
 
 from .contracts import ContextualReviewOutputV2
+from .paths import ROOT_DIR, as_int
 from .processing_journal import JOURNAL_PATH, read_processing_journal
-from .run_pilot_v2 import ROOT_DIR, load_interventions_for_source, read_outputs_v2
+from .run_pilot_v2 import load_interventions_for_source, read_outputs_v2
 
 
 DEFAULT_REVIEW_PATH = (
@@ -183,8 +184,8 @@ def _heatmap_item(
         "source_file": source_file,
         "seance_date": str(journal_entry["seance_date"]),
         "seance_date_label": str(journal_entry["seance_date_label"]),
-        "ordre": _as_int(row.get("ordre")),
-        "axis_position": _as_int(row.get("ordre")),
+        "ordre": as_int(row.get("ordre")),
+        "axis_position": as_int(row.get("ordre")),
         "intervention_id": str(row["intervention_id"]),
         "orateur_nom": str(row.get("orateur_nom", "")),
         "point_titre": str(row.get("point_titre", "")),
@@ -227,10 +228,3 @@ def _public_display_text(text: str) -> str:
     for pattern, replacement in PUBLIC_DISPLAY_REPLACEMENTS:
         value = pattern.sub(replacement, value)
     return value
-
-
-def _as_int(value: Any) -> int:
-    try:
-        return int(value)
-    except (TypeError, ValueError):
-        return 0

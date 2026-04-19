@@ -5,9 +5,10 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
+from .paths import INTERIM_DIR
 
-ROOT_DIR = Path(__file__).resolve().parents[2]
-JOURNAL_PATH = ROOT_DIR / "data/interim/assemblee/processing_journal_v2.jsonl"
+
+JOURNAL_PATH = INTERIM_DIR / "processing_journal_v2.jsonl"
 REQUIRED_FIELDS = {
     "seance_id",
     "source_file",

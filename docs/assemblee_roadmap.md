@@ -1631,22 +1631,85 @@ Resultat de cloture :
 
 ### Bloc G2 - Centralisation chemins et utilitaires
 
+Statut : cloture.
+
 Objectif : eliminer les duplications simples avant les scissions plus
 sensibles.
 
 Taches :
 
-- creer `src/assemblee_contextualization/paths.py` ;
-- centraliser `ROOT_DIR`, `SOURCE_DIR`, `INTERIM_DIR` et les chemins communs ;
-- centraliser `_display_path`, `_session_slug`, `_as_int` et
-  `_normalize_syceron_date` sous des noms publics sobres si necessaire ;
-- adapter les modules importeurs sans changer leur comportement ;
-- ajouter ou ajuster les tests cibles.
+- [x] creer `src/assemblee_contextualization/paths.py` avec `ROOT_DIR`,
+  `SOURCE_DIR`, `INTERIM_DIR`, `EXPORTS_D3_DIR`, `display_path`,
+  `session_slug`, `as_int`, `normalize_syceron_date` ;
+- [x] creer `tests/assemblee_contextualization/test_paths.py` couvrant
+  `display_path`, `session_slug`, `as_int` et `normalize_syceron_date` ;
+- [x] modifier `src/build_assemblee_pilot.py` pour importer les chemins
+  centralises depuis `paths.py` ;
+- [x] modifier `src/build_assemblee_phase_c_lot.py` pour utiliser
+  `display_path`, `ROOT_DIR` et `INTERIM_DIR` depuis `paths.py` ;
+- [x] modifier `src/assemblee_contextualization/env.py` pour utiliser
+  `ROOT_DIR` depuis `paths.py` ;
+- [x] modifier `src/assemblee_contextualization/processing_journal.py` pour
+  utiliser `INTERIM_DIR` depuis `paths.py` ;
+- [x] modifier `src/assemblee_contextualization/context_builder.py` pour
+  utiliser `as_int` depuis `paths.py` ;
+- [x] modifier `src/assemblee_contextualization/run_pilot_v2.py` pour utiliser
+  `ROOT_DIR`, `SOURCE_DIR`, `display_path`, `session_slug` et `as_int` depuis
+  `paths.py` ;
+- [x] modifier `src/assemblee_contextualization/run_phase_c_lot_v2.py` pour
+  utiliser `ROOT_DIR`, `display_path` et `session_slug` depuis `paths.py` ;
+- [x] modifier `src/assemblee_contextualization/run_incremental_session_v2.py`
+  pour utiliser `ROOT_DIR`, `INTERIM_DIR`, `display_path` et `session_slug`
+  depuis `paths.py` ;
+- [x] modifier `src/assemblee_contextualization/heatmap_export.py` pour
+  utiliser `ROOT_DIR` et `as_int` depuis `paths.py` ;
+- [x] modifier `src/assemblee_contextualization/source_acquisition.py` pour
+  utiliser `normalize_syceron_date` depuis `paths.py` ;
+- [x] modifier `src/assemblee_contextualization/source_inventory.py` pour
+  utiliser `ROOT_DIR`, `SOURCE_DIR` et `normalize_syceron_date` depuis
+  `paths.py` ;
+- [x] modifier `src/assemblee_contextualization/source_manifest.py` pour
+  utiliser `ROOT_DIR`, `SOURCE_DIR`, `INTERIM_DIR` et `display_path` depuis
+  `paths.py` ;
+- [x] modifier `docs/assemblee_roadmap.md` pour cocher les taches du Bloc G2,
+  passer le bloc en `Statut : cloture`, consigner les fichiers touches et les
+  resultats de validation.
 
 Critere de sortie :
 
 - les constantes et helpers ne sont plus dupliques ;
 - les tests du package contextualisation passent.
+
+Fichiers touches :
+
+- `src/assemblee_contextualization/paths.py` ;
+- `tests/assemblee_contextualization/test_paths.py` ;
+- `src/build_assemblee_pilot.py` ;
+- `src/build_assemblee_phase_c_lot.py` ;
+- `src/assemblee_contextualization/env.py` ;
+- `src/assemblee_contextualization/processing_journal.py` ;
+- `src/assemblee_contextualization/context_builder.py` ;
+- `src/assemblee_contextualization/run_pilot_v2.py` ;
+- `src/assemblee_contextualization/run_phase_c_lot_v2.py` ;
+- `src/assemblee_contextualization/run_incremental_session_v2.py` ;
+- `src/assemblee_contextualization/heatmap_export.py` ;
+- `src/assemblee_contextualization/source_acquisition.py` ;
+- `src/assemblee_contextualization/source_inventory.py` ;
+- `src/assemblee_contextualization/source_manifest.py` ;
+- `docs/assemblee_roadmap.md`.
+
+Resultat de cloture :
+
+- `python -m pytest tests/assemblee_contextualization/test_paths.py -v` -> 7
+  passed ;
+- `python -m pytest tests/assemblee_contextualization tests/assemblee -v` ->
+  96 passed, 24 subtests passed ;
+- `python -m ruff check src tests` -> All checks passed ;
+- `python -m mypy src tests` -> Success: no issues found in 45 source files ;
+- `git diff --check` -> OK ;
+- aucune relance Mistral, aucun changement de prompt, contrat V2, lexique ou
+  taxonomie ;
+- Bloc G3 non lance.
 
 ### Bloc G3 - Unification des metadonnees XML
 

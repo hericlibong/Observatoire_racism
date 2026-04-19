@@ -16,11 +16,11 @@ from .contracts import (
 )
 from .mistral_provider_v2 import MistralContextualReviewProviderV2
 from .mock_provider_v2 import MockContextualReviewProviderV2
+from .paths import ROOT_DIR, SOURCE_DIR, as_int, display_path, session_slug
 from .providers import ContextualReviewProvider
-from src.build_assemblee_pilot import NS, SOURCE_DIR, child_text, iter_paragraphs
+from src.build_assemblee_pilot import NS, child_text, iter_paragraphs
 
 
-ROOT_DIR = Path(__file__).resolve().parents[2]
 OUTPUT_PATH = ROOT_DIR / "data/interim/assemblee/contextual_reviews_pilot_v2.jsonl"
 PILOT_SOURCE_FILE = "CRSANR5L17S2026O1N191.xml"
 DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES = 15
@@ -68,7 +68,7 @@ def select_review_ids(
 
 
 def sample_intervention_ids(interventions: list[dict[str, Any]], sample_size: int) -> list[str]:
-    rows = sorted(interventions, key=lambda row: (_as_int(row.get("ordre")), str(row.get("intervention_id", ""))))
+    rows = sorted(interventions, key=lambda row: (as_int(row.get("ordre")), str(row.get("intervention_id", ""))))
     rows = [row for row in rows if str(row.get("texte", "")).strip()]
     if sample_size >= len(rows):
         return [str(row["intervention_id"]) for row in rows]
@@ -120,7 +120,7 @@ def summarize_output_file(output_path: Path) -> dict[str, Any]:
     substantive_outputs = [output for output in outputs if not output.is_fallback]
 
     return {
-        "path": str(_display_path(output_path)),
+        "path": str(display_path(output_path)),
         "source_id": _source_id_from_outputs(outputs) or output_path.stem,
         "reviewed_items": len(outputs),
         "scope_level_distribution": scope_distribution,
@@ -223,7 +223,7 @@ def build_provider(name: str) -> ContextualReviewProvider:
 def default_output_path(source_file: str, provider_name: str) -> Path:
     if source_file == PILOT_SOURCE_FILE and provider_name == "mock":
         return OUTPUT_PATH
-    return ROOT_DIR / f"data/interim/assemblee/contextual_reviews_{_session_slug(source_file)}_v2_{provider_name}.jsonl"
+    return ROOT_DIR / f"data/interim/assemblee/contextual_reviews_{session_slug(source_file)}_v2_{provider_name}.jsonl"
 
 
 def main() -> None:
@@ -253,13 +253,13 @@ def main() -> None:
 
     print(f"Provider : {args.provider}")
     print(f"Source : {args.source_file}")
-    print(f"Fichier ecrit : {_display_path(output_path)}")
+    print(f"Fichier ecrit : {display_path(output_path)}")
     print(f"Lignes : {summary['total']}")
     print(f"Fallbacks techniques : {summary['fallback_technical']}")
     print(f"Hors perimetre substantiels : {summary['substantive_hors_perimetre']}")
     if args.summary_output is not None:
         comparison = write_comparison_summary([*args.compare_with, output_path], args.summary_output)
-        print(f"Resume comparatif : {_display_path(args.summary_output)}")
+        print(f"Resume comparatif : {display_path(args.summary_output)}")
         print(f"Seances comparees : {len(comparison['sessions'])}")
     print("Apercu :")
     for output in outputs[:3]:
@@ -271,14 +271,6 @@ def _source_path(source_file: str) -> Path:
     if path.exists():
         return path
     return SOURCE_DIR / source_file
-
-
-def _session_slug(source_file: str) -> str:
-    stem = Path(source_file).stem.lower()
-    marker = stem.rsplit("n", maxsplit=1)
-    if len(marker) == 2 and marker[1].isdigit():
-        return f"n{marker[1]}"
-    return stem
 
 
 def _source_id_from_outputs(outputs: list[ContextualReviewOutputV2]) -> str:
@@ -295,20 +287,6 @@ def _count_values(values: Any) -> dict[str, int]:
     for value in values:
         counts[str(value)] = counts.get(str(value), 0) + 1
     return counts
-
-
-def _as_int(value: Any) -> int:
-    try:
-        return int(value)
-    except (TypeError, ValueError):
-        return 0
-
-
-def _display_path(path: Path) -> Path:
-    try:
-        return path.relative_to(ROOT_DIR)
-    except ValueError:
-        return path
 
 
 if __name__ == "__main__":

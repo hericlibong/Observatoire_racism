@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any
 import xml.etree.ElementTree as ET
 
-from src.build_assemblee_pilot import ROOT_DIR, SOURCE_DIR
+from src.assemblee_contextualization.paths import ROOT_DIR, SOURCE_DIR, normalize_syceron_date
 
 
 JOURNAL_PATH = ROOT_DIR / "data/interim/assemblee/processing_journal_v2.jsonl"
@@ -78,7 +78,7 @@ def parse_local_session_xml(path: Path) -> LocalSessionXml:
 
     if not seance_id:
         raise ValueError(f"UID introuvable dans {path}.")
-    seance_date = _normalize_syceron_date(raw_date, path)
+    seance_date = normalize_syceron_date(raw_date, path)
     if not seance_date_label:
         raise ValueError(f"Libelle dateSeanceJour introuvable dans {path}.")
 
@@ -162,16 +162,6 @@ def _journal_session_from_entry(entry: dict[str, Any], line_number: int) -> Jour
         seance_date_label=str(entry["seance_date_label"]),
         status=str(entry["status"]),
     )
-
-
-def _normalize_syceron_date(raw_date: str, path: Path) -> str:
-    if len(raw_date) < 8 or not raw_date[:8].isdigit():
-        raise ValueError(f"dateSeance invalide dans {path} : {raw_date}")
-    return date(
-        int(raw_date[0:4]),
-        int(raw_date[4:6]),
-        int(raw_date[6:8]),
-    ).isoformat()
 
 
 def _session_sort_key(session: LocalSessionXml | JournalSession) -> tuple[str, str]:

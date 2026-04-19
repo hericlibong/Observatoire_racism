@@ -8,13 +8,13 @@ from src.assemblee_contextualization.context_builder import load_interventions_c
 from src.assemblee_contextualization.providers import ContextualReviewProvider
 from src.assemblee_contextualization.run_pilot_v2 import (
     DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES,
-    ROOT_DIR,
     build_provider,
     review_candidates_v2,
     summarize_output_file,
     write_comparison_summary,
     write_outputs_v2,
 )
+from src.assemblee_contextualization.paths import ROOT_DIR, display_path, session_slug
 from src.build_assemblee_phase_c_lot import OUTPUT_PATH as PHASE_C_INPUT_PATH
 from src.build_assemblee_phase_c_lot import PHASE_C_LOT_FILES
 
@@ -59,7 +59,7 @@ def write_phase_c_summary(output_paths: list[Path], provider_name: str, output_d
 
 
 def phase_c_output_path(source_file: str, provider_name: str, output_dir: Path) -> Path:
-    return output_dir / f"{OUTPUT_PREFIX}_{_session_slug(source_file)}_v2_{provider_name}.jsonl"
+    return output_dir / f"{OUTPUT_PREFIX}_{session_slug(source_file)}_v2_{provider_name}.jsonl"
 
 
 def phase_c_export_summary(output_paths: list[Path]) -> list[dict[str, Any]]:
@@ -72,14 +72,6 @@ def _rows_for_source(rows: list[dict[str, str]], source_file: str) -> list[dict[
     if not selected:
         raise ValueError(f"Seance Phase C absente du CSV structure : {seance_id}")
     return selected
-
-
-def _session_slug(source_file: str) -> str:
-    stem = Path(source_file).stem.lower()
-    marker = stem.rsplit("n", maxsplit=1)
-    if len(marker) == 2 and marker[1].isdigit():
-        return f"n{marker[1]}"
-    return stem
 
 
 def main() -> None:
@@ -102,7 +94,7 @@ def main() -> None:
     summary_path = None if args.no_summary else write_phase_c_summary(output_paths, args.provider, output_dir)
 
     print(f"Provider : {args.provider}")
-    print(f"Input : {_display_path(args.input)}")
+    print(f"Input : {display_path(args.input, ROOT_DIR)}")
     for summary in phase_c_export_summary(output_paths):
         print(
             "- {source_id}: {reviewed_items} sorties, {fallback_technical} fallbacks techniques, {path}".format(
@@ -110,14 +102,7 @@ def main() -> None:
             )
         )
     if summary_path is not None:
-        print(f"Resume : {_display_path(summary_path)}")
-
-
-def _display_path(path: Path) -> Path:
-    try:
-        return path.relative_to(ROOT_DIR)
-    except ValueError:
-        return path
+        print(f"Resume : {display_path(summary_path, ROOT_DIR)}")
 
 
 if __name__ == "__main__":

@@ -3,8 +3,7 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-
-ROOT_DIR = Path(__file__).resolve().parents[2]
+from .paths import ROOT_DIR
 
 
 def load_dotenv(path: Path | None = None) -> None:

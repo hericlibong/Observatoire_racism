@@ -4,9 +4,8 @@ import argparse
 from collections import Counter
 from pathlib import Path
 
+from assemblee_contextualization.paths import INTERIM_DIR, ROOT_DIR, display_path
 from src.build_assemblee_pilot import (
-    INTERIM_DIR,
-    ROOT_DIR,
     InterventionRow,
     parse_source_file,
     write_csv,
@@ -62,18 +61,11 @@ def main() -> None:
     args = parser.parse_args()
 
     rows = write_phase_c_lot_csv(args.output)
-    print(f"CSV ecrit : {_display_path(args.output)}")
+    print(f"CSV ecrit : {display_path(args.output, ROOT_DIR)}")
     print(f"Seances : {len(seance_counts(rows))}")
     print("Interventions par seance :")
     for seance_id, count in seance_counts(rows).items():
         print(f"- {seance_id}: {count}")
-
-
-def _display_path(path: Path) -> Path:
-    try:
-        return path.relative_to(ROOT_DIR)
-    except ValueError:
-        return path
 
 
 if __name__ == "__main__":

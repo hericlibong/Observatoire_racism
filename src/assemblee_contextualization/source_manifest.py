@@ -8,6 +8,12 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
+from src.assemblee_contextualization.paths import (
+    INTERIM_DIR,
+    ROOT_DIR,
+    SOURCE_DIR,
+    display_path,
+)
 from src.assemblee_contextualization.processing_journal import (
     JOURNAL_PATH,
     read_processing_journal,
@@ -18,7 +24,6 @@ from src.assemblee_contextualization.source_acquisition import (
     read_session_xml_metadata,
 )
 from src.assemblee_contextualization.source_inventory import DEFAULT_START_DATE
-from src.build_assemblee_pilot import ROOT_DIR, SOURCE_DIR
 
 
 SOURCE_URL = (
@@ -26,7 +31,7 @@ SOURCE_URL = (
     "syceronbrut/syseron.xml.zip"
 )
 ARCHIVE_PATH = ROOT_DIR / "data/raw/assemblee/zips/syseron.xml.zip"
-MANIFEST_PATH = ROOT_DIR / "data/interim/assemblee/source_manifest.json"
+MANIFEST_PATH = INTERIM_DIR / "source_manifest.json"
 ANCHOR_SOURCE_FILE = "CRSANR5L17S2026O1N191.xml"
 
 
@@ -239,10 +244,7 @@ def _is_processing_candidate(session: dict[str, Any], start_date: date) -> bool:
 
 
 def _project_relative_path(path: Path) -> str:
-    try:
-        return str(path.relative_to(ROOT_DIR))
-    except ValueError:
-        return str(path)
+    return str(display_path(path))
 
 
 if __name__ == "__main__":

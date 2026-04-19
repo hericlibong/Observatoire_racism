@@ -6,10 +6,11 @@ import tempfile
 import urllib.request
 import zipfile
 from dataclasses import dataclass
-from datetime import date
 from pathlib import Path
 from typing import Callable
 import xml.etree.ElementTree as ET
+
+from .paths import normalize_syceron_date
 
 
 ASSEMBLEE_NS = "http://schemas.assemblee-nationale.fr/referentiel"
@@ -161,7 +162,7 @@ def read_session_xml_metadata(path: Path) -> SessionXmlMetadata:
     return SessionXmlMetadata(
         source_file=path.name,
         seance_id=seance_id,
-        seance_date=_normalize_syceron_date(raw_date, path),
+        seance_date=normalize_syceron_date(raw_date, path),
         seance_date_label=seance_date_label,
         local_path=str(path),
     )
@@ -275,13 +276,3 @@ def _validate_zip_archive(path: Path) -> None:
 
 def _local_name(tag: str) -> str:
     return tag.split("}")[-1]
-
-
-def _normalize_syceron_date(raw_date: str, path: Path) -> str:
-    if len(raw_date) < 8 or not raw_date[:8].isdigit():
-        raise ValueError(f"dateSeance invalide dans {path} : {raw_date}")
-    return date(
-        int(raw_date[0:4]),
-        int(raw_date[4:6]),
-        int(raw_date[6:8]),
-    ).isoformat()

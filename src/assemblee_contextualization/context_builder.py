@@ -12,6 +12,7 @@ from .contracts import (
     SourceRef,
     TargetIntervention,
 )
+from .paths import as_int
 
 
 TRUTHY = {"1", "true", "True", "yes", "oui"}
@@ -41,7 +42,7 @@ def build_context_payload(
     if window < 0:
         raise ValueError("window doit etre positif ou nul.")
 
-    rows = sorted(interventions, key=lambda row: (_as_int(row.get("ordre")), str(row.get("intervention_id", ""))))
+    rows = sorted(interventions, key=lambda row: (as_int(row.get("ordre")), str(row.get("intervention_id", ""))))
     target_index = _find_target_index(rows, candidate_id)
     target_row = rows[target_index]
     target_is_signal_candidate = is_signal_candidate(target_row)
@@ -67,7 +68,7 @@ def build_context_payload(
             signal_candidate=target_is_signal_candidate,
             signal_family=str(target_row.get("signal_family", "")),
             signal_trigger=str(target_row.get("signal_trigger", "")),
-            signal_intensity=_as_int(target_row.get("signal_intensity")),
+            signal_intensity=as_int(target_row.get("signal_intensity")),
         ),
         local_context=LocalContext(
             previous=[InterventionContextItem(**_context_item_kwargs(row)) for row in previous_rows],
@@ -86,17 +87,10 @@ def _find_target_index(rows: list[Mapping[str, Any]], candidate_id: str) -> int:
 
 def _context_item_kwargs(row: Mapping[str, Any]) -> dict[str, Any]:
     return {
-        "ordre": _as_int(row.get("ordre")),
+        "ordre": as_int(row.get("ordre")),
         "intervention_id": str(row.get("intervention_id", "")),
         "orateur_nom": str(row.get("orateur_nom", "")),
         "point_titre": str(row.get("point_titre", "")),
         "sous_point_titre": str(row.get("sous_point_titre", "")),
         "texte": str(row.get("texte", "")),
     }
-
-
-def _as_int(value: Any) -> int:
-    try:
-        return int(value)
-    except (TypeError, ValueError):
-        return 0

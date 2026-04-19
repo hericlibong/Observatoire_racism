@@ -10,17 +10,15 @@ from pathlib import Path
 from typing import Iterator
 import xml.etree.ElementTree as ET
 
+from assemblee_contextualization.paths import EXPORTS_D3_DIR, INTERIM_DIR, ROOT_DIR, SOURCE_DIR
+
 
 NS = {"a": "http://schemas.assemblee-nationale.fr/referentiel"}
 
-ROOT_DIR = Path(__file__).resolve().parents[1]
-SOURCE_DIR = ROOT_DIR / "data/raw/assemblee/extracted/syceron_initial_import/syseron.xml/xml/compteRendu"
 PILOT_FILENAME = "CRSANR5L17S2026O1N191.xml"
 PILOT_PATH = SOURCE_DIR / PILOT_FILENAME
-INTERIM_DIR = ROOT_DIR / "data/interim/assemblee"
 MANIFEST_PATH = INTERIM_DIR / "source_manifest.json"
 CSV_PATH = INTERIM_DIR / "interventions_test.csv"
-EXPORTS_D3_DIR = ROOT_DIR / "data/exports/d3"
 JSON_PATH = EXPORTS_D3_DIR / "assemblee_pilot_timeline.json"
 
 CSV_FIELDS = [

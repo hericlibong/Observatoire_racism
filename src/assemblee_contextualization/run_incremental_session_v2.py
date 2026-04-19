@@ -11,10 +11,10 @@ from src.assemblee_contextualization.processing_journal import (
     append_processing_journal_entry,
     read_processing_journal,
 )
+from src.assemblee_contextualization.paths import INTERIM_DIR, ROOT_DIR, display_path, session_slug
 from src.assemblee_contextualization.providers import ContextualReviewProvider
 from src.assemblee_contextualization.run_pilot_v2 import (
     DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES,
-    ROOT_DIR,
     build_provider,
     load_interventions_for_source,
     read_outputs_v2,
@@ -25,7 +25,7 @@ from src.assemblee_contextualization.run_pilot_v2 import (
 from src.assemblee_contextualization.source_manifest import MANIFEST_PATH
 
 
-OUTPUT_DIR = ROOT_DIR / "data/interim/assemblee"
+OUTPUT_DIR = INTERIM_DIR
 
 
 class IncrementalSessionError(ValueError):
@@ -53,8 +53,8 @@ def build_dry_run_status(
         "already_processed": session["already_processed"],
         "journal_status": session["journal_status"],
         "local_path": session["local_path"],
-        "output_jsonl": str(_display_path(output_path)),
-        "summary_json": str(_display_path(summary_path)),
+        "output_jsonl": str(display_path(output_path)),
+        "summary_json": str(display_path(summary_path)),
         "provider": provider_name,
         "will_call_provider": False,
         "message": "Aucun appel provider, aucun appel Mistral, aucun traitement V2 lance.",
@@ -114,8 +114,8 @@ def run_incremental_session(
         return {
             "source_file": source_file,
             "status": "success",
-            "output_jsonl": str(_display_path(output_path)),
-            "summary_json": str(_display_path(summary_path)),
+            "output_jsonl": str(display_path(output_path)),
+            "summary_json": str(display_path(summary_path)),
             "journal_entry": journal_entry,
             "reviewed_items": int(summary["reviewed_items"]),
             "fallback_count": int(summary["fallback_technical"]),
@@ -190,7 +190,7 @@ def incremental_output_paths(
     provider_name: str,
     output_dir: Path = OUTPUT_DIR,
 ) -> tuple[Path, Path]:
-    slug = _session_slug(source_file)
+    slug = session_slug(source_file)
     base = f"contextual_reviews_incremental_{slug}_v2_{provider_name}"
     return output_dir / f"{base}.jsonl", output_dir / f"{base}_summary.json"
 
@@ -212,7 +212,7 @@ def write_incremental_summary(
         "seance_date_label": session["seance_date_label"],
         "provider": _journal_provider_name(provider_name, provider),
         "model_name": _journal_model_name(provider_name, provider),
-        "output_path": str(_display_path(output_path)),
+        "output_path": str(display_path(output_path)),
         "fallbacks_excluded_from_substantive_metrics": True,
         **output_summary,
     }
@@ -241,7 +241,7 @@ def _journal_entry(
         "provider": _journal_provider_name(provider_name, provider),
         "model_name": _journal_model_name(provider_name, provider),
         "status": status,
-        "outputs": [str(_display_path(path)) for path in outputs],
+        "outputs": [str(display_path(path)) for path in outputs],
         "fallback_count": fallback_count,
         "reviewed_items": reviewed_items,
         "error": error,
@@ -272,21 +272,6 @@ def _resolve_local_path(value: str) -> Path:
     if path.is_absolute():
         return path
     return ROOT_DIR / path
-
-
-def _session_slug(source_file: str) -> str:
-    stem = Path(source_file).stem.lower()
-    marker = stem.rsplit("n", maxsplit=1)
-    if len(marker) == 2 and marker[1].isdigit():
-        return f"n{marker[1]}"
-    return stem
-
-
-def _display_path(path: Path) -> Path:
-    try:
-        return path.relative_to(ROOT_DIR)
-    except ValueError:
-        return path
 
 
 def main() -> None:
