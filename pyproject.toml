@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "observatoire"
+version = "0.1.0"
+description = "Pipeline d'analyse de debats parlementaires Assemblee nationale a partir du corpus XML Syceron."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "Proprietary" }
+authors = [
+    { name = "OBSERVATOIRE" },
+]
+dependencies = [
+    "mistralai>=0.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "mypy>=1.10",
+    "pytest>=8.0",
+    "ruff>=0.5",
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+py-modules = [
+    "build_assemblee_phase_c_lot",
+    "build_assemblee_pilot",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.mypy]
+python_version = "3.12"
+files = ["src", "tests"]
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unused_configs = true
+no_implicit_optional = true
+namespace_packages = true
+explicit_package_bases = true
+disable_error_code = [
+    "arg-type",
+    "index",
+    "misc",
+    "var-annotated",
+]

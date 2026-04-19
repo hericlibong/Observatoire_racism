@@ -56,7 +56,8 @@ Fait :
 
 En cours :
 
-- aucune phase active ; Phase G - Consolidation post-serie N191-N205 a ouvrir.
+- Phase G - Consolidation post-serie N191-N205 ouverte ; Bloc G1
+  Reproductibilite projet cloture.
 
 A faire :
 
@@ -1573,7 +1574,7 @@ Reporte :
 
 ## Phase G - Consolidation post-serie N191-N205
 
-Statut : a ouvrir.
+Statut : ouverte.
 
 Objectif : consolider le socle technique, methodologique et visuel avant toute
 nouvelle extension.
@@ -1592,6 +1593,8 @@ plus propre.
 
 ### Bloc G1 - Reproductibilite projet
 
+Statut : cloture.
+
 Objectif : rendre l'environnement Python reproductible avant tout refactoring.
 
 Taches :
@@ -1609,6 +1612,22 @@ Critere de sortie :
 - une installation projet/dev est documentee ;
 - les tests peuvent etre lances depuis la racine ;
 - le resultat de test initial est connu.
+
+Resultat de cloture :
+
+- `pyproject.toml` cree avec metadonnees projet, dependance runtime
+  `mistralai`, extras dev `pytest`, `ruff`, `mypy`, configuration `pytest`,
+  `ruff` et `mypy` progressive ;
+- `README.md` mis a jour avec les commandes d'installation dev, test, lint,
+  format et type-check ;
+- installation dev validee par `python -m pip install -e '.[dev]'` ;
+- baseline tests : `python -m pytest tests/ -v` -> 89 passed, 24 subtests
+  passed ;
+- baseline lint : `python -m ruff check src tests` -> All checks passed ;
+- baseline type-check progressif : `python -m mypy src tests` -> Success: no
+  issues found in 43 source files ;
+- aucune relance Mistral, aucun changement de prompt, contrat V2, lexique ou
+  taxonomie.
 
 ### Bloc G2 - Centralisation chemins et utilitaires
 
