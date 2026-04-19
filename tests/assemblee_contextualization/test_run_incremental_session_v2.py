@@ -10,7 +10,7 @@ from src.assemblee_contextualization.run_incremental_session_v2 import (
     build_dry_run_status,
     run_incremental_session,
 )
-from src.assemblee_contextualization.run_pilot_v2 import read_outputs_v2
+from src.assemblee_contextualization.io_v2 import read_outputs_v2
 from tests.assemblee_contextualization.test_context_builder import sample_interventions
 
 

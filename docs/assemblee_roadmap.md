@@ -56,8 +56,8 @@ Fait :
 
 En cours :
 
-- Phase G - Consolidation post-serie N191-N205 ouverte ; Blocs G1, G2 et G3
-  clotures.
+- Phase G - Consolidation post-serie N191-N205 ouverte ; Blocs G1, G2, G3 et
+  G4 clotures.
 
 A faire :
 
@@ -1770,21 +1770,96 @@ Resultat de cloture :
 
 ### Bloc G4 - Scission de `run_pilot_v2.py`
 
+Statut : cloture.
+
 Objectif : reduire le module d'orchestration V2 sans changer les sorties.
 
 Taches :
 
-- extraire la logique de revue V2 dans `review_engine.py` ;
-- extraire lecture/ecriture/resumes JSONL dans `io_v2.py` ;
-- conserver `run_pilot_v2.py` comme CLI mince et factory provider ;
-- adapter `run_phase_c_lot_v2.py`, `run_incremental_session_v2.py`,
-  `heatmap_export.py` et les tests.
+- [x] creer `src/assemblee_contextualization/review_engine.py` avec
+  `DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES`, `review_candidates_v2`,
+  `select_review_ids`, `sample_intervention_ids` et
+  `validate_fallback_invariants` ;
+- [x] creer `tests/assemblee_contextualization/test_review_engine.py` avec les
+  tests de selection, echantillonnage, revue V2 et invariants fallback ;
+- [x] creer `src/assemblee_contextualization/io_v2.py` avec
+  `write_outputs_v2`, `read_outputs_v2`, `summarize_outputs_v2`,
+  `summarize_output_file` et `write_comparison_summary` ;
+- [x] creer `tests/assemblee_contextualization/test_io_v2.py` avec les tests
+  d'ecriture JSONL, lecture JSONL, resume simple et resume comparatif ;
+- [x] modifier `src/assemblee_contextualization/run_pilot_v2.py` pour importer
+  `review_engine.py` et `io_v2.py`, supprimer les fonctions extraites, et
+  conserver les responsabilites runner, provider factory, chemins de sortie et
+  chargement source temporaire ;
+- [x] modifier `tests/assemblee_contextualization/test_run_pilot_v2.py` pour
+  ne garder que les tests runner/CLI, `build_provider`, `default_output_path`
+  et chargement source ;
+- [x] modifier `src/assemblee_contextualization/run_phase_c_lot_v2.py` pour
+  importer la revue depuis `review_engine.py` et les IO/resumes depuis
+  `io_v2.py` ;
+- [x] modifier `tests/assemblee_contextualization/test_run_phase_c_lot_v2.py`
+  pour importer `read_outputs_v2` depuis `io_v2.py` ;
+- [x] modifier `src/assemblee_contextualization/run_incremental_session_v2.py`
+  pour importer la revue depuis `review_engine.py` et les IO/resumes depuis
+  `io_v2.py` ;
+- [x] modifier
+  `tests/assemblee_contextualization/test_run_incremental_session_v2.py` pour
+  importer `read_outputs_v2` depuis `io_v2.py` ;
+- [x] modifier `src/assemblee_contextualization/heatmap_export.py` pour
+  importer `read_outputs_v2` depuis `io_v2.py` et garder seulement
+  `load_interventions_for_source` depuis `run_pilot_v2.py` ;
+- [x] modifier les imports restants dans `src/` et `tests/` pour limiter
+  `run_pilot_v2.py` aux fonctions non extraites du Bloc G4 ;
+- [x] modifier `docs/assemblee_roadmap.md` pour cocher les taches du Bloc G4,
+  passer le bloc en `Statut : cloture`, consigner les fichiers touches et les
+  resultats de validation.
 
 Critere de sortie :
 
 - les imports vers `run_pilot_v2.py` sont reduits ;
 - les exports JSONL et resumes gardent le meme contrat ;
 - les tests cibles passent.
+
+Fichiers touches :
+
+- `src/assemblee_contextualization/review_engine.py` ;
+- `tests/assemblee_contextualization/test_review_engine.py` ;
+- `src/assemblee_contextualization/io_v2.py` ;
+- `tests/assemblee_contextualization/test_io_v2.py` ;
+- `src/assemblee_contextualization/run_pilot_v2.py` ;
+- `tests/assemblee_contextualization/test_run_pilot_v2.py` ;
+- `src/assemblee_contextualization/run_phase_c_lot_v2.py` ;
+- `tests/assemblee_contextualization/test_run_phase_c_lot_v2.py` ;
+- `src/assemblee_contextualization/run_incremental_session_v2.py` ;
+- `tests/assemblee_contextualization/test_run_incremental_session_v2.py` ;
+- `src/assemblee_contextualization/heatmap_export.py` ;
+- `docs/assemblee_roadmap.md`.
+
+Resultat de cloture :
+
+- `run_pilot_v2.py` est reduit aux responsabilites runner : CLI, provider
+  factory, chemins de sortie et chargement source temporaire ;
+- `review_engine.py` porte la selection, l'echantillonnage, la revue V2 et les
+  invariants fallback ;
+- `io_v2.py` porte les IO JSONL, la lecture validee et les resumes V2 ;
+- `rg "from .*run_pilot_v2|import .*run_pilot_v2" src tests` ne montre plus
+  d'import de fonctions extraites ; les imports restants concernent
+  `build_provider`, `load_interventions_for_source` ou les tests du runner ;
+- `python -m pytest tests/assemblee_contextualization/test_review_engine.py
+  tests/assemblee_contextualization/test_io_v2.py
+  tests/assemblee_contextualization/test_run_pilot_v2.py -v` -> 14 passed ;
+- `python -m pytest
+  tests/assemblee_contextualization/test_run_phase_c_lot_v2.py
+  tests/assemblee_contextualization/test_run_incremental_session_v2.py
+  tests/assemblee_contextualization/test_heatmap_export.py -v` -> 12 passed ;
+- `python -m pytest tests/assemblee_contextualization tests/assemblee -v` ->
+  106 passed, 24 subtests passed ;
+- `python -m ruff check src tests` -> All checks passed ;
+- `python -m mypy src tests` -> Success: no issues found in 49 source files ;
+- `git diff --check` -> OK ;
+- aucune relance Mistral, aucun changement de prompt, contrat V2, lexique ou
+  taxonomie ;
+- Bloc G5 non lance ; `xml_parser.py` et `signal_rules.py` ne sont pas crees.
 
 ### Bloc G5 - Extraction XML parser et regles lexicales
 

@@ -6,6 +6,7 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Callable
 
+from src.assemblee_contextualization.io_v2 import read_outputs_v2, summarize_output_file, write_outputs_v2
 from src.assemblee_contextualization.processing_journal import (
     JOURNAL_PATH,
     append_processing_journal_entry,
@@ -13,14 +14,13 @@ from src.assemblee_contextualization.processing_journal import (
 )
 from src.assemblee_contextualization.paths import INTERIM_DIR, ROOT_DIR, display_path, session_slug
 from src.assemblee_contextualization.providers import ContextualReviewProvider
-from src.assemblee_contextualization.run_pilot_v2 import (
+from src.assemblee_contextualization.review_engine import (
     DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES,
+    review_candidates_v2,
+)
+from src.assemblee_contextualization.run_pilot_v2 import (
     build_provider,
     load_interventions_for_source,
-    read_outputs_v2,
-    review_candidates_v2,
-    summarize_output_file,
-    write_outputs_v2,
 )
 from src.assemblee_contextualization.source_manifest import MANIFEST_PATH
 

@@ -9,7 +9,7 @@ from src.assemblee_contextualization.run_phase_c_lot_v2 import (
     run_phase_c_lot_v2,
     write_phase_c_summary,
 )
-from src.assemblee_contextualization.run_pilot_v2 import read_outputs_v2
+from src.assemblee_contextualization.io_v2 import read_outputs_v2
 from src.build_assemblee_pilot import CSV_FIELDS
 
 

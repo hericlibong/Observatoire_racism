@@ -5,16 +5,20 @@ from pathlib import Path
 from typing import Any
 
 from src.assemblee_contextualization.context_builder import load_interventions_csv
-from src.assemblee_contextualization.providers import ContextualReviewProvider
-from src.assemblee_contextualization.run_pilot_v2 import (
-    DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES,
-    build_provider,
-    review_candidates_v2,
+from src.assemblee_contextualization.io_v2 import (
     summarize_output_file,
     write_comparison_summary,
     write_outputs_v2,
 )
 from src.assemblee_contextualization.paths import ROOT_DIR, display_path, session_slug
+from src.assemblee_contextualization.providers import ContextualReviewProvider
+from src.assemblee_contextualization.review_engine import (
+    DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES,
+    review_candidates_v2,
+)
+from src.assemblee_contextualization.run_pilot_v2 import (
+    build_provider,
+)
 from src.build_assemblee_phase_c_lot import OUTPUT_PATH as PHASE_C_INPUT_PATH
 from src.build_assemblee_phase_c_lot import PHASE_C_LOT_FILES
 
