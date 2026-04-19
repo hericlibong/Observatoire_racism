@@ -1599,13 +1599,13 @@ Objectif : rendre l'environnement Python reproductible avant tout refactoring.
 
 Taches :
 
-- creer `pyproject.toml` ;
-- declarer les dependances runtime et dev ;
-- configurer `pytest` ;
-- configurer `ruff` pour lint et format ;
-- preparer `mypy` de maniere progressive, sans viser le strict global
+- [x] creer `pyproject.toml` ;
+- [x] declarer les dependances runtime et dev ;
+- [x] configurer `pytest` ;
+- [x] configurer `ruff` pour lint et format ;
+- [x] preparer `mypy` de maniere progressive, sans viser le strict global
   immediat ;
-- lancer les tests existants et documenter le resultat.
+- [x] lancer les tests existants et documenter le resultat.
 
 Critere de sortie :
 
