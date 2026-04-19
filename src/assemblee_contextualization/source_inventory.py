@@ -5,22 +5,16 @@ from dataclasses import asdict, dataclass
 from datetime import date
 from pathlib import Path
 from typing import Any
-import xml.etree.ElementTree as ET
 
-from src.assemblee_contextualization.paths import ROOT_DIR, SOURCE_DIR, normalize_syceron_date
+from src.assemblee_contextualization.paths import ROOT_DIR, SOURCE_DIR
+from src.assemblee_contextualization.source_acquisition import (
+    SessionXmlMetadata,
+    read_session_xml_metadata,
+)
 
 
 JOURNAL_PATH = ROOT_DIR / "data/interim/assemblee/processing_journal_v2.jsonl"
 DEFAULT_START_DATE = date(2026, 4, 2)
-
-
-@dataclass(frozen=True)
-class LocalSessionXml:
-    source_file: str
-    seance_id: str
-    seance_date: str
-    seance_date_label: str
-    local_path: str
 
 
 @dataclass(frozen=True)
@@ -44,8 +38,8 @@ class LocalInventoryStatus:
 def list_local_session_xmls(
     source_dir: Path = SOURCE_DIR,
     start_date: date = DEFAULT_START_DATE,
-) -> list[LocalSessionXml]:
-    sessions: list[LocalSessionXml] = []
+) -> list[SessionXmlMetadata]:
+    sessions: list[SessionXmlMetadata] = []
     if not source_dir.exists():
         return sessions
 
@@ -57,38 +51,8 @@ def list_local_session_xmls(
     return sorted(sessions, key=_session_sort_key)
 
 
-def parse_local_session_xml(path: Path) -> LocalSessionXml:
-    seance_id = ""
-    raw_date = ""
-    seance_date_label = ""
-
-    for event, element in ET.iterparse(path, events=("end",)):
-        tag = element.tag.split("}")[-1]
-        text = "".join(element.itertext()).strip()
-        if tag == "uid" and not seance_id:
-            seance_id = text
-        elif tag == "dateSeance" and not raw_date:
-            raw_date = text
-        elif tag == "dateSeanceJour" and not seance_date_label:
-            seance_date_label = text
-
-        if seance_id and raw_date and seance_date_label:
-            break
-        element.clear()
-
-    if not seance_id:
-        raise ValueError(f"UID introuvable dans {path}.")
-    seance_date = normalize_syceron_date(raw_date, path)
-    if not seance_date_label:
-        raise ValueError(f"Libelle dateSeanceJour introuvable dans {path}.")
-
-    return LocalSessionXml(
-        source_file=path.name,
-        seance_id=seance_id,
-        seance_date=seance_date,
-        seance_date_label=seance_date_label,
-        local_path=str(path),
-    )
+def parse_local_session_xml(path: Path) -> SessionXmlMetadata:
+    return read_session_xml_metadata(path)
 
 
 def read_journal_sessions(path: Path = JOURNAL_PATH) -> list[JournalSession]:
@@ -164,11 +128,11 @@ def _journal_session_from_entry(entry: dict[str, Any], line_number: int) -> Jour
     )
 
 
-def _session_sort_key(session: LocalSessionXml | JournalSession) -> tuple[str, str]:
+def _session_sort_key(session: SessionXmlMetadata | JournalSession) -> tuple[str, str]:
     return session.seance_date, session.seance_id
 
 
-def _session_to_dict(session: LocalSessionXml | JournalSession | None) -> dict[str, str] | None:
+def _session_to_dict(session: SessionXmlMetadata | JournalSession | None) -> dict[str, str] | None:
     if session is None:
         return None
     payload = {
@@ -177,7 +141,7 @@ def _session_to_dict(session: LocalSessionXml | JournalSession | None) -> dict[s
         "seance_date": session.seance_date,
         "seance_date_label": session.seance_date_label,
     }
-    if isinstance(session, LocalSessionXml):
+    if isinstance(session, SessionXmlMetadata):
         payload["local_path"] = session.local_path
     if isinstance(session, JournalSession):
         payload["journal_status"] = session.status

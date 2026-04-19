@@ -56,8 +56,8 @@ Fait :
 
 En cours :
 
-- Phase G - Consolidation post-serie N191-N205 ouverte ; Bloc G1
-  Reproductibilite projet cloture.
+- Phase G - Consolidation post-serie N191-N205 ouverte ; Blocs G1, G2 et G3
+  clotures.
 
 A faire :
 
@@ -1713,19 +1713,60 @@ Resultat de cloture :
 
 ### Bloc G3 - Unification des metadonnees XML
 
+Statut : cloture.
+
 Objectif : supprimer le double parsing des metadonnees de seance.
 
 Taches :
 
-- faire utiliser `read_session_xml_metadata()` par `source_inventory.py` ;
-- unifier ou supprimer `LocalSessionXml` si `SessionXmlMetadata` suffit ;
-- conserver les garanties du manifest et du journal ;
-- verifier les cas XML valide, XML invalide et journal absent.
+- [x] modifier `src/assemblee_contextualization/source_inventory.py` pour
+  remplacer le parsing XML local par `read_session_xml_metadata()` issu de
+  `source_acquisition.py` ;
+- [x] modifier `src/assemblee_contextualization/source_inventory.py` pour
+  supprimer `LocalSessionXml` au profit de `SessionXmlMetadata`, sans changer
+  le payload public de `local_inventory_status_as_dict()` ;
+- [x] modifier `src/assemblee_contextualization/source_inventory.py` pour
+  supprimer les imports et helpers devenus inutiles apres l'unification
+  metadata ;
+- [x] modifier `tests/assemblee_contextualization/test_source_inventory.py`
+  pour couvrir l'usage de `SessionXmlMetadata` dans l'inventaire local via
+  `tmp_path` ;
+- [x] modifier `tests/assemblee_contextualization/test_source_inventory.py`
+  pour couvrir le cas XML invalide via le comportement partage de
+  `read_session_xml_metadata()` ;
+- [x] modifier `tests/assemblee_contextualization/test_source_inventory.py`
+  pour preserver les garanties existantes du journal absent, du journal valide
+  et de la selection des candidates ;
+- [x] modifier `docs/assemblee_roadmap.md` pour cocher les taches du Bloc G3,
+  passer le bloc en `Statut : cloture`, consigner les fichiers touches et les
+  resultats de validation.
 
 Critere de sortie :
 
 - une seule source de parsing metadata XML est utilisee ;
 - l'inventaire local, le manifest et les tests associes restent coherents.
+
+Fichiers touches :
+
+- `src/assemblee_contextualization/source_inventory.py` ;
+- `tests/assemblee_contextualization/test_source_inventory.py` ;
+- `docs/assemblee_roadmap.md`.
+
+Resultat de cloture :
+
+- `python -m pytest tests/assemblee_contextualization/test_source_inventory.py
+  tests/assemblee_contextualization/test_source_acquisition.py -v` -> 20
+  passed ;
+- `python -m pytest tests/assemblee_contextualization tests/assemblee -v` ->
+  98 passed, 24 subtests passed ;
+- `python -m ruff check src tests` -> All checks passed ;
+- `python -m mypy src tests` -> Success: no issues found in 45 source files ;
+- `git diff --check` -> OK ;
+- `source_inventory.py` utilise `SessionXmlMetadata` et
+  `read_session_xml_metadata()` comme source unique du parsing metadata XML ;
+- aucune relance Mistral, aucun changement de prompt, contrat V2, lexique ou
+  taxonomie ;
+- Bloc G4 non lance.
 
 ### Bloc G4 - Scission de `run_pilot_v2.py`
 

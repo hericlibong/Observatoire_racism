@@ -3,9 +3,14 @@ import tempfile
 import unittest
 from pathlib import Path
 
+import pytest
+
+from src.assemblee_contextualization.source_acquisition import SessionXmlMetadata
 from src.assemblee_contextualization.source_inventory import (
     build_local_inventory_status,
     list_local_session_xmls,
+    local_inventory_status_as_dict,
+    parse_local_session_xml,
     read_journal_sessions,
 )
 
@@ -50,6 +55,51 @@ def journal_entry(
         "reviewed_items": 0,
         "error": "",
     }
+
+
+def test_local_inventory_uses_shared_session_xml_metadata(tmp_path: Path) -> None:
+    xml_path = tmp_path / "CRSANR5L17S2026O1N191.xml"
+    write_xml(
+        tmp_path,
+        xml_path.name,
+        "CRSANR5L17S2026O1N191",
+        "20260402110000000",
+        "jeudi 02 avril 2026",
+    )
+
+    session = parse_local_session_xml(xml_path)
+    sessions = list_local_session_xmls(tmp_path)
+    status = build_local_inventory_status(tmp_path, tmp_path / "missing_journal.jsonl")
+    payload = local_inventory_status_as_dict(status)
+
+    assert isinstance(session, SessionXmlMetadata)
+    assert isinstance(sessions[0], SessionXmlMetadata)
+    assert payload["latest_local_session"] == {
+        "source_file": "CRSANR5L17S2026O1N191.xml",
+        "seance_id": "CRSANR5L17S2026O1N191",
+        "seance_date": "2026-04-02",
+        "seance_date_label": "jeudi 02 avril 2026",
+        "local_path": str(xml_path),
+    }
+
+
+def test_local_inventory_raises_shared_metadata_error_for_invalid_xml(tmp_path: Path) -> None:
+    invalid_path = tmp_path / "CRSANR5L17S2026O1N191.xml"
+    invalid_path.write_text(
+        """<?xml version="1.0" encoding="UTF-8"?>
+<compteRendu xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid>CRSANR5L17S2026O1N191</uid>
+  <metadonnees>
+    <dateSeance>20260402110000000</dateSeance>
+    <dateSeanceJour>jeudi 02 avril 2026</dateSeanceJour>
+  </metadonnees>
+</compteRendu>
+""",
+        encoding="utf-8",
+    )
+
+    with pytest.raises(ValueError, match="Bloc contenu introuvable"):
+        list_local_session_xmls(tmp_path)
 
 
 class SourceInventoryTest(unittest.TestCase):
