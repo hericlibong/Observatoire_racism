@@ -34,41 +34,15 @@ data/interim/
 # Ignore all exports by default
 data/exports/*
 
-# Keep the D3 pilot artifacts versioned
+# Keep the D3 pilot artifacts versioned.
+# The pattern is deliberately stable so that new sessions are versioned
+# without having to append one exception per seance.
 !data/exports/d3/
 data/exports/d3/*
 !data/exports/d3/assemblee_pilot_timeline.html
 !data/exports/d3/assemblee_pilot_timeline.json
-!data/exports/d3/assemblee_session_heatmap_n191.html
-!data/exports/d3/assemblee_session_heatmap_n191.json
-!data/exports/d3/assemblee_session_heatmap_n192.html
-!data/exports/d3/assemblee_session_heatmap_n192.json
-!data/exports/d3/assemblee_session_heatmap_n193.html
-!data/exports/d3/assemblee_session_heatmap_n193.json
-!data/exports/d3/assemblee_session_heatmap_n194.html
-!data/exports/d3/assemblee_session_heatmap_n194.json
-!data/exports/d3/assemblee_session_heatmap_n195.html
-!data/exports/d3/assemblee_session_heatmap_n195.json
-!data/exports/d3/assemblee_session_heatmap_n196.html
-!data/exports/d3/assemblee_session_heatmap_n196.json
-!data/exports/d3/assemblee_session_heatmap_n197.html
-!data/exports/d3/assemblee_session_heatmap_n197.json
-!data/exports/d3/assemblee_session_heatmap_n198.html
-!data/exports/d3/assemblee_session_heatmap_n198.json
-!data/exports/d3/assemblee_session_heatmap_n199.html
-!data/exports/d3/assemblee_session_heatmap_n199.json
-!data/exports/d3/assemblee_session_heatmap_n200.html
-!data/exports/d3/assemblee_session_heatmap_n200.json
-!data/exports/d3/assemblee_session_heatmap_n201.html
-!data/exports/d3/assemblee_session_heatmap_n201.json
-!data/exports/d3/assemblee_session_heatmap_n202.html
-!data/exports/d3/assemblee_session_heatmap_n202.json
-!data/exports/d3/assemblee_session_heatmap_n203.html
-!data/exports/d3/assemblee_session_heatmap_n203.json
-!data/exports/d3/assemblee_session_heatmap_n204.html
-!data/exports/d3/assemblee_session_heatmap_n204.json
-!data/exports/d3/assemblee_session_heatmap_n205.html
-!data/exports/d3/assemblee_session_heatmap_n205.json
+!data/exports/d3/assemblee_session_heatmap_n*.html
+!data/exports/d3/assemblee_session_heatmap_n*.json
 !data/exports/d3/assemblee_sessions_overview.html
 !data/exports/d3/assemblee_sessions_overview.json
 
