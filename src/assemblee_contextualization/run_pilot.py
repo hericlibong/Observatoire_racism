@@ -1,5 +1,9 @@
 from __future__ import annotations
 
+# DEPRECATED — V1, kept for historical reference only.
+# Use run_pilot_v2.py or run_incremental_session_v2.py for all active development.
+# Do not modify or extend this file.
+
 import argparse
 import json
 from pathlib import Path

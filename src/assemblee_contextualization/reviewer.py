@@ -1,5 +1,9 @@
 from __future__ import annotations
 
+# DEPRECATED — V1, kept for historical reference only.
+# V2 is the active contract (contracts.py ScopeLevel/SignalCategory).
+# Do not modify or extend this file.
+
 from typing import Any, Mapping
 
 from .context_builder import build_context_payload, candidate_ids
