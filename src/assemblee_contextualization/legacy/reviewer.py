@@ -6,9 +6,9 @@ from __future__ import annotations
 
 from typing import Any, Mapping
 
-from .context_builder import build_context_payload, candidate_ids
-from .contracts import ContextualReviewOutput, validate_review_output
-from .providers import ContextualReviewProvider
+from ..context_builder import build_context_payload, candidate_ids
+from ..contracts import ContextualReviewOutput, validate_review_output
+from ..providers import ContextualReviewProvider
 
 
 class ContextualReviewer:

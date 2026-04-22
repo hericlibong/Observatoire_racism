@@ -6,7 +6,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from .providers import ContextualReviewProvider
+from ..providers import ContextualReviewProvider
 
 
 class MockContextualReviewProvider(ContextualReviewProvider):

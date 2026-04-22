@@ -1,6 +1,6 @@
 import unittest
 
-from src.assemblee_contextualization.mock_provider import MockContextualReviewProvider
+from src.assemblee_contextualization.legacy.mock_provider import MockContextualReviewProvider
 
 
 class MockProviderTest(unittest.TestCase):
