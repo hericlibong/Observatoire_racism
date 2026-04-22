@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from src.assemblee_contextualization.mock_provider_v2 import MockContextualReviewProviderV2
+from src.assemblee_contextualization.providers.mock_provider_v2 import MockContextualReviewProviderV2
 from src.assemblee_contextualization.processing_journal import read_processing_journal
 from src.assemblee_contextualization.runners.run_incremental_session_v2 import (
     IncrementalSessionError,

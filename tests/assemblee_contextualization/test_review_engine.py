@@ -6,7 +6,7 @@ from src.assemblee_contextualization.contracts import (
     ScopeLevel,
     SignalCategory,
 )
-from src.assemblee_contextualization.mock_provider_v2 import MockContextualReviewProviderV2
+from src.assemblee_contextualization.providers.mock_provider_v2 import MockContextualReviewProviderV2
 from src.assemblee_contextualization.review_engine import (
     review_candidates_v2,
     select_review_ids,

@@ -3,7 +3,7 @@ import tempfile
 from pathlib import Path
 import unittest
 
-from src.assemblee_contextualization.mock_provider_v2 import MockContextualReviewProviderV2
+from src.assemblee_contextualization.providers.mock_provider_v2 import MockContextualReviewProviderV2
 from src.assemblee_contextualization.runners.run_phase_c_lot_v2 import (
     phase_c_output_path,
     run_phase_c_lot_v2,

@@ -7,8 +7,8 @@ from typing import Any
 
 from ..context_builder import load_interventions_csv
 from ..io_v2 import summarize_outputs_v2, write_comparison_summary, write_outputs_v2
-from ..mistral_provider_v2 import MistralContextualReviewProviderV2
-from ..mock_provider_v2 import MockContextualReviewProviderV2
+from ..providers.mistral_provider_v2 import MistralContextualReviewProviderV2
+from ..providers.mock_provider_v2 import MockContextualReviewProviderV2
 from ..paths import ROOT_DIR, display_path, session_slug
 from ..providers import ContextualReviewProvider
 from ..review_engine import DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES, review_candidates_v2
