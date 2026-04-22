@@ -16,7 +16,7 @@ from src.assemblee_contextualization.review_engine import (
     DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES,
     review_candidates_v2,
 )
-from src.assemblee_contextualization.run_pilot_v2 import (
+from src.assemblee_contextualization.runners.run_pilot_v2 import (
     build_provider,
 )
 from src.build_assemblee_phase_c_lot import OUTPUT_PATH as PHASE_C_INPUT_PATH

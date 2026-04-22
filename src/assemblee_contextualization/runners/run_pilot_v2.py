@@ -5,14 +5,14 @@ import json
 from pathlib import Path
 from typing import Any
 
-from .context_builder import load_interventions_csv
-from .io_v2 import summarize_outputs_v2, write_comparison_summary, write_outputs_v2
-from .mistral_provider_v2 import MistralContextualReviewProviderV2
-from .mock_provider_v2 import MockContextualReviewProviderV2
-from .paths import ROOT_DIR, display_path, session_slug
-from .providers import ContextualReviewProvider
-from .review_engine import DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES, review_candidates_v2
-from .sources.xml_parser import parse_source_file
+from ..context_builder import load_interventions_csv
+from ..io_v2 import summarize_outputs_v2, write_comparison_summary, write_outputs_v2
+from ..mistral_provider_v2 import MistralContextualReviewProviderV2
+from ..mock_provider_v2 import MockContextualReviewProviderV2
+from ..paths import ROOT_DIR, display_path, session_slug
+from ..providers import ContextualReviewProvider
+from ..review_engine import DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES, review_candidates_v2
+from ..sources.xml_parser import parse_source_file
 
 
 OUTPUT_PATH = ROOT_DIR / "data/interim/assemblee/contextual_reviews_pilot_v2.jsonl"
