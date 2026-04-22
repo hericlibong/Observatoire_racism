@@ -18,11 +18,11 @@ from src.assemblee_contextualization.review_engine import (
     DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES,
     review_candidates_v2,
 )
-from src.assemblee_contextualization.run_pilot_v2 import (
+from src.assemblee_contextualization.runners.run_pilot_v2 import (
     build_provider,
     load_interventions_for_source,
 )
-from src.assemblee_contextualization.source_manifest import MANIFEST_PATH
+from src.assemblee_contextualization.sources.source_manifest import MANIFEST_PATH
 
 
 OUTPUT_DIR = INTERIM_DIR

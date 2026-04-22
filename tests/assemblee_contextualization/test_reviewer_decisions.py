@@ -1,9 +1,9 @@
 import unittest
 from typing import Any
 
-from src.assemblee_contextualization.mock_provider import MockContextualReviewProvider
+from src.assemblee_contextualization.legacy.mock_provider import MockContextualReviewProvider
+from src.assemblee_contextualization.legacy.reviewer import ContextualReviewer
 from src.assemblee_contextualization.providers import ContextualReviewProvider
-from src.assemblee_contextualization.reviewer import ContextualReviewer
 from tests.assemblee_contextualization.test_context_builder import sample_interventions
 
 

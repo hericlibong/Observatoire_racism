@@ -4,10 +4,9 @@ import json
 import os
 from typing import Any
 
-from .contracts import validate_review_output_v2
-from .env import load_dotenv
-from .mistral_provider import DEFAULT_MISTRAL_MODEL
-from .providers import ContextualReviewProvider
+from ..contracts import validate_review_output_v2
+from ..env import DEFAULT_MISTRAL_MODEL, load_dotenv
+from . import ContextualReviewProvider
 
 
 SYSTEM_PROMPT_V2 = """Tu es un agent de relecture contextuelle locale pour le projet OBSERVATOIRE.

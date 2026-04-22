@@ -9,7 +9,7 @@ from .contracts import ContextualReviewOutputV2
 from .io_v2 import read_outputs_v2
 from .paths import ROOT_DIR, as_int
 from .processing_journal import JOURNAL_PATH, read_processing_journal
-from .run_pilot_v2 import load_interventions_for_source
+from .runners.run_pilot_v2 import load_interventions_for_source
 
 
 DEFAULT_REVIEW_PATH = (

@@ -8,9 +8,9 @@ import json
 import os
 from typing import Any
 
-from .contracts import validate_review_output
-from .env import load_dotenv
-from .providers import ContextualReviewProvider
+from ..contracts import validate_review_output
+from ..env import load_dotenv
+from ..providers import ContextualReviewProvider
 
 
 DEFAULT_MISTRAL_MODEL = "mistral-medium-latest"

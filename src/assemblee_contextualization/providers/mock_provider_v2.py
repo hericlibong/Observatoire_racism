@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from typing import Any
 
-from .contracts import validate_review_output_v2
-from .providers import ContextualReviewProvider
+from ..contracts import validate_review_output_v2
+from . import ContextualReviewProvider
 
 
 class MockContextualReviewProviderV2(ContextualReviewProvider):

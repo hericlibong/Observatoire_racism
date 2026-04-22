@@ -1,7 +1,7 @@
 import json
 import unittest
 
-from src.assemblee_contextualization.mistral_provider_v2 import MistralContextualReviewProviderV2
+from src.assemblee_contextualization.providers.mistral_provider_v2 import MistralContextualReviewProviderV2
 
 
 def payload() -> dict:

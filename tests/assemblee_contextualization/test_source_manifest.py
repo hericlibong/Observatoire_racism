@@ -5,7 +5,7 @@ import zipfile
 from datetime import date
 from pathlib import Path
 
-from src.assemblee_contextualization.source_manifest import (
+from src.assemblee_contextualization.sources.source_manifest import (
     build_source_manifest,
     write_source_manifest,
 )

@@ -3,8 +3,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from src.assemblee_contextualization.mock_provider_v2 import MockContextualReviewProviderV2
-from src.assemblee_contextualization.run_pilot_v2 import (
+from src.assemblee_contextualization.providers.mock_provider_v2 import MockContextualReviewProviderV2
+from src.assemblee_contextualization.runners.run_pilot_v2 import (
     OUTPUT_PATH,
     PILOT_SOURCE_FILE,
     build_provider,

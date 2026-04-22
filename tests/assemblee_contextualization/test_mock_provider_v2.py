@@ -5,7 +5,7 @@ from src.assemblee_contextualization.contracts import (
     SignalCategory,
     validate_review_output_v2,
 )
-from src.assemblee_contextualization.mock_provider_v2 import MockContextualReviewProviderV2
+from src.assemblee_contextualization.providers.mock_provider_v2 import MockContextualReviewProviderV2
 
 
 class MockProviderV2Test(unittest.TestCase):

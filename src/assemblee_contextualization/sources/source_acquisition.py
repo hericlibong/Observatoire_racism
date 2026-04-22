@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Callable
 import xml.etree.ElementTree as ET
 
-from .paths import normalize_syceron_date
+from ..paths import normalize_syceron_date
 
 
 ASSEMBLEE_NS = "http://schemas.assemblee-nationale.fr/referentiel"
