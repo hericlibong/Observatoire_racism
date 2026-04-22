@@ -1968,17 +1968,41 @@ Objectif : rendre les sorties plus exploitables avant l'audit de fond.
 
 Taches :
 
-- simplifier la politique `.gitignore` des heatmaps versionnees ;
-- ameliorer l'acces au contexte complet depuis les vues de detail ;
-- rendre plus lisibles les extraits reperes ;
-- enrichir l'overview avec les informations utiles deja disponibles ;
-- conserver des libelles prudents et non accusatoires.
+- remplacer la politique `.gitignore` nominative actuelle des heatmaps
+  versionnees par une regle stable, par pattern ou par arborescence, afin
+  d'eviter d'ajouter de nouvelles exceptions a chaque seance ;
+- faire evoluer les exports et/ou les vues de detail pour permettre l'acces
+  au passage ou a l'intervention complete lorsque l'extrait seul ne suffit pas
+  a comprendre le classement ;
+- mieux articuler `excerpt`, `evidence_span` et contexte complet pour que le
+  passage repere soit visible et lisible sans ambiguite ;
+- enrichir l'overview inter-seances avec les informations deja disponibles
+  dans les exports ou le parsing, notamment les intitules ou sujets de seance
+  lorsqu'ils sont presents ;
+- conserver dans les vues detaillees et l'overview des libelles prudents et
+  non accusatoires, coherents avec la politique editoriale existante ;
+- limiter ce bloc a une consolidation technique et editoriale des sorties
+  existantes, sans relance Mistral ni changement de prompt, contrat V2,
+  lexique ou taxonomie.
 
 Critere de sortie :
 
-- la croissance des exceptions `.gitignore` est maitrisee ;
-- les cas relus peuvent etre inspectes avec un contexte suffisant ;
+- la politique Git des heatmaps versionnees ne croit plus lineairement avec
+  chaque nouvelle seance ;
+- un cas relu peut etre inspecte depuis l'extrait affiche jusqu'au contexte
+  suffisant, y compris lorsque l'extrait court ne permet pas de comprendre le
+  classement ;
+- l'overview affiche davantage d'informations utiles sans introduire de
+  nouvelle analyse methodologique ;
 - la visualisation ne produit toujours pas de verdict automatique.
+
+Hors perimetre G7 :
+
+- ne pas mener ici l'audit methodologique des cas N199, N201 et N203, reserve
+  au Bloc G8 ;
+- ne pas reviser le prompt, le lexique, la taxonomie ou le contrat V2 dans ce
+  bloc ;
+- ne pas relancer Mistral pour produire de nouvelles sorties.
 
 ### Bloc G8 - Audit methodologique N199 / N201 / N203
 
