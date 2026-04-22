@@ -1,5 +1,9 @@
 from __future__ import annotations
 
+# DEPRECATED — V1, kept for historical reference only.
+# Use mistral_provider_v2.py for all active development.
+# Do not modify or extend this file.
+
 import json
 import os
 from typing import Any

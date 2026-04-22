@@ -1922,20 +1922,45 @@ Resultat de cloture :
 
 ### Bloc G6 - V1 historique
 
+Statut : cloture.
+
 Objectif : rendre explicite le statut historique du code V1 sans rupture
 inutile.
 
 Taches :
 
-- marquer `reviewer.py`, `mock_provider.py`, `mistral_provider.py` et
+- [x] marquer `reviewer.py`, `mock_provider.py`, `mistral_provider.py` et
   `run_pilot.py` comme V1 deprecie conserve pour historique ;
-- documenter que V2 reste le contrat cible ;
-- reporter un deplacement physique en `legacy/` a une decision separee.
+- [x] documenter que V2 reste le contrat cible ;
+- [x] reporter un deplacement physique en `legacy/` a une decision separee.
 
 Critere de sortie :
 
 - le statut V1 est clair pour un agent codeur ;
 - aucun import historique utile n'est casse.
+
+Fichiers touches :
+
+- `src/assemblee_contextualization/reviewer.py` ;
+- `src/assemblee_contextualization/mock_provider.py` ;
+- `src/assemblee_contextualization/mistral_provider.py` ;
+- `src/assemblee_contextualization/run_pilot.py` ;
+- `docs/assemblee_roadmap.md`.
+
+Resultat de cloture :
+
+- commentaire `# DEPRECATED — V1, kept for historical reference only.` ajoute
+  en tete de chaque module V1, avec indication du remplacant V2 ;
+- `Decision` (V1), `reviewer.py`, `mock_provider.py`, `mistral_provider.py`,
+  `run_pilot.py` restent en place pour preserver l'historique ; aucun
+  deplacement physique en `legacy/` dans ce bloc ;
+- `python -m pytest tests/assemblee_contextualization tests/assemblee -v` ->
+  133 passed, 24 subtests passed ;
+- `python -m ruff check src tests` -> All checks passed ;
+- `python -m mypy src tests` -> Success: no issues found in 53 source files ;
+- aucune relance Mistral, aucun changement de prompt, contrat V2, lexique ou
+  taxonomie ;
+- Bloc G7 non lance.
 
 ### Bloc G7 - Visualisation et exploitation technique
 
