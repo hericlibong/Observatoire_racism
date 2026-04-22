@@ -180,6 +180,11 @@ def _heatmap_item(
     if row is None:
         raise ValueError(f"Intervention absente du parsing : {output.candidate_id}")
 
+    full_text_raw = _normalize_whitespace(str(row.get("texte", "")))
+    full_text_display = _public_display_text(full_text_raw)
+    excerpt_display = _public_display_text(_excerpt(full_text_raw))
+    excerpt_is_truncated = excerpt_display.endswith("\u2026")
+
     return {
         "seance_id": str(journal_entry["seance_id"]),
         "source_file": source_file,
@@ -191,7 +196,10 @@ def _heatmap_item(
         "orateur_nom": str(row.get("orateur_nom", "")),
         "point_titre": str(row.get("point_titre", "")),
         "sous_point_titre": str(row.get("sous_point_titre", "")),
-        "excerpt": _public_display_text(_excerpt(str(row.get("texte", "")))),
+        "excerpt": excerpt_display,
+        "excerpt_is_truncated": excerpt_is_truncated,
+        "full_text": full_text_display,
+        "full_text_length": len(full_text_display),
         "evidence_span": _public_display_text(output.evidence_span),
         "scope_level": output.scope_level.value,
         "signal_category": output.signal_category.value,
@@ -217,8 +225,12 @@ def _short_label(source_file: str) -> str:
     return Path(source_file).stem
 
 
+def _normalize_whitespace(text: str) -> str:
+    return re.sub(r"\s+", " ", text).strip()
+
+
 def _excerpt(text: str, max_length: int = 280) -> str:
-    normalized = re.sub(r"\s+", " ", text).strip()
+    normalized = _normalize_whitespace(text)
     if len(normalized) <= max_length:
         return normalized
     return normalized[: max_length - 1].rstrip() + "\u2026"

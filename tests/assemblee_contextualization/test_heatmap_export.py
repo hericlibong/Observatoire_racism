@@ -65,6 +65,9 @@ class HeatmapExportTest(unittest.TestCase):
             "point_titre",
             "sous_point_titre",
             "excerpt",
+            "excerpt_is_truncated",
+            "full_text",
+            "full_text_length",
             "evidence_span",
             "scope_level",
             "signal_category",
@@ -78,6 +81,99 @@ class HeatmapExportTest(unittest.TestCase):
         self.assertEqual(item["ordre"], 7)
         self.assertEqual(item["review_label"], "signal \u00e0 revoir")
         self.assertNotIn("valid\u00e9", item["review_label"])
+
+    def test_full_text_is_exposed_and_masked_for_public_display(self) -> None:
+        long_text = "Ce passage parle d'une faute institutionnelle. " * 20
+        payload = build_heatmap_session_payload(
+            source_file="CRSANR5L17S2026O1N193.xml",
+            journal_entry={
+                "seance_id": "CRSANR5L17S2026O1N193",
+                "source_file": "CRSANR5L17S2026O1N193.xml",
+                "seance_date": "2026-04-07",
+                "seance_date_label": "mardi 07 avril 2026",
+                "processed_at": "2026-04-17T13:50:23+02:00",
+                "provider": "mistral_v2",
+                "model_name": "mistral-medium-latest",
+            },
+            interventions=[
+                {
+                    "intervention_id": "CRSANR5L17S2026O1N193_1",
+                    "seance_id": "CRSANR5L17S2026O1N193",
+                    "ordre": 1,
+                    "orateur_nom": "",
+                    "point_titre": "",
+                    "sous_point_titre": "",
+                    "texte": long_text,
+                }
+            ],
+            outputs=[
+                ContextualReviewOutputV2(
+                    candidate_id="CRSANR5L17S2026O1N193_1",
+                    scope_level=ScopeLevel.HORS_PERIMETRE,
+                    signal_category=SignalCategory.NO_SIGNAL,
+                    is_fallback=False,
+                    needs_human_review=False,
+                    confidence=Confidence.HIGH,
+                    rationale="Aucun ancrage.",
+                    evidence_span="une faute institutionnelle",
+                    limits=["Analyse locale."],
+                    model_provider="mistral_v2",
+                    model_name="mistral-medium-latest",
+                )
+            ],
+        )
+
+        item = payload["items"][0]
+        self.assertIn("full_text", item)
+        self.assertGreater(item["full_text_length"], len(item["excerpt"]))
+        self.assertTrue(item["excerpt_is_truncated"])
+        self.assertNotIn("faute", item["full_text"].lower())
+        self.assertIn("[terme du passage]", item["full_text"])
+        self.assertEqual(item["full_text_length"], len(item["full_text"]))
+
+    def test_short_text_is_not_marked_as_truncated(self) -> None:
+        payload = build_heatmap_session_payload(
+            source_file="CRSANR5L17S2026O1N191.xml",
+            journal_entry={
+                "seance_id": "CRSANR5L17S2026O1N191",
+                "source_file": "CRSANR5L17S2026O1N191.xml",
+                "seance_date": "2026-04-02",
+                "seance_date_label": "jeudi 02 avril 2026",
+                "processed_at": "2026-04-13T20:14:00+02:00",
+                "provider": "mistral_v2",
+                "model_name": "mistral-medium-latest",
+            },
+            interventions=[
+                {
+                    "intervention_id": "CRSANR5L17S2026O1N191_1",
+                    "seance_id": "CRSANR5L17S2026O1N191",
+                    "ordre": 1,
+                    "orateur_nom": "",
+                    "point_titre": "",
+                    "sous_point_titre": "",
+                    "texte": "Intervention courte.",
+                }
+            ],
+            outputs=[
+                ContextualReviewOutputV2(
+                    candidate_id="CRSANR5L17S2026O1N191_1",
+                    scope_level=ScopeLevel.HORS_PERIMETRE,
+                    signal_category=SignalCategory.NO_SIGNAL,
+                    is_fallback=False,
+                    needs_human_review=False,
+                    confidence=Confidence.HIGH,
+                    rationale="",
+                    evidence_span="Intervention courte.",
+                    limits=[],
+                    model_provider="mistral_v2",
+                    model_name="mistral-medium-latest",
+                )
+            ],
+        )
+
+        item = payload["items"][0]
+        self.assertFalse(item["excerpt_is_truncated"])
+        self.assertEqual(item["excerpt"], item["full_text"])
 
     def test_masks_verdict_terms_in_public_display_snippets(self) -> None:
         payload = build_heatmap_session_payload(
