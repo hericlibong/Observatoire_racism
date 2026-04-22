@@ -4,16 +4,15 @@ import argparse
 import json
 from pathlib import Path
 from typing import Any
-import xml.etree.ElementTree as ET
 
 from .context_builder import load_interventions_csv
 from .io_v2 import summarize_outputs_v2, write_comparison_summary, write_outputs_v2
 from .mistral_provider_v2 import MistralContextualReviewProviderV2
 from .mock_provider_v2 import MockContextualReviewProviderV2
-from .paths import ROOT_DIR, SOURCE_DIR, display_path, session_slug
+from .paths import ROOT_DIR, display_path, session_slug
 from .providers import ContextualReviewProvider
 from .review_engine import DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES, review_candidates_v2
-from src.build_assemblee_pilot import NS, child_text, iter_paragraphs
+from .xml_parser import parse_source_file
 
 
 OUTPUT_PATH = ROOT_DIR / "data/interim/assemblee/contextual_reviews_pilot_v2.jsonl"
@@ -24,20 +23,7 @@ def load_interventions_for_source(source_file: str, input_path: Path | None = No
     if input_path is not None:
         return load_interventions_csv(input_path)
 
-    source_path = _source_path(source_file)
-    root = ET.parse(source_path).getroot()
-    compte_rendu_uid = child_text(root, "uid")
-    if not compte_rendu_uid:
-        raise ValueError(f"UID introuvable dans {source_path}")
-
-    contenu = root.find("a:contenu", NS)
-    if contenu is None:
-        raise ValueError(f"Element contenu introuvable dans {source_path}")
-
-    rows = list(iter_paragraphs(contenu, compte_rendu_uid, "", ""))
-    for row in rows:
-        row.seance_id = compte_rendu_uid
-    rows.sort(key=lambda row: (row.ordre, row.intervention_id))
+    rows = parse_source_file(source_file)
     return [
         {
             "intervention_id": row.intervention_id,
@@ -113,13 +99,6 @@ def main() -> None:
     print("Apercu :")
     for output in outputs[:3]:
         print(json.dumps(output.to_dict(), ensure_ascii=False))
-
-
-def _source_path(source_file: str) -> Path:
-    path = Path(source_file)
-    if path.exists():
-        return path
-    return SOURCE_DIR / source_file
 
 
 if __name__ == "__main__":
