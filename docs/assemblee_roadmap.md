@@ -1964,24 +1964,26 @@ Resultat de cloture :
 
 ### Bloc G7 - Visualisation et exploitation technique
 
+Statut : cloture.
+
 Objectif : rendre les sorties plus exploitables avant l'audit de fond.
 
 Taches :
 
-- remplacer la politique `.gitignore` nominative actuelle des heatmaps
+- [x] remplacer la politique `.gitignore` nominative actuelle des heatmaps
   versionnees par une regle stable, par pattern ou par arborescence, afin
   d'eviter d'ajouter de nouvelles exceptions a chaque seance ;
-- faire evoluer les exports et/ou les vues de detail pour permettre l'acces
-  au passage ou a l'intervention complete lorsque l'extrait seul ne suffit pas
-  a comprendre le classement ;
-- mieux articuler `excerpt`, `evidence_span` et contexte complet pour que le
-  passage repere soit visible et lisible sans ambiguite ;
-- enrichir l'overview inter-seances avec les informations deja disponibles
-  dans les exports ou le parsing, notamment les intitules ou sujets de seance
-  lorsqu'ils sont presents ;
-- conserver dans les vues detaillees et l'overview des libelles prudents et
-  non accusatoires, coherents avec la politique editoriale existante ;
-- limiter ce bloc a une consolidation technique et editoriale des sorties
+- [x] faire evoluer les exports et/ou les vues de detail pour permettre
+  l'acces au passage ou a l'intervention complete lorsque l'extrait seul
+  ne suffit pas a comprendre le classement ;
+- [x] mieux articuler `excerpt`, `evidence_span` et contexte complet pour
+  que le passage repere soit visible et lisible sans ambiguite ;
+- [x] enrichir l'overview inter-seances avec les informations deja
+  disponibles dans les exports ou le parsing, notamment les intitules ou
+  sujets de seance lorsqu'ils sont presents ;
+- [x] conserver dans les vues detaillees et l'overview des libelles prudents
+  et non accusatoires, coherents avec la politique editoriale existante ;
+- [x] limiter ce bloc a une consolidation technique et editoriale des sorties
   existantes, sans relance Mistral ni changement de prompt, contrat V2,
   lexique ou taxonomie.
 
@@ -2003,6 +2005,35 @@ Hors perimetre G7 :
 - ne pas reviser le prompt, le lexique, la taxonomie ou le contrat V2 dans ce
   bloc ;
 - ne pas relancer Mistral pour produire de nouvelles sorties.
+
+Fichiers touches :
+
+- `.gitignore` ;
+- `src/assemblee_contextualization/heatmap_export.py` ;
+- `tests/assemblee_contextualization/test_heatmap_export.py` ;
+- `docs/assemblee_roadmap.md`.
+
+Resultat de cloture :
+
+- la liste nominative `!data/exports/d3/assemblee_session_heatmap_nXXX.*`
+  du `.gitignore` est remplacee par un pattern stable
+  `!data/exports/d3/assemblee_session_heatmap_n*.{html,json}` ; les seances
+  a venir sont versionnees sans edition manuelle de `.gitignore` ;
+- chaque item de heatmap expose desormais `full_text`, `full_text_length`
+  et `excerpt_is_truncated`, en plus de `excerpt` et `evidence_span` ; la
+  meme politique de masquage editorial (`PUBLIC_DISPLAY_REPLACEMENTS`)
+  s'applique a l'extrait court et au texte complet ;
+- le payload de session et chaque entree d'overview portent une liste
+  `topics` derivee des `point_titre` distincts issus du parsing, afin
+  d'afficher les sujets de seance sans introduire d'analyse nouvelle ;
+- les libelles prudents (`review_label`, `labels` de l'overview,
+  `EDITORIAL_POLICY`) restent inchanges ;
+- `python -m pytest tests/ -q` -> 137 passed, 24 subtests passed ;
+- `python -m ruff check src tests` -> All checks passed ;
+- `python -m mypy src tests` -> Success: no issues found in 53 source files ;
+- aucune relance Mistral, aucun changement de prompt, contrat V2, lexique
+  ou taxonomie ;
+- Bloc G8 non lance.
 
 ### Bloc G8 - Audit methodologique N199 / N201 / N203
 
