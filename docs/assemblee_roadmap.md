@@ -2054,6 +2054,47 @@ Critere de sortie :
 - aucune modification de taxonomie ou de contrat n'est faite sans decision
   explicite dans la roadmap.
 
+### Bloc G9 - Reorganisation du package assemblee_contextualization
+
+Statut : Fait.
+
+Objectif : simplifier la structure du package sans casser le workflow,
+en suivant l'audit `docs/audit_package_assemblee_contextualization.md`.
+
+Travaux realises :
+
+- [x] resoudre le couplage V1 -> V2 en deplacant
+  `DEFAULT_MISTRAL_MODEL` dans `env.py`, de sorte que
+  `mistral_provider_v2.py` n'importe plus rien depuis le module V1 ;
+- [x] P1 - regrouper les modules V1 historiques dans
+  `src/assemblee_contextualization/legacy/` (`reviewer.py`,
+  `mistral_provider.py`, `mock_provider.py`, `run_pilot.py`) ;
+- [x] P2 - regrouper l'acquisition et l'analyse XML dans
+  `src/assemblee_contextualization/sources/` (`source_acquisition.py`,
+  `source_inventory.py`, `source_manifest.py`, `xml_parser.py`) ;
+- [x] P3 - regrouper les runners CLI V2 dans
+  `src/assemblee_contextualization/runners/` (`run_pilot_v2.py`,
+  `run_phase_c_lot_v2.py`, `run_incremental_session_v2.py`) ;
+- [x] P4 - promouvoir `providers.py` en package
+  `src/assemblee_contextualization/providers/` et y deplacer
+  `mistral_provider_v2.py` et `mock_provider_v2.py` tout en preservant
+  le chemin d'import public
+  `assemblee_contextualization.providers.ContextualReviewProvider` ;
+- [x] mettre a jour tous les importeurs internes et externes, ainsi
+  que les tests, pour refleter les nouveaux chemins ;
+- [x] mettre a jour `CLAUDE.md` pour pointer vers les nouveaux dossiers.
+
+Critere de sortie atteint :
+
+- `python -m pytest tests/ -q` -> 137 passed ;
+- `python -m ruff check src tests` -> All checks passed ;
+- `python -m mypy src tests` -> Success: no issues found in 56 source
+  files ;
+- aucune modification du contrat V2, des enums ou de la logique metier ;
+- le workflow de production (acquisition -> parsing -> review -> export)
+  continue de fonctionner via les memes points d'entree CLI, seuls
+  les chemins d'import changent.
+
 ## Phase ulterieure - Application
 
 Statut : remis a plus tard.

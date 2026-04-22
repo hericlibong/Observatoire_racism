@@ -49,7 +49,7 @@ ZIP archive → source_acquisition → XML files (data/raw/)
 
 **Main layers:**
 
-1. **Acquisition & Parsing** — `src/build_assemblee_pilot.py`, `src/source_acquisition.py`, `src/source_inventory.py`
+1. **Acquisition & Parsing** — `src/build_assemblee_pilot.py`, `src/assemblee_contextualization/sources/` (`source_acquisition.py`, `source_inventory.py`, `source_manifest.py`, `xml_parser.py`)
    - Downloads/imports ZIP archives, extracts and validates Syceron XML
    - Parses interventions, applies rule-based lexical signal detection
 
@@ -61,10 +61,14 @@ ZIP archive → source_acquisition → XML files (data/raw/)
    - `review_candidates_v2()`: selects candidates, builds context, calls provider, validates output
    - Anti-duplicate tracking via `processing_journal.py`
 
-4. **Providers** — `src/assemblee_contextualization/`
-   - `mistral_provider_v2.py`: real Mistral API (reads `MISTRAL_API_KEY` from `.env`)
-   - `mock_provider_v2.py`: offline deterministic mock for tests
-   - V1 files (`reviewer.py`, `mock_provider.py`, `mistral_provider.py`) are preserved for history — do not modify
+4. **Providers** — `src/assemblee_contextualization/providers/`
+   - `providers/__init__.py`: exposes the `ContextualReviewProvider` ABC
+   - `providers/mistral_provider_v2.py`: real Mistral API (reads `MISTRAL_API_KEY` from `.env`)
+   - `providers/mock_provider_v2.py`: offline deterministic mock for tests
+   - V1 files live in `src/assemblee_contextualization/legacy/` (`reviewer.py`, `mock_provider.py`, `mistral_provider.py`, `run_pilot.py`) — preserved for history, do not modify
+
+4b. **Runners** — `src/assemblee_contextualization/runners/`
+   - `run_pilot_v2.py`, `run_phase_c_lot_v2.py`, `run_incremental_session_v2.py`: CLI entry points orchestrating the V2 pipeline
 
 5. **I/O & Export** — `src/assemblee_contextualization/io_v2.py`, `heatmap_export.py`
    - JSONL read/write, result summaries, D3 heatmap generation
