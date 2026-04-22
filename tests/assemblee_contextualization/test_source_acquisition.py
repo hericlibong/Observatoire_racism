@@ -3,7 +3,7 @@ import unittest
 import zipfile
 from pathlib import Path
 
-from src.assemblee_contextualization.source_acquisition import (
+from src.assemblee_contextualization.sources.source_acquisition import (
     download_zip_archive,
     extract_session_xml_from_zip,
     file_sha256,
@@ -11,7 +11,7 @@ from src.assemblee_contextualization.source_acquisition import (
     list_session_xmls_in_zip,
     read_session_xml_metadata,
 )
-from src.assemblee_contextualization.source_inventory import parse_local_session_xml
+from src.assemblee_contextualization.sources.source_inventory import parse_local_session_xml
 
 
 XML_TEMPLATE = """<?xml version="1.0" encoding="UTF-8"?>

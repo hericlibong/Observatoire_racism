@@ -5,7 +5,7 @@ import unittest
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-from src.assemblee_contextualization.xml_parser import (
+from src.assemblee_contextualization.sources.xml_parser import (
     CSV_FIELDS,
     InterventionRow,
     child_text,

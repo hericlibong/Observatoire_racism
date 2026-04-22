@@ -5,7 +5,7 @@ import json
 from datetime import datetime
 
 from assemblee_contextualization.paths import EXPORTS_D3_DIR, INTERIM_DIR, ROOT_DIR, SOURCE_DIR
-from assemblee_contextualization.xml_parser import (
+from assemblee_contextualization.sources.xml_parser import (
     InterventionRow,
     parse_source_file,
     write_csv,

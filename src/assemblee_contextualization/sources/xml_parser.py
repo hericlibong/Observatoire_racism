@@ -7,8 +7,8 @@ from pathlib import Path
 from typing import Iterator
 import xml.etree.ElementTree as ET
 
-from .paths import SOURCE_DIR
-from .signal_rules import signal_hit_from_text
+from ..paths import SOURCE_DIR
+from ..signal_rules import signal_hit_from_text
 
 
 NS = {"a": "http://schemas.assemblee-nationale.fr/referentiel"}

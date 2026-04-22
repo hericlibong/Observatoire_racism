@@ -8,22 +8,22 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
-from src.assemblee_contextualization.paths import (
+from ..paths import (
     INTERIM_DIR,
     ROOT_DIR,
     SOURCE_DIR,
     display_path,
 )
-from src.assemblee_contextualization.processing_journal import (
+from ..processing_journal import (
     JOURNAL_PATH,
     read_processing_journal,
 )
-from src.assemblee_contextualization.source_acquisition import (
+from .source_acquisition import (
     extract_session_xml_from_zip,
     file_sha256,
     read_session_xml_metadata,
 )
-from src.assemblee_contextualization.source_inventory import DEFAULT_START_DATE
+from .source_inventory import DEFAULT_START_DATE
 
 
 SOURCE_URL = (

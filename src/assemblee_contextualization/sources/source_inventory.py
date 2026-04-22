@@ -6,8 +6,8 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
-from src.assemblee_contextualization.paths import ROOT_DIR, SOURCE_DIR
-from src.assemblee_contextualization.source_acquisition import (
+from ..paths import ROOT_DIR, SOURCE_DIR
+from .source_acquisition import (
     SessionXmlMetadata,
     read_session_xml_metadata,
 )

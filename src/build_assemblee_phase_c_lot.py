@@ -5,7 +5,7 @@ from collections import Counter
 from pathlib import Path
 
 from assemblee_contextualization.paths import INTERIM_DIR, ROOT_DIR, display_path
-from assemblee_contextualization.xml_parser import (
+from assemblee_contextualization.sources.xml_parser import (
     InterventionRow,
     parse_source_file,
     write_csv,

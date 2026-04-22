@@ -12,7 +12,7 @@ from .mock_provider_v2 import MockContextualReviewProviderV2
 from .paths import ROOT_DIR, display_path, session_slug
 from .providers import ContextualReviewProvider
 from .review_engine import DEFAULT_SAMPLE_SIZE_WHEN_NO_CANDIDATES, review_candidates_v2
-from .xml_parser import parse_source_file
+from .sources.xml_parser import parse_source_file
 
 
 OUTPUT_PATH = ROOT_DIR / "data/interim/assemblee/contextual_reviews_pilot_v2.jsonl"

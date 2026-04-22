@@ -5,8 +5,8 @@ from pathlib import Path
 
 import pytest
 
-from src.assemblee_contextualization.source_acquisition import SessionXmlMetadata
-from src.assemblee_contextualization.source_inventory import (
+from src.assemblee_contextualization.sources.source_acquisition import SessionXmlMetadata
+from src.assemblee_contextualization.sources.source_inventory import (
     build_local_inventory_status,
     list_local_session_xmls,
     local_inventory_status_as_dict,
