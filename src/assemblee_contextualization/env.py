@@ -6,6 +6,9 @@ from pathlib import Path
 from .paths import ROOT_DIR
 
 
+DEFAULT_MISTRAL_MODEL = "mistral-medium-latest"
+
+
 def load_dotenv(path: Path | None = None) -> None:
     env_path = path or ROOT_DIR / ".env"
     if not env_path.exists():
