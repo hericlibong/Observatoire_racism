@@ -13,7 +13,7 @@ from src.build_assemblee_phase_c_lot import (
     seance_counts,
     write_phase_c_lot_csv,
 )
-from src.build_assemblee_pilot import CSV_FIELDS
+from src.assemblee_contextualization.xml_parser import CSV_FIELDS
 
 
 class BuildAssembleePhaseCLotTest(unittest.TestCase):

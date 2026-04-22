@@ -1863,21 +1863,62 @@ Resultat de cloture :
 
 ### Bloc G5 - Extraction XML parser et regles lexicales
 
+Statut : cloture.
+
 Objectif : inverser le couplage entre le package et `build_assemblee_pilot.py`.
 
 Taches :
 
-- extraire le parsing XML pur dans `xml_parser.py` ;
-- extraire les regles lexicales dans `signal_rules.py` ;
-- faire importer `build_assemblee_pilot.py` depuis le package au lieu de
+- [x] extraire le parsing XML pur dans `xml_parser.py` ;
+- [x] extraire les regles lexicales dans `signal_rules.py` ;
+- [x] faire importer `build_assemblee_pilot.py` depuis le package au lieu de
   servir de source commune ;
-- garder le script pilote historique comme point d'entree d'orchestration.
+- [x] garder le script pilote historique comme point d'entree d'orchestration.
 
 Critere de sortie :
 
 - `assemblee_contextualization` ne depend plus du script parent pour parser les
   XML ou lire les chemins ;
 - les tests Assemblee et contextualisation passent.
+
+Fichiers touches :
+
+- `src/assemblee_contextualization/signal_rules.py` (cree) ;
+- `src/assemblee_contextualization/xml_parser.py` (cree) ;
+- `tests/assemblee_contextualization/test_signal_rules.py` (cree) ;
+- `tests/assemblee_contextualization/test_xml_parser.py` (cree) ;
+- `src/build_assemblee_pilot.py` ;
+- `src/assemblee_contextualization/run_pilot_v2.py` ;
+- `src/build_assemblee_phase_c_lot.py` ;
+- `tests/assemblee/test_build_assemblee_phase_c_lot.py` ;
+- `tests/assemblee_contextualization/test_run_phase_c_lot_v2.py` ;
+- `docs/assemblee_roadmap.md`.
+
+Resultat de cloture :
+
+- `src/assemblee_contextualization/xml_parser.py` porte `NS`, `InterventionRow`,
+  `CSV_FIELDS`, tout le parsing XML, `parse_source_file` et `write_csv` ;
+- `src/assemblee_contextualization/signal_rules.py` porte `SignalRule`,
+  `SignalHit`, `SIGNAL_RULES`, `normalize_for_signal` et `signal_hit_from_text` ;
+- `src/build_assemblee_pilot.py` est reduit a l'orchestration CLI : imports
+  depuis le package, `build_manifest`, `parse_pilot`, `build_d3_json_from_csv`,
+  `write_d3_json`, `main` ;
+- `run_pilot_v2.py` importe `parse_source_file` depuis `xml_parser` et n'a
+  plus besoin de `NS`, `child_text`, `iter_paragraphs` ni de `_source_path` ;
+- `build_assemblee_phase_c_lot.py` importe `InterventionRow`, `parse_source_file`,
+  `write_csv` depuis `xml_parser` ;
+- `rg "from src.build_assemblee_pilot" src tests` ne retourne plus d'imports
+  des primitives XML ou des regles lexicales ; `CSV_FIELDS` est importe depuis
+  `xml_parser` dans les tests qui en ont besoin ;
+- `python -m pytest tests/assemblee_contextualization/test_signal_rules.py
+  tests/assemblee_contextualization/test_xml_parser.py -v` -> 27 passed ;
+- `python -m pytest tests/assemblee_contextualization tests/assemblee -v` ->
+  133 passed, 24 subtests passed ;
+- `python -m ruff check src tests` -> All checks passed ;
+- `python -m mypy src tests` -> Success: no issues found in 53 source files ;
+- aucune relance Mistral, aucun changement de prompt, contrat V2, lexique ou
+  taxonomie ;
+- Bloc G6 non lance.
 
 ### Bloc G6 - V1 historique
 
