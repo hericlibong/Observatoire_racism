@@ -41,6 +41,7 @@ def build_heatmap_session_payload(
     fallback_count = sum(item["is_fallback"] for item in items)
     non_fallback_items = [item for item in items if not item["is_fallback"]]
     orders = [item["ordre"] for item in items]
+    topics = _session_topics(interventions)
     return {
         "export_type": "assemblee_heatmap_session_v2",
         "editorial_policy": EDITORIAL_POLICY,
@@ -53,6 +54,7 @@ def build_heatmap_session_payload(
             "processed_at": str(journal_entry["processed_at"]),
             "provider": str(journal_entry["provider"]),
             "model_name": str(journal_entry["model_name"]),
+            "topics": topics,
         },
         "axis": {
             "field": "ordre",
@@ -145,6 +147,7 @@ def _overview_session_from_heatmap(payload: Mapping[str, Any], href: str) -> dic
     items = list(payload["items"])
     non_fallback_items = list(payload.get("non_fallback_items") or [item for item in items if not item["is_fallback"]])
     source_file = str(session["source_file"])
+    topics = list(session.get("topics") or _topics_from_items(items))
     return {
         "seance_id": str(session["seance_id"]),
         "short_label": _short_label(source_file),
@@ -162,6 +165,7 @@ def _overview_session_from_heatmap(payload: Mapping[str, Any], href: str) -> dic
         "read_with_caution": sum(item["scope_level"] == "adjacent" for item in non_fallback_items),
         "important_for_observatoire": sum(item["scope_level"] == "core" for item in non_fallback_items),
         "fallback_count": int(metrics["fallback_count"]),
+        "topics": topics,
         "detail_view": {
             "exists": True,
             "href": href,
@@ -216,6 +220,24 @@ def _review_label(output: ContextualReviewOutputV2) -> str:
     if output.needs_human_review:
         return "signal \u00e0 revoir"
     return "aucun signal \u00e0 revoir"
+
+
+def _session_topics(interventions: list[Mapping[str, Any]]) -> list[str]:
+    seen: dict[str, None] = {}
+    for row in interventions:
+        title = _normalize_whitespace(str(row.get("point_titre", "")))
+        if title and title not in seen:
+            seen[title] = None
+    return list(seen.keys())
+
+
+def _topics_from_items(items: list[Mapping[str, Any]]) -> list[str]:
+    seen: dict[str, None] = {}
+    for item in items:
+        title = _normalize_whitespace(str(item.get("point_titre", "")))
+        if title and title not in seen:
+            seen[title] = None
+    return list(seen.keys())
 
 
 def _short_label(source_file: str) -> str:

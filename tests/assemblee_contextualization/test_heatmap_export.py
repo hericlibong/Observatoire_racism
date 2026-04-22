@@ -535,6 +535,102 @@ class HeatmapExportTest(unittest.TestCase):
             },
         )
 
+    def test_heatmap_session_exposes_unique_topics_from_interventions(self) -> None:
+        payload = build_heatmap_session_payload(
+            source_file="CRSANR5L17S2026O1N191.xml",
+            journal_entry={
+                "seance_id": "CRSANR5L17S2026O1N191",
+                "source_file": "CRSANR5L17S2026O1N191.xml",
+                "seance_date": "2026-04-02",
+                "seance_date_label": "jeudi 02 avril 2026",
+                "processed_at": "2026-04-13T20:14:00+02:00",
+                "provider": "mistral_v2",
+                "model_name": "mistral-medium-latest",
+            },
+            interventions=[
+                {
+                    "intervention_id": "CRSANR5L17S2026O1N191_1",
+                    "seance_id": "CRSANR5L17S2026O1N191",
+                    "ordre": 1,
+                    "orateur_nom": "",
+                    "point_titre": "Explications de vote",
+                    "sous_point_titre": "",
+                    "texte": "Premier propos.",
+                },
+                {
+                    "intervention_id": "CRSANR5L17S2026O1N191_2",
+                    "seance_id": "CRSANR5L17S2026O1N191",
+                    "ordre": 2,
+                    "orateur_nom": "",
+                    "point_titre": "Explications de vote",
+                    "sous_point_titre": "",
+                    "texte": "Deuxieme propos.",
+                },
+                {
+                    "intervention_id": "CRSANR5L17S2026O1N191_3",
+                    "seance_id": "CRSANR5L17S2026O1N191",
+                    "ordre": 3,
+                    "orateur_nom": "",
+                    "point_titre": "Discussion generale",
+                    "sous_point_titre": "",
+                    "texte": "Troisieme propos.",
+                },
+                {
+                    "intervention_id": "CRSANR5L17S2026O1N191_4",
+                    "seance_id": "CRSANR5L17S2026O1N191",
+                    "ordre": 4,
+                    "orateur_nom": "",
+                    "point_titre": "",
+                    "sous_point_titre": "",
+                    "texte": "Sans titre de point.",
+                },
+            ],
+            outputs=[
+                ContextualReviewOutputV2(
+                    candidate_id="CRSANR5L17S2026O1N191_1",
+                    scope_level=ScopeLevel.HORS_PERIMETRE,
+                    signal_category=SignalCategory.NO_SIGNAL,
+                    is_fallback=False,
+                    needs_human_review=False,
+                    confidence=Confidence.HIGH,
+                    rationale="",
+                    evidence_span="Premier propos.",
+                    limits=[],
+                    model_provider="mistral_v2",
+                    model_name="mistral-medium-latest",
+                )
+            ],
+        )
+
+        self.assertEqual(
+            payload["session"]["topics"],
+            ["Explications de vote", "Discussion generale"],
+        )
+
+    def test_overview_session_carries_topics(self) -> None:
+        heatmap_payload = self._minimal_heatmap_payload(
+            "CRSANR5L17S2026O1N191.xml",
+            "CRSANR5L17S2026O1N191",
+            "2026-04-02",
+            "jeudi 02 avril 2026",
+            "hors_perimetre",
+            "no_signal",
+        )
+        heatmap_payload["session"]["topics"] = ["Explications de vote", "Discussion generale"]
+
+        overview = build_sessions_overview_payload(
+            [heatmap_payload],
+            detail_hrefs={
+                "CRSANR5L17S2026O1N191.xml": "./assemblee_session_heatmap_n191.html",
+            },
+            generated_from=["test"],
+        )
+
+        self.assertEqual(
+            overview["sessions"][0]["topics"],
+            ["Explications de vote", "Discussion generale"],
+        )
+
     def test_overview_html_uses_sequential_heatmap_cells(self) -> None:
         html = Path("data/exports/d3/assemblee_sessions_overview.html").read_text(
             encoding="utf-8"
